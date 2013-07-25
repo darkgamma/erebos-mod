@@ -1,0 +1,279 @@
+######################################
+##									##
+##		Written by Darkgamma		##
+##	   ASCII Art by Darkgamma		##
+##									##
+######################################
+
+######################################
+##									##
+## Version: 0.1b (Potentials Added) ##
+##									##
+######################################
+
+## Note: Blood colour is inherited with birth events, inheritance isn't defined here
+## Blood traits should be automatically assigned to every character by on_action events.
+## Warning: I suggest that you don't remove any of the blood traits as they're vital to the mod and might cause crashes or severely reduced playability.
+## I sincerely hope you don't tamper with the potential tags as that might cause random magic and evil beings popping up where they don't belong at all.
+
+##########################
+####					##
+###		Human Blood	   ###
+##					  ####
+##########################
+
+#Normal Human Blood
+hsb_red = {
+
+	potential = {
+		always = no
+	}
+	
+	opposite_opinion = -20
+	opposites = {
+		hsb_bronze
+		hsb_yellow
+		hsb_lime
+		hsb_jade 
+		hsb_teal
+		hsb_blue
+		hsb_indigo
+		hsb_violet
+	}
+}
+
+#Bronze Blood - Almost Fully Diluted (+1)
+hsb_bronze = {
+
+	potential = {
+		always = no
+	}
+	
+	same_opinion = 10
+	opposite_opinion = -20
+	opposites = {
+		hsb_red
+		hsb_yellow
+		hsb_lime
+		hsb_jade 
+		hsb_teal
+		hsb_blue
+		hsb_indigo
+		hsb_violet
+	}
+}
+
+#Yellow Blood - Majorly Diluted (+2)
+hsb_yellow = {
+
+	potential = {
+		always = no
+	}
+	
+	same_opinion = 10
+	opposite_opinion = -20
+	opposites = {
+		hsb_red
+		hsb_bronze
+		hsb_lime
+		hsb_jade 
+		hsb_teal
+		hsb_blue
+		hsb_indigo
+		hsb_violet
+	}
+}
+
+#Lime/Olive Blood - Very Diluted (+3)
+hsb_lime = {
+
+	potential = {
+		always = no
+	}
+	
+	same_opinion = 10
+	opposite_opinion = -20
+	opposites = {
+		hsb_red
+		hsb_bronze
+		hsb_yellow
+		hsb_jade 
+		hsb_teal
+		hsb_blue
+		hsb_indigo
+		hsb_violet
+	}
+}
+
+#Jade Blood - In The Middle (+4)
+hsb_jade = {
+
+	potential = {
+		always = no
+	}
+	
+	same_opinion = 15
+	opposite_opinion = -20
+	opposites = {
+		hsb_red
+		hsb_bronze
+		hsb_yellow
+		hsb_lime
+		hsb_teal
+		hsb_blue
+		hsb_indigo
+		hsb_violet
+	}
+}
+
+#Teal Blood - Somewhat Diluted (+5)
+hsb_teal = {
+
+	potential = {
+		always = no
+	}
+	
+	same_opinion = 15
+	opposite_opinion = -20
+	opposites = {
+		hsb_red
+		hsb_bronze
+		hsb_yellow
+		hsb_lime
+		hsb_jade
+		hsb_blue
+		hsb_indigo
+		hsb_violet
+	}
+}
+
+#Blue Blood - Concentrated (+6)
+hsb_blue = {
+
+	potential = {
+		always = no
+	}
+	
+	same_opinion = 20
+	opposite_opinion = -20
+	opposites = {
+		hsb_red
+		hsb_bronze
+		hsb_yellow
+		hsb_lime
+		hsb_jade
+		hsb_teal
+		hsb_indigo
+		hsb_violet
+	}
+}
+
+#Indigo Blood - Very Concentrated (+7)
+hsb_indigo = {
+
+	potential = {
+		always = no
+	}
+	
+	same_opinion = 25
+	opposite_opinion = -20
+	opposites = {
+		hsb_red
+		hsb_bronze
+		hsb_yellow
+		hsb_lime
+		hsb_jade
+		hsb_teal
+		hsb_blue
+		hsb_violet
+	}
+}
+
+#Violet Blood - Raw (+8)
+hsb_violet = {
+
+	potential = {
+		always = no
+	}
+	
+	same_opinion = 25
+	opposite_opinion = -20
+	opposites = {
+		hsb_red
+		hsb_bronze
+		hsb_yellow
+		hsb_lime
+		hsb_jade
+		hsb_teal
+		hsb_blue
+		hsb_indigo
+	}
+}
+
+#####################################
+####							 ####
+###    DARKNESS-RELATED TRAITS    ###
+####							 ####
+#####################################
+
+#Halfling Trait
+hs_halfling = {
+
+	potential = {
+		always = no
+	}
+	
+	same_opinion = 30
+	opposite_opinion = 15
+	infidel_opinion = -25
+	muslim_opinion = -50
+	christian_church_opinion = -75
+	zoroastrian_opinion = -100
+	
+	opposites = {
+		hs_nspawn
+		hs_primod
+	}
+}
+
+#Nightspawn Trait
+hs_nspawn = {
+
+	potential = {
+		always = no
+	}
+	
+	same_opinion = 30
+	opposite_opinion = 15
+	infidel_opinion = -30
+	muslim_opinion = -70
+	christian_church_opinion = -100
+	zoroastrian_opinion = -100
+	opposites = {
+		hs_halfling
+		hs_primod
+	}
+}
+
+#Primodial Trait - Primodials are a small set of non-humans that came to spread the word
+hs_primod = {
+
+	potential = {
+		always = no
+	}
+	
+	same_opinion = 50
+	opposite_opinion = 30
+	infidel_opinion = -50
+	muslim_opinion = -50
+	christian_church_opinion = -50
+	zoroastrian_opinion = -100
+	
+	immortal = yes
+	cannot_marry = yes
+	
+	opposites = {
+		hs_halfling
+		hs_nspawn
+	}
+}
