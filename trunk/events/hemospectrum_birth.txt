@@ -2306,3 +2306,24 @@ character_event = {
 		}
 	}
 }
+
+character_event = {
+	id = HEMO.2
+	picture = GFX_evt_virgo
+	border = GFX_event_normal_frame_economy
+
+	is_triggered_only = yes
+	desc = AI_ONLY
+	
+	trigger = {
+		NOT = { age = 1 }
+		OR = {
+			trait = ib_hlhu_mut
+			trait = ib_nshu_mut
+		}
+	}	
+	option = {
+		remove_trait = ib_hlhu_mut
+		remove_trait = ib_nshu_mut
+	}
+}
