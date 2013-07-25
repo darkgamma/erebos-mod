@@ -888,6 +888,7 @@ on_death = {
 		24500
 		24502
 		70041
+		HEMO.100
 	}
 	random_events = {
 		10 = 24505
