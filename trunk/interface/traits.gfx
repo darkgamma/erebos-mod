@@ -1146,6 +1146,13 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	spriteType = {
+		name = "GFX_trait_hs_primod"
+		texturefile = "gfx\hemospectrum\hs_primod.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 	sprite_type = {
 		name = "GFX_trait_ib_hlhu_mut"
 		texturefile = "gfx\mutants\ib_hlhu_mut.dds"

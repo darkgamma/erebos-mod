@@ -2744,6 +2744,354 @@ e_germania = {
 	
 	capital = 261 # Hamburg
 	
+	k_saxony = {
+		color = { 195 195 195 }
+		color2 = { 220 220 220 }
+		
+		capital = 261 # Hamburg
+		
+		d_weimar = {
+			color = { 125 125 125 }
+			color2 = { 200 200 200 }
+			
+			capital = 256 # Weimar
+			
+			c_altmark = {
+				color={ 189 189 189 }
+				color2={ 255 255 255 }
+
+				pommeranian = Laczyn
+				
+				b_werben = {
+				}
+				b_halberstedt = {
+				}
+				b_walbeck = {
+				}
+				b_luchow = {
+				}
+				b_salzwedel = {
+				}
+				b_stendal = {
+				}
+				b_osterburg = {
+				}
+				b_tangermunde = {
+				}
+			}
+			
+			c_anhalt = {
+				color={ 184 184 184 }
+				color2={ 255 255 255 }
+
+				pommeranian = Dolomici
+				
+				b_zerbst = {	
+					pommeranian = Zirwisti
+				}
+				b_magdeburg = {	
+
+					pommeranian = Magadoburg			
+				}
+				b_haldensleben = {
+					pommeranian = Hahaldeslevo
+				}
+				b_mansfeld = {
+				}
+				b_dessau = {
+				}
+				b_arnstein = {
+				}
+				b_querfurt = {
+					pommeranian = Curnfurt
+				}
+				b_bernburg = {
+				}
+			}
+			
+			c_weimar = {
+				color={ 183 183 183 }
+				color2={ 255 255 255 }
+				
+				b_weimar = {
+				}
+				b_jena = {
+				}
+				b_walkenried = {
+				}
+				b_nordhausen = {
+				}
+				b_memelsen = {
+				}
+				b_gotha = {
+				}
+				b_apoldoa = {
+				}
+				b_gera = {
+				}
+			}
+		}
+		
+		d_thuringia = {
+			color={ 207 206 226 }
+			color2={ 255 255 255 }
+		
+			capital = 255 #Thuringen
+			
+			c_thuringen = {
+				color={ 42 42 42 }
+				color2={ 255 255 255 }
+			
+				b_erfurt = {
+				}
+				b_muhlhausen = {
+				}
+				b_arnstadt = {
+				}
+				b_eichsfeld = {
+				}
+				b_reuss = {
+				}
+				b_salzungen = {
+				}
+				b_schmalkalden = {
+				}
+				b_henneberg = {
+				}
+			}
+			c_nassau = {
+				color={ 171 171 171 }
+				color2={ 255 255 255 }
+			
+				b_nassau = {
+				}
+				b_fulda = {
+				}
+				b_wetzlar = {
+				}
+				b_marburg = {
+				}
+				b_katzenelnbogen = {
+				}
+				b_hersfeld = {
+				}
+				b_falkenstein = {
+				}
+				b_isenburg = {
+				}
+			}
+			c_wurzburg = {
+				color={ 123 123 123 }
+				color2={ 255 255 255 }
+			
+				b_wurzburg = {
+				}
+				b_aschaffenburg = {
+				}
+				b_schweinfurt = {
+				}
+				b_marienberg = {
+				}
+				b_hammelburg = {
+				}
+				b_schwarzenberg = {
+				}
+				b_theiheim = {
+				}
+				b_mainderheim = {
+				}
+			}
+		}
+		
+		d_koln = {
+			color = { 113 116 112 }
+			color2 = { 125 125 125 }
+			
+			capital = 119 # Köln
+			
+			c_koln = {
+				color={ 141 141 141 }
+				color2={ 255 255 255 }
+			
+				b_koln = {
+					holy_site = catholic
+				}
+				b_berg = {
+				}
+				b_mark = {
+				}
+				b_bonn = {
+				}
+				b_dietz = {
+				}
+				b_saffenburg = {
+				}
+				b_hochstaden = {
+				}
+				b_brauweiler = {
+				}
+			}
+			
+			c_munster = {
+				color={ 212 212 212 }
+				color2={ 255 255 255 }
+				
+				b_munster = {
+				}
+				b_dortmund = {
+				}
+				b_essen = {
+				}
+				b_greven = {
+				}
+				b_gutersloh = {
+				}
+				b_steinfurt = {
+				}
+				b_gronau = {
+				}
+				b_ahlen = {
+				}
+			}
+			c_braunschweig = {
+				color={ 192 192 192 }
+				color2={ 255 255 255 }
+				
+				b_braunschweig = {
+				}
+				b_bielefeld = {
+				}
+				b_paderborn = {
+					holy_site = norse_pagan
+					holy_site = norse_pagan_reformed
+				}
+				b_hildesheim = {
+				}
+				b_waldeck = {
+				}
+				b_wolfenbuttel = {
+				}
+				b_helmstedt = {
+				}
+				b_gandersheim = {
+				}
+			}
+			c_osnabruck = {
+				color={ 213 213 213 }
+				color2={ 255 255 255 }
+				
+				b_osnabruck = {
+				}
+				b_lingen = {
+				}
+				b_bentheim = {
+				}
+				b_wildeshausen = {
+				}
+				b_tecklenburg = {
+				}
+				b_minden = {
+				}
+				b_quackenbruck = {
+				}
+				b_meppen = {
+				}
+			}
+			c_gottingen = {
+				color={ 210 210 210 }
+				color2={ 255 255 255 }
+				
+				b_gottingen = {
+				}
+				b_corvey = {
+				}
+				b_lippe = {
+				}
+				b_kassel = {
+				}
+				b_goslar = {
+				}
+				b_northeim = {
+				}
+				b_eisenach = {
+				}
+				b_detmold = {
+				}
+			}
+		
+		d_hamburg = {
+			color={ 112 112 112 }
+			color2={ 255 255 255 }
+		
+			capital = 261 # Hamburg
+			
+			c_luneburg = {
+				color={ 195 195 195 }
+				color2={ 255 255 255 }
+				
+				b_luneburg = {
+				}
+				b_bardowick = {
+				}
+				b_gifhorn = {
+				}
+				b_evern = {
+				}
+				b_reppenstedt = {
+				}
+				b_ludersburg = {
+				}
+				b_thomasburg = {
+				}
+				b_uelzen = {
+				}
+			}
+		
+			c_hamburg = {
+				color={ 225 225 225 }
+				color2={ 255 255 255 }
+			
+				b_hamburg = {
+				}
+				b_altona = {
+				}
+				b_harburg = {
+				}
+				b_brunsbuttel = {
+				}
+				b_buxtehude = {
+				}
+				b_dithmarschen = {
+				}
+				b_niendorf = {
+				}
+				b_lokstedt = {
+				}
+			}
+			c_lubeck = {
+				color={ 142 142 142 }
+				color2={ 255 255 255 }
+				
+				b_lubeck = {
+				}
+				b_ratzeburg = {
+				}
+				b_travemunde = {
+				}
+				b_wulfsdorf = {
+				}
+				b_schlutup = {
+				}
+				b_starigard = {
+				}
+				b_weslo = {
+				}
+				b_bucu = {
+				}
+			}
+		}
+	}
+	
 	k_frisia = {
 		color={ 245 100 20 }
 		color2={ 220 220 20 }
@@ -5366,14 +5714,6 @@ e_gaul = {
 	}
 }
 
-e_aksum = {
-	color = { 102 97 97 }
-	color2 = { 255 255 255 }
-	capital = 883 # Gondar
-	
-
-}
-
 e_africa = {
 	color = { 107 12 134 }
 	color2={ 80 20 100 }
@@ -7007,6 +7347,254 @@ e_suomenvalta = {
 				b_jakobstad = {
 				}
 				b_veteli = {
+				}
+			}
+		}
+	}
+}
+
+e_italia = {
+	color = { 235 195 160 }
+	color2 = { 125 100 80 }
+	
+	capital = 333 # Rome
+	
+	k_langobardia	= {
+		color = { 190 125 60 }
+		color2 = { 95 63 30 }
+		
+		capital = 320 # Cremona
+		
+		d_susa = {
+			color={ 191 158 158 }
+			color2={ 255 255 255 }
+			
+			capital = 236 # Piemonte
+			
+			c_piemonte = {
+				color={ 104 12 38 }
+				color2={ 255 255 255 }
+				
+				b_ivrea = {
+				}
+				b_torino = {
+				}
+				b_settimo = {
+				}
+				b_auriate = {
+				}
+				b_novara = {
+				}
+				b_ferrero = {
+				}
+				b_messarano = {
+				}
+				b_crevacuore = {
+				}
+			}
+			
+			c_genoa = {
+				color={ 253 247 228 }
+				color2={ 255 255 255 }
+				
+				b_genoa = {
+				}
+				b_rapallo = {
+				}
+				b_luna = {
+				}
+				b_ventimiglia = {
+				}
+				b_savona = {
+				}
+				b_chiavari = {
+				}
+				b_albenga = {
+				}
+				b_fosdinovo = {
+				}
+			}
+			
+			c_saluzzo = {
+				color={ 155 46 76 }
+				color2={ 255 255 255 }
+				
+				b_saluzzo = {
+				}
+				b_pinerolo = {
+				} 
+				b_cuneo = {
+				}
+				b_savigliano = {
+				}
+				b_busca = {
+				}
+				b_paesana = {
+				}
+				b_verzuolo = {
+				}
+				b_caraglio = {
+				}
+			}
+			
+			c_monferrato = {
+				color={ 250 244 225 }
+				color2={ 255 255 255 }
+				
+				b_monferrato = {
+				}
+				b_casale = {
+				}
+				b_asti = {
+				}
+				b_acqui = {
+				}
+				b_tortona = {
+				}
+				b_biella = {
+				}
+				b_alba = {
+				}
+				b_canelli = {
+				}
+			}
+		}
+		
+		d_lombardia = {
+			color={ 200 133 222 }
+			color2={ 255 255 255 }
+			capital = 320 # Cremona
+			
+			c_brescia = {
+				color={ 249 235 224 }
+				color2={ 255 255 255 }
+				
+				b_brescia = {
+				}
+				b_bergamo = {
+				}
+				b_peschiera = {
+				}
+				b_treviglio = {
+				}
+				b_salo = {
+				}
+				b_lumezzane = {
+				}
+				b_montichiari = {
+				}
+				b_castiglione = {
+				}
+			}
+			
+			c_parma = {
+				color={ 255 254 230 }
+				color2={ 255 255 255 }
+				
+				b_parma = {
+				}
+				b_massa = {
+				}
+				b_guastalla = {
+				}
+				b_fornovo = {
+				}
+				b_fidenza = {
+				}
+				b_fontanellato = {
+				}
+				b_laspezia = {
+				}
+				b_noceto = {
+				}
+			}
+			
+			c_lombardia = {
+				color={ 251 237 226 }
+				color2={ 255 255 255 }
+				
+				b_milano = {
+				}
+				b_monza = {
+				}
+				b_como = {
+				}
+				b_lodi = {
+				}
+				b_vigevano = {
+				}
+				b_maggiore = {
+				}
+				b_legnano = {
+				}
+				b_chiavenna = {
+				}
+			}
+			
+			c_trent = {
+				color={ 253 239 228 }
+				color2={ 255 255 255 }
+	
+				
+				b_trento = {
+				}
+				b_brixen = {
+				}
+				b_bozen = {
+				}
+				b_meran = {
+				}
+				b_schlanders = {
+				}
+				b_bruneck = {
+				} 
+				b_riva = {
+				}
+				b_rovereto = {
+				}
+			}
+			
+			c_pavia = {
+				color={ 255 243 232 }
+				color2={ 255 255 255 }
+				
+				b_pavia = {
+				}
+				b_bobbio = {
+				}
+				b_piacenza = {
+				}
+				b_voghera = {
+				}
+				b_alessandria = {
+				}
+				b_casteggio = {
+				}
+				b_colorno = {
+				}
+				b_montebello = {
+				}
+			}
+			
+			c_cremona = {
+				color={ 255 245 234 }
+				color2={ 255 255 255 }
+				
+				b_cremona = {
+				}
+				b_crema = {
+				}
+				b_sospiro = {
+				}
+				b_vescovato = {
+				}
+				b_viadana = {
+				}
+				b_castelgoffredo = {
+				}
+				b_casalmaggiore = {
+				}
+				b_manerbio = {
 				}
 			}
 		}
