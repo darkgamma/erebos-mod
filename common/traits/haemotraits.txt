@@ -5,16 +5,27 @@
 ##									##
 ######################################
 
-######################################
-##									##
-## Version: 0.1b (Potentials Added) ##
-##									##
-######################################
+#########################################
+##								       ##
+## Version: 0.1d (Note about Designer) ##
+##									   ##
+#########################################
 
 ## Note: Blood colour is inherited with birth events, inheritance isn't defined here
 ## Blood traits should be automatically assigned to every character by on_action events.
 ## Warning: I suggest that you don't remove any of the blood traits as they're vital to the mod and might cause crashes or severely reduced playability.
 ## I sincerely hope you don't tamper with the potential tags as that might cause random magic and evil beings popping up where they don't belong at all.
+
+##############
+#### NOTE ####
+
+## All of these traits are open for use in the Ruler Designer. There are no limitations against them in the Ruler Designer, except that you can use only one.
+## Halfling, Nightspawn and Primodial traits are locked out of the Ruler Designer. You can't use them in designed characters, and it is extremely rare to actually get to play one of these.
+## The best "Red+Coloured" pairing is "Red Father + Violet Mother".
+
+#### NOTE ###
+#############
+
 
 ##########################
 ####					##
@@ -63,7 +74,7 @@ hsb_bronze = {
 	}
 }
 
-#Yellow Blood - Majorly Diluted (+2)
+#Yellow Blood - Severely Diluted (+2)
 hsb_yellow = {
 
 	potential = {
@@ -223,12 +234,15 @@ hs_halfling = {
 		always = no
 	}
 	
+	customizer = no
+	
 	same_opinion = 30
 	opposite_opinion = 15
 	infidel_opinion = -25
 	muslim_opinion = -50
 	christian_church_opinion = -75
 	zoroastrian_opinion = -100
+	
 	
 	opposites = {
 		hs_nspawn
@@ -242,6 +256,8 @@ hs_nspawn = {
 	potential = {
 		always = no
 	}
+	
+	customizer = no
 	
 	same_opinion = 30
 	opposite_opinion = 15
@@ -261,6 +277,8 @@ hs_primod = {
 	potential = {
 		always = no
 	}
+	
+	customizer = no
 	
 	same_opinion = 50
 	opposite_opinion = 30

@@ -9,6 +9,7 @@ hsb_indigo;Indigo Blood;;;;;;;;;;;;;x
 hsb_violet;Violet Blood;;;;;;;;;;;;;x
 hs_halfling;Halfling;;;;;;;;;;;;;x
 hs_nspawn;Nightspawn;;;;;;;;;;;;;x
+hs_primod;Primodial;;;;;;;;;;;;;x
 
 hsb_red_desc;This character has the most mundane of blood colours. Redbloods have little to no demonic lineage and are unable to use any form of magic, although their blood is the most potent of all magical reagents. Redbloods have no special powers, but also lack the more specific weaknesses that tend to come with higher hues.;;;;;;;;;;;;;x
 hsb_bronze_desc;This character has bronze blood, indicative of an extremely faint demonic taint. Bronzebloods are extremely bad with magic, although they have some residual ability permitting them to dabble in the most basic of arcane arts. Bronzebloods also tend to be stronger than average humans.;;;;;;;;;;;;;x
@@ -21,3 +22,4 @@ hsb_indigo_desc;This character has indigo-tinted blood. Indigo-bloods have a nat
 hsb_violet_desc;This character has violet blood. The highest hue on the spectrum, violetbloods are the most potent human practititoners of magic. They can live for abnormal amounts of time, but their lives are complicated by their common overconfidence and lack of consideration for others.;;;;;;;;;;;;;x
 hs_halfling_desc;This character is a halfling. Halflings are hybrids of humans and Nightspawn. They are very long-lived and are usually observed to be both strong and quick of mind, but they most commonly have no compassion for others and their suffering.;;;;;;;;;;;;;x
 hs_nspawn_desc;This character is Nightspawned. Nightspawn were once human in both form and nature, but ancient and now-forgotten blood contracts with the Primodials had them transformed into servants of the darkness. They are extremely long-lived and hot-tempered, but aren't beyond self-control.;;;;;;;;;;;;;x
+hs_primod_desc;This character is a Primodial. Primodials are the medium and instrument of darkness on Earth, immortal and eternal. Through their veins runs milky blood, its hue invisible to humans. Many Primodials are older than history and civilisation, and some have even witnessed the very dawn of man and Earth.;;;;;;;;;;;;;x

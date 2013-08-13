@@ -7,7 +7,7 @@
 
 ######################################
 ##									##
-##			Version: 1.0b			##
+##			Version: 1.1a			##
 ##									##
 ######################################
 
@@ -2283,9 +2283,10 @@ character_event = {
 			random_list = {
 				25 = { add_trait = hsb_yellow }
 				33 = { add_trait = hsb_lime }
-				28 = { add_trait = hsb_jade }
-				9 = { add_trait = hsb_teal }
-				5 = { add_trait = hsb_blue }
+				22 = { add_trait = hsb_jade }
+				10 = { add_trait = hsb_teal }
+				9 = { add_trait = hsb_blue }
+				1 = { add_trait = hsb_indigo }
 			}
 		}
 		
@@ -2299,9 +2300,11 @@ character_event = {
 			random_list = {
 				10 = { add_trait = hsb_yellow }
 				27 = { add_trait = hsb_lime }
-				28 = { add_trait = hsb_jade }
-				14 = { add_trait = hsb_blue }
-				21 = { add_trait = hsb_indigo }
+				20 = { add_trait = hsb_jade }
+				11 = { add_trait = hsb_teal }
+				10 = { add_trait = hsb_blue }
+				15 = { add_trait = hsb_indigo }
+				7 = { add_trait = hsb_violet }
 			}
 		}
 	}
