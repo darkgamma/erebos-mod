@@ -35,7 +35,7 @@ character_event = {
 			factor = 1
 		}
 		name = EVTOPTAHSA.1
-		custom_tooltip = add_hsbred
+		custom_tooltip = { text = add_hsbred }
 		hidden_tooltip = {
 			add_trait = hsb_red
 		}
@@ -46,7 +46,7 @@ character_event = {
 			factor = 0
 		}
 		name = EVTOPTBHSA.1
-		custom_tooltip = add_hsbbronze
+		custom_tooltip = { text = add_hsbbronze }
 		hidden_tooltip = {
 			add_trait = hsb_bronze
 		}
