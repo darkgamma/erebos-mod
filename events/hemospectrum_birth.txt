@@ -7,7 +7,7 @@
 
 ######################################
 ##									##
-##			Version: 1.1a			##
+##			Version: 1.1b			##
 ##									##
 ######################################
 
@@ -2262,8 +2262,8 @@ character_event = {
 				}
 			}
 			random_list = {
-				7 = { add_trait = hsb_indigo }
-				93 = { add_trait = hsb_violet }
+				4 = { add_trait = hsb_indigo }
+				96 = { add_trait = hsb_violet }
 			}
 		}
 		
