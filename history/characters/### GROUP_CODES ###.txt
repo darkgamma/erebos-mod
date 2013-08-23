@@ -1,0 +1,12 @@
+###########################################################
+###														###
+###					Character Group Codes				###
+###														###
+###		Characters get ID ranges based on their area 	###
+###														###
+###########################################################
+
+###
+### Norse Characters : [ 1XXXXXX ]
+### English, Picts, Scots [ 2XXXXXX ]
+###

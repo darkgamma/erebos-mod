@@ -381,11 +381,11 @@ muslim = {
 	}
 }
 
-pagan_group = {
+arab_pagan_group = {
 	graphical_culture = muslimgfx
 	playable = yes
 
-	pagan = { # Use for misc other pagans
+	arab_pagan = { # Use for misc other pagans
 		graphical_culture = westerngfx
 
 		icon = 5

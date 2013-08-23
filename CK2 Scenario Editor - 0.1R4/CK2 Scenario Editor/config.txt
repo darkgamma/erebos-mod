@@ -1,0 +1,10 @@
+#maindir = "F:\Crusader Kings II 1.08"
+maindir = "F:\Crusader Kings II"
+gameversion=ck2
+
+#moddir = "ElderKings"
+#moddir = "Witcher"
+#moddir = "swmh2.7"
+#moddir = "Lux Invicta"
+#moddir = "Britannia"
+# moddir = "Erebos"

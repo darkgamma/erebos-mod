@@ -1,0 +1,12 @@
+###########################################################
+###														###
+###					Dynasty Group Codes					###
+###														###
+###		Dynasties get ID ranges based on their area 	###
+###														###
+###########################################################
+
+###
+### Norse Dynasties : [ 1XXXXXX ]
+### English, Scots, Picts [ 2XXXXXX ]
+###
