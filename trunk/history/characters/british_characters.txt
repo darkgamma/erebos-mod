@@ -1,0 +1,25 @@
+2000001 = {
+	name="Uerb"
+	dynasty= 2000001 # Uerbhin
+	
+	martial=4
+	
+	religion="catholic"
+	culture="pictish"
+	
+	
+	add_trait="brave"
+	add_trait="just"
+    add_trait= "paranoid"
+		
+	864.1.1 = { birth="864.1.1" }
+}
+
+2000002 = {
+	name = "Duncan"
+	dynasty = 2000002 # ua Brian
+
+	religion = "catholic"
+	culture = "scottish"
+	861.1.1 = { birth = "861.1.1" }
+}

@@ -1,0 +1,17 @@
+1000001 = {
+	name="Sigurdr"
+	dynasty= 1000001 # Eiriking
+	
+	martial=5
+	
+	religion="norse_pagan"
+	culture="norse"
+	
+	
+	add_trait="brave"
+	add_trait="just"
+    add_trait= "honest"
+	add_trait="skilled_tactician"
+		
+	870.1.1 = { birth="870.1.1" }
+}

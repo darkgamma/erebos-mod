@@ -20742,7 +20742,7 @@ e_pars = {
 	}
 	
 	k_isles = {
-		color = { 5 100 200 }
+		color = { 5 140 240 }
 		color2 = { 200 220 240 }
 		
 		capital = 54 # Isle of Mann
@@ -21315,7 +21315,7 @@ e_pars = {
 				}
 			}
 		}
-				d_albany = {
+		d_albany = {
 			color={ 10 209 243 }
 			color2={ 255 255 255 }
 			

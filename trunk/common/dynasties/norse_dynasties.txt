@@ -1,0 +1,4 @@
+1000001 = {
+	name="Eiriking"
+	culture = norse
+}
