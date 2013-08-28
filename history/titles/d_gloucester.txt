@@ -1,4 +1,4 @@
 900.1.1 = {
-	liege = "d_gloucester"
 	holder = 2000008 # Eadgar
+	liege = "k_england"
 }

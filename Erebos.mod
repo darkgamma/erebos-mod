@@ -3,3 +3,4 @@ path = "mod/Erebos"
 user_dir = "Erebos"
 
 replace_path = "history/characters"
+replace_path = "history/titles"

@@ -17,3 +17,23 @@
 	name = "Æþeling"
 	culture = saxon
 }
+
+2000005 = {
+	name = "Ælfstaning"
+	culture = saxon
+}
+
+2000006 = {
+	name = "Wulfing"
+	culture = saxon
+}
+
+2000007 = {
+	name = "ap Cedwyn"
+	culture = welsh
+}
+
+2000008 = {
+	name = "Hloþaring"
+	culture = saxon
+}

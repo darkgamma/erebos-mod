@@ -1,4 +1,4 @@
-# ð - Eth
+ m# ð - Eth
 # æ - Ash
 # Þ - Thorn uppercase
 # 
@@ -21,7 +21,7 @@
 }
 
 1000002 = {
-	name="Þórný"
+	name="Þórnýr"
 	dynasty= 1000002 # Orming
 	
 	stewardship = 7
@@ -32,7 +32,7 @@
 	add_trait = "craven"
 	add_trait = "fair"
 	add_trait = "poet"
-	father = 1000004 # Thórsteinn
+	father = 1000004 # Þórsteinn
 
 	dna = "norjjfvgth"
 	
