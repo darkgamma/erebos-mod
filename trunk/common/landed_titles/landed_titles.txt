@@ -21804,7 +21804,7 @@ e_pars = {
 				}
 			}
 		}
-		d_gloucester = {
+		d_gloucester = { # Hwicce
 			color={ 241 79 15 }
 			color2={ 255 255 255 }
 			
@@ -21945,7 +21945,7 @@ e_pars = {
 			}
 		}
 		
-		d_canterbury = { # Sussex
+		d_kent = { # Sussex
 			color={ 241 100 15 }
 			color2={ 255 255 255 }
 			

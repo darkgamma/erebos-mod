@@ -36,8 +36,120 @@
 2000004 = {
 	name = "Wulfþorn"
 	dynasty = 2000004 # Æþeling
+	
+	diplomacy = 8
+	martial = 5
+	stewardship = 3
+	intrigue = 7
+	learning = 9
+	
+	dna = "efwcwdaediz"
+	
+	add_trait = "brilliant_strategist"
+	add_trait = "diligent"
+	add_trait = "lustful"
+	add_trait = "cruel"
+	add_trait = "charitable"
 
 	religion = "catholic"
 	culture = "saxon"
 	857.1.1 = { birth = "857.1.1" }
+}
+
+2000005 = {
+	name = "Sæxbald"
+	dynasty = 2000005 # Ælfstaning
+
+	dna = "afceeegfean"
+
+	martial = 3
+	diplomacy = 8
+
+	religion = "catholic"
+	culture = "saxon"
+
+	add_trait = "lustful"
+	add_trait = "fair"
+	add_trait = "poet"
+
+	869.1.1 = { birth = "869.1.1" }
+}
+
+2000006 = {
+	name = "Mærleswegn"
+	dynasty = 2000006 # Wulfing
+
+	stewardship = 7
+	martial = 3
+	learning = 1
+	intrigue = 1
+
+	religion = "catholic"
+	culture = "saxon"
+
+	852.1.1 = { birth = "852.1.1" }
+}
+
+2000007 = {
+	name = "Llyr"
+	dynasty = 2000007 # ap Cedwyn
+
+	stewardship = 6
+	diplomacy = 5
+
+	add_trait = "hunter"
+	add_trait = "strong"
+
+	father = 2000010 # Cedwyn
+
+	religion = "catholic"
+	culture = "welsh"
+
+	876.1.1 = { birth = "876.1.1" }
+}
+
+2000008 = {
+	name = "Eadgar"
+	dynasty = 2000008 # Hloþaring
+
+	diplomacy = 7
+	
+	religion = "catholic"
+	culture = "saxon"
+
+	871.1.1 = { birth = "871.1.1" }
+}
+
+
+2000009 = {
+	name = "Drystan"
+	dynasty = 2000007 # ap Cedwyn
+
+	stewardship = 6
+	martial = 5
+
+	add_trait = "hunter"
+
+	religion = "catholic"
+	culture = "welsh"
+
+	father = 2000010 # Cedwyn
+
+	878.1.1 = { birth = "878.1.1" }
+}
+
+2000010 = {
+	name = "Cedwyn" # Lowborn
+
+	martial = 5
+
+	add_trait = "hunter"
+	add_trait = "strong"
+	add_trait = "ambitious"
+
+	religion = "catholic"
+	culture = "welsh"
+
+	847.1.1 = { birth = "847.1.1" }
+	896.1.1 = { death = "896.1.1" }
 }
