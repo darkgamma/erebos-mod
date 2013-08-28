@@ -23,3 +23,21 @@
 	culture = "scottish"
 	861.1.1 = { birth = "861.1.1" }
 }
+
+2000003 = {
+	name = "Josep"
+	dynasty = 2000003 # map Felex
+
+	religion = "catholic"
+	culture = "cornish"
+	858.1.1 = { birth = "858.1.1" }
+}
+
+2000004 = {
+	name = "Wulfþorn"
+	dynasty = 2000004 # Æþeling
+
+	religion = "catholic"
+	culture = "saxon"
+	857.1.1 = { birth = "857.1.1" }
+}

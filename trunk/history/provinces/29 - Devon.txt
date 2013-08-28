@@ -16,5 +16,5 @@ b_axminster = city
 #b_dartmouth = castle
 
 # Misc
-culture = breton
+culture = cornish
 religion = catholic

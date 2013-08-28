@@ -1,3 +1,8 @@
+# ğ - Eth
+# æ - Ash
+# Ş - Thorn uppercase
+# 
+
 1000001 = {
 	name="Sigurdr"
 	dynasty= 1000001 # Eiriking
@@ -7,11 +12,57 @@
 	religion="norse_pagan"
 	culture="norse"
 	
-	
 	add_trait="brave"
 	add_trait="just"
-    add_trait= "honest"
+    add_trait="honest"
 	add_trait="skilled_tactician"
-		
+	
 	870.1.1 = { birth="870.1.1" }
+}
+
+1000002 = {
+	name="Şórnı"
+	dynasty= 1000002 # Orming
+	
+	stewardship = 7
+	
+	religion="norse_pagan"
+	culture="norse"
+	
+	add_trait = "craven"
+	add_trait = "fair"
+	add_trait = "poet"
+	father = 1000004 # Thórsteinn
+
+	dna = "norjjfvgth"
+	
+	866.1.1 = { birth="866.1.1" }
+}
+1000003 = {
+	name= "Hæsteinn"
+	dynasty = 1000002 # Orming
+
+	intrigue = 6
+	diplomacy = 6
+	
+	religion = "norse_pagan"
+	culture = "norse"
+
+	add_trait = "just"
+	add_trait = "gregarious"
+	father = 1000004 # Thórsteinn
+
+	dna = "nordbfveth"
+
+	869.1.1 ={ birth = "869.1.1" }
+}
+1000004 = {
+	name = "Şórsteinn"
+	dynasty = 1000002 # Orming
+
+	religion = "norse_pagan"
+	culture = "norse"
+
+	827.1.1 = { birth = "827.1.1" }
+	882.6.15 = { death = "882.6.15" }
 }
