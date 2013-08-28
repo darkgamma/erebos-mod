@@ -7,3 +7,13 @@
 	name = "ua Brian"
 	culture = scottish
 }
+
+2000003 = {
+	name = "map Felex"
+	culture = cornish
+}
+
+2000004 = {
+	name = "Æþeling"
+	culture = saxon
+}
