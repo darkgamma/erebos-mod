@@ -792,9 +792,55 @@ byzantine = {
 
 celtic = {
 	graphical_culture = westerngfx
+	
+	cornish = {
+		graphical_culture = westerngfx
+		
+		color = { 0.3 0.8 0.8 }
+		
+		male_names = {
+			Adoyre Aedan Alan Aldrien Ambros_Ambrosius Agustin_Augustine Anaoc Anaubritou Anaugen Anauuoret Aniud Argantbri Argantmoet Arthguiu_Arthur Arthmael Arthueu_Arthur Arthuiu_Arthur Arthuis_Artorius
+			Agustin_Augustine Austol_Austell Beli Beniamen_Benjamin Bledric Bledros Bleidcum Bleidiud Bodan Branhucar Branoc Branwalator_Brendan Brenci Breselgar Breseloc Brethoc Brient_Brian Brigual 
+			Brigualt Brioc Brithael Bronmael Budguoret Budhoiarn Budic Budoc Buhedoc Cadan Cadaouen Cadarvan Cado Cadoc Cantgueithen Carantoc Caradec_Caradog 
+			Catguallon_Cadwallon Catgualtr_Cadwalladr Catgueten Catgutic Cenmin Cingur Cinhoedl Clemen_Clement Comoere Conan_Conan Congar_Cyngar Conmonoc Conogan Conomor_Cunomor Conredeu 
+			Convelin_Cynfelyn Conguoion Courantmonoc Credan Culmin_Colman Custentin_Constantine Custeyn_Constantius Dauid_David Deroch Deurhoiarn Donual Donuallon_Donald Drogon Dungarth_Duncan Eguen_Eugene 
+			Eon_John Erbin_Urban Erispoe Etgual Eudon_Otto Euhoiarn Even_Eugene Felec_Felix Fracan_Fragan Frioc_Ffriog Gadeon_Gideon Gerren_Gerontius Gest Gestin_Justin Gourmaelon Gradlon Gratcant Grifiud Guallon Gudgual Guecon 
+			Guenerdon Guentanet Guentiern Guerech Guethenan Guethencar Guethenguoion Guethenoc Guihomarch Guincalon Guincum Guinhoiarn Guithrit Guitol 
+			Guobrian Guocon Guoletec Guorbili Guordotal Guoretan Guorethoiarn Guorhoiarn Gurbodu Gurcant Gurcencor Gurci Gurcon Gurdilic Gurgen 
+			Gurguaret Gurguistl Gurheter Guriant Gurlouen Gurlouuen Gurmael Gurthcid Gurthiern_Vortigern Guruant Haeloc Hedyn Hincomhal Hoel_Hywel Iarcun 
+			Iarnbud Iarncant Iarndetguid Iarngon Iarnguallon Iarnguocon Iarnhitin Ilcarthon Iliud Inisian Iodoc_Judicael Ionas_Jonas Iosep_Joseph Iouan_John Iudicaelh_Judicael 
+			Iudnerth Iudoc_Judicael Iudguallon Iunceneu Leucum Loi Louenan Loumarch Machtiern Massen_Maximus Maeldoi Maelhuedoc Maeloc_Maelog Maenceneu Mailoc_Maelog March_Mark Matuid Maugan_Mawgan Mauric_Maurice 
+			Medrod_Mordred Melor Meriadec_Meriadoc Mermin Meven Morcant_Morgan Morhaetho Nomenoe Oss'ne Outham_Octavius Pascueten_Pasquitan Patric_Patrick Petroc Piran Putrael Resmen Ridoredh 
+			Rinduran Rioc Riol Riotham_Riothamus Rioual_Riwal Riouallon_Rhiwallon Ronan Ryd Salenn Salomon_Solomon Samson Selevan_Solomon Sulian_Julian Sulmonoc Talan Talhoiarn Tanci Telent Terithien 
+			Tethion Teudar_Theodore Teudoc_Theodoric Tiernmael Tugdual_Theodowalaunus  Ungust Urbien_Urban Urblon Uther_Victor Waroch 
+		}
+		female_names = {
+			Aanor Aedoc Anaguistl Anaudat Anauprost Aourcen Aouren Argantan Arganteila Arganteilin Argantguistl Arganthael Argantlon Argantmoet 
+			Artaca Avandrec Breaca Buriana Canna Catguistl Ceindrec Ceinguled Dengel Diuset Duihon Elisaued_Elizabeth Elguen Endellion Enoguen Ewsannec Fuandrec 
+			Gloiucen Gloiumed Guelet Guenbrith Guencen Guencenedl Guencor Guenguerthlon Guenguistl Guenguiu Guenmon Guenna Guenneret Guennuuar 
+			Guigoëdon Halbiu Herannuen Igerna Ignoguen Ilcum Iofa Iseullt Iudhent Iudprost Louhelic Luncen Maben Medguistl Meduil Meonre Milian Morguetel Moruith 
+			Moruen Oncenedl Oncum Onguen Ordguydel Ourcen Ourdilic Perem Proscen Prosguetel Prostlon Rannoeu Riguistl Rimoet Rioantcen Rioantdrec 
+			Rioanon Rioanuuellt_Regina Rum Rumun Sulcen Sulleisoc Sulmed Tandrec Tanguistl Trifine Ursula
+		}
+
+		male_patronym = "map "
+		female_patronym = "merch "
+		prefix = yes
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+	}
 
 	irish = {
-		graphical_culture = celticgfx
+		graphical_culture = westerngfx
 		
 		color = { 0.3 0.8 0.8 }
 
@@ -833,7 +879,7 @@ celtic = {
 		mother_name_chance = 10
 	}
 	pictish = {
-		graphical_culture = celticgfx
+		graphical_culture = westerngfx
 
 		color = { 0.3 1.0 0.8 }		
 
@@ -861,7 +907,7 @@ celtic = {
 		mother_name_chance = 10
 	}
 	scottish = {
-		graphical_culture = celticgfx
+		graphical_culture = westerngfx
 		
 		color = { 0.3 0.7 0.7 }
 
@@ -903,7 +949,7 @@ celtic = {
 		mother_name_chance = 10
 	}
 	welsh = {
-		graphical_culture = celticgfx
+		graphical_culture = westerngfx
 		
 		color = { 0.3 0.8 0.6 }
 
@@ -947,7 +993,7 @@ celtic = {
 		mother_name_chance = 0
 	}
 	breton = {
-		graphical_culture = celticgfx
+		graphical_culture = westerngfx
 		
 		color = { 0.3 0.5 0.4 }
 		

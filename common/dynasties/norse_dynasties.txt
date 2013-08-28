@@ -2,3 +2,8 @@
 	name="Eiriking"
 	culture = norse
 }
+
+1000002 = {
+	name="Orming" # Sigurds Ormr-in-Auga
+	culture = norse
+}
