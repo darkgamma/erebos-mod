@@ -21079,10 +21079,10 @@ e_pars = {
 			
 			dignity = 2
 			
-			norwegian = "Jorvik"
-			danish = "Jorvik"
-			swedish = "Jorvik"
-			norse = "Jorvik"
+			norwegian = "Jórvík"
+			danish = "Jórvík"
+			swedish = "Jórvík"
+			norse = "Jórvík"
 			
 			c_lancaster = {
 				color={ 255 50 5 }
@@ -21130,16 +21130,16 @@ e_pars = {
 				color={ 255 80 5 }
 				color2={ 255 255 255 }
 				
-				norwegian = "Jorvik"
-				danish = "Jorvik"
-				swedish = "Jorvik"
-				norse = "Jorvik"
+				norwegian = "Jórvík"
+				danish = "Jórvík"
+				swedish = "Jórvík"
+				norse = "Jórvík"
 	
 				b_york = {
-					norwegian = "Jorvik"
-					danish = "Jorvik"
-					swedish = "Jorvik"
-					norse = "Jorvik"
+					norwegian = "Jórvík"
+				        danish = "Jórvík"
+				        swedish = "Jórvík"
+				        norse = "Jórvík"
 				}
 				b_richmond = {
 				}
