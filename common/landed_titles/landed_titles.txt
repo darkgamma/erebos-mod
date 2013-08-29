@@ -560,9 +560,9 @@ e_scandinavia = {
 		d_herjedalen = {
 			color={ 15 199 239 }
 			color2={ 255 255 255 }
-			capital = 287 # Dalarna
+			capital = 287 # Dalarna/Järnbäraland
 			
-			c_dalarna = {
+			c_dalarna = { # Dalarna/Järnbäraland
 				color={ 100 5 255 }
 				color2={ 255 255 255 }
 				
@@ -2739,6 +2739,7 @@ e_hispania = {
 e_germania = {
 	color = { 85 85 85 }
 	color2 = { 250 250 240 }
+	short_name = yes
 	
 	capital = 261 # Hamburg
 	
@@ -3982,6 +3983,7 @@ e_germania = {
 e_gaul = {
 	color={ 62 83 142 }
 	color2={ 160 120 120 }
+	short_name = yes
 	
 	capital = 114 # Reims
 	
@@ -13138,6 +13140,7 @@ e_byzantine = {
 	k_lechitic = {
 		color={ 145 130 40 }
 		color2={ 220 220 20 }
+		short_name = yes
 		
 		capital = 366 # Stettin
 		
@@ -13805,6 +13808,7 @@ e_byzantine = {
 e_avaria = {
 	color = { 135 100 65 }
 	color2 = { 200 40 40 }
+	short_name = yes
 	
 	capital = 502 # Rashka
 	
