@@ -1,0 +1,10 @@
+3000001 = {
+	name = "Juvven"
+	
+	dynasty = 3000001 # Juntunen
+	
+	religion = "finnish_pagan"
+	culture = lappish
+	
+	875.1.1 = { birth = "875.1.1" }
+}

@@ -61,6 +61,7 @@
 	dynasty = 2000005 # Ælfstaning
 
 	dna = "afceeegfean"
+	properties="un0lefbebbb"
 
 	martial = 3
 	diplomacy = 8
