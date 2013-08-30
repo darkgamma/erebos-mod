@@ -19,3 +19,14 @@
 	
 	873.1.1 = { birth = "873.1.1" }
 }
+
+3000003 = { 
+	name = "Ággos"
+	
+	dynasty = 3000003 # Lahti
+
+	religion = "finnish_pagan"
+	culture = lappish
+	
+	869.1.1 = { birth = "869.1.1" }
+}
