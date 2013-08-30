@@ -1,3 +1,9 @@
+# EMPIRES
+e_germania;Germania;;;;;;;;;;;;;x
+e_germania_adj;Germanian;;;;;;;;;;;;;x
+e_gaul;Gaul;;;;;;;;;;;;;x
+e_gaul_adj;Gallic;;;;;;;;;;;;;x
+# KINGDOMS
 k_iceland;Iceland;;;;;;;;;;;;;x
 k_iceland_adj;Icelandic;;;;;;;;;;;;;x
 k_gautland;Gautland;;;;;;;;;;;;;x
@@ -8,16 +14,12 @@ k_isles;The Isles;;;;;;;;;;;;;x
 k_isles_adj;Islander;;;;;;;;;;;;;x
 k_norrland;Norrland;;;;;;;;;;;;;x
 k_norrland_adj;Norrlander;;;;;;;;;;;;;x
-e_germania;Germania;;;;;;;;;;;;;x
-e_germania_adj;Germanian;;;;;;;;;;;;;x
 k_saxony;Saxony;;;;;;;;;;;;;x
 k_saxony_adj;Saxon;;;;;;;;;;;;;x
 k_franconia;Franconia;;;;;;;;;;;;;x
 k_franconia_adj;Franconian;;;;;;;;;;;;;x
 k_saxony;Saxony;;;;;;;;;;;;;x
 k_saxony_adj;Saxon;;;;;;;;;;;;;x
-e_gaul;Gaul;;;;;;;;;;;;;x
-e_gaul_adj;Gallic;;;;;;;;;;;;;x
 k_austrasia;Austrasia;;;;;;;;;;;;;x
 k_austrasia_adj;Austrasia;;;;;;;;;;;;;x
 k_serbia;Serbia;;;;;;;;;;;;;x
@@ -46,3 +48,32 @@ k_azov;Azov;;;;;;;;;;;;;x
 k_azov_adj;Azovian;;;;;;;;;;;;;x
 k_avaria;Avaria;;;;;;;;;;;;;x
 k_avaria_adj;Avar;;;;;;;;;;;;;x
+k_armorica;Armorica;;;;;;;;;;;;;x
+k_armorica_adj;Armorican;;;;;;;;;;;;;x
+k_nikea;Nikea;;;;;;;;;;;;;x
+k_nikea_adj;Nikean;;;;;;;;;;;;;x
+k_ilyria;Ilyria;;;;;;;;;;;;;x
+k_ilyria_adj;Ilyrian;;;;;;;;;;;;;x
+k_tarraconensis;Tarraconensis;;;;;;;;;;;;;x
+k_tarraconensis_adj;Tarraconesian;;;;;;;;;;;;;x
+k_cartaginensis;Cartaginensis;;;;;;;;;;;;;x
+k_cartaginensis_adj;Cartaginesian;;;;;;;;;;;;;x
+k_lusttania;Lusitania;;;;;;;;;;;;;x
+k_lusitania_adj;Lusitanian;;;;;;;;;;;;;x
+k_gallaecia;Gallaecia;;;;;;;;;;;;;x
+k_gallaecia_adj;Gallaecian;;;;;;;;;;;;;x
+k_baetica;Baetica;;;;;;;;;;;;;x
+k_baetica_adj;Baetican;;;;;;;;;;;;;x
+# DUCHIES
+d_omsk;Omsk;;;;;;;;;;;;;x
+d_omsk_adj;Omskian;;;;;;;;;;;;;x
+d_hamburg;Hamburg;;;;;;;;;;;;;x
+d_habmurg_adj;Hamburgian;;;;;;;;;;;;;x
+d_winchester;Winchester;;;;;;;;;;;;;x
+d_winchester_adj;Winchesterian;;;;;;;;;;;;;x
+d_nordlandet;Nordlandet;;;;;;;;;;;;;x
+d_nordlandet_adj;Nordlander;;;;;;;;;;;;;x
+d_hum;Hum;;;;;;;;;;;;;x
+d_hum_adj;Humian;;;;;;;;;;;;;x
+d_heves;Heves;;;;;;;;;;;;;x
+d_heves_adj;Hevesian;;;;;;;;;;;;;x
