@@ -57,3 +57,8 @@
 	name = "Ua Iacob"
 	culture = irish
 }
+
+2000013 = {
+	name = "Ua Muiredach"
+	culture = irish
+}

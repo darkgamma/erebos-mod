@@ -232,10 +232,10 @@
 	name = "Iacob"
 	dynasty = 2000012 # Ua Iacob
 
-	add_trait = "quick"
+	add_trait = "brave"
 
 	religion = "catholic"
-	culture = "irish"
+	culture = "irish" 
 
 	847.1.1 = { birth = "847.1.1" }
 }
@@ -254,3 +254,15 @@
 
 	868.1.1 = { birth = "868.1.1" }
 }
+    
+2000018 = {
+	name = "Muiredach"
+	dynasty = 2000013 # Ua Muiredach
+
+	add_trait = "lustful"
+
+	religion = "catholic"
+	culture = "irish"
+
+	882.1.1 = { birth = "882.1.1" }
+}  
