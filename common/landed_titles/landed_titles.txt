@@ -22242,3 +22242,32 @@ e_pars = {
 			}
 		}
 	}
+	
+d_suomalaiset = {
+	color = { 117 47 47 }
+	
+	tribe = yes
+	
+	allow = {
+		always = no
+	}
+	
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+	title_prefix = "TRIBE_OF"
+	
+}
+
+d_salmalaiset = {
+	color = { 101 70 34 }
+	
+	tribe = yes
+	
+	allow = {
+		always = no
+	}
+
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+	title_prefix = "TRIBE_OF"
+}
