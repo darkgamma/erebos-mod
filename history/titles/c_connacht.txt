@@ -76,8 +76,8 @@
 872.7.1={
 	holder = 83382 #Conchobar mac Taidg Móir
 }
-882.7.1={
-	holder = 83384 #Áed mac Connchobair
+877.1.1={
+	holder = 2000011 
 }
 888.7.1={
 	holder = 83385 #Tadg mac Conchobair

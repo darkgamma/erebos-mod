@@ -4,8 +4,8 @@
 892.7.1={
 	holder = 83534 #Ruarc mac Tigernáin Ua Briúin
 }
-898.7.1={
-	holder = 83535 #Art mac Ruairc Ua Briúin
+901.1.1={
+	holder = 2000012
 }
 955.7.1={
 	holder = 83536 #Fergal Ua Ruairc

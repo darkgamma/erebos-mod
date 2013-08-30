@@ -154,3 +154,31 @@
 	847.1.1 = { birth = "847.1.1" }
 	896.1.1 = { death = "896.1.1" }
 }
+
+2000011 = {
+	name = "Pátraic"
+	dynasty = 2000009 # Ua Pátraic
+
+	intrigue = 8
+
+	add_trait = "strong"
+
+	religion = "catholic"
+	culture = "irish"
+
+	872.1.1 = { birth = "872.1.1" }
+}
+
+2000012 = {
+	name = "Cormac"
+	dynasty = 2000010 # Ua Cormac
+
+	learning = 10
+
+	add_trait = "zealous"
+
+	religion = "catholic"
+	culture = "irish"
+
+	893.1.1 = { birth = "893.1.1" }
+}

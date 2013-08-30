@@ -37,3 +37,13 @@
 	name = "Hloþaring"
 	culture = saxon
 }
+
+2000009 = {
+	name = "Ua Pátraic"
+	culture = irish
+}
+
+2000010 = {
+	name = "Ua Cormac"
+	culture = irish
+}
