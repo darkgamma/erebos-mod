@@ -37,8 +37,8 @@
 846.1.1={
 	holder = 944 #Aed Findliath son of Niall Caille
 }
-879.1.1={
-	holder = 943 #Domnall son of Aed Findliath
+897.1.1={
+	holder = 2000014
 }
 915.1.1={
 	holder = 131511 #Niall Glúndub son of Aed Findliath
