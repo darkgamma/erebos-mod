@@ -3,12 +3,16 @@ e_germania;Germania;;;;;;;;;;;;;x
 e_germania_adj;Germanian;;;;;;;;;;;;;x
 e_gaul;Gaul;;;;;;;;;;;;;x
 e_gaul_adj;Gallic;;;;;;;;;;;;;x
+e_avaria;Avaria;;;;;;;;;;;;;x
+e_avaria_adj;Avar;;;;;;;;;;;;;x
+e_italia;Italia;;;;;;;;;;;;;x
+e_italia_adj;Italian;;;;;;;;;;;;;x
 # KINGDOMS
 k_iceland;Iceland;;;;;;;;;;;;;x
 k_iceland_adj;Icelandic;;;;;;;;;;;;;x
 k_gautland;Gautland;;;;;;;;;;;;;x
 k_gautland_adj;Geatish;;;;;;;;;;;;;x
-k_jorvik;Jorvik;;;;;;;;;;;;;x
+k_jorvik;York;;;;;;;;;;;;;x
 k_jorvik_adj;Yorkish;;;;;;;;;;;;;x
 k_isles;The Isles;;;;;;;;;;;;;x
 k_isles_adj;Islander;;;;;;;;;;;;;x

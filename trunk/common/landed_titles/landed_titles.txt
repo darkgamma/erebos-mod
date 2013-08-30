@@ -20944,6 +20944,11 @@ e_pars = {
 		color2={ 255 220 220 }
 		
 		capital = 57 # Jorvik
+
+                norwegian = "Jórvík"
+		danish = "Jórvík"
+		swedish = "Jórvík"
+		norse = "Jórvík"
 		
 		d_northumberland = {
 			color={ 255 0 0 }
