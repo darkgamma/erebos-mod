@@ -11,6 +11,8 @@ e_aksum;Aksum;;;;;;;;;;;;;x
 e_aksum_adj;Aksumite;;;;;;;;;;;;;x
 e_mauretania;Mauritania;;;;;;;;;;;;;x
 e_mauretania_adj;Mauretanian;;;;;;;;;;;;;x
+e_africa;Africa;;;;;;;;;;;;;x
+e_africa_adj;African;;;;;;;;;;;;;x
 # KINGDOMS
 k_iceland;Iceland;;;;;;;;;;;;;x
 k_iceland_adj;Icelandic;;;;;;;;;;;;;x
@@ -84,6 +86,12 @@ k_mauretaniacaesariensis;Mauritania Caesarientsis;;;;;;;;;;;;;x
 k_mauretaniacaesariensis_adj;Caesarientine;;;;;;;;;;;;;x
 k_mauretaniatingitana;Mauritania Tingitana;;;;;;;;;;;;;x
 k_mauretaniatingitana_adj;Tingitan;;;;;;;;;;;;;x
+k_carthago;Carthago;;;;;;;;;;;;;x
+k_carthago_adj;Carthaginean;;;;;;;;;;;;;x
+k_aegyptus;Aegyptus;;;;;;;;;;;;;x
+k_aegyptus_adj;Aegyptian;;;;;;;;;;;;;x
+k_libya;Libya;;;;;;;;;;;;;x
+k_libya_adj;Libyan;;;;;;;;;;;;;x
 # DUCHIES
 d_omsk;Omsk;;;;;;;;;;;;;x
 d_omsk_adj;Omskian;;;;;;;;;;;;;x
@@ -105,3 +113,5 @@ d_minsk;Minsk;;;;;;;;;;;;;x
 d_minsk_adj;Minskian;;;;;;;;;;;;;x
 d_lithuanian;Lithuania;;;;;;;;;;;;;x
 d_lithuanian_adj;Lithuanian;;;;;;;;;;;;;x
+# BARONIES
+b_ras;Ras;;;;;;;;;;;;;x
