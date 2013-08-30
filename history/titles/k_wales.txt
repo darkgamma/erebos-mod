@@ -1,0 +1,6 @@
+870.1.1 = {
+	holder = 2000010 # Cedwyn
+}
+896.1.1 = {
+	holder = 0 # Cedwyn DED D8
+}
