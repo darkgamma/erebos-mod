@@ -47,3 +47,8 @@
 	name = "Ua Cormac"
 	culture = irish
 }
+
+2000011 = {
+	name = "Ua Donnchad"
+	culture = irish
+}

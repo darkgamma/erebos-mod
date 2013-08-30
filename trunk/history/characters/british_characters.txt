@@ -141,6 +141,7 @@
 
 2000010 = {
 	name = "Cedwyn" # Lowborn
+        dynasty = 2000007 # ap Cedwyn
 
 	martial = 5
 
@@ -180,5 +181,49 @@
 	religion = "catholic"
 	culture = "irish"
 
-	893.1.1 = { birth = "893.1.1" }
+	886.1.1 = { birth = "886.1.1" }
+}
+
+2000013 = {
+	name = "Liam"
+	dynasty = 2000011 # Ua Donnchad
+
+	add_trait = "lunatic"
+        add_trait = "twin"
+
+	religion = "catholic"
+	culture = "irish"
+
+        father = 2000015
+
+	869.1.1 = { birth = "869.1.1" }
+}
+
+2000014 = {
+	name = "Niall"
+	dynasty = 2000011 # Ua Donnchad
+
+	add_trait = "possessed"
+        add_trait = "twin"
+
+	religion = "catholic"
+	culture = "irish"
+
+        father = 2000015
+
+	869.1.1 = { birth = "869.1.1" }
+}
+
+2000015 = {
+	name = "Donnchad"
+	dynasty = 2000011 # Ua Donnchad
+
+	add_trait = "possessed"
+        add_trait = "lunatic"
+
+	religion = "catholic"
+	culture = "irish"
+
+	840.1.1 = { birth = "840.1.1" }
+        897.1.1 = { death = "897.1.1" }
 }
