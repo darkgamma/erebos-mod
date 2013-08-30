@@ -2,3 +2,13 @@
 	name = "Juntunen"
 	culture = lappish
 }
+
+3000002 = {
+	name = "Ahdo"
+	culture = lappish
+}
+
+3000003 = {
+	name = "Lahti"
+	culture = lappish
+}
