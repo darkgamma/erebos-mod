@@ -121,6 +121,7 @@ d_nordreyjar;The Northern Isles;;;;;;;;;;;;;x
 d_nordreyjar_adj;Northern Islander;;;;;;;;;;;;;x
 d_suomalaiset;Suomalaiset;;;;;;;;;;;;;x
 d_suomalaiset_adj;Suomi;;;;;;;;;;;;;x
-d_salmalaiset;Salmi;;;;;;;;;;;;;x
+d_salmalaiset;Salmalaiset;;;;;;;;;;;;;x
+d_salmalaiset_adj;Salmi;;;;;;;;;;;;;x
 # BARONIES
 b_ras;Ras;;;;;;;;;;;;;x
