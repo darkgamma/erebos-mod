@@ -7,6 +7,10 @@ e_avaria;Avaria;;;;;;;;;;;;;x
 e_avaria_adj;Avar;;;;;;;;;;;;;x
 e_italia;Italia;;;;;;;;;;;;;x
 e_italia_adj;Italian;;;;;;;;;;;;;x
+e_aksum;Aksum;;;;;;;;;;;;;x
+e_aksum_adj;Aksumite;;;;;;;;;;;;;x
+e_mauretania;Mauritania;;;;;;;;;;;;;x
+e_mauretania_adj;Mauretanian;;;;;;;;;;;;;x
 # KINGDOMS
 k_iceland;Iceland;;;;;;;;;;;;;x
 k_iceland_adj;Icelandic;;;;;;;;;;;;;x
@@ -72,6 +76,14 @@ k_siberia;Siberia;;;;;;;;;;;;;x
 k_siberia_adj;Siberian;;;;;;;;;;;;;x
 k_aksum;Aksum;;;;;;;;;;;;;x
 k_aksum_adj;Aksumite;;;;;;;;;;;;;x
+k_attica;Attica;;;;;;;;;;;;;x
+k_attica_adj;Attican;;;;;;;;;;;;;x
+k_xwarazmshahiyan;xwarazmshahiyan;;;;;;;;;;;;;x
+k_xwarazmshahiyan_adj;xwarazmshahiyanian;;;;;;;;;;;;;x
+k_mauretaniacaesariensis;Mauritania Caesarientsis;;;;;;;;;;;;;x
+k_mauretaniacaesariensis_adj;Caesarientine;;;;;;;;;;;;;x
+k_mauretaniatingitana;Mauritania Tingitana;;;;;;;;;;;;;x
+k_mauretaniatingitana_adj;Tingitan;;;;;;;;;;;;;x
 # DUCHIES
 d_omsk;Omsk;;;;;;;;;;;;;x
 d_omsk_adj;Omskian;;;;;;;;;;;;;x
@@ -85,3 +97,11 @@ d_hum;Hum;;;;;;;;;;;;;x
 d_hum_adj;Humian;;;;;;;;;;;;;x
 d_heves;Heves;;;;;;;;;;;;;x
 d_heves_adj;Hevesian;;;;;;;;;;;;;x
+d_kent;Kent;;;;;;;;;;;;;x
+d_kent_adj;Kentian;;;;;;;;;;;;;x
+d_vilnius;Vilnius;;;;;;;;;;;;;x
+d_vilnius_adj;Vilnan;;;;;;;;;;;;;x
+d_minsk;Minsk;;;;;;;;;;;;;x
+d_minsk_adj;Minskian;;;;;;;;;;;;;x
+d_lithuanian;Lithuania;;;;;;;;;;;;;x
+d_lithuanian_adj;Lithuanian;;;;;;;;;;;;;x
