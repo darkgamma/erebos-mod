@@ -194,7 +194,7 @@
 	religion = "catholic"
 	culture = "irish"
 
-        father = 2000015
+        father = 2000015 # Donnchad
 
 	869.1.1 = { birth = "869.1.1" }
 }
@@ -209,7 +209,7 @@
 	religion = "catholic"
 	culture = "irish"
 
-        father = 2000015
+        father = 2000015 # Donnchad
 
 	869.1.1 = { birth = "869.1.1" }
 }
@@ -226,4 +226,31 @@
 
 	840.1.1 = { birth = "840.1.1" }
         897.1.1 = { death = "897.1.1" }
+}
+
+2000016 = {
+	name = "Iacob"
+	dynasty = 2000012 # Ua Iacob
+
+	add_trait = "quick"
+
+	religion = "catholic"
+	culture = "irish"
+
+	847.1.1 = { birth = "847.1.1" }
+}
+
+
+2000017 = {
+	name = "Ruaidrí"
+	dynasty = 2000012 # Ua Iacob
+
+	add_trait = "quick"
+
+	religion = "catholic"
+	culture = "irish"
+
+        father = 2000016 # Iacob
+
+	868.1.1 = { birth = "868.1.1" }
 }
