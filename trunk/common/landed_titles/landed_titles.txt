@@ -14810,7 +14810,7 @@ e_avaria = {
 				}
 				b_decani = {
 				}
-				b_dioclea = {
+				b_ras = {
 				}
 				b_svetispas = {
 				}
