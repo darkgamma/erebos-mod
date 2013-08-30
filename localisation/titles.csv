@@ -111,7 +111,13 @@ d_vilnius;Vilnius;;;;;;;;;;;;;x
 d_vilnius_adj;Vilnan;;;;;;;;;;;;;x
 d_minsk;Minsk;;;;;;;;;;;;;x
 d_minsk_adj;Minskian;;;;;;;;;;;;;x
-d_lithuanian;Lithuania;;;;;;;;;;;;;x
-d_lithuanian_adj;Lithuanian;;;;;;;;;;;;;x
+d_lithuania;Lithuania;;;;;;;;;;;;;x
+d_lithuania_adj;Lithuanian;;;;;;;;;;;;;x
+d_shrewsbury;shrewsbury;;;;;;;;;;;;;x
+d_shrewsbury_adj;Shrewsburian;;;;;;;;;;;;;x
+d_sudreyjar;The Southern Isles;;;;;;;;;;;;;x
+d_sudreyjar_adj;Southern Islander;;;;;;;;;;;;;x
+d_nordreyjar;The Northern Isles;;;;;;;;;;;;;x
+d_nordreyjar_adj;Northern Islander;;;;;;;;;;;;;x
 # BARONIES
 b_ras;Ras;;;;;;;;;;;;;x

@@ -20756,6 +20756,11 @@ e_pars = {
 			color2 = { 100 120 200 }
 			
 			capital = 54 # Isle of Mann
+
+                        norwegian = "Suðreyjar"
+			danish = "Suðreyjar"
+			swedish = "Suðreyjar"
+			norse = "Suðreyjar"
 			
 			c_galloway = {
 				color={ 15 185 243 }
@@ -20852,6 +20857,11 @@ e_pars = {
 			color2 = { 80 120 80 }
 			
 			capital = 35 # Innse Gael
+
+                        norwegian = "Norðreyjar"
+			danish = "Norðreyjar"
+			swedish = "Norðreyjar"
+			norse = "Norðreyjar"
 			
 			c_innse_gall = {
 				color={ 20 60 243 }
