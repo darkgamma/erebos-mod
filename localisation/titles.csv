@@ -113,7 +113,7 @@ d_minsk;Minsk;;;;;;;;;;;;;x
 d_minsk_adj;Minskian;;;;;;;;;;;;;x
 d_lithuania;Lithuania;;;;;;;;;;;;;x
 d_lithuania_adj;Lithuanian;;;;;;;;;;;;;x
-d_shrewsbury;shrewsbury;;;;;;;;;;;;;x
+d_shrewsbury;Shrewsbury;;;;;;;;;;;;;x
 d_shrewsbury_adj;Shrewsburian;;;;;;;;;;;;;x
 d_sudreyjar;The Southern Isles;;;;;;;;;;;;;x
 d_sudreyjar_adj;Southern Islander;;;;;;;;;;;;;x
@@ -123,5 +123,7 @@ d_suomalaiset;Suomalaiset;;;;;;;;;;;;;x
 d_suomalaiset_adj;Suomi;;;;;;;;;;;;;x
 d_salmalaiset;Salmalaiset;;;;;;;;;;;;;x
 d_salmalaiset_adj;Salmi;;;;;;;;;;;;;x
+d_herjedalen;Herjedalen;;;;;;;;;;;;;x
+d_herjedalen_adj;Herjedalian;;;;;;;;;;;;;x
 # BARONIES
 b_ras;Ras;;;;;;;;;;;;;x
