@@ -54,11 +54,11 @@
 }
 
 2000012 = {
-	name = "Ua Iacob"
+	name = "Ua Muiredach"
 	culture = irish
 }
 
 2000013 = {
-	name = "Ua Muiredach"
+	name = "Ua Iacob"
 	culture = irish
 }

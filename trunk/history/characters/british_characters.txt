@@ -229,8 +229,8 @@
 }
 
 2000016 = {
-	name = "Iacob"
-	dynasty = 2000012 # Ua Iacob
+	name = "Muiredach"
+	dynasty = 2000012 # Ua Muiredach
 
 	add_trait = "brave"
 
@@ -243,7 +243,7 @@
 
 2000017 = {
 	name = "Ruaidrí"
-	dynasty = 2000012 # Ua Iacob
+	dynasty = 2000012 # Ua Muiredach
 
 	add_trait = "quick"
 
@@ -256,8 +256,8 @@
 }
     
 2000018 = {
-	name = "Muiredach"
-	dynasty = 2000013 # Ua Muiredach
+	name = "Iacob"
+	dynasty = 2000013 # Ua Iacob
 
 	add_trait = "lustful"
 
