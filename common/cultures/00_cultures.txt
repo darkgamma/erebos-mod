@@ -1827,18 +1827,16 @@ Kaleva Kalevi Kettu Kolli Lalli Lauri_Laurence Lemetti
 			Mielitty Miemo Mikko_Michael Oiva Onni Otso Pyry Päiviö Pentti Reko Sampo Satajalka 
 
 Satatieto Seppo Susi Tapani Terho Toivo Ukko Uoti Urho Väinö
-			Valta Valto Veli Vesa Voitto Erkki_Erik Kaarle_Charles Johannes_John Risto_Christopher 
-
-Olavi_Olaf Petri_Peter Henri_Henry Yrjö_George 
-			Valteri_Walter Riku_Richard Matti_Matthew Jaakoppi_Jacob Taisto Paavo_Paul Aatso_Adam 
+			Valta Valto Veli Vesa Voitto Erkki_Erik Risto_Christopher Yrjö
+			Rikki_Rikki Riku_Richard Taisto Aatso Rekko Rekki_Rikki
 
 Ahvo Aarto_Artur Asko Tuokko_David Rieti_Frederick
-			Kauro_Gabriel Kuuti_Knut Pekko Soini_Sven Tuure Turo Tommo Tohmas_Thomas
+			Kauro Kuuti_Knut Pekko Soini_Sven Tuure Turo Tommo
 		}
 		female_names = {
 			Aamu Aino Hellä Helmi Ilta Kaarina_Catherine Käpy Kielo Kukka Lauha Lempi Mahla Maija 
 
-Marja Mesi Metta Päivä Päivi Pihla Pilvi Rauha Sisko Suoma
+Marja Mesi Metta Päivä Päivi Pihla Pilvi Rauha
 			Taimi Terhi Titti Tuija Tuovi Tuuli Tuulikki Tyyne Tyyni Vanamo Venla Mielikki Hertta Loviisa 
 
 Inkeri Ilmatar Irene_Irene Ilona_Helen Kristiina_Christina
