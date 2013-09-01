@@ -220,6 +220,8 @@
 
 	add_trait = "possessed"
         add_trait = "lunatic"
+        add_trait = "genius"
+        add_trait = "cruel"
 
 	religion = "catholic"
 	culture = "irish"
@@ -269,14 +271,15 @@
 
 2000019 = {
 	name = "Diarmait"
-	dynasty = 2000014 # Ua Diarmait
+	dynasty = 2000011 # Ua Donnchad
 
-        martial = 11
+	add_trait = "genius"
+        add_trait = "cruel"
 
-	add_trait = "viking"
-
-	religion = "norse_pagan"
+	religion = "catholic"
 	culture = "irish"
+
+        father = 2000015 # Donnchad
 
 	878.1.1 = { birth = "878.1.1" }
 }
