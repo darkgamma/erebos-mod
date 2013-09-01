@@ -30,3 +30,14 @@
 	
 	869.1.1 = { birth = "869.1.1" }
 }
+
+3000004 = {
+	name = "Rekki"
+	
+	dynasty = 3000004 # Yrjölä
+	
+	religion = "finnish_pagan"
+	culture = finnish
+	
+	874.1.1 = { birth = "874.1.1" }
+}
