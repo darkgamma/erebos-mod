@@ -68,7 +68,7 @@ k_tarraconensis;Tarraconensis;;;;;;;;;;;;;x
 k_tarraconensis_adj;Tarraconesian;;;;;;;;;;;;;x
 k_cartaginensis;Cartaginensis;;;;;;;;;;;;;x
 k_cartaginensis_adj;Cartaginesian;;;;;;;;;;;;;x
-k_lusttania;Lusitania;;;;;;;;;;;;;x
+k_lusitania;Lusitania;;;;;;;;;;;;;x
 k_lusitania_adj;Lusitanian;;;;;;;;;;;;;x
 k_gallaecia;Gallaecia;;;;;;;;;;;;;x
 k_gallaecia_adj;Gallaecian;;;;;;;;;;;;;x
@@ -90,8 +90,8 @@ k_carthago;Carthago;;;;;;;;;;;;;x
 k_carthago_adj;Carthaginean;;;;;;;;;;;;;x
 k_aegyptus;Aegyptus;;;;;;;;;;;;;x
 k_aegyptus_adj;Aegyptian;;;;;;;;;;;;;x
-k_libya;Libya;;;;;;;;;;;;;x
-k_libya_adj;Libyan;;;;;;;;;;;;;x
+k_lybia;Lybia;;;;;;;;;;;;;x
+k_lybia_adj;Lybian;;;;;;;;;;;;;x
 k_sinai;Sinai;;;;;;;;;;;;;x
 k_sinai_adj;Sinaian;;;;;;;;;;;;;x
 # DUCHIES
