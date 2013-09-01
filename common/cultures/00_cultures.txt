@@ -1395,7 +1395,7 @@ celtic = {
 	graphical_culture = westerngfx
 
 	cornish = {
-		graphical_culture = celticgfx
+		graphical_culture = westerngfx
 		
 		color = { 0.3 0.8 0.8 }
 		
@@ -1552,7 +1552,7 @@ Máel-Muire Mauda_Matilda
 		mother_name_chance = 10
 	}
 	pictish = {
-		graphical_culture = celticgfx
+		graphical_culture = westerngfx
 
 		color = { 0.3 1.0 0.8 }		
 
@@ -1590,7 +1590,7 @@ Niverturion Nictath Olfinecta
 		mother_name_chance = 10
 	}
 	scottish = {
-		graphical_culture = celticgfx
+		graphical_culture = westerngfx
 		
 		color = { 0.3 0.7 0.7 }
 
@@ -1648,7 +1648,7 @@ Morag_Mor Muriel_Muriel
 		mother_name_chance = 10
 	}
 	welsh = {
-		graphical_culture = celticgfx
+		graphical_culture = westerngfx
 		
 		color = { 0.3 0.8 0.6 }
 
@@ -1722,7 +1722,7 @@ Sum must not exceed 100.
 		mother_name_chance = 0
 	}
 	breton = {
-		graphical_culture = celticgfx
+		graphical_culture = westerngfx
 		
 		color = { 0.3 0.5 0.4 }
 		
