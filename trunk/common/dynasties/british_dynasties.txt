@@ -64,6 +64,6 @@
 }
 
 2000014 = {
-	name = "ua Fergal"
+	name = "ua Áed"
 	culture = irish
 }
