@@ -2,3 +2,7 @@
 {
 	holder=2000018 # Iacob Ua Iacob
 }
+
+898.1.1 = {
+	liege = "d_ulster"
+}
