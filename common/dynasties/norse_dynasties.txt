@@ -47,3 +47,8 @@
 	name = "Flosing"
 	culture = norse
 }
+
+1000011 = {
+	name = "Úlfring"
+	culture = norse
+}
