@@ -167,7 +167,7 @@
 	religion = "catholic"
 	culture = "irish"
 
-	872.1.1 = { birth = "872.1.1" }
+	862.1.1 = { birth = "862.1.1" }
 }
 
 2000012 = {
@@ -252,7 +252,7 @@
 	religion = "catholic"
 	culture = "irish"
 
-        father = 2000016 # Iacob
+        father = 2000016 # Muiredach
 
 	868.1.1 = { birth = "868.1.1" }
 }
@@ -282,4 +282,32 @@
         father = 2000015 # Donnchad
 
 	878.1.1 = { birth = "878.1.1" }
+}
+
+2000020 = {
+	name = "Fergal"
+	dynasty = 2000009 # Ua Pátraic
+        
+        add_trait = "humble"
+
+	religion = "catholic"
+	culture = "irish"
+
+        father = 2000011 # Pátraic
+
+	884.1.1 = { birth = "884.1.1" }
+}
+
+2000021 = {
+	name = "Fergus"
+	dynasty = 2000009 # Ua Pátraic
+        
+        add_trait = "greedy"
+
+	religion = "catholic"
+	culture = "irish"
+
+        father = 2000011 # Pátraic
+
+	888.1.1 = { birth = "888.1.1" }
 }
