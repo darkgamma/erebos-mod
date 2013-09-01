@@ -92,6 +92,8 @@ k_aegyptus;Aegyptus;;;;;;;;;;;;;x
 k_aegyptus_adj;Aegyptian;;;;;;;;;;;;;x
 k_libya;Libya;;;;;;;;;;;;;x
 k_libya_adj;Libyan;;;;;;;;;;;;;x
+k_sinai;Sinai;;;;;;;;;;;;;x
+k_sinai_adj;Sinaian;;;;;;;;;;;;;x
 # DUCHIES
 d_omsk;Omsk;;;;;;;;;;;;;x
 d_omsk_adj;Omskian;;;;;;;;;;;;;x
@@ -125,5 +127,7 @@ d_salmalaiset;Salmalaiset;;;;;;;;;;;;;x
 d_salmalaiset_adj;Salmi;;;;;;;;;;;;;x
 d_herjedalen;Herjedalen;;;;;;;;;;;;;x
 d_herjedalen_adj;Herjedalian;;;;;;;;;;;;;x
+d_polania;Polania;;;;;;;;;;;;;x
+d_polania_adj;Polanian;;;;;;;;;;;;;x
 # BARONIES
 b_ras;Ras;;;;;;;;;;;;;x
