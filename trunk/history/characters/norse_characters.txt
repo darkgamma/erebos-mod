@@ -237,3 +237,14 @@
 	
 	865.1.1 = { birth = "865.1.1" }
 }
+
+1000015 = {
+	name = "Úlfr"
+	
+	dynasty = 1000011 # Úlfring
+	
+	religion = "norse_pagan"
+	culture = norse
+	
+	865.1.1 = { birth = "865.1.1" }
+}
