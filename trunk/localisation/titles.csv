@@ -110,7 +110,7 @@ d_heves_adj;Hevesian;;;;;;;;;;;;;x
 d_kent;Kent;;;;;;;;;;;;;x
 d_kent_adj;Kentian;;;;;;;;;;;;;x
 d_vilnius;Vilnius;;;;;;;;;;;;;x
-d_vilnius_adj;Vilnan;;;;;;;;;;;;;x
+d_vilnius_adj;Vilnian;;;;;;;;;;;;;x
 d_minsk;Minsk;;;;;;;;;;;;;x
 d_minsk_adj;Minskian;;;;;;;;;;;;;x
 d_lithuania;Lithuania;;;;;;;;;;;;;x
@@ -129,5 +129,7 @@ d_herjedalen;Herjedalen;;;;;;;;;;;;;x
 d_herjedalen_adj;Herjedalian;;;;;;;;;;;;;x
 d_polania;Polania;;;;;;;;;;;;;x
 d_polania_adj;Polanian;;;;;;;;;;;;;x
+d_daugava;Daugava;;;;;;;;;;;;;x
+d_daugava_adj;Daugavan;;;;;;;;;;;;;x
 # BARONIES
 b_ras;Ras;;;;;;;;;;;;;x
