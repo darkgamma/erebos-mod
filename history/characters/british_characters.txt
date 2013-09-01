@@ -172,7 +172,7 @@
 
 2000012 = {
 	name = "Cormac"
-	dynasty = 2000010 # Ua Cormac
+	dynasty = 2000014 # Ua Áed
 
 	learning = 10
 
@@ -180,6 +180,8 @@
 
 	religion = "catholic"
 	culture = "irish"
+
+        father = 2000022 # Áed
 
 	886.1.1 = { birth = "886.1.1" }
 }
@@ -259,12 +261,14 @@
     
 2000018 = {
 	name = "Iacob"
-	dynasty = 2000013 # Ua Iacob
+	dynasty = 2000014 # Ua Áed
 
 	add_trait = "lustful"
 
 	religion = "catholic"
 	culture = "irish"
+
+        father = 2000022 # Áed
 
 	882.1.1 = { birth = "882.1.1" }
 }  
@@ -310,4 +314,16 @@
         father = 2000011 # Pátraic
 
 	888.1.1 = { birth = "888.1.1" }
+}
+
+2000022 = {
+	name = "Áed"
+	dynasty = 2000014 # Ua Áed
+        
+        add_trait = "greedy"
+
+	religion = "catholic"
+	culture = "irish"
+
+	848.1.1 = { birth = "848.1.1" }
 }
