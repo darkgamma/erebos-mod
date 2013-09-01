@@ -13438,7 +13438,7 @@ e_byzantine = {
 			}
 		}
 		
-		d_lesser_poland = { 
+		d_polania = { 
 			color={ 245 163 176 }
 			color2={ 255 255 255 }
 			
