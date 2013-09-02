@@ -140,7 +140,7 @@
 }
 
 2000010 = {
-	name = "Cedwyn" # Lowborn
+	name = "Cedwyn"
         dynasty = 2000007 # ap Cedwyn
 
 	martial = 5
@@ -158,7 +158,7 @@
 
 2000011 = {
 	name = "Pátraic"
-	dynasty = 2000009 # Ua Pátraic
+	dynasty = 2000009 # ua Pátraic
 
 	intrigue = 8
 
@@ -172,7 +172,7 @@
 
 2000012 = {
 	name = "Cormac"
-	dynasty = 2000014 # Ua Áed
+	dynasty = 2000014 # ua Áed
 
 	learning = 10
 
@@ -188,7 +188,7 @@
 
 2000013 = {
 	name = "Liam"
-	dynasty = 2000011 # Ua Donnchad
+	dynasty = 2000011 # ua Donnchad
 
 	add_trait = "lunatic"
         add_trait = "twin"
@@ -203,7 +203,7 @@
 
 2000014 = {
 	name = "Niall"
-	dynasty = 2000011 # Ua Donnchad
+	dynasty = 2000011 # ua Donnchad
 
 	add_trait = "possessed"
         add_trait = "twin"
@@ -218,7 +218,7 @@
 
 2000015 = {
 	name = "Donnchad"
-	dynasty = 2000011 # Ua Donnchad
+	dynasty = 2000011 # ua Donnchad
 
 	add_trait = "possessed"
         add_trait = "lunatic"
@@ -234,7 +234,7 @@
 
 2000016 = {
 	name = "Muiredach"
-	dynasty = 2000012 # Ua Muiredach
+	dynasty = 2000012 # ua Muiredach
 
 	add_trait = "brave"
 
@@ -247,7 +247,7 @@
 
 2000017 = {
 	name = "Ruaidrí"
-	dynasty = 2000012 # Ua Muiredach
+	dynasty = 2000012 # ua Muiredach
 
 	add_trait = "quick"
 
@@ -261,7 +261,7 @@
     
 2000018 = {
 	name = "Iacob"
-	dynasty = 2000014 # Ua Áed
+	dynasty = 2000014 # ua Áed
 
 	add_trait = "lustful"
 
@@ -275,7 +275,7 @@
 
 2000019 = {
 	name = "Diarmait"
-	dynasty = 2000011 # Ua Donnchad
+	dynasty = 2000011 # ua Donnchad
 
 	add_trait = "genius"
         add_trait = "cruel"
@@ -290,7 +290,7 @@
 
 2000020 = {
 	name = "Fergal"
-	dynasty = 2000009 # Ua Pátraic
+	dynasty = 2000009 # ua Pátraic
         
         add_trait = "humble"
 
@@ -304,7 +304,7 @@
 
 2000021 = {
 	name = "Fergus"
-	dynasty = 2000009 # Ua Pátraic
+	dynasty = 2000009 # ua Pátraic
         
         add_trait = "greedy"
 
@@ -318,7 +318,7 @@
 
 2000022 = {
 	name = "Áed"
-	dynasty = 2000014 # Ua Áed
+	dynasty = 2000014 # ua Áed
         
         add_trait = "greedy"
 
