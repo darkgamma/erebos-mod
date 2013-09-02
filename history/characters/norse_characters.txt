@@ -248,3 +248,51 @@
 	
 	865.1.1 = { birth = "865.1.1" }
 }
+
+1000016 = {
+	name = "Ívarr"
+	
+	dyansty = 1000002 # Orming
+	
+	father = 1000007 # Ragnarr
+	
+	add_trait = "scarred"
+	add_trait = "gregarious"
+	add_trait = "weak"
+	add_trait = "brave"
+	
+	culture = norse
+	religion = "norse_pagan"
+	
+	give_nickname = nick_hinn_beinlausi
+	
+	834.1.1={ birth="834.1.1" }
+	879.1.1={ death="879.1.1" }
+}
+
+1000017 = {
+	name = "Halfdanr"
+	
+	dynasty = 1000002 # Orming
+	
+	father = 1000007 # Ragnarr
+	
+	culture = norse
+	religion = "norse_pagan"
+	
+	839.1.1={ birth="839.1.1" }
+	880.1.1={ death="879.1.1" }
+}
+
+1000018 = {
+	name = "Bjarni"	
+	
+	dynasty = 1000002 # Orming
+	
+	father = 1000007 # Ragnarr
+	
+	culture = norse
+	religion = "norse_pagan"
+	
+	842.1.1={ birth="842.1.1" }
+}
