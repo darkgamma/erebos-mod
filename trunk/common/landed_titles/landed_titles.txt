@@ -22271,3 +22271,67 @@ d_salmalaiset = {
 	foa = "HIGH_CHIEF_FOA"
 	title_prefix = "TRIBE_OF"
 }
+
+e_byzantium = {
+	color = { 0 0 0 }
+}
+
+e_ilkhanate = {
+	color = { 0 0 0 }
+}
+
+e_golden_horde = {
+	color = { 0 0 0 }
+}
+
+e_mexikha = {
+	color = { 0 0 0 }
+}
+
+k_hungary = {
+	color = { 0 0 0 }
+}
+
+k_magyar = {
+	color = { 0 0 0 }
+}
+
+k_papal_state = {
+	color = { 0 0 0 }
+}
+
+k_leon = {
+	color = { 0 0 0 }
+}
+
+k_asturias = {
+	color = { 0 0 0 }
+}
+
+k_seljuk_turks = {
+	color = { 0 0 0 }
+}
+
+d_varangian_guard = {
+	color = { 0 0 0 }
+}
+
+d_knights_templar = {
+	color = { 0 0 0 }
+}
+
+d_teutonic_order = {
+	color = { 0 0 0 }
+}
+
+d_knights_hospitaler = {
+	color = { 0 0 0 }
+}
+
+d_hashshashin = {
+	color = { 0 0 0 }
+}
+
+d_jomsvikings = {
+	color = { 0 0 0 }
+}
