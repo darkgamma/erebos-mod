@@ -21200,6 +21200,7 @@ e_pars = {
 		welsh = Alba
 		irish = Alba
 		breton = Alba
+                pictish = Pictavia
 		
 		d_moray = {
 			color={ 10 81 243 }
