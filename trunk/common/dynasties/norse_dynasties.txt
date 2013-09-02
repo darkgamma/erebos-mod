@@ -49,6 +49,11 @@
 }
 
 1000011 = {
-	name = "Úlfring"
+	name = "Úlfing"
+	culture = norse
+}
+
+1000012 = {
+	name = "Brandring"
 	culture = norse
 }
