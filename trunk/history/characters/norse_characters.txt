@@ -142,7 +142,7 @@
 	religion = "norse_pagan"
 	culture = norse
 
-	father = 1000006 # Sigurð Ormr-í-Auga
+	father = 1000006 # Sigurðr Ormr-í-Auga
 	
 	874.1.1 = { birth = "874.1.1" }
 }
