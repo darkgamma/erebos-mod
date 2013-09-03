@@ -11,7 +11,7 @@
 	martial=5
 	
 	religion="norse_pagan"
-	culture="norse"
+	culture=norse
 	
 	add_trait="brave"
 	add_trait="just"
@@ -28,7 +28,7 @@
 	stewardship = 7
 	
 	religion="norse_pagan"
-	culture="norse"
+	culture=norse
 	
 	add_trait = "craven"
 	add_trait = "fair"
