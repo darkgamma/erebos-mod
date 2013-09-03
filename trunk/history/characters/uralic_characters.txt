@@ -6,6 +6,8 @@
 	religion = "finnish_pagan"
 	culture = lappish
 	
+	add_trait = paranoid
+	
 	875.1.1 = { birth = "875.1.1" }
 }
 
