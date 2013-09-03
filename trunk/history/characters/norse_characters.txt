@@ -124,6 +124,8 @@
 	religion = "norse_pagan"
 	culture = norse
 	
+	add_trait = hsb_yellow
+	
 	807.1.1 = { birth = "807.1.1" }
 	859.1.1 = { death = "859.1.1" }
 }
@@ -245,7 +247,7 @@
 1000016 = {
 	name = "Úlfr"
 	
-	dynasty = 1000011 # Úlfring
+	dynasty = 1000011 # Úlfing
 	
 	religion = "norse_pagan"
 	culture = norse
@@ -264,6 +266,8 @@
 	add_trait = "gregarious"
 	add_trait = "weak"
 	add_trait = "brave"
+	
+	add_trait = hsb_bronze
 	
 	culture = norse
 	religion = "norse_pagan"
@@ -294,6 +298,8 @@
 	dynasty = 1000002 # Orming
 	
 	father = 1000007 # Ragnarr
+	
+	add_trait = hsb_bronze
 	
 	culture = norse
 	religion = "norse_pagan"
