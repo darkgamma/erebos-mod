@@ -173,6 +173,8 @@
 	add_trait = weak
 	add_trait = fair
 	
+	add_trait = hsb_lime
+	
 	give_nickname = nick_ordalausi
 	
 	religion = "norse_pagan"
@@ -210,6 +212,8 @@
 	
 	religion = "norse_pagan"
 	culture = norse
+	
+	add_trait = hsb_lime
 	
 	give_nickname = nick_aedandi
 	
@@ -271,7 +275,7 @@
 }
 
 1000017 = {
-	name = "Halfdanr"
+	name = "Halfdann"
 	
 	dynasty = 1000002 # Orming
 	
