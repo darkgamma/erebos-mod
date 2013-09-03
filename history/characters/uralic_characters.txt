@@ -41,3 +41,14 @@
 	
 	874.1.1 = { birth = "874.1.1" }
 }
+
+3000005 = {
+	name = "Voitto"
+	
+	dynasty = 3000005 # Voittonen
+	
+	religion = "finnish_pagan"
+	culture = finnish
+	
+	866.1.1 = { birth = "866.1.1" }
+}

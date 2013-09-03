@@ -17,3 +17,8 @@
 	name = "Yrjölä"
 	culture = finnish
 }
+
+3000005 = {
+	name = "Voittonen"
+	culture = finnish
+}
