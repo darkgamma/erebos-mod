@@ -2911,16 +2911,12 @@ Vedrana Visnja Vjekoslava Zlata Zvonimira
 		from_dynasty_prefix = "od "
 
 		modifier = default_culture_modifier
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum 
-
-must not exceed 100.
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 40
 		mat_grf_name_chance = 10
 		father_name_chance = 10
 		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. 
-
-Sum must not exceed 100.
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 10
 		mat_grm_name_chance = 40
 		mother_name_chance = 5
@@ -3272,7 +3268,64 @@ Zîlan Zînet Zînê Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermî
 
 east_african = {
 	graphical_culture = muslimgfx
+	
+	somali = {
+		graphical_culture = africangfx
+		color = { 0.75 0.35 0.15 }
 
+		male_names = {
+Abdale Abdelahi Abdi Abdikarim Abdisalaan Abdul Abdulaahi Abdulahi Abdullah Abdullahi Aberashid Abtidoon Abukar Adam Adirizak Ahmad Ahmed Ali Arale Aul Awaale Ayan Azhar Badlay Bahdoon Barakat Barre Cali Caraale Ciise Cusmaan Dable Dalmr Dhidhin Geeddi Geedi Ghedi Guleed Gutaale Hadji Hakim Hamar Hanad Haqq Harti Hasan Hassan Hirsi Hussein Ibraahin Ibrahiim Ibrahim Jabir Jamal Jwahir Kaahin Kalif Khalid Khayre Kooge Korfa Labaan Liban Liibaan Mahdi Mansur Maxamed Maxamuud Mohamed Mohammed Mohamoud Mohamud Nadif Nahwi Naleye Nur Nuruddin Omar Omer Osman Othman Raage Raxman Roble Sa'ad Sabr Sallan Samakab Samatar Shams Sherif Shermarke Siad Siciid Sihab Taban Umar Waabberi Warsame Yusuf Yuusuf
+		}
+		female_names = {
+Aasha Abyan Adey Aisha Alaso Amal Ambro Amina Asli Awa Awatif Awrala Ayaan Aziza Baar Barni Barwaaqo Basra Beerlula Cadey Calaso Cambro Canab Cawo Cawralla Cawralo Cibaado Cosob Dahabo Deka Dekah Dekka Dolie Ebyan Faadumo Fadumo Farhiyo Fartun Fathia Fatima Fawzia Fowsia Haboon Hafsa Haweeya Hibaaq Hindisa Hodan Hoodo Ibtisam Idil Ilhan Ilwaad Jamilla Kinsi Koos Leyla Magol Maka Mariam Muna Nadifa Nafiso Naja Najmo Obax Rhaxma Saafi Sagal Sahra Saxarla Sharifa Shukri Sufia Sumayo Suuban Ubah Ubax Walasma Waris Zaynab Zeinab
+			}
+
+		modifier = default_culture_modifier
+		}
+	}
+		nubian = {
+		graphical_culture = africangfx
+		
+		color = { 0.4 0.4 0.3 }
+
+		male_names = {
+			Aarôn_Aaron Aberikos Abraam_Abraham Angelos_Angelus Andreas_Andrew Athanasios Balô Bartholomaios_Bartholomew Birel Chael Christophoros Dauid_David Dimetheos_Timothy
+			Dioskoros Diônisios_Dionysus Eliezer Eionkouda Emmanouel_Emmanuel Enôch_Enoch Ephanne Epimachos Epiphanios Gabriel_Gabriel Gabrielkouda Gabrielophorou Gennatios_Gennadius
+			Geôrgios_George Helias_Elias Hoase_Jesse Hoassi_Jesse Hoasse_Jesse Ieremias Iesous_Jesus Iesousinkouda Iôannou_Jonah Iôannes_John
+			Kuriakos_Kyriakos Kurillos_Cyril Lazaros_Lazarus Leon_Leo Leontios_Leontius Makarios_Makarius Mariana Mariankouda Marianos_Marianus Marios_Marius Markos_Marcus Marturophoros
+			Mašannal Maththias_Matthew Melenkouda Mena Menankouda Merkourios_Mercurius Michael_Michael Michaelkouda Mouses_Moses Orna Panigiros Papasinen Papasinkouda Patrikios_Patrick
+			Paulos_Paul Petros_Peter Petrou Philotheos Philemon Prochoros Raphael Raphaelkouda Samson Senouthios Sentiko Sergios_Sergius Solomôn_Solomon Sotinkouda Stephanos_Stephen
+			Stephanou Thadeosi_Thaddeus Theodôros_Theodore Theodosios_Theodosius Theodote Thoma_Thomas Tophena Tirsakouni Zacharias_Zachary Zosima_Zosimus
+		}
+		female_names = {
+			Agathe Alethia Anthelia Athanasia Chaelsonoja Chrissa Christina Egaloskoura Eikkir Eionmnne Eionnoka Eitou Elisabeth_Elizabeth Eirena Eirene Eirota Eirotatounnlki
+			Entaeiri Eôneille Ephanne Epimachosi Eudosia_Eudoxia Eulabia Eusebia Eustephanou Fatima Genseoua Hellene_Helen Hemene Iannia_Joan Iesousyko Ioustina Kel Kerike Kersiami Kettoudi
+			Keudonia Maria_Maria Mariam_Maria Mariane Marianou Michaeliko_Michaela Našša Neššadena Nejin Nilesa Nojjl Noltou Nonne Nonnen Nouddl Nssitkitol Ouarenô Patrikia_Patricia Pelagia
+			Penatti Pesanthia Petronia Prisisilla Rahimah Sophia Sousanna Staurophania Theobronia Theodorake Theodosia Theophania Theophilia Theipisthe Theozia Zerebekka
+		}
+
+		modifier = default_culture_modifier
+	}
+	coptic = {
+		graphical_culture = muslimgfx #africangfx
+		
+		color = { 0.8 0.4 0.4 }
+
+		male_names = {
+			Aaron_Aaron Abanoub Abderahman_Abderrahman Abianos_Abijah Abisalom Ablarion Abraam_Abraham Agathon_Agathos Agathonikos_Agathonikos Agathos_Agathos
+			Androus_Andrew Anthinos_Anthimos Arsenios_Arsenios Ashraf_Ashraf Athanasios_Athanasius Biktor_Victor Binyamin_Benjamin Bishoi_Bishara Boutros_Peter
+			Danyal_Daniel Da’oud_David Ezra_Ezra Gabri’el_Gabriel Georgios_George Habil_Abel Hanri_Henry Haroun_Aaron Ilyas_Elijah Jerjer_Gregory 
+			Krystafer_Christopher Lot_Lothar Matta_Matthew Mikail_Michael Mikhael_Michael Milad_Milad Mina_Menas Musa_Moses Pamin Tadros_Theodore Touma_Thomas
+			Yared Youssef_Joseph Zaia_Isaiah
+		}
+		female_names = {
+			Demiana Elpis_Hope Hannah_Anna Hawwa_Eve Ilizabith_Elizabeth Kasrin_Catherine Kristina_Christine Mariam_Maria Marta_Martha Maysoon_Maysoon Paisi
+			Piama Piamun Potamina Samia_Samira Sofia_Sofia Talida_Taliba Virina_Veronica
+		}
+		from_dynasty_prefix = " "
+
+		modifier = default_culture_modifier
+	}
 	ethiopian = {
 		graphical_culture = africangfx
 		
