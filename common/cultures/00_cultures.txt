@@ -3285,7 +3285,7 @@ Aasha Abyan Adey Aisha Alaso Amal Ambro Amina Asli Awa Awatif Awrala Ayaan Aziza
 	nubian = {
 		graphical_culture = africangfx
 		
-		color = { 0.4 0.4 0.3 }
+		color = { 0.6 0.6 0.3 }
 
 		male_names = {
 			Aarôn_Aaron Aberikos Abraam_Abraham Angelos_Angelus Andreas_Andrew Athanasios Balô Bartholomaios_Bartholomew Birel Chael Christophoros Dauid_David Dimetheos_Timothy
