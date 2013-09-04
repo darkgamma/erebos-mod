@@ -3283,7 +3283,7 @@ Aasha Abyan Adey Aisha Alaso Amal Ambro Amina Asli Awa Awatif Awrala Ayaan Aziza
 		modifier = default_culture_modifier
 		}
 	}
-		nubian = {
+	nubian = {
 		graphical_culture = africangfx
 		
 		color = { 0.4 0.4 0.3 }
