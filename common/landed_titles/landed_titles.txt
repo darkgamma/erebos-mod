@@ -21183,7 +21183,7 @@ e_pars = {
 	}
 	
 	k_scotland = {
-		color={ 20 80 162 }
+		color={ 40 0 250 }
 		color2={ 255 255 255 }
 		
 		capital = 43 #Gowrie
