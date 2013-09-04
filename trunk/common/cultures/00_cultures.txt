@@ -1878,29 +1878,29 @@ Máidna Násti Naná Njáves Oajá Sáráhkká Sealggá
 		color = { 0.3 0.7 0.7 }
 
 		male_names = {
-			Altocumulus Andyamo Chichayka Dergun Deryab Dobrinya Inzhay Kezhapa Kezhay Kezhedey 
+			Aatos Ahma Aimo Armas Arvo Asikko Ensio Haapa Hannu Havu Hintsa Ihanti Into Jalo Jurva 
 
-Kezhevat Kichay Malyaka Malyy Meltsayka Mordvinko
-			Nalka Nuyaksha Nuyanza Nuyat Ovtay Pakstyan Paksyay Paksyut Parush Pivtsay Pokshayka 
+Kaleva Kalevi Kettu Kolli Lalli Lauri_Laurence Lemetti
+			Mielitty Miemo Mikko_Michael Oiva Onni Otso Pyry Päiviö Pentti Reko Sampo Satajalka 
 
-Putyayka Setyamka Shindyay Syrka Tikshayka
-			Tyueykezhut Uchva Varaka Vechkas Velmayka Virdyan Viryas Viryay
+Satatieto Seppo Susi Tapani Terho Toivo Ukko Uoti Urho Väinö
+			Valta Valto Veli Vesa Voitto Erkki_Erik Risto_Christopher Yrjö
+			Rikki_Rikki Riku_Richard Taisto Aatso Rekko Rekki_Rikki
+
+Ahvo Aarto_Artur Asko Tuokko_David Rieti_Frederick
+			Kauro Kuuti_Knut Pekko Soini_Sven Tuure Turo Tommo
 		}
 		female_names = {
-			Anava Ashava Asrava Azra-Va Chechama Chenksa Cherava Chichayka Chindyapa Chindyayka 
+			Aamu Aino Hellä Helmi Ilta Kaarina_Catherine Käpy Kielo Kukka Lauha Lempi Mahla Maija 
 
-Chinzhay Chitska Elyuva Inyava Kanyava Kanyuva
-			Kirdyava Kunava Kunyavka Litava Liyava Mazava Megurka Mel'shay Nezayka Nulzyava Nyal'ka 
+Marja Mesi Metta Päivä Päivi Pihla Pilvi Rauha
+			Taimi Terhi Titti Tuija Tuovi Tuuli Tuulikki Tyyne Tyyni Vanamo Venla Mielikki Hertta Loviisa 
 
-Nyayka Olota Ordava Oshama Parava Pekshayka
-			Pemka Pokshava Poshayka Potekay Potyava Putyayka Ravzhava Ruzava Sanal'ka Sangasa Sernyava 
+Inkeri Ilmatar Irene_Irene Ilona_Helen Kristiina_Christina
+			Elisabet_Elisabeth Sohvi_Sofia Auni_Agnes Liekko_Helen Kivutar Lemmikki Lyylikki Salme 
 
-Serzhay Setyamka Seyamka Shonzhava
-			Shukshtoroyka Sinyava Siyamka Slyugan'ka Sochava Styaka Syryava Tatka Tekay Tetyava 
-
-Tikshayka Toyaksha Tundava Tundya Unzhutka Upurga
-			Utyayka Valdava Vergava Vezhav Vidyava Virtyava Yalgava
-		}
+Talvikki Tuulitar
+                }
 		from_dynasty_prefix = "kohta "
 
 		modifier = default_culture_modifier
@@ -2933,26 +2933,24 @@ Vedrana Visnja Vjekoslava Zlata Zvonimira
 Djordje_George Dmitar Dobroslav Dragija Dragos Dragutin Gavrilo_Gabriel Godimir Goran
 			Grgur Ilija Ivan_John Josif_Joseph Josip_Joseph Jovan_John Kasjan Konstantin_Constantine 
 
-Krsto Lazar Ljudevit Luka Marko_Marcus Martin_Martin Matija_Matthew Mihailo Mihovil Milorad Milutin Mircea 
+Krsto Lazar Ljudevit Luka Marko_Marcus Martin_Martin Matija_Matthew Mihailo Mihovil Milorad Milutin
 
 Miroslav_Miroslav Mislav Nenad Nikodim_Nicodemus Nikola_Nicholas
-			Ninoslav Petar_Peter Porin Prvoslav Radoslav Rastko Ratomir Roman_Roman Serapion 
+			Ninoslav Petar_Peter Prvoslav Radoslav Rastko Ratomir Roman_Roman Tihomir
 
-Simeon_Simon Sinisa Slavko Slobodan Stefan_Stephen Teodosije Trajan Uros Visarion Vladimir_Vladimir Vladislav_Vladislav 
+Sinisa_Simon Slavko Slobodan Stefan_Stephen Teodosije Trajan Uros Vladimir_Vladimir Vladislav_Vladislav 
 
-Vlastimir
+Vlastimir Zavida Ugljesa
 			Vuk_Lupo Vukan Vukasin Vukoman Zoran Zvonimir
 		}
 		female_names = {
 			Agata_Agatha Barbara Branimira Desislava Dubravka Elena_Helen Hicela Jelena Karolina 
 
 Keratza Lovorka Marija_Maria Milka Neda Radica Zdenka Andjela Antonija
-			Bastina Biljana Bistrina Bojana Casna Chasna Dejana Dragana Dragoslava Duga Dusica Gordana 
+			Bastina Biljana Bistrina Bojana Dejana Dragana Dragoslava Duga Dusica Gordana 
 
-Grana Grubana Jagoda Jovana Jovanka Karika
-			Ljubica Luka Majka Malina Medeni Meki Milinka Miljana Miriti Mirjana Mudary Mudra Nada 
-
-Nadanje Namena
+ Grubana Jagoda Jovana Jovanka Karika
+			Ljubica Luka Majka Malina Medeni Meki Milinka Miljana Mirjana Mudra Nada
 		}
 		
 		from_dynasty_prefix = "od "
