@@ -2893,7 +2893,7 @@ Dmitar Dobromir Dragan Dragomir Drzislav Dujam Duym Filip_Philip Gaspar Gheorghe
 Kresimir Ladislav Ljudevit Ljutomisl Lovro Matej_Matthew Mihajlo Milman Mislav Mutimir
 			Nikolitza_Nicholas Ognjen Petar_Peter Prohor Radomir Ratimir Sebeslav Seslav Slavich 
 
-Stanislav_Stanislav Stjepan Sulvan Teodor Tomislav Tvrdoslav Tvrtko Ulfo_Ulf Vid Vitomir Vlaicu
+Stanislav_Stanislav Stjepan Sulvan Teodor Tomislav Tvrdoslav Tvrtko Ulfo_Ulf Vid Vitomir
 			Vukan Zvonimir
 		}
 		female_names = {
@@ -2946,11 +2946,11 @@ Vlastimir Zavida Ugljesa
 		female_names = {
 			Agata_Agatha Barbara Branimira Desislava Dubravka Elena_Helen Hicela Jelena Karolina 
 
-Keratza Lovorka Marija_Maria Milka Neda Radica Zdenka Andjela Antonija
+Lovorka Marija_Maria Milka Neda Radica Zdenka Andjela Antonija
 			Bastina Biljana Bistrina Bojana Dejana Dragana Dragoslava Duga Dusica Gordana 
 
- Grubana Jagoda Jovana Jovanka Karika
-			Ljubica Luka Majka Malina Medeni Meki Milinka Miljana Mirjana Mudra Nada
+ Grubana Jagoda Jovana Jovanka
+			Ljubica Luka Majka Malina Milinka Miljana Mirjana Mudra Nada
 		}
 		
 		from_dynasty_prefix = "od "
