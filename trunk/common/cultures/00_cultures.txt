@@ -3281,7 +3281,6 @@ Aasha Abyan Adey Aisha Alaso Amal Ambro Amina Asli Awa Awatif Awrala Ayaan Aziza
 			}
 
 		modifier = default_culture_modifier
-		}
 	}
 	nubian = {
 		graphical_culture = africangfx
