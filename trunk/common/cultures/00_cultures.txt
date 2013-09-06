@@ -290,7 +290,7 @@ Cecilie_Cecilia Cothilda_Clotilde Christine_Christina
 Eufemia Friedrica_Frederique Frida 
 			Gerberga_Gerberga Gerhild Gertrude_Gertrude Gisela_Gisela Gudrun_Gudrun 
 
-Gunhilda_Gunhild Hedwig Heilwiva Heike Helene_Helen 
+Gunhilda_Gunhild Hedwig_Hedwig Heilwiva Heike Helene_Helen 
 			Helga Henrike Hildeburg Hildegard_Hildegard Ida_Ida Ilsa Inge_Inge Irmele Irmeltrud 
 
 Irmgard_Ermengarde Isentrude
