@@ -48,7 +48,7 @@ k_langobardia;Langobardia;;;;;;;;;;;;;x
 k_langobardia_adj;Langobard;;;;;;;;;;;;;x
 k_roma;Roma;;;;;;;;;;;;;x
 k_roma_adj;Roman;;;;;;;;;;;;;x
-k_napoli;Napoli;;;;;;;;;;;;;x
+k_napoli;Neapoli;;;;;;;;;;;;;x
 k_napoli_adj;Neapolitan;;;;;;;;;;;;;x
 k_epirus;Epirus;;;;;;;;;;;;;x
 k_epirus_adj;Epireot;;;;;;;;;;;;;x
@@ -161,5 +161,23 @@ d_mordva;Mordva;;;;;;;;;;;;;x
 d_mordva_adj;Mordvian;;;;;;;;;;;;;x
 d_kuban;Kuban;;;;;;;;;;;;;x
 d_kuban_adj;Kuban;;;;;;;;;;;;;x
+d_xwarizmiyan;Xwarizmiyan;;;;;;;;;;;;;x
+d_xwarizmiyan_adj;Xwarizmiyan;;;;;;;;;;;;;x
+d_kyzylorda;Kyzylorda;;;;;;;;;;;;;x
+d_kyzylorda_adj;Kyzylordan;;;;;;;;;;;;;x
+d_baluchistan;Baluchistan;;;;;;;;;;;;;x
+d_baluchistan_adj;Baluchistanian;;;;;;;;;;;;;x
+d_mecklenburg;Mecklenburg;;;;;;;;;;;;;x
+d_mecklenburg_adj;Mecklenburgian;;;;;;;;;;;;;x
+d_capub;Neapoli;;;;;;;;;;;;;x
+d_capub_adj;Neapolitan;;;;;;;;;;;;;x
+d_pinsk;Pinsk;;;;;;;;;;;;;x
+d_pinsk_adj;Pinskian;;;;;;;;;;;;;x
+d_mari;Mari;;;;;;;;;;;;;x
+d_mari_adj;Mari;;;;;;;;;;;;;x
+d_ustug;Ustug;;;;;;;;;;;;;x
+d_ustug_adj;Ustugian;;;;;;;;;;;;;x
+d_faro;Faro;;;;;;;;;;;;;x
+d_faro_adj;Faronian;;;;;;;;;;;;;x
 # BARONIES
 b_ras;Ras;;;;;;;;;;;;;x
