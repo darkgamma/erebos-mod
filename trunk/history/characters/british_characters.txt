@@ -179,6 +179,8 @@
 
 	religion = "catholic"
 	culture = "irish" 
+	
+	father = 2000011 # Indrechtach
 
 	847.1.1 = { birth = "847.1.1" }
 }
@@ -193,7 +195,9 @@
         add_trait = "cruel"
 
 	religion = "catholic"
-	culture = "irish"
+	culture = "irish"	
+	
+	father = 2000011 # Indrechtach
 
 	850.1.1 = { birth = "850.1.1" }
 }
@@ -206,6 +210,8 @@
 
 	religion = "catholic"
 	culture = "irish"
+		
+	father = 2000011 # Indrechtach
 
 	853.1.1 = { birth = "853.1.1" }
 }
@@ -220,6 +226,8 @@
 
 	religion = "catholic"
 	culture = "irish"
+		
+	father = 2000011 # Indrechtach
 
 	856.1.1 = { birth = "856.1.1" }
 }
