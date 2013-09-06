@@ -13,6 +13,8 @@ e_mauretania;Mauritania;;;;;;;;;;;;;x
 e_mauretania_adj;Mauretanian;;;;;;;;;;;;;x
 e_africa;Africa;;;;;;;;;;;;;x
 e_africa_adj;African;;;;;;;;;;;;;x
+e_hispania;Hispania;;;;;;;;;;;;;x
+e_hispania_adj;Hispanian;;;;;;;;;;;;;x
 # KINGDOMS
 k_iceland;Iceland;;;;;;;;;;;;;x
 k_iceland_adj;Icelandic;;;;;;;;;;;;;x
@@ -94,6 +96,8 @@ k_lybia;Lybia;;;;;;;;;;;;;x
 k_lybia_adj;Lybian;;;;;;;;;;;;;x
 k_sinai;Sinai;;;;;;;;;;;;;x
 k_sinai_adj;Sinaian;;;;;;;;;;;;;x
+k_lechitic;the Lechites;;;;;;;;;;;;;x
+k_lechitic_adj;Lechitic;;;;;;;;;;;;;x
 # DUCHIES
 d_omsk;Omsk;;;;;;;;;;;;;x
 d_omsk_adj;Omskian;;;;;;;;;;;;;x
@@ -191,5 +195,11 @@ d_fryslan;Fryslan;;;;;;;;;;;;;x
 d_fryslan_adj;Fryslanian;;;;;;;;;;;;;x
 d_negev;Negev;;;;;;;;;;;;;x
 d_negev_adj;Negevian;;;;;;;;;;;;;x
+d_tobruk;Tobruk;;;;;;;;;;;;;x
+d_tobruk_adj;Tobrukian;;;;;;;;;;;;;x
+d_yazd;Yazd;;;;;;;;;;;;;x
+d_yazd_adj;Yazdian;;;;;;;;;;;;;x
+d_soria;Soria;;;;;;;;;;;;;x
+d_soria_adj;Sorian;;;;;;;;;;;;;x
 # BARONIES
 b_ras;Ras;;;;;;;;;;;;;x
