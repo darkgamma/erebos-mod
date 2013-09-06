@@ -42,8 +42,8 @@ k_steppe;The Steppe;;;;;;;;;;;;;x
 k_steppe_adj;Steppe;;;;;;;;;;;;;x
 k_volga;Volga;;;;;;;;;;;;;x
 k_volga_adj;Volgan;;;;;;;;;;;;;x
-k_narbo;Narbo;;;;;;;;;;;;;x
-k_narbo_adj;Narbonese;;;;;;;;;;;;;x
+k_narbo;Narbonesis;;;;;;;;;;;;;x
+k_narbo_adj;Narbonesian;;;;;;;;;;;;;x
 k_langobardia;Langobardia;;;;;;;;;;;;;x
 k_langobardia_adj;Langobard;;;;;;;;;;;;;x
 k_roma;Roma;;;;;;;;;;;;;x
@@ -131,5 +131,19 @@ d_polania;Polania;;;;;;;;;;;;;x
 d_polania_adj;Polanian;;;;;;;;;;;;;x
 d_daugava;Daugava;;;;;;;;;;;;;x
 d_daugava_adj;Daugavan;;;;;;;;;;;;;x
+d_narbo;Narbonesis;;;;;;;;;;;;;x
+d_narbo_adj;Narbonesian;;;;;;;;;;;;;x
+d_nice;Nice;;;;;;;;;;;;;x
+d_nice_adj;Niçois;;;;;;;;;;;;;x
+d_lorraine;Lorraine;;;;;;;;;;;;;x
+d_lorraine_adj;Lorrainian;;;;;;;;;;;;;x
+d_rouen;Rouen;;;;;;;;;;;;;x
+d_rouen_adj;Rouennois;;;;;;;;;;;;;x
+d_rouen;Rouen;;;;;;;;;;;;;x
+d_rouen_adj;Rouennois;;;;;;;;;;;;;x
+d_troyes;Troyes;;;;;;;;;;;;;x
+d_troyes_adj;Troyen;;;;;;;;;;;;;x
+d_vienne;Vienne;;;;;;;;;;;;;x
+d_vienne_adj;Viennois;;;;;;;;;;;;;x
 # BARONIES
 b_ras;Ras;;;;;;;;;;;;;x
