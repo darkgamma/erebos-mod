@@ -1,4 +1,8 @@
+840.1.1={
+	holder = 2000011 # Indrechtach ua Indrechtach
+}
+
 862.1.1={
-	holder = 2000015 # Donnchad Ua Donnchad
+	holder = 2000013 # Donnchad ua Donnchad
 }
 
