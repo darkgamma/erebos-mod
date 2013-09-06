@@ -1,6 +1,4 @@
-861.1.1={
-    holder=2000015 # Donnchad Ua Donnchad
-}
+
 897.1.1={
 	holder = 2000014 # Niall Ua Donnchad
 }

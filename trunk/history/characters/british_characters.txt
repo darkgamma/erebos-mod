@@ -167,7 +167,7 @@
 	religion = "catholic"
 	culture = "irish"
 
-	862.1.1 = { birth = "862.1.1" }
+	856.1.1 = { birth = "856.1.1" }
 }
 
 2000012 = {
@@ -228,8 +228,7 @@
 	religion = "catholic"
 	culture = "irish"
 
-	840.1.1 = { birth = "840.1.1" }
-        897.1.1 = { death = "897.1.1" }
+	850.1.1 = { birth = "850.1.1" }
 }
 
 2000016 = {
@@ -325,5 +324,5 @@
 	religion = "catholic"
 	culture = "irish"
 
-	848.1.1 = { birth = "848.1.1" }
+	853.1.1 = { birth = "853.1.1" }
 }

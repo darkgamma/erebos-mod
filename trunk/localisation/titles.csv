@@ -179,5 +179,17 @@ d_ustug;Ustug;;;;;;;;;;;;;x
 d_ustug_adj;Ustugian;;;;;;;;;;;;;x
 d_faro;Faro;;;;;;;;;;;;;x
 d_faro_adj;Faronian;;;;;;;;;;;;;x
+d_weimar;Weimar;;;;;;;;;;;;;x
+d_weimar_adj;Weimarian;;;;;;;;;;;;;x
+d_nurnberg;Nürnberg;;;;;;;;;;;;;x
+d_nurnberg_adj;Nürnbergian;;;;;;;;;;;;;x
+d_delta;Delta;;;;;;;;;;;;;x
+d_delta_adj;Deltan;;;;;;;;;;;;;x
+d_al_habbariyah;Al Habbariyah;;;;;;;;;;;;;x
+d_al_habbariyah_adj;Al Habbariyahian;;;;;;;;;;;;;x
+d_fryslan;Fryslan;;;;;;;;;;;;;x
+d_fryslan_adj;Fryslanian;;;;;;;;;;;;;x
+d_negev;Negev;;;;;;;;;;;;;x
+d_negev_adj;Negevian;;;;;;;;;;;;;x
 # BARONIES
 b_ras;Ras;;;;;;;;;;;;;x
