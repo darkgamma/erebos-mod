@@ -145,5 +145,21 @@ d_troyes;Troyes;;;;;;;;;;;;;x
 d_troyes_adj;Troyen;;;;;;;;;;;;;x
 d_vienne;Vienne;;;;;;;;;;;;;x
 d_vienne_adj;Viennois;;;;;;;;;;;;;x
+d_spis;Spis;;;;;;;;;;;;;x
+d_spis_adj;Spis;;;;;;;;;;;;;x
+d_oleshye;Oleshye;;;;;;;;;;;;;x
+d_oleshye_adj;Oleshyan;;;;;;;;;;;;;x
+d_petra;Petra;;;;;;;;;;;;;x
+d_petra_adj;Petran;;;;;;;;;;;;;x
+d_acre;Acre;;;;;;;;;;;;;x
+d_acre_adj;Acrenian;;;;;;;;;;;;;x
+d_chud;Chud;;;;;;;;;;;;;x
+d_chud_adj;Chudian;;;;;;;;;;;;;x
+d_hanyan;Hanyan;;;;;;;;;;;;;x
+d_hanyan_adj;Hanyanian;;;;;;;;;;;;;x
+d_mordva;Mordva;;;;;;;;;;;;;x
+d_mordva_adj;Mordvian;;;;;;;;;;;;;x
+d_kuban;Kuban;;;;;;;;;;;;;x
+d_kuban_adj;Kuban;;;;;;;;;;;;;x
 # BARONIES
 b_ras;Ras;;;;;;;;;;;;;x
