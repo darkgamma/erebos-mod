@@ -1,0 +1,57 @@
+	southslavic = {
+		graphical_culture = westernslavicgfx
+		
+		color = { 0.5 0.3 0.3 }
+
+		male_names = {
+			Aldimir Asen  Boleslav Borna Branimir Budimir Kosmin Danilo_Daniel 
+Dusan
+Djordje_George Dmitar Dobroslav Dragija Dragos Dragutin Gavrilo_Gabriel Godimir Goran
+			Grgur Ilija Josif_Joseph Kasjan Konstantin_Constantine 
+
+Krsto Lazar Ljudevit Luka Marko_Marcus Martin_Martin Matija_Matthew Mihailo Mihovil Milorad Milutin
+
+Miroslav_Miroslav Mislav Nenad Nikodim_Nicodemus Nikola_Nicholas
+			Ninoslav Prvoslav Radoslav Rastko Ratomir Roman_Roman Tihomir
+
+Sinisa_Simon Slavko Slobodan Stefan_Stephen Teodosije Trajan Uros Vladimir_Vladimir Vladislav_Vladislav 
+
+Vlastimir Zavida Ugljesa Uros
+			Vuk_Lupo Vukan_Lupo Vukasin_Lupo Vukoman_Lupo Zoran Zvonimir
+			Adam_Adam Andrija Bartol_Bartolomeus Besar Bojan Boris Branimir Castimir Danail_Daniel 
+
+Dmitar Dobromir Dragan Dragomir Drzislav Dujam Filip_Philip Gaspar Grigorii_Gregory
+			Hranislav Hrvoje Igor Ivan_John Ivanis Jitej Karlo_Charles Koloman_Koloman 
+
+Kresimir Ladislav Ljudevit Ljutomisl Lovro Matej_Matthew Mihajlo Milman Mislav Mutimir
+			Nikolitza_Nicholas Ognjen Petar_Peter Prohor Radomir Ratimir Sebeslav Seslav 
+
+Stanislav_Stanislav Stjepan Teodor Tomislav Tvrdoslav Tvrtko Ulfo_Ulf Vid Vitomir
+			 
+		}
+		female_names = {
+			Agata_Agatha Barbara Branimira Desislava Dubravka Elena_Helen Jelena Karolina 
+
+Lovorka Marija_Maria Milka Neda Radica Zdenka Andjela Antonija
+			 Biljana Bistrina Bojana Dejana Dragana Dragoslava Duga Dusica Gordana 
+
+ Grubana Jagoda Jovana Jovanka
+			Ljubica Luka Majka Malina Milinka Miljana Mirjana Mudra Nada
+			Adriana Ana_Anna Borislava Doroteja_Dorothy Ekaterina_Catherine 
+
+Jadviga_Hedwig Jovana Ladika Maria_Maria Mihaela Nada Petra Viola_Yolanda Jadranka Mare
+			  Dragana Dubravka Emilija_Emily Gordana Jagoda Jelena Jelka Lucija_Lucia 
+
+ Marija_Maria Marijana Mirjana Mirna Mojca Natalija Natasa
+			Rijeka Silvija Snjezana Sofija_Sophia Suzana_Susana Svjetlana Tatjana Valerija 
+
+Vedrana Visnja Vjekoslava Zlata Zvonimira
+		}
+		
+		from_dynasty_prefix = "od "
+		
+		male_patronym = "ic"
+		prefix = no
+
+		modifier = default_culture_modifier
+	}
