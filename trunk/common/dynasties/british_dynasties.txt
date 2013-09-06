@@ -39,12 +39,12 @@
 }
 
 2000009 = {
-	name = "ua Pátraic"
+	name = "ua Indrechtach"
 	culture = irish
 }
 
 2000010 = {
-	name = "ua Cormac"
+	name = "ua Muiredach"
 	culture = irish
 }
 
@@ -54,16 +54,11 @@
 }
 
 2000012 = {
-	name = "ua Muiredach"
+	name = "ua Áed"
 	culture = irish
 }
 
 2000013 = {
-	name = "ua Iacob"
-	culture = irish
-}
-
-2000014 = {
-	name = "ua Áed"
+	name = "ua Pátraic"
 	culture = irish
 }

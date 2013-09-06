@@ -157,66 +157,33 @@
 }
 
 2000011 = {
-	name = "Pátraic"
-	dynasty = 2000009 # ua Pátraic
-
-	intrigue = 8
+	name = "Indrechtach"
+	dynasty = 2000009 # ua Indrechtach
 
 	add_trait = "strong"
+	add_trait = "fair"
+	add_trait = "genius"
 
 	religion = "catholic"
 	culture = "irish"
 
-	856.1.1 = { birth = "856.1.1" }
+	820.1.1 = { birth = "820.1.1" }
+	862.1.1 = { death = "862.1.1" }
 }
 
 2000012 = {
-	name = "Cormac"
-	dynasty = 2000014 # ua Áed
+	name = "Muiredach"
+	dynasty = 2000010 # ua Muiredach
 
-	learning = 10
-
-	add_trait = "zealous"
+	add_trait = "brave"
 
 	religion = "catholic"
-	culture = "irish"
+	culture = "irish" 
 
-        father = 2000022 # Áed
-
-	886.1.1 = { birth = "886.1.1" }
+	847.1.1 = { birth = "847.1.1" }
 }
 
 2000013 = {
-	name = "Liam"
-	dynasty = 2000011 # ua Donnchad
-
-	add_trait = "lunatic"
-        add_trait = "twin"
-
-	religion = "catholic"
-	culture = "irish"
-
-        father = 2000015 # Donnchad
-
-	869.1.1 = { birth = "869.1.1" }
-}
-
-2000014 = {
-	name = "Niall"
-	dynasty = 2000011 # ua Donnchad
-
-	add_trait = "possessed"
-        add_trait = "twin"
-
-	religion = "catholic"
-	culture = "irish"
-
-        father = 2000015 # Donnchad
-
-	869.1.1 = { birth = "869.1.1" }
-}
-
-2000015 = {
 	name = "Donnchad"
 	dynasty = 2000011 # ua Donnchad
 
@@ -231,93 +198,9 @@
 	850.1.1 = { birth = "850.1.1" }
 }
 
-2000016 = {
-	name = "Muiredach"
-	dynasty = 2000012 # ua Muiredach
-
-	add_trait = "brave"
-
-	religion = "catholic"
-	culture = "irish" 
-
-	847.1.1 = { birth = "847.1.1" }
-}
-
-
-2000017 = {
-	name = "Ruaidrí"
-	dynasty = 2000012 # ua Muiredach
-
-	add_trait = "quick"
-
-	religion = "catholic"
-	culture = "irish"
-
-        father = 2000016 # Muiredach
-
-	868.1.1 = { birth = "868.1.1" }
-}
-    
-2000018 = {
-	name = "Iacob"
-	dynasty = 2000014 # ua Áed
-
-	add_trait = "lustful"
-
-	religion = "catholic"
-	culture = "irish"
-
-        father = 2000022 # Áed
-
-	882.1.1 = { birth = "882.1.1" }
-}  
-
-2000019 = {
-	name = "Diarmait"
-	dynasty = 2000011 # ua Donnchad
-
-	add_trait = "genius"
-        add_trait = "cruel"
-
-	religion = "catholic"
-	culture = "irish"
-
-        father = 2000015 # Donnchad
-
-	878.1.1 = { birth = "878.1.1" }
-}
-
-2000020 = {
-	name = "Fergal"
-	dynasty = 2000009 # ua Pátraic
-        
-        add_trait = "humble"
-
-	religion = "catholic"
-	culture = "irish"
-
-        father = 2000011 # Pátraic
-
-	884.1.1 = { birth = "884.1.1" }
-}
-
-2000021 = {
-	name = "Fergus"
-	dynasty = 2000009 # ua Pátraic
-        
-        add_trait = "greedy"
-
-	religion = "catholic"
-	culture = "irish"
-
-        father = 2000011 # Pátraic
-
-	888.1.1 = { birth = "888.1.1" }
-}
-
-2000022 = {
+2000014 = {
 	name = "Áed"
-	dynasty = 2000014 # ua Áed
+	dynasty = 2000012 # ua Áed
         
         add_trait = "greedy"
 
@@ -325,4 +208,18 @@
 	culture = "irish"
 
 	853.1.1 = { birth = "853.1.1" }
+}
+
+2000015 = {
+	name = "Pátraic"
+	dynasty = 2000013 # ua Pátraic
+
+	intrigue = 8
+
+	add_trait = "strong"
+
+	religion = "catholic"
+	culture = "irish"
+
+	856.1.1 = { birth = "856.1.1" }
 }
