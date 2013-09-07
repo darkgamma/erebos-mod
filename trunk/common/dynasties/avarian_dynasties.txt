@@ -18,7 +18,7 @@
 	culture = romanian
 }
 
-6000003 = {
+6000005 = {
 	name = "Senkovic"
 	culture = southslavic
 }
