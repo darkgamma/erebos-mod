@@ -1,0 +1,9 @@
+6000001 = {
+	name = "Araslanid"
+	culture = avar
+}
+
+6000002 = {
+	name = "Attilid"
+	culture = hungarian
+}

@@ -17,7 +17,7 @@ b_kula = city
 #b_kucevo = castle
 
 # Misc
-cculture = southslavic
+culture = southslavic
 religion = slavic_pagan
 
 # History

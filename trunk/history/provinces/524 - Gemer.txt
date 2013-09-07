@@ -16,8 +16,8 @@ b_losonc = temple
 #b_nyustya = castle
 
 # Misc
-culture = bohemian
-religion = catholic
+culture = avar
+religion = tengri_pagan
 
 # History
 
