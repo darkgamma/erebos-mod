@@ -16,8 +16,8 @@ b_decani = temple
 #b_polog = castle
 
 # Misc
-culture = serbian
-religion = orthodox
+culture = southslavic
+religion = slavic_pagan
 
 # History
 
