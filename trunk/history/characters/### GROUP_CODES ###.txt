@@ -12,5 +12,5 @@
 ### Uralic Characters: [ 3XXXXXX ]
 ### Gaulish Characters: [4XXXXXX]
 ### South Germanic Characters: [5XXXXXX]
-### Avars, Serbs, Hungarians : [6XXXXXX]
+### Avars, South Slavs, Hungarians : [6XXXXXX]
 ###
