@@ -1,0 +1,9 @@
+7000001 = {
+	name = "Aghali"
+	dynasty = 7000001 # Igmid
+	
+	religion = maghreb_arabic
+	culture = arian
+	
+	862.1.1 = { birth = 862.1.1 }
+}
