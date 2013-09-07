@@ -18,9 +18,8 @@ b_szentgotthard = temple
 #b_nemetujvar = castle
 
 # Misc
-culture = avar
+culture = southslavic
 religion = tengri_pagan
 
 # History
 
-950.1.1 = { culture = hungarian }

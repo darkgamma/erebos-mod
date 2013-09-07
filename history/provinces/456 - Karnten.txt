@@ -16,7 +16,7 @@ b_ossiach = temple
 #b_pettau = castle
 
 # Misc
-culture = german
-religion = catholic
+culture = southslavic
+religion = orthodox
 
 # History

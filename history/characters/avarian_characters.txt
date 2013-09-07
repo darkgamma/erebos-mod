@@ -1,0 +1,21 @@
+6000001 = {
+	name="Timër"
+	dynasty= 6000001 # Araslanid
+	
+	religion="tengri_pagan"
+	culture="avar"
+	
+	add_trait="brilliant_strategist"
+		
+	884.1.1 = { birth="884.1.1" }
+}
+
+6000002 = {
+	name="Attila"
+	dynasty= 6000002 # Attilid
+	
+	religion="tengri_pagan"
+	culture="hungarian"
+		
+	878.1.1 = { birth="878.1.1" }
+}

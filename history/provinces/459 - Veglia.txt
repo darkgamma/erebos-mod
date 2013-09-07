@@ -16,8 +16,8 @@ b_krk = temple
 #b_vrbovsko = castle
 
 # Misc
-culture = croatian
-religion = catholic
+culture = southslavic
+religion = slavic_pagan
 
 # History
 1146.1.1 = { trade_post = b_contarini }
