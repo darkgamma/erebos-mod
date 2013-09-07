@@ -11,3 +11,6 @@
 ### English, Picts, Scots: [ 2XXXXXX ]
 ### Uralic Characters: [ 3XXXXXX ]
 ### Gaulish Characters: [4XXXXXX]
+### South Germanic Characters: [5XXXXXX]
+### Avars, Serbs, Hungarians : [6XXXXXX]
+###
