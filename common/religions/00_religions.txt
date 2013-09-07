@@ -381,6 +381,30 @@ muslim = {
 	}
 }
 
+hellenic_pagan_group = {
+	playable = yes
+	
+	hellenic_pagan = {
+		graphical_culture = westerngfx
+		
+		pre_reformed = yes
+
+		icon = 37
+		
+		color = { 0.6 0.1 0.1 }
+		god_names = {
+			GOD_JUPITER GOD_MERCURY GOD_MARS GOD_VENUS GOD_MINERVA GOD_VESTA
+		}
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priests_can_marry = yes
+		female_temple_holders = yes
+		max_consorts = 3
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+}
 arab_pagan_group = {
 	graphical_culture = muslimgfx
 	playable = yes
