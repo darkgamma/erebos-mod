@@ -20,7 +20,7 @@
 	878.1.1 = { birth="878.1.1" }
 }
 
-6000003 = { # Easter Egg: Rastko Nemanjic AKA Sveti Sava Nemanjic, First Archbishop of Serbia
+6000003 = {
 	name="Rastko"
 	dynasty= 6000003 # Savic
 	
@@ -41,4 +41,14 @@
 	culture="romanian"
 		
 	874.1.1 = { birth="874.1.1" }
+}
+
+6000005 = {
+	name="Ivo"
+	dynasty= 6000005 # Senkovic
+	
+	religion="slavic_pagan"
+	culture="southslavic"
+		
+	887.1.1 = { birth="887.1.1" }
 }
