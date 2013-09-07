@@ -2,3 +2,8 @@
 	name = "Igmid"
 	culture = maghreb_arabic
 }
+
+7000002 = {
+	name = "Yuvid"
+	culture = maghreb_arabic
+}
