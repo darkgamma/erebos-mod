@@ -10,5 +10,10 @@
 
 6000003 = {
 	name = "Savic"
-	culture = hungarian
+	culture = southslavic
+}
+
+6000004 = {
+	name = "Vlaicescu"
+	culture = romanian
 }
