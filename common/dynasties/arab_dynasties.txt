@@ -1,0 +1,4 @@
+8000001 = {
+	name = "Abdulid"
+	culture = bedouin_arabic
+}

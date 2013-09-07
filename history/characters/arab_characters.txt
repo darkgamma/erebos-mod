@@ -1,0 +1,9 @@
+8000001 = {
+	name="Yusuf"
+	dynasty= 8000001 # Abdulid
+	
+	religion="sunni"
+	culture="bedouin_arabic"
+		
+	875.1.1 = { birth="875.1.1" }
+}

@@ -21,16 +21,13 @@
 }
 
 6000003 = {
-	name="Rastko"
-	dynasty= 6000003 # Savic
+	name="Vladimir"
+	dynasty= 6000003 # Zemlinski
 	
 	religion="slavic_pagan"
 	culture="southslavic"
-	
-	add_trait = "mastermind_theologian" 
 		
 	880.1.1 = { birth="880.1.1" }
-	880.1.1 = { give_nickname = nick_the_saint }
 }
 
 6000004 = {
@@ -44,8 +41,8 @@
 }
 
 6000005 = {
-	name="Ivo"
-	dynasty= 6000005 # Senkovic
+	name="Radoslav"
+	dynasty= 6000005 # Vukovic
 	
 	religion="slavic_pagan"
 	culture="southslavic"
