@@ -7,3 +7,13 @@
 	
 	862.1.1 = { birth = 862.1.1 }
 }
+
+7000002 = {
+	name = "Hamad"
+	dynasty = 7000002 # Yuvid
+	
+	culture = maghreb_arabic
+	religion = catholic
+	
+	864.1.1 = { birth = 871.1.1 }
+}
