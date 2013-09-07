@@ -228,6 +228,8 @@ immaculist = {
 		icon = 2
 		heresy_icon = 7
 		
+		parent = arian
+		
 		god_names = {
 			GOD_GOD GOD_THE_LORD
 		}
