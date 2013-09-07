@@ -1,5 +1,5 @@
 ﻿6000001 = {
-	name="Timür"
+	name="Timur"
 	dynasty= 6000001 # Araslanid
 	
 	religion="tengri_pagan"
