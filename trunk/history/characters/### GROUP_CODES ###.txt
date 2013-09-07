@@ -14,3 +14,5 @@
 ### South Germanic Characters: [5XXXXXX]
 ### Avars, South Slavs, Hungarians: [6XXXXXX]
 ### African Characters: [7XXXXXX]
+### Arab Characters: [8XXXXXX]
+###
