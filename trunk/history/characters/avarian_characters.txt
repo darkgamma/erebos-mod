@@ -1,4 +1,4 @@
-﻿6000001 = {
+6000001 = {
 	name="Timur"
 	dynasty= 6000001 # Araslanid
 	
