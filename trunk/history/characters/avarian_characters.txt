@@ -27,9 +27,18 @@
 	religion="slavic_pagan"
 	culture="southslavic"
 	
-	add_trait = "mastermind_theologian"
-	add_trait = "zealous" 
+	add_trait = "mastermind_theologian" 
 		
 	880.1.1 = { birth="880.1.1" }
 	880.1.1 = { give_nickname = nick_the_saint }
+}
+
+6000004 = {
+	name="Mircea"
+	dynasty= 6000004 # Vlaicescu
+	
+	religion="orthodox"
+	culture="romanian"
+		
+	874.1.1 = { birth="874.1.1" }
 }
