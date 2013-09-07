@@ -13,4 +13,6 @@
 ### Gaulish Dynasties: [4XXXXXX]
 ### South Germanic Dynasties: [5XXXXXX]
 ### Avars, South Slavs, Hungarians: [6XXXXXX]
-### African Characters: [7XXXXXX]
+### African Dynasties: [7XXXXXX]
+### Arab Dynasties: [8XXXXXX]
+###
