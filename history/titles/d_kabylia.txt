@@ -1,3 +1,4 @@
 900.1.1 = {
 	holder = 7000001 # Aghali Igmid
+	liege = k_mauretaniacaesariensis
 }
