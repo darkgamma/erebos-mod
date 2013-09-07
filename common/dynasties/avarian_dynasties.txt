@@ -7,3 +7,8 @@
 	name = "Attilid"
 	culture = hungarian
 }
+
+6000003 = {
+	name = "Savic"
+	culture = hungarian
+}
