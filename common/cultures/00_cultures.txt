@@ -2610,7 +2610,6 @@ Z'diant Z'ergha Zaghwa Zahida Zamba Zibba Zilgum Zubayda
 		female_patronym = "bint "
 		prefix = yes
 		
-		dynasty_title_names = yes
 		founder_named_dynasties = yes
 
 		modifier = default_culture_modifier
