@@ -1,0 +1,4 @@
+7000001 = {
+	name = "Igmid"
+	culture = maghreb_arabic
+}
