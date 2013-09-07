@@ -11,3 +11,6 @@
 ### English, Scots, Picts: [ 2XXXXXX ]
 ### Uralic Dynasties: [ 3XXXXXX ]
 ### Gaulish Dynasties: [4XXXXXX]
+### South Germanic Dynasties: [5XXXXXX]
+### Avars, Serbs, Hungarians : [6XXXXXX]
+###
