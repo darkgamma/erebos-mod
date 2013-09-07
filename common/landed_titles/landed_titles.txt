@@ -14827,6 +14827,9 @@ e_avaria = {
 				color={ 133 98 17 }
 				color2={ 255 255 255 }
 				
+				southslavic = Dubrovnik
+				bulgarian = Dubrovnik
+				
 				b_ragusa = {
 				}
 				b_narona = {
@@ -14890,8 +14893,7 @@ e_avaria = {
 				color={ 126 107 62 }
 				color2={ 255 255 255 }
 				
-				serbian = "Nish"
-				croatian = "Nish"
+				southslavic = "Nish"
 				bulgarian = "Nish"
 				
 				b_nish = {
@@ -14921,7 +14923,10 @@ e_avaria = {
 			c_zachlumia = {
 				color={ 166 57 57 }
 				color2={ 255 255 255 }
-	
+	            
+				southslavic = Zahumlje
+				bulgarian = Zahumlje
+				
 				b_mostar = {
 				}
 				b_duvno = {
@@ -15012,6 +15017,9 @@ e_avaria = {
 			c_belgrade = {
 				color={ 150 124 61 }
 				color2={ 255 255 255 }
+				
+				southslavic = Belgrad
+				bulgarian = Belgrad
 				
 				b_belgrade = {
 				}
