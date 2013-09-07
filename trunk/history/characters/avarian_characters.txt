@@ -20,12 +20,15 @@
 	878.1.1 = { birth="878.1.1" }
 }
 
-6000003 = {
+6000003 = { # Easter Egg: Rastko Nemanjic AKA Sveti Sava Nemanjic, First Archbishop of Serbia
 	name="Rastko"
 	dynasty= 6000003 # Savic
 	
 	religion="slavic_pagan"
 	culture="southslavic"
+	
+	add_trait = "mastermind_theologian"
+	add_trait = "zealous" 
 		
 	880.1.1 = { birth="880.1.1" }
 	880.1.1 = { give_nickname = nick_the_saint }
