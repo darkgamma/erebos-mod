@@ -1,0 +1,11 @@
+5000001 = {
+	name = "Hroderic"
+	dynasty = 5000001 # Wulfiling
+	
+	religion = arian
+	culture = vandal
+	
+	add_trait = zealous
+	
+	876.1.1 = { birth = 876.1.1  }
+}
