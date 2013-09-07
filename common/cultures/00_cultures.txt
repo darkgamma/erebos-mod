@@ -276,7 +276,7 @@ south_germanic = {
 		color = { 0.8 0.1 0.2 }
 		
 		male_names = {
-			Gaiseric Gelimer Geilar Gento Gibamund Gunthamund Gunderic Godigisel Wisimar Genseric Hilderic Huneric Thrasamund Witteric Wittiza Suinthila Rhaderic Lievgild Athanaric Reswinth Ageric Gararic Theuderic Magneric Munderic Sigeric Sunnegisil
+			Hroderic Gaiseric Gelimer Geilar Gento Gibamund Gunthamund Gunderic Godigisel Wisimar Genseric Hilderic Huneric Thrasamund Witteric Wittiza Suinthila Rhaderic Lievgild Athanaric Reswinth Ageric Gararic Theuderic Magneric Munderic Sigeric Sunnegisil
 		}
 		female_names = {
 			Albofleda Amalasuntha Audofleda Audovera Austrechild Beretrude Berthefled Berthefried Berthegund Brhunhild Chlodosind Cholthsinda Chlotild Faileuba Fredegunde Galswinth Goiswinth Ingitrude Ingunde Lantechilde Leubast Leubovera Radegund Rigunth Vuldretrada			
