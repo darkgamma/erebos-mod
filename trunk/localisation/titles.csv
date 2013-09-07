@@ -15,7 +15,7 @@ e_africa;Africa;;;;;;;;;;;;;x
 e_africa_adj;African;;;;;;;;;;;;;x
 e_hispania;Hispania;;;;;;;;;;;;;x
 e_hispania_adj;Hispanian;;;;;;;;;;;;;x
-e_caliphate;Caliphate;;;;;;;;;;;;;x
+e_caliphate;The Caliphate;;;;;;;;;;;;;x
 e_caliphate_adj;Caliphal;;;;;;;;;;;;;x
 # KINGDOMS
 k_iceland;Iceland;;;;;;;;;;;;;x
@@ -207,5 +207,13 @@ d_tacape;Tacape;;;;;;;;;;;;;x
 d_tacape_adj;Tacapian;;;;;;;;;;;;;x
 d_carthago;Carthago;;;;;;;;;;;;;x
 d_carthago_adj;Carthaginian;;;;;;;;;;;;;x
+d_shaka;Shaka;;;;;;;;;;;;;x
+d_shaka_adj;Shakan;;;;;;;;;;;;;x
+d_qohistan;Qohistan;;;;;;;;;;;;;x
+d_qohistan_adj;Qohistian;;;;;;;;;;;;;x
+d_euphrates;Euphrates;;;;;;;;;;;;;x
+d_euphrates_adj;Euphratian;;;;;;;;;;;;;x
+d_lisabon;Lisabon;;;;;;;;;;;;;x
+d_lisabon_adj;Lisabonian;;;;;;;;;;;;;x
 # BARONIES
 b_ras;Ras;;;;;;;;;;;;;x

@@ -9,7 +9,7 @@
 }
 
 6000003 = {
-	name = "Savic"
+	name = "Zemlinski"
 	culture = southslavic
 }
 
@@ -19,6 +19,6 @@
 }
 
 6000005 = {
-	name = "Senkovic"
+	name = "Vukovic"
 	culture = southslavic
 }
