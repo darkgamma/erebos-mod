@@ -225,6 +225,7 @@
 	intrigue = 8
 
 	add_trait = "strong"
+	add_trait = "gregarious"
 
 	religion = "catholic"
 	culture = "irish"
