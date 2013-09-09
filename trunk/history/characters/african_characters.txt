@@ -17,3 +17,13 @@
 	
 	864.1.1 = { birth = 871.1.1 }
 }
+
+7000003 = {
+	name = "Wahab"
+	dynasty = 7000003 # Hafid
+	
+	culture = maghreb_arabic
+	religion = sabellian
+	
+	851.1.1 = {	birth = 851.1.1 }
+}
