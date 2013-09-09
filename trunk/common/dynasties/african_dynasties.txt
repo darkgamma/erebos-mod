@@ -7,3 +7,8 @@
 	name = "Yuvid"
 	culture = maghreb_arabic
 }
+
+7000003 = {
+	name = "Hafid" 
+	culture = maghreb_arabic
+}
