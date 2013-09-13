@@ -18,7 +18,7 @@ b_szentgotthard = temple
 #b_nemetujvar = castle
 
 # Misc
-culture = southslavic
+culture = avar
 religion = tengri_pagan
 
 # History

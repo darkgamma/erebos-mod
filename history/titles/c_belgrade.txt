@@ -1,3 +1,4 @@
 900.1.1={
-	liege="k_serbia"
+	holder = 6000003 # Vladimir Zemlinski
+	liege = "e_avaria"
 }

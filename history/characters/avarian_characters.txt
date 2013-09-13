@@ -49,3 +49,43 @@
 		
 	887.1.1 = { birth="887.1.1" }
 }
+
+6000006 = {
+	name="Organ"
+	dynasty= 6000006 # Sabinid
+	
+	religion="tengri_pagan"
+	culture="avar"
+		
+	860.1.1 = { birth="860.1.1" }
+}
+
+6000007 = {
+	name="Barjik"
+	dynasty= 6000007 # Karanid
+	
+	religion="tengri_pagan"
+	culture="avar"
+		
+	868.1.1 = { birth="868.1.1" }
+}
+
+6000008 = {
+	name="Imre"
+	dynasty= 6000008 # Lampert
+	
+	religion="tengri_pagan"
+	culture="hungarian"
+		
+	877.1.1 = { birth="877.1.1" }
+}
+
+6000009 = {
+	name="Zsolt"
+	dynasty= 6000009 # Lajos
+	
+	religion="tengri_pagan"
+	culture="hungarian"
+		
+	866.1.1 = { birth="866.1.1" }
+}

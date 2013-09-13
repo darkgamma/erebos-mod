@@ -16,7 +16,7 @@ b_osijek = temple
 #b_virovitica = castle
 
 # Misc
-culture = avar
-religion = tengri_pagan
+culture = southslavic
+religion = slavic_pagan
 
 # History
