@@ -1,4 +1,4 @@
 885.1.1={
-	holder = 6000003 # Rastko Savic AKA Sveti Sava Nemanjic
+	holder = 6000003 # Vladimir Zemlinski
 	liege = "e_avaria"
 }

@@ -22,3 +22,23 @@
 	name = "Vukovic"
 	culture = southslavic
 }
+
+6000006 = {
+	name = "Sabinid"
+	culture = avar
+}
+
+6000007 = {
+	name = "Karanid"
+	culture = avar
+}
+
+6000008 = {
+	name = "Lampert"
+	culture = hungarian
+}
+
+6000009 = {
+	name = "Lajos"
+	culture = hungarian
+}
