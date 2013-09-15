@@ -18,6 +18,8 @@ maculist = {
 
 	johannist = {
 		graphical_culture = westerngfx
+		
+		color = { 0.7 0.45 0.4 }
 
 		icon = 1
 		heresy_icon = 6
@@ -36,8 +38,35 @@ maculist = {
 		religious_clothing_priest = 1
 	}
 	
+	rapturist = {
+	
+		graphical_culture = westerngfx
+
+		icon = 1
+		heresy_icon = 6
+		
+		color = { 0.8 0.3 0.7 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = THE_WORD_OF_GOD
+		god_names = {
+			GOD_RAPTURED_JESUS GOD_JESUS GOD_RAPTURE GOD_THE_RAPTURED
+		}
+		autocephaly = no
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = no
+		can_grant_claim = no
+		can_call_crusade = no
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
 	marcinian = {
 		graphical_culture = westerngfx
+		
+		color = { 0.7 0.4 0.55 }
 
 		icon = 1
 		heresy_icon = 6
