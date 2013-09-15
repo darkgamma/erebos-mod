@@ -15,7 +15,7 @@
 	religion="sunni"
 	culture="bedouin_arabic"
 		
-	875.1.1 = { birth="875.1.1" }
+	867.1.1 = { birth="867.1.1" }
 }
 
 8000003 = {
@@ -25,7 +25,7 @@
 	religion="sunni"
 	culture="bedouin_arabic"
 		
-	875.1.1 = { birth="875.1.1" }
+	880.1.1 = { birth="880.1.1" }
 }
 
 8000004 = {
@@ -35,5 +35,5 @@
 	religion="sunni"
 	culture="bedouin_arabic"
 		
-	875.1.1 = { birth="875.1.1" }
+	883.1.1 = { birth="883.1.1" }
 }

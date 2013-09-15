@@ -1,3 +1,4 @@
 900.1.1 = {
-	liege = "k_mesopotamia"
+	liege = "e_caliphate"
+	holder = 8000004
 }

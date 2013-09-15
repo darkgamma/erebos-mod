@@ -1,3 +1,4 @@
 900.1.1 = {
-	liege = "d_damascus"
+	liege = "e_caliphate"
+	holder = 8000003
 }

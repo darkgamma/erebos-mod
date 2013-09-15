@@ -10,3 +10,13 @@
 	
 	874.1.1 = { birth = 874.1.1 }
 }
+
+9000002 = {
+	name="Artashir"
+	dynasty= 8000001 # Abdulid
+	
+	religion="sunni"
+	culture="armenian"
+		
+	883.1.1 = { birth="883.1.1" }
+}
