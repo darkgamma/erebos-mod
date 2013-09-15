@@ -7,3 +7,33 @@
 		
 	875.1.1 = { birth="875.1.1" }
 }
+
+8000002 = {
+	name="Hasan"
+	dynasty= 8000001 # Abdulid
+	
+	religion="sunni"
+	culture="bedouin_arabic"
+		
+	875.1.1 = { birth="875.1.1" }
+}
+
+8000003 = {
+	name="Muhammed"
+	dynasty= 8000001 # Abdulid
+	
+	religion="sunni"
+	culture="bedouin_arabic"
+		
+	875.1.1 = { birth="875.1.1" }
+}
+
+8000004 = {
+	name="Abdul"
+	dynasty= 8000001 # Abdulid
+	
+	religion="sunni"
+	culture="bedouin_arabic"
+		
+	875.1.1 = { birth="875.1.1" }
+}
