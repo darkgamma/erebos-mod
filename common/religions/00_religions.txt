@@ -1053,7 +1053,7 @@ zoroastrian_group = {
 	zurvanist = {
 		graphical_culture = persiangfx
 		
-		icon = 10
+		icon = 12
 		heresy_icon = 12
 		
 		color = { 0.3 0.65 0.25 }
@@ -1063,8 +1063,6 @@ zoroastrian_group = {
 		god_names = {
 			GOD_ZURVAN GOD_AHURA_MAZDA GOD_MANAH PROPHET_ZOROASTER 
 		}
-		
-		parent = zoroastrian
 		
 		can_grant_divorce = yes
 		can_call_crusade = yes
@@ -1077,7 +1075,7 @@ zoroastrian_group = {
 	akaist = {
 		graphical_culture = persiangfx
 		
-		icon = 10
+		icon = 12
 		heresy_icon = 12
 		
 		color = { 0.65 0.3 0.25 }
