@@ -1074,7 +1074,7 @@ zoroastrian_group = {
 		religious_clothing_priest = 5
 	}
 	
-	mainyu = {
+	akaist = {
 		graphical_culture = persiangfx
 		
 		icon = 10
@@ -1082,7 +1082,7 @@ zoroastrian_group = {
 		
 		color = { 0.65 0.3 0.25 }
 		
-		scripture_names = THE_AVESTA
+		scripture_names = THE_AKA_AVESTA
 		
 		god_names = {
 			GOD_ANGRA GOD_AKA GOD_ACHISTA GOD_AESHMA
