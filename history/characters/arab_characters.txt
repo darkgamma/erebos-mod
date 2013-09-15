@@ -10,7 +10,7 @@
 
 8000002 = {
 	name="Hasan"
-	dynasty= 8000001 # Abdulid
+	dynasty= 8000002 # Fadlid
 	
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -20,7 +20,7 @@
 
 8000003 = {
 	name="Muhammed"
-	dynasty= 8000001 # Abdulid
+	dynasty= 8000003 # Nasrid
 	
 	religion="sunni"
 	culture="bedouin_arabic"
@@ -30,7 +30,7 @@
 
 8000004 = {
 	name="Abdul"
-	dynasty= 8000001 # Abdulid
+	dynasty= 8000004 # Sulaymanid
 	
 	religion="sunni"
 	culture="bedouin_arabic"

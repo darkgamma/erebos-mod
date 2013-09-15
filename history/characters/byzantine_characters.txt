@@ -13,10 +13,10 @@
 
 9000002 = {
 	name="Artashir"
-	dynasty= 8000001 # Abdulid
+	dynasty= 9000002 # Eshkhani
 	
 	religion="sunni"
 	culture="armenian"
 		
-	883.1.1 = { birth="883.1.1" }
+	878.1.1 = { birth="878.1.1" }
 }

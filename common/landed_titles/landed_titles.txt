@@ -9736,7 +9736,7 @@ e_byzantine = {
 			
 			capital = 702 # Mesopotamia
 			
-			c_karin = {
+			c_karin = { 
 				color={ 117 154 36 }
 				color2={ 255 255 255 }
 				
@@ -9757,7 +9757,7 @@ e_byzantine = {
 				b_kirklarkilisesi = {
 				}
 			}
-			c_mesopotamia = {
+			c_mesopotamia = { # Khliat WTF PARADOX
 				color={ 121 158 40 }
 				color2={ 255 255 255 }
 				
