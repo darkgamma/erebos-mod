@@ -9432,7 +9432,7 @@ e_byzantine = {
 				b_squillace = {
 				}
 			}
-			c_consenza = {
+			c_consenza = { # Catanzaro WTF PARADOX
 				color={ 239 227 252 }
 				color2={ 255 255 255 }
 
