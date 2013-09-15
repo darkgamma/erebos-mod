@@ -2,3 +2,8 @@
 	name = "Kalafatakis"
 	culture = greek
 }
+
+9000002 = {
+	name = "Eshkhani"
+	culture = armenian
+}
