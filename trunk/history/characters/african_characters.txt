@@ -82,3 +82,44 @@
 	
 	858.1.1 = { birth = 858.1.1 }
 }
+
+7000008 = {
+	name = "Kuriakos"
+	dynasty = 7000008 # Alwat
+	
+	culture = nubian
+	religion = monophysite
+	
+	add_trait = quick
+	add_trait = weak
+	
+	872.1.1 = { birth = 872.1.1 }
+}
+
+7000009 = { 
+	name = "Tesfaye"
+	dynasty = 7000009 # Zagwe
+	
+	culture = ethiopian
+	religion = miaphysite
+	
+	add_trait = hsb_bronze
+	
+	add_trait = zealous
+	add_trait = gregarious
+	
+	869.1.1 = { birth = 869.1.1 }
+}
+
+7000010 = {
+	name = "Gutaale"
+	dynasty = 7000010 # Busasas
+	
+	culture = somali
+	religion = sunni
+	
+	add_trait = paranoid
+	add_trait = hajjaj
+	
+	864.1.1 = { birth = 864.1.1 }
+}
