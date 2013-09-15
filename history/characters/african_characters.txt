@@ -27,3 +27,58 @@
 	
 	851.1.1 = {	birth = 851.1.1 }
 }
+
+7000004 = {
+	name = "Athanasios"
+	dynasty = 7000004 # Cyrenaicon
+	
+	culture = coptic
+	religion = monophysite
+	
+	add_trait = zealous
+	
+	862.1.1 = { birth = 862.1.1 }
+}
+
+7000005 = {
+	name = "Habil"
+	dynasty = 7000005 # Abukir
+	
+	culture = coptic
+	religion = miaphysite
+	
+	add_trait = hsb_yellow
+	add_trait = zealous
+	add_trait = paranoid
+	
+	869.1.1 = { birth = 869.1.1 }
+}
+
+7000006 = {
+	name = "Matta"
+	dynasty = 7000006 # Rosat
+	
+	culture = coptic
+	religion = miaphysite
+	
+	add_trait = hsb_jade
+	add_trait = ambitious
+
+	845.1.1 = { birth = 845.1.1 }
+}
+
+7000007 = {
+	name = "Habil"
+	dynasty = 7000007 # Halwat
+	
+	culture = coptic
+	religion = monophysite
+	
+	add_trait = zealous
+	add_trait = strong
+	add_trait = wounded
+	
+	add_trait = hsb_bronze
+	
+	858.1.1 = { birth = 858.1.1 }
+}
