@@ -15774,7 +15774,7 @@ e_africa = {
 			
 			capital = 796 # Cairo
 		
-			c_cairo = {
+			c_cairo = { # i.e. Fustat WTF PARADOX
 				color={ 24 236 119 }
 				color2={ 255 255 255 }
 			
