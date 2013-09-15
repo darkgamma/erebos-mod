@@ -505,7 +505,7 @@ Sum must not exceed 100.
 		color = { 0.8 0.3 0.3 }
 		
 		male_names = {
-			Arncytel Balþere Beorhtfriþ Beorhþelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige 
+			Arncytel Balþere Beorhtfriþ Beorhþelm Beorhtmær Beorhtnoþ Beorhtric Beorhtsige 
 
 Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf
 			Burgheard_Bouchard Byrhtnoth Cearl_Charles Cenfus Cenræd_Konrad Cenwulf Ceolwulf 
@@ -517,7 +517,7 @@ Eadmund_Edmund Eadmær Eadric
 			Eadræd Eadsige Eadulf_Adolf Eadweald Eadweard Eadwig Eadwine_Edwin Eadwulf_Adolf 
 
 Ealdhun Ealdmund Ealdræd Ealdwine_Alwin
-			Ealdwulf Eanberht Eanfriþ Eanhere Eardwulf Eastmund Ecgberht Ecgfriþ Gamall Godwine 
+			Ealdwulf Eanberht Eanfriþ Eanhere Eardwulf_Eardwulf Eastmund Ecgberht Ecgfriþ Gamall Godwine 
 
 Gospatric Guþfriþ_Godfrey Guþmund_Gudmund
 			Gyrþ Hacon_Hakon Harold_Harold Heahberht Hereberht_Herbert Hereweald_Hereweald 
@@ -532,44 +532,127 @@ Rædwulf_Ralph Rægenweald_Reginald Sculi_Skule
 			Sigeberht Sigehelm Sigeric Sigeræd Sighere Sigweard_Sigurd Stigand Swegn_Sven Swiþelm Swiþræd 
 
 Swæfræd Sæbert Sælræd Sæweald
-			Sæxbald Sæxræd Þoræd Þurcytel_Torkel Þurfrith Tostig_Toste Uhtræd_Uhtred Ulf_Ulf Ulfcytel 
+			Sæxbald Sæxræd Þoræd Þurcytel_Torkel Þurfriþ Tostig_Toste Uhtræd_Uhtred Ulf_Ulf Ulfcytel 
 
 Walþeof_Waltheof Werestan_Werestan Wiglaf Wihtræd_Wiþred
 			Wistan Wulf_Ulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoþ Wulfstan Ælfgar Ælfmær 
 
 Ælfnoþ Ælfric Ælfræd_Alfred Ælfsige
-			Ælfstan_Alstan Ælfwald Ælfweard Ælfwig Ælfwine_Alwin Ælle_Alwin Æthelbald Æthelberht_Albert 
+			Ælfstan_Alstan Ælfwald Ælfweard Ælfwig Ælfwine_Alwin Ælle_Alwin Æþelbald Æþelberht_Albert 
 
-Æthelfriþ_Ethelfrith Æthelhere Æthelmær_Adémar
-			Æthelric Æthelræd_Ailred Æthelsige Æthelstan_Alstan Æthelweald_Æthelwold Æthelweard 
+Æþelfriþ_Ethelfrith Æthelhere Æthelmær_Adémar
+			Æþelric Æþelræd_Ailred Æþelsige Æþelstan_Alstan Æþelweald_Æþelwold Æþelweard 
 
-Æthelwine_Alwin Æthelwold_Æthelwold Æthelwulf_Adolf
+Æþelwine_Alwin Æþelwold_Æþelwold Æþelwulf_Adolf
 		}
 		female_names = {
-			Agatha_Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd 
+			Agatha_Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyþ Beorhtwaru Beorhtwynn Beornflæd 
 
-Beorngyth Blæja Burgflæd Ceolflæd Cristina_Christina
-			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd 
+Beorngyþ Blæja Burgflæd Ceolflæd Cristina_Christina
+			Cuthburg Cwenburg Cyneburg Cynegyþ Cynehild Cyneswiþ Cynethryþ Eadburg Eadflæd 
 
-Eadgifu Eadgyth_Edith Eadhburh Eadhild Ealdgyth_Edith
-			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda_Gunhild Gytha_Gyda 
+Eadgifu Eadgyþ_Edith Eadhburh Eadhild Ealdgyþ_Edith
+			Ealhflæd Ealhswiþ Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda_Gunhild Gytha_Gyda 
 
-Helga_Helga Heregyth Hereswith Hextilda Hungifu Judith_Judith
-			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud_Matilda Mildrith 
+Helga_Helga Heregyth Hereswith Hextilda Hungifu Judiþ_Judith
+			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud_Matilda Mildriþ
 
-Octreda Sifflæd Sigrid_Sigrid Sæthryth Wulfflæd Wulfgifu
-			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba 
+Octreda Sifflæd Sigrid_Sigrid Sæthryþ Wulfflæd Wulfgifu
+			Wulfgyþ Wulfhild Wulfrun Wulfthryþ Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba 
 
 Ælfflæd_Ælflæda Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
-			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda 
+			Ælfswiþ Ælfthryþ Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda 
 
-Æthelswith Æthelthryth_Æthelreda
+Æthelswiþ Æthelthryth_Æthelreda
 		}
 
 		from_dynasty_prefix = "of "
 
 		male_patronym = "sson"
 		female_patronym = "sdohtor"
+		prefix = no # The patronym is added as a suffix
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum 
+
+must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. 
+
+Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	cont_saxon = {
+		graphical_culture = saxongfx
+		
+		color = { 0.8 0.3 0.3 }
+		
+		male_names = {
+			Arnsietel Balder Berdfrid Berdhelm Berdmer Berdnod Berdric Beordsig 
+
+Berdwin_Beorhtwine Bjarn_Beorn Bernred Bernwulf
+			Burghard_Bouchard Birdnod Karl_Charles Cenfus Konrad_Konrad Cenwulf Celwulf 
+
+Cerdic_Caradog
+			Codberd_Cuthbert Cudred Kinhelm Kinwulf Kitelbearn Edbert Edfrid Edgar_Edgar 
+
+Edmund_Edmund Edmar Eadric
+			Edred Edsig Adulf_Adolf Edweld Edward Edwig Edwin_Edwin Edwulf_Adolf 
+
+Eldon Eldmund Eldred Eldwin_Alwin Aldwin_Alwin
+			Eldwulf Enberd Enfrid Enhar Ardulf_Eardwulf Estmund Egbert Egfrid
+ Gudfrid_Godfrey Gudmund_Gudmund
+			Gird Hakon_Hakon Harold_Harold Hanbert Harbert_Herbert Herbert_Herbert Harwald_Hereweald 
+
+Herward Hlodar_Lothair Hrodbert_Robert Inwer_Ingvar
+			Lofric Lowald Max_Marcus Marcus_Marcus Morcar_Marcus Merswen Offa_Uffe Onlaf_Olaf 
+
+Orgar Orm_Orm Osbarn_Asbjörn
+			Osher Osmund Osric Osred Osulf_Osulf Osweld Oswin Oswulf_Osulf
+
+Redwulf_Ralph Regenwald_Reginald Skuli_Skule
+			Sigberd Sighelm Sigric Sigred Sigher Sigward_Sigurd Stigand Swegn_Sven Swidhelm Swidred 
+
+Swered Serbert Selred Serwald
+			Dorred Durtel_Torkel Durfrid Tostig_Toste Udred_Uhtred Ulf_Ulf Ulfseitel 
+
+Waldoff_Waltheof Warstan_Werestan Wiglaf Widred_Wiþred
+			Wistan Wulf_Ulf Wulfgar Wulfget Wulfhelm Wulfher Wulfmar Wulfnod Wulfstan Elgar Elmar 
+
+Elfric Alfred_Alfred Alfsig
+			Alfstan_Alstan Elwald Elward Elwig Elwin_Alwin Elli_Alwin Adalbert_Albert 
+
+Æthelfriþ_Ethelfrith Æthelhere Æthelmær_Adémar
+			Aderic Adered_Ailred Edelsig Edelstan_Alstan Edelwald_Æthelwold Edelward 
+
+Adelwin_Alwin Adelwold_Æthelwold Adelulf_Adolf
+		}
+		female_names = {
+			Agatha_Agatha Baldhild Bardfled Bardgif Bardgid Bardward Bardwin Barnfled 
+
+Barngid Bleja Burgfled Kalfled Kristina_Christina
+			Kudberd Kwenburg Kinburg Kinged Kinhild Kinswid Kindred Edburg Efled
+
+Edgid_Edith Ebba Edhild Eldgid_Edith
+			Elfled Elswid Enswid Egfrid Egwin Gunhild_Gunhild
+
+Helga_Helga Hergid Herswid Hexild
+			Lafled Lofrun Lowar Lowen Margaret_Margaret Maud_Matilda Mildred 
+
+Sifled Sigrid_Sigrid Sedryd Wulfled
+			Wulgid Wulfhild Wulfrun Wulfrid Wulwar Wulwin Winled 
+		}
+
+		from_dynasty_prefix = "of "
+
+		male_patronym = "sson"
+		female_patronym = "sdottor"
 		prefix = no # The patronym is added as a suffix
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum 
