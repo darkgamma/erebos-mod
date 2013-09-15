@@ -15,4 +15,5 @@
 ### Avars, South Slavs, Hungarians: [6XXXXXX]
 ### African Characters: [7XXXXXX]
 ### Arab Characters: [8XXXXXX]
+### Byzantine Characters: [9XXXXXX]
 ###
