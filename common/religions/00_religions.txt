@@ -1,4 +1,4 @@
-immaculist = {
+maculist = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	crusade_cb = crusade
@@ -8,6 +8,63 @@ immaculist = {
 	male_names = {
 		Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace George Gregory 
 		Hans Isaac Joakim Jacob John Jordan Joseph Laurence Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip 
+		Salvador Samuel Sebastian Simon Stephen Thomas
+	}
+	female_names = {
+		Anna Beatrice Benedicta Brigid Catherine Cecilia Christina Clementia Constance Dorothy Elisabeth Joan Judith Juliana Helen 
+		Magdalena Margaret Maria Marine Patricia Philippa Rachel 
+		Sarah Sophia Stephania
+	}
+
+	johannist = {
+		graphical_culture = westerngfx
+
+		icon = 1
+		heresy_icon = 6
+		
+		crusade_name = "CRUSADE"
+		scripture_name = THE_WORD_OF_JOHN
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_MARY PROPHET_JOHN
+		}
+
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
+	marcinian = {
+		graphical_culture = westerngfx
+
+		icon = 1
+		heresy_icon = 6
+		
+		crusade_name = "CRUSADE"
+		scripture_name = THE_WORD_OF_MARCUS
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_MARY PROPHET_MARCUS
+		}
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+}
+immaculist = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	pacifist = yes # Will make Hordes lose their super aggressiveness
+	
+	male_names = {
+		Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace George Gregory 
+		Hans Isaac Joakim Jacob Jordan Joseph Laurence Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip 
 		Salvador Samuel Sebastian Simon Stephen Thomas
 	}
 	female_names = {
