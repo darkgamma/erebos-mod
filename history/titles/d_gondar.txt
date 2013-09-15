@@ -1,4 +1,4 @@
 900.1.1 = {
-	liege="d_gondar"
+	liege = k_aksum
 	holder = 7000009 # Tesfaye Zagwe
 }
