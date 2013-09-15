@@ -32,3 +32,18 @@
 	name = "Halwat"
 	culture = coptic
 }
+
+7000008 = {
+	name = "Alwat"
+	culture = nubian
+}
+
+7000009 = {
+	name = "Zagwe"
+	culture = coptic
+}
+
+7000010 = {
+	name = "Busasas"
+	culture = somali
+}
