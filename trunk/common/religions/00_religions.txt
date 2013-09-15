@@ -247,6 +247,7 @@ immaculist = {
 		religious_clothing_head = 2
 		religious_clothing_priest = 2
 	}
+	
 	#############
 }
 
@@ -347,6 +348,7 @@ hellenic_pagan_group = {
 		religious_clothing_priest = 3
 	}
 }
+
 arab_pagan_group = {
 	graphical_culture = muslimgfx
 	playable = yes
@@ -1031,7 +1033,7 @@ zoroastrian_group = {
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_GATHAS
 		god_names = {
-			GOD_AHURA_MAZDA GOD_ZURVAN GOD_OHRMAZD GOD_MANAH PROPHET_ZOROASTER
+			GOD_AHURA_MAZDA GOD_ZURVAN GOD_MANAH PROPHET_ZOROASTER
 		}
 		
 		can_grant_divorce = yes
@@ -1048,7 +1050,7 @@ zoroastrian_group = {
 		religious_clothing_priest = 5
 	}
 	
-	mazdaki = {
+	zurvanist = {
 		graphical_culture = persiangfx
 		
 		icon = 10
@@ -1056,10 +1058,10 @@ zoroastrian_group = {
 		
 		color = { 0.3 0.65 0.25 }
 		
-		scripture_name = THE_GREAT_SECRET
+		scripture_name = THE_GATHAS
 		
 		god_names = {
-			GOD_ZURVAN GOD_AHURA_MAZDA GOD_MANAH PROPHET_MAZDAK
+			GOD_ZURVAN GOD_AHURA_MAZDA GOD_MANAH PROPHET_ZOROASTER 
 		}
 		
 		parent = zoroastrian
@@ -1072,18 +1074,19 @@ zoroastrian_group = {
 		religious_clothing_priest = 5
 	}
 	
-	manichean = {
+	mainyu = {
 		graphical_culture = persiangfx
 		
 		icon = 10
 		heresy_icon = 12
 		
-		color = { 0.7 0.7 0.4 }
-		god_names = {
-			GOD_ZURVAN GOD_OHRMAZD PROPHET_MANI GOD_MIHRYAZD
-		}
+		color = { 0.65 0.3 0.25 }
 		
-		parent = zoroastrian
+		scripture_names = THE_AVESTA
+		
+		god_names = {
+			GOD_ANGRA GOD_AKA GOD_ACHISTA GOD_AESHMA
+		}
 		
 		can_grant_divorce = yes
 		can_call_crusade = yes
