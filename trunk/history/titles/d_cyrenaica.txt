@@ -1,4 +1,4 @@
 900.1.1 = {
 	holder = 7000004 # Athanasios Cyrenaicon
-	liege = d_cyrenaica
+	liege = k_aegyptus
 }

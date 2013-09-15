@@ -1,0 +1,4 @@
+900.1.1 = { 
+	holder = 7000006 # Matta Rosat
+	liege = k_aegyptus
+}
