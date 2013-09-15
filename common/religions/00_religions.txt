@@ -55,6 +55,7 @@ maculist = {
 		religious_clothing_priest = 1
 	}
 }
+
 immaculist = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
@@ -431,7 +432,7 @@ arab_pagan_group = {
 	}
 }
 	
-norse_group = {
+germanic_group = {
 	graphical_culture = norsegfx
 	playable = yes
 	
@@ -444,6 +445,160 @@ norse_group = {
 	
 	female_names = {
 		Aslaug Bothild Björg Freja Grima Gytha Kráka Malmfrid Thora Thordis Thyra Ragnfrid Ragnhild Svanhild Ulvhilde
+	}
+	
+	contgermanic_reformed = {
+		graphical_culture = norsegfx
+
+		icon = 20
+		heresy_icon = 21
+		
+		color = { 0.4 0.4 0.6 }
+		god_names = {
+			GOD_WOTAN GOD_DONAR GOD_FROUWA GOD_WIRD GOD_SONNA GOD_ZIU
+		}
+		
+		unit_modifier = {
+			levy_size = 0.25
+			
+			key = "OFF_RELIGION"
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_CHANTS
+		priests_can_marry = yes
+		
+		can_call_crusade = yes
+		
+		female_temple_holders = yes
+		
+		short_reign_opinion_year_mult = 3
+		
+		aggression = 1.25 # AI aggression factor
+		
+		max_consorts = 1
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = contgermanic
+	}
+	
+	saxon_pagan = {
+	
+		graphical_culture = norsegfx
+
+		icon = 19
+		heresy_icon = 21
+		
+		color = { 0.4 0.2 0.2 }
+		
+		god_names = {
+			GOD_WODAN GOD_DONAR GOD_FROUWA GOD_IRMIN GOD_SONNA GOD_TIU
+		}
+		
+		unit_modifier = {
+			levy_size = 0.3
+			
+			retinuesize_perc = 0.25
+			
+			key = "OFF_RELIGION"
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_CHANTS
+		priests_can_marry = yes
+
+		female_temple_holders = yes
+		defensive_attrition = yes
+		
+		short_reign_opinion_year_mult = 3
+
+		max_consorts = 1
+		independence_war_score_bonus = 15 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		reformed = saxon_pagan_reformed
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = saxon_pagan_reformed
+	}
+	
+	saxon_pagan_reformed = {
+	
+		graphical_culture = norsegfx
+
+		icon = 19
+		heresy_icon = 21
+		
+		color = { 0.4 0.2 0.2 }
+		
+		god_names = {
+			GOD_WODAN GOD_DONAR GOD_FROUWA GOD_IRMIN GOD_SONNA GOD_TIU
+		}
+		
+		unit_modifier = {
+			levy_size = 0.25
+			
+			key = "OFF_RELIGION"
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_CHANTS
+		priests_can_marry = yes
+
+		female_temple_holders = yes
+
+		max_consorts = 1
+
+		short_reign_opinion_year_mult = 3
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = saxon_pagan
+	}
+	
+	contgermanic = {
+	
+		graphical_culture = norsegfx
+
+		icon = 19
+		heresy_icon = 21
+		
+		color = { 0.2 0.2 0.4 }
+		
+		god_names = {
+			GOD_WOTAN GOD_DONAR GOD_FROUWA GOD_WIRD GOD_SONNA GOD_ZIU
+		}
+		
+		unit_modifier = {
+			levy_size = 0.25
+			
+			retinuesize_perc = 0.5
+			
+			key = "OFF_RELIGION"
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_CHANTS
+		priests_can_marry = yes
+
+		female_temple_holders = yes
+		defensive_attrition = yes
+
+		max_consorts = 1
+		independence_war_score_bonus = 15 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		reformed = contgermanic_reformed
+		
+		aggression = 1.5 # AI aggression factor
+		
+		short_reign_opinion_year_mult = 3
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = contgermanic_reformed
 	}
 	
 	norse_pagan_reformed = {
@@ -530,6 +685,7 @@ norse_group = {
 		intermarry = norse_pagan_reformed
 	}	
 }
+
 tengri_group = {
 	graphical_culture = mongolgfx
 	playable = yes
