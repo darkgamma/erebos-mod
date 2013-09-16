@@ -102,7 +102,7 @@
 	dynasty = 9000007 # Psarou
 	
 	add_trait = fair
-	add_trait = hsb_violet
+	add_trait = hsb_indigo
 	
 	culture = greek
 	religion = orthodox
