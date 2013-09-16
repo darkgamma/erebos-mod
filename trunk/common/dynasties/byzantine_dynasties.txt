@@ -52,3 +52,8 @@
 	name = "Arsen"
 	culture = bulgarian
 }
+
+9000012 = {
+	name = "Dranias"
+	culture = greek
+}
