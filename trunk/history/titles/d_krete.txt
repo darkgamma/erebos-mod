@@ -1,4 +1,4 @@
 900.1.1={
-	liege="d_krete"
+	liege="e_byzantine"
 	holder = 9000005 # Damianos Tsimiskes
 }

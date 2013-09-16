@@ -17,6 +17,124 @@
 	
 	religion="sunni"
 	culture="armenian"
-		
+	
 	878.1.1 = { birth="878.1.1" }
+}
+
+9000003 = {
+	name = "Iorgos"
+	dynasty = 9000003 # Papadopoulos
+	
+	culture = greek
+	religion = orthodox
+	
+	868.1.1 = { birth = 868.1.1 }
+}
+
+9000004 = {
+	name = "Achileas"
+	dynasty = 9000004 # Iordanopoulos
+	
+	add_trait = zealous
+	add_trait = ambitious
+	add_trait = strong
+	
+	add_trait = hsb_lime
+	
+	culture = greek
+	religion = hellenic_pagan
+	
+	849.1.1 = { birth = 849.1.1 }
+}
+
+9000005 = {
+	name = "Damianos"
+	dynasty = 9000005 # Tsimiskes
+	
+	add_trait = chaste
+	add_trait = brave
+	
+	culture = greek
+	religion = orthodox
+	
+	864.1.1 = { birth = 864.1.1 }
+}
+
+9000006 = {
+	name = "Alexandros"
+	dynasty = 9000006 # Dallasenos
+	
+	add_trait = brave
+	add_trait = zealous
+	add_trait = strong
+	add_trait = homosexual
+	
+	add_trait = hsb_lime
+
+	culture = greek
+	religion = orthodox
+	
+	father = 9000007 # Damianos Dallasenos
+	mother = 9000008 # Maria Psarou
+	
+	872.1.1 = { birth = 872.1.1 }
+}
+
+9000007 = {
+	name = "Damianos"
+	dynasty = 9000006 # Dallasenos
+	
+	add_trait = brave
+	
+	add_trait = hsb_red
+	
+	culture = greek
+	religion = orthodox
+	
+	add_spouse = 9000008 # Maria Psarou
+	
+	844.1.1 = { birth = 844.1.1 }
+	889.1.1 = { death = 889.1.1 }
+}
+
+9000008 = {
+	name = "Maria"
+	dynasty = 9000007 # Psarou
+	
+	add_trait = fair
+	add_trait = hsb_violet
+	
+	culture = greek
+	religion = orthodox
+	
+	female = yes
+	
+	854.1.1 = { birth = 854.1.1 }
+	876.1.1 = { death = 876.1.1 }
+}
+
+9000009 = {
+	name = "Iordanes"
+	dynasty = 9000008 # Alexiou
+	
+	add_trait = ambitious
+	add_trait = paranoid
+	
+	culture = greek
+	religion = orthodox
+	
+	867.1.1 = { birth = 867.1.1 }
+}
+
+9000010 = {
+	name = "Stefan"
+	dynasty = 9000009 # Markovic
+	
+	add_trait = humble
+	add_trait = wroth
+	
+	culture = southslavic
+	religion = orthodox
+	
+	875.1.1 = { birth = 875.1.1 }
 }
