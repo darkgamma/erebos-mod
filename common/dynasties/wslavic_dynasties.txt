@@ -2,3 +2,8 @@
 	name = "Siemomyslowski"
 	culture = lechitic
 }
+
+11000002 = {
+	name = "Dalimirowski"
+	culture = lechitic
+}

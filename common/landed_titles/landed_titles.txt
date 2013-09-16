@@ -22426,7 +22426,7 @@ d_jomsvikings = {
 	color = { 0 0 0 }
 }
 
-d_vistulans = {
+d_the_vistulans = {
     color = { 135 15 15 }
 	
 	tribe = yes
@@ -22440,7 +22440,119 @@ d_vistulans = {
 	title_prefix = "TRIBE_OF"
 }
 
-d_poles = {
+d_the_poles = {
+    color = { 190 70 70 }
+	
+	tribe = yes
+	
+	allow = {
+		always = no
+	}
+
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+	title_prefix = "TRIBE_OF"
+}
+
+d_the_ranes = {
+    color = { 190 70 70 }
+	
+	tribe = yes
+	
+	allow = {
+		always = no
+	}
+
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+	title_prefix = "TRIBE_OF"
+}
+
+d_the_silesians = {
+    color = { 190 70 70 }
+	
+	tribe = yes
+	
+	allow = {
+		always = no
+	}
+
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+	title_prefix = "TRIBE_OF"
+}
+
+d_the_pomeranians = {
+    color = { 190 70 70 }
+	
+	tribe = yes
+	
+	allow = {
+		always = no
+	}
+
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+	title_prefix = "TRIBE_OF"
+}
+
+d_the_obodrites = {
+    color = { 190 70 70 }
+	
+	tribe = yes
+	
+	allow = {
+		always = no
+	}
+
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+	title_prefix = "TRIBE_OF"
+}
+
+d_the_prussians = {
+    color = { 190 70 70 }
+	
+	tribe = yes
+	
+	allow = {
+		always = no
+	}
+
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+	title_prefix = "TRIBE_OF"
+}
+
+d_the_kashubians = {
+    color = { 190 70 70 }
+	
+	tribe = yes
+	
+	allow = {
+		always = no
+	}
+
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+	title_prefix = "TRIBE_OF"
+}
+
+d_the_sorbs = {
+    color = { 190 70 70 }
+	
+	tribe = yes
+	
+	allow = {
+		always = no
+	}
+
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+	title_prefix = "TRIBE_OF"
+}
+
+d_the_mazovians = {
     color = { 190 70 70 }
 	
 	tribe = yes
