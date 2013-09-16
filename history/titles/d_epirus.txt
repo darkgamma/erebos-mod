@@ -1,4 +1,4 @@
 900.1.1={
-	liege = d_epirus
+	liege = k_epirus
 	holder = 9000010 # Stefan 
 }
