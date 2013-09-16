@@ -57,3 +57,8 @@
 	name = "Dranias"
 	culture = greek
 }
+
+9000013 = {
+	name = "Argyros"
+	culture = greek
+}
