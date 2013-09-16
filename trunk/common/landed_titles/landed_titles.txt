@@ -13140,7 +13140,6 @@ e_byzantine = {
 	k_lechitic = {
 		color={ 145 130 40 }
 		color2={ 220 220 20 }
-		short_name = yes
 		
 		capital = 366 # Stettin
 		
