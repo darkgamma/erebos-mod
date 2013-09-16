@@ -1,0 +1,9 @@
+11000001 = {
+	name="Wladyslaw"
+	dynasty= 11000001 # Siemomyslowski
+	
+	religion="slavic_pagan"
+	culture="lechitic"
+		
+	884.1.1 = { birth="884.1.1" }
+}
