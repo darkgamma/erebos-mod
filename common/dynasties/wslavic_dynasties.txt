@@ -1,0 +1,4 @@
+11000001 = {
+	name = "Siemomyslowski"
+	culture = lechitic
+}

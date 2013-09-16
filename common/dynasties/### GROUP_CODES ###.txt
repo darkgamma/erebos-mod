@@ -17,4 +17,5 @@
 ### Arab Dynasties: [8XXXXXX]
 ### Byzantine Dynasties: [9XXXXXX]
 ### Italian Dynasties: [10XXXXXX]
+### West Slavic Dynasties: [11XXXXXX]
 ###

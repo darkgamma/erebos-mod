@@ -17,4 +17,5 @@
 ### Arab Characters: [8XXXXXX]
 ### Byzantine Characters: [9XXXXXX]
 ### Italian Characters [10XXXXXX]
+### West Slavic Characters [11XXXXXX]
 ###

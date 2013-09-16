@@ -17,8 +17,8 @@ e_hispania;Hispania;;;;;;;;;;;;;x
 e_hispania_adj;Hispanian;;;;;;;;;;;;;x
 e_caliphate;The Caliphate;;;;;;;;;;;;;x
 e_caliphate_adj;Caliphal;;;;;;;;;;;;;x
-e_fars;Fars;;;;;;;;;;;;;x
-e_fars_adj;Farsian;;;;;;;;;;;;;x
+e_pars;Pars;;;;;;;;;;;;;x
+e_pars_adj;Parsian;;;;;;;;;;;;;x
 e_byzantine;Roman Empire;;;;;;;;;;;;;x
 e_byzantine_adj;Roman;;;;;;;;;;;;;x
 # KINGDOMS
@@ -221,5 +221,13 @@ d_lisabon;Lisabon;;;;;;;;;;;;;x
 d_lisabon_adj;Lisabonian;;;;;;;;;;;;;x
 d_homs;Homs;;;;;;;;;;;;;x
 d_homs_adj;Homsian;;;;;;;;;;;;;x
+d_leicester;Leicester;;;;;;;;;;;;;x
+d_leicester_adj;Leicestrian;;;;;;;;;;;;;x
+d_caceres;Caceres;;;;;;;;;;;;;x
+d_caceres_adj;Cacerian;;;;;;;;;;;;;x
+d_vistulans;the Vistulans;;;;;;;;;;;;;x
+d_vistulans_adj;Vistulan;;;;;;;;;;;;;x
+d_poles;the Poles;;;;;;;;;;;;;x
+d_poles_adj;Polish;;;;;;;;;;;;;x
 # BARONIES
 b_ras;Ras;;;;;;;;;;;;;x

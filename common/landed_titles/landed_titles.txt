@@ -22425,3 +22425,31 @@ d_hashshashin = {
 d_jomsvikings = {
 	color = { 0 0 0 }
 }
+
+d_vistulans = {
+    color = { 135 15 15 }
+	
+	tribe = yes
+	
+	allow = {
+		always = no
+	}
+
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+	title_prefix = "TRIBE_OF"
+}
+
+d_poles = {
+    color = { 190 70 70 }
+	
+	tribe = yes
+	
+	allow = {
+		always = no
+	}
+
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+	title_prefix = "TRIBE_OF"
+}
