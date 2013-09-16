@@ -7,3 +7,48 @@
 	name = "Eshkhani"
 	culture = armenian
 }
+
+9000003 = {
+	name = "Papadopoulos"
+	culture = greek
+}
+
+9000004 = {
+	name = "Iordanopoulos"
+	culture = greek
+}
+
+9000005 = {
+	name = "Tsimiskes"
+	culture = greek
+}
+
+9000006 = {
+	name = "Dallasenos"
+	culture = greek
+}
+
+9000007 = {
+	name = "Psarou"
+	culture = greek
+}
+
+9000008 = {
+	name = "Alexiou"
+	culture = greek
+}
+
+9000009 = {
+	name = "Markovic"
+	culture = southslavic
+}
+
+9000010 = {
+	name = "Stephanopoulos"
+	culture = greek
+}
+
+9000011 = {
+	name = "Arsen"
+	culture = bulgarian
+}
