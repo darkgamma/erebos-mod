@@ -158,3 +158,13 @@
 	
 	866.1.1 = { birth = 866.1.1 }
 }
+
+9000013 = {
+	name = "Markos"
+	dynasty = 9000012 # Dranias
+	
+	culture = greek
+	religion = orthodox
+	
+	878.1.1 = { birth = 878.1.1 }
+}
