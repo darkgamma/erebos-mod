@@ -1,3 +1,4 @@
 900.1.1 = {
 	holder = 9000001 # Heraklios Kalafatakis
+	liege = e_byzantine
 }

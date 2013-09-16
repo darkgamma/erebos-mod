@@ -138,3 +138,23 @@
 	
 	875.1.1 = { birth = 875.1.1 }
 }
+
+9000011 = {
+	name = "Konstantinos"
+	dynasty = 9000010 # Stephanopoulos
+	
+	culture = greek
+	religion = orthodox
+	
+	872.1.1 = { birth = 872.1.1 }
+}
+
+9000012 = {
+	name = "Ivan"
+	dynasty = 9000011 # Arsen
+	
+	culture = bulgarian
+	religion = orthodox
+	
+	866.1.1 = { birth = 866.1.1 }
+}
