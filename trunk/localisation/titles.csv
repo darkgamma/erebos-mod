@@ -225,9 +225,25 @@ d_leicester;Leicester;;;;;;;;;;;;;x
 d_leicester_adj;Leicestrian;;;;;;;;;;;;;x
 d_caceres;Caceres;;;;;;;;;;;;;x
 d_caceres_adj;Cacerian;;;;;;;;;;;;;x
-d_vistulans;the Vistulans;;;;;;;;;;;;;x
-d_vistulans_adj;Vistulan;;;;;;;;;;;;;x
-d_poles;the Poles;;;;;;;;;;;;;x
-d_poles_adj;Polish;;;;;;;;;;;;;x
+d_the_vistulans;the Vistulans;;;;;;;;;;;;;x
+d_the_vistulans_adj;Vistulan;;;;;;;;;;;;;x
+d_the_poles;the Poles;;;;;;;;;;;;;x
+d_the_poles_adj;Polish;;;;;;;;;;;;;x
+d_the_ranes;the Ranes;;;;;;;;;;;;;x
+d_the_ranes_adj;Rane;;;;;;;;;;;;;x
+d_the_silesians;the Silesians;;;;;;;;;;;;;x
+d_the_silesians_adj;Silesian;;;;;;;;;;;;;x
+d_the_pomeranians;the Pomeranians;;;;;;;;;;;;;x
+d_the_pomeranains_adj;Pomeranian;;;;;;;;;;;;;x
+d_the_obodrites;the Obodrites;;;;;;;;;;;;;x
+d_the_obodrites_adj;Obodrite;;;;;;;;;;;;;x
+d_the_prussians;the Prussians;;;;;;;;;;;;;x
+d_the_prussians_adj;Prussian;;;;;;;;;;;;;x
+d_the_kashubians;the Kashubians;;;;;;;;;;;;;x
+d_the_kashubians_adj;Kashubian;;;;;;;;;;;;;x
+d_the_sorbs;the Sorbs;;;;;;;;;;;;;x
+d_the_sorbs_adj;Sorbian;;;;;;;;;;;;;x
+d_the_mazovians;the Mazovians;;;;;;;;;;;;;x
+d_the_mazovians_adj;Mazovian;;;;;;;;;;;;;x
 # BARONIES
 b_ras;Ras;;;;;;;;;;;;;x

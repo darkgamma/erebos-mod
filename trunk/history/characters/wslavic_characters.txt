@@ -7,3 +7,33 @@
 		
 	884.1.1 = { birth="884.1.1" }
 }
+
+11000002 = {
+	name="Sambor"
+	dynasty= 11000002 # Siemomyslowski
+	
+	religion="slavic_pagan"
+	culture="lechitic"
+		
+	884.1.1 = { birth="884.1.1" }
+}
+
+11000003 = {
+	name="Dagome"
+	dynasty= 11000002 # Siemomyslowski
+	
+	religion="slavic_pagan"
+	culture="lechitic"
+		
+	884.1.1 = { birth="884.1.1" }
+}
+
+11000004 = {
+	name="Piskla"
+	dynasty= 11000002 # Siemomyslowski
+	
+	religion="slavic_pagan"
+	culture="lechitic"
+		
+	884.1.1 = { birth="884.1.1" }
+}
