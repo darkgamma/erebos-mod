@@ -1,4 +1,4 @@
 900.1.1 = {
-	liege = d_thrace
+	liege = k_nikea
 	holder = 9000006 # Alexandros Dallasenos
 }
