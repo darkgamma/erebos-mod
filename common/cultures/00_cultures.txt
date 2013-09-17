@@ -358,6 +358,49 @@ south_germanic = {
 
 central_germanic = {
 	graphical_culture = westerngfx
+	
+	bavarian = {
+		graphical_culture = germangfx
+		
+		color = { 0.7 0.7 0.5 }
+
+		male_names = {
+			Adalbert_Albert Adolf Albrecht_Albert Almerich_Amalric Arnold_Arnold Arnulf_Arnulf Augustin_Augustine 
+			Baldemar Baldewin_Baldwin Berengar_Berengar Bernhard_Bernard Berthold Bruno Burchard Diether Dietmar
+			Dietpold Dietrich_Thierry Dietwin Eberhard Eckhard Ehrenfried Eginolf Ekbert Emelrich_Aymeric Emich
+			Emmeram_Emmeram Engelbrecht Erich_Erik Ernst_Ernest Folkhard Folkmar Franz_Francis Friedrich_Frederick
+			Gebhard Gerhard Gerlach Giselbert_Gilbert Gottfried_Godfrey Gotthard Gottschalk Gotzelo Guntram Günzel
+			Hartmann Hartwig Heinrich_Henry Herbert Hermann_Herman Hesso Hugo_Hugh Humbert_Humbert Karl_Charles Karloman
+			Konrad_Konrad Kuno_Konrad Lambert_Lambert Leopold_Leopold Lothar_Lothar Ludolf Ludwig_Louis Luitpold Lutbert
+			Magnus_Magnus Manfred Markward Maximilian_Maximilian Meinhard Norbert_Norbert Ordulf Otto_Otto Poppo
+			Rudger_Roger Reinhard Rudolf Ruprecht_Robert Siegfried_Siegfried Sieghard Siegmund_Sigmund Theodorich_Theodore Thietmar
+			Udo Ulrich_Ulrich Viktor_Victor Waldemar_Vladimir Walram_Walram Walther_Walter Welf Wenzel_Vaclav Werner Widukind
+			Wigerich Wilhelm_William Wolfgang Wolfram_Wolfram Zwentibald_Svatopluk
+		}
+		female_names = {
+			Adela_Adela Adelheid_Adelaide Adelinde Agathe_Agatha Agnes_Agnes Alberade Amalberga Amalie_Amelia 
+			Barbara_Barbara Beatrix_Beatrice Benedicta_Benedicta Berchte Berta Binhilde Brunhilde_Brunhilda Cecilie_Cecilia Cothilda_Clotilde Christine_Christina
+			Dorothea_Dorothy Elisabeth_Elisabeth Emma_Emma Engeltraud Ermengard_Ermengarde Eufemia Friedrica_Frederique Frida 
+			Gerberga_Gerberga Gerhild Gertrude_Gertrude Gudrun_Gudrun Gunhilda_Gunhild Hedwig_Hedwig Heilwiva Heike Helene_Helen 
+			Helga Henrike Hildeburg Hildegard_Hildegard Ida_Ida Ilsa Inge_Inge Irmele Irmeltrud Irmgard_Ermengarde Isentrude
+			Judith_Judith Jutte Katharina_Catherine Karlotte Klara Klementia_Clementia Konstanze_Constance Kriemhild Kunigunde_Kunigunde
+			Luitgard Margarete_Margaret Maria_Maria Mathilde_Matilda Mechtild Oda Osterhild Richara_Ricarda Richenza_Richeza Richwara Romilda 
+			Serhilda Sofie_Sophia Sybille_Sibylla Trude Ulrike Ursula_Ursula Ute Walpurga Wilhelmina Winfrida Wulfhilde
+		}
+		from_dynasty_prefix = "von "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
 
 	german = {
 		graphical_culture = germangfx
@@ -588,6 +631,7 @@ Sum must not exceed 100.
 
 		modifier = default_culture_modifier
 	}
+	
 	cont_saxon = {
 		graphical_culture = saxongfx
 		
@@ -671,6 +715,38 @@ Sum must not exceed 100.
 
 		modifier = default_culture_modifier
 	}
+	
+	frisian = {
+		graphical_culture = saxongfx
+		
+		color = { 0.7 0.3 0.2 }
+		
+		male_names = {
+			Aitet Auutet Avin Avo Avuko Avutet Bavo Bentet Bernhard Blekulf Blithulf Boio Brunhard Edulf Egildag Eilbern Eilherd Eilulf Eilward Eldei Elderd Elhard Engilbald Enhard Entet Esulf Euitet Euuerhard Edelbern Edelulf Edelwi Folcbald Folkbern Folkhard Folkward Frethirik Frethold Frethuhard Frethwi Frithunath Geldulf Geltet Gerbald Gerbrand Gerbruht Gerdeg Gerhard Gerold Gerulf Gerwar Habo Hathuward Hebetet Helibad Hobern Hoitet Hrodhard Hrodward Liaftet Liudbad Liudbald Liudger Liudgod Liudulf Liudward Liuppo Lubbiko Meginbraht Meginhard Meginulf Meintet Menbold Menfrid Menger Menhard Menhold Meniko Menold Mentet Menward Merulf Miginward Notheri Osnath Osnod Popetet Raeddeg Rauantet Redbad Reginhard Reinbern Renhard Renward Riklef Rikwi Rodbern Salaco Sibod Sibraht Sidei Silef Siward Siwi Tadaco Tado Thancward Thankbern Thiadbold Thiadbrund Thiaddi Thiaderd Thiadulf Thiadward Thiadwi Thiedold Thonkrik Tiadi Tiadward Wambald Wening Wentet Wibad Wibraht Wibrund Wiftet Wigbald Wigerd Wihard Wilbrand Wiltet Wulfnoth
+		}
+		female_names = {
+			Ada Adela_Adela Adelheid_Adelaide Aechte Agaete Aleid Alijse_Alice Aliken Anna_Anna Annelies Badeloge Bava Beatrijs_Beatrice Benedicta_Benedicta Blanca_Blanche Blanceflore Cecily_Cecilia Cille Clara_Clara Clementia Elisabeth_Elisabeth Ellijnore_Eleanor Emma_Emma Ermingarde_Ermengarde Fenne Filippa_Philippa Frida Gheertrude_Gertrude Gerda Godila Haduwijn Helena_Helen Herlinda Hilligonda Ide_Ida Imagina Irene_Irene Isabelle_Elisabeth Iudith Jacoba Jaccobijn Jasminne Johanna_Joan Jolanda Juliana_Juliana Jutte Kathrijne_Catherine Katrien_Catherine Liedwin Lisebet_Elisabeth Machtelt Margareta_Margaret Maria_Maria Mathilde_Matilda Oda Odelt Olinde Onna Pieternelle_Petronilla Reynilde Sanne Sigerda Sophie_Sophia Swanhildis Thetburga_Tiburge Waltrud Wila Wendelmoet Wenna Willemine Yonefij Yvonne_Yvonne Zoete
+		}
+		
+		from_dynasty_prefix = "van "
+		
+		male_patronym = "szoon"
+		female_patronym = "sdochter"
+		prefix = no
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	
 	dutch = {
 		graphical_culture = germangfx
 		graphical_unit_culture = western
