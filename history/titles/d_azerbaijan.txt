@@ -1,4 +1,3 @@
 900.1.1 = {
-	liege = d_azerbaijan
 	holder = 12000001 # Hazarasp Shapid
 }

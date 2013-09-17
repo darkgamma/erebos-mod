@@ -1,0 +1,12 @@
+12000001 = {
+	name = "Hazarasp"
+	dynasty = 12000001 # Shapid
+	
+	add_trait = zealous
+	add_trait = hajjaj
+	
+	culture = persian
+	religion = sunni
+	
+	888.8.8 = { birth = 888.8.8 }
+}

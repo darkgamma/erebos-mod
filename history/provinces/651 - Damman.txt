@@ -17,5 +17,3 @@ b_najmah = temple
 
 culture = bedouin_arabic
 religion = ibadi
-
-# History
