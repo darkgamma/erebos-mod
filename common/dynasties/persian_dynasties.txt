@@ -7,3 +7,8 @@
 	name = "Sassanid"
 	culture = persian
 }
+
+12000003 = {
+	name = "Kartirid"
+	culture = persian
+}
