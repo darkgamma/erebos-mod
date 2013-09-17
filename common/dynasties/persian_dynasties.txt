@@ -1,0 +1,4 @@
+12000001 = {
+	name = "Shapid"
+	culture = persian
+}
