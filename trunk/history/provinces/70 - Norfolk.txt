@@ -19,6 +19,5 @@ b_lynn = city
 culture = saxon
 religion = catholic
 
-# History
 1100.11.11 = { culture = english }
  
