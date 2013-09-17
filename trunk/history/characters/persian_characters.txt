@@ -29,3 +29,13 @@
 	
 	869.1.1 = { birth = 869.1.1 }
 }
+
+12000003 = {
+	name = "Hormazd"
+	dynasty = 12000003 # Kartirid
+	
+	culture = persian
+	religion = zurvanist
+	
+	862.1.1 = { birth = 862.1.1 }
+}
