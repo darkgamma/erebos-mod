@@ -2,3 +2,8 @@
 	name = "Shapid"
 	culture = persian
 }
+
+12000002 = {
+	name = "Sassanid"
+	culture = persian
+}
