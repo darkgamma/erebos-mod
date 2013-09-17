@@ -22262,7 +22262,7 @@ d_suomalaiset = {
 	
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "Tribe of"
+	title_prefix = "TRIBE_OF"
 	
 }
 
@@ -22277,7 +22277,7 @@ d_salmalaiset = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "Tribe of"
+	title_prefix = "TRIBE_OF"
 }
 
 e_caliphate = {
@@ -22437,7 +22437,7 @@ d_the_vistulans = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "Tribe of"
+	title_prefix = "TRIBE_OF"
 }
 
 d_the_poles = {
@@ -22451,11 +22451,11 @@ d_the_poles = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "Tribe of"
+	title_prefix = "TRIBE_OF"
 }
 
 d_the_ranes = {
-    color = { 190 70 70 }
+    color = { 95 10 10 }
 	
 	tribe = yes
 	
@@ -22465,11 +22465,11 @@ d_the_ranes = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "Tribe of"
+	title_prefix = "TRIBE_OF"
 }
 
 d_the_silesians = {
-    color = { 190 70 70 }
+    color = { 110 45 45 }
 	
 	tribe = yes
 	
@@ -22479,11 +22479,11 @@ d_the_silesians = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "Tribe of"
+	title_prefix = "TRIBE_OF"
 }
 
 d_the_pomeranians = {
-    color = { 190 70 70 }
+    color = { 150 90 90 }
 	
 	tribe = yes
 	
@@ -22493,11 +22493,11 @@ d_the_pomeranians = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "Tribe of"
+	title_prefix = "TRIBE_OF"
 }
 
 d_the_obodrites = {
-    color = { 190 70 70 }
+    color = { 100 0 0 }
 	
 	tribe = yes
 	
@@ -22507,11 +22507,11 @@ d_the_obodrites = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "Tribe of"
+	title_prefix = "TRIBE_OF"
 }
 
 d_the_prussians = {
-    color = { 190 70 70 }
+    color = { 80 30 30 }
 	
 	tribe = yes
 	
@@ -22521,11 +22521,11 @@ d_the_prussians = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "Tribe of"
+	title_prefix = "TRIBE_OF"
 }
 
 d_the_kashubians = {
-    color = { 190 70 70 }
+    color = { 220 150 150 }
 	
 	tribe = yes
 	
@@ -22535,11 +22535,11 @@ d_the_kashubians = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "Tribe of"
+	title_prefix = "TRIBE_OF"
 }
 
 d_the_sorbs = {
-    color = { 190 70 70 }
+    color = { 40 0 0 }
 	
 	tribe = yes
 	
@@ -22549,11 +22549,11 @@ d_the_sorbs = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "Tribe of"
+	title_prefix = "TRIBE_OF"
 }
 
 d_the_mazovians = {
-    color = { 190 70 70 }
+    color = { 135 110 110 }
 	
 	tribe = yes
 	
@@ -22563,5 +22563,5 @@ d_the_mazovians = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "Tribe of"
+	title_prefix = "TRIBE_OF"
 }
