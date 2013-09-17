@@ -22262,7 +22262,7 @@ d_suomalaiset = {
 	
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
+	title_prefix = "Tribe of"
 	
 }
 
@@ -22277,7 +22277,7 @@ d_salmalaiset = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
+	title_prefix = "Tribe of"
 }
 
 e_caliphate = {
@@ -22437,7 +22437,7 @@ d_the_vistulans = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
+	title_prefix = "Tribe of"
 }
 
 d_the_poles = {
@@ -22451,7 +22451,7 @@ d_the_poles = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
+	title_prefix = "Tribe of"
 }
 
 d_the_ranes = {
@@ -22465,7 +22465,7 @@ d_the_ranes = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
+	title_prefix = "Tribe of"
 }
 
 d_the_silesians = {
@@ -22479,7 +22479,7 @@ d_the_silesians = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
+	title_prefix = "Tribe of"
 }
 
 d_the_pomeranians = {
@@ -22493,7 +22493,7 @@ d_the_pomeranians = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
+	title_prefix = "Tribe of"
 }
 
 d_the_obodrites = {
@@ -22507,7 +22507,7 @@ d_the_obodrites = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
+	title_prefix = "Tribe of"
 }
 
 d_the_prussians = {
@@ -22521,7 +22521,7 @@ d_the_prussians = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
+	title_prefix = "Tribe of"
 }
 
 d_the_kashubians = {
@@ -22535,7 +22535,7 @@ d_the_kashubians = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
+	title_prefix = "Tribe of"
 }
 
 d_the_sorbs = {
@@ -22549,7 +22549,7 @@ d_the_sorbs = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
+	title_prefix = "Tribe of"
 }
 
 d_the_mazovians = {
@@ -22563,5 +22563,5 @@ d_the_mazovians = {
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
+	title_prefix = "Tribe of"
 }
