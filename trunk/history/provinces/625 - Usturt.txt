@@ -16,5 +16,5 @@ b_barsakelmos = temple
 #b_karamola = castle
 
 # Misc
-culture = turkish
+culture = persian
 religion = zurvanist
