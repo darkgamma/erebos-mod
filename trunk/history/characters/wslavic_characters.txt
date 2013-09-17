@@ -10,7 +10,7 @@
 
 11000002 = {
 	name="Sambor"
-	dynasty= 11000002 # Siemomyslowski
+	dynasty= 11000002 # Dalimirowski
 	
 	religion="slavic_pagan"
 	culture="lechitic"
@@ -20,7 +20,7 @@
 
 11000003 = {
 	name="Dagome"
-	dynasty= 11000002 # Siemomyslowski
+	dynasty= 11000002 # Dalimirowski
 	
 	religion="slavic_pagan"
 	culture="lechitic"
@@ -30,7 +30,67 @@
 
 11000004 = {
 	name="Piskla"
-	dynasty= 11000002 # Siemomyslowski
+	dynasty= 11000002 # Dalimirowski
+	
+	religion="slavic_pagan"
+	culture="lechitic"
+		
+	884.1.1 = { birth="884.1.1" }
+}
+
+11000005 = {
+	name="Malowuj"
+	dynasty= 11000002 # Dalimirowski
+	
+	religion="slavic_pagan"
+	culture="lechitic"
+		
+	884.1.1 = { birth="884.1.1" }
+}
+
+11000006 = {
+	name="Sedzimir"
+	dynasty= 11000002 # Dalimirowski
+	
+	religion="slavic_pagan"
+	culture="lechitic"
+		
+	884.1.1 = { birth="884.1.1" }
+}
+
+11000007 = {
+	name="Twardomir"
+	dynasty= 11000002 # Dalimirowski
+	
+	religion="slavic_pagan"
+	culture="lechitic"
+		
+	884.1.1 = { birth="884.1.1" }
+}
+
+11000008 = {
+	name="Dobromir"
+	dynasty= 11000002 # Dalimirowski
+	
+	religion="slavic_pagan"
+	culture="lechitic"
+		
+	884.1.1 = { birth="884.1.1" }
+}
+
+11000009 = {
+	name="Wojuta"
+	dynasty= 11000002 # Dalimirowski
+	
+	religion="slavic_pagan"
+	culture="lechitic"
+		
+	884.1.1 = { birth="884.1.1" }
+}
+
+11000010 = {
+	name="Snowid"
+	dynasty= 11000002 # Dalimirowski
 	
 	religion="slavic_pagan"
 	culture="lechitic"
