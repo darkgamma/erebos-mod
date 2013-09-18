@@ -16,7 +16,8 @@
 ### African Characters: [7XXXXXX]
 ### Arab Characters: [8XXXXXX]
 ### Byzantine Characters: [9XXXXXX]
-### Italian Characters [10XXXXXX]
-### West Slavic Characters [11XXXXXX]
-### Persian Characters [12XXXXXX]
+### Italian Characters: [10XXXXXX]
+### West Slavic Characters: [11XXXXXX]
+### Persian Characters: [12XXXXXX]
+### German Characters: [13XXXXXX]
 ###
