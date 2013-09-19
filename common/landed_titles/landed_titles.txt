@@ -22455,7 +22455,7 @@ d_the_poles = {
 }
 
 d_the_ranes = {
-    color = { 95 10 10 }
+    color = { 95 30 30 }
 	
 	tribe = yes
 	

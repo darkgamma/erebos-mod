@@ -20,4 +20,5 @@
 ### West Slavic Characters: [11XXXXXX]
 ### Persian Characters: [12XXXXXX]
 ### German Characters: [13XXXXXX]
+### Baltic Characters: [14XXXXXX]
 ###

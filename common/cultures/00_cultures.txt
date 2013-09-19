@@ -2152,37 +2152,27 @@ Máidna Násti Naná Njáves Oajá Sáráhkká Sealggá
 
 		modifier = default_culture_modifier
 	}
-	ugricbaltic = {
+	ugricbaltic = { # WTF PARADOX Estonian
 		graphical_culture = ugricgfx
 		
 		color = { 0.3 0.7 0.7 }
 
 		male_names = {
-			Aatos Ahma Aimo Armas Arvo Asikko Ensio Haapa Hannu Havu Hintsa Ihanti Into Jalo Jurva 
-
-Kaleva Kalevi Kettu Kolli Lalli Lauri_Laurence Lemetti
-			Mielitty Miemo Mikko_Michael Oiva Onni Otso Pyry Päiviö Pentti Reko Sampo Satajalka 
-
-Satatieto Seppo Susi Tapani Terho Toivo Ukko Uoti Urho Väinö
-			Valta Valto Veli Vesa Voitto Erkki_Erik Risto_Christopher Yrjö
-			Rikki_Rikki Riku_Richard Taisto Aatso Rekko Rekki_Rikki
-
-Ahvo Aarto_Artur Asko Tuokko_David Rieti_Frederick
-			Kauro Kuuti_Knut Pekko Soini_Sven Tuure Turo Tommo
+Aavo Aimur Ain Aino Alar Alevipoeg Alo Anti Ants Are Arne Arseni Arved Arvi Arvo Baldur
+ Cake Culle Eego Eerik Eksitaja Enn Enu Gunnar Hannu Hoidja Hännamees Ilmar Ilo Jumal
+ Järvevana Kaevukoll Kalev Kalevine Kalevipoeg Kalju Kalm Koit Kõu Leho Lembit Lembitu
+ Mana Manalane Mati Meelis Meeme Melete Metsavana Muntelene Olavi Olev Olevipoeg Osmi
+ Pardiajaja Peninukk Peremees Pikker Pikne Puuk Raivo Sohni Soini Sulev Sulevipoeg Taevas
+ Taevataat Taimo Taivas Taivo Tappete Toivo Tont Tooni Toor Tooru Tuuleisa Tuuslar Uku
+ Unnepeve Vambola Vanaisa Yalde Ylle Äike
 		}
 		female_names = {
-			Aamu Aino Hellä Helmi Ilta Kaarina_Catherine Käpy Kielo Kukka Lauha Lempi Mahla Maija 
-
-Marja Mesi Metta Päivä Päivi Pihla Pilvi Rauha
-			Taimi Terhi Titti Tuija Tuovi Tuuli Tuulikki Tyyne Tyyni Vanamo Venla Mielikki Hertta Loviisa 
-
-Inkeri Ilmatar Irene_Irene Ilona_Helen Kristiina_Christina
-			Elisabet_Elisabeth Sohvi_Sofia Auni_Agnes Liekko_Helen Kivutar Lemmikki Lyylikki Salme 
-
-Talvikki Tuulitar
-                }
-		from_dynasty_prefix = "kohta "
-
+Aime Aive Anu Astrid Eda Eevi Eha Ehaema Endla Ent Haldjas Hele Helga Helgi Heli Helja Helju
+ Helme Helve Hämarik Ilmaneitsi Ilmatütar Ilo Ilu Inda Ingrid Jutta Kairi Kaja Kalmuneiu Kratt
+ Laine Leili Linda Lumme Luupainaja Maaemä Maimu Maire Meeli Metsaema Murueide Murueit Näkk Nõid
+ Painaja Piret Pisuhänd Põrguneitsi Rõugutaja Salme Siret Sirje Taara Taarapita Tarapita
+ Tarapitha Tharapita Tooru Tulihänd Tuule-Emä Tütred Vaike Veteema Äiatar
+			}
 		modifier = default_culture_modifier
 	}
 	komi = {

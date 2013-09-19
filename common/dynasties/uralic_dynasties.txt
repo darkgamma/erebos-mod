@@ -22,3 +22,8 @@
 	name = "Voittonen"
 	culture = finnish
 }
+
+3000006 = {
+	name = "Saar"
+	culture = ugricbaltic
+}
