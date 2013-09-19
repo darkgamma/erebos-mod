@@ -1,4 +1,4 @@
 900.1.1 = {
-	liege = d_weimar
+	liege = k_saxony
 	holder = 13000002 # Edelfrid Wiglafing
 }
