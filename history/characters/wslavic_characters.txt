@@ -97,3 +97,16 @@
 		
 	867.1.1 = { birth="867.1.1" }
 }
+
+11000011 = {
+	name = "Vincent"
+	dynasty = 11000011 # Adeling
+
+	add_trait = drunkard
+	add_trait = poet
+
+	religion = rapturist
+	culture = bohemian
+
+	868.1.1. = { birth = 868.1.1 }
+}
