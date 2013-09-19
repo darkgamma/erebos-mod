@@ -15,8 +15,5 @@ b_dreux = city
 #b_nogent = castle
 #b_tiron = castle
 
-culture = breton
-religion = catholic
-
-# History
-
+culture = frankish
+religion = johannist
