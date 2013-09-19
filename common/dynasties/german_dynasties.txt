@@ -1,0 +1,14 @@
+13000001 = {
+	name = "van Fryslan"
+	culture = frisian
+}
+
+13000002 = {
+	name = "Wiglafing"
+	culture = cont_saxon
+}
+
+13000003 = {
+	name = "von Bayern"
+	culture = bavarian
+}
