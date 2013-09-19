@@ -47,3 +47,8 @@
 	name = "Mazowiecki"
 	culture = lechitic
 }
+
+11000011 = {
+	name = "Adeling"
+	culture = bavarian
+}
