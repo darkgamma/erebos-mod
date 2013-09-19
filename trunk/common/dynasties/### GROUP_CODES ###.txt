@@ -20,4 +20,5 @@
 ### West Slavic Dynasties: [11XXXXXX]
 ### Persian Dynasties: [12XXXXXX]
 ### German Dynasties [13XXXXXX]
+### Baltic Dynasties [14XXXXXX]
 ###
