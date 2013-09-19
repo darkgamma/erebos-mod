@@ -1,0 +1,71 @@
+13000001 = {
+	name = "Redbad"
+	dynasty = 13000001 # van Fryslan
+	
+	add_trait = brave
+	add_trait = zealous
+	
+	culture = frisian
+	religion = saxon_pagan
+	
+	874.1.1 = { birth = 874.1.1 }
+}
+
+13000002 = {
+	name = "Edelfrid"
+	dynasty = 13000002 # Wiglafing
+	
+	add_trait = cynical
+	add_trait = paranoid
+	add_trait = deceitful
+	
+	add_trait = hsb_yellow
+	
+	culture = cont_saxon
+	religion = saxon_pagan
+	
+	871.1.1 = { birth = 871.1.1 }
+}
+
+13000003 = {
+	name = "Guntram"
+	dynasty = 13000003 # von Bayern
+	
+	add_trait = quick
+	add_trait = chaste
+	
+	culture = bavarian
+	religion = contgermanic
+	
+	dna = "zyejcfxugth"
+	
+	father = 13000005 # Marcus von Bayern
+	
+	874.1.1 = { birth = 874.1.1 }
+}
+
+13000004 = {
+	name = "Wolfgang"
+	dynasty = 13000003 # von Bayern
+	
+	culture = bavarian
+	religion = contgermanic
+	
+	dna = "skdpqweecso"
+	
+	father = 13000005 # Marcus von Bayern
+	
+	876.1.1 = { birth = 876.1.1 }
+}
+
+13000005 = {
+	name = "Marcus"
+	dynasty = 13000003 # von Bayern
+	
+	culture = bavarian
+	religion = rapturist
+	
+	dna = "zkepcwxecsh"
+	
+	851.1.1 = { birth = 851.1.1 }
+}
