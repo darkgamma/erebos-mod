@@ -1242,7 +1242,7 @@ iberian = {
 		color = { 0.7 0.6 0.3 }
 		
 		male_names = {
-			Abar Aibe AinAker Albe Alor An Anar Arbi Arki Ars Asai Aster Atin Aunin Aur Austin Baiser Balar Balke Bartash Bash Bastok Bekon Belaur Belesh Bels Beron Betan Betin Bikir Bilos Bin Bolai Bor Bosh Boton Ekes Ekar Eler Iar Iaun Ibesh Ibeis Ike Ikor Iltir Iltur Inte Isker Istan Iunstir Kani Kares Karko Katu Kere Kibash Kine Kitar Kon Koro Korsh Kulesh Kurtar Lako Laur Leis Lor Lusban Nalbe Neitin Nerse Nes Nish Nios Ortin Sakar Sakin SaltuShar Seken Selki Sike Sili  Sosin Suise Taker Talsku Tan Tanek Tanesh Tar Tarban  Tiker Tikirs Tikis Tileis Tolor Tuitui Tumar Tursh Turkir Tortin Ulti Unin Urke Ustain Mbar Nmkei
+			Abar Aibe Ain Aker Albe Alor An Anar Arbi Arki Ars Asai Aster Atin Aunin Aur Austin Baiser Balar Balke Bartash Bash Bastok Bekon Belaur Belesh Bels Beron Betan Betin Bikir Bilos Bin Bolai Bor Bosh Boton Ekes Ekar Eler Iar Iaun Ibesh Ibeis Ike Ikor Iltir Iltur Inte Isker Istan Iunstir Kani Kares Karko Katu Kere Kibash Kine Kitar Kon Koro Korsh Kulesh Kurtar Lako Laur Leis Lor Lusban Nalbe Neitin Nerse Nes Nish Nios Ortin Sakar Sakin SaltuShar Seken Selki Sike Sili  Sosin Suise Taker Talsku Tan Tanek Tanesh Tar Tarban  Tiker Tikirs Tikis Tileis Tolor Tuitui Tumar Tursh Turkir Tortin Ulti Unin Urke Ustain Mbar Nmkei
 		}
 		
 		female_names = { Aile Aitu Aiun Ata Atun Bene Ber Beri Bir Bitu Biur Ena Esto Eten Eter Iur Kaisur Kaker Kaltur Shani Sine Sir Situ Soket Sor Tartin Tash Tautin Teita Teker Tibash }
