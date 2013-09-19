@@ -21,4 +21,3 @@ religion = catholic
 terrain = hills
 
 # History
-
