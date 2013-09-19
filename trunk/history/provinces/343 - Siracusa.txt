@@ -15,7 +15,6 @@ b_lentini = temple
 #b_centuripe = castle
 #b_augusta = castle
 
-# Misc
 culture = vandal
 religion = arian
 terrain = hills
