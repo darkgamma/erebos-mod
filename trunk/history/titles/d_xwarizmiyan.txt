@@ -1,0 +1,4 @@
+900.1.1 = {
+	liege = k_xwarazmshahiyan
+	holder = 12000003 # Hormazd Kartirid
+}
