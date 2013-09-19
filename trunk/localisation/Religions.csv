@@ -3,7 +3,7 @@ maculist;Maculist;;;;;;;;;;;;;x
 arian;Arian;;;;;;;;;;;;;x
 sabellian;Sabellian;;;;;;;;;;;;;x
 arab_pagan_group;Arabic;;;;;;;;;;;;;x
-arab_pagan;Arabic;;;;;;;;;;;;;x
+arab_pagan;Arabic Pagan;;;;;;;;;;;;;x
 germanic_group;Germanic;;;;;;;;;;;;;x
 tengri_group;Tengri;;;;;;;;;;;;;x
 baltic_group;Baltic;;;;;;;;;;;;;x
@@ -11,10 +11,12 @@ uralic_group;Uralic;;;;;;;;;;;;;x
 aztec_group;Aztec;;;;;;;;;;;;;x
 slavic_group;Slavic;;;;;;;;;;;;;x
 hellenic_pagan_group;Hellenic;;;;;;;;;;;;;x
-baltic_pagan;Baltic;;;;;;;;;;;;;x
-finnish_pagan;Uralic;;;;;;;;;;;;;x
+baltic_pagan;Baltic Pagan;;;;;;;;;;;;;x
+finnish_pagan;Uralic Pagan;;;;;;;;;;;;;x
 baltic_pagan_reformed;Baltic;;;;;;;;;;;;;x
 finnish_pagan_reformed;Uralic;;;;;;;;;;;;;x
+slavic_pagan;Slavic Pagan;;;;;;;;;;;;;x
+norse_pagan;Norse Pagan;;;;;;;;;;;;;x
 
 zurvanist;Zurvanist;;;;;;;;;;;;;x
 akaist;Akaist;;;;;;;;;;;;;x
