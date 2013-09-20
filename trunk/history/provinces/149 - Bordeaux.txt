@@ -1,4 +1,4 @@
-.# 149 - Bordeaux
+# 149 - Bordeaux
 
 # County Title
 title = c_bordeaux
