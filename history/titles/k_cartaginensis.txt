@@ -1,4 +1,3 @@
 900.1.1 = {
-	liege = d_valencia
 	holder = 15000003 # Mbar ku Valencia
 }
