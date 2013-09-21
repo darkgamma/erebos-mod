@@ -1,0 +1,19 @@
+14000001 = {
+	name = "Aukstaitias"
+	culture = lithuanian
+}
+
+14000002 = {
+	name = "Zemigalias"
+	culture = lithuanian
+}
+
+14000003 = {
+	name = "Skalvias"
+	culture = lithuanian
+}
+
+14000006 = {
+	name = "Latgalisks"
+	culture = lettigallish
+}
