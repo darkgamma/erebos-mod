@@ -15,7 +15,7 @@ b_chaves = temple
 #b_azinhoso = castle
 
 # Misc
-culture = portuguese
-religion = marcinian
+culture = gothic
+religion = arian
 
 # History

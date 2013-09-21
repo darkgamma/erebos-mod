@@ -15,8 +15,8 @@ b_ciudadrodrigo = temple
 #b_lumbrales = castle
 
 # Misc
-culture = castillan
-religion = marcinian
+culture = arevacian
+religion = arian
 
 # History
 

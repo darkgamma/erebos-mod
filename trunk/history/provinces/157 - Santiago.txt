@@ -15,8 +15,8 @@ b_tuy = temple
 #b_vilagarcia = castle
 
 # Misc
-culture = portuguese
-religion = marcinian
+culture = gothic
+religion = arian
 
 # History
 

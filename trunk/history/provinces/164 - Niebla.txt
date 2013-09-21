@@ -15,7 +15,7 @@ b_almonte = city
 #b_aljaraque = castle
 
 #Misc
-culture = andalusian_arabic
+culture = castillan
 religion = marcinian
 
 # History

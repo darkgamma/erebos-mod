@@ -152,6 +152,8 @@
 	culture = dutch
 	religion = johannist
 	
+	female = yes
+	
 	father = 13000010 # Jan Meroving
 	
 	886.1.1 = { birth = 886.1.1 }

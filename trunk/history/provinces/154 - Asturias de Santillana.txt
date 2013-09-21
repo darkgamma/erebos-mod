@@ -15,7 +15,7 @@ b_laredo = temple
 #b_camargo = castle
 
 # Misc
-culture = castillan
+culture = gothic
 religion = marcinian
 
 # History

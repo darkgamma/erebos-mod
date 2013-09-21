@@ -15,8 +15,8 @@ b_benavente = temple
 #b_polvorosa = castle
 
 # Misc
-culture = castillan
-religion = marcinian
+culture = gothic
+religion = arian
 
 # History
 
