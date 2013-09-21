@@ -63,5 +63,16 @@
 	religion = "finnish_pagan"
 	culture = ugricbaltic
 	
-	866.1.1 = { birth = "866.1.1" }
+	869.1.1 = { birth = "869.1.1" }
+}
+
+3000007 = {
+	name = "Arvo"
+	
+	dynasty = 3000007 # Saar
+	
+	religion = "finnish_pagan"
+	culture = ugricbaltic
+	
+	872.1.1 = { birth = "872.1.1" }
 }
