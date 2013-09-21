@@ -5139,7 +5139,7 @@ e_gaul = {
 				b_laufenburg = {
 				}
 			}
-			c_besancon = {
+			c_besancon = { # Actually Bourgogne WTF PARADOX
 				color={ 171 32 70 }
 				color2={ 255 255 255 }
 				
@@ -5704,7 +5704,7 @@ e_gaul = {
 			
 			capital = 228 # Vienne
 			
-			c_dauphine_viennois = {
+			c_dauphine_viennois = { # Actually Vienne WTF PARADOX
 				color={ 119 30 54 }
 				color2={ 255 255 255 }
 				
@@ -5864,7 +5864,8 @@ e_gaul = {
 			color2={ 220 250 220 }
 			
 			capital = 212 # Narbonne
-			c_montpellier = {
+			
+			c_montpellier = { # Actually Melgueil WTF PARADOX
 				color={ 10 16 243 }
 				color2={ 255 255 255 }
 				

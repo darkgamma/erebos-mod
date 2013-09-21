@@ -2,3 +2,13 @@
 	name = "Wulfiling"
 	culture = vandal
 }
+
+5000002 = {
+	name = "Helmarker"
+	culture = burgundian
+}
+
+5000003 = {
+	name = "Hedelbrand"
+	culture = burgundian
+}

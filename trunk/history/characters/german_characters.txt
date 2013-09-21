@@ -139,7 +139,7 @@
 	father = 13000013 # Maertijn Meroving
 	
 	849.1.1 = { birth = 849.1.1 }
-	903.1.5 = { birth = 903.1.5 }
+	903.1.5 = { death = 903.1.5 }
 }
 
 13000011 = {
@@ -226,4 +226,61 @@
 	religion = johannist
 	
 	856.1.1 = { birth = 856.1.1 }
+}
+
+13000017 = {
+	name = "Kristof"
+	dynasty = 13000005 # Meroving 
+	
+	father = 13000016 # Egbert Meroving
+	
+	add_trait = wroth
+	add_trait = cynical
+	add_trait = just
+	
+	culture = dutch
+	religion = johannist
+	
+	874.1.1 = { birth = 874.1.1 }
+}
+
+13000018 = {
+	name = "Kristjaan"
+	dynasty = 13000005 # Meroving
+	
+	add_trait = arbitrary
+	add_trait = patient
+	add_trait = fair
+	add_trait = craven
+	
+	father = 13000016 # Egbert Meroving
+	
+	culture = dutch
+	religion = johannist
+	
+	879.1.1 = { birth = 879.1.1 }
+}
+
+13000019 = {
+	name = "Hendrik"
+	dynasty = 13000005 # Meroving
+	
+	add_trait = shy
+	
+	father = 13000016 # Egbert Meroving
+	
+	culture = dutch
+	religion = johannist
+	
+	883.1.1 = { birth = 883.1.1 }
+}
+
+13000020 = {
+	name = "Gerolt"
+	dynasty = 13000006 # Berding
+	
+	culture = dutch
+	religion = catholic
+	
+	873.1.1 = { birth = 873.1.1 }
 }

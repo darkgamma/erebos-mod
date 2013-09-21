@@ -22,3 +22,8 @@
 	name = "Meroving"
 	culture = dutch
 }
+
+13000006 = {
+	name = "Berding"
+	culture = dutch
+}
