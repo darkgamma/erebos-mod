@@ -16,5 +16,5 @@ b_basel = temple
 #b_laufenburg = castle
 
 # Misc
-culture = german
-religion = johannist
+culture = burgundian
+religion = arian
