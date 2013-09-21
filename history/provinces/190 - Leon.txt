@@ -15,8 +15,8 @@ b_sanpedrodeperix = castle
 #b_cistierna = castle
 
 # Misc
-culture = castillan
-religion = marcinian
+culture = gothic
+religion = arian
 
 # History
 

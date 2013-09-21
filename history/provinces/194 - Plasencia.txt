@@ -15,7 +15,7 @@ b_jaraiz = temple
 #b_talayuela = castle
 
 # Misc
-culture = castillan
-religion = marcinian
+culture = arevacian
+religion = arian
 
 # History

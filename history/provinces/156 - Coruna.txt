@@ -15,8 +15,8 @@ b_mondonedo = temple
 #b_triacastela = castle
 
 # Misc
-culture = portuguese
-religion = marcinian
+culture = gothic
+religion = arian
 
 # History
 

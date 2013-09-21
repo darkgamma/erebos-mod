@@ -15,8 +15,8 @@ b_guimaraes = city
 #b_moncao = castle
 
 # Misc
-culture = portuguese
-religion = marcinian
+culture = gothic
+religion = arian
 
 # History
 

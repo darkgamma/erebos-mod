@@ -297,7 +297,7 @@ south_germanic = {
 	gothic = {
 		graphical_culture = germangfx
 		
-		color = { 0.3 0.1 0.2 }
+		color = { 0.6 0.4 0.5 }
 		
 		male_names = {
 			Achila_Aquila Agila_Aquila Ardo Alaric Athanagild Braulio Bulgar Chindasuinth Chintila Egica Ervig Euric Gundemar Hermenegild Ildefonsus Isidore_Isidore Iudila Julian_Julian Leander Leovigild Liuva Reccared_Richard Receswinth Roderic_Roderick Sisbert Sisebut Sisenand Suinthila Suniefred Theoderic Theudisclus Thorismund Tulga Wamba Witteric Wittiza
@@ -1261,6 +1261,35 @@ iberian = {
 		modifier = default_culture_modifier
 	}
 
+	arevacian = {
+		graphical_culture = occitangfx
+		
+		color = { 0.45 0.75 0.45 }
+
+	male_names = {
+Aegidius Agiric Agrippinus Amantius Angelbert Aprus Aubert Barnabas Barucius Baudinus Bennage Betause Bricius Carégisile Chrotbert Dido Dinfius Domitianus Donatianus Egidius Eufronius Eusebe Eustochius Evartius Flavius Francilio Gatianus Gaudentius Ginaldus Gravien Gregorius_Gregory Gunthar Herling Ibbon Injuriosus Iovinus Joseph_Joseph Lando Landrus Latinus Leonius_Leo Leobald_Leo Leudigisil Licinius Litorius Lupare Mappinus Martinus_Martin Maternien Modegisile Nicasius Ommatius Ostald Papolene Pelage Perpetuus Remigius Rigobert Rimbert Romanus Romulph Severus_Severus Sigelaicus Silvanus Sinicius Sixtus Sonnatius Syagrius Theodore_Theodor Valatus Verus Vincentius Volusianus
+	}
+	female_names = {
+	Aegidia Agirica Amantia Angelberta Apra Auberta Barucia Baudina Bennage Betaae Bricia Chrotberta Didona Dinfia Domitiana Eatochia Egidia Eufronia Evartia Flavia Gatiana Gaudentia Ginalda Ibbona Injuriosa Iovina Léobalda Licinia Litoria Mappina Martina Nicasia Ommatia Ostalda Papolena Perpetua Remigia Rigoberta Rimberta Romana Severa Sigélaica Silvana Sinicia Sixta Sonnatia Syagria Theodora Valata Vera Volaiana 
+	}
+		disinherit_from_blinding = yes
+		from_dynasty_prefix = "of "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 10
+		mother_name_chance = 10
+		
+		baron_titles_hidden = yes
+		count_titles_hidden = yes	
+		modifier = default_culture_modifier
+	}
+	
 	basque = {
 		graphical_culture = occitangfx
 		

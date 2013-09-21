@@ -41,3 +41,13 @@
 	
 	869.1.1 = { birth = 869.1.1 }
 }
+
+5000004 = {
+	name = "Bernardo"
+	dynasty = 5000004 # de Malaga
+	
+	religion = catholic
+	culture = castillan
+	
+	871.1.1 = { birth = 871.1.1 }
+}

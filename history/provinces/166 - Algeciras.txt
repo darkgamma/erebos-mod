@@ -15,7 +15,7 @@ b_ronda = temple
 #b_casares = castle
 #b_jimenadelafrontera = castle
 
-culture = andalusian_arabic
+culture = castillan
 religion = catholic
 
 # History
