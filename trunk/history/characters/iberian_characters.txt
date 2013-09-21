@@ -40,7 +40,7 @@
 
 15000005 = {
 	name = "Verus"
-	dynasty = 15000006 # Jovius
+	dynasty = 15000002 # Jovius
 	
 	religion = marcinian
 	culture = arevacian
