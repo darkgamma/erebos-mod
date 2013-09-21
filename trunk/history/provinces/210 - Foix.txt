@@ -15,5 +15,5 @@ b_mirepoix = city
 #b_usson = castle
 
 # Misc
-culture = frankish
+culture = burgundian
 religion = marcinian

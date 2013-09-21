@@ -18,4 +18,4 @@ b_castelnaudary = castle
 
 #Misc
 religion = marcinian
-culture = frankish
+culture = burgundian

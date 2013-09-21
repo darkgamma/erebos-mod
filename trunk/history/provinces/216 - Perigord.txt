@@ -18,4 +18,4 @@ b_chancelade = temple
 
 #Misc
 religion = marcinian
-culture = frankish
+culture = burgundian

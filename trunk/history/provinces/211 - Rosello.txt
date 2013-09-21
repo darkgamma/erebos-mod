@@ -15,5 +15,5 @@ b_cotlliure = city
 #b_ceret = city
 
 # Misc
-culture = frankish
+culture = burgundian
 religion = marcinian
