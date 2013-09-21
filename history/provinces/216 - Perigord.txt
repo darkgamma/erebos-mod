@@ -17,5 +17,5 @@ b_chancelade = temple
 #b_perigueux = city
 
 #Misc
-religion = marcinian
+religion = frankish
 culture = burgundian
