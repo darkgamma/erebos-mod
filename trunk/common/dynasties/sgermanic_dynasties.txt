@@ -12,8 +12,3 @@
 	name = "Hedelbrand"
 	culture = burgundian
 }
-
-5000004 = {
-	name = "de Malaga"
-	culture = castillan
-}

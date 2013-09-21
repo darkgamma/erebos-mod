@@ -2,3 +2,23 @@
 	name = "Iberra"
 	culture = basque
 }
+
+15000002 = {
+	name = "Jovius"
+	culture = arevacian
+}
+
+15000003 = {
+	name = "de Malaga"
+	culture = castillan
+}
+
+15000004 = {
+	name = "ku Valencia"
+	culture = paleo
+}
+
+15000005 = {
+	name = "de Vale"
+	culture = castillan
+}

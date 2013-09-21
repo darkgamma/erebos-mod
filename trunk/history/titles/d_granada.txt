@@ -1,4 +1,4 @@
 900.1.1 = {
 	liege = k_baetica
-	holder = 5000004 # Bernardo de Malaga
+	holder = 15000002 # Bernardo de Malaga
 }
