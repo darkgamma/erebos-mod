@@ -69,3 +69,45 @@
 	
 	851.1.1 = { birth = 851.1.1 }
 }
+
+13000006 = {
+	name = "Karlomann"
+	dynasty = 13000004 # Karoling
+	
+	culture = german
+	religion = johannist
+	
+	father = 13000007 # Ludwig Karoling Luitpold Karoling
+	
+	875.1.1 = { birth = 871.1.1 }
+}
+
+13000007 = {
+	name = "Ludwig"
+	dynasty = 13000004 # Karoling
+	
+	add_trait = cynical
+	
+	culture = german
+	religion = johannist
+	
+	853.1.1 = { birth = 853.1.1 }
+}
+
+13000008 = {
+	name = "Luiutpold"
+	dynasty = 13000004 # Karoling
+	
+	add_trait = hedonist
+	add_trait = zealous
+	add_trait = ambitious
+	add_trait = deceitful
+	add_trait = wroth
+	
+	culture = german
+	religion = johannist
+	
+	father = 13000007 # Ludwig Karoling Luitpold Karoling
+	
+	871.1.1 = { birth = 871.1.1 }
+}
