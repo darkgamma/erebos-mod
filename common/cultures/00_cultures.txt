@@ -749,7 +749,6 @@ Sum must not exceed 100.
 	
 	dutch = {
 		graphical_culture = germangfx
-		graphical_unit_culture = western
 		
 		color = { 0.8 0.4 0.2 }
 		
@@ -760,7 +759,7 @@ Barnaerd_Bernard Bartolomeus_Bartolomeus
 			Bavo Bertold Boudewijn_Baldwin Claes_Nicholas Claeuwaert Daevit_David Damaes 
 
 Diederick_Thierry Dirk_Thierry Douwe Eduard_Edward Egmund Egbert
-			Emmo Engelbrecht Filips_Philip Floris Folbert Frans_Francis Frederik_Frederick Gerard_Gerard 
+			Kristjaan Engelbrecht Filips_Philip Floris Folbert Frans_Francis Frederik_Frederick Gerard_Gerard 
 
 Gerolt Gerulf
 			Gerrit Gijsbrecht Giselbert_Gilbert Godfried_Godfrey Godschalk Gozewijn Guij_Guy 
