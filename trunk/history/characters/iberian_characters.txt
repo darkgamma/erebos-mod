@@ -1,0 +1,9 @@
+15000001 = {
+	name=Suero"
+	dynasty= 15000001 # Iberra
+	
+	religion="marcinian"
+	culture="basque"
+	
+	878.1.1 = { birth="878.1.1" }
+}
