@@ -5,17 +5,17 @@
 	culture = lithuanian
 	religion = baltic_pagan
 	
-	882.8.8 = { birth = 882.8.8 }
+	888.1.1 = { birth = 888.1.1 }
 }
 
 14000002 = {
 	name = "Daugvilas"
-	dynasty = 14000002 # Zemigalias
+	dynasty = 14000002 # Kursias
 	
 	culture = lithuanian
 	religion = baltic_pagan
 	
-	882.8.8 = { birth = 882.8.8 }
+	879.1.1 = { birth = 879.1.1 }
 }
 
 14000003 = {
@@ -25,5 +25,35 @@
 	culture = lithuanian
 	religion = baltic_pagan
 	
-	882.8.8 = { birth = 882.8.8 }
+	876.1.1 = { birth = 876.1.1 }
+}
+
+14000004 = {
+	name = "Karnak"
+	dynasty = 14000004 # Zemgalisks
+	
+	culture = lettigallish
+	religion = baltic_pagan
+	
+	886.1.1 = { birth = 886.1.1 }
+}
+
+14000005 = {
+	name = "Borut"
+	dynasty = 14000005 # Latgalisks
+	
+	culture = lettigallish
+	religion = baltic_pagan
+	
+	865.1.1 = { birth = 865.1.1 }
+}
+
+14000006 = {
+	name = "Valikaila"
+	dynasty = 14000006 # Selisks
+	
+	culture = lettigallish
+	religion = baltic_pagan
+	
+	873.1.1 = { birth = 873.1.1 }
 }

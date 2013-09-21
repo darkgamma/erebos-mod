@@ -4,7 +4,7 @@
 }
 
 14000002 = {
-	name = "Zemigalias"
+	name = "Kursias"
 	culture = lithuanian
 }
 
@@ -13,7 +13,17 @@
 	culture = lithuanian
 }
 
-14000006 = {
+14000004 = {
+	name = "Zemgalisks"
+	culture = lettigallish
+}
+
+14000005 = {
 	name = "Latgalisks"
+	culture = lettigallish
+}
+
+14000006 = {
+	name = "Selisks"
 	culture = lettigallish
 }

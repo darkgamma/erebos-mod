@@ -10352,7 +10352,7 @@ e_byzantine = {
 			
 			c_minsk = {
 				color={ 174 43 43 }
-				color2={ 255 255 255 }
+				color2={ 255 255 255 } 
 				
 				b_minsk = {
 				}
@@ -10415,6 +10415,9 @@ e_byzantine = {
 				color={ 174 51 51 }
 				color2={ 255 255 255 }
 				
+				lettigallish = "Latgale"
+				lithuanian = "Latgale"
+				
 				b_vitebsk = {
 				}
 				b_sakolniki = {
@@ -10442,6 +10445,9 @@ e_byzantine = {
 			c_lettigalians = { # Letgale
 				color={ 125 50 50 }
 				color2={ 255 255 255 }
+				
+				lettigallish = "Zemgale"
+				lithuanian = "Zemgale"
 				
 				b_jersika = {
 				}
@@ -22581,7 +22587,7 @@ d_the_aukstaitians = {
 	title_prefix = "TRIBE_OF"
 }
 
-d_the_zemigallians = {
+d_the_curonians = {
     color = { 110 180 110 }
 	
 	tribe = yes
@@ -22609,8 +22615,36 @@ d_the_skalvians = {
 	title_prefix = "TRIBE_OF"
 }
 
-d_the_lettigalians = {
-    color = { 135 110 110 }
+d_the_zemigallians = {
+    color = { 150 230 150 }
+	
+	tribe = yes
+	
+	allow = {
+		always = no
+	}
+
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+	title_prefix = "TRIBE_OF"
+}
+
+d_the_lettigallians = {
+    color = { 0 170 0 }
+	
+	tribe = yes
+	
+	allow = {
+		always = no
+	}
+
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+	title_prefix = "TRIBE_OF"
+}
+
+d_the_selonians = {
+    color = { 110 135 110 }
 	
 	tribe = yes
 	
