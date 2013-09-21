@@ -1,0 +1,29 @@
+14000001 = {
+	name = "Jogaila"
+	dynasty = 14000001 # Aukstaitias
+	
+	culture = lithuanian
+	religion = baltic_pagan
+	
+	882.8.8 = { birth = 882.8.8 }
+}
+
+14000002 = {
+	name = "Daugvilas"
+	dynasty = 14000002 # Zemigalias
+	
+	culture = lithuanian
+	religion = baltic_pagan
+	
+	882.8.8 = { birth = 882.8.8 }
+}
+
+14000003 = {
+	name = "Algirdas"
+	dynasty = 14000003 # Skalvias
+	
+	culture = lithuanian
+	religion = baltic_pagan
+	
+	882.8.8 = { birth = 882.8.8 }
+}
