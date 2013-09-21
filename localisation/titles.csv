@@ -249,9 +249,15 @@ d_the_mazovians;the Mazovians;;;;;;;;;;;;;x
 d_the_mazovians_adj;Mazovian;;;;;;;;;;;;;x
 d_the_aukstaitians;the Aukštaitians;;;;;;;;;;;;;x
 d_the_aukstaitians_adj;Aukštaitian;;;;;;;;;;;;;x
-d_the_zemigallians;the Zemigallians;;;;;;;;;;;;;x
-d_the_zemigallians_adj;Zemigallian;;;;;;;;;;;;;x
+d_the_curonians;the Curonians;;;;;;;;;;;;;x
+d_the_curonians_adj;Curonian;;;;;;;;;;;;;x
 d_the_skalvians;the Skalvians;;;;;;;;;;;;;x
 d_the_skalvians_adj;Scalovian;;;;;;;;;;;;;x
+d_the_zemigallians;the Zemigallians;;;;;;;;;;;;;x
+d_the_zemigallians_adj;Zemigallian;;;;;;;;;;;;;x
+d_the_lettigallians;the Lettigallians;;;;;;;;;;;;;x
+d_the_lettigallians_adj;Lettigallian;;;;;;;;;;;;;x
+d_the_selonians;the Selonians;;;;;;;;;;;;;x
+d_the_selonians_adj;Selonian;;;;;;;;;;;;;x
 # BARONIES
 b_ras;Ras;;;;;;;;;;;;;x
