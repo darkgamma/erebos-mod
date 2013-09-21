@@ -759,7 +759,7 @@ Sum must not exceed 100.
 Barnaerd_Bernard Bartolomeus_Bartolomeus
 			Bavo Bertold Boudewijn_Baldwin Claes_Nicholas Claeuwaert Daevit_David Damaes 
 
-Diederick_Thierry Dirk_Thierry Douwe Eduard_Edward Egmund Ekbert
+Diederick_Thierry Dirk_Thierry Douwe Eduard_Edward Egmund Egbert
 			Emmo Engelbrecht Filips_Philip Floris Folbert Frans_Francis Frederik_Frederick Gerard_Gerard 
 
 Gerolt Gerulf
@@ -789,8 +789,7 @@ Badeloge Bava Beatrijs_Beatrice Benedicta_Benedicta
 Ellijnore_Eleanor Emma_Emma Ermingarde_Ermengarde Fenne
 			Filippa_Philippa Frida Gheertrude_Gertrude Gerda Godila Haduwijn Helena_Helen Herlinda 
 
-Hilligonda Ide_Ida Imagina Irene_Irene Isabelle_Elisabeth Iudith
-			Jacoba Jaccobijn Jasminne Johanna_Joan Jolanda Juliana_Juliana Jutte Kathrijne_Catherine 
+Hilligonda Ide_Ida Imagina Irene_Irene Isabelle_Elisabeth Iudith Jaccobijn Jasminne Johanna_Joan Jolanda Juliana_Juliana Jutte Kathrijne_Catherine 
 
 Katrien_Catherine Liedwin Lisebet_Elisabeth Machtelt Margareta_Margaret
 			Maria_Maria Mathilde_Matilda Oda Odelt Olinde Onna Pieternelle_Petronilla Reynilde Sanne 

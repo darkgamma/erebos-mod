@@ -1,4 +1,4 @@
 900.1.1 = {
-	liege = d_champagne
+	liege = k_austrasia
 	holder = 13000012 # Kristof Meroving
 }
