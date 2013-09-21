@@ -12,3 +12,8 @@
 	name = "von Bayern"
 	culture = bavarian
 }
+
+13000004 = {
+	name = "Karoling"
+	culture = german
+}
