@@ -6,6 +6,7 @@
 	culture="avar"
 	
 	add_trait="brilliant_strategist"
+	add_trait="wroth" 
 		
 	884.1.1 = { birth="884.1.1" }
 }
@@ -16,7 +17,10 @@
 	
 	religion="tengri_pagan"
 	culture="hungarian"
-		
+	
+    add_trait="ambitious"
+	add_trait="deceitful"
+	
 	878.1.1 = { birth="878.1.1" }
 }
 
@@ -26,6 +30,9 @@
 	
 	religion="slavic_pagan"
 	culture="southslavic"
+	
+    add_trait="brave"
+	add_trait="paranoid"
 		
 	880.1.1 = { birth="880.1.1" }
 }
@@ -36,6 +43,9 @@
 	
 	religion="orthodox"
 	culture="romanian"
+	
+	add_trait="content"
+	add_trait="kind"
 		
 	874.1.1 = { birth="874.1.1" }
 }
@@ -47,6 +57,9 @@
 	religion="slavic_pagan"
 	culture="southslavic"
 		
+	add_trait="scholarly_theologian"
+	add_trait="cynical"
+		
 	887.1.1 = { birth="887.1.1" }
 }
 
@@ -56,7 +69,10 @@
 	
 	religion="tengri_pagan"
 	culture="avar"
-		
+	
+    add_trait="lustful"
+	add_trait="gregarious"
+	
 	860.1.1 = { birth="860.1.1" }
 }
 
@@ -66,6 +82,9 @@
 	
 	religion="tengri_pagan"
 	culture="avar"
+		
+	add_trait="shy"
+	add_trait="cruel"
 		
 	868.1.1 = { birth="868.1.1" }
 }
@@ -77,6 +96,9 @@
 	religion="tengri_pagan"
 	culture="hungarian"
 		
+    add_trait="fortune_builder"
+	add_trait="envious"
+		
 	877.1.1 = { birth="877.1.1" }
 }
 
@@ -86,6 +108,9 @@
 	
 	religion="tengri_pagan"
 	culture="hungarian"
-		
+	
+    add_trait="just"
+	add_trait="proud"
+	
 	866.1.1 = { birth="866.1.1" }
 }
