@@ -5,11 +5,11 @@ title = c_trier
 
 # Settlements
 max_settlements = 4
-b_trier = temple
+b_trier = castle
 b_coblenz = city
 b_sponheim = castle
+b_andernach = temple
 
-#b_andernach = castle
 #b_wittlich = castle
 #b_gerolstein = castle
 #b_laach = castle

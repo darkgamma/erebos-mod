@@ -1,4 +1,4 @@
 900.1.1 = {
-	liege = d_franconia
+	liege = k_franconia
 	holder = 13000008 # Luitpold Karoling
 }
