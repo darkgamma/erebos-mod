@@ -15,7 +15,7 @@ b_elche = temple
 #b_orihuela = city
 
 # Misc
-culture = catalan
+culture = paleo
 religion = catholic
 
 # History
