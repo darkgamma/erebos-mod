@@ -18,4 +18,4 @@ b_eauze = temple
 
 #Misc
 religion = marcinian
-culture = burgundian
+culture = frankish
