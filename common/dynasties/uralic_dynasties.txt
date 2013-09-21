@@ -27,3 +27,8 @@
 	name = "Saar"
 	culture = ugricbaltic
 }
+
+3000007 = {
+	name = "Lepp"
+	culture = ugricbaltic
+}

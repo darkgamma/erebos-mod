@@ -6446,7 +6446,57 @@ e_aksum = {
 				b_parnaw = {
 				}
 			}
-			c_osel = {
+			c_narva = {
+				color={ 175 55 55 }
+				color2={ 255 255 255 }
+			
+				b_narva = {
+				}
+				b_agelinde = {
+				}
+				b_wesenberg = {
+				}
+				b_telsborg = {
+				}
+				b_pudiviru = {
+				}
+				b_askala = {
+				}
+				b_repel = {
+				}
+				b_alentagh = {
+				}
+			}
+			c_vodi = {
+				color={ 113 0 0 }
+				color2={ 255 255 255 }
+			
+				b_nyen = {
+				}
+				b_noteborg = {
+				}
+				b_valaam = {
+				}
+				b_jogopera = {
+				}
+				b_ivanovskaya = { # Teusina
+				}
+				b_nosok = {
+				}
+				b_liivtsula = {
+				}
+				b_khotchino = {
+				}
+			}
+		}
+		
+		d_livonia = {
+		    color={ 110 50 50 }
+			color2={ 255 255 255 }
+			
+			capital = 377 # Liivimaa
+		
+		    c_osel = {
 				color={ 101 48 48 }
 				color2={ 255 255 255 }
 			
@@ -6490,28 +6540,7 @@ e_aksum = {
 				b_vanakastre = {
 				}
 			}
-			c_narva = {
-				color={ 175 55 55 }
-				color2={ 255 255 255 }
-			
-				b_narva = {
-				}
-				b_agelinde = {
-				}
-				b_wesenberg = {
-				}
-				b_telsborg = {
-				}
-				b_pudiviru = {
-				}
-				b_askala = {
-				}
-				b_repel = {
-				}
-				b_alentagh = {
-				}
-			}
-			c_livs = {
+		    c_livs = {
 				color={ 170 50 50 }
 				color2={ 255 255 255 }
 
@@ -6532,28 +6561,8 @@ e_aksum = {
 				b_wolmer = {
 				}
 			}
-			c_vodi = {
-				color={ 113 0 0 }
-				color2={ 255 255 255 }
-			
-				b_nyen = {
-				}
-				b_noteborg = {
-				}
-				b_valaam = {
-				}
-				b_jogopera = {
-				}
-				b_ivanovskaya = { # Teusina
-				}
-				b_nosok = {
-				}
-				b_liivtsula = {
-				}
-				b_khotchino = {
-				}
-			}
 		}
+		
 		d_karelia = {
 			color={ 155 135 45 }
 			color2={ 255 255 255 }
@@ -22505,7 +22514,7 @@ d_the_pomeranians = {
 }
 
 d_the_obodrites = {
-    color = { 100 0 0 }
+    color = { 160 0 0 }
 	
 	tribe = yes
 	
@@ -22561,7 +22570,7 @@ d_the_sorbs = {
 }
 
 d_the_mazovians = {
-    color = { 135 110 110 }
+    color = { 230 80 80 }
 	
 	tribe = yes
 	
@@ -22645,7 +22654,7 @@ d_the_lettigallians = {
 }
 
 d_the_selonians = {
-    color = { 110 135 110 }
+    color = { 60 135 60 }
 	
 	tribe = yes
 	
