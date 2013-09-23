@@ -10522,7 +10522,7 @@ e_byzantine = {
 		}
 	}
 	
-	k_rus = {
+	k_novgorod = {
 		color={ 87 144 50 }
 		color2={ 255 255 255 }
 		
@@ -10531,8 +10531,6 @@ e_byzantine = {
 		slavic_pagan_reformed = 500 # Crusade target weight
 		finnish_pagan_reformed = 300 # Crusade target weight
 		baltic_pagan_reformed = 100 # Crusade target weight
-		
-		norse = Garðariki
 		
 		d_vladimir = {
 			color={ 180 200 90 }
@@ -11253,7 +11251,7 @@ e_byzantine = {
 		}
 	}
 	
-	k_ruthenia = {
+	k_kiev = {
 		color={ 147 164 104 }
 		color2={ 255 255 255 }
 		
