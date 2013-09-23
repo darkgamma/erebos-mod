@@ -2146,7 +2146,7 @@ Sum must not exceed 100.
 	}
 }
 
-finno_ugric = {
+uralic = {
 	graphical_culture = easterngfx
 
 	finnish = {
