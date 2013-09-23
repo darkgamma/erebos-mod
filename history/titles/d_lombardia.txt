@@ -1,0 +1,4 @@
+900.1.1 = {
+	liege = k_langobardia
+	holder = 5000005 # Odoin Wulfiling
+}

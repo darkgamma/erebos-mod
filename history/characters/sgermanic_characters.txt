@@ -41,3 +41,39 @@
 	
 	869.1.1 = { birth = 869.1.1 }
 }
+
+5000004 = {
+	name = "Gundemar"
+	dynasty = 5000004 # Frigaling
+	
+	add_trait = zealous
+	add_trait = just
+	
+	religion = arian
+	culture = gothic
+	
+	879.1.1 = { birth = 879.1.1 }
+}
+
+5000005 = {
+	name = "Odoin"
+	dynasty = 5000005 # Wulfiling
+	
+	add_trait = arbitrary
+	add_trait = hsb_jade
+	
+	religion = orthodox
+	culture = langobard
+	
+	879.1.1 = { birth = 879.1.1 }
+}
+
+5000006 = {
+	name = "Atenulf"
+	dynasty = 5000006 # Meniling
+	
+	religion = orthodox
+	culture = langobard
+	
+	872.1.1 = { birth = 872.1.1 }
+}

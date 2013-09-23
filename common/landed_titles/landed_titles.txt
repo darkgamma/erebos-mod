@@ -6825,7 +6825,7 @@ e_italia = {
 	
 	capital = 333 # Rome
 	
-	k_langobardia	= {
+	k_langobardia = {
 		color = { 190 125 60 }
 		color2 = { 95 63 30 }
 		

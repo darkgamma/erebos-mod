@@ -47,3 +47,13 @@
 	
 	872.1.1 = { birth = 872.1.1 }
 }
+
+15000006 = {
+	name = "Sosin"
+	dynasty = 15000006 # ku Bark
+	
+	religion = marcinian
+	culture = paleo
+	
+	869.1.1 = { birth = 869.1.1 }
+}

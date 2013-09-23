@@ -15,5 +15,5 @@ b_cotlliure = city
 #b_ceret = city
 
 # Misc
-culture = burgundian
+culture = paleo
 religion = marcinian
