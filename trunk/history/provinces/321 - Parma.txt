@@ -16,6 +16,6 @@ b_laspezia = city
 
 # Misc
 culture = italian
-religion = catholic
+religion = orthodox
 
 # History

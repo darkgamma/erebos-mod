@@ -19,7 +19,7 @@ b_bozen = city
 
 # Misc
 culture = italian
-religion = catholic
+religion = orthodox
 
 # History
 

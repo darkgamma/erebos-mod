@@ -16,13 +16,4 @@ b_peschiera = temple
 
 # Misc
 culture = italian
-religion = catholic
-
-# History
-#1115.7.24 = { capital = b_brescia }
-1173.1.1 = { capital = b_brescia }
-1240.1.1 = { capital = b_bergamo }
-1281.1.1 = { capital = b_brescia }
-1298.1.1 = { capital = b_bergamo }
-1313.1.1 = { capital = b_brescia }
-1319.1.1 = { capital = b_bergamo }
+religion = orthodox
