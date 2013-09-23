@@ -104,6 +104,10 @@ k_sinai;Sinai;;;;;;;;;;;;;x
 k_sinai_adj;Sinaian;;;;;;;;;;;;;x
 k_lechitic;the Lechites;;;;;;;;;;;;;x
 k_lechitic_adj;Lechitic;;;;;;;;;;;;;x
+k_kiev;Kiev;;;;;;;;;;;;;x
+k_kiev_adj;Kievan;;;;;;;;;;;;;x
+k_novgorod;Novgorod;;;;;;;;;;;;;x
+k_novgorod_adj;Novgorodian;;;;;;;;;;;;;x
 # DUCHIES
 d_omsk;Omsk;;;;;;;;;;;;;x
 d_omsk_adj;Omskian;;;;;;;;;;;;;x
