@@ -64,6 +64,8 @@
 	name = "Alexandros"
 	dynasty = 9000006 # Dallasenos
 	
+	add_trait = naive_appeaser
+	
 	add_trait = brave
 	add_trait = zealous
 	add_trait = strong

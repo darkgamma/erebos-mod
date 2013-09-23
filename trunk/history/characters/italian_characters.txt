@@ -1,0 +1,24 @@
+10000001 = {
+	name = "Marco"
+	dynasty = 10000001 # di Capua
+	
+	add_trait = quick
+	
+	religion = orthodox
+	culture = italian
+	
+	875.1.1 = { birth = 875.1.1 }
+}
+
+10000002 = {
+	name = "Gentile"
+	dynasty = 10000002 # Binasco
+	
+	add_trait = just
+	add_trait = paranoid
+	
+	religion = catholic
+	culture = italian
+	
+	879.1.1 = { birth = 879.1.1 }
+}

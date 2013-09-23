@@ -1,3 +1,4 @@
 900.1.1 = {
-	liege = d_valencia
+	liege = d_barcelona
+	holder = 15000006 # Sosin ku Bark
 }

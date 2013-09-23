@@ -22,3 +22,8 @@
 	name = "de Vale"
 	culture = castillan
 }
+
+15000006 = {
+	name = "ku Bark"
+	culture = paleo
+}
