@@ -1,0 +1,15 @@
+16000001 = {
+	name = "Guttormr"
+	dynasty = 16000001 # Dyring
+	
+	add_trait = just
+	add_trait = cynical
+	add_trait = quick
+	add_trait = wounded
+	add_trait = wroth
+	
+	culture = norse
+	religion = norse_pagan
+	
+	871.1.1 = { birth = 871.1.1 }
+}
