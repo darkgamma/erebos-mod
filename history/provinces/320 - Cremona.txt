@@ -16,7 +16,7 @@ b_crema = temple
 #b_manerbio = castle
 
 # Misc
-culture = italian
-religion = catholic
+culture = langobard
+religion = orthodox
 
 # History
