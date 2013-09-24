@@ -54,3 +54,28 @@
 	
 	866.1.1 = { birth = 866.1.1 }
 }
+
+17000005 = {
+	name = "Sokal"
+	dynasty = 17000004 # Toksoba
+	
+	add_trait = falconer
+	
+	religion = tengri_pagan
+	culture = cuman
+	
+	877.1.1 = { birth = 877.1.1 }
+}
+
+17000006 = {
+	name = "Etrek"
+	dynasty = 17000005 # Burdjoglu
+	
+	add_trait = poet
+	add_trait = drunkard
+	
+	religion = tengri_pagan
+	culture = cuman
+	
+	874.1.1 = { birth = 874.1.1 }
+}
