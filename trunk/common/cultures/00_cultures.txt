@@ -12,7 +12,7 @@ north_germanic = {
 		# Þ 222 þ 254 Ð 208 ð 240 æ
 		
                 male_names = {
-            Álfr_Alf Ari Arngrímr Arnór_Arne Ásbjörn_Asbjörn Ásgeirr_Ansgar Ásmundr_Osmund Auðun_Otwin Bárður_Barde Baldr Bergþór Bersi_Beorn Bjarnar Bjarni_Beorn Björn_Beorn Böðvar Bölverkr Brandr Dufgus_Dubgus Egill_Egil Eilífur_Eilif Einarr_Einar Eiríkr_Erik Erlendr_Erlend Eyjólfur Eyvindur Finnur_Finn
+            Álfr_Alf Ari Arngrímr Arnór_Arne Ásbjörn_Asbjörn Ásgeirr_Ansgar Ásmundr_Osmund Auðun_Otwin Bárður_Barde Baldr Bergþór Bersi_Beorn Bjarnar Bjarni_Beorn Björn_Beorn Böðvarr Bölverkr Brandr Dufgus_Dubgus Egill_Egil Eilífur_Eilif Einarr_Einar Eiríkr_Erik Erlendr_Erlend Eyjólfur Eyvindur Finnur_Finn
             Flosi_Floribert Geirmundur Gellir Gísli_Gilbert Gissr_Gissur Gisr_Gissur Glúmr_Glum Grímr_Grimaldo Gunnar_Günther Gunnlaugr Gunnsteinn Guttormr_Guttorm Guðlaugr Guðmundr_Gudmund Hængr Hafr_Hafur Hafurbjarnar Hákonn_Hakon Hallbjörn Halldór_Haldor Hallsteinn_Halsten Hallr Hallvarðr_Halvor Halfdann_Halfdan
             Hámundr_Hamund Haraldr_Harold Haukr_Hugh Helgi_Helge Herjólfr Héðinn_Henry Hildir_Hildebrand Hilmar Högni_Hagen Hólmsteinn Höskuldr Hrafn Hrappr Húnbogi Illugi Ingjaldr_Ingjald Ingvaldr_Ingwald Jón_John Jörundr Kári_Kar Kjallakr_Cellach Kolbeinn_Kolbein Kolli_Kollur
             Kollr_Kollur Loftr Loðinn_Loden Már Narfi_Navid Ófeigr Ólafr_Olaf Óleifr_Olaf Önundr_Anund Órækja Ormr_Orm Örn_Arne Örnólfr_Arnulf Óttarr_Ottar Refr Sighvatr Sigmundr_Sigmund Sigurðr_Sigurd Skafti Skeggi Snorri Sölvi Steinn_Sten
