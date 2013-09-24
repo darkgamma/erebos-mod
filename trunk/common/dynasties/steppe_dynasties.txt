@@ -2,3 +2,23 @@
 	name = "Birigid"
 	culture = khazar
 }
+
+17000002 = {
+	name = "Kibarid"
+	culture = khazar
+}
+
+17000003 = {
+	name = "Gokharid"
+	culture = alan
+}
+
+17000004 = {
+	name = "Toksoba"
+	culture = cuman
+}
+
+17000005 = {
+	name = "Burdjoglu"
+	culture = cuman
+}

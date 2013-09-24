@@ -4,7 +4,7 @@
 title = c_oral
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_kurgan = castle
 b_kyzalyar = city
 b_vagay = temple
@@ -20,7 +20,3 @@ culture = cuman
 religion = tengri_pagan
 
 # History
-
-1227.1.1={ culture = mongol }
-1227.1.1={ religion = tengri_pagan }
-1313.1.1={ religion = sunni } 
