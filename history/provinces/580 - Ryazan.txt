@@ -14,14 +14,5 @@ b_solotcha = temple
 #b_sasovo = castle
 #b_klepiki = castle
 
-culture = mordvin
-religion = finnish_pagan
-
-# History
-988.1.1 = {
-	culture = russian
-	religion = orthodox
-}
-
-1187.1.1 = { b_rybnino = city }
-1237.1.1 = { remove_settlement = b_rybnino } #Mongol invasion
+culture = russian
+religion = slavic_pagan

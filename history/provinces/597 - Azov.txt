@@ -16,13 +16,6 @@ b_azaq = city
 #b_katon = castle
 #b_kugey = castle
 
+# Misc
 culture = khazar
-religion = tengri_pagan
-
-# History
-
-
-1227.1.1 = { religion = sunni } 
-
-1238.1.1 = { culture = mongol }
-1275.1.1 = { trade_post = b_grimaldi }
+religion = orthodox

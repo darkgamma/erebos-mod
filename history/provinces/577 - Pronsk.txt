@@ -15,12 +15,5 @@ b_tula = city
 #b_sergijewskoje = castle
 #b_bogoroditsk = castle
 
-culture = mordvin
-religion = finnish_pagan
-
-# History
-988.1.1 = {
-	culture = russian
-	religion = orthodox
-	b_yelets = temple
-}
+culture = russian
+religion = slavic_pagan

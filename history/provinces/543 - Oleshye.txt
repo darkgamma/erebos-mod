@@ -20,6 +20,6 @@ b_bohopol = temple
 
 # Misc
 culture = russian
-religion = slavic_pagan
+religion = orthodox
 
 # History
