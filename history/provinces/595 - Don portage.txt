@@ -18,4 +18,4 @@ b_illovlya = city
 
 # Misc
 culture = khazar
-religion = tengri_pagan
+religion = ibadi

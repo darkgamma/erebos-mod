@@ -16,8 +16,6 @@ b_makhmudmekteb = temple
 #b_makhach = castle
 
 culture = alan
-religion = tengri_pagan
+religion = ibadi
 
 # History
-900.1.1 = { religion = orthodox } 
-1313.1.1= { religion = sunni } 

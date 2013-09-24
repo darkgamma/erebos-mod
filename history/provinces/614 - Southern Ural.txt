@@ -21,8 +21,3 @@ culture = bolghar
 religion = tengri_pagan
 
 # History
-923.1.1 = { religion = sunni } 
-
-1337.1.1 = { b_iq = castle }  
-
-
