@@ -1,0 +1,9 @@
+16000001 = {
+	name = "Dyring"
+	culture = norse
+}
+
+16000002 = {
+	name = "Ruriking"
+	culture = norse
+}
