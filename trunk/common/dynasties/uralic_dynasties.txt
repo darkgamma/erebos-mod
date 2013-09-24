@@ -32,3 +32,8 @@
 	name = "Lepp"
 	culture = ugricbaltic
 }
+
+3000008 = {
+	name = "Ngarid"
+	culture = samoyed
+}
