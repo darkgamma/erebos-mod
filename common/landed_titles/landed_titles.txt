@@ -12055,7 +12055,7 @@ e_byzantine = {
 				b_yadrin = {
 				}
 			}
-			c_mountain_cheremisa = {
+			c_mountain_cheremisa = { # Actual Cheremisa
 				color={ 240 180 19 }
 				color2={ 255 255 255 }
 			

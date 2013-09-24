@@ -76,3 +76,13 @@
 	
 	872.1.1 = { birth = "872.1.1" }
 }
+
+3000008 = {
+	name = "Saam"
+	dynasty = 3000008 # Ngarid
+	
+	religion = finnish_pagan
+	culture = samoyed
+	
+	874.1.1 = { birth = 872.1.1 }
+}

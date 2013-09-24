@@ -43,4 +43,14 @@
 	883.1.1 = { birth = 883.1.1 }
 }
 
-
+17000004 = {
+	name = "Odolgan"
+	dynasty = 17000006 # Odolgid
+	
+	add_trait = hunter
+	
+	religion = tengri_pagan
+	culture = bolghar
+	
+	866.1.1 = { birth = 866.1.1 }
+}
