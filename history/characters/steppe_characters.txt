@@ -14,3 +14,33 @@
 	
 	884.1.1 = { birth = 884.1.1 }
 }
+
+17000002 = {
+	name = "Vakrim"
+	dynasty = 17000002 # Kibarid
+	
+	add_trait = impaler
+	add_trait = cynical
+	add_trait = charitable
+	
+	religion = ibadi
+	culture = khazar 
+	
+	879.1.1 = { birth = 879.1.1 }
+}
+
+17000003 = {
+	name = "Bæqætar"
+	dynasty = 17000003 # Gokharid
+	
+	add_trait = scholarly_theologian
+	add_trait = proud
+	add_trait = shy
+	
+	religion = ibadi
+	culture = alan 
+	
+	883.1.1 = { birth = 883.1.1 }
+}
+
+

@@ -2487,8 +2487,10 @@ Umay Usunbike Yasar Yeldem Yildiz
 		}
 		
 		from_dynasty_prefix = "of "
-		founder_named_dynasties = yes
 
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+		
 		modifier = default_culture_modifier
 	}
 	cuman = { # Kipchak Turkish
@@ -2514,6 +2516,8 @@ Umay Usunbike Yasar Yeldem Yildiz
 		}
 		
 		from_dynasty_prefix = "of "
+		
+		dynasty_title_names = yes
 		founder_named_dynasties = yes
 
 		modifier = default_culture_modifier
