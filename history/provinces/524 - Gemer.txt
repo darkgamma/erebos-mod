@@ -16,9 +16,8 @@ b_losonc = temple
 #b_nyustya = castle
 
 # Misc
-culture = avar
+culture = hungarian
 religion = tengri_pagan
 
 # History
 
-950.1.1 = { culture = hungarian }
