@@ -17,15 +17,5 @@ b_krykuru = temple
 #b_aytbay = castle
 
 # Misc
-culture = pecheneg
-religion = tengri_pagan
-
-# History
-
-1060.1.1 = { culture = cuman }
-
-1100.1.1 = { religion = sunni } 
-
-1227.1.1 = { culture = mongol } 
-
-
+culture = khazar
+religion = ibadi

@@ -1,0 +1,16 @@
+17000001 = {
+	name = "Ötemis"
+	dynasty = 17000001 # Birigid
+	
+	add_trait = hunter
+	add_trait = zealous
+	add_trait = cruel
+	add_trait = just
+	add_trait = sloth
+	add_trait = ambitious
+	
+	religion = orthodox
+	culture = khazar 
+	
+	884.1.1 = { birth = 884.1.1 }
+}
