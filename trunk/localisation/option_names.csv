@@ -1,5 +1,6 @@
 HSBASSING;This is an ai-only event. Not cool of you to be seeing it. Report this to me immediately, no hesitation.;;;;;;;;;;;;;x
 AI_ONLY;This is an ai-only event. Not cool of you to be seeing it. Report this to me immediately, no hesitation.;;;;;;;;;;;;;x
+BLOODCOUNT;Does knowledge harm us more than mere absence of it?;;;;;;;;;;;;;x
 
 EVTDESCHSA.1;You never paid much attention what your blood was. Such trivialities clogged the minds of ancient doctors and scribes, writers wrote of that more than a thousand years prior. The topic faded away into obscurity when Old Rome fell.;;;;;;;;;;;;;x
 
@@ -8,3 +9,5 @@ EVTOPTBHSA.1;I never knew the colour of my blood!;;;;;;;;;;;;;x
 
 add_hsbred;You bleed red when cut.;;;;;;;;;;;;;x
 add_hsbbronze;When pricked, you bleed bronze.;;;;;;;;;;;;;x
+
+EVTDESCBCO.1;As all men bleed alike, they differ in how much. Some can die from the smallest nicks and bruises, others can survive deep, mortal gashes. It differs from man to man, yes, but it also differs from hue to hue.;;;;;;;;;;;;;x

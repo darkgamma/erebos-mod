@@ -6,3 +6,4 @@
 
 ## HEMO = Hemospectrum assignment on-birth events
 ## HSA = Hemospectrum assignment events
+## BCO = Bloodcounting events
