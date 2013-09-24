@@ -37,3 +37,13 @@
 	name = "Ngarid"
 	culture = samoyed
 }
+
+3000009 = {
+	name = "Numid"
+	culture = samoyed
+}
+
+3000010 = {
+	name = "Biyarid"
+	culture = komi
+}

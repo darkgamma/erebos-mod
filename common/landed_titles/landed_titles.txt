@@ -6569,7 +6569,7 @@ e_aksum = {
 			
 			capital = 388 # Karjala
 			
-			c_onega = {
+			c_onega = { # WTF PARADOX Ääninen
 				color={ 165 45 45 }
 				color2={ 255 255 255 }
 			
@@ -19655,7 +19655,7 @@ e_pars = {
 				b_archangelsk = {
 				}
 			}
-			c_trans-portage = { # Pomorye wtf Paradox
+			c_trans-portage = { # WTF PARADOX Pomorye
 				color={ 103 118 58 }
 				color2={ 255 255 255 }
 				

@@ -84,5 +84,25 @@
 	religion = finnish_pagan
 	culture = samoyed
 	
-	874.1.1 = { birth = 872.1.1 }
+	874.1.1 = { birth = 874.1.1 }
+}
+
+3000009 = {
+	name = "Tolik"
+	dynasty = 3000009 # Numid
+	
+	religion = finnish_pagan
+	culture = samoyed
+	
+	869.1.1 = { birth = 869.1.1 }
+}
+
+3000010 = {
+	name = "Nydog"
+	dynasty = 3000010 # Biyarid
+	
+	religion = finnish_pagan
+	culture = komi
+	
+	875.1.1 = { birth = 875.1.1 }
 }
