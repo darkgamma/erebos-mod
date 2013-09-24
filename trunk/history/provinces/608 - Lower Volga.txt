@@ -19,5 +19,5 @@ b_kamyshin = temple
 
 # Misc
 culture = khazar
-religion = tengri_pagan
+religion = ibadi
 
