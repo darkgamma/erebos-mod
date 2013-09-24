@@ -13,3 +13,19 @@
 	
 	871.1.1 = { birth = 871.1.1 }
 }
+
+16000002 = {
+	name = "Böğvarr"
+	dynasty = 16000002 # Ruriking
+	
+	add_trait = fair
+	add_trait = wroth
+	add_trait = weak
+	add_trait = midas_touched
+	add_trait = shy
+	
+	culture = norse
+	religion = norse_pagan
+	
+	874.1.1 = { birth = 874.1.1 }
+}

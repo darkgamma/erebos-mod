@@ -15,13 +15,5 @@ b_zaraysk = city
 #b_peski = castle
 #b_cherkizovo = castle
 
-culture = mordvin
-religion = finnish_pagan
-
-# History
-988.1.1 = {
-	culture = russian
-	religion = orthodox
-}
-
-1000.1.1 = { b_glukhovichi = temple }
+culture = russian
+religion = slavic_pagan

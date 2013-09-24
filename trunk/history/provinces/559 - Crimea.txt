@@ -17,15 +17,4 @@ b_aqmescit = temple
 
 # Misc
 culture = khazar
-religion = tengri_pagan
-
-# History
-
-930.1.1 = { culture = cuman } 
-1152.1.1 = { trade_post = b_grimaldi }
-
-1227.1.1 = { religion = sunni } 
-
-1238.1.1 = { culture = mongol } 
-
-1300.1.1 = { b_saq = castle } 
+religion = orthodox

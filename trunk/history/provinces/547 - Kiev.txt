@@ -16,7 +16,7 @@ b_ovruch = castle
 
 # Misc
 culture = russian
-religion = slavic_pagan
+religion = norse_pagan
 
 # History
 867.1.1 = {

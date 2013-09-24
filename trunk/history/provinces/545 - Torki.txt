@@ -18,6 +18,6 @@ b_bogdana = temple
 
 # Misc
 culture = russian
-religion = slavic_pagan
+religion = norse_pagan
 
 # History

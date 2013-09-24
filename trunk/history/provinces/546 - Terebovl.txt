@@ -17,7 +17,7 @@ b_pochayivlavra = temple
 
 # Misc
 culture = russian
-religion = slavic_pagan
+religion = norse_pagan
 
 # History
 

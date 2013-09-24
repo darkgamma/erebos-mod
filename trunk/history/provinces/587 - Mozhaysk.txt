@@ -15,12 +15,6 @@ b_yaransk = city
 #b_tonshaevo = castle
 #b_uren = castle
 
-culture = mordvin
-religion = finnish_pagan
-
-# History
-988.1.1 = {
-	culture = russian
-	religion = orthodox
-	b_shakhunya = temple
-}
+culture = russian
+religion = slavic_pagan
+b_shakhunya = temple

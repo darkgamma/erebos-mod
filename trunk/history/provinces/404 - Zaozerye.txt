@@ -16,8 +16,5 @@ b_zarechnaya = castle
 #b_pashuchikha = castle
 
 # Misc
-culture = finnish
-religion = finnish_pagan
-
-# History
-1150.1.1 = { religion = orthodox }
+culture = norse
+religion = norse_pagan

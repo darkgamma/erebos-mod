@@ -16,8 +16,5 @@ b_totma = castle
 #b_zaytsevo = castle
 
 # Misc
-culture = finnish
+culture = mordvin
 religion = finnish_pagan
-
-# History
-1150.1.1 = { religion = orthodox }

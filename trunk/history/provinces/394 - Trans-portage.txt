@@ -16,8 +16,5 @@ b_kargopol = castle
 #b_obozerskiy = castle
 
 # Misc
-culture = finnish
+culture = samoyed
 religion = finnish_pagan
-
-# History
-1315.1.1 = { b_shenkursk = city } #trading outpost purchased by Novgorod
