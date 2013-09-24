@@ -1,0 +1,4 @@
+17000001 = {
+	name = "Birigid"
+	culture = khazar
+}

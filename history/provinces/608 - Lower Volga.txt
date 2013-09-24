@@ -18,14 +18,6 @@ b_kamyshin = temple
 #b_prishib = castle
 
 # Misc
-culture = pecheneg
+culture = khazar
 religion = tengri_pagan
-
-# History
-
-1060.1.1 = { culture = cuman }
-
-1200.1.1 = { religion = sunni } 
-
-1227.1.1 = { culture = mongol } 
 
