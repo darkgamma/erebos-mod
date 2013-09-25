@@ -3720,30 +3720,6 @@ character_event = {
 		
 		if = {
 			limit = { 
-				check_variable = { which = bloodmax value = 5200.0 }
-				NOT = { 
-					check_variable = { which = bloodmax value = 5201.0 }
-					check_variable = { which = bloodcount value = 5200.0 }
-				}
-			}
-			
-			if = {
-				limit = {
-					NOT = { check_variable = { which = bloodcount value = 4680.0 } }
-				}
-				change_variable = { which = test_variable value = +520.0 }
-			}
-			
-			if = {
-				limit = {
-					check_variable = { which = bloodcount value = 4680.0 }
-				}
-				set_variable = { which = bloodcount value = +5200.0 }
-			}
-		}
-		
-		if = {
-			limit = { 
 				check_variable = { which = bloodmax value = 5350.0 }
 				NOT = { 
 					check_variable = { which = bloodmax value = 5351.0 }
@@ -3883,6 +3859,342 @@ character_event = {
 					check_variable = { which = bloodcount value = 5375.0 }
 				}
 				set_variable = { which = bloodcount value = +5975.0 }
+			}
+		}
+		
+		if = {
+			limit = { 
+				check_variable = { which = bloodmax value = 5800.0 }
+				NOT = { 
+					check_variable = { which = bloodmax value = 5801.0 }
+					check_variable = { which = bloodcount value = 5800.0 }
+				}
+			}
+			
+			if = {
+				limit = {
+					NOT = { check_variable = { which = bloodcount value = 5220.0 } }
+				}
+				change_variable = { which = test_variable value = +580.0 }
+			}
+			
+			if = {
+				limit = {
+					check_variable = { which = bloodcount value = 5220.0 }
+				}
+				set_variable = { which = bloodcount value = +5800.0 }
+			}
+		}
+		
+		if = {
+			limit = { 
+				check_variable = { which = bloodmax value = 5950.0 }
+				NOT = { 
+					check_variable = { which = bloodmax value = 5951.0 }
+					check_variable = { which = bloodcount value = 5950.0 }
+				}
+			}
+			
+			if = {
+				limit = {
+					NOT = { check_variable = { which = bloodcount value = 5355.0 } }
+				}
+				change_variable = { which = test_variable value = +595.0 }
+			}
+			
+			if = {
+				limit = {
+					check_variable = { which = bloodcount value = 5355.0 }
+				}
+				set_variable = { which = bloodcount value = +5950.0 }
+			}
+		}
+		
+		if = {
+			limit = { 
+				check_variable = { which = bloodmax value = 5375.0 }
+				NOT = { 
+					check_variable = { which = bloodmax value = 5376.0 }
+					check_variable = { which = bloodcount value = 5375.0 }
+				}
+			}
+			
+			if = {
+				limit = {
+					NOT = { check_variable = { which = bloodcount value = 4835.0 } }
+				}
+				change_variable = { which = test_variable value = +540.0 }
+			}
+			
+			if = {
+				limit = {
+					check_variable = { which = bloodcount value = 4835.0 }
+				}
+				set_variable = { which = bloodcount value = +5375.0 }
+			}
+		}
+		
+		if = {
+			limit = { 
+				check_variable = { which = bloodmax value = 6000.0 }
+				NOT = { 
+					check_variable = { which = bloodmax value = 6001.0 }
+					check_variable = { which = bloodcount value = 6000.0 }
+				}
+			}
+			
+			if = {
+				limit = {
+					NOT = { check_variable = { which = bloodcount value = 5400.0 } }
+				}
+				change_variable = { which = test_variable value = +600.0 }
+			}
+			
+			if = {
+				limit = {
+					check_variable = { which = bloodcount value = 5400.0 }
+				}
+				set_variable = { which = bloodcount value = +6000.0 }
+			}
+		}
+		
+		if = {
+			limit = { 
+				check_variable = { which = bloodmax value = 6150.0 }
+				NOT = { 
+					check_variable = { which = bloodmax value = 6151.0 }
+					check_variable = { which = bloodcount value = 6150.0 }
+				}
+			}
+			
+			if = {
+				limit = {
+					NOT = { check_variable = { which = bloodcount value = 5535.0 } }
+				}
+				change_variable = { which = test_variable value = +615.0 }
+			}
+			
+			if = {
+				limit = {
+					check_variable = { which = bloodcount value = 5535.0 }
+				}
+				set_variable = { which = bloodcount value = +6150.0 }
+			}
+		}
+		
+		if = {
+			limit = { 
+				check_variable = { which = bloodmax value = 6275.0 }
+				NOT = { 
+					check_variable = { which = bloodmax value = 6276.0 }
+					check_variable = { which = bloodcount value = 6275.0 }
+				}
+			}
+			
+			if = {
+				limit = {
+					NOT = { check_variable = { which = bloodcount value = 5465.0 } }
+				}
+				change_variable = { which = test_variable value = +630.0 }
+			}
+			
+			if = {
+				limit = {
+					check_variable = { which = bloodcount value = 5465.0 }
+				}
+				set_variable = { which = bloodcount value = +6275.0 }
+			}
+		}
+		
+		if = {
+			limit = { 
+				check_variable = { which = bloodmax value = 5775.0 }
+				NOT = { 
+					check_variable = { which = bloodmax value = 5776.0 }
+					check_variable = { which = bloodcount value = 5775.0 }
+				}
+			}
+			
+			if = {
+				limit = {
+					NOT = { check_variable = { which = bloodcount value = 5195.0 } }
+				}
+				change_variable = { which = test_variable value = +580.0 }
+			}
+			
+			if = {
+				limit = {
+					check_variable = { which = bloodcount value = 5195.0 }
+				}
+				set_variable = { which = bloodcount value = +5775.0 }
+			}
+		}
+		
+		if = {
+			limit = { 
+				check_variable = { which = bloodmax value = 5775.0 }
+				NOT = { 
+					check_variable = { which = bloodmax value = 5776.0 }
+					check_variable = { which = bloodcount value = 5775.0 }
+				}
+			}
+			
+			if = {
+				limit = {
+					NOT = { check_variable = { which = bloodcount value = 5195.0 } }
+				}
+				change_variable = { which = test_variable value = +580.0 }
+			}
+			
+			if = {
+				limit = {
+					check_variable = { which = bloodcount value = 5195.0 }
+				}
+				set_variable = { which = bloodcount value = +5775.0 }
+			}
+		}
+		
+		if = {
+			limit = { 
+				check_variable = { which = bloodmax value = 6100.0 }
+				NOT = { 
+					check_variable = { which = bloodmax value = 6101.0 }
+					check_variable = { which = bloodcount value = 6100.0 }
+				}
+			}
+			
+			if = {
+				limit = {
+					NOT = { check_variable = { which = bloodcount value = 5490.0 } }
+				}
+				change_variable = { which = test_variable value = +610.0 }
+			}
+			
+			if = {
+				limit = {
+					check_variable = { which = bloodcount value = 5490.0 }
+				}
+				set_variable = { which = bloodcount value = +6100.0 }
+			}
+		}
+		
+		if = {
+			limit = { 
+				check_variable = { which = bloodmax value = 6250.0 }
+				NOT = { 
+					check_variable = { which = bloodmax value = 6251.0 }
+					check_variable = { which = bloodcount value = 6250.0 }
+				}
+			}
+			
+			if = {
+				limit = {
+					NOT = { check_variable = { which = bloodcount value = 5625.0 } }
+				}
+				change_variable = { which = test_variable value = +625.0 }
+			}
+			
+			if = {
+				limit = {
+					check_variable = { which = bloodcount value = 5625.0 }
+				}
+				set_variable = { which = bloodcount value = +6250.0 }
+			}
+		}
+		
+		if = {
+			limit = { 
+				check_variable = { which = bloodmax value = 6250.0 }
+				NOT = { 
+					check_variable = { which = bloodmax value = 6251.0 }
+					check_variable = { which = bloodcount value = 6250.0 }
+				}
+			}
+			
+			if = {
+				limit = {
+					NOT = { check_variable = { which = bloodcount value = 5625.0 } }
+				}
+				change_variable = { which = test_variable value = +625.0 }
+			}
+			
+			if = {
+				limit = {
+					check_variable = { which = bloodcount value = 5625.0 }
+				}
+				set_variable = { which = bloodcount value = +6250.0 }
+			}
+		}
+		
+		if = {
+			limit = { 
+				check_variable = { which = bloodmax value = 6480.0 }
+				NOT = { 
+					check_variable = { which = bloodmax value = 6481.0 }
+					check_variable = { which = bloodcount value = 6480.0 }
+				}
+			}
+			
+			if = {
+				limit = {
+					NOT = { check_variable = { which = bloodcount value = 5830.0 } }
+				}
+				change_variable = { which = test_variable value = +650.0 }
+			}
+			
+			if = {
+				limit = {
+					check_variable = { which = bloodcount value = 5830.0 }
+				}
+				set_variable = { which = bloodcount value = +6480.0 }
+			}
+		}
+		
+		if = {
+			limit = { 
+				check_variable = { which = bloodmax value = 6650.0 }
+				NOT = { 
+					check_variable = { which = bloodmax value = 6651.0 }
+					check_variable = { which = bloodcount value = 6650.0 }
+				}
+			}
+			
+			if = {
+				limit = {
+					NOT = { check_variable = { which = bloodcount value = 5985.0 } }
+				}
+				change_variable = { which = test_variable value = +665.0 }
+			}
+			
+			if = {
+				limit = {
+					check_variable = { which = bloodcount value = 5985.0 }
+				}
+				set_variable = { which = bloodcount value = +6650.0 }
+			}
+		}
+		
+		if = {
+			limit = { 
+				check_variable = { which = bloodmax value = 6750.0 }
+				NOT = { 
+					check_variable = { which = bloodmax value = 6751.0 }
+					check_variable = { which = bloodcount value = 6750.0 }
+				}
+			}
+			
+			if = {
+				limit = {
+					NOT = { check_variable = { which = bloodcount value = 6075.0 } }
+				}
+				change_variable = { which = test_variable value = +675.0 }
+			}
+			
+			if = {
+				limit = {
+					check_variable = { which = bloodcount value = 6075.0 }
+				}
+				set_variable = { which = bloodcount value = +6750.0 }
 			}
 		}
 	}
