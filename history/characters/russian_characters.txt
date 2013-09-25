@@ -29,3 +29,41 @@
 	
 	874.1.1 = { birth = 874.1.1 }
 }
+
+16000003 = {
+	name = "Daniil"
+	dynasty = 16000003 # Igorovoich
+	
+	add_trait = paranoid
+	
+	culture = russian
+	religion = slavic_pagan
+	
+	874.1.1 = { birth = 874.1.1 }
+}
+
+16000004 = {
+	name = "Oleg"
+	dynasty = 16000004 # Rostislavovich
+	
+	add_trait = trusting
+	add_trait = quick
+	
+	culture = russian     
+	religion = slavic_pagan
+	
+	874.1.1 = { birth = 874.1.1 }
+}
+
+16000005 = {
+	name = "Gleb"
+	dynasty = 16000005 # Demidovich
+	
+	add_trait = ugly
+	add_trait = cruel
+	
+	culture = russian
+	religion = slavic_pagan
+	
+	874.1.1 = { birth = 874.1.1 }
+}

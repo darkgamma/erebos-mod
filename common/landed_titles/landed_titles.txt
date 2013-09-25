@@ -10644,11 +10644,11 @@ e_byzantine = {
 				}
 			}
 		}
-		d_novgorod-seversk = { # Called Bryansk in-game
+		d_bryansk = { 
 			color = { 120 155 40 }
 			color2={ 255 255 255 }
 			
-			capital = 567 # Novgorod Seversky
+			capital = 576 # Bryansk
 	
 			c_novgorod_seversky = {
 				color={ 19 128 77 }
