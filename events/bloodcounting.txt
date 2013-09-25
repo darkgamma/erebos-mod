@@ -1148,8 +1148,8 @@ character_event = {
 					
 					NOT = { trait = gluttonous }
 				}
-				set_variable = { which = bloodcount value = +7200.0 }
-				set_variable = { which = bloodmax value = +7200.0 }
+				set_variable = { which = bloodcount value = +7250.0 }
+				set_variable = { which = bloodmax value = +7250.0 }
 			}
 			
 			##############################
@@ -1211,19 +1211,6 @@ character_event = {
 			
 			if = {
 				limit = {
-					is_female = no
-					trait = hsb_violet
-					
-					trait = weak
-					
-					NOT = { trait = gluttonous }
-				}
-				set_variable = { which = bloodcount value = +7400.0 }
-				set_variable = { which = bloodmax value = +7400.0 }
-			}
-
-			if = {
-				limit = {
 					trait = hsb_violet
 					
 					trait = weak
@@ -1232,6 +1219,28 @@ character_event = {
 				}
 				set_variable = { which = bloodcount value = +7925.0 }
 				set_variable = { which = bloodmax value = +7925.0 }
+			}
+			
+			##############################
+			##							##
+			## 		     Demons	    	##
+			##							##
+			##############################
+			
+			if = {
+				limit = {
+					trait = hs_halfling
+				}
+				set_variable = { which = bloodcount value = +10000.0 }
+				set_variable = { which = bloodmax value = +10000.0 }
+			}
+			
+			if = {
+				limit = {
+					trait = hs_nspawn
+				}
+				set_variable = { which = bloodcount value = +25000.0 }
+				set_variable = { which = bloodmax value = +25000.0 }
 			}
 		}
 	}
