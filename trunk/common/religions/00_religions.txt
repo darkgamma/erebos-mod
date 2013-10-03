@@ -618,7 +618,7 @@ germanic_group = {
 
 		max_consorts = 1
 		independence_war_score_bonus = 15 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
-		reformed = contgermanic_reformed
+		#reformed = contgermanic_reformed
 		
 		aggression = 1.5 # AI aggression factor
 		
