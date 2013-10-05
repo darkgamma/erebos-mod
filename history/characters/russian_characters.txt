@@ -39,7 +39,7 @@
 	culture = russian
 	religion = slavic_pagan
 	
-	874.1.1 = { birth = 874.1.1 }
+	867.1.1 = { birth = 867.1.1 }
 }
 
 16000004 = {
@@ -52,7 +52,7 @@
 	culture = russian     
 	religion = slavic_pagan
 	
-	874.1.1 = { birth = 874.1.1 }
+	884.1.1 = { birth = 884.1.1 }
 }
 
 16000005 = {
@@ -65,5 +65,18 @@
 	culture = russian
 	religion = slavic_pagan
 	
-	874.1.1 = { birth = 874.1.1 }
+	877.1.1 = { birth = 877.1.1 }
+}
+
+16000006 = {
+	name = "Svetozar"
+	dynasty = 16000006 # Krivich
+	
+	add_trait = gluttonous
+	add_trait = ambitious
+	
+	culture = russian
+	religion = slavic_pagan
+	
+	863.1.1 = { birth = 863.1.1 }
 }

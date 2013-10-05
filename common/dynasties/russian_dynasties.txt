@@ -22,3 +22,8 @@
 	name = "Demidovich"
 	culture = russian
 }
+
+16000006 = {
+	name = "Krivich"
+	culture = russian
+}
