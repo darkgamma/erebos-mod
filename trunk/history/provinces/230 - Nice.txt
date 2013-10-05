@@ -5,9 +5,9 @@ title = c_nice
 
 # Settlements
 max_settlements = 4
-b_nizza = temple
-b_mentone = city
-b_monaco = castle
+b_nizza = castle
+b_mentone = temple
+b_monaco = city
 
 #b_antibes = castle
 #b_sanremo = castle
@@ -19,7 +19,4 @@ b_monaco = castle
 culture = burgundian
 religion = arian
 
-
-# History
-1066.1.1 = { trade_post = b_spinola }
 
