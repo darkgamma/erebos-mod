@@ -4,11 +4,12 @@
 title = c_aquileia
 
 # Settlements
-max_settlements = 5
+max_settlements = 7
 b_aquileia = castle
 b_udine = temple
 b_friuli = city
-#b_motta = castle
+b_motta = castle
+
 #b_concordia = castle
 #b_ciridale = castle
 #b_portoguaro = castle
@@ -19,4 +20,23 @@ culture = southslavic
 religion = orthodox
 
 # History
-1091.1.1 = { trade_post = b_contarini }
+
+900.1.1 = { 
+	b_aquileia = ca_keep_1
+	b_aquileia = ca_stable_1
+	b_aquileia = ca_militia_barracks_1
+	b_aquileia = ca_barracks_1
+	b_aquileia = ca_wall_1
+	b_aquileia = ca_wall_2
+	b_aquileia = ca_wall_q_1
+	b_aquileia = ca_shipyard_1
+	b_udine = tp_monastery_1
+	b_udine = tp_wall_1
+	b_udine = tp_wall_2
+	b_udine = tp_town_1
+	b_friuli = ct_wall_1
+	b_friuli = ct_wall_2
+	b_friuli = ct_port_1
+	b_friuli = ct_marketplace_1
+	b_friuli = ct_wall_q_1
+}

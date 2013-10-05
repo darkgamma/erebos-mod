@@ -22,7 +22,7 @@ religion = arian
 
 # History
 
-867.1.1 = {
+900.1.1 = {
 	b_tunis = ca_keep_1
 	b_tunis = ca_training_grounds_1
 	b_tunis = ca_keep_2
@@ -31,7 +31,6 @@ religion = arian
 	b_tunis = ca_militia_barracks_1
 	b_tunis = ca_wall_1
 	b_tunis = ca_wall_2
+	b_tunis = ca_shipyard_1
+	b_tunis = ca_shipyard_2
 }
-1093.1.1 = { trade_post = b_caetani }
-1187.1.1 = { b_hammamet = castle }
-1285.1.1  = { trade_post = b_fieschi }
