@@ -4,11 +4,11 @@
 title = c_azov
 
 # Settlements
-max_settlements = 3
+max_settlements = 5
 
 b_azov = castle
 b_azaq = city
-#b_sadki = temple
+b_sadki = temple
 
 #b_eysk = castle
 #b_kagalnik = castle
@@ -19,3 +19,16 @@ b_azaq = city
 # Misc
 culture = khazar
 religion = orthodox
+
+900.1.1 = {
+    b_azov = ca_keep_1
+	b_azov = ca_wall_1
+	b_azov = ca_wall_2
+	b_azov = ca_wall_3
+	b_azov = ca_wall_q_1
+	b_azov = ca_barracks_1
+	b_azov = ca_militia_barracks_1
+	b_azov = ca_stable_1
+	b_azov = ca_shipyard_1
+	b_azov = ca_shipyard_2
+}

@@ -11,7 +11,7 @@ b_rochester = temple
 
 #b_faversham = castle
 #b_lympne = castle
-b_sandwich = city
+#b_sandwich = city
 #b_romney = castle
 #b_tonbridge = castle
 
@@ -20,5 +20,9 @@ culture = saxon
 religion = catholic
 
 # History
-1100.11.11 = { culture = english }
-1298.1.1 = { trade_post = b_vorrade }
+
+900.1.1 = {
+	b_dover = ca_wall_1
+	b_dover = ca_shipyard_1
+	b_dover = ca_shipyard_2
+}

@@ -4,7 +4,7 @@
 title = c_aquileia
 
 # Settlements
-max_settlements = 7
+max_settlements = 5
 b_aquileia = castle
 b_udine = temple
 b_friuli = city

@@ -23,7 +23,7 @@ terrain = mountain
 
 900.1.1 = {
     b_alcudia = ca_keep_1
-	b_alcudia = ca_walls_1
+	b_alcudia = ca_wall_1
 	b_alcudia = ca_shipyard_1
 	b_alcudia = ca_shipyard_2
 }

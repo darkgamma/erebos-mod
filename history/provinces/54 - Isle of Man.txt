@@ -4,7 +4,7 @@
 title = c_isle_of_man
 
 # Settlements
-max_settlements = 3
+max_settlements = 5
 b_rushen = castle
 b_peel = temple
 #b_maughold = castle
@@ -20,9 +20,10 @@ religion = norse_pagan
 terrain = hills
 
 # History
-867.1.1 = {
+
+900.1.1 = {
+    b_rushen = ca_keep_1
 	b_rushen = ca_wall_1
+	b_rushen = ca_shipyard_1
+	b_rushen = ca_shipyard_2
 }
-1000.1.1 = { religion = catholic } 
-1066.1.1 = { culture = norwegian } 
-1130.1.1 = { culture = scottish }
