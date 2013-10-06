@@ -1164,14 +1164,46 @@ spriteTypes = {
 		name = "GFX_trait_ib_nshu_mut"
 		texturefile = "gfx\mutants\ib_nshu_mut.dds"
 		noOfFrames = 1
-		norefcount = 1
+		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}	
 	sprite_type = {
 		name = "GFX_trait_slave"
 		texturefile = "gfx\misc\slavetrait.dds"
 		noOfFrames = 1
-		norefcount = 1
+		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}	
+	
+	sprite_type = {
+		name = "GFX_trait_wiz_1"
+		texturefile = "gfx\magic\wiz_1.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	sprite_type = {
+		name = "GFX_trait_wiz_2"
+		texturefile = "gfx\magic\wiz_2.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	sprite_type = {
+		name = "GFX_trait_wiz_3"
+		texturefile = "gfx\magic\wiz_3.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	sprite_type = {
+		name = "GFX_trait_wiz_4"
+		texturefile = "gfx\magic\wiz_4.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 }
