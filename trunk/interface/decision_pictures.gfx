@@ -1,0 +1,7 @@
+spriteTypes = 
+{
+	spriteType = {
+		name = "GFX_decision_employ_hemalurgists"
+		texturefile = "gfx\\magic\\decision_icon_employ_hemalurgists.dds"
+	}
+}
