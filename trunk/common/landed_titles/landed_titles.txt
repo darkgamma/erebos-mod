@@ -1,3 +1,156 @@
+# Religious Heads
+
+k_papacy = {
+	color={ 255 249 198 }
+	color2={ 220 220 0 }
+	
+	capital = 333 # Rome
+	
+	title = "POPE"
+	foa = "POPE_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	
+	# Always exists
+	landless = yes
+	
+	# Controls a religion
+	controls_religion = catholic
+	
+	religion = catholic
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+	
+	# Regnal names
+	male_names = {
+		John Gregory Benedict Clement Innocent Leo Pius Stephen Boniface Urban Alexander Adrian Paul
+		Celestine Martin Nicholas Sixtus Felix Sergius Anastasius Honorius Eugene Sylvester Victor
+		Lucius Callixtus Julius Pelagius Adeodatus Theodore Marinus Agapetus Damasus Paschal
+		Gelasius Marcellus "John Paul" Anacletus Evaristus Telesphorus Hyginus Anicetus Mark Hilarius 
+		Simplicius Symmachus Hormisdas Silverius Vigilius Sabinian Severinus Vitalian Donus Agatho
+		Conon Sisinnius Constantine Zachary Valentine Formosus Romanus Lando
+	}
+}
+
+k_ecumenical_patriarchy = {
+#	color={ 150 90 30 }
+	color={ 183 60 155 }
+	color2={ 220 220 0 }
+	
+	capital = 496 # Constantinople
+	
+	title = "ECUMENICAL_PATRIARCH"
+	foa = "ECUMENICAL_PATRIARCH_FOA"
+	short_name = yes
+
+	# Always exists
+	landless = yes
+	
+	# Controls a religion
+	controls_religion = orthodox
+	
+	religion = orthodox
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+	
+	# Regnal names
+	male_names = {
+		Alexios Antonios Athanasios Basileios Chariton Dionysios Dositheos Eustathios Eustratios Euthymios
+		Gennadios Georgios Gerasimos Germanos Gregoras Ioannes Iosephos Isidoros Kallistos Konstantinos
+		Kosmas Leon Leontios Loukas Makarios Manuel Maximos Metrophanes Michael Neophytos Nephon Niketas
+		Nikolaos Nilos Matthaios Paulos Sergios Sisinnios Symeon Theodoros Theodosios Theodotos
+	}
+}
+
+e_caliphate = {
+	color={ 40 160 40 }
+	color2={ 220 220 0 }
+	
+	capital = 719 # Mecca
+	
+	title = "CALIPH"
+	title_female = "CALIPHA"
+	foa = "CALIPH_FOA"
+	short_name = yes
+	
+	religion = sunni
+	assimilate = no
+	
+	controls_religion = sunni
+	
+	allow = {
+		OR = {
+			trait = mirza
+			trait = sayyid
+			piety = 1000
+		}
+		OR = {
+			AND = {
+				trait = sayyid
+				piety = 1000
+			}
+			custom_tooltip = { 
+				text = controls_mecca_medina
+				hidden_tooltip = {
+					719 = { # Mecca
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+					718 = { # Medina
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+				}
+			}
+			custom_tooltip = {
+				text = controls_jerusalem_damascus_baghdad
+				hidden_tooltip = {
+					774 = { # Jerusalem
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+					728 = { # Damascus
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+					693 = { # Baghdad
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	caliphate = yes
+}
+
 e_scandinavia = {
 	color={ 41 91 141 }
 	color2={ 255 255 0 }
@@ -12701,7 +12854,7 @@ e_byzantine = {
 		color = { 255 255 90 }
 		color2 = { 200 200 60 }
 		
-		capital = 559 # Crimea
+		capital = 597 # Azov
 		
 		d_cherson = {
 			color={ 208 181 94 }
@@ -12760,6 +12913,8 @@ e_byzantine = {
 				b_azaq = {
 				}
 				b_sadki = {
+				    holy_site = tengri_pagan
+					holy_site = tengri_pagan_reformed
 				}
 				b_eysk = {
 				}
@@ -12891,9 +13046,7 @@ e_byzantine = {
 			
 				b_bakhchisaray = {
 				}
-				b_aqmescit = {
-					holy_site = tengri_pagan
-					holy_site = tengri_pagan_reformed				
+				b_aqmescit = {				
 				}
 				b_dzhankoy = {
 				}
@@ -22295,89 +22448,6 @@ d_salmalaiset = {
 	title_prefix = "TRIBE_OF"
 }
 
-e_caliphate = {
-	color={ 40 160 40 }
-	color2={ 220 220 0 }
-	
-	capital = 719 # Mecca
-	
-	title = "CALIPH"
-	title_female = "CALIPHA"
-	foa = "CALIPH_FOA"
-	short_name = yes
-	
-	religion = sunni
-	assimilate = no
-	
-	controls_religion = sunni
-	
-	allow = {
-		OR = {
-			trait = mirza
-			trait = sayyid
-			piety = 1000
-		}
-		OR = {
-			AND = {
-				trait = sayyid
-				piety = 1000
-			}
-			custom_tooltip = { 
-				text = controls_mecca_medina
-				hidden_tooltip = {
-					719 = { # Mecca
-						owner = {
-							OR = {
-								is_liege_or_above = ROOT
-								character = ROOT
-							}
-						}
-					}
-					718 = { # Medina
-						owner = {
-							OR = {
-								is_liege_or_above = ROOT
-								character = ROOT
-							}
-						}
-					}
-				}
-			}
-			custom_tooltip = {
-				text = controls_jerusalem_damascus_baghdad
-				hidden_tooltip = {
-					774 = { # Jerusalem
-						owner = {
-							OR = {
-								is_liege_or_above = ROOT
-								character = ROOT
-							}
-						}
-					}
-					728 = { # Damascus
-						owner = {
-							OR = {
-								is_liege_or_above = ROOT
-								character = ROOT
-							}
-						}
-					}
-					693 = { # Baghdad
-						owner = {
-							OR = {
-								is_liege_or_above = ROOT
-								character = ROOT
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-	
-	caliphate = yes
-}
-
 e_byzantium = {
 	color = { 0 0 0 }
 }
@@ -22399,10 +22469,6 @@ k_hungary = {
 }
 
 k_magyar = {
-	color = { 0 0 0 }
-}
-
-k_papal_state = {
 	color = { 0 0 0 }
 }
 

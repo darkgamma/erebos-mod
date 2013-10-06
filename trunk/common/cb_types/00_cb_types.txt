@@ -2622,6 +2622,7 @@ religious = {
 
 	can_use = {
 		ROOT = {
+		OR = {
 			NOT = { religion = slavic_pagan }
 			NOT = { religion = baltic_pagan }
 			NOT = { religion = finnish_pagan }
@@ -2633,6 +2634,7 @@ religious = {
 			NOT = { religion = saxon_pagan }
 			NOT = { religion = west_african_pagan }
 			NOT = { religion = aztec }
+		}
 			NOT = { same_realm = FROM }
 			OR = {
 				NOT = { religion_group = FROM }
@@ -6214,19 +6216,36 @@ pagan_subjugation = {
 	
 	can_use = {
 		ROOT = {
-			religion_group = pagan_group
-			is_reformed_religion = no
+			OR = {
+			religion = slavic_pagan
+			religion = baltic_pagan
+			religion = finnish_pagan
+			religion = norse_pagan
+			religion = hellenic_pagan
+			religion = tengri_pagan
+			religion = arab_pagan
+			religion = contgermanic_pagan
+			religion = saxon_pagan
+			religion = west_african_pagan
+		}
 			NOT = { religion = aztec }
 			NOT = { same_realm = FROM }
 			NOT = { is_liege_or_above = FROM }
 			has_horde_culture = no # Should use tribal invasion instead
 		}
 		FROM = {
-			religion_group = pagan_group
 			OR = {
-				is_reformed_religion = no
-				is_reformed_religion = ROOT
-			}
+			religion = slavic_pagan
+			religion = baltic_pagan
+			religion = finnish_pagan
+			religion = norse_pagan
+			religion = hellenic_pagan
+			religion = tengri_pagan
+			religion = arab_pagan
+			religion = contgermanic_pagan
+			religion = saxon_pagan
+			religion = west_african_pagan
+		}
 			NOT = {
 				any_war = {
 					AND = {

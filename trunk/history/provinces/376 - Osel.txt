@@ -23,7 +23,8 @@ religion = finnish_pagan
 
 900.1.1 = {
     b_muhu = ca_keep_1
-	b_muhu = ca_walls_1
+	b_muhu = ca_wall_1
+	b_muhu = ca_wall_2
 	b_muhu = ca_barracks_1
 	b_muhu = ca_shipyard_1
 	b_muhu = ca_shipyard_2

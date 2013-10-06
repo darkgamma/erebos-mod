@@ -15,8 +15,6 @@ e_africa;Africa;;;;;;;;;;;;;x
 e_africa_adj;African;;;;;;;;;;;;;x
 e_hispania;Hispania;;;;;;;;;;;;;x
 e_hispania_adj;Hispanian;;;;;;;;;;;;;x
-e_caliphate;The Caliphate;;;;;;;;;;;;;x
-e_caliphate_adj;Caliphal;;;;;;;;;;;;;x
 e_pars;Pars;;;;;;;;;;;;;x
 e_pars_adj;Parsian;;;;;;;;;;;;;x
 e_byzantine;Roman Empire;;;;;;;;;;;;;x
@@ -267,3 +265,13 @@ d_the_selonians;the Selonians;;;;;;;;;;;;;x
 d_the_selonians_adj;Selonian;;;;;;;;;;;;;x
 # BARONIES
 b_ras;Ras;;;;;;;;;;;;;x
+# PROVINCES
+PROV817;Carthago;;;;;;;;;;;;;x
+c_tunis_adj;Carthaginian;;;;;;;;;;;;;x
+# SPECIAL
+k_papacy;The Papacy;;;;;;;;;;;;;x
+k_papacy_adj;Papal;;;;;;;;;;;;;x
+k_ecumenical_patriarchy;The Ecumenical Patriarchy;;;;;;;;;;;;;x
+k_ecumenical_patriarchy;Ecumenical;;;;;;;;;;;;;x
+e_caliphate;The Caliphate;;;;;;;;;;;;;x
+e_caliphate_adj;Caliphal;;;;;;;;;;;;;x
