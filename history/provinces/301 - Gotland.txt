@@ -23,27 +23,10 @@ culture = norse
 religion = norse_pagan
 
 # History
-867.1.1 = {
+
+900.1.1 = {
 	b_visby = ct_port_1
+	b_visby = ct_port_2
+	b_visby = ct_shipyard_1
+	b_visby = ct_shipyard_2
 }
-
-1066.1.1 = { 
-	capital = b_visby
-	b_visby = ct_wall_1
-	b_visby = ct_marketplace_1
-	b_visby = ct_wall_q_1
-	trade_post = b_stenkyrka
-	culture = swedish
-	religion = catholic
-}
-
-1097.1.1 = { trade_post = -1 }
-1097.1.2= { capital = b_visborg }
-
-1187.1.1 = { b_slite = city }
-
-1187.1.1= { capital = b_visby }
-
-1197.1.1= { capital = b_visborg }
-
-1227.1.1= { trade_post = b_wittenborg }
