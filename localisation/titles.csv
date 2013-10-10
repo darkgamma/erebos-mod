@@ -263,11 +263,11 @@ d_the_lettigallians;the Lettigallians;;;;;;;;;;;;;x
 d_the_lettigallians_adj;Lettigallian;;;;;;;;;;;;;x
 d_the_selonians;the Selonians;;;;;;;;;;;;;x
 d_the_selonians_adj;Selonian;;;;;;;;;;;;;x
+# COUNTIES
+c_zemigalians_adj;Romuvan;;;;;;;;;;;;;x # 374 - Romuva
+c_tunis_adj;Carthaginian;;;;;;;;;;;;;x # 817 - Carthago
 # BARONIES
 b_ras;Ras;;;;;;;;;;;;;x
-# PROVINCES
-PROV817;Carthago;;;;;;;;;;;;;x
-c_tunis_adj;Carthaginian;;;;;;;;;;;;;x
 # SPECIAL
 k_papacy;The Papacy;;;;;;;;;;;;;x
 k_papacy_adj;Papal;;;;;;;;;;;;;x
