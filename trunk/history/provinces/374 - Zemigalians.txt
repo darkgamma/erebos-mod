@@ -1,4 +1,4 @@
-# 374 - Zemigalians
+# 374 - Romuva
 
 # County Title
 title = c_zemigalians
@@ -6,7 +6,7 @@ title = c_zemigalians
 # Settlements
 max_settlements = 5
 b_bauska = castle
-b_riga = temple
+b_romuva = temple
 b_selpils = city
 #b_skaistkalne = city
 
@@ -26,11 +26,7 @@ religion = baltic_pagan
 	b_bauska = ca_wall_1
 	b_bauska = ca_wall_q_1
 	b_selpils = ct_barracks_1
+	b_riga = tp_wall_1
+	b_riga = tp_wall_q_1
 	b_riga = tp_barracks_1
 }
-
-1199.1.1 = { b_cruczeborch = city }
-1199.1.1 = { capital = b_riga }
-1199.1.1 = { religion = catholic }
-1266.1.1 = { b_jelgava = castle } #Mitau castle
-1293.1.1= { trade_post = b_pat_luneburg }

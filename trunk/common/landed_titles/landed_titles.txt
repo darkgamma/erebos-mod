@@ -13333,7 +13333,7 @@ e_byzantine = {
 				color={ 182 20 20 }
 				color2={ 255 255 255 }
 				
-				b_riga = {
+				b_romuva = {
 					holy_site = baltic_pagan
 					holy_site = baltic_pagan_reformed
 				}
