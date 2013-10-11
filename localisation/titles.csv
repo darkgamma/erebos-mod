@@ -264,14 +264,26 @@ d_the_lettigallians_adj;Lettigallian;;;;;;;;;;;;;x
 d_the_selonians;the Selonians;;;;;;;;;;;;;x
 d_the_selonians_adj;Selonian;;;;;;;;;;;;;x
 # COUNTIES
+c_barcelona_adj;Barcinonan;;;;;;;;;;;;;x # 204 - Barcinona
 c_zemigalians_adj;Romuvan;;;;;;;;;;;;;x # 374 - Romuva
 c_tunis_adj;Carthaginian;;;;;;;;;;;;;x # 817 - Carthago
 # BARONIES
 b_ras;Ras;;;;;;;;;;;;;x
-# SPECIAL
-k_papacy;The Papacy;;;;;;;;;;;;;x
-k_papacy_adj;Papal;;;;;;;;;;;;;x
+# RELIGIOUS HEADS
+k_catholic_papacy;The Catholic Papacy;;;;;;;;;;;;;x
+k_catholic_papacy_adj;Catholic;;;;;;;;;;;;;x
 k_ecumenical_patriarchy;The Ecumenical Patriarchy;;;;;;;;;;;;;x
-k_ecumenical_patriarchy;Ecumenical;;;;;;;;;;;;;x
+k_ecumenical_patriarchy_adj;Ecumenical;;;;;;;;;;;;;x
+k_nestorian_patriarchy;The Nestorian Patriarchy;;;;;;;;;;;;;x
+k_nestorian_patriarchy_adj;Nestorian;;;;;;;;;;;;;x
+k_monothelite_patriarchy;The Monothelite Patriarchy;;;;;;;;;;;;;x
+k_monothelite_patriarchy_adj;Monothelite;;;;;;;;;;;;;x
+k_coptic_papacy;The Coptic Papacy;;;;;;;;;;;;;x
+k_coptic_papacy_adj;Coptic;;;;;;;;;;;;;x
+k_monothelite_papacy;The Monothelite Papacy;;;;;;;;;;;;;x
+k_monothelite_papacy_adj;Monothelite;;;;;;;;;;;;;x
 e_caliphate;The Caliphate;;;;;;;;;;;;;x
 e_caliphate_adj;Caliphal;;;;;;;;;;;;;x
+# MERCENARIES
+d_vandal_band;Vandal Band;;;;;;;;;;;;;x
+d_vandal_band_adj;Vandal;;;;;;;;;;;;;x
