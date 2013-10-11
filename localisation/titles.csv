@@ -274,16 +274,22 @@ k_catholic_papacy;The Catholic Papacy;;;;;;;;;;;;;x
 k_catholic_papacy_adj;Catholic;;;;;;;;;;;;;x
 k_ecumenical_patriarchy;The Ecumenical Patriarchy;;;;;;;;;;;;;x
 k_ecumenical_patriarchy_adj;Ecumenical;;;;;;;;;;;;;x
-k_nestorian_patriarchy;The Nestorian Patriarchy;;;;;;;;;;;;;x
-k_nestorian_patriarchy_adj;Nestorian;;;;;;;;;;;;;x
+k_nestorian_patriarchy;The Patriarchy in the East;;;;;;;;;;;;;x
+k_nestorian_patriarchy_adj;Eastern Patriarchal;;;;;;;;;;;;;x
 k_monothelite_patriarchy;The Monothelite Patriarchy;;;;;;;;;;;;;x
 k_monothelite_patriarchy_adj;Monothelite;;;;;;;;;;;;;x
-k_coptic_papacy;The Coptic Papacy;;;;;;;;;;;;;x
-k_coptic_papacy_adj;Coptic;;;;;;;;;;;;;x
-k_monothelite_papacy;The Monothelite Papacy;;;;;;;;;;;;;x
-k_monothelite_papacy_adj;Monothelite;;;;;;;;;;;;;x
+k_miaphysite_papacy;The Miaphysite Papacy;;;;;;;;;;;;;x
+k_miaphysite_papacy_adj;Miaphysite;;;;;;;;;;;;;x
+k_monophysite_papacy;The Monophysite Papacy;;;;;;;;;;;;;x
+k_monophysite_papacy_adj;Monophysite;;;;;;;;;;;;;x
 e_caliphate;The Caliphate;;;;;;;;;;;;;x
 e_caliphate_adj;Caliphal;;;;;;;;;;;;;x
 # MERCENARIES
 d_vandal_band;Vandal Band;;;;;;;;;;;;;x
 d_vandal_band_adj;Vandal;;;;;;;;;;;;;x
+d_berber_band;Berber Band;;;;;;;;;;;;;x
+d_berber_band_adj;Berber;;;;;;;;;;;;;x
+d_iberian_band;Iberian Band;;;;;;;;;;;;;x
+d_iberian_band_adj;Iberian;;;;;;;;;;;;;x
+d_alexandrian_guard;Alexandrian Guard;;;;;;;;;;;;;x
+d_alexandrian_guard_adj;Alexandrian;;;;;;;;;;;;;x

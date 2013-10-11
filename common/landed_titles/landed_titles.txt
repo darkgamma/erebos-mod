@@ -6,7 +6,7 @@ k_catholic_papacy = {
 	
 	capital = 333 # Rome
 	
-	title = "POPE"
+	title = "CATHOLIC_POPE"
 	foa = "POPE_FOA"
 	short_name = yes
 	location_ruler_title = yes
@@ -68,7 +68,7 @@ k_ecumenical_patriarchy = {
 	}
 }
 
-k_nestorian_patriarchy = {
+k_patriarchy_in_the_east = {
 	color={ 180 137 97 }
 	color2={ 220 220 0 }
 	
@@ -132,13 +132,13 @@ k_monothelite_patriarchy = {
 	}
 }
 
-k_coptic_papacy = {
+k_miaphysite_papacy = {
 	color={ 217 155 177 }
 	color2={ 220 220 0 }
 	
 	capital = 802 # Alexandria
 	
-	title = "COPTIC_POPE"
+	title = "MIAPHYSITE_POPE"
 	foa = "POPE_FOA"
 	
 	short_name = yes
@@ -308,6 +308,101 @@ d_vandal_band = {
 	strength_growth_per_century = 1.00
 	
 	modifier = d_vandal_band_modifier
+}
+
+d_berber_band = {
+	color = { 130 173 70 }
+	color2 = { 255 255 255 }
+
+	capital = 840 # Fes
+	
+	# Parent Religion 
+	religion = catholic
+	culture = berber
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.00
+	
+	modifier = d_berber_band_modifier
+}
+
+
+d_iberian_band = {
+	color = { 130 173 70 }
+	color2 = { 255 255 255 }
+
+	capital = 181 # Cordoba
+	
+	# Parent Religion 
+	religion = catholic
+	culture = castillan
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.00
+	
+	modifier = d_iberian_band_modifier
+}
+
+d_alexandrian_guard = {
+	color = { 130 173 70 }
+	color2 = { 255 255 255 }
+
+	capital = 802 # Alexandria
+	
+	# Parent Religion 
+	religion = miaphysite
+	culture = coptic
+	
+	allow = {
+	    OR = {
+			religion = miaphysite
+			religion = monophysite
+		}
+	}
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.00
+	
+	modifier = d_alexandrian_guard_modifier
 }
 
 e_scandinavia = {
