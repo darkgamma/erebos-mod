@@ -1,6 +1,6 @@
 # Religious Heads
 
-k_papacy = {
+k_catholic_papacy = {
 	color={ 255 249 198 }
 	color2={ 220 220 0 }
 	
@@ -65,6 +65,134 @@ k_ecumenical_patriarchy = {
 		Gennadios Georgios Gerasimos Germanos Gregoras Ioannes Iosephos Isidoros Kallistos Konstantinos
 		Kosmas Leon Leontios Loukas Makarios Manuel Maximos Metrophanes Michael Neophytos Nephon Niketas
 		Nikolaos Nilos Matthaios Paulos Sergios Sisinnios Symeon Theodoros Theodosios Theodotos
+	}
+}
+
+k_nestorian_patriarchy = {
+	color={ 180 137 97 }
+	color2={ 220 220 0 }
+	
+	capital = 764 # Antioch
+	
+	title = "PATRIARCH_IN_THE_EAST"
+	foa = "ECUMENICAL_PATRIARCH_FOA"
+	
+	short_name = yes
+
+	# Always exists
+	landless = yes
+	
+	# Controls a religion
+	controls_religion = nestorian
+	
+	religion = nestorian
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+	
+	# Regnal names
+	male_names = {
+		Aba Abraham Eliya Denha Emmanuel Giwargis Hnanisho Ishoyahb Makkikha 
+		Maremmeh Pethion Sabrisho Shemon Sargis Surin Theodosios Timotheos Yahballaha Yohannan
+	}
+}
+
+k_monothelite_patriarchy = {
+	color={ 180 170 65 }
+	color2={ 220 220 0 }
+	
+	capital = 764 # Antioch
+	
+	title = "MONOTHELITE_PATRIARCH"
+	foa = "ECUMENICAL_PATRIARCH_FOA"
+	
+	short_name = yes
+
+	# Always exists
+	landless = yes
+	
+	# Controls a religion
+	controls_religion = monothelite
+	
+	religion = monothelite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+	
+	# Regnal names
+	male_names = {
+		Alexios Antonios Athanasios Basileios Chariton Dionysios Dositheos Eustathios Eustratios Euthymios
+		Gennadios Georgios Gerasimos Germanos Gregoras Ioannes Iosephos Isidoros Kallistos Konstantinos
+		Kosmas Leon Leontios Loukas Makarios Manuel Maximos Metrophanes Michael Neophytos Nephon Niketas
+		Nikolaos Nilos Matthaios Paulos Sergios Sisinnios Symeon Theodoros Theodosios Theodotos
+	}
+}
+
+k_coptic_papacy = {
+	color={ 217 155 177 }
+	color2={ 220 220 0 }
+	
+	capital = 802 # Alexandria
+	
+	title = "COPTIC_POPE"
+	foa = "POPE_FOA"
+	
+	short_name = yes
+
+	# Always exists
+	landless = yes
+	
+	# Controls a religion
+	controls_religion = miaphysite
+	
+	religion = miaphysite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+	
+	# Regnal names
+	male_names = {
+		Abraham Alexandros Alexios Agatho Anastasios Andronikos Athanasios Benjamin Christodolos Cosmas Kyril Damian 
+		Demetrius Dioscorus Gabriel Yohannes Iosephos Isaakios Iakobos Makarios Markianos Markos Matheos Khail Mina 
+		Petros Philotheos Shenouda Simeon Theodoros Theophilus Timotheos Zacharias
+	}
+}
+
+k_monophysite_papacy = {
+	color={ 200 115 167 }
+	color2={ 220 220 0 }
+	
+	capital = 802 # Alexandria
+	
+	title = "MONOPHYSITE_POPE"
+	foa = "POPE_FOA"
+	
+	short_name = yes
+
+	# Always exists
+	landless = yes
+	
+	# Controls a religion
+	controls_religion = monophysite
+	
+	religion = monophysite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+	
+	# Regnal names
+	male_names = {
+		Abraham Alexandros Alexios Agatho Anastasius Andronicus Athanasios Benjamin Christodolos Cosmas Cyril Damian 
+		Demetrius Dioscorus Gabriel Ioannes Iosephos Isaakios Iakobos Makarios Markianos Matheos Michail Mina 
+		Petros Philotheos Shenouda Simeon Theodoros Theophilus Timotheos Zacharias
 	}
 }
 
@@ -149,6 +277,37 @@ e_caliphate = {
 	}
 	
 	caliphate = yes
+}
+
+# Mercenaries
+
+d_vandal_band = {
+	color = { 130 173 70 }
+	color2 = { 255 255 255 }
+
+	capital = 817 # Carthago
+	
+	# Parent Religion 
+	religion = arian
+	culture = vandal
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.00
+	
+	modifier = d_vandal_band_modifier
 }
 
 e_scandinavia = {
