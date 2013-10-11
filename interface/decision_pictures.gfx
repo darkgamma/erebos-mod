@@ -4,4 +4,9 @@ spriteTypes =
 		name = "GFX_decision_employ_hemalurgists"
 		texturefile = "gfx\\magic\\decision_icon_employ_hemalurgists.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_employ_steward"
+		texturefile = "gfx\\interface\\decision_icon_employ_steward.dds"
+	}
 }
