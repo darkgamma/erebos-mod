@@ -1,0 +1,120 @@
+decisions = {
+
+	decision_open_magic_window = {
+	
+		potential = {
+			NOT = { has_character_flag = magic_window }
+		}
+		
+		allow = { }
+		
+		effect = {
+			set_character_flag = magic_window
+		}
+		revoke_allowed = { always = no }
+		ai_will_do = { factor = 0 }
+	}
+	
+	decision_close_magic_window = {
+		is_high_prio = yes
+		
+		potential = {
+			has_character_flag = magic_window
+		}
+		
+		allow = { }
+		
+		effect = {
+			clr_character_flag = magic_window
+		}
+		
+		revoke_allowed = { always = no }
+		ai_will_do = { factor = 1 }
+	}
+	
+	decision_employ_hemalurgists = {
+		potential = {
+			has_character_flag = magic_window
+		}
+		allow = {
+			wealth = 275
+		}
+		effect = {
+			wealth = -250
+			hidden_tooltip = {
+				add_character_modifier = {
+					name = employment_timer
+					duration = 3650
+					hidden = yes
+				}
+				character_event = { id = EMPLOY.1001 } # Employ Hemalurgist team
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	employ_steward = {
+		potential = {
+			NOT = { has_character_flag = magic_window }
+			NOT = { has_character_modifier = employment_timer }
+		}
+		allow = {
+			scaled_wealth = 0.25
+		}
+		effect = {
+			scaled_wealth = -0.25
+			create_random_steward = {
+				random_traits = yes
+				dynasty = random
+				female = no
+			}
+			add_character_modifier = {
+				name = employment_timer
+				duration = 180
+				hidden = yes
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	present_debutante = {
+		potential = {
+			NOT = { has_character_flag = magic_window }
+			NOT = { has_character_modifier = employment_timer }
+		}
+		allow = {
+			scaled_wealth = 0.2
+		}
+		effect = {
+			add_character_modifier = {
+				name = employment_timer
+				duration = 180
+				hidden = yes
+			}
+			scaled_wealth = -0.2
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				female = yes
+				age = 17
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+}
