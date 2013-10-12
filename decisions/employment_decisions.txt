@@ -248,6 +248,7 @@ decisions = {
 					wealth = 50
 					
 					remove_trait = martial_cleric
+					remove_trait = dutiful_clerk
 					remove_trait = scholarly_theologian
 					remove_trait = mastermind_theologian
 					remove_trait = detached_priest
