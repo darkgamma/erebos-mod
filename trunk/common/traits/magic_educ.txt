@@ -1,0 +1,67 @@
+######################################
+##									##
+##		Written by Darkgamma		##
+##	   ASCII Art by Darkgamma		##
+##	Version: 0.0a (First Version)	##
+##									##
+######################################
+
+######################################
+##									##
+##		 Magic-Related Traits		##
+##									##
+######################################
+
+######################################
+##									##
+##	   Four tiers of magic users	##
+##									##
+######################################
+
+wiz_1 = {
+	potential = {
+		always = no
+	}
+	
+	learning = 1
+	health = -0.5
+}
+
+wiz_2 = {
+	potential = {
+		always = no
+	}
+	
+	diplomacy = 1
+	learning = 2
+	
+	health = -1
+}
+
+wiz_2 = {
+	potential = {
+		always = no
+	}
+	
+	intrigue = 1
+	diplomacy = 1
+	learning = 3
+	
+	health = -3
+}
+
+wiz_4 = {
+	potential = {
+		always = no
+	}
+	
+	intrigue = 2
+	diplomacy = 2
+	learning = 5
+	
+	health = -1.5
+}
+
+######################################
+##									##
+######################################
