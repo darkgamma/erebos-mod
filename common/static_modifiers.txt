@@ -455,6 +455,28 @@ d_neapolitan_band_modifier = {
 	knights = 150
 }
 
+d_kven_band_modifier = {
+	levy_size = 1
+	archers = 150
+	light_infantry = 300
+	heavy_infantry = 300
+}
+
+d_dniepriot_brothers_modifier = {
+	levy_size = 2
+	archers = 150
+	light_infantry = 300
+	heavy_infantry = 300
+	galleys = 5
+}
+
+d_danubian_company_modifier = {
+	levy_size = 2
+	archers = 200
+	light_infantry = 350
+	heavy_infantry = 350
+}
+
 d_alexandrian_guard_modifier = {
 	levy_size = 2
 	archers = 150
