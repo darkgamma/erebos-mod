@@ -1177,7 +1177,7 @@ spriteTypes = {
 	
 	sprite_type = {
 		name = "GFX_trait_wiz_1"
-		texturefile = "gfx\magic\wiz_1.dds"
+		texturefile = "gfx/magic/wiz_1.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1185,7 +1185,7 @@ spriteTypes = {
 	
 	sprite_type = {
 		name = "GFX_trait_wiz_2"
-		texturefile = "gfx\magic\wiz_2.dds"
+		texturefile = "gfx/magic/wiz_2.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1193,7 +1193,7 @@ spriteTypes = {
 	
 	sprite_type = {
 		name = "GFX_trait_wiz_3"
-		texturefile = "gfx\magic\wiz_3.dds"
+		texturefile = "gfx/magic/wiz_3.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1201,7 +1201,7 @@ spriteTypes = {
 	
 	sprite_type = {
 		name = "GFX_trait_wiz_4"
-		texturefile = "gfx\magic\wiz_4.dds"
+		texturefile = "gfx/magic/wiz_4.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
