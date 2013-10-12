@@ -1169,39 +1169,35 @@ spriteTypes = {
 	}	
 	sprite_type = {
 		name = "GFX_trait_slave"
-		texturefile = "gfx\misc\slavetrait.dds"
+		texturefile = "gfx\magic\slavetrait.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}	
-	
 	sprite_type = {
-		name = "GFX_trait_wiz_1"
-		texturefile = "gfx/magic/wiz_1.dds"
+		name = "GFX_trait_hema_1"
+		texturefile = "gfx\magic\hema_1.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}	
-	
 	sprite_type = {
-		name = "GFX_trait_wiz_2"
-		texturefile = "gfx/magic/wiz_2.dds"
+		name = "GFX_trait_hema_2"
+		texturefile = "gfx\magic\hema_2.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
-	
 	sprite_type = {
-		name = "GFX_trait_wiz_3"
-		texturefile = "gfx/magic/wiz_3.dds"
+		name = "GFX_trait_hema_3"
+		texturefile = "gfx\magic\hema_3.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
-	
 	sprite_type = {
-		name = "GFX_trait_wiz_4"
-		texturefile = "gfx/magic/wiz_4.dds"
+		name = "GFX_trait_hema_4"
+		texturefile = "gfx\magic\hema_4.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"

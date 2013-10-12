@@ -18,7 +18,7 @@
 ##									##
 ######################################
 
-wiz_1 = {
+hema_1 = {
 	potential = {
 		always = no
 	}
@@ -27,7 +27,7 @@ wiz_1 = {
 	health = -0.5
 }
 
-wiz_2 = {
+hema_2 = {
 	potential = {
 		always = no
 	}
@@ -38,7 +38,7 @@ wiz_2 = {
 	health = -1
 }
 
-wiz_2 = {
+hema_2 = {
 	potential = {
 		always = no
 	}
@@ -50,7 +50,7 @@ wiz_2 = {
 	health = -3
 }
 
-wiz_4 = {
+hema_4 = {
 	potential = {
 		always = no
 	}
@@ -61,7 +61,3 @@ wiz_4 = {
 	
 	health = -1.5
 }
-
-######################################
-##									##
-######################################
