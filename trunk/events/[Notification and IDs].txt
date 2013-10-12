@@ -8,5 +8,3 @@
 ## HSA = Hemospectrum assignment events
 ## BCO = Bloodcounting events
 ## BARM = Bloodcount arithmetic
-
-## EMPLOY = Employment decision events
