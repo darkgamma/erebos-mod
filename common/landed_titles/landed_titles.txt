@@ -339,16 +339,15 @@ d_berber_band = {
 	modifier = d_berber_band_modifier
 }
 
-
-d_iberian_band = {
+d_magyar_band = {
 	color = { 130 173 70 }
 	color2 = { 255 255 255 }
 
-	capital = 181 # Cordoba
+	capital = 533 # Saris/Spis
 	
 	# Parent Religion 
-	religion = catholic
-	culture = castillan
+	religion = tengri_pagan
+	culture = hungarian
 	
 	mercenary = yes
 
@@ -366,7 +365,65 @@ d_iberian_band = {
 	
 	strength_growth_per_century = 1.00
 	
-	modifier = d_iberian_band_modifier
+	modifier = d_magyar_band_modifier
+}
+
+d_neapolitan_band = {
+	color = { 130 173 70 }
+	color2 = { 255 255 255 }
+
+	capital = 334 # Napoli/Neapoli
+	
+	# Parent Religion 
+	religion = orthodox
+	culture = greek
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.00
+	
+	modifier = d_neapolitan_band_modifier
+}
+
+d_scottish_band = {
+	color = { 130 173 70 }
+	color2 = { 255 255 255 }
+
+	capital = 43 # Gowrie
+	
+	# Parent Religion 
+	religion = catholic
+	culture = scottish
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.00
+	
+	modifier = d_scottish_band_modifier
 }
 
 d_alexandrian_guard = {

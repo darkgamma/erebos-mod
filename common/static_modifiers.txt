@@ -437,15 +437,26 @@ d_berber_band_modifier = {
 	light_cavalry = 200
 }
 
-d_iberian_band_modifier = {
+d_magyar_band_modifier = {
 	levy_size = 1
+	horse_archers = 150
 	light_infantry = 300
 	heavy_infantry = 150
-	knights = 200
+	light_cavalry = 100
+	knights = 50
+}
+
+d_neapolitan_band_modifier = {
+	levy_size = 1
+	archers = 50
+	horse_archers = 100
+	light_infantry = 300
+	heavy_infantry = 150
+	knights = 150
 }
 
 d_alexandrian_guard_modifier = {
-	levy_size = 1
+	levy_size = 2
 	archers = 150
 	light_infantry = 300
 	heavy_infantry = 200
