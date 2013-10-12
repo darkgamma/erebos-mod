@@ -1,14 +1,100 @@
-christian = {
+maculist = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	crusade_cb = crusade
 	playable = yes
 	pacifist = yes # Will make Hordes lose their super aggressiveness
 	
-	# Names given only to Christian characters (base names)
 	male_names = {
 		Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace George Gregory 
 		Hans Isaac Joakim Jacob John Jordan Joseph Laurence Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip 
+		Salvador Samuel Sebastian Simon Stephen Thomas
+	}
+	female_names = {
+		Anna Beatrice Benedicta Brigid Catherine Cecilia Christina Clementia Constance Dorothy Elisabeth Joan Judith Juliana Helen 
+		Magdalena Margaret Maria Marine Patricia Philippa Rachel 
+		Sarah Sophia Stephania
+	}
+
+	johannist = {
+		graphical_culture = westerngfx
+		
+		color = { 0.7 0.45 0.4 }
+
+		icon = 1
+		heresy_icon = 6
+		
+		crusade_name = "CRUSADE"
+		scripture_name = THE_WORD_OF_JOHN
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_MARY PROPHET_JOHN
+		}
+
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
+	rapturist = {
+	
+		graphical_culture = westerngfx
+
+		icon = 1
+		heresy_icon = 6
+		
+		color = { 0.8 0.3 0.7 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = THE_WORD_OF_GOD
+		god_names = {
+			GOD_RAPTURED_JESUS GOD_JESUS GOD_RAPTURE GOD_THE_RAPTURED
+		}
+		autocephaly = no
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = no
+		can_grant_claim = no
+		can_call_crusade = no
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
+	marcinian = {
+		graphical_culture = westerngfx
+		
+		color = { 0.7 0.4 0.55 }
+
+		icon = 1
+		heresy_icon = 6
+		
+		crusade_name = "CRUSADE"
+		scripture_name = THE_WORD_OF_MARCUS
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_MARY PROPHET_MARCUS
+		}
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+}
+
+immaculist = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	pacifist = yes # Will make Hordes lose their super aggressiveness
+	
+	male_names = {
+		Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace George Gregory 
+		Hans Isaac Joakim Jacob Jordan Joseph Laurence Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip 
 		Salvador Samuel Sebastian Simon Stephen Thomas
 	}
 	female_names = {
@@ -32,6 +118,7 @@ christian = {
 		}
 		
 		investiture = yes
+		autocephaly = no
 		can_excommunicate = yes
 		can_grant_divorce = yes
 		can_grant_invasion_cb = invasion
@@ -41,6 +128,7 @@ christian = {
 		religious_clothing_head = 0
 		religious_clothing_priest = 1
 	}
+	
 	cathar = {
 		graphical_culture = westerngfx
 
@@ -50,45 +138,18 @@ christian = {
 		color = { 0.5 0.5 0.9 }
 		parent = catholic
 		
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
-	}
-	fraticelli = {
-		graphical_culture = westerngfx
-
-		icon = 1
-		heresy_icon = 6
-		
-		color = { 0.7 0.7 0.4 }
-		parent = catholic
+		autocephaly = no
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = no
+		can_grant_claim = no
+		can_call_crusade = no
 		
 		religious_clothing_head = 0
 		religious_clothing_priest = 1
 	}
-	waldensian = {
-		graphical_culture = westerngfx
-
-		icon = 1
-		heresy_icon = 6
-		
-		color = { 0.4 0.4 0.7 }
-		parent = catholic
-		
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
-	}
-	lollard = {
-		graphical_culture = westerngfx
-
-		icon = 1
-		heresy_icon = 6
-		
-		color = { 0.5 0.8 0.8 }
-		parent = catholic
-		
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
-	}
+	
+	#############
 	
 	orthodox = {
 		graphical_culture = westerngfx
@@ -96,7 +157,7 @@ christian = {
 		icon = 2
 		heresy_icon = 7
 		
-		color = { 0.7 0.5 0 }
+		color = { 0.7 0 0.5 }
 		
 		crusade_name = "CRUSADE"
 		scripture_name = THE_BIBLE
@@ -116,6 +177,63 @@ christian = {
 		religious_clothing_head = 2
 		religious_clothing_priest = 2
 	}
+	
+	iconoclast = {
+		graphical_culture = westerngfx
+
+		icon = 2
+		heresy_icon = 7
+		
+		color = { 0.5 0.2 0.4 }
+		parent = orthodox
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	
+	nestorian = {
+		graphical_culture = westerngfx
+
+		icon = 2
+		heresy_icon = 7
+		
+		color = { 0.8 0.3 0.5 }
+		parent = orthodox
+		
+		investiture = no
+		autocephaly = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	
+	monothelite = {
+		graphical_culture = westerngfx
+
+		icon = 2
+		heresy_icon = 7
+		
+		color = { 0.5 0 0.3 }
+		parent = orthodox
+		
+		investiture = no
+		autocephaly = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	
+	#############
 	
 	miaphysite = {
 		graphical_culture = westerngfx
@@ -165,27 +283,19 @@ christian = {
 		religious_clothing_priest = 2
 	}
 	
-	bogomilist = {
-		graphical_culture = westerngfx
-
-		icon = 2
-		heresy_icon = 7
-		
-		color = { 0.7 0 0.2 }
-		parent = orthodox
-		
-		religious_clothing_head = 2
-		religious_clothing_priest = 2
-	}
+	#############
 	
-	nestorian = {
+	arian = {
 		graphical_culture = westerngfx
-
+		
 		icon = 2
 		heresy_icon = 7
 		
-		color = { 0.8 0.3 0.5 }
-		parent = orthodox
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		
+		color = { 0.4 0.5 0.7 }
 		
 		investiture = no
 		autocephaly = yes
@@ -199,14 +309,19 @@ christian = {
 		religious_clothing_priest = 2
 	}
 	
-	monothelite = {
+	sabellian = {
 		graphical_culture = westerngfx
-
+		
 		icon = 2
 		heresy_icon = 7
 		
-		color = { 0.5 0 0.3 }
-		parent = orthodox
+		parent = arian
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD
+		}
+		
+		color = { 0.5 0.7 0.9 }
 		
 		investiture = no
 		autocephaly = yes
@@ -220,19 +335,7 @@ christian = {
 		religious_clothing_priest = 2
 	}
 	
-	iconoclast = {
-		graphical_culture = westerngfx
-
-		icon = 2
-		heresy_icon = 7
-		
-		color = { 0.5 0.2 0.4 }
-		parent = orthodox
-		
-		religious_clothing_head = 2
-		religious_clothing_priest = 2
-	}
-	
+	#############
 }
 
 muslim = {
@@ -300,67 +403,7 @@ muslim = {
 		heresy_icon = 8
 		
 		color = { 0.3 0.6 0.3 }
-		parent = sunni
-		priests_can_marry = yes
-		can_hold_temples = yes
-		psc_marriage = no
-		max_wives = 4
-	}
-	shiite = {
-		graphical_culture = muslimgfx
-
-		icon = 4
-		heresy_icon = 9
-		
-		color = { 0 0.8 0 }
-		
-		crusade_name = "JIHAD"
-		scripture_name = THE_KORAN
-		god_names = {
-			GOD_ALLAH GOD_THE_GREATEST
-		}
-		
-		can_grant_claim = yes
-		can_call_crusade = yes
-		priests_can_marry = yes
-		can_hold_temples = yes
-		psc_marriage = no
-		max_wives = 4
-	}
-	bektashi = {
-		graphical_culture = muslimgfx
-
-		icon = 4
-		heresy_icon = 9
-		
-		color = { 0.3 0.8 0.3 }
-		parent = shiite
-		priests_can_marry = yes
-		can_hold_temples = yes
-		psc_marriage = no
-		max_wives = 4
-	}
-	druze = {
-		graphical_culture = muslimgfx
-
-		icon = 4
-		heresy_icon = 9
-		
-		color = { 0.0 0.9 0.4 }
-		parent = shiite
-		priests_can_marry = yes
-		can_hold_temples = yes
-		psc_marriage = no
-		max_wives = 4
-	}
-	hurufi = {
-		graphical_culture = muslimgfx
-
-		icon = 4
-		heresy_icon = 9
-		
-		color = { 0.4 0.9 0.0 }
-		parent = shiite
+	#	parent = sunni
 		priests_can_marry = yes
 		can_hold_temples = yes
 		psc_marriage = no
@@ -368,22 +411,38 @@ muslim = {
 	}
 }
 
-pagan_group = {
-	has_coa_on_barony_only = no
-	graphical_culture = muslimgfx
+hellenic_pagan_group = {
+    has_coa_on_barony_only = yes
 	playable = yes
 	
-	# Names given only to Pagan characters (base names)
-	male_names = {
-		Anund Asbjörn Aslak Audun Bagge Balder Brage Egil Emund Frej Gnupa Gorm Gudmund Gudröd Hardeknud Helge Odd Orm 
-		Orvar Ottar Rikulfr Rurik Sigbjörn Styrbjörn Starkad Styrkar Sämund Sölve Sörkver Thorolf Tjudmund Toke Tolir 
-		Torbjörn Torbrand Torfinn Torgeir Toste Tyke
-	}
-	female_names = {
-		Aslaug Bothild Björg Freja Grima Gytha Kráka Malmfrid Thora Thordis Thyra Ragnfrid Ragnhild Svanhild Ulvhilde
-	}
+	hellenic_pagan = {
+		graphical_culture = westerngfx
+		
+		pre_reformed = yes
 
-	pagan = { # Use for misc other pagans
+		icon = 37
+		
+		color = { 0.6 0.1 0.1 }
+		god_names = {
+			GOD_JUPITER GOD_MERCURY GOD_MARS GOD_VENUS GOD_MINERVA GOD_VESTA
+		}
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priests_can_marry = yes
+		female_temple_holders = yes
+		max_consorts = 3
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+}
+
+arab_pagan_group = {
+    has_coa_on_barony_only = no
+	graphical_culture = muslimgfx
+	playable = yes
+
+	arab_pagan = { # Use for misc other pagans
 		graphical_culture = westerngfx
 
 		icon = 5
@@ -401,6 +460,177 @@ pagan_group = {
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
+	}
+}
+	
+germanic_group = {
+    has_coa_on_barony_only = no
+	graphical_culture = norsegfx
+	playable = yes
+	
+	# Names given only to Pagan characters (base names)
+	male_names = {
+		Anund Asbjörn Aslak Audun Bagge Balder Brage Egil Emund Frej Gnupa Gorm Gudmund Gudröd Hardeknud Helge Odd Orm 
+		Orvar Ottar Rikulfr Rurik Sigbjörn Styrbjörn Starkad Styrkar Sämund Sölve Sörkver Thorolf Tjudmund Toke Tolir 
+		Torbjörn Torbrand Torfinn Torgeir Toste Tyke
+	}
+	
+	female_names = {
+		Aslaug Bothild Björg Freja Grima Gytha Kráka Malmfrid Thora Thordis Thyra Ragnfrid Ragnhild Svanhild Ulvhilde
+	}
+	
+	contgermanic_reformed = {
+		graphical_culture = norsegfx
+
+		icon = 20
+		heresy_icon = 21
+		
+		color = { 0.4 0.4 0.6 }
+		god_names = {
+			GOD_WOTAN GOD_DONAR GOD_FROUWA GOD_WIRD GOD_SONNA GOD_ZIU
+		}
+		
+		unit_modifier = {
+			levy_size = 0.25
+			
+			key = "OFF_RELIGION"
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_CHANTS
+		priests_can_marry = yes
+		
+		can_call_crusade = yes
+		
+		female_temple_holders = yes
+		
+		short_reign_opinion_year_mult = 3
+		
+		aggression = 1.25 # AI aggression factor
+		
+		max_consorts = 1
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = contgermanic
+	}
+	
+	saxon_pagan = {
+	
+		graphical_culture = norsegfx
+
+		icon = 19
+		heresy_icon = 21
+		
+		color = { 0.4 0.2 0.2 }
+		
+		god_names = {
+			GOD_WODAN GOD_DONAR GOD_FROUWA GOD_IRMIN GOD_SONNA GOD_TIU
+		}
+		
+		unit_modifier = {
+			levy_size = 0.3
+			
+			retinuesize_perc = 0.25
+			
+			key = "OFF_RELIGION"
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_CHANTS
+		priests_can_marry = yes
+
+		female_temple_holders = yes
+		defensive_attrition = yes
+		
+		short_reign_opinion_year_mult = 3
+
+		max_consorts = 1
+		independence_war_score_bonus = 15 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		reformed = saxon_pagan_reformed
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = saxon_pagan_reformed
+	}
+	
+	saxon_pagan_reformed = {
+	
+		graphical_culture = norsegfx
+
+		icon = 19
+		heresy_icon = 21
+		
+		color = { 0.4 0.2 0.2 }
+		
+		god_names = {
+			GOD_WODAN GOD_DONAR GOD_FROUWA GOD_IRMIN GOD_SONNA GOD_TIU
+		}
+		
+		unit_modifier = {
+			levy_size = 0.25
+			
+			key = "OFF_RELIGION"
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_CHANTS
+		priests_can_marry = yes
+
+		female_temple_holders = yes
+
+		max_consorts = 1
+
+		short_reign_opinion_year_mult = 3
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = saxon_pagan
+	}
+	
+	contgermanic = {
+	
+		graphical_culture = norsegfx
+
+		icon = 19
+		heresy_icon = 21
+		
+		color = { 0.2 0.2 0.4 }
+		
+		god_names = {
+			GOD_WOTAN GOD_DONAR GOD_FROUWA GOD_WIRD GOD_SONNA GOD_ZIU
+		}
+		
+		unit_modifier = {
+			levy_size = 0.25
+			
+			retinuesize_perc = 0.5
+			
+			key = "OFF_RELIGION"
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_CHANTS
+		priests_can_marry = yes
+
+		female_temple_holders = yes
+		defensive_attrition = yes
+
+		max_consorts = 1
+		independence_war_score_bonus = 15 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		#reformed = contgermanic_reformed
+		
+		aggression = 1.5 # AI aggression factor
+		
+		short_reign_opinion_year_mult = 3
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = contgermanic_reformed
 	}
 	
 	norse_pagan_reformed = {
@@ -474,6 +704,7 @@ pagan_group = {
 		raised_vassal_opinion_loss = no
 		max_consorts = 3
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		#
 		reformed = norse_pagan_reformed
 		reformer_head_of_religion = yes #make the character that reforms this religion the head of the new reformed faith
 		
@@ -486,7 +717,13 @@ pagan_group = {
 		
 		intermarry = norse_pagan_reformed
 	}	
-	
+}
+
+tengri_group = {
+    has_coa_on_barony_only = no
+	graphical_culture = mongolgfx
+	playable = yes
+
 	tengri_pagan_reformed = { # Mongols
 		graphical_culture = mongolgfx
 
@@ -550,7 +787,7 @@ pagan_group = {
 		raised_vassal_opinion_loss = no
 		max_consorts = 3
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
-		reformed = tengri_pagan_reformed
+		#reformed = tengri_pagan_reformed
 		
 		short_reign_opinion_year_mult = 3 # The default is 2
 		
@@ -559,6 +796,12 @@ pagan_group = {
 		religious_clothing_head = 6
 		religious_clothing_priest = 4
 	}
+}
+
+baltic_group = {
+    has_coa_on_barony_only = no
+	graphical_culture = norsegfx
+	playable = yes
 	
 	baltic_pagan_reformed = {
 		graphical_culture = norsegfx
@@ -646,14 +889,19 @@ pagan_group = {
 		allow_looting = yes
 		max_consorts = 3
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
-		reformed = baltic_pagan_reformed
+		#reformed = baltic_pagan_reformed
 		
 		short_reign_opinion_year_mult = 4 # The default is 2
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 	}	
-	
+}
+uralic_group = {
+    has_coa_on_barony_only = no
+	graphical_culture = norsegfx
+	playable = yes
+
 	finnish_pagan_reformed = {
 		graphical_culture = norsegfx
 
@@ -741,7 +989,7 @@ pagan_group = {
 		allow_looting = yes
 		max_consorts = 3
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
-		reformed = finnish_pagan_reformed
+		#reformed = finnish_pagan_reformed
 		
 		short_reign_opinion_year_mult = 4 # The default is 2
 		
@@ -750,6 +998,12 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 	}
+}
+
+aztec_group = {	
+	has_coa_on_barony_only = no
+	graphical_culture = mesoamericangfx
+	playable = yes
 	
 	aztec_reformed = {
 		graphical_culture = mesoamericangfx
@@ -798,14 +1052,20 @@ pagan_group = {
 		raised_vassal_opinion_loss = no
 		max_consorts = 3
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
-		reformed = aztec_reformed
+		#reformed = aztec_reformed
 		
 		aggression = 2.0 # AI aggression factor
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 	}
+}
 
+slavic_group = {
+    has_coa_on_barony_only = no
+	graphical_culture = norsegfx
+	playable = yes
+	
 	slavic_pagan_reformed = {
 		graphical_culture = norsegfx
 
@@ -894,130 +1154,114 @@ pagan_group = {
 		max_consorts = 3
 		
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
-		reformed = slavic_pagan_reformed
+		#reformed = slavic_pagan_reformed
 		
 		short_reign_opinion_year_mult = 4 # The default is 2
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 	}
-	
-	west_african_pagan_reformed = {
-		graphical_culture = africangfx
-
-		icon = 35
-		heresy_icon = 36
-		
-		color = { 1.0 0.45 0.0 }
-		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_LEGENDS
-		god_names = {
-			GOD_THE_SPIRITS GOD_THE_ANCESTORS
-		}
-		
-		can_call_crusade = yes
-		
-		unit_modifier = {		
-			garrison_size = 0.4
-			
-			key = "DEF_RELIGION"
-		}
-		unit_home_modifier = {
-			land_morale = 0.8
-			light_infantry_defensive = 0.8
-			heavy_infantry_defensive = 0.8
-			pikemen_defensive = 0.8
-			light_cavalry_defensive = 0.8
-			knights_defensive = 0.8
-			archers_defensive = 0.8
-			horse_archers_defensive = 0.8
-			
-			garrison_size = 0.4
-			
-			key = "DEF_RELIGION_HOME_TERRITORY"
-		}
-		
-		priests_can_marry = yes
-		female_temple_holders = yes
-		allow_looting = yes
-		
-		max_consorts = 3
-		
-		aggression = 0.5 # AI aggression factor
-		
-		religious_clothing_head = 3
-		religious_clothing_priest = 3
-	}
-	
-	west_african_pagan = {
-		graphical_culture = africangfx
-
-		icon = 34
-		heresy_icon = 35
-		
-		color = { 0.8 0.35 0.0 }
-		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_LEGENDS
-		god_names = {
-			GOD_THE_SPIRITS GOD_THE_ANCESTORS
-		}
-		
-		unit_modifier = {		
-			garrison_size = 0.4
-			
-			key = "DEF_RELIGION"
-		}
-		unit_home_modifier = {
-			land_morale = 0.8
-			light_infantry_defensive = 0.8
-			heavy_infantry_defensive = 0.8
-			pikemen_defensive = 0.8
-			light_cavalry_defensive = 0.8
-			knights_defensive = 0.8
-			archers_defensive = 0.8
-			horse_archers_defensive = 0.8
-			
-			garrison_size = 0.4
-			
-			key = "DEF_RELIGION_HOME_TERRITORY"
-		}
-		
-		priests_can_marry = yes
-		female_temple_holders = yes
-		allow_looting = yes
-		
-		max_consorts = 3
-		
-		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
-		reformed = west_african_pagan_reformed
-		
-		aggression = 0.1 # AI aggression factor
-		
-		religious_clothing_head = 3
-		religious_clothing_priest = 3
-	}
-	
-	hellenic_pagan = {
-		graphical_culture = westerngfx
-		
-		pre_reformed = yes
-
-		icon = 37
-		
-		color = { 0.6 0.1 0.1 }
-		god_names = {
-			GOD_JUPITER GOD_MERCURY GOD_MARS GOD_VENUS GOD_MINERVA GOD_VESTA
-		}
-		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_LEGENDS
-		priests_can_marry = yes
-		female_temple_holders = yes
-		max_consorts = 3
-		
-		religious_clothing_head = 3
-		religious_clothing_priest = 3
-	}
 }
+
+#west_african = {	
+#	has_coa_on_barony_only = yes
+#	graphical_culture = africangfx
+#	playable = yes
+#	west_african_pagan_reformed = {
+#		graphical_culture = africangfx
+#
+#		icon = 35
+#		heresy_icon = 36
+#		
+#		color = { 1.0 0.45 0.0 }
+#		crusade_name = GREAT_HOLY_WAR
+#		scripture_name = THE_LEGENDS
+#		god_names = {
+#			GOD_THE_SPIRITS GOD_THE_ANCESTORS
+#		}
+#		
+#		can_call_crusade = yes
+#		
+#		unit_modifier = {		
+#			garrison_size = 0.4
+#			
+#			key = "DEF_RELIGION"
+#		}
+#		unit_home_modifier = {
+#			land_morale = 0.8
+#			light_infantry_defensive = 0.8
+#			heavy_infantry_defensive = 0.8
+#			pikemen_defensive = 0.8
+#			light_cavalry_defensive = 0.8
+#			knights_defensive = 0.8
+#			archers_defensive = 0.8
+#			horse_archers_defensive = 0.8
+#			
+#			garrison_size = 0.4
+#			
+#			key = "DEF_RELIGION_HOME_TERRITORY"
+#		}
+#		
+#		priests_can_marry = yes
+#		female_temple_holders = yes
+#		allow_looting = yes
+#		
+#		max_consorts = 3
+#		
+#		aggression = 0.5 # AI aggression factor
+#		
+#		religious_clothing_head = 3
+#		religious_clothing_priest = 3
+#	}
+#	
+#	west_african_pagan = {
+#		graphical_culture = africangfx
+#
+#		icon = 34
+#		heresy_icon = 35
+#		
+#		color = { 0.8 0.35 0.0 }
+#		crusade_name = GREAT_HOLY_WAR
+#		scripture_name = THE_LEGENDS
+#		god_names = {
+#			GOD_THE_SPIRITS GOD_THE_ANCESTORS
+#		}
+#		
+#		unit_modifier = {		
+#			garrison_size = 0.4
+#			
+#			key = "DEF_RELIGION"
+#		}
+#		unit_home_modifier = {
+#			land_morale = 0.8
+#			light_infantry_defensive = 0.8
+#			heavy_infantry_defensive = 0.8
+#			pikemen_defensive = 0.8
+#			light_cavalry_defensive = 0.8
+#			knights_defensive = 0.8
+#			archers_defensive = 0.8
+#			horse_archers_defensive = 0.8
+#			
+#			garrison_size = 0.4
+#			
+#			key = "DEF_RELIGION_HOME_TERRITORY"
+#		}
+#		
+#		priests_can_marry = yes
+#		female_temple_holders = yes
+#		allow_looting = yes
+#		
+#		max_consorts = 3
+#		
+#		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+#		reformed = west_african_pagan_reformed
+#		
+#		aggression = 0.1 # AI aggression factor
+#		
+#		religious_clothing_head = 3
+#		religious_clothing_priest = 3
+#	}
+#}
 
 zoroastrian_group = {
 	has_coa_on_barony_only = no
@@ -1039,7 +1283,7 @@ zoroastrian_group = {
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_GATHAS
 		god_names = {
-			GOD_AHURA_MAZDA GOD_ZURVAN GOD_OHRMAZD GOD_MANAH PROPHET_ZOROASTER
+			GOD_AHURA_MAZDA GOD_ZURVAN GOD_MANAH PROPHET_ZOROASTER
 		}
 		
 		can_grant_divorce = yes
@@ -1056,21 +1300,19 @@ zoroastrian_group = {
 		religious_clothing_priest = 5
 	}
 	
-	mazdaki = {
+	zurvanist = {
 		graphical_culture = persiangfx
 		
-		icon = 10
+		icon = 12
 		heresy_icon = 12
 		
 		color = { 0.3 0.65 0.25 }
 		
-		scripture_name = THE_GREAT_SECRET
+		scripture_name = THE_GATHAS
 		
 		god_names = {
-			GOD_ZURVAN GOD_AHURA_MAZDA GOD_MANAH PROPHET_MAZDAK
+			GOD_ZURVAN GOD_AHURA_MAZDA GOD_MANAH PROPHET_ZOROASTER 
 		}
-		
-		parent = zoroastrian
 		
 		can_grant_divorce = yes
 		can_call_crusade = yes
@@ -1080,18 +1322,19 @@ zoroastrian_group = {
 		religious_clothing_priest = 5
 	}
 	
-	manichean = {
+	akaist = {
 		graphical_culture = persiangfx
 		
-		icon = 10
+		icon = 12
 		heresy_icon = 12
 		
-		color = { 0.7 0.7 0.4 }
-		god_names = {
-			GOD_ZURVAN GOD_OHRMAZD PROPHET_MANI GOD_MIHRYAZD
-		}
+		color = { 0.65 0.3 0.25 }
 		
-		parent = zoroastrian
+		scripture_names = THE_AKA_AVESTA
+		
+		god_names = {
+			GOD_ANGRA GOD_AKA GOD_ACHISTA GOD_AESHMA
+		}
 		
 		can_grant_divorce = yes
 		can_call_crusade = yes

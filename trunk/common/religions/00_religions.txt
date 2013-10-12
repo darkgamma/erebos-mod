@@ -412,6 +412,7 @@ muslim = {
 }
 
 hellenic_pagan_group = {
+    has_coa_on_barony_only = yes
 	playable = yes
 	
 	hellenic_pagan = {
@@ -437,6 +438,7 @@ hellenic_pagan_group = {
 }
 
 arab_pagan_group = {
+    has_coa_on_barony_only = no
 	graphical_culture = muslimgfx
 	playable = yes
 
@@ -462,6 +464,7 @@ arab_pagan_group = {
 }
 	
 germanic_group = {
+    has_coa_on_barony_only = no
 	graphical_culture = norsegfx
 	playable = yes
 	
@@ -717,6 +720,7 @@ germanic_group = {
 }
 
 tengri_group = {
+    has_coa_on_barony_only = no
 	graphical_culture = mongolgfx
 	playable = yes
 
@@ -795,6 +799,7 @@ tengri_group = {
 }
 
 baltic_group = {
+    has_coa_on_barony_only = no
 	graphical_culture = norsegfx
 	playable = yes
 	
@@ -893,6 +898,7 @@ baltic_group = {
 	}	
 }
 uralic_group = {
+    has_coa_on_barony_only = no
 	graphical_culture = norsegfx
 	playable = yes
 
@@ -995,7 +1001,7 @@ uralic_group = {
 }
 
 aztec_group = {	
-	has_coa_on_barony_only = yes
+	has_coa_on_barony_only = no
 	graphical_culture = mesoamericangfx
 	playable = yes
 	
@@ -1056,6 +1062,7 @@ aztec_group = {
 }
 
 slavic_group = {
+    has_coa_on_barony_only = no
 	graphical_culture = norsegfx
 	playable = yes
 	
@@ -1257,7 +1264,7 @@ slavic_group = {
 #}
 
 zoroastrian_group = {
-	has_coa_on_barony_only = yes
+	has_coa_on_barony_only = no
 	graphical_culture = muslimgfx
 	playable = yes
 	
