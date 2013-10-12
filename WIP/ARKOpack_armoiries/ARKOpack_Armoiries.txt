@@ -1,0 +1,7 @@
+MOD NAME : ARKOPACK Armoiries
+MOD/DATE VERSION : 2013 august 25th
+GAME VERSION COMPATIBILITY : v1.110 v1.111
+
+see included readme's for details
+
+
