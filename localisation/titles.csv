@@ -274,8 +274,8 @@ k_catholic_papacy;The Catholic Papacy;;;;;;;;;;;;;x
 k_catholic_papacy_adj;Catholic;;;;;;;;;;;;;x
 k_ecumenical_patriarchy;The Ecumenical Patriarchy;;;;;;;;;;;;;x
 k_ecumenical_patriarchy_adj;Ecumenical;;;;;;;;;;;;;x
-k_nestorian_patriarchy;The Patriarchy in the East;;;;;;;;;;;;;x
-k_nestorian_patriarchy_adj;Eastern Patriarchal;;;;;;;;;;;;;x
+k_patriarchy_in_the_east;The Patriarchy in the East;;;;;;;;;;;;;x
+k_patriarchy_in_the_east_adj;Eastern Patriarchal;;;;;;;;;;;;;x
 k_monothelite_patriarchy;The Monothelite Patriarchy;;;;;;;;;;;;;x
 k_monothelite_patriarchy_adj;Monothelite;;;;;;;;;;;;;x
 k_miaphysite_papacy;The Miaphysite Papacy;;;;;;;;;;;;;x
