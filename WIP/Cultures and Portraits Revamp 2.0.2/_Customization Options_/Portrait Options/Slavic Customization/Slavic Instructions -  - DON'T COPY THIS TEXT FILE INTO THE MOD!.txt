@@ -1,0 +1,6 @@
+==================
+INSTRUCTIONS
+==================
+
+1. Choose the customization option you want and go into its folder.
+2. Copy and paste portraits_easternslavic.gfx as well as portraits_westernslavic.gfx into "Cultures and Portraits Revamp/interface"

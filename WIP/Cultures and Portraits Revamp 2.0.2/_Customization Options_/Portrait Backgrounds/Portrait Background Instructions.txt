@@ -1,0 +1,28 @@
+========================
+Portrait Backgrounds
+========================
+
+This folder contains customization options for changing the background portraits of different characters in VIET Immersion. It will work with both on-going and new games.
+
+Currently, these options are available:
+- Additional Portrait Backgrounds: Additional portrait backgrounds for various situations. May slow down performance a bit.
+- Alternate African Background: Use a different potential background for African characters instead of the default
+
+
+=============
+Installation
+=============
+
+Additional Portrait Backgrounds:
+1. In the folder, you should see three files:
+backgrounds.dds
+portrait_sprites.gfx
+portrait_properties.txt
+2. Go to "[PB] VIET Immersion/gfx/characters/shared" and replace the existing "backgrounds.dds" with the one found in the customization folder.
+3. Go to "[PB] VIET Immersion/interface" and replace the existing "portrait_sprites.gfx" with the one found in the customization folder.
+4. Go to "[PB] VIET Immersion/interface" and replace the existing "portrait_properties.txt" with the one found in the customization folder.
+
+Alternate African Savanna Background:
+1. In the folder, you should see one file, "backgrounds.dds"
+2. Go to "[PB] VIET Immersion/gfx/characters/shared" and replace the existing "backgrounds.dds" with the one found in the customization folder.
+3. That should be it.
