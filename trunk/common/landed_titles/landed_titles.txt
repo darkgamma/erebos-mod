@@ -426,6 +426,100 @@ d_scottish_band = {
 	modifier = d_scottish_band_modifier
 }
 
+d_kven_band = {
+	color = { 130 173 70 }
+	color2 = { 255 255 255 }
+
+	capital = 386 # Kemi
+	
+	# Parent Religion 
+	religion = finnish_pagan
+	culture = lappish
+	
+	allow = {
+	    OR = {
+		    culture = lappish
+			culture = finnish
+		}
+	}
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.00
+	
+	modifier = d_kven_band_modifier
+}
+
+d_dniepriot_brothers = {
+	color = { 130 173 70 }
+	color2 = { 255 255 255 }
+
+	capital = 576 # Bryansk
+	
+	# Parent Religion 
+	religion = slavic_pagan
+	culture = russian
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.00
+	
+	modifier = d_dniepriot_brothers_modifier
+}
+
+d_danubian_company = {
+	color = { 130 173 70 }
+	color2 = { 255 255 255 }
+
+	capital = 360 # Oberbayern
+	
+	# Parent Religion 
+	religion = contgermanic_pagan
+	culture = bavarian
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.00
+	
+	modifier = d_danubian_company_modifier
+}
+
 d_alexandrian_guard = {
 	color = { 130 173 70 }
 	color2 = { 255 255 255 }
