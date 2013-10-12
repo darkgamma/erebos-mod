@@ -169,10 +169,10 @@ decisions = {
 					}
 					
 					random_list = {
-						50 = { add_trait = wiz_1 }
-						30 = { add_trait = wiz_2 }
-						15 = { add_trait = wiz_3 }
-						5 = { add_trait = wiz_4 }
+						50 = { add_trait = hema_1 }
+						30 = { add_trait = hema_2 }
+						15 = { add_trait = hema_3 }
+						5 = { add_trait = hema_4 }
 					}
 					
 					random_list = {
