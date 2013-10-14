@@ -1173,33 +1173,5 @@ spriteTypes = {
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
-	}	
-	sprite_type = {
-		name = "GFX_trait_hema_1"
-		texturefile = "gfx\magi-ed\hema_1.dds"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}	
-	sprite_type = {
-		name = "GFX_trait_hema_2"
-		texturefile = "gfx\magi-ed\hema_2.dds"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
-	sprite_type = {
-		name = "GFX_trait_hema_3"
-		texturefile = "gfx\magi-ed\hema_3.dds"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
-	sprite_type = {
-		name = "GFX_trait_hema_4"
-		texturefile = "gfx\magi-ed\hema_4.dds"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
 	}
 }
