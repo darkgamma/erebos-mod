@@ -1,0 +1,63 @@
+######################################
+##									##
+##		Written by Darkgamma		##
+##	   ASCII Art by Darkgamma		##
+##	Version: 0.0a (First Version)	##
+##									##
+######################################
+
+######################################
+##									##
+##	 	 Magic-Related Traits		##
+##									##
+######################################
+
+######################################
+##									##
+##	  Four tiers of magic users 	##
+##									##
+######################################
+
+hema_1 = {
+	potential = {
+		always = no
+	}
+	
+	learning = 1
+	health = -0.5
+}
+
+hema_2 = {
+	potential = {
+		always = no
+	}
+	
+	diplomacy = 1
+	learning = 2
+	
+	health = -1
+}
+
+hema_3 = {
+	potential = {
+		always = no
+	}
+	
+	intrigue = 1
+	diplomacy = 1
+	learning = 3
+	
+	health = -2
+}
+
+hema_4 = {
+	potential = {
+		always = no
+	}
+	
+	intrigue = 2
+	diplomacy = 2
+	learning = 5
+	
+	health = -1.5
+}
