@@ -188,6 +188,7 @@ decisions = {
 					change_stewardship = 2
 					change_diplomacy = 3
 					change_intrigue = 3
+					give_minor_title = title_hemalurgist_main
 				}
 				
 				random_list = {
@@ -309,6 +310,7 @@ decisions = {
 					change_stewardship = 1
 					change_diplomacy = 2
 					change_intrigue = 2
+					give_minor_title = title_hemalurgist_help
 				}
 			}
 		}
