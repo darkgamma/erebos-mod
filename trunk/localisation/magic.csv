@@ -3,10 +3,10 @@ hema_2;Hemalurgist;;;;;;;;;;;;;;x
 hema_3;Hemalurgist;;;;;;;;;;;;;;x
 hema_4;Hemalurgist;;;;;;;;;;;;;;x
 
-hema_1_desc;This character knows how to work blood and magic. The arcane arts take years to learn and decades to hone and perfect - it is no wonder that hemalurgy is a rare art. Men privy to the meanings behind the bloodthirsty whispers are reluctant to share them. This makes hemalurgists both extremely dangerous and in high demand.;;;;;;;;;;;;;;x
-hema_2_desc;This character knows how to work blood and magic. The arcane arts take years to learn and decades to hone and perfect - it is no wonder that hemalurgy is a rare art. Men privy to the meanings behind the bloodthirsty whispers are reluctant to share them. This makes hemalurgists both extremely dangerous and in high demand.;;;;;;;;;;;;;;x
-hema_3_desc;This character knows how to work blood and magic. The arcane arts take years to learn and decades to hone and perfect - it is no wonder that hemalurgy is a rare art. Men privy to the meanings behind the bloodthirsty whispers are reluctant to share them. This makes hemalurgists both extremely dangerous and in high demand.;;;;;;;;;;;;;;x
-hema_4_desc;This character knows how to work blood and magic. The arcane arts take years to learn and decades to hone and perfect - it is no wonder that hemalurgy is a rare art. Men privy to the meanings behind the bloodthirsty whispers are reluctant to share them. This makes hemalurgists both extremely dangerous and in high demand.;;;;;;;;;;;;;;x
+hema_1_desc;This character knows how to work blood and magic. The arcane arts take years to learn and decades to hone and perfect - it is no wonder that hemalurgy is a rare art. Men privy to the meanings behind the bloodthirsty whispers are reluctant to share them. This makes hemalurgists both extremely dangerous and in high demand. Just remember: he whom the gods love dies young.;;;;;;;;;;;;;;x
+hema_2_desc;This character knows how to work blood and magic. The arcane arts take years to learn and decades to hone and perfect - it is no wonder that hemalurgy is a rare art. Men privy to the meanings behind the bloodthirsty whispers are reluctant to share them. This makes hemalurgists both extremely dangerous and in high demand. Just remember: he whom the gods love dies young.;;;;;;;;;;;;;;x
+hema_3_desc;This character knows how to work blood and magic. The arcane arts take years to learn and decades to hone and perfect - it is no wonder that hemalurgy is a rare art. Men privy to the meanings behind the bloodthirsty whispers are reluctant to share them. This makes hemalurgists both extremely dangerous and in high demand. Just remember: he whom the gods love dies young.;;;;;;;;;;;;;;x
+hema_4_desc;This character knows how to work blood and magic. The arcane arts take years to learn and decades to hone and perfect - it is no wonder that hemalurgy is a rare art. Men privy to the meanings behind the bloodthirsty whispers are reluctant to share them. This makes hemalurgists both extremely dangerous and in high demand. Just remember: he whom the gods love dies young.;;;;;;;;;;;;;;x
 
 decision_open_magic_window;Open Magic;;;;;;;;;;;;;;x
 decision_open_magic_window_desc;Use this decision to see what magic-related decisions are available to be taken.;;;;;;;;;;;;;;x
@@ -14,3 +14,8 @@ decision_close_magic_window;Close Magic;;;;;;;;;;;;;;x
 decision_close_magic_window_desc;Use this decision to return to the normal decisions
 decision_employ_hemalurgists;Employ Hemalurgists;;;;;;;;;;;;;;x
 decision_employ_hemalurgists_desc;Employ a hemalurgist team to assist you with all matters arcane.;;;;;;;;;;;;;;x
+
+title_hemalurgist_main;Lord Hemalurgist;;;;;;;;;;;;;;x
+remove_hemalurgist_main;Dismiss Hemalurgist;;;;;;;;;;;;;;x
+title_hemalurgist_help;Assistant Hemalurgist;;;;;;;;;;;;;;x
+remove_hemalurgist_help;Dismiss Hemalurgist;;;;;;;;;;;;;;x
