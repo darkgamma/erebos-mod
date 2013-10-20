@@ -1313,6 +1313,27 @@ e_scandinavia = {
 				b_kiruna = {
 				}
 			}
+			c_finnmark = {
+				color={ 174 161 110 }
+				color2={ 255 255 255 }
+				
+				b_varghoeya = {
+				}
+				b_vardohus = {
+				}
+				b_ostervagen = {
+				}
+				b_malangen = {
+				}
+				b_hammerfest = {
+				}
+				b_karsloy = {
+				}
+				b_piselvnes = {
+				}
+				b_tromso = {
+				}
+			}
 			c_kemi = {
 				color={ 130 65 55 }
 				color2={ 255 255 255 }
@@ -1779,27 +1800,6 @@ e_scandinavia = {
 				b_mosjoen = {
 				}
 				b_alstahaug = {
-				}
-			}
-			c_finnmark = {
-				color={ 174 161 110 }
-				color2={ 255 255 255 }
-				
-				b_varghoeya = {
-				}
-				b_vardohus = {
-				}
-				b_ostervagen = {
-				}
-				b_malangen = {
-				}
-				b_hammerfest = {
-				}
-				b_karsloy = {
-				}
-				b_piselvnes = {
-				}
-				b_tromso = {
 				}
 			}
 			c_nordland = {
