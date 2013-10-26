@@ -220,6 +220,11 @@ spriteTypes =
 		texturefile = "gfx\\event_pictures\\snow_in_winter.tga"
 		allwaystransparent = yes
 	}
+	spriteType = {
+		name = "GFX_evt_blackadder"
+		texturefile = "gfx\\event_pictures\\blackadder.tga"
+		allwaystransparent = yes
+	}
 }
 
 
