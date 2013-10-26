@@ -25,7 +25,7 @@ character_event = {
 	border = GFX_event_normal_frame_economy
 
 	mean_time_to_happen = {
-		days = 30
+		months = 2
 	}
 	
 	desc = EVTDESCHSA.1

@@ -1,0 +1,216 @@
+######################################
+##									##
+##		Written by Darkgamma		##
+##	   ASCII Art by Darkgamma		##
+##									##
+######################################
+
+######################################
+##									##
+##			Version: 0.0a			##
+##									##
+######################################
+
+######################################
+##									##
+##	 	  Magic-Related Events	    ##
+##									##
+######################################
+
+namespace = ARM
+
+character_event = {
+	id = ARM.1
+	picture = GFX_evt_doctor
+	border = GFX_event_normal_frame_economy
+	
+	is_triggered_only = yes
+	
+	desc = EVTDESCARM.1
+	
+	option = {
+		name = hasARM.1
+		trigger = {
+			any_courtier = {
+				limit = { is_abroad = no }
+				AND = {
+					has_minor_title = title_hemalurgist_help
+					NOT = {
+						trait = ill
+						trait = wounded
+						trait = incapable
+						trait = has_aztec_disease
+						trait = inbred
+						trait = slow
+						trait = imbecile
+						trait = has_typhoid_fever
+						trait = has_typhus
+						trait = has_bubonic_plague
+						trait = has_measles
+						trait = has_small_pox
+					}
+				}
+			}
+		}
+		
+		hidden_tooltip = {
+			any_courtier = {
+				limit = {
+					is_abroad = no
+					has_minor_title = title_hemalurgist_main
+				}
+				character_event = { id = ARM.2 } # HAS HELPER HEMALURGIST
+			}
+		}
+		
+		custom_tooltip = { text = ARM.1-summons }
+	}
+	
+	option = {
+		name = injARM.1
+		trigger = {
+			any_courtier = {
+				limit = { is_abroad = no }
+				AND = {
+					has_minor_title = title_hemalurgist_help
+					OR = {
+						trait = ill
+						trait = wounded
+						trait = incapable
+						trait = has_aztec_disease
+						trait = inbred
+						trait = slow
+						trait = imbecile
+						trait = has_typhoid_fever
+						trait = has_typhus
+						trait = has_bubonic_plague
+						trait = has_measles
+						trait = has_small_pox
+					}
+				}
+			}
+		}
+		
+		hidden_tooltip = {
+			any_courtier = {
+				limit = {
+					is_abroad = no
+					has_minor_title = title_hemalurgist_main
+				}
+				character_event = { id = ARM.3 } # INJURED HELPER HEMALURGIST
+			}
+		}
+		
+		custom_tooltip = { text = ARM.1-summons }
+	}
+	
+	option = {
+		name = nopARM.1
+		trigger = {
+			NOT = {
+				any_courtier = {
+					limit = { is_abroad = no }
+					has_minor_title = title_hemalurgist_help
+				}
+			}
+		}
+		
+		hidden_tooltip = {
+			any_courtier = {
+				limit = {
+					is_abroad = no
+					has_minor_title = title_hemalurgist_main
+				}
+				character_event = { id = ARM.4 } # NO HELPER HEMALURGIST
+			}
+		}
+		
+		custom_tooltip = { text = ARM.1-summons }
+	}
+	
+	option = {
+		name = denyARM.1
+		custom_tooltip = { text = NOTARM.1 }
+	}
+}
+
+character_event = {
+	id = ARM.2
+	picture = GFX_evt_doctor
+	border = GFX_event_normal_frame_economy
+	
+	is_triggered_only = yes
+	
+	desc = EVTDESCARM.2 # You get message from liege bluh bluh whatever
+	
+	option = {
+		name = ayeARM.2
+		set_character_flag = main_hemalurgist_ayemagic
+		
+		FROM = {
+			any_courtier = {
+				limit = { is_abroad = no }
+				AND = {
+					has_minor_title = title_hemalurgist_help
+				}
+				character_event = { id = ARM.6 } # Calling helper
+			}
+		}
+	}
+	
+	option = {
+		name = nayARM.2
+		FROM = {
+			character_event = { id = ARM.5 } # FUCK YOU M'LORD
+		}
+	}
+}
+
+character_event = {
+	id = ARM.3
+	picture = GFX_evt_doctor
+	border = GFX_event_normal_frame_economy
+	
+	is_triggered_only = yes
+	
+	desc = EVTDESCARM.3 # You get message from liege but helper injured bluh bluh whogivesacrap
+	
+	option = {
+		name = OPTAARM.3
+		FROM = {
+			letter_event = { id = ARM.7 } # UM DUDE IS INJURED U CAN'T DO THAT MAN
+		}
+	}
+}
+
+character_event = {
+	id = ARM.4
+	
+	picture = GFX_evt_doctor
+	border = GFX_event_normal_frame_economy
+	
+	is_triggered_only = yes
+	
+	desc = EVTDESCARM.4 # You get message from liege but have no helper bluh bluh idk
+	
+	option = {
+		name = OPTAARM.4
+		FROM = {
+			letter_event = { id = ARM.8 } # UM DUDE I CAN'T DO IT ALONE YOU DUMB OR WHAT
+		}
+	}
+}
+
+character_event = {
+	id = ARM.5
+	picture = GFX_evt_blackadder
+	border = GFX_event_normal_frame_economy
+	
+	is_triggered_only = yes
+	
+	desc = EVTDESCARM.5 # Some coy shit motherfucker bastard asshole
+	
+	option = { 
+		name = OPTAARM.5
+	}
+}
