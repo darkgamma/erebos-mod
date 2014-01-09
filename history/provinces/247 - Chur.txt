@@ -19,3 +19,5 @@ b_glurns = castle
 # Misc
 culture = german
 religion = contgermanic
+
+# History

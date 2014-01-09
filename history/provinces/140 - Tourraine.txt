@@ -17,3 +17,5 @@ b_amboise = city
 
 culture = frankish
 religion = johannist
+
+# History

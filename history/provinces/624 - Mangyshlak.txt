@@ -19,3 +19,5 @@ b_amankyzylit = temple
 # Misc
 culture = persian
 religion = zurvanist
+
+# History

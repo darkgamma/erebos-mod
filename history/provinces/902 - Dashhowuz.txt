@@ -18,3 +18,5 @@ b_tagta = temple
 # Misc
 culture = persian
 religion = zurvanist
+
+# History

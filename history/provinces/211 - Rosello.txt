@@ -17,3 +17,5 @@ b_cotlliure = city
 # Misc
 culture = paleo
 religion = marcinian
+
+# History

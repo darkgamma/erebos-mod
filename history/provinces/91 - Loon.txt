@@ -19,3 +19,5 @@ b_hasselt = temple
 # Misc
 culture = dutch
 religion = johannist
+
+# History

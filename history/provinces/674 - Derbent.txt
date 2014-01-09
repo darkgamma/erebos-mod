@@ -15,10 +15,7 @@ b_juma = temple
 #b_datuna = temple
 
 # Misc
-culture = armenian
-religion = miaphysite
+culture = alan
+religion = sunni
 
 # History
-
-1259.1.1 = { culture = persian }
-1259.1.1 = { religion = shiite }

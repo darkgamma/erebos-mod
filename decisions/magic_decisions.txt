@@ -324,7 +324,6 @@ decisions = {
 	}
 
 	decision_open_spells = {
-	
 		potential = {
 			has_character_flag = magic_window
 			NOT = { has_character_flag = spell_window }
@@ -368,10 +367,12 @@ decisions = {
 					}
 				}
 			}
+			has_character_flag = magic_window
+			has_character_flag = spell_window
 		}
 		
 		allow = {
-			in_battle = no
+			NOT = { in_battle = no }
 			any_courtier = {
 				limit = { is_abroad = no }
 				AND = {
@@ -391,15 +392,28 @@ decisions = {
 						trait = has_small_pox
 					}
 				}
-			}
-			capital_scope = { 
-				OR = {
-					has_building = ca_bloodworks_1 
-					has_building = ca_bloodworks_2
-				}
-			}
+			}	
 		}
 		
-		character_event = { id = ARM.1 tooltip = "ARM.1TOOL" }
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		
+		#	capital_scope = { 
+		#		OR = {
+		#			has_building = ca_bloodworks_1 
+		#			has_building = ca_bloodworks_2
+		#		}
+		#	}
+		
+		effect = {
+			wealth = -10
+		#	ROOT = { 
+				character_event = { id = ARM.1 tooltip = "ARM.1TOOL" } 
+		#	} 
+		}
 	}
 }

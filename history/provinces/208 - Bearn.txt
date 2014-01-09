@@ -18,3 +18,5 @@ b_pau = city
 #Misc
 religion = marcinian
 culture = basque
+
+# History

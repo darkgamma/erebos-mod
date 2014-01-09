@@ -18,3 +18,5 @@ b_basel = temple
 # Misc
 culture = burgundian
 religion = arian
+
+# History

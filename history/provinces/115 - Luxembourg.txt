@@ -18,3 +18,5 @@ b_arlon = castle
 # Misc
 culture = frankish
 religion = johannist
+
+# History

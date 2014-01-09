@@ -18,3 +18,4 @@ b_abercorn = temple
 # Misc
 culture = scottish
 religion = catholic
+# History

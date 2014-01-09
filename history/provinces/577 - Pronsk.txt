@@ -17,3 +17,5 @@ b_tula = city
 
 culture = russian
 religion = slavic_pagan
+
+# History

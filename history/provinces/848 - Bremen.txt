@@ -19,3 +19,5 @@ b_beverstedt = city
 # Misc
 culture = norse
 religion = norse_pagan
+
+# History

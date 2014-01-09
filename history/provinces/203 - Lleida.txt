@@ -17,3 +17,5 @@ b_solsona = temple
 # Misc
 culture = paleo
 religion = marcinian
+
+# History

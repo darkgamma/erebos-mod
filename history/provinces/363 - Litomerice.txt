@@ -18,3 +18,5 @@ b_chomutov = temple
 # Misc
 culture = bohemian
 religion = slavic_pagan
+
+# History

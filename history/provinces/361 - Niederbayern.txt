@@ -17,3 +17,5 @@ b_landshut = city
 # Misc
 culture = bavarian
 religion = contgermanic
+
+# History

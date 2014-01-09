@@ -17,3 +17,5 @@ b_nules = temple
 # Misc
 culture = paleo
 religion = marcinian
+
+# History

@@ -19,3 +19,5 @@ b_saldia = temple
 # Misc
 culture = maghreb_arabic
 religion = catholic
+
+# History

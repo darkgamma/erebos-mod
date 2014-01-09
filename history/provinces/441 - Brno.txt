@@ -19,3 +19,5 @@ b_kromeriz = city
 # Misc
 culture = bohemian
 religion = rapturist
+
+# History

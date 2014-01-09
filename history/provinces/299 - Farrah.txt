@@ -17,3 +17,5 @@ b_baladuluk = temple
 
 culture = persian
 religion = zurvanist
+
+# History

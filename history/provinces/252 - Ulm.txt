@@ -18,3 +18,5 @@ b_zwiefalten = temple
 # Misc
 culture = german
 religion = contgermanic
+
+# History

@@ -18,3 +18,5 @@ b_furness = temple
 # Misc
 culture = norse
 religion = norse_pagan
+
+# History

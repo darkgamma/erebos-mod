@@ -18,3 +18,5 @@ b_kuhtaftan = city
 # Misc
 culture = persian
 religion = zurvanist
+
+# History

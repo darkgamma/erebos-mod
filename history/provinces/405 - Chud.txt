@@ -18,3 +18,5 @@ b_totma = castle
 # Misc
 culture = mordvin
 religion = finnish_pagan
+
+# History

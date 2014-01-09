@@ -18,3 +18,5 @@ b_skikda = city
 # Misc
 culture = maghreb_arabic
 religion = arian
+
+# History

@@ -16,3 +16,5 @@ b_brienne = castle
 
 culture = frankish
 religion = johannist
+
+# History

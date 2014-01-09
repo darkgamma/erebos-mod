@@ -20,3 +20,5 @@ b_bjartra = castle
 # Misc
 culture = lappish
 religion = finnish_pagan
+
+# History

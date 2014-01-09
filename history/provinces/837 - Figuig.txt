@@ -19,3 +19,5 @@ b_benitajjit = castle
 # Misc
 culture = maghreb_arabic
 religion = catholic
+
+# History

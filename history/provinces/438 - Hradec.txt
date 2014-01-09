@@ -18,3 +18,5 @@ b_chrudim = city
 # Misc
 culture = bohemian
 religion = rapturist
+
+# History

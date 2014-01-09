@@ -17,3 +17,5 @@ b_borougheeyeh = temple
 # Misc
 culture = persian
 religion = zoroastrian
+
+# History

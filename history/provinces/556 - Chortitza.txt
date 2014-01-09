@@ -20,3 +20,5 @@ b_baszmacka = temple
 # Misc
 culture = khazar
 religion = tengri_pagan
+
+# History

@@ -20,3 +20,5 @@ b_zaoula = city
 # Misc
 culture = maghreb_arabic
 religion = arian
+
+# History
