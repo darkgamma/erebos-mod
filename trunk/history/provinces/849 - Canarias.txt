@@ -16,6 +16,6 @@ b_grancanaria = castle
 
 # Misc
 culture = maghreb_arabic
-religion = west_african_pagan
+religion = catholic
 
 # History
