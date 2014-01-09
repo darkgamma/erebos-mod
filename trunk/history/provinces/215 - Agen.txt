@@ -19,3 +19,5 @@ b_luzech = castle
 #Misc
 religion = marcinian
 culture = frankish
+
+# History
