@@ -18,3 +18,5 @@ b_romny = castle
 # Misc
 culture = samoyed
 religion = finnish_pagan
+
+# History

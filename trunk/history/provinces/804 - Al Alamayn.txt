@@ -18,3 +18,5 @@ b_sidibarrani = temple
 # Misc
 culture = coptic
 religion = monophysite
+
+# History

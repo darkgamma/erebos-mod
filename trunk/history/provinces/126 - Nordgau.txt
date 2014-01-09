@@ -18,3 +18,5 @@ b_strassburg = temple
 # Misc
 culture = german
 religion = johannist
+
+# History

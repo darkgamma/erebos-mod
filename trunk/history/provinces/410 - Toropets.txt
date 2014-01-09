@@ -18,3 +18,5 @@ b_toropets = city
 # Misc
 culture = norse
 religion = norse_pagan
+
+# History

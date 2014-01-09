@@ -17,3 +17,5 @@ b_karlstein = castle
 # Misc
 culture = bohemian
 religion = slavic_pagan
+
+# History

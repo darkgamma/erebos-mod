@@ -18,3 +18,5 @@ b_bassac = temple
 #Misc
 religion = catholic
 culture = frankish
+
+# History

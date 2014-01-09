@@ -18,3 +18,5 @@ b_waging = castle
 # Misc
 culture = bavarian
 religion = contgermanic
+
+# History

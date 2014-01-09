@@ -16,3 +16,5 @@ b_saintdizier = temple # Saint-Dizier
 # Misc
 culture = frankish
 religion = johannist
+
+# History

@@ -18,3 +18,5 @@ b_kyzylyar = city
 # Misc
 culture = khazar
 religion = orthodox
+
+# History

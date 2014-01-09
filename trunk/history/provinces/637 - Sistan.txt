@@ -18,3 +18,5 @@ b_nok_kundi = temple
 # Misc
 culture = persian
 religion = zoroastrian
+
+# History

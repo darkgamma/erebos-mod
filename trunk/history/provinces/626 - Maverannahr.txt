@@ -19,3 +19,5 @@ b_kuskupir = temple
 # Misc
 culture = persian
 religion = zurvanist
+
+# History

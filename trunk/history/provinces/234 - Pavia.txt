@@ -17,3 +17,5 @@ b_bobbio = temple
 # Misc
 culture = langobard
 religion = orthodox
+
+# History

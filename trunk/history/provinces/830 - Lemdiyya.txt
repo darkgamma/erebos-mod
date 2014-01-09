@@ -19,3 +19,5 @@ b_aindefla = temple
 # Misc
 culture = maghreb_arabic
 religion = catholic
+
+# History

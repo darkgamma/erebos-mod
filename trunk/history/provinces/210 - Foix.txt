@@ -17,3 +17,5 @@ b_mirepoix = city
 # Misc
 culture = burgundian
 religion = marcinian
+
+# History

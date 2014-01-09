@@ -18,3 +18,5 @@ b_mahalkufa = city
 #Misc
 culture = kurdish
 religion = nestorian
+
+# History

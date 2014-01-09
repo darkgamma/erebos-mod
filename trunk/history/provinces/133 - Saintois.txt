@@ -17,3 +17,5 @@ b_saintois = temple
 # Misc
 culture = frankish
 religion = johannist
+
+# History

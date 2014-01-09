@@ -18,3 +18,5 @@ b_alet = temple
 # Misc
 culture = burgundian
 religion = marcinian
+
+# History

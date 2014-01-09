@@ -18,3 +18,5 @@ b_martigny = city
 # Misc
 culture = burgundian
 religion = arian
+
+# History

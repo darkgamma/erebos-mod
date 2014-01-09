@@ -18,3 +18,5 @@ b_bal_chah = temple
 # Misc
 culture = persian
 religion = zurvanist
+
+# History

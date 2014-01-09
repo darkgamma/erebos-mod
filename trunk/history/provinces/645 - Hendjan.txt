@@ -17,3 +17,5 @@ b_argan = city
 
 culture = persian
 religion = zoroastrian
+
+# History

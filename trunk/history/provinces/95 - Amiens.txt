@@ -17,3 +17,5 @@ b_beauvais = temple
 
 culture = frankish
 religion = johannist
+
+# History

@@ -18,3 +18,5 @@ b_adraskan = city
 # Misc
 culture = persian
 religion = zoroastrian
+
+# History

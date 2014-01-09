@@ -19,3 +19,5 @@ b_ajim = temple
 # Misc
 culture = maghreb_arabic
 religion = sabellian
+
+# History

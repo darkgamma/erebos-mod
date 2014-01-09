@@ -18,3 +18,5 @@ b_karkuh = castle
 # Misc
 culture = persian
 religion = zurvanist
+
+# History

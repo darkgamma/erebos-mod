@@ -17,3 +17,5 @@ b_hijar = temple
 # Misc
 culture = paleo
 religion = marcinian
+
+# History

@@ -17,3 +17,5 @@ b_serravalle = temple
 # Misc
 culture = langobard
 religion = orthodox
+
+# History

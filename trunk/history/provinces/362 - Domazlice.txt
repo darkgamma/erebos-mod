@@ -19,3 +19,5 @@ b_kladruby = temple
 
 culture = bohemian
 religion = rapturist
+
+# History

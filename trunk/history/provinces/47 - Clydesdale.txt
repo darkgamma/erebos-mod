@@ -18,3 +18,4 @@ b_glasgow = city
 # Misc
 culture = scottish
 religion = catholic
+# History

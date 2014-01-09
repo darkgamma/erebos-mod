@@ -54,7 +54,7 @@ character_event = {
 		}
 		
 		hidden_tooltip = {
-			any_courtier = {
+			random_courtier = {
 				limit = {
 					is_abroad = no
 					has_minor_title = title_hemalurgist_main
@@ -92,7 +92,7 @@ character_event = {
 		}
 		
 		hidden_tooltip = {
-			any_courtier = {
+			random_courtier = {
 				limit = {
 					is_abroad = no
 					has_minor_title = title_hemalurgist_main
@@ -116,7 +116,7 @@ character_event = {
 		}
 		
 		hidden_tooltip = {
-			any_courtier = {
+			random_courtier = {
 				limit = {
 					is_abroad = no
 					has_minor_title = title_hemalurgist_main
@@ -212,5 +212,6 @@ character_event = {
 	
 	option = { 
 		name = OPTAARM.5
+		opinion = { modifier = opinion_coyshit who = FROM years = 5 }
 	}
 }

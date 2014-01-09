@@ -17,3 +17,5 @@ b_sancugat = temple
 # Misc
 culture = paleo
 religion = marcinian
+
+# History
