@@ -19,4 +19,5 @@ b_alftanes = city
 culture = norse
 religion = norse_pagan
 
+903.1.1 = { }
 # History
