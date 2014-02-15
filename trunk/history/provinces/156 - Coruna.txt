@@ -18,7 +18,7 @@ b_mondonedo = temple
 culture = gothic
 religion = arian
 
-# History
+#  
 
 867.1.1 = {
 	b_corunna = ca_town_1
@@ -30,4 +30,4 @@ religion = arian
 	b_lugo = ct_wall_1
 }
 903.1.1 = { }
-# History
+#  

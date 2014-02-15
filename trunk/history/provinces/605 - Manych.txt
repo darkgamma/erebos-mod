@@ -18,5 +18,5 @@ b_makhmudmekteb = temple
 culture = alan
 religion = ibadi
 
-# History
+
 903.1.1 = {}

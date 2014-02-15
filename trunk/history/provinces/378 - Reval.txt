@@ -28,5 +28,5 @@ religion = finnish_pagan
 	b_reval = ct_barracks_1
 	b_hapsal = tp_barracks_1
 }
-903.1.1 = { }
 # History
+903.1.1 = { }

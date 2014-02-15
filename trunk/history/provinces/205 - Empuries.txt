@@ -18,7 +18,7 @@ b_cerdana = castle
 culture = paleo
 religion = marcinian
 
-# History
+ 
 
 867.1.1 = { 
 	b_empuries = ca_town_1
@@ -29,4 +29,4 @@ religion = marcinian
 	b_empuries = ca_wall_2
 }
 903.1.1 = { }
-# History
+ 

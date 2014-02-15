@@ -18,7 +18,7 @@ b_tafalla = castle
 culture = basque
 religion = marcinian
 
-# History
+#  
 
 867.1.1 = { 
 	b_pamplona = ca_town_1
@@ -35,4 +35,4 @@ religion = marcinian
 	b_tafalla = ca_wall_2
 }
 903.1.1 = { }
-# History
+#  

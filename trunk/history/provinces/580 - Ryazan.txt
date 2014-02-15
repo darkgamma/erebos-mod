@@ -17,4 +17,3 @@ b_solotcha = temple
 culture = russian
 religion = slavic_pagan
 903.1.1 = { }
-# History

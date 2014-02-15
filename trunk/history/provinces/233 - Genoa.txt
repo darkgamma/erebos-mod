@@ -19,7 +19,7 @@ b_savona = city
 culture = italian
 religion = arian
 
-# History
+ 
 
 867.1.1 = { 
 	b_genoa = ct_wall_1
@@ -41,4 +41,4 @@ religion = arian
 	b_savona = ct_shipyard_1
 }
 903.1.1 = { }
-# History
+ 

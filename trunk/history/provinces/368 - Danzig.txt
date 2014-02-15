@@ -28,5 +28,5 @@ religion = slavic_pagan
 	b_danzig = ct_barracks_1
 	b_oliva = tp_barracks_1
 }
-903.1.1 = { }
 # History
+903.1.1 = { }

@@ -22,4 +22,3 @@ culture = khazar
 religion = tengri_pagan
 
 903.1.1 = { }
-# History

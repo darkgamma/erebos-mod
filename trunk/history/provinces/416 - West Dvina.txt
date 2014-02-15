@@ -19,7 +19,7 @@ b_balvi = temple
 culture = lettigallish
 religion = baltic_pagan
 
-# History
+ 
 700.1.1 = {
 	b_daugavpils = ca_keep_1
 	b_daugavpils = ca_militia_barracks_1
@@ -30,4 +30,4 @@ religion = baltic_pagan
 }
 
 903.1.1 = { }
-# History
+ 

@@ -20,7 +20,7 @@ b_kobenhavn = city
 culture = norse
 religion = norse_pagan
 
-# History
+ 
 
 900.1.1 = {
 	b_ringsted = ca_keep_1
@@ -35,4 +35,4 @@ religion = norse_pagan
 	b_lejre = tp_monastery_1
 }
 903.1.1 = { }
-# History
+ 

@@ -19,4 +19,4 @@ b_smederevo = temple
 culture = southslavic
 religion = slavic_pagan
 903.1.1 = { }
-# History
+ 

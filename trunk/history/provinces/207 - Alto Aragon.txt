@@ -18,7 +18,7 @@ b_loarre = castle
 culture = basque
 religion = marcinian
 
-# History
+ 
 
 867.1.1 = { 
 	b_jaca = ca_town_1
@@ -35,4 +35,4 @@ religion = marcinian
 	b_loarre = ca_wall_2
 }
 903.1.1 = { }
-# History
+ 

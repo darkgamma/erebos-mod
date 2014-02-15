@@ -20,7 +20,7 @@ b_sigtuna = city
 culture = norse
 religion = norse_pagan
 
-# History
+ 
 
 900.1.1 = {
     b_hatuna = ca_shipyard_1
@@ -29,4 +29,4 @@ religion = norse_pagan
 	b_birka = ct_marketplace_1
 }
 903.1.1 = { }
-# History
+ 

@@ -19,6 +19,6 @@ b_beaujeu = city
 culture = burgundian
 religion = arian
 
-# History
+ 
 903.1.1 = { }
-# History
+ 

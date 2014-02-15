@@ -17,7 +17,7 @@ b_osma = temple
 culture = castillan
 religion = marcinian
 
-# History
+ 
 
 867.1.1 = { 
 	b_soria = ca_keep_1
@@ -27,4 +27,4 @@ religion = marcinian
 	b_soria = ca_wall_2
 }
 903.1.1 = { }
-# History
+ 

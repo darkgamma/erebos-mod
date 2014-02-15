@@ -21,7 +21,7 @@ religion = catholic
 
 
 903.1.1 = { }
-# History
+#  
 
 900.1.1 = {
 	b_dover = ca_wall_1

@@ -22,7 +22,7 @@ b_skara = temple	#Swedens oldest Diocese
 culture = norse
 religion = norse_pagan
 
-# History
+ 
 867.1.1 = {
 	b_lacko = ca_keep_1
 	b_lacko = ca_stable_1
@@ -33,4 +33,4 @@ religion = norse_pagan
 	b_lodose = ct_port_1
 }
 903.1.1 = { }
-# History
+ 

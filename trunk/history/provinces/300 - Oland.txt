@@ -19,11 +19,9 @@ b_kopingsvik = city
 # Misc
 culture = norse
 religion = norse_pagan
-
-# History
 867.1.1 = {
 	b_kopingsvik = ct_port_1
 	b_kopingsvik = ct_marketplace_1
 }
+ 
 903.1.1 = { }
-# History

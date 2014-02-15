@@ -20,10 +20,10 @@ culture = norse
 religion = norse_pagan
 terrain = mountain
 
-# History
+#  
 867.1.1 = {
 	b_skansin = ca_shipyard_1
 }
 
 903.1.1 = { }
-# History
+#  

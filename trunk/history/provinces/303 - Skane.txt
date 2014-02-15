@@ -21,7 +21,7 @@ b_dalby = city
 culture = norse
 religion = norse_pagan
 
-# History
+ 
 867.1.1 = {
 	b_helsingborg = ca_keep_1
 	b_helsingborg = ca_militia_barracks_1
@@ -31,4 +31,4 @@ religion = norse_pagan
 }
 
 903.1.1 = { }
-# History
+ 

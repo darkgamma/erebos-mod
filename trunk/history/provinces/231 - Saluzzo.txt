@@ -19,5 +19,5 @@ b_pinerolo = temple
 culture = italian
 religion = arian
 903.1.1 = { }
-# History
+ 
 

@@ -18,4 +18,3 @@ b_pitsunda = temple
 culture = georgian
 religion = orthodox
 903.1.1 = { }
-# History

@@ -18,7 +18,7 @@ b_sanpedrodeperix = castle
 culture = gothic
 religion = arian
 
-# History
+ 
 
 867.1.1 = { 
 	b_leon = ca_town_1
@@ -35,4 +35,4 @@ religion = arian
 	b_sanpedrodeperix = ca_wall_2
 }
 903.1.1 = { }
-# History
+ 

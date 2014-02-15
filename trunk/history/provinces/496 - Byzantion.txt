@@ -19,7 +19,7 @@ b_pempton = city
 culture = greek
 religion = orthodox
 
-# History
+ 
 
 900.1.1 = { 
 	b_constantinople = ca_keep_1
@@ -55,4 +55,4 @@ religion = orthodox
 }
 
 903.1.1 = { }
-# History
+ 

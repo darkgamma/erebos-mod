@@ -18,7 +18,7 @@ b_gevezin = temple
 culture = lechitic
 religion = slavic_pagan
 
-# History
+ 
 700.1.1 = {
 	b_mecklemburg = ca_keep_1
 	b_mecklemburg = ca_militia_barracks_1
@@ -28,4 +28,4 @@ religion = slavic_pagan
 	b_gevezin = tp_barracks_1
 }
 903.1.1 = { }
-# History
+ 

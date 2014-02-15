@@ -17,5 +17,5 @@ b_tereklimekteb = temple
 culture = alan
 religion = ibadi
 
-# History
+
 903.1.1 = {}

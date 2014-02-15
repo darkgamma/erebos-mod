@@ -19,4 +19,3 @@ b_dubrovitsya = temple
 culture = russian
 religion = norse_pagan
 903.1.1 = { }
-# History

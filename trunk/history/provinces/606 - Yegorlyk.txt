@@ -18,5 +18,5 @@ b_stauropolis = temple
 culture = alan
 religion = tengri_pagan
 
-# History
+
 903.1.1 = {}

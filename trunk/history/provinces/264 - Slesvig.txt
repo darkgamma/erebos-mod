@@ -19,10 +19,10 @@ b_ribe = temple
 culture = norse
 religion = norse_pagan
 
-# History
+ 
 867.1.1 = {
 	b_hedeby = ct_port_1
 	b_hedeby = ct_marketplace_1
 }
 903.1.1 = { }
-# History
+ 
