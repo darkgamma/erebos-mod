@@ -1,12 +1,61 @@
-#########################
-# HEALTH - Events		#
-#########################
+######################################
+##									##
+##	  Written by PDox/Darkgamma  	##
+##	    ASCII Art by Darkgamma		##
+##	 Version: 0.0a (First Version)	##
+##									##
+######################################
 
 wounded = {
 	is_health = yes
 	
 	opposites =  {
 		maimed
+		wounded_2
+		wounded_3
+		wounded_4
+	}
+	
+	martial = -1
+	health = -1
+}
+
+wounded_2 = {
+	is_health = yes
+	
+	opposites =  {
+		maimed
+		wounded
+		wounded_3
+		wounded_4
+	}
+	
+	martial = -1
+	health = -1
+}
+
+wounded_3 = {
+	is_health = yes
+	
+	opposites =  {
+		maimed
+		wounded_2
+		wounded
+		wounded_4
+	}
+	
+	martial = -1
+	health = -1
+}
+
+wounded_4 = {
+	is_health = yes
+	
+	opposites =  {
+		maimed
+		wounded_2
+		wounded_3
+		wounded
 	}
 	
 	martial = -1
@@ -116,6 +165,9 @@ maimed = {
 	
 	opposites =  {
 		wounded
+		wounded_2
+		wounded_3
+		wounded_4
 	}
 	
 	sex_appeal_opinion = -15
