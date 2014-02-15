@@ -18,5 +18,5 @@ b_syktyvkar = castle
 # Misc
 culture = samoyed
 religion = finnish_pagan
-
+903.1.1 = { }
 # History

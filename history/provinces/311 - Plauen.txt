@@ -18,9 +18,5 @@ b_merseburg = temple
 # Misc
 culture = lechitic
 religion = slavic_pagan
-
+903.1.1 = { }
 # History
-1066.1.1 = {
-	culture = german
-	religion = catholic
-}

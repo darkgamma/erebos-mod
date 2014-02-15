@@ -18,9 +18,5 @@ b_kostroma = castle
 culture = mordvin
 religion = finnish_pagan
 
+903.1.1 = { }
 # History
-988.1.1 = {
-	culture = russian
-	religion = orthodox
-}
-1152.1.1 = { b_plyos = city } #city of Kostroma founded

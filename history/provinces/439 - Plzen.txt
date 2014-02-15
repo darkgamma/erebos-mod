@@ -20,4 +20,5 @@ b_stribo = city
 culture = bohemian
 religion = slavic_pagan
 
+903.1.1 = { }
 # History

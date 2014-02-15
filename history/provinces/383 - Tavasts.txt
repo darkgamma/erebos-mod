@@ -18,10 +18,5 @@ b_hameenlinna = castle
 # Misc
 culture = finnish
 religion = finnish_pagan
-
+903.1.1 = { }
 # History
-1250.1.1 = { religion = catholic }	#Northern Crusades
-1250.1.1 = { name = "Tavastland" }
-1187.1.1 = { b_vanaja = city }
-1311.1.1 = { remove_settlement = b_vanaja }
-1311.1.1 = { b_lahti = city }

@@ -23,3 +23,6 @@ religion = saxon_pagan
 900.1.1 = {
     b_groningen = ca_shipyard_1
 }
+
+903.1.1 = { }
+# History

@@ -20,7 +20,5 @@ b_anchilios = temple
 culture = bulgarian
 religion = orthodox
 
+903.1.1 = { }
 # History
-1216.1.1 = { trade_post = b_doria }
- 
-1337.1.1 = { b_bourgas = castle }

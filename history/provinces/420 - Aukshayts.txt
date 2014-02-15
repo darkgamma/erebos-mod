@@ -27,5 +27,6 @@ religion = baltic_pagan
 	b_kaunas = ct_barracks_1
 	b_lida = tp_barracks_1
 }
-1323.1.1 = { b_vilnius = city }
-1337.1.1 = { b_kreva = castle }
+
+903.1.1 = { }
+# History

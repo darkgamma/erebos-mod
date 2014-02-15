@@ -18,6 +18,5 @@ b_settimo = temple
 # Misc
 culture = italian
 religion = orthodox
-
+903.1.1 = { }
 # History
-1187.1.1 = { b_novara = castle } 

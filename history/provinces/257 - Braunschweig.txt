@@ -18,3 +18,5 @@ b_paderborn = temple # Norse Pagan Holy Site (representing the Irminsul at Oberm
 # Misc
 culture = cont_saxon
 religion = saxon_pagan
+903.1.1 = { }
+# History

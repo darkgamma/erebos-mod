@@ -19,6 +19,5 @@ b_bury = city
 culture = saxon
 religion = catholic
 
+903.1.1 = { }
 # History
-1100.11.11 = { culture = english }
-1331.1.1 = { trade_post = b_vorrade }

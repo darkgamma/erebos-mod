@@ -19,5 +19,5 @@ b_kaseg = temple
 culture = southslavic
 religion = slavic_pagan
 
+903.1.1 = { }
 # History
-1153.1.1 = { trade_post = b_contarini }

@@ -20,7 +20,5 @@ culture = norse
 religion = norse_pagan
 terrain = hills
 
+903.1.1 = { }
 # History
-1159.1.1 = { b_conwy = castle }
-1215.1.1 = { b_harlech = castle }
-1286.1.1 = { b_degannwy = castle }

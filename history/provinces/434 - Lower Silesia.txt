@@ -19,6 +19,5 @@ b_legnica = temple
 culture = lechitic
 religion = slavic_pagan
 
+903.1.1 = { }
 # History
-990.1.1 = { religion = catholic }
-1250.1.1 = { culture = german } #German settlers

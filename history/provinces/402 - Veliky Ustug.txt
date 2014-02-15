@@ -19,7 +19,5 @@ b_velikyustug = castle
 culture = samoyed
 religion = finnish_pagan
 
+903.1.1 = { }
 # History
-1207.1.1 = { b_krasavino = city }
-1207.1.1 = { culture = russian }
-1207.1.1 = { religion = orthodox }

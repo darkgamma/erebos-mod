@@ -18,7 +18,5 @@ b_forli = temple
 # Misc
 culture = italian
 religion = catholic
-
+903.1.1 = { }
 # History
-1139.1.1 = { capital = b_bologna }
-1139.1.1 = { b_imola = city }

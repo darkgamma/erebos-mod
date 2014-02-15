@@ -17,4 +17,5 @@ b_tartas = city
 religion = marcinian
 culture = frankish
 
+903.1.1 = { }
 # History

@@ -18,8 +18,5 @@ b_marvejols = city
 #Misc
 religion = arian
 culture = burgundian
-
+903.1.1 = { }
 # History
-1307.1.1   = {
-	capital = b_mende
-}

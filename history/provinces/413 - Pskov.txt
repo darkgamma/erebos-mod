@@ -19,4 +19,6 @@ b_pechory = temple
 culture = lettigallish
 religion = baltic_pagan
 
+
+903.1.1 = { }
 # History

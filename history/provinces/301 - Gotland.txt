@@ -30,3 +30,5 @@ religion = norse_pagan
 	b_visby = ct_shipyard_1
 	b_visby = ct_shipyard_2
 }
+903.1.1 = { }
+# History

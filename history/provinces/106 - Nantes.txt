@@ -26,4 +26,5 @@ religion = catholic
 	b_nantes = ca_militia_barracks_1
 	b_nantes = ca_wall_1
 }
-1200.1.1  = { b_clisson = city }
+903.1.1 = { }
+# History

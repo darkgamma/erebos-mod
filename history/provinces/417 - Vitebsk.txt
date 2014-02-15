@@ -19,5 +19,5 @@ b_sakolniki = temple
 culture = lettigallish
 religion = baltic_pagan
 
+903.1.1 = { }
 # History
-988.1.1 = { religion = orthodox }

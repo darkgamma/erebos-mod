@@ -19,9 +19,5 @@ b_nevel = city
 culture = lettigallish
 religion = baltic_pagan
 
+903.1.1 = { }
 # History
-988.1.1 = {
-	religion = orthodox 
-	b_sebezh = temple
-}
-

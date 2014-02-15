@@ -19,3 +19,7 @@ b_kortrijk = city
 # Misc
 culture = dutch
 religion = johannist
+
+
+903.1.1 = { }
+# History

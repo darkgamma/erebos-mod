@@ -20,9 +20,5 @@ b_kastoria = city
 culture = southslavic
 religion = orthodox
 
+903.1.1 = { }
 # History
-
-
-
-
-

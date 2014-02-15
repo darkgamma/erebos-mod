@@ -20,6 +20,5 @@ b_lycksele = castle
 # Misc
 culture = lappish
 religion = finnish_pagan
-
+903.1.1 = { }
 # History
-1100.1.1 = { religion = catholic }

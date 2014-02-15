@@ -34,3 +34,5 @@ religion = norse_pagan
 	b_roskilde = ct_barracks_1
 	b_lejre = tp_monastery_1
 }
+903.1.1 = { }
+# History

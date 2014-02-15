@@ -19,9 +19,5 @@ b_skien = city
 culture = norse
 religion = norse_pagan
 
+903.1.1 = { }
 # History
-1066.1.1 = {
-	culture = norwegian
-	religion = catholic
-}
-1280.1.1 = { trade_post = b_warendorp }

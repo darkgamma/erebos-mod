@@ -19,5 +19,5 @@ b_vabres = temple
 #Misc
 religion = arian
 culture = burgundian
-
+903.1.1 = { }
 # History

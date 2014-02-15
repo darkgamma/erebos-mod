@@ -18,7 +18,6 @@ b_osterode = city
 # Misc
 culture = lechitic
 religion = slavic_pagan
-# History
 
-1290.1.1 = { b_nikelshagen = temple }
-1290.1.1 = { religion = catholic }
+903.1.1 = { }
+# History

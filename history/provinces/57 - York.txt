@@ -17,6 +17,8 @@ b_scarborough = city
 culture = norse
 religion = norse_pagan
 
+
+902.1.1 = { }
 # History
 
 903.1.1 = {

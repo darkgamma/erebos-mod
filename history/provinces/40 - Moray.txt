@@ -19,9 +19,5 @@ b_inverness = city
 culture = pictish
 religion = catholic
 
+903.1.1 = { }
 # History
-#suppression of MacWilliams and erection of lordships of Badenoch and Urquhart
-1215.7.1 = { b_lochindorb = castle } 
-1215.7.1 = { capital = b_lochindorb }
-1215.7.1 = { b_urquhart = castle } 
-1215.7.1= { remove_settlement = b_forres }

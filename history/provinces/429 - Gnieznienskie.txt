@@ -19,9 +19,5 @@ b_lekno = city
 culture = lechitic
 religion = slavic_pagan
 
+903.1.1 = { }
 # History
-962.1.1 = {
-	religion = catholic
-	b_gniezno = temple
-	b_znin = castle
-}

@@ -20,11 +20,5 @@ b_umea = castle	#1314
 # Misc
 culture = lappish
 religion = finnish_pagan
-
+903.1.1 = { }
 # History
-1066.1.1 = {
-	culture = swedish 
-	religion = norse_pagan
-}
-1090.1.1 = { religion = catholic }
-1187.1.1 = { b_bygdea = city }

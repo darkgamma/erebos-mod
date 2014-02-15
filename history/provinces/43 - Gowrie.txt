@@ -19,13 +19,6 @@ b_perth = city
 culture = scottish
 religion = catholic
 
+
+903.1.1 = { }
 # History
-
-1066.1.1 = { 
-	b_scone = ca_keep_1
-#	b_scone = ca_training_grounds_1
-	b_scone = ca_stable_1
-#	b_scone = ca_wall_1
-}
-
-1250.1.1 = { b_abernethy = castle } 

@@ -19,6 +19,5 @@ b_modor = castle
 culture = avar
 religion = tengri_pagan
 
+903.1.1 = { }
 # History
-
-950.1.1 = { culture = hungarian }

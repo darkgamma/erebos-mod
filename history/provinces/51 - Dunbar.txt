@@ -19,6 +19,5 @@ b_tyninghame= temple
 culture = saxon
 religion = catholic
 
+903.1.1 = { }
 # History
-1100.11.11 = { culture = english }
-1235.9.25 = { culture = scottish }

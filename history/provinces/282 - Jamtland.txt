@@ -13,6 +13,5 @@ b_mjalleborgen = castle
 culture = norse
 religion = norse_pagan
 
+903.1.1 = { }
 # History
-1066.1.1 = { culture = norwegian }
-1090.1.1 = { religion = catholic }

@@ -20,8 +20,6 @@ culture = welsh
 religion = catholic
 terrain = hills
 
-# History
 
-1100.1.1 = { b_pembroke = castle }
-1100.1.1 = { capital = b_pembroke } 
-1100.1.1 = { remove_settlement = b_dinefwr } 
+903.1.1 = { }
+# History
