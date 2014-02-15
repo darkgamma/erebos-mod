@@ -28,5 +28,5 @@ religion = finnish_pagan
 	b_narva = ct_barracks_1
 	b_wesenberg = tp_barracks_1
 }
-903.1.1 = { }
 # History
+903.1.1 = { }

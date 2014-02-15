@@ -18,7 +18,7 @@ b_norena = castle
 culture = gothic
 religion = arian
 
-# History
+#  
 
 867.1.1 = {
 	b_oviedo = ca_town_1
@@ -36,4 +36,4 @@ religion = arian
 }
 
 903.1.1 = { }
-# History
+#  

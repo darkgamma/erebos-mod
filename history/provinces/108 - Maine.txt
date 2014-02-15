@@ -18,7 +18,7 @@ b_laval = city
 culture = breton
 religion = catholic
 
-# History
+#  
 867.1.1 = { 
 	b_le_mans = ca_keep_1
 	b_le_mans = ca_training_grounds_1
@@ -42,4 +42,4 @@ religion = catholic
 	b_evron = tp_monastery_1
 }
 903.1.1 = { }
-# History
+#  

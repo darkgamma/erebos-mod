@@ -19,5 +19,5 @@ b_ikburul = temple
 culture = khazar
 religion = tengri_pagan
 
-# History
+
 903.1.1 = {}

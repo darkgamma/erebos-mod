@@ -18,7 +18,7 @@ b_segovia = temple
 culture = castillan
 religion = marcinian
 
-# History
+ 
 
 867.1.1 = { 
 	b_valladolid = ca_town_1
@@ -29,4 +29,4 @@ religion = marcinian
 	b_valladolid = ca_wall_2
 }
 903.1.1 = { }
-# History
+ 

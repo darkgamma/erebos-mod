@@ -18,4 +18,3 @@ b_kozelets = temple
 culture = russian
 religion = slavic_pagan
 903.1.1 = { }
-# History

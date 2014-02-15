@@ -17,7 +17,7 @@ b_castrobarte = castle
 culture = castillan
 religion = marcinian
 
-# History
+ 
 
 867.1.1 = {
 	b_palencia = ca_town_1
@@ -34,4 +34,4 @@ religion = marcinian
 	b_castrobarte = ca_wall_2
 }
 903.1.1 = { }
-# History
+ 

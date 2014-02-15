@@ -22,7 +22,7 @@ b_othem = castle
 culture = norse
 religion = norse_pagan
 
-# History
+ 
 
 900.1.1 = {
 	b_visby = ct_port_1
@@ -31,4 +31,4 @@ religion = norse_pagan
 	b_visby = ct_shipyard_2
 }
 903.1.1 = { }
-# History
+ 

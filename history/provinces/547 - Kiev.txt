@@ -18,11 +18,10 @@ b_ovruch = castle
 culture = russian
 religion = norse_pagan
 
-# History
+
 867.1.1 = {
 	b_kiev = ca_keep_1
 	b_kiev = ca_wall_1
 	b_iskorosten = ct_marketplace_1
 }
 903.1.1 = { }
-# History

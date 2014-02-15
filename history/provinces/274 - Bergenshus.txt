@@ -18,9 +18,9 @@ b_kinsarvik = temple
 culture = norse
 religion = norse_pagan
 
-# History
+ 
 867.1.1 = {
 	b_bergen = ct_port_1
 }
 903.1.1 = { }
-# History
+ 

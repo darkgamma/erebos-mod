@@ -19,7 +19,7 @@ b_kaunas = city
 culture = lithuanian
 religion = baltic_pagan
 
-# History
+ 
 700.1.1 = {
 	b_kernave = ca_keep_1
 	b_kernave = ca_militia_barracks_1
@@ -29,4 +29,4 @@ religion = baltic_pagan
 }
 
 903.1.1 = { }
-# History
+ 

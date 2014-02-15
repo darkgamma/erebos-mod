@@ -18,7 +18,7 @@ b_benavente = temple
 culture = gothic
 religion = arian
 
-# History
+ 
 
 867.1.1 = { 
 	b_zamora = ca_town_1
@@ -30,4 +30,4 @@ religion = arian
 }
 
 903.1.1 = { }
-# History
+ 

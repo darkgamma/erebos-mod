@@ -21,4 +21,4 @@ b_umea = castle	#1314
 culture = lappish
 religion = finnish_pagan
 903.1.1 = { }
-# History
+ 

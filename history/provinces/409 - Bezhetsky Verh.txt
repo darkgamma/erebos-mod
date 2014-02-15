@@ -18,7 +18,7 @@ b_sonkovo = city
 culture = norse
 religion = norse_pagan
 
-# History
+ 
 867.1.1 = {
 	b_bezhetsk = ca_keep_1
 	b_bezhetsk = ca_wall_1
@@ -26,4 +26,4 @@ religion = norse_pagan
 }
 
 903.1.1 = { }
-# History
+ 

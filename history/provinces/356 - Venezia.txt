@@ -18,5 +18,5 @@ b_rialto = temple
 # Misc
 culture = italian
 religion = orthodox
-903.1.1 = { }
 # History
+903.1.1 = { }

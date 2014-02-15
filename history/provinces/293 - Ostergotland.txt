@@ -23,9 +23,9 @@ b_linkoping = temple	#Second Diocese in Sweden, next to Skara. Norse Pagan Holy 
 culture = norse
 religion = norse_pagan
 
-# History
+ 
 867.1.1 = {
 	b_nasborg = ca_keep_1
 }
 903.1.1 = { }
-# History
+ 

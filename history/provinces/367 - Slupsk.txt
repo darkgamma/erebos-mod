@@ -29,5 +29,5 @@ religion = slavic_pagan
 	b_slupsk = ct_barracks_1
 	b_colberg = tp_barracks_1
 }
-903.1.1 = { }
 # History
+903.1.1 = { }

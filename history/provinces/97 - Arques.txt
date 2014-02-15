@@ -13,7 +13,7 @@ b_fecamp = temple
 culture = frankish
 religion = johannist
 
-# History
+#  
 900.1.1 = {
 	remove_settlement = b_arques
 	remove_settlement = b_fecamp
@@ -48,4 +48,4 @@ religion = johannist
 
 
 903.1.1 = { }
-# History
+#  

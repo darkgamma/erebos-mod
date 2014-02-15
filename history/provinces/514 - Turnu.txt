@@ -20,9 +20,9 @@ b_dristra = city
 culture = avar
 religion = tengri_pagan
 
-# History
+ 
 892.1.1 = { culture = romanian }
 900.1.1 = { religion = orthodox }
 
 903.1.1 = { }
-# History
+ 

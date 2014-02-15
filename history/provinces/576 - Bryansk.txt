@@ -19,4 +19,3 @@ b_pochep = temple # Baltic pagan holy site
 culture = russian
 religion = slavic_pagan
 903.1.1 = { }
-# History

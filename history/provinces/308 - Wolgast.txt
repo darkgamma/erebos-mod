@@ -19,7 +19,7 @@ b_anklam = temple
 culture = lechitic
 religion = slavic_pagan
 
-# History
+ 
 700.1.1 = {
 	b_wolgast = ca_keep_1
 	b_wolgast = ca_militia_barracks_1
@@ -29,4 +29,4 @@ religion = slavic_pagan
 	b_anklam = tp_barracks_1
 }
 903.1.1 = { }
-# History
+ 

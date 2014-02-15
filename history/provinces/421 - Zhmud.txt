@@ -19,7 +19,7 @@ b_varviai = temple
 culture = lithuanian
 religion = baltic_pagan
 
-# History
+ 
 700.1.1 = {
 	b_jurbarkas = ca_keep_1
 	b_jurbarkas = ca_militia_barracks_1
@@ -30,4 +30,4 @@ religion = baltic_pagan
 }
 
 903.1.1 = { }
-# History
+ 

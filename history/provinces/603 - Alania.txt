@@ -19,5 +19,5 @@ b_zaur = castle
 culture = alan
 religion = ibadi
 
-# History
+
 903.1.1 = {}

@@ -20,4 +20,3 @@ b_illovlya = city
 culture = khazar
 religion = ibadi
 903.1.1 = { }
-# History

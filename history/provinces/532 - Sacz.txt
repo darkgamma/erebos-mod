@@ -20,4 +20,4 @@ b_gorlice = city
 culture = lechitic
 religion = slavic_pagan
 903.1.1 = { }
-# History
+ 

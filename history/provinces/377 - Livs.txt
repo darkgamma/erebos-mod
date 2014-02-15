@@ -28,5 +28,5 @@ religion = finnish_pagan
 	b_uxkull = ct_barracks_1
 	b_wenden = tp_barracks_1
 }
-903.1.1 = { }
 # History
+903.1.1 = { }
