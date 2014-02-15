@@ -18,6 +18,5 @@ b_oswiecim = temple
 # Misc
 culture = lechitic
 religion = slavic_pagan
-
+903.1.1 = { }
 # History
-990.1.1 = { religion = catholic }

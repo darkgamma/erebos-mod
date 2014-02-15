@@ -18,5 +18,5 @@ b_varzaresti = temple
 # Misc
 culture = russian
 religion = orthodox
-
+903.1.1 = { }
 # History

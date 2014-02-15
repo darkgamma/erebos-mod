@@ -19,7 +19,5 @@ b_starodub = castle
 culture = russian
 religion = slavic_pagan
 
+903.1.1 = { }
 # History
-988.1.1 = { religion = orthodox }
-1187.1.1 = { b_putivl = castle }
-1239.1.1 = { remove_settlement = b_putivl } #Mongol invasion

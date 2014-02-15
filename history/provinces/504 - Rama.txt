@@ -18,7 +18,5 @@ b_samobor = temple
 # Misc
 culture = southslavic
 religion = slavic_pagan
-
+903.1.1 = { }
 # History
-
-1232.1.1= { religion = bogomilist } 

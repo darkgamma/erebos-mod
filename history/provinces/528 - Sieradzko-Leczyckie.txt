@@ -18,7 +18,5 @@ b_radomsko = temple
 # Misc
 culture = lechitic
 religion = slavic_pagan
-
+903.1.1 = { }
 # History
-969.1.1 = { religion = catholic }
-1187.1.1 = { b_warta = castle }

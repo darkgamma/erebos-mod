@@ -18,8 +18,5 @@ b_tolga = temple
 culture = mordvin
 religion = finnish_pagan
 
+903.1.1 = { }
 # History
-988.1.1 = {
-	culture = russian
-	religion = orthodox
-}

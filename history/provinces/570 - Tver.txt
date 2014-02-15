@@ -17,12 +17,5 @@ b_torzhok = temple
 
 culture = russian
 religion = slavic_pagan
-
+903.1.1 = { }
 # History
-988.1.1 = {
-	culture = russian
-	religion = orthodox
-}
-
-1135.1.1 = { b_ostashkov = city }
-

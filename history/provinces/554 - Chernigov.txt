@@ -17,15 +17,5 @@ b_kozelets = temple
 # Misc
 culture = russian
 religion = slavic_pagan
-
+903.1.1 = { }
 # History
-988.1.1 = { 
-	religion = orthodox
-	b_borzna = castle
-}
-1050.1.1 = { 
-	religion = orthodox
-	b_horodnia = castle
-}
-1239.1.1 = { remove_settlement = b_nizhyn } #Mongol invasion
-1239.1.1 = { remove_settlement = b_horodnia }

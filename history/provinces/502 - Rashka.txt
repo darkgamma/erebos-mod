@@ -18,7 +18,5 @@ b_decani = temple
 # Misc
 culture = southslavic
 religion = slavic_pagan
-
+903.1.1 = { }
 # History
-
-1337.1.1 = { b_djakovica = castle } 

@@ -18,6 +18,5 @@ b_koprzywnica = temple
 # Misc
 culture = lechitic
 religion = slavic_pagan
-
+903.1.1 = { }
 # History
-999.7.1 = { religion = catholic }

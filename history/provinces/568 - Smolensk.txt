@@ -18,11 +18,5 @@ b_rodnya = city
 culture = russian
 religion = slavic_pagan
 
+903.1.1 = { }
 # History
-867.1.1 = {
-	b_smolensk = ca_keep_1
-	b_smolensk = ca_wall_1
-}
-988.1.1 = { religion = orthodox }
-
-1337.1.1 = { b_demidov = castle }
