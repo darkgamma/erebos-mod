@@ -19,6 +19,5 @@ b_shumen = temple
 culture = bulgarian
 religion = orthodox
 
+903.1.1 = { }
 # History
-
-1187.1.1 = { b_slivopole = castle } 

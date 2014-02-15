@@ -19,5 +19,5 @@ b_dukhov = temple
 culture = russian
 religion = slavic_pagan
 
+903.1.1 = { }
 # History
-988.1.1 = { religion = orthodox }

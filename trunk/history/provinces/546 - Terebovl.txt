@@ -18,7 +18,5 @@ b_pochayivlavra = temple
 # Misc
 culture = russian
 religion = norse_pagan
-
+903.1.1 = { }
 # History
-
-

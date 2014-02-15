@@ -18,3 +18,5 @@ b_dzhankoy = city
 # Misc
 culture = khazar
 religion = orthodox
+903.1.1 = { }
+# History

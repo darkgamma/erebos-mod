@@ -20,7 +20,5 @@ b_temnikow = city
 culture = mordvin
 religion = finnish_pagan
 
+903.1.1 = { }
 # History
-
-
-

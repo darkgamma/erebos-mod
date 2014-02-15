@@ -19,9 +19,5 @@ b_kula = city
 # Misc
 culture = southslavic
 religion = slavic_pagan
-
+903.1.1 = { }
 # History
-
-
-
- 

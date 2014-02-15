@@ -18,6 +18,5 @@ b_lutsk = temple
 # Misc
 culture = russian
 religion = slavic_pagan
-
+903.1.1 = { }
 # History
-

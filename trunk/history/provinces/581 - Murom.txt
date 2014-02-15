@@ -18,13 +18,5 @@ b_moramar = temple
 culture = mordvin
 religion = finnish_pagan
 
+903.1.1 = { }
 # History
-988.1.1 = {
-	culture = russian
-	religion = orthodox
-}
-1187.1.1 = { b_vyksa = castle }
-1187.1.1 = { b_kulebaki = city }
-1237.1.1 = { remove_settlement = b_vyksa } #Mongol invasion
-1237.1.1 = { remove_settlement = b_kulebaki }
-1237.1.1 = { remove_settlement = b_melenki }

@@ -24,3 +24,5 @@ religion = norse_pagan
 	b_kiev = ca_wall_1
 	b_iskorosten = ct_marketplace_1
 }
+903.1.1 = { }
+# History

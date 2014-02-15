@@ -19,8 +19,5 @@ b_curteadearges = temple
 # Misc
 culture = avar
 religion = tengri_pagan
-
+903.1.1 = { }
 # History
-892.1.1 = { culture = romanian }
-900.1.1 = { religion = orthodox }
-

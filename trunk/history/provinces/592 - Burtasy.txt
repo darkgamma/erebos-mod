@@ -19,13 +19,5 @@ b_mechetnaya = city
 culture = mordvin
 religion = finnish_pagan
 
+903.1.1 = { }
 # History
-1000.1.1 = {
-	b_atkarsk = castle 
-	b_pokrovsk = temple
-}
-
-#Mongol invasion
-1236.1.1 = { remove_settlement = b_atkarsk }
- 
-1337.1.1 = { b_balakova = castle }

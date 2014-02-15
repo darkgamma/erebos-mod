@@ -18,12 +18,5 @@ b_kashin = city
 culture = mordvin
 religion = finnish_pagan
 
+903.1.1 = { }
 # History
-988.1.1 = {
-	culture = russian
-	religion = orthodox
-}
-
-1000.1.1 = {
-	b_pertoma = temple
-}

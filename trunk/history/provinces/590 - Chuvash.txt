@@ -20,7 +20,5 @@ b_cheboksary = city
 culture = mordvin
 religion = finnish_pagan
 
+903.1.1 = { }
 # History
-1000.1.1 = { b_makaryevo = temple }
-
-

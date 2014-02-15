@@ -18,10 +18,5 @@ b_myrhorod = temple
 culture = russian
 religion = slavic_pagan
 
+903.1.1 = { }
 # History
-988.1.1 = {
-	religion = orthodox
-	b_chornukhy = castle
-}
-1239.1.1 = { remove_settlement = b_myrhorod } #Mongol invasion
-1239.1.1 = { remove_settlement = b_chornukhy }

@@ -18,6 +18,5 @@ b_pultusk = city
 # Misc
 culture = lechitic
 religion = slavic_pagan
-
+903.1.1 = { }
 # History
-987.1.1 = { religion = catholic }

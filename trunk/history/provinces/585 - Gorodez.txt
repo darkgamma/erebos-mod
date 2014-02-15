@@ -18,13 +18,5 @@ b_kitezh = city
 culture = mordvin
 religion = finnish_pagan
 
+903.1.1 = { }
 # History
-988.1.1 = {
-	culture = russian
-	religion = orthodox
-}
-
-1000.1.1 = { b_feodorovsky = temple }
-
-1152.1.1 = { b_puchishche = castle }
-1239.1.1 = { remove_settlement = b_puchishche } #Mongol invasion
