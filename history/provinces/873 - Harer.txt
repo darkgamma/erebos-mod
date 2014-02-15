@@ -22,6 +22,4 @@ religion = sunni
 
 # History
 
-1187.1.1 = { b_diridawa = castle } 
-
-
+903.1.1 = {}

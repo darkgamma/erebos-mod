@@ -19,3 +19,5 @@ b_mdina = city
 culture = greek
 religion = orthodox
 terrain = mountain
+
+903.1.1 = {}

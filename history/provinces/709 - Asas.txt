@@ -21,7 +21,4 @@ culture = levantine_arabic
 religion = orthodox
 
 # History
-
-1187.1.1 = { b_talabyad = castle } 
-
-1270.1.1 = { religion = sunni }
+903.1.1 = {}

@@ -17,9 +17,8 @@ b_zweitina = temple
 
 # Misc
 culture = levantine_arabic
-
 religion = sunni
 
 # History
 
-1187.1.1 = { b_alkhazandar = castle } 
+903.1.1 = {}

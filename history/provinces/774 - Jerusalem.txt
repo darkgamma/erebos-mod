@@ -36,3 +36,4 @@ religion = sunni
 	b_jerusalem = tp_barracks_1
 }
 
+903.1.1 = {}

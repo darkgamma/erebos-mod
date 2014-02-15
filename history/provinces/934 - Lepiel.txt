@@ -15,3 +15,5 @@ culture = lettigallish
 religion = baltic_pagan
 
 # History
+
+903.1.1 = {}

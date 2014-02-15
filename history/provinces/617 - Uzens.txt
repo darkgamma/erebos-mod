@@ -19,3 +19,5 @@ b_krykuru = temple
 # Misc
 culture = khazar
 religion = ibadi
+
+903.1.1 = {}

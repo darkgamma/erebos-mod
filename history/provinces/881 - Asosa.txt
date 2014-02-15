@@ -22,4 +22,4 @@ religion = miaphysite
 
 # History
 
-1187.1.1 = { b_mankush = castle } 
+903.1.1 = {}

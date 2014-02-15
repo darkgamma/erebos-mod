@@ -19,8 +19,4 @@ culture = armenian
 religion = miaphysite
 
 # History
-1097.8.26 = { 
-	religion = sunni
-	culture = kurdish 
-}
-1337.1.1 = { b_jermuk = castle }
+903.1.1 = {}

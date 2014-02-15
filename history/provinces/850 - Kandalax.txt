@@ -24,3 +24,5 @@ religion = finnish_pagan
 	b_kantalahti = ca_wall_1
 	b_kantalahti = ca_wall_q_1
 }
+
+903.1.1 = {}

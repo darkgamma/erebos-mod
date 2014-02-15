@@ -19,6 +19,4 @@ culture = levantine_arabic
 religion = miaphysite
 
 # History
-1098.1.1 = { culture = armenian }
-1170.1.1 = { culture = levantine_arabic
-	     religion = sunni }
+903.1.1 = {}

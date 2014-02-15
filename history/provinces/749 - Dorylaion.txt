@@ -22,6 +22,4 @@ religion = orthodox
 
 # History
 
-
-1328.1.1 = { culture = turkish }
-1328.1.1 = { religion = sunni }
+903.1.1 = {}

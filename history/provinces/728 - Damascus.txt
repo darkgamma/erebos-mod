@@ -43,4 +43,4 @@ religion = sunni
 	b_shahba = ca_militia_barracks_1
 }
 
-1187.1.1 = { b_alsanamayn = castle }
+903.1.1 = {}

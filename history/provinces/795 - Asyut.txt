@@ -21,4 +21,5 @@ culture = coptic
 religion = monophysite
 
 # History
-# 1171.1.1 = { religion = sunni }
+
+903.1.1 = {}

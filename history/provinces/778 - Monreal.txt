@@ -20,4 +20,5 @@ culture = levantine_arabic
 religion = sunni
 
 # History
-1187.1.1 = { b_hurmniz = city }
+
+903.1.1 = {}

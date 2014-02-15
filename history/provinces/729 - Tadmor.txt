@@ -21,4 +21,4 @@ religion = sunni
 
 # History
 
-1187.1.1 = { b_salhiyah = castle }
+903.1.1 = {}

@@ -18,3 +18,5 @@ b_evaz = temple
 # Misc
 culture = persian
 religion = zoroastrian
+
+903.1.1 = {}

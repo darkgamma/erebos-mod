@@ -31,3 +31,5 @@ religion = zoroastrian
 	b_khourabad = ca_wall_1
 	b_khourabad = ca_wall_2
 }
+
+903.1.1 = {}

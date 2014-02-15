@@ -22,7 +22,4 @@ religion = orthodox
 
 # History
 
-1091.8.26 = { culture = turkish }
-1091.8.26 = { religion = sunni }
-
-1091.8.26 = { b_terpe = castle }
+903.1.1 = {}

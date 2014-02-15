@@ -48,3 +48,4 @@ religion = zoroastrian
 	b_estakhr = tp_wall_1
 	b_estakhr = tp_barracks_1
 }
+903.1.1 = {}

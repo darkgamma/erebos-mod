@@ -20,4 +20,5 @@ culture = levantine_arabic
 religion = sunni
 
 # History
-1192.1.1 = { remove_settlement = b_qastal }
+
+903.1.1 = {}

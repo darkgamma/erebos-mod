@@ -21,7 +21,4 @@ religion = tengri_pagan
 
 # History
 
-1060.1.1 = { culture = turkish }
-
-1218.1.1 = { culture = mongol } 
-
+903.1.1 = {}
