@@ -32,3 +32,5 @@ religion = catholic
 	b_infa = ca_wall_1
 	b_infa = ca_wall_2
 }
+
+903.1.1 = {}

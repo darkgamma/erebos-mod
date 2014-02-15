@@ -21,3 +21,4 @@ b_kamyshin = temple
 culture = khazar
 religion = ibadi
 
+903.1.1 = {}

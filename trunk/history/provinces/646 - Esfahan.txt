@@ -36,3 +36,4 @@ religion = zoroastrian
 	b_kashan = tp_wall_1
 	b_kashan = tp_barracks_1
 }
+903.1.1 = {}

@@ -30,3 +30,5 @@ religion = zoroastrian
 	b_hamadan = ca_wall_1
 	b_hamadan = ca_wall_2
 }
+
+903.1.1 = {}

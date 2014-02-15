@@ -20,8 +20,4 @@ culture = levantine_arabic
 religion = orthodox
 
 # History
-
-1164.1.1 = { 
-	culture = kurdish 
-	religion = sunni
-}
+903.1.1 = {}

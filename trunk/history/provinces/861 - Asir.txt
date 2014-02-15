@@ -19,3 +19,5 @@ b_bahah = city
 # Misc
 culture = bedouin_arabic
 religion = ibadi
+
+903.1.1 = {}

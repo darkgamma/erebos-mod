@@ -15,4 +15,5 @@ culture = russian
 religion = slavic_pagan
 
 # History
-988.1.1 = { religion = orthodox }
+
+903.1.1 = {}

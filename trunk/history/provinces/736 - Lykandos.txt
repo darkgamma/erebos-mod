@@ -22,16 +22,4 @@ religion = iconoclast
 
 # History
 
-
-930.1.1 = {
-	religion = orthodox
-}
-
-1000.1.1 = {
-	culture = armenian
-	religion = miaphysite
-}
-
-1177.1.1 = { culture = turkish }
-1177.1.1 = { religion = sunni }
-1187.1.1 = { b_germanikeia = city }
+903.1.1 = {}

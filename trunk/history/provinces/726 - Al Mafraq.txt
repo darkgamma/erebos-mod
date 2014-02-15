@@ -21,5 +21,4 @@ religion = sunni
 
 # History
 
-
-1110.1.1 = { b_buwayda = castle }
+903.1.1 = {}

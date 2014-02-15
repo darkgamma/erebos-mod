@@ -19,3 +19,5 @@ b_alhasun = temple
 # Misc
 culture = maghreb_arabic
 religion = sabellian
+
+903.1.1 = {}

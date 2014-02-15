@@ -19,3 +19,5 @@ b_altamimi = castle
 # Misc
 culture = maghreb_arabic
 religion = monophysite
+
+903.1.1 = {}

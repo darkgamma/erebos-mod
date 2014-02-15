@@ -22,4 +22,4 @@ religion = miaphysite
 
 # History
 
-1187.1.1 = { b_hayq = temple } 
+903.1.1 = {}

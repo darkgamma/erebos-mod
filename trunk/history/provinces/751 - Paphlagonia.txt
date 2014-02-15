@@ -22,15 +22,4 @@ religion = orthodox
 
 # History
 
-
-# The Seljuks take over Anatolia
-
-1097.8.26 = { culture = turkish }
-1097.8.26 = { religion = sunni }
-
-
-1187.1.1 = { b_safranbolu = castle } 
-
-
-
-
+903.1.1 = {}

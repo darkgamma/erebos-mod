@@ -20,5 +20,4 @@ culture = levantine_arabic
 religion = sunni
 
 # History
-
-1016.1.1 = { religion = druze }
+903.1.1 = {}

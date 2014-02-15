@@ -21,6 +21,5 @@ culture = vandal
 religion = sabellian
 
 # History
-1112.1.1 = { trade_post = b_caetani }
-1285.1.1  = { trade_post = b_fieschi }
 
+903.1.1 = {}

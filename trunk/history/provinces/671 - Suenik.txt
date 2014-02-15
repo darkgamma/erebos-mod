@@ -19,8 +19,4 @@ culture = armenian
 religion = miaphysite
 
 # History
-
-1320.1.1 = { 
-	culture = kurdish 
-	religion = sunni 
-}
+903.1.1 = {}
