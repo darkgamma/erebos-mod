@@ -20,12 +20,5 @@ b_carpentras = city
 # Misc
 culture = burgundian
 religion = arian
-
+903.1.1 = { }
 # History
-
-1274.1.1 = { capital = b_avignon } 
-
-1274.1.1 = { b_stpaul = temple } 
-
-1318.1.1 = { b_chateauneufdupape = castle } 
-

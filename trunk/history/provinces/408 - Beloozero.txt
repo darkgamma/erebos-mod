@@ -19,4 +19,6 @@ b_belozersk = castle
 culture = norse
 religion = norse_pagan
 
+
+903.1.1 = { }
 # History

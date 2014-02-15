@@ -18,3 +18,6 @@ b_tikhvin = temple # Slavic and Finnish Holy Site
 # Misc
 culture = norse
 religion = norse_pagan
+
+903.1.1 = { }
+# History

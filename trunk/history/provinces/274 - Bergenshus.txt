@@ -22,8 +22,5 @@ religion = norse_pagan
 867.1.1 = {
 	b_bergen = ct_port_1
 }
-1066.1.1 = {
-	culture = norwegian
-	religion = catholic
-}
-1290.1.1 = { trade_post = b_warendorp }
+903.1.1 = { }
+# History

@@ -18,9 +18,5 @@ b_pesaro = temple
 # Misc
 culture = italian
 religion = catholic
-
+903.1.1 = { }
 # History
-1066.1.1 = { capital = b_ancona }
-1139.1.1 = { trade_post = b_contarini }
-1137.1.1 = { capital = b_rimini }
-1149.1.1 = { capital = b_ancona }

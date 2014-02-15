@@ -18,5 +18,5 @@ b_ellwangen = temple
 # Misc
 culture = bavarian
 religion = contgermanic
-
+903.1.1 = { }
 # History

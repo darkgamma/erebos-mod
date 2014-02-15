@@ -17,3 +17,5 @@ b_lodi = castle
 # Misc
 culture = langobard
 religion = orthodox
+903.1.1 = { }
+# History

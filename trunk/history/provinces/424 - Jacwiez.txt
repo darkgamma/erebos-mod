@@ -19,5 +19,5 @@ b_novogrudok = temple
 culture = lithuanian
 religion = baltic_pagan
 
+903.1.1 = { }
 # History
-1223.1.1 = { b_niasvizh = castle }

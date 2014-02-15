@@ -21,9 +21,13 @@ b_coulogne = temple
 culture = dutch
 religion = johannist
 
-# History
+
+
 
 900.1.1 = {
 	b_guines = ca_shipyard_1
 	b_guines = ca_shipyard_2
 }
+
+903.1.1 = { }
+# History

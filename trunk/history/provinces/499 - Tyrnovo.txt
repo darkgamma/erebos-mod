@@ -20,6 +20,5 @@ b_kilifarevski = temple
 culture = bulgarian
 religion = orthodox
 
+903.1.1 = { }
 # History
-
- 

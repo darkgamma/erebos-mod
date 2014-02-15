@@ -19,3 +19,7 @@ b_valenciennes = city
 # Misc
 culture = frankish
 religion = johannist
+
+
+903.1.1 = { }
+# History

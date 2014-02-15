@@ -19,7 +19,8 @@ culture = norse
 religion = norse_pagan
 terrain = hills
 
-# History
+
+
 
 900.1.1 = {
     b_rushen = ca_keep_1
@@ -27,3 +28,6 @@ terrain = hills
 	b_rushen = ca_shipyard_1
 	b_rushen = ca_shipyard_2
 }
+
+903.1.1 = { }
+# History

@@ -21,7 +21,5 @@ b_grenoble = city
 # Misc
 culture = burgundian
 religion = arian
-
+903.1.1 = { }
 # History
-1297.1.1 = { b_stantoine = temple }
-

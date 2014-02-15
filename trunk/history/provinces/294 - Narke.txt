@@ -20,9 +20,5 @@ b_orebro = city
 culture = norse
 religion = norse_pagan
 
+903.1.1 = { }
 # History
-1066.1.1 = {
-	culture = swedish
-	religion = catholic
-}
-#1260.1.1 = { b_orebro = castle } # Örebro slott

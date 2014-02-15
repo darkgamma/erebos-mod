@@ -17,8 +17,5 @@ b_assisi = temple
 # Misc
 culture = italian
 religion = catholic
-
+903.1.1 = { }
 # History
-1198.1.8 = { capital = b_assisi }
-1205.1.1 = { capital = b_spoleto }
-1276.1.1 = { capital = b_assisi }

@@ -19,13 +19,5 @@ b_vaxjo = city
 culture = norse
 religion = norse_pagan
 
+903.1.1 = { }
 # History
-1066.1.1 = {
-	culture = swedish
-}
-1123.1.1 = {
-	religion = catholic # Around the time of the "crusade" against Småland
-}
-1170.1.1 = {
-	b_vaxjo = temple
-}

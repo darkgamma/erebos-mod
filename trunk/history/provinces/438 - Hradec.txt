@@ -19,4 +19,5 @@ b_chrudim = city
 culture = bohemian
 religion = rapturist
 
+903.1.1 = { }
 # History

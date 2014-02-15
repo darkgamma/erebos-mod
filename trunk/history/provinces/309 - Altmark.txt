@@ -19,8 +19,5 @@ b_walbeck = city
 # Misc
 culture = lechitic
 religion = slavic_pagan
-
+903.1.1 = { }
 # History
-1125.1.1 = { religion = catholic }
-1125.1.1 = { culture = german } 
-1181.1.1 = { b_salzwedel = castle }

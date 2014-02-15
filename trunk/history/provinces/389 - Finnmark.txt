@@ -18,9 +18,5 @@ b_varghoeya = castle
 culture = lappish
 religion = finnish_pagan
 
+903.1.1 = { }
 # History
-1066.1.1 = {
-	culture = norwegian 
-	religion = norse_pagan
-}
-1080.1.1 = { religion = catholic }

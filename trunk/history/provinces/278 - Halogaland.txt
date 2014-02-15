@@ -17,7 +17,5 @@ b_veiga = city
 # Misc
 culture = norse
 religion = norse_pagan
-
+903.1.1 = { }
 # History
-1066.1.1 = { culture = norwegian }
-1080.1.1 = { religion = catholic }

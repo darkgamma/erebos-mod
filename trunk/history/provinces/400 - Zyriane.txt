@@ -19,9 +19,5 @@ b_kungur = castle
 # Misc
 culture = samoyed
 religion = finnish_pagan
-
-# History
-
-1337.1.1 = { b_kukushtan = castle}  
-
+903.1.1 = { }
 # History

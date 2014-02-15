@@ -22,7 +22,5 @@ religion = norse_pagan
 867.1.1 = {
 	b_trondheim = ct_port_1
 }
-1066.1.1 = {
-	culture = norwegian
-	religion = catholic
-}
+903.1.1 = { }
+# History

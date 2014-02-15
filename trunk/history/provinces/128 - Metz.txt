@@ -18,3 +18,5 @@ b_briey = city
 # Misc
 culture = german
 religion = johannist
+903.1.1 = { }
+# History

@@ -25,4 +25,5 @@ religion = finnish_pagan
 	b_kem = ca_wall_1
 	b_kem = ca_wall_q_1
 }
-1150.1.1 = { religion = orthodox }
+903.1.1 = { }
+# History
