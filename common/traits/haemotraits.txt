@@ -16,15 +16,15 @@
 ## Warning: I suggest that you don't remove any of the blood traits as they're vital to the mod and might cause crashes or severely reduced playability.
 ## I sincerely hope you don't tamper with the potential tags as that might cause random magic and evil beings popping up where they don't belong at all.
 
-##############
-#### NOTE ####
+####################
+#### 	NOTE 	####
 
 ## All of these traits are open for use in the Ruler Designer. There are no limitations against them in the Ruler Designer, except that you can use only one.
 ## Halfling, Nightspawn and Primodial traits are locked out of the Ruler Designer. You can't use them in designed characters, and it is extremely rare to actually get to play one of these.
 ## The best "Red+Coloured" pairing is "Red Father + Violet Mother".
 
-#### NOTE ###
-#############
+####	 NOTE 	####
+####################
 
 
 ##########################
