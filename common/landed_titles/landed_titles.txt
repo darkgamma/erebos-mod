@@ -2029,28 +2029,7 @@ e_hispania = {
 				b_verdu = {
 				}
 			}
-			c_tarragona = {
-				color = { 255 252 24 }
-				color2={ 255 255 255 }
-				
-				
-				b_tarragona = {
-				}
-				b_spantortosa = {
-				}
-				b_cambrils = {
-				}
-				b_reus = {
-				}
-				b_montblanc = {
-				}
-				b_vendrell = {
-				}
-				b_amposta = {
-				}
-				b_sancugat = {
-				}
-			}
+			
 		}
 		d_aragon = {
 			color = { 166 68 72 }
@@ -2506,27 +2485,7 @@ e_hispania = {
 				}
 			}
 			
-			c_castellon = {
-				color = { 255 242 2 }
-				color2={ 255 255 255 }
-				
-				b_castellon = {
-				}
-				b_alpuente = {
-				}
-				b_nules = {
-				}
-				b_vinaros = {
-				}
-				b_morella = {
-				}
-				b_vilarreal = {
-				}
-				b_burriana = {
-				}
-				b_alcalaten = {
-				}
-			}
+			
 			c_valencia = {
 				color = { 255 244 4 }
 				color2={ 255 255 255 }
@@ -5296,27 +5255,7 @@ e_gaul = {
 			
 			culture = occitan
 			
-			c_bourbon = {
-				color={ 28 147 230 }
-				color2={ 255 255 255 }
-				
-				b_bourbon = {
-				}
-				b_moulins = {
-				}
-				b_lancy = {
-				}
-				b_montlucon = {
-				}
-				b_vichy = {
-				}
-				b_murat = {
-				}
-				b_souvigny = {
-				}
-				b_montpensier = {
-				}
-			}
+			
 			
 			c_auvergne = {
 				color={ 26 173 228 }
@@ -9176,27 +9115,7 @@ e_byzantine = {
 			
 			capital = 764 # Antioch
 			
-			c_aintab = {
-				color={ 157 255 9 }
-				color2={ 255 255 255 }
-				
-				b_aintab = {
-				}
-				b_marash = {
-				}
-				b_kyrrhos = {
-				}
-				b_ravendan = {
-				}
-				b_duluk = {
-				}
-				b_hromgla = {
-				}
-				b_raban = {
-				}
-				b_amanus = {
-				}
-			}		
+			
 			c_antiocheia = {
 				color={ 152 69 135 }
 				color2={ 255 255 255 }
@@ -10918,27 +10837,7 @@ e_byzantine = {
 			
 			capital = 417 # Vitebsk
 			
-			c_minsk = {
-				color={ 174 43 43 }
-				color2={ 255 255 255 } 
-				
-				b_minsk = {
-				}
-				b_maladzyechna = {
-				}
-				b_borisow = {
-				}
-				b_kletsk = {
-				}
-				b_berezino = {
-				}
-				b_nesvizh = {
-				}
-				b_valozhyn = {
-				}
-				b_kapyl = {
-				}
-			}
+			
 			c_velikiye_luki = {
 				color={ 154 170 110 }
 				color2={ 255 255 255 }
@@ -15760,27 +15659,7 @@ e_mauretania = {
 				b_gdyel = {
 				}
 			}
-			c_hanyan = {
-				color={ 47 194 81 }
-				color2={ 255 255 255 }
 			
-				b_hanyan = {
-				}
-				b_naama = {
-				}
-				b_saida = {
-				}
-				b_alkasdir = {
-				}
-				b_alancha = {
-				}
-				b_magoura = {
-				}
-				b_raselma = {
-				}
-				b_bougtob = {
-				}
-			}
 			c_snassen = {
 				color={ 36 248 71 }
 				color2={ 255 255 255 }
@@ -16303,27 +16182,7 @@ e_mauretania = {
 				b_boudnib = {
 				}
 			}
-			c_snassen = {
-				color={ 36 248 71 }
-				color2={ 255 255 255 }
 			
-				b_oujda = {
-				}
-				b_jerada = {
-				}
-				b_saldia = {
-				}
-				b_ainbenimathar = {
-				}
-				b_debdou = {
-				}
-				b_tendrara = {
-				}
-				b_berkane = {
-				}
-				b_ahfir = {
-				}
-			}
 		}
 	}
 }
@@ -16771,50 +16630,8 @@ e_africa = {
 				b_jebeladda = {
 				}
 			}
-			c_quena = {
-				color={ 32 244 127 }
-				color2={ 255 255 255 }
 			
-				b_quena = {
-				}
-				b_kosseir = {
-				}
-				b_qus = {
-				}
-				b_abughusun = {
-				}
-				b_safaga = {
-				}
-				b_marsaalam = {
-				}
-				b_troglodytica = {
-				}
-				b_ummrus = {
-				}
-			}
-			c_asyut = {
-				color={ 36 248 131 }
-				color2={ 255 255 255 }
 			
-				b_asyut = {
-				}
-				b_kusai = {
-				}
-				b_durunka = {
-				}
-				b_egypthebes = {
-				}
-				b_egypabydos = {
-				}
-				b_wannina = {
-				}
-				b_beitkhallaf = {
-				}
-				b_luxor = {
-				}
-				b_meir = {
-				}
-			}
 		}
 	}
 	
@@ -21342,27 +21159,7 @@ e_pars = {
 			swedish = "Suðreyjar"
 			norse = "Suðreyjar"
 			
-			c_galloway = {
-				color={ 15 185 243 }
-				color2={ 255 255 255 }
-				
-				b_dumfries = {
-				}
-				b_dunragit = {
-				}
-				b_whithorn = {
-				}
-				b_dunrod = {
-				}
-				b_kirkcudbright = {
-				}
-				b_glenluce = {
-				}
-				b_wigtown = {
-				}
-				b_threave = {
-				}
-			}
+			
 			c_argyll = {
 				color={ 15 150 240 }
 				color2={ 255 255 255 }
@@ -21384,27 +21181,7 @@ e_pars = {
 				b_inverary = {
 				}
 			}
-			c_carrick = {
-				color={ 50 185 243 }
-				color2={ 255 255 255 }
-				
-				b_turnberry = {
-				}
-				b_dunure = {
-				}
-				b_maybole = {
-				}
-				b_crossraguel = {
-				}
-				b_loch_doon = {
-				}
-				b_ballantrae = {
-				}
-				b_culzean = {
-				}
-				b_greenan = {
-				}
-			}
+			
 			c_isle_of_man = {
 				color={ 25 65 243 }
 				color2={ 255 255 255 }
@@ -22524,7 +22301,7 @@ e_pars = {
 			}			
 			c_winchester = {
 				color={ 241 20 65 }
-				color2={ 255 255 255 
+				color2={ 255 255 255 }
 				
 				b_southampton = {
 				}
