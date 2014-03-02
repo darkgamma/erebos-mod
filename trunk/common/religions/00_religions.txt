@@ -117,7 +117,7 @@ immaculist = {
 			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
 		}
 		
-		investiture = yes
+		# investiture = yes
 		autocephaly = no
 		can_excommunicate = yes
 		can_grant_divorce = yes
