@@ -17,7 +17,7 @@ b_amphissa = temple
 #b_itea = castle #Itéa
 
 # Misc
-culture = greek
+culture = ionian
 religion = orthodox
 terrain = hills
 

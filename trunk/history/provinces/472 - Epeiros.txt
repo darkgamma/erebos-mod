@@ -17,7 +17,7 @@ b_paramythia = temple
 #b_sagiada = castle
 
 # Misc
-culture = greek
+culture = dorian
 religion = orthodox
 
 903.1.1 = { }

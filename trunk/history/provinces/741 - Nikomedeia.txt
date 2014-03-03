@@ -17,7 +17,7 @@ b_chalkedon = temple
 b_malagina = city
 
 # Misc
-culture = greek
+culture = aeolian
 religion = orthodox
 
 # History

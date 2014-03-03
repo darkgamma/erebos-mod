@@ -15,7 +15,7 @@ b_perre = temple
 #b_hajin = castle
 
 # Misc
-culture = greek
+culture = aeolian
 religion = orthodox
 
 # History

@@ -5,7 +5,7 @@
 	add_trait = shy
 	add_trait = homosexual
 	
-	culture = greek
+	culture = dorian
 	religion = orthodox
 	
 	874.1.1 = { birth = 874.1.1 }
@@ -25,7 +25,7 @@
 	name = "Iorgos"
 	dynasty = 9000003 # Papadopoulos
 	
-	culture = greek
+	culture = ionian
 	religion = orthodox
 	
 	868.1.1 = { birth = 868.1.1 }
@@ -41,7 +41,7 @@
 	
 	add_trait = hsb_lime
 	
-	culture = greek
+	culture = dorian
 	religion = hellenic_pagan
 	
 	849.1.1 = { birth = 849.1.1 }
@@ -54,7 +54,7 @@
 	add_trait = chaste
 	add_trait = brave
 	
-	culture = greek
+	culture = dorian
 	religion = orthodox
 	
 	864.1.1 = { birth = 864.1.1 }
@@ -73,7 +73,7 @@
 	
 	add_trait = hsb_lime
 
-	culture = greek
+	culture = aeolian
 	religion = orthodox
 	
 	father = 9000007 # Damianos Dallasenos
@@ -90,7 +90,7 @@
 	
 	add_trait = hsb_red
 	
-	culture = greek
+	culture = aeolian
 	religion = orthodox
 	
 	add_spouse = 9000008 # Maria Psarou
@@ -106,7 +106,7 @@
 	add_trait = fair
 	add_trait = hsb_indigo
 	
-	culture = greek
+	culture = ionian
 	religion = orthodox
 	
 	female = yes
@@ -122,7 +122,7 @@
 	add_trait = ambitious
 	add_trait = paranoid
 	
-	culture = greek
+	culture = aeolian
 	religion = orthodox
 	
 	867.1.1 = { birth = 867.1.1 }
@@ -165,7 +165,7 @@
 	name = "Markos"
 	dynasty = 9000012 # Dranias
 	
-	culture = greek
+	culture = dorian
 	religion = orthodox
 	
 	878.1.1 = { birth = 878.1.1 }

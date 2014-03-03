@@ -15,7 +15,7 @@ b_castabala = temple
 b_lampron = castle
 
 # Misc
-culture = greek
+culture = aeolian
 religion = orthodox
 
 # History

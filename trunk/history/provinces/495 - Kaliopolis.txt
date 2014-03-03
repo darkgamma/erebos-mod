@@ -16,7 +16,7 @@ b_madyta = city
 #b_sestus = castle
 
 # Misc
-culture = greek
+culture = aeolian
 religion = orthodox
 
 

@@ -17,7 +17,7 @@ b_archelais = temple
 #b_faustinopolis = castle
 
 # Misc
-culture = greek
+culture = aeolian
 religion = orthodox
 
 # History

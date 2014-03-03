@@ -16,7 +16,7 @@ b_agiosnikolaos = temple
 #b_knossos = castle
 
 # Misc
-culture = greek
+culture = dorian
 religion = orthodox
 terrain = mountain
 

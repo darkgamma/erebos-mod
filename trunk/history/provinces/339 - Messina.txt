@@ -16,7 +16,7 @@ b_lipari = temple
 #b_torregrota = castle
 
 # Misc
-culture = greek
+culture = ionian
 religion = orthodox
 terrain = hills
 

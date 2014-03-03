@@ -16,7 +16,7 @@ b_mottola = temple
 #b_gravina = city
 
 # Misc
-culture = greek
+culture = ionian
 religion = orthodox
 terrain = hills
 # History

@@ -16,7 +16,7 @@ b_kimmerikon = temple
 #b_lusta = castle
 
 # Misc
-culture = greek
+culture = ionian
 religion = orthodox
 
 903.1.1 = { }

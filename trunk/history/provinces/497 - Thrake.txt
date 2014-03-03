@@ -16,7 +16,7 @@ b_phinopolis = city
 #b_aulaeitichus = castle
 
 # Misc
-culture = greek
+culture = aeolian
 religion = orthodox
 
 

@@ -16,7 +16,7 @@ b_otranto = temple
 #b_oria = city
 
 # Misc
-culture = greek
+culture = ionian
 religion = orthodox
 terrain = hills
 # History

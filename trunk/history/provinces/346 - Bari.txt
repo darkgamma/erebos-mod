@@ -16,7 +16,7 @@ b_giovinazzo = temple
 #b_ruvo = castle
 
 # Misc
-culture = greek
+culture = ionian
 religion = orthodox
 # History
 903.1.1 = { }

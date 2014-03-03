@@ -17,7 +17,7 @@ b_rhoas = temple
 #b_kona = castle
 
 # Misc
-culture = greek
+culture = ionian
 religion = orthodox
 
 # History

@@ -17,7 +17,7 @@ b_klazomeanai = city
 #b_chio = castle
 
 # Misc
-culture = greek
+culture = aeolian
 religion = orthodox
 terrain = hills
 

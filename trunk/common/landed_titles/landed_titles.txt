@@ -9003,27 +9003,6 @@ e_byzantine = {
 				b_filoti = {
 				}
 			}
-			c_demetrias = {
-				color={ 209 69 161 }
-				color2={ 255 255 20 }
-				
-				b_thebes = {
-				}
-				b_lebadea = {
-				}
-				b_neopatras = {
-				}
-				b_boudonitza = {
-				}
-				b_levadhia = {
-				}
-				b_demetrias = {
-				}
-				b_ravennika = {
-				}
-				b_gravia = {
-				}
-			}
 			c_hellas = {
 				color={ 212 72 164 }
 				color2={ 255 255 20 }
@@ -9123,6 +9102,27 @@ e_byzantine = {
 				b_melnik = {
 				}
 				b_drama = {
+				}
+			}
+			c_ochrid = {
+				color={ 141 31 103 }
+				color2={ 255 255 20 }
+				
+				b_debar = {
+				}
+				b_ohrid = {
+				}
+				b_kastoria = {
+				}
+				b_kicevo = {
+				}
+				b_svetigrad = {
+				}
+				b_bitola = {
+				}
+				b_tomot = {
+				}
+				b_krusevo = {
 				}
 			}
 			c_thessalonike = {
@@ -9239,25 +9239,25 @@ e_byzantine = {
 				b_rogoi = {
 				}
 			}
-			c_ochrid = {
-				color={ 141 31 103 }
+			c_demetrias = {
+				color={ 209 69 161 }
 				color2={ 255 255 20 }
 				
-				b_debar = {
+				b_thebes = {
 				}
-				b_ohrid = {
+				b_lebadea = {
 				}
-				b_kastoria = {
+				b_neopatras = {
 				}
-				b_kicevo = {
+				b_boudonitza = {
 				}
-				b_svetigrad = {
+				b_levadhia = {
 				}
-				b_bitola = {
+				b_demetrias = {
 				}
-				b_tomot = {
+				b_ravennika = {
 				}
-				b_krusevo = {
+				b_gravia = {
 				}
 			}
 			c_dyrrachion = {

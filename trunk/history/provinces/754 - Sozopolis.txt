@@ -17,7 +17,7 @@ b_aezani = city
 #b_isparta = castle
 
 # Misc
-culture = greek
+culture = dorian
 religion = orthodox
 
 # History

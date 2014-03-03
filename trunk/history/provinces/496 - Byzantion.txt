@@ -16,7 +16,7 @@ b_pempton = city
 #b_vlanga = castle
 
 # Misc
-culture = greek
+culture = aeolian
 religion = orthodox
 
  

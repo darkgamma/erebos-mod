@@ -15,7 +15,7 @@ b_karystos = city
 #b_oreoi = castle
 
 # Misc
-culture = greek
+culture = ionian
 religion = hellenic_pagan
 terrain = hills
 
