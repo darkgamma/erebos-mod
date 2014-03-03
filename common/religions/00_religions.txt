@@ -111,7 +111,7 @@ immaculist = {
 		
 		color = { 0.8 0.8 0.6 }
 		
-		crusade_name = "CRUSADE"
+		crusade_name = CRUSADE
 		scripture_name = THE_BIBLE
 		god_names = {
 			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
@@ -159,7 +159,7 @@ immaculist = {
 		
 		color = { 0.7 0 0.5 }
 		
-		crusade_name = "CRUSADE"
+		crusade_name = CRUSADE
 		scripture_name = THE_BIBLE
 		
 		god_names = {
@@ -243,7 +243,7 @@ immaculist = {
 		
 		color = { 0.7 0.7 0.1 }
 		
-		crusade_name = "CRUSADE"
+		crusade_name = CRUSADE
 		scripture_name = THE_BIBLE
 		
 		god_names = {
@@ -357,7 +357,7 @@ muslim = {
 		
 		color = { 0 0.6 0 }
 		
-		crusade_name = "JIHAD"
+		crusade_name = JIHAD
 		scripture_name = THE_KORAN
 		god_names = {
 			GOD_ALLAH GOD_THE_GREATEST
@@ -369,27 +369,7 @@ muslim = {
 		can_hold_temples = yes
 		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
 		max_wives = 4
-	}
-	shiite = {
-		graphical_culture = muslimgfx
-
-		icon = 3
-		heresy_icon = 8
-		
-		color = { 0 0.6 0 }
-		
-		crusade_name = "JIHAD"
-		scripture_name = THE_KORAN
-		god_names = {
-			GOD_ALLAH GOD_THE_GREATEST
-		}
-		
-		can_grant_claim = yes
-		can_call_crusade = yes
-		priests_can_marry = yes
-		can_hold_temples = yes
-		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
-		max_wives = 4
+		matrilineal_marriages = no
 	}
 	zikri = {
 		graphical_culture = muslimgfx
@@ -403,6 +383,7 @@ muslim = {
 		can_hold_temples = yes
 		psc_marriage = no
 		max_wives = 4
+		matrilineal_marriages = no
 	}
 	yazidi = {
 		graphical_culture = muslimgfx
@@ -416,6 +397,7 @@ muslim = {
 		can_hold_temples = yes
 		psc_marriage = no
 		max_wives = 4
+		matrilineal_marriages = no
 	}
 	ibadi = {
 		graphical_culture = muslimgfx
@@ -429,6 +411,7 @@ muslim = {
 		can_hold_temples = yes
 		psc_marriage = no
 		max_wives = 4
+		matrilineal_marriages = no
 	}
 }
 
