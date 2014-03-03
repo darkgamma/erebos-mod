@@ -145,7 +145,7 @@
 	name = "Konstantinos"
 	dynasty = 9000010 # Stephanopoulos
 	
-	culture = greek
+	culture = aeolian
 	religion = orthodox
 	
 	872.1.1 = { birth = 872.1.1 }

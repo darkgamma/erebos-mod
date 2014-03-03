@@ -7,7 +7,7 @@ title = c_hamburg
 max_settlements = 6
 b_hamburg = castle
 b_altona = city
-b_dithmarschen = castle
+b_dithmarschen = temple
 
 #b_brunsbuttel = castle
 #b_buxtehude = castle
