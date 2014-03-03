@@ -17,7 +17,7 @@ b_portella = city
 #b_larochederissole = castle
 
 # Misc
-culture = greek
+culture = aeolian
 religion = orthodox
 terrain = mountain
 

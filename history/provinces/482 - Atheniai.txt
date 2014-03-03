@@ -17,7 +17,7 @@ b_piraeaus = temple # Orthodox Holy Site
 #b_marathon = castle
 
 # Misc
-culture = greek
+culture = ionian
 religion = orthodox
 
 903.1.1 = { }

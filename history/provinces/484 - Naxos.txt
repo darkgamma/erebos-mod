@@ -17,7 +17,7 @@ b_santorini = city
 #b_filoti = castle
 
 # Misc
-culture = greek
+culture = dorian
 religion = hellenic_pagan
 terrain = mountain
 

@@ -16,7 +16,7 @@ b_mdina = city
 #b_sangjilan = castle
 
 # Misc
-culture = greek
+culture = ionian
 religion = orthodox
 terrain = mountain
 

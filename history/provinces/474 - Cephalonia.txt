@@ -17,7 +17,7 @@ b_corfu = city
 #b_cerigo = castle
 
 # Misc
-culture = greek
+culture = dorian
 religion = orthodox
 terrain = mountain
 

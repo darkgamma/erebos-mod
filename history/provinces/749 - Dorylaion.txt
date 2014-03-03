@@ -17,7 +17,7 @@ b_kotiaion = temple
 #b_germia = castle
 
 # Misc
-culture = greek
+culture = dorian
 religion = orthodox
 
 # History

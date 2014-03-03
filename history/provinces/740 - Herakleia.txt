@@ -17,7 +17,7 @@ b_claudiopolis = temple
 #b_tium = castle
 
 # Misc
-culture = greek
+culture = ionian
 religion = orthodox
 
 # History

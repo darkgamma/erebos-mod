@@ -16,7 +16,7 @@ b_militopolis = temple
 #b_arisbe = castle
 
 # Misc
-culture = greek
+culture = aeolian
 religion = orthodox
 terrain = hills
 

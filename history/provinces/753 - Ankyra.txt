@@ -17,7 +17,7 @@ b_akroynon = temple
 #b_haymana = castle
 
 # Misc
-culture = greek
+culture = ionian
 religion = orthodox
 
 # History

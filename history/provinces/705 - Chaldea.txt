@@ -15,7 +15,7 @@ b_camachus = temple
 #b_sebastea = city
 
 # Misc
-culture = greek
+culture = ionian
 religion = orthodox
 
 # History

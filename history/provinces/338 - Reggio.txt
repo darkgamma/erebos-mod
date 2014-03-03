@@ -16,7 +16,7 @@ b_mileto = temple
 #b_squillace = castle
 
 # Misc
-culture = greek
+culture = ionian
 religion = orthodox
 terrain = hills
 # History

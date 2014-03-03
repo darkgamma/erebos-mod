@@ -15,7 +15,7 @@ b_mamistra = city
 #b_vahka = castle
 
 # Misc
-culture = greek
+culture = aeolian
 religion = orthodox
 
 # History

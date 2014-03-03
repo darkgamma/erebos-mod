@@ -16,7 +16,7 @@ b_palaeokastron = castle
 #b_modrene = castle
 
 # Misc
-culture = greek
+culture = ionian
 religion = orthodox
 
 # History

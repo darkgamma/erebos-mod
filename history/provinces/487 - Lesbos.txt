@@ -17,7 +17,7 @@ b_mithymna = temple
 #b_moudros = castle
 
 # Misc
-culture = greek
+culture = aeolian
 religion = orthodox
 terrain = mountain
 

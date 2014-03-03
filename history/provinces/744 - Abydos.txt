@@ -17,7 +17,7 @@ b_lampsakos = temple # Hellenic Holy Site
 #b_elaia = castle
 
 # Misc
-culture = greek
+culture = aeolian
 religion = orthodox
 terrain = hills
 
