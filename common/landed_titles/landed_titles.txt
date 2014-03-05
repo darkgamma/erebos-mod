@@ -13598,6 +13598,121 @@ e_byzantine = {
 		
 		capital = 366 # Stettin
 		
+		allow = {
+		    OR = {
+			    AND = {
+				    OR = {
+				        primary_title = { title = d_the_poles }
+					    primary_title = { title = d_the_vistulans }
+						primary_title = { title = d_the_mazovians }
+						primary_title = { title = d_the_prussians }
+						primary_title = { title = d_the_silesians }
+						primary_title = { title = d_the_kashubians }
+						primary_title = { title = d_the_pomeranians }
+						primary_title = { title = d_the_sorbs }
+						primary_title = { title = d_the_ranes }
+						primary_title = { title = d_the_obodrites }
+					}
+					culture = lechitic
+				}
+				has_global_flag = the_lechites
+			}
+		}
+		
+		gain_effect = {
+		    set_global_flag = the_lechites
+		    if = { 
+			    limit = {
+                    has_character_flag = polish_ruler
+				}
+			    k_lechitic = {
+			        set_name = "Polania"
+				    adjective = "Polish"
+			    }
+			}
+			if = { 
+			    limit = {
+                    has_character_flag = vistulan_ruler
+				}
+			    k_lechitic = {
+			        set_name = "Vistulania"
+				    adjective = "Vistulan"
+			    }
+			}
+			if = { 
+			    limit = {
+                    has_character_flag = mazovian_ruler
+				}
+			    k_lechitic = {
+			        set_name = "Mazovia"
+				    adjective = "Mazovian"
+			    }
+			}
+			if = { 
+			    limit = {
+                    has_character_flag = prussian_ruler
+				}
+			    k_lechitic = {
+			        set_name = "Prussia"
+				    adjective = "Prussian"
+			    }
+			}
+			if = { 
+			    limit = {
+                    has_character_flag = silesian_ruler
+				}
+			    k_lechitic = {
+			        set_name = "Silesia"
+				    adjective = "Silesian"
+			    }
+			}
+			if = { 
+			    limit = {
+                    has_character_flag = kashubian_ruler
+				}
+			    k_lechitic = {
+			        set_name = "Kashubia"
+				    adjective = "Kashubian"
+			    }
+			}
+			if = { 
+			    limit = {
+                    has_character_flag = pomeranian_ruler
+				}
+			    k_lechitic = {
+			        set_name = "Pomerania"
+				    adjective = "Pomeranian"
+			    }
+			}
+			if = { 
+			    limit = {
+                    has_character_flag = sorbian_ruler
+				}
+			    k_lechitic = {
+			        set_name = "Sorbia"
+				    adjective = "Sorbian"
+			    }
+			}
+			if = { 
+			    limit = {
+                    has_character_flag = rane_ruler
+				}
+			    k_lechitic = {
+			        set_name = "Rania"
+				    adjective = "Rane"
+			    }
+			}
+			if = { 
+			    limit = {
+                    has_character_flag = obodrite_ruler
+				}
+			    k_lechitic = {
+			        set_name = "Obodritia"
+				    adjective = "Obodrite"
+			    }
+			}
+		}
+		
 		d_mazovia = {
 			color={ 125 46 36 }
 			color2={ 255 255 255 }
@@ -22634,10 +22749,12 @@ d_jomsvikings = {
 	color = { 0 0 0 }
 }
 
+k_papal_states = {
+    color = { 0 0 0 }
+}
+
 d_the_vistulans = {
     color = { 135 15 15 }
-	
-	tribe = yes
 	
 	allow = {
 		always = no
@@ -22651,8 +22768,6 @@ d_the_vistulans = {
 d_the_poles = {
     color = { 190 70 70 }
 	
-	tribe = yes
-	
 	allow = {
 		always = no
 	}
@@ -22664,8 +22779,6 @@ d_the_poles = {
 
 d_the_ranes = {
     color = { 95 30 30 }
-	
-	tribe = yes
 	
 	allow = {
 		always = no
@@ -22679,8 +22792,6 @@ d_the_ranes = {
 d_the_silesians = {
     color = { 110 45 45 }
 	
-	tribe = yes
-	
 	allow = {
 		always = no
 	}
@@ -22692,8 +22803,6 @@ d_the_silesians = {
 
 d_the_pomeranians = {
     color = { 150 90 90 }
-	
-	tribe = yes
 	
 	allow = {
 		always = no
@@ -22707,8 +22816,6 @@ d_the_pomeranians = {
 d_the_obodrites = {
     color = { 160 0 0 }
 	
-	tribe = yes
-	
 	allow = {
 		always = no
 	}
@@ -22720,8 +22827,6 @@ d_the_obodrites = {
 
 d_the_prussians = {
     color = { 80 30 30 }
-	
-	tribe = yes
 	
 	allow = {
 		always = no
@@ -22735,8 +22840,6 @@ d_the_prussians = {
 d_the_kashubians = {
     color = { 220 150 150 }
 	
-	tribe = yes
-	
 	allow = {
 		always = no
 	}
@@ -22749,8 +22852,6 @@ d_the_kashubians = {
 d_the_sorbs = {
     color = { 40 0 0 }
 	
-	tribe = yes
-	
 	allow = {
 		always = no
 	}
@@ -22762,8 +22863,6 @@ d_the_sorbs = {
 
 d_the_mazovians = {
     color = { 230 80 80 }
-	
-	tribe = yes
 	
 	allow = {
 		always = no
