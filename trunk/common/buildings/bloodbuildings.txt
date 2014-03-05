@@ -15,7 +15,7 @@ castle = {
 	ca_bloodworks_2 = {
 		desc = ca_bloodworks_2
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
-		prerequisites = { ca_bloodworks_2 }
+		upgrades_from = ca_bloodworks_2
 		ai_creation_factor = 0
 		
 		build_cost = 750
