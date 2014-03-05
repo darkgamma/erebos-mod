@@ -65,13 +65,11 @@
 	dynasty = 9000006 # Dallasenos
 	
 	add_trait = naive_appeaser
-	
 	add_trait = brave
 	add_trait = zealous
 	add_trait = strong
-	add_trait = homosexual
-	
 	add_trait = hsb_lime
+	add_trait = homosexual
 
 	culture = aeolian
 	religion = orthodox
