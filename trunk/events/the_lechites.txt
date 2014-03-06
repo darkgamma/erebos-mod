@@ -87,6 +87,12 @@ character_event = {
 				    has_character_flag = obodrite_ruler
 				}
 		    }
+			AND = {
+			    primary_title = {
+				    title = k_lechitic
+				}
+				has_global_flag = the_lechites
+			}
 		}
 	}
 	
@@ -175,6 +181,96 @@ character_event = {
 			}
 		    set_character_flag = obodrite_ruler
 	    }
+		if = { 
+		    limit = {
+			    primary_title = { 
+				    title = k_lechitic
+				}
+				has_global_flag = polania
+		    }
+		    set_character_flag = polish_ruler
+	    }
+		if = { 
+		    limit = {
+			    primary_title = { 
+				    title = k_lechitic
+				}
+				has_global_flag = vistulania
+		    }
+		    set_character_flag = vistulan_ruler
+	    }
+		if = { 
+		    limit = {
+			    primary_title = { 
+				    title = k_lechitic
+				}
+				has_global_flag = mazovia
+		    }
+		    set_character_flag = mazovian_ruler
+	    }
+		if = { 
+		    limit = {
+			    primary_title = { 
+				    title = k_lechitic
+				}
+				has_global_flag = prussia
+		    }
+		    set_character_flag = prussian_ruler
+	    }
+		if = { 
+		    limit = {
+			    primary_title = { 
+				    title = k_lechitic
+				}
+				has_global_flag = silesia
+		    }
+		    set_character_flag = silesian_ruler
+	    }
+		if = { 
+		    limit = {
+			    primary_title = { 
+				    title = k_lechitic
+				}
+				has_global_flag = kashubia
+		    }
+		    set_character_flag = kashubian_ruler
+	    }
+		if = { 
+		    limit = {
+			    primary_title = { 
+				    title = k_lechitic
+				}
+				has_global_flag = pomerania
+		    }
+		    set_character_flag = pomeranian_ruler
+	    }
+		if = { 
+		    limit = {
+			    primary_title = { 
+				    title = k_lechitic
+				}
+				has_global_flag = sorbia
+		    }
+		    set_character_flag = sorbian_ruler
+	    }
+		if = { 
+		    limit = {
+			    primary_title = { 
+				    title = k_lechitic
+				}
+				has_global_flag = rania
+		    }
+		    set_character_flag = rane_ruler
+	    }
+		if = { 
+		    limit = {
+			    primary_title = { 
+				    title = k_lechitic
+				}
+				has_global_flag = obodritia
+		    }
+		    set_character_flag = obodrite_ruler
+	    }
 	}
 	
 	option = {
@@ -195,7 +291,10 @@ character_event = {
 				        title = d_the_poles 
 				    }				
 			    }
-				has_character_flag = polish_ruler
+				has_character_flag = polish_ruler 
+				NOT = {
+      				has_landed_title = k_lechitic 
+				}
 		    }
 			AND = { 
 		        NOT = { 
@@ -204,6 +303,9 @@ character_event = {
 				    }			
 			    }
 				has_character_flag = vistulan_ruler	
+				NOT = {
+      				has_landed_title = k_lechitic 
+				}
 		    }
 			AND = { 
 		        NOT = { 
@@ -212,6 +314,9 @@ character_event = {
 				    }			
 			    }
                 has_character_flag = mazovian_ruler	
+				NOT = {
+      				has_landed_title = k_lechitic 
+				}
 		    }
 			AND = { 
 		        NOT = { 
@@ -220,6 +325,9 @@ character_event = {
 				    }
 			    }   
 			    has_character_flag = prussian_ruler	
+				NOT = {
+      				has_landed_title = k_lechitic 
+				}
 		    }
 			AND = { 
 		        NOT = { 
@@ -228,6 +336,9 @@ character_event = {
 				    }				
 			    }
 				has_character_flag = silesian_ruler
+				NOT = {
+      				has_landed_title = k_lechitic 
+				}
 		    }
 			AND = { 
 		        NOT = { 
@@ -236,6 +347,9 @@ character_event = {
 				    }				
 			    }
 				has_character_flag = kashubian_ruler
+				NOT = {
+      				has_landed_title = k_lechitic 
+				}
 		    }
 			AND = { 
 		        NOT = { 
@@ -244,6 +358,9 @@ character_event = {
 				    }
 				}
                 has_character_flag = pomeranian_ruler
+				NOT = {
+      				has_landed_title = k_lechitic 
+				}
 		    }
 			AND = { 
 		        NOT = { 
@@ -252,6 +369,9 @@ character_event = {
 				    }				
 			    }
                 has_character_flag = sorbian_ruler
+				NOT = {
+      				has_landed_title = k_lechitic 
+				}
 		    }
 			AND = { 
 		        NOT = { 
@@ -260,6 +380,9 @@ character_event = {
 				    }	
 			    }
 				has_character_flag = rane_ruler	
+				NOT = {
+      				has_landed_title = k_lechitic 
+				}
 		    }
 			AND = { 
 		        NOT = { 
@@ -268,6 +391,9 @@ character_event = {
 				    }		
 			    }
 				has_character_flag = obodrite_ruler	
+				NOT = {
+      				has_landed_title = k_lechitic 
+				}
 		    }
 		}
 	}
@@ -381,5 +507,126 @@ character_event = {
 	
 	option = {
 	    name = OK
+	}
+}
+
+character_event = {
+	id = LECH.3
+	only_playable = yes
+	
+	trigger = {
+		OR = {
+	        has_character_flag = polish_ruler
+	        has_character_flag = vistulan_ruler
+        	has_character_flag = mazovian_ruler
+   	   		has_character_flag = prussian_ruler
+	    	has_character_flag = silesian_ruler
+    		has_character_flag = kashubian_ruler    			
+			has_character_flag = pomeranian_ruler
+		   	has_character_flag = sorbian_ruler
+	    	has_character_flag = rane_ruler
+    		has_character_flag = obodrite_ruler
+		}
+		independent = yes
+		has_global_flag = the_lechites
+		culture = lechitic
+	}
+	
+	mean_time_to_happen = {
+		years = 5
+	}
+	
+	option = {
+	    name = OK
+		if = { 
+		    limit = {
+			    has_character_flag = polish_ruler
+			}
+			culture = polish
+			random_demesne_province = {
+			    culture = polish
+			}
+		}
+		if = { 
+		    limit = {
+			    has_character_flag = vistulan_ruler
+			}
+			culture = vistulan
+			random_demesne_province = {
+			    culture = vistulan
+			}
+		}
+		if = { 
+		    limit = {
+			    has_character_flag = mazovian_ruler
+			}
+			culture = mazovian
+			random_demesne_province = {
+			    culture = mazovian
+			}
+		}
+		if = { 
+		    limit = {
+			    has_character_flag = prussian_ruler
+			}
+			culture = prussian
+			random_demesne_province = {
+			    culture = prussian
+			}
+		}
+		if = { 
+		    limit = {
+			    has_character_flag = silesian_ruler
+			}
+			culture = silesian
+			random_demesne_province = {
+			    culture = silesian
+			}
+		}
+		if = { 
+		    limit = {
+			    has_character_flag = kashubian_ruler
+			}
+			culture = kashubian
+			random_demesne_province = {
+			    culture = kashubian
+			}
+		}
+		if = { 
+		    limit = {
+			    has_character_flag = pomeranian_ruler
+			}
+			culture = pomeranian
+			random_demesne_province = {
+			    culture = pomeranian
+			}
+		}
+		if = { 
+		    limit = {
+			    has_character_flag = sorbian_ruler
+			}
+			culture = sorbian
+			random_demesne_province = {
+			    culture = sorbian
+			}
+		}
+		if = { 
+		    limit = {
+			    has_character_flag = rane_ruler
+			}
+			culture = rane
+			random_demesne_province = {
+			    culture = rane
+			}
+		}
+		if = { 
+		    limit = {
+			    has_character_flag = obodrite_ruler
+			}
+			culture = obodrite
+			random_demesne_province = {
+			    culture = obodrite
+			}
+		}
 	}
 }
