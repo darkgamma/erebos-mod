@@ -120,6 +120,7 @@
 
 1000007 = {
 	name = "Ragnarr" # Loðbrók, technically - otherwise not important in Erebos
+	dynasty = 1000002 # Orming
 	
 	religion = "norse_pagan"
 	culture = norse

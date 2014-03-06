@@ -10,8 +10,12 @@ decisions = {
 		effect = {
 			set_character_flag = magic_window
 		}
-		revoke_allowed = { always = no }
-		ai_will_do = { factor = 0 }
+		revoke_allowed = { 
+			always = no 
+		}
+		ai_will_do = { 
+			factor = 0 
+		}
 	}
 	
 	decision_close_magic_window = {
@@ -19,7 +23,7 @@ decisions = {
 		
 		potential = {
 			has_character_flag = magic_window
-			NOT = { has_character_flag = spell_window }
+			NOT = { has_character_flag = bloodworks_window }
 		}
 		
 		allow = { }
@@ -28,19 +32,24 @@ decisions = {
 			clr_character_flag = magic_window
 		}
 		
-		revoke_allowed = { always = no }
-		ai_will_do = { factor = 1 }
+		revoke_allowed = { 
+			always = no 
+		}
+		ai_will_do = { 
+			factor = 1 
+		}
 	}
 	
 	decision_employ_hemalurgists = {
 		potential = {
 			has_character_flag = magic_window
-			NOT = { has_character_flag = spell_window }
+			NOT = { has_character_flag = bloodworks_window }
 		}
 		allow = {
 			wealth = 275
 			NOT = { has_character_modifier = employment_timer }
 		}
+		
 		effect = {
 			wealth = -250
 			hidden_tooltip = {
@@ -175,6 +184,11 @@ decisions = {
 						30 = { add_trait = hema_2 }
 						15 = { add_trait = hema_3 }
 						5 = { add_trait = hema_4 }
+					}
+					
+					random_list = {
+						35 = { add_trait = scarred }
+						65 = { }
 					}
 					
 					random_list = {
@@ -316,32 +330,59 @@ decisions = {
 				}
 			}
 		}
-		revoke_allowed = { always = no }
-		ai_will_do = { factor = 0 }
+		
+		revoke_allowed = { 
+			always = no 
+		}
+		ai_will_do = { 
+			factor = 0 
+		}
 	}
 
-	decision_open_spells = {
+ 	decision_go_bloodworks = {
 		potential = {
 			has_character_flag = magic_window
-			NOT = { has_character_flag = spell_window }
+			NOT = { 
+				has_character_flag = bloodworks_window
+				in_battle = yes 
+			}
+			in_command = no
 		}
 		
-		allow = { }
+		allow = { 
+			any_demesne_title = {
+				limit = { is_capital = yes }
+			#	has_building = ca_bloodworks_1
+			}
+		}
 		
 		effect = {
-			set_character_flag = spell_window
+			set_character_flag = bloodworks_window
 		}
-		revoke_allowed = { always = no }
-		ai_will_do = { factor = 0 }
+		revoke_allowed = { 
+			always = no 
+		}
+		ai_will_do = { 
+			factor = 0 
+		}
 	}
 	
-	decision_close_spells = {
+	decision_return_bloodworks = {
 		is_high_prio = yes
-		potential = { has_character_flag = spell_window 
-			has_character_flag = magic_window }
+		potential = {
+			has_character_flag = bloodworks_window 
+			has_character_flag = magic_window 
+		}
 		allow = { }
-		effect = { clr_character_flag = spell_window }
-		revoke_allowed = { always = no }
-		ai_will_do = { factor = 0 }
+		effect = {
+			clr_character_flag = bloodworks_window 
+		}
+		
+		revoke_allowed = { 
+			always = no 
+		}
+		ai_will_do = { 
+			factor = 0 
+		}
 	}
 }
