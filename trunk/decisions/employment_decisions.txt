@@ -6,10 +6,10 @@ decisions = {
 			NOT = { has_character_modifier = employment_timer }
 		}
 		allow = {
-			scaled_wealth = 0.25
+			wealth = 30
 		}
 		effect = {
-			scaled_wealth = -0.25
+			wealth = -25
 			create_random_steward = {
 				random_traits = yes
 				dynasty = random
@@ -34,16 +34,14 @@ decisions = {
 			NOT = { has_character_flag = magic_window }
 			NOT = { has_character_modifier = employment_timer }
 		}
-		allow = {
-			scaled_wealth = 0.2
-		}
+		allow = { wealth = 20 }
 		effect = {
 			add_character_modifier = {
 				name = employment_timer
 				duration = 180
 				hidden = yes
 			}
-			scaled_wealth = -0.2
+			wealth = -15
 			create_character = {
 				random_traits = yes
 				dynasty = random
