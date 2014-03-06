@@ -488,13 +488,6 @@ plot_decisions = {
 						power = 0.34
 					}
 				}
-#				NOT = { 
-#					num_of_faction_backers = 
-#					{
-#						faction = faction_independence
-#						value = 2
-#					}
-#				}
 			}
 			
 			modifier = {

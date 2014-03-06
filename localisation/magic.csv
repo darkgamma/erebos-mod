@@ -15,10 +15,10 @@ decision_close_magic_window_desc;Return to the normal decisions;;;;;;;;;;;;;;x
 decision_employ_hemalurgists;Employ Hemalurgists;;;;;;;;;;;;;;x
 decision_employ_hemalurgists_desc;Employ a hemalurgist team to assist you with all matters arcane.;;;;;;;;;;;;;;x
 
-decision_open_spells;Review Spells;;;;;;;;;;;;;;x
-decision_open_spells_desc;Review the spells you know and consult with your arcane staff.;;;;;;;;;;;;;;x
-decision_close_spells;Return;;;;;;;;;;;;;;x
-decision_close_spells_desc;Return to magical decisions.;;;;;;;;;;;;;;x
+decision_go_bloodworks;Descend into the Bloodworks;;;;;;;;;;;;;;x
+decision_go_bloodworks_desc;Descend into the bloodworks spanning below your castle.;;;;;;;;;;;;;;x
+decision_return_bloodworks;Return;;;;;;;;;;;;;;x
+decision_return_bloodworks_desc;Return.;;;;;;;;;;;;;;x
 
 decision_call_hemalurgists;Call Hemalurgists;;;;;;;;;;;;;;x
 
