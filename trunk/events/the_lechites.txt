@@ -7,29 +7,86 @@ character_event = {
 	
 	trigger = {
 		OR = {
-		    primary_title = { title = d_the_poles }
-		    primary_title = { title = d_the_vistulans }
-			primary_title = { title = d_the_mazovians }
-			primary_title = { title = d_the_prussians }
-			primary_title = { title = d_the_silesians }
-			primary_title = { title = d_the_kashubians }
-			primary_title = { title = d_the_pomeranians }
-			primary_title = { title = d_the_sorbs }
-			primary_title = { title = d_the_ranes }
-			primary_title = { title = d_the_obodrites }
-		}
-		NOT = { has_global_flag = the_lechites }
-		OR = {
-		    NOT = { has_character_flag = polish_ruler }
-			NOT = { has_character_flag = vistulan_ruler }
-			NOT = { has_character_flag = mazovian_ruler }
-			NOT = { has_character_flag = prussian_ruler }
-			NOT = { has_character_flag = silesian_ruler }
-			NOT = { has_character_flag = kashubian_ruler }
-			NOT = { has_character_flag = pomeranian_ruler }
-			NOT = { has_character_flag = sorbian_ruler }
-			NOT = { has_character_flag = rane_ruler }
-			NOT = { has_character_flag = obodrite_ruler }
+		    AND = { 
+			    primary_title = { 
+				    title = d_the_poles
+				}
+                NOT = { 
+				    has_character_flag = polish_ruler
+				}
+		    }
+			AND = { 
+			    primary_title = { 
+				    title = d_the_vistulans 
+				}
+                NOT = { 
+				    has_character_flag = vistulan_ruler
+				}
+		    }
+			AND = { 
+			    primary_title = { 
+				    title = d_the_mazovians 
+				}
+                NOT = { 
+				    has_character_flag = mazovian_ruler
+				}
+		    }
+			AND = { 
+			    primary_title = { 
+				    title = d_the_prussians
+				}
+                NOT = { 
+				    has_character_flag = prussian_ruler
+				}
+		    }
+			AND = { 
+			    primary_title = { 
+				    title = d_the_silesians 
+				}
+                NOT = { 
+				    has_character_flag = silesians_ruler
+				}
+		    }
+			AND = { 
+			    primary_title = { 
+				    title = d_the_kashubians 
+				}
+                NOT = { 
+				    has_character_flag = kashubian_ruler
+				}
+		    }
+			AND = { 
+			    primary_title = { 
+				    title = d_the_pomeranians
+				}
+                NOT = { 
+				    has_character_flag = pomeranian_ruler
+				}
+		    }
+			AND = { 
+			    primary_title = { 
+				    title = d_the_sorbs 
+				}
+                NOT = { 
+				    has_character_flag = sorbian_ruler
+				}
+		    }
+			AND = { 
+			    primary_title = { 
+				    title = d_the_ranes 
+				}
+                NOT = { 
+				    has_character_flag = rane_ruler
+				}
+		    }
+			AND = { 
+			    primary_title = { 
+				    title = d_the_obodrites 
+				}
+                NOT = { 
+				    has_character_flag = obodrite_ruler
+				}
+		    }
 		}
 	}
 	
@@ -40,64 +97,84 @@ character_event = {
 	immediate = {
 		if = { 
 		    limit = {
-                primary_title = { title = d_the_poles }
-			}
+			    primary_title = { 
+				    title = d_the_poles 
+				}
+			}	
 			set_character_flag = polish_ruler
 		}
 		if = { 
 		    limit = {
-                primary_title = { title = d_the_vistulans }
+			    primary_title = { 
+				    title = d_the_vistulans
+				}
 			}
-		    set_character_flag = vistulan_ruler
+			set_character_flag = vistulan_ruler
 		}
-			if = { 
-			    limit = {
-                    primary_title = { title = d_the_mazovians }
+		if = { 
+		    limit = {
+			    primary_title = { 
+				    title = d_the_mazovians
 				}
-			    set_character_flag = mazovian_ruler
-			}
-			if = { 
-			    limit = {
-                    primary_title = { title = d_the_prussians }
+		    }
+		    set_character_flag = mazovian_ruler
+	    }
+		if = { 
+		    limit = {
+			    primary_title = { 
+				    title = d_the_prussians
 				}
-			    set_character_flag = prussian_ruler
-			}
-			if = { 
-			    limit = {
-                    primary_title = { title = d_the_silesians }
+		    }
+		    set_character_flag = prussian_ruler
+	    }
+		if = { 
+		    limit = {
+			    primary_title = { 
+				    title = d_the_silesians
 				}
-			    set_character_flag = silesian_ruler
-			}
-			if = { 
-			    limit = {
-                    primary_title = { title = d_the_kashubians }
+		    }
+		    set_character_flag = silesian_ruler
+	    }
+		if = { 
+		    limit = { 
+			    primary_title = { 
+				    title = d_the_kashubians
 				}
-			    set_character_flag = kashubian_ruler
-			}
-			if = { 
-			    limit = {
-                    primary_title = { title = d_the_pomeranians }
+		    }
+		    set_character_flag = kashubian_ruler
+	    }
+		if = { 
+		    limit = { 
+			    primary_title = { 
+				    title = d_the_pomeranians
 				}
-			    set_character_flag = pomeranian_ruler
-			}
-			if = { 
-			    limit = {
-                    primary_title = { title = d_the_sorbs }
+		    }
+		    set_character_flag = pomeranian_ruler
+	    }
+		if = { 
+		    limit = {
+			    primary_title = { 
+				    title = d_the_sorbs
 				}
-			    set_character_flag = sorbian_ruler
-			}
-			if = { 
-			    limit = {
-                    primary_title = { title = d_the_ranes }
+		    }
+		    set_character_flag = sorbian_ruler
+	    }
+		if = { 
+		    limit = {
+			    primary_title = { 
+				    title = d_the_ranes
 				}
-			    set_character_flag = rane_ruler
 			}
-			if = { 
-			    limit = {
-                    primary_title = { title = d_the_obodrites }
+		    set_character_flag = rane_ruler
+	    }
+		if = { 
+		    limit = { 
+			    primary_title = { 
+				    title = d_the_obodrites
 				}
-			    set_character_flag = obodrite_ruler
 			}
+		    set_character_flag = obodrite_ruler
+	    }
 	}
 	
 	option = {
@@ -116,84 +193,83 @@ character_event = {
 		        NOT = { 
 			        primary_title = { 
 				        title = d_the_poles 
-				    }
-                has_character_flag = polish_ruler				
+				    }				
 			    }
+				has_character_flag = polish_ruler
 		    }
 			AND = { 
 		        NOT = { 
 			        primary_title = { 
 				        title = d_the_vistulans 
-				    }
-                has_character_flag = vistulan_ruler				
+				    }			
 			    }
+				has_character_flag = vistulan_ruler	
 		    }
 			AND = { 
 		        NOT = { 
 			        primary_title = { 
 				        title = d_the_mazovians 
-				    }
-                has_character_flag = mazovian_ruler				
+				    }			
 			    }
+                has_character_flag = mazovian_ruler	
 		    }
 			AND = { 
 		        NOT = { 
 			        primary_title = { 
 				        title = d_the_prussians
 				    }
-                has_character_flag = prussian_ruler				
-			    }
+			    }   
+			    has_character_flag = prussian_ruler	
 		    }
 			AND = { 
 		        NOT = { 
 			        primary_title = { 
 				        title = d_the_silesians 
-				    }
-                has_character_flag = silesian_ruler				
+				    }				
 			    }
+				has_character_flag = silesian_ruler
 		    }
 			AND = { 
 		        NOT = { 
 			        primary_title = { 
 				        title = d_the_kashubians 
-				    }
-                has_character_flag = kashubian_ruler				
+				    }				
 			    }
+				has_character_flag = kashubian_ruler
 		    }
 			AND = { 
 		        NOT = { 
 			        primary_title = { 
 				        title = d_the_pomeranians 
 				    }
-                has_character_flag = pomeranian_ruler				
-			    }
+				}
+                has_character_flag = pomeranian_ruler
 		    }
 			AND = { 
 		        NOT = { 
 			        primary_title = { 
 				        title = d_the_sorbs 
-				    }
-                has_character_flag = sorbian_ruler				
+				    }				
 			    }
+                has_character_flag = sorbian_ruler
 		    }
 			AND = { 
 		        NOT = { 
 			        primary_title = { 
 				        title = d_the_ranes 
-				    }
-                has_character_flag = rane_ruler				
+				    }	
 			    }
+				has_character_flag = rane_ruler	
 		    }
 			AND = { 
 		        NOT = { 
 			        primary_title = { 
 				        title = d_the_obodrites 
-				    }
-                has_character_flag = obodrite_ruler				
+				    }		
 			    }
+				has_character_flag = obodrite_ruler	
 		    }
 		}
-		NOT = { has_global_flag = the_lechites }
 	}
 	
 	mean_time_to_happen = {
