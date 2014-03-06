@@ -2568,25 +2568,6 @@ Kenna Laima Mikova Roze Saule Svajone Vida
 
 		modifier = default_culture_modifier
 	}
-	prussian = {
-		graphical_culture = ugricgfx
-		
-		color = { 0.56 0.55 0.4 }
-
-		male_names = {
-			Alvydas Arelis Auctune Bajoras Beidras Budo Dagonis Ekkelis Galindas_Galindo Gauronas 
-
-Gerdautas Glande Golding Jauguttis Karatas Klukis Kugis
-			Milzas Nomedas Prusas Sergonis Ulinniks Ulitis
-		}
-		female_names = {
-			Betten Dagas Gelennis Gerkus Grasus Gulbis Mila Milyuns Weslikan Ziedas
-		}
-		
-		from_dynasty_prefix = "iš "
-
-		modifier = default_culture_modifier
-	}
 }
 
 altaic = {
@@ -3309,6 +3290,74 @@ Markéta Mlada Olga Perchta Pribyslava Richeza Skonka Stanislava Svatava
 
 		modifier = default_culture_modifier
 	}
+	lechitic = {
+		graphical_culture = westernslavicgfx
+		
+		color = { 0.4 0.6 0.55 }
+
+		male_names = {
+			Aleksander_Alexander Andrzej_Andrew Bartosz_Bartolomeus Bezprym Boguchwal Bogumil 
+
+Boleslaw_Boleslav Boncza_Bonifacius Borzyslaw Bozydar_Theodat Borzywoj_Borijov Budziwuj Czcibor_Ctibor Czyrzniech
+			Dagome Dalimir Daniel_Daniel Dobieslaw Dobrogost Dobromir Doman Domawuj Dytryk_Thierry 
+
+Eustachy_Eustace Gaudenty Gierolt_Gerald Gniewomir Gniewosz Gosciwuj Goszczon Henryk_Henry Imram
+			Izbor Józef_Joseph Jacek_Hyacinth Jaksa_Jacob Jakub_Jacob Jakusz Jan_John Janislaw_John 
+
+Janko_John Janusz_John Jaroslaw_Jaroslav Jerzy_George Karol_Charles Kazimierz Konrad_Konrad Krystyn_Christian 
+
+Krzeslaw Lambert_Lambert Leszek
+			Maciej_Matthew Macko_Matthew Malowuj Marcin_Martin Maslaw Mateusz_Matthew Mieszko 
+
+Mikolaj_Nicholas Milobrat Milosz_Milosz Miroslaw_Miroslav Msciwoj Mszczuj Nadbor Niezamysl Odon_Otto Pawel_Paul 
+
+Pelka
+			Piotr_Peter Piskla Prendota Przemyslaw_Premysl Przybor Sambor Sedziej Sedzimir Sieciech 
+
+Siemomysl Siemowit Skarbimir Snowid Spytko Stanislaw_Stanislav
+			Stefan_Stephen Stoigniew Strasz Sulislaw Sulistryj Swietopelk_Svatopluk Swietoslaw_Sviatoslav 
+
+Szczesny_Felix Tomasz_Thomas Trojden Twardomir Usciech Waclaw_Vaclav Wanko_Vaclav Wawrzyniec_Laurence
+			Wielislaw Wieslaw Wincenty_Vincent Wit_Guy Witosz Wladyslaw_Vladislav Wojciech_Albert 
+
+Wojuta Wszebor_Vsebor Zbigniew_Zbynek Zbyszko_Zbynek Zegota_Ignatius Zelibrat
+			Zygmunt_Sigmund
+		}
+		female_names = {
+			Adelajda Adleta Agnieszka_Agnes Aldona Anastazja_Anastasia Anna_Anna Beata Bozena 
+
+Danuta Dobrawa Dobronega Elzbieta_Elisabeth Eufemia_Euphemia Eufrozyna Gertruda_Gertrude Grzymislawa
+			Helena_Helen Jadwiga Jolanta_Yolanda Judyta_Judith Katarzyna_Catherine Kazimiera Kenna 
+
+Kinga Konstancja_Constance Krystyna_Christina Kunegunda Lucja_Lucia Ludmila Magdalena_Magdalena Malgorzata 
+
+Maria_Maria
+			Matylda_Matilda Milena Nadzieja Nawoja Pechna Rycheza Ryksa Salomea Samboja Scholastyka 
+
+Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
+			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
+		}
+		from_dynasty_prefix = "of "
+		
+		#male_patronym = "owski"
+		#female_patronym = "owska"
+		#prefix = no
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum 
+
+must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. 
+
+Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
 	polish = {
 		graphical_culture = westernslavicgfx
 		
@@ -3377,8 +3426,7 @@ Sum must not exceed 100.
 		mat_grm_name_chance = 40
 		mother_name_chance = 5
 	}
-	
-	lechitic = {
+	vistulan = {
 		graphical_culture = westernslavicgfx
 		
 		color = { 0.4 0.6 0.55 }
@@ -3387,7 +3435,551 @@ Sum must not exceed 100.
 			Aleksander_Alexander Andrzej_Andrew Bartosz_Bartolomeus Bezprym Boguchwal Bogumil 
 
 Boleslaw_Boleslav Boncza_Bonifacius Borzyslaw Bozydar_Theodat Borzywoj_Borijov Budziwuj Czcibor_Ctibor Czyrzniech
-			Dagome Dalimir Daniel_Daniel Dobieslaw Dobrogost Dobromir Doman Domawuj Dytryk_Thierry 
+			Dalimir Daniel_Daniel Dobieslaw Dobrogost Dobromir Doman Domawuj Dytryk_Thierry 
+
+Eustachy_Eustace Gaudenty Gierolt_Gerald Gniewomir Gniewosz Gosciwuj Goszczon Henryk_Henry Imram
+			Izbor Józef_Joseph Jacek_Hyacinth Jaksa_Jacob Jakub_Jacob Jakusz Jan_John Janislaw_John 
+
+Janko_John Janusz_John Jaroslaw_Jaroslav Jerzy_George Karol_Charles Kazimierz Konrad_Konrad Krystyn_Christian 
+
+Krzeslaw Lambert_Lambert Leszek
+			Maciej_Matthew Macko_Matthew Malowuj Marcin_Martin Maslaw Mateusz_Matthew Mieszko 
+
+Mikolaj_Nicholas Milobrat Milosz_Milosz Miroslaw_Miroslav Msciwoj Mszczuj Nadbor Niezamysl Odon_Otto Pawel_Paul 
+
+Pelka
+			Piotr_Peter Piskla Prendota Przemyslaw_Premysl Przybor Sambor Sedziej Sedzimir Sieciech 
+
+Siemomysl Siemowit Skarbimir Snowid Spytko Stanislaw_Stanislav
+			Stefan_Stephen Stoigniew Strasz Sulislaw Sulistryj Swietopelk_Svatopluk Swietoslaw_Sviatoslav 
+
+Szczesny_Felix Tomasz_Thomas Trojden Twardomir Usciech Waclaw_Vaclav Wanko_Vaclav Wawrzyniec_Laurence
+			Wielislaw Wieslaw Wincenty_Vincent Wit_Guy Witosz Wladyslaw_Vladislav Wojciech_Albert 
+
+Wojuta Wszebor_Vsebor Zbigniew_Zbynek Zbyszko_Zbynek Zegota_Ignatius Zelibrat
+			Zygmunt_Sigmund
+		}
+		female_names = {
+			Adelajda Adleta Agnieszka_Agnes Aldona Anastazja_Anastasia Anna_Anna Beata Bozena 
+
+Danuta Dobrawa Dobronega Elzbieta_Elisabeth Eufemia_Euphemia Eufrozyna Gertruda_Gertrude Grzymislawa
+			Helena_Helen Jadwiga Jolanta_Yolanda Judyta_Judith Katarzyna_Catherine Kazimiera Kenna 
+
+Kinga Konstancja_Constance Krystyna_Christina Kunegunda Lucja_Lucia Ludmila Magdalena_Magdalena Malgorzata 
+
+Maria_Maria
+			Matylda_Matilda Milena Nadzieja Nawoja Pechna Rycheza Ryksa Salomea Samboja Scholastyka 
+
+Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
+			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
+		}
+		from_dynasty_prefix = "of "
+		
+		#male_patronym = "owski"
+		#female_patronym = "owska"
+		#prefix = no
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum 
+
+must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. 
+
+Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	mazovian = {
+		graphical_culture = westernslavicgfx
+		
+		color = { 0.4 0.6 0.55 }
+
+		male_names = {
+			Aleksander_Alexander Andrzej_Andrew Bartosz_Bartolomeus Bezprym Boguchwal Bogumil 
+
+Boleslaw_Boleslav Boncza_Bonifacius Borzyslaw Bozydar_Theodat Borzywoj_Borijov Budziwuj Czcibor_Ctibor Czyrzniech
+			Dalimir Daniel_Daniel Dobieslaw Dobrogost Dobromir Doman Domawuj Dytryk_Thierry 
+
+Eustachy_Eustace Gaudenty Gierolt_Gerald Gniewomir Gniewosz Gosciwuj Goszczon Henryk_Henry Imram
+			Izbor Józef_Joseph Jacek_Hyacinth Jaksa_Jacob Jakub_Jacob Jakusz Jan_John Janislaw_John 
+
+Janko_John Janusz_John Jaroslaw_Jaroslav Jerzy_George Karol_Charles Kazimierz Konrad_Konrad Krystyn_Christian 
+
+Krzeslaw Lambert_Lambert Leszek
+			Maciej_Matthew Macko_Matthew Malowuj Marcin_Martin Maslaw Mateusz_Matthew Mieszko 
+
+Mikolaj_Nicholas Milobrat Milosz_Milosz Miroslaw_Miroslav Msciwoj Mszczuj Nadbor Niezamysl Odon_Otto Pawel_Paul 
+
+Pelka
+			Piotr_Peter Piskla Prendota Przemyslaw_Premysl Przybor Sambor Sedziej Sedzimir Sieciech 
+
+Siemomysl Siemowit Skarbimir Snowid Spytko Stanislaw_Stanislav
+			Stefan_Stephen Stoigniew Strasz Sulislaw Sulistryj Swietopelk_Svatopluk Swietoslaw_Sviatoslav 
+
+Szczesny_Felix Tomasz_Thomas Trojden Twardomir Usciech Waclaw_Vaclav Wanko_Vaclav Wawrzyniec_Laurence
+			Wielislaw Wieslaw Wincenty_Vincent Wit_Guy Witosz Wladyslaw_Vladislav Wojciech_Albert 
+
+Wojuta Wszebor_Vsebor Zbigniew_Zbynek Zbyszko_Zbynek Zegota_Ignatius Zelibrat
+			Zygmunt_Sigmund
+		}
+		female_names = {
+			Adelajda Adleta Agnieszka_Agnes Aldona Anastazja_Anastasia Anna_Anna Beata Bozena 
+
+Danuta Dobrawa Dobronega Elzbieta_Elisabeth Eufemia_Euphemia Eufrozyna Gertruda_Gertrude Grzymislawa
+			Helena_Helen Jadwiga Jolanta_Yolanda Judyta_Judith Katarzyna_Catherine Kazimiera Kenna 
+
+Kinga Konstancja_Constance Krystyna_Christina Kunegunda Lucja_Lucia Ludmila Magdalena_Magdalena Malgorzata 
+
+Maria_Maria
+			Matylda_Matilda Milena Nadzieja Nawoja Pechna Rycheza Ryksa Salomea Samboja Scholastyka 
+
+Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
+			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
+		}
+		from_dynasty_prefix = "of "
+		
+		#male_patronym = "owski"
+		#female_patronym = "owska"
+		#prefix = no
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum 
+
+must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. 
+
+Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	prussian = {
+		graphical_culture = westernslavicgfx
+		
+		color = { 0.4 0.6 0.55 }
+
+		male_names = {
+			Aleksander_Alexander Andrzej_Andrew Bartosz_Bartolomeus Bezprym Boguchwal Bogumil 
+
+Boleslaw_Boleslav Boncza_Bonifacius Borzyslaw Bozydar_Theodat Borzywoj_Borijov Budziwuj Czcibor_Ctibor Czyrzniech
+			Dalimir Daniel_Daniel Dobieslaw Dobrogost Dobromir Doman Domawuj Dytryk_Thierry 
+
+Eustachy_Eustace Gaudenty Gierolt_Gerald Gniewomir Gniewosz Gosciwuj Goszczon Henryk_Henry Imram
+			Izbor Józef_Joseph Jacek_Hyacinth Jaksa_Jacob Jakub_Jacob Jakusz Jan_John Janislaw_John 
+
+Janko_John Janusz_John Jaroslaw_Jaroslav Jerzy_George Karol_Charles Kazimierz Konrad_Konrad Krystyn_Christian 
+
+Krzeslaw Lambert_Lambert Leszek
+			Maciej_Matthew Macko_Matthew Malowuj Marcin_Martin Maslaw Mateusz_Matthew Mieszko 
+
+Mikolaj_Nicholas Milobrat Milosz_Milosz Miroslaw_Miroslav Msciwoj Mszczuj Nadbor Niezamysl Odon_Otto Pawel_Paul 
+
+Pelka
+			Piotr_Peter Piskla Prendota Przemyslaw_Premysl Przybor Sambor Sedziej Sedzimir Sieciech 
+
+Siemomysl Siemowit Skarbimir Snowid Spytko Stanislaw_Stanislav
+			Stefan_Stephen Stoigniew Strasz Sulislaw Sulistryj Swietopelk_Svatopluk Swietoslaw_Sviatoslav 
+
+Szczesny_Felix Tomasz_Thomas Trojden Twardomir Usciech Waclaw_Vaclav Wanko_Vaclav Wawrzyniec_Laurence
+			Wielislaw Wieslaw Wincenty_Vincent Wit_Guy Witosz Wladyslaw_Vladislav Wojciech_Albert 
+
+Wojuta Wszebor_Vsebor Zbigniew_Zbynek Zbyszko_Zbynek Zegota_Ignatius Zelibrat
+			Zygmunt_Sigmund
+		}
+		female_names = {
+			Adelajda Adleta Agnieszka_Agnes Aldona Anastazja_Anastasia Anna_Anna Beata Bozena 
+
+Danuta Dobrawa Dobronega Elzbieta_Elisabeth Eufemia_Euphemia Eufrozyna Gertruda_Gertrude Grzymislawa
+			Helena_Helen Jadwiga Jolanta_Yolanda Judyta_Judith Katarzyna_Catherine Kazimiera Kenna 
+
+Kinga Konstancja_Constance Krystyna_Christina Kunegunda Lucja_Lucia Ludmila Magdalena_Magdalena Malgorzata 
+
+Maria_Maria
+			Matylda_Matilda Milena Nadzieja Nawoja Pechna Rycheza Ryksa Salomea Samboja Scholastyka 
+
+Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
+			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
+		}
+		from_dynasty_prefix = "of "
+		
+		#male_patronym = "owski"
+		#female_patronym = "owska"
+		#prefix = no
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum 
+
+must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. 
+
+Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	silesian = {
+		graphical_culture = westernslavicgfx
+		
+		color = { 0.4 0.6 0.55 }
+
+		male_names = {
+			Aleksander_Alexander Andrzej_Andrew Bartosz_Bartolomeus Bezprym Boguchwal Bogumil 
+
+Boleslaw_Boleslav Boncza_Bonifacius Borzyslaw Bozydar_Theodat Borzywoj_Borijov Budziwuj Czcibor_Ctibor Czyrzniech
+			Dalimir Daniel_Daniel Dobieslaw Dobrogost Dobromir Doman Domawuj Dytryk_Thierry 
+
+Eustachy_Eustace Gaudenty Gierolt_Gerald Gniewomir Gniewosz Gosciwuj Goszczon Henryk_Henry Imram
+			Izbor Józef_Joseph Jacek_Hyacinth Jaksa_Jacob Jakub_Jacob Jakusz Jan_John Janislaw_John 
+
+Janko_John Janusz_John Jaroslaw_Jaroslav Jerzy_George Karol_Charles Kazimierz Konrad_Konrad Krystyn_Christian 
+
+Krzeslaw Lambert_Lambert Leszek
+			Maciej_Matthew Macko_Matthew Malowuj Marcin_Martin Maslaw Mateusz_Matthew Mieszko 
+
+Mikolaj_Nicholas Milobrat Milosz_Milosz Miroslaw_Miroslav Msciwoj Mszczuj Nadbor Niezamysl Odon_Otto Pawel_Paul 
+
+Pelka
+			Piotr_Peter Piskla Prendota Przemyslaw_Premysl Przybor Sambor Sedziej Sedzimir Sieciech 
+
+Siemomysl Siemowit Skarbimir Snowid Spytko Stanislaw_Stanislav
+			Stefan_Stephen Stoigniew Strasz Sulislaw Sulistryj Swietopelk_Svatopluk Swietoslaw_Sviatoslav 
+
+Szczesny_Felix Tomasz_Thomas Trojden Twardomir Usciech Waclaw_Vaclav Wanko_Vaclav Wawrzyniec_Laurence
+			Wielislaw Wieslaw Wincenty_Vincent Wit_Guy Witosz Wladyslaw_Vladislav Wojciech_Albert 
+
+Wojuta Wszebor_Vsebor Zbigniew_Zbynek Zbyszko_Zbynek Zegota_Ignatius Zelibrat
+			Zygmunt_Sigmund
+		}
+		female_names = {
+			Adelajda Adleta Agnieszka_Agnes Aldona Anastazja_Anastasia Anna_Anna Beata Bozena 
+
+Danuta Dobrawa Dobronega Elzbieta_Elisabeth Eufemia_Euphemia Eufrozyna Gertruda_Gertrude Grzymislawa
+			Helena_Helen Jadwiga Jolanta_Yolanda Judyta_Judith Katarzyna_Catherine Kazimiera Kenna 
+
+Kinga Konstancja_Constance Krystyna_Christina Kunegunda Lucja_Lucia Ludmila Magdalena_Magdalena Malgorzata 
+
+Maria_Maria
+			Matylda_Matilda Milena Nadzieja Nawoja Pechna Rycheza Ryksa Salomea Samboja Scholastyka 
+
+Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
+			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
+		}
+		from_dynasty_prefix = "of "
+		
+		#male_patronym = "owski"
+		#female_patronym = "owska"
+		#prefix = no
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum 
+
+must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. 
+
+Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	kashubian = {
+		graphical_culture = westernslavicgfx
+		
+		color = { 0.4 0.6 0.55 }
+
+		male_names = {
+			Aleksander_Alexander Andrzej_Andrew Bartosz_Bartolomeus Bezprym Boguchwal Bogumil 
+
+Boleslaw_Boleslav Boncza_Bonifacius Borzyslaw Bozydar_Theodat Borzywoj_Borijov Budziwuj Czcibor_Ctibor Czyrzniech
+			Dalimir Daniel_Daniel Dobieslaw Dobrogost Dobromir Doman Domawuj Dytryk_Thierry 
+
+Eustachy_Eustace Gaudenty Gierolt_Gerald Gniewomir Gniewosz Gosciwuj Goszczon Henryk_Henry Imram
+			Izbor Józef_Joseph Jacek_Hyacinth Jaksa_Jacob Jakub_Jacob Jakusz Jan_John Janislaw_John 
+
+Janko_John Janusz_John Jaroslaw_Jaroslav Jerzy_George Karol_Charles Kazimierz Konrad_Konrad Krystyn_Christian 
+
+Krzeslaw Lambert_Lambert Leszek
+			Maciej_Matthew Macko_Matthew Malowuj Marcin_Martin Maslaw Mateusz_Matthew Mieszko 
+
+Mikolaj_Nicholas Milobrat Milosz_Milosz Miroslaw_Miroslav Msciwoj Mszczuj Nadbor Niezamysl Odon_Otto Pawel_Paul 
+
+Pelka
+			Piotr_Peter Piskla Prendota Przemyslaw_Premysl Przybor Sambor Sedziej Sedzimir Sieciech 
+
+Siemomysl Siemowit Skarbimir Snowid Spytko Stanislaw_Stanislav
+			Stefan_Stephen Stoigniew Strasz Sulislaw Sulistryj Swietopelk_Svatopluk Swietoslaw_Sviatoslav 
+
+Szczesny_Felix Tomasz_Thomas Trojden Twardomir Usciech Waclaw_Vaclav Wanko_Vaclav Wawrzyniec_Laurence
+			Wielislaw Wieslaw Wincenty_Vincent Wit_Guy Witosz Wladyslaw_Vladislav Wojciech_Albert 
+
+Wojuta Wszebor_Vsebor Zbigniew_Zbynek Zbyszko_Zbynek Zegota_Ignatius Zelibrat
+			Zygmunt_Sigmund
+		}
+		female_names = {
+			Adelajda Adleta Agnieszka_Agnes Aldona Anastazja_Anastasia Anna_Anna Beata Bozena 
+
+Danuta Dobrawa Dobronega Elzbieta_Elisabeth Eufemia_Euphemia Eufrozyna Gertruda_Gertrude Grzymislawa
+			Helena_Helen Jadwiga Jolanta_Yolanda Judyta_Judith Katarzyna_Catherine Kazimiera Kenna 
+
+Kinga Konstancja_Constance Krystyna_Christina Kunegunda Lucja_Lucia Ludmila Magdalena_Magdalena Malgorzata 
+
+Maria_Maria
+			Matylda_Matilda Milena Nadzieja Nawoja Pechna Rycheza Ryksa Salomea Samboja Scholastyka 
+
+Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
+			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
+		}
+		from_dynasty_prefix = "of "
+		
+		#male_patronym = "owski"
+		#female_patronym = "owska"
+		#prefix = no
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum 
+
+must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. 
+
+Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	pomeranian = {
+		graphical_culture = westernslavicgfx
+		
+		color = { 0.4 0.6 0.55 }
+
+		male_names = {
+			Aleksander_Alexander Andrzej_Andrew Bartosz_Bartolomeus Bezprym Boguchwal Bogumil 
+
+Boleslaw_Boleslav Boncza_Bonifacius Borzyslaw Bozydar_Theodat Borzywoj_Borijov Budziwuj Czcibor_Ctibor Czyrzniech
+			Dalimir Daniel_Daniel Dobieslaw Dobrogost Dobromir Doman Domawuj Dytryk_Thierry 
+
+Eustachy_Eustace Gaudenty Gierolt_Gerald Gniewomir Gniewosz Gosciwuj Goszczon Henryk_Henry Imram
+			Izbor Józef_Joseph Jacek_Hyacinth Jaksa_Jacob Jakub_Jacob Jakusz Jan_John Janislaw_John 
+
+Janko_John Janusz_John Jaroslaw_Jaroslav Jerzy_George Karol_Charles Kazimierz Konrad_Konrad Krystyn_Christian 
+
+Krzeslaw Lambert_Lambert Leszek
+			Maciej_Matthew Macko_Matthew Malowuj Marcin_Martin Maslaw Mateusz_Matthew Mieszko 
+
+Mikolaj_Nicholas Milobrat Milosz_Milosz Miroslaw_Miroslav Msciwoj Mszczuj Nadbor Niezamysl Odon_Otto Pawel_Paul 
+
+Pelka
+			Piotr_Peter Piskla Prendota Przemyslaw_Premysl Przybor Sambor Sedziej Sedzimir Sieciech 
+
+Siemomysl Siemowit Skarbimir Snowid Spytko Stanislaw_Stanislav
+			Stefan_Stephen Stoigniew Strasz Sulislaw Sulistryj Swietopelk_Svatopluk Swietoslaw_Sviatoslav 
+
+Szczesny_Felix Tomasz_Thomas Trojden Twardomir Usciech Waclaw_Vaclav Wanko_Vaclav Wawrzyniec_Laurence
+			Wielislaw Wieslaw Wincenty_Vincent Wit_Guy Witosz Wladyslaw_Vladislav Wojciech_Albert 
+
+Wojuta Wszebor_Vsebor Zbigniew_Zbynek Zbyszko_Zbynek Zegota_Ignatius Zelibrat
+			Zygmunt_Sigmund
+		}
+		female_names = {
+			Adelajda Adleta Agnieszka_Agnes Aldona Anastazja_Anastasia Anna_Anna Beata Bozena 
+
+Danuta Dobrawa Dobronega Elzbieta_Elisabeth Eufemia_Euphemia Eufrozyna Gertruda_Gertrude Grzymislawa
+			Helena_Helen Jadwiga Jolanta_Yolanda Judyta_Judith Katarzyna_Catherine Kazimiera Kenna 
+
+Kinga Konstancja_Constance Krystyna_Christina Kunegunda Lucja_Lucia Ludmila Magdalena_Magdalena Malgorzata 
+
+Maria_Maria
+			Matylda_Matilda Milena Nadzieja Nawoja Pechna Rycheza Ryksa Salomea Samboja Scholastyka 
+
+Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
+			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
+		}
+		from_dynasty_prefix = "of "
+		
+		#male_patronym = "owski"
+		#female_patronym = "owska"
+		#prefix = no
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum 
+
+must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. 
+
+Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	sorbian = {
+		graphical_culture = westernslavicgfx
+		
+		color = { 0.4 0.6 0.55 }
+
+		male_names = {
+			Aleksander_Alexander Andrzej_Andrew Bartosz_Bartolomeus Bezprym Boguchwal Bogumil 
+
+Boleslaw_Boleslav Boncza_Bonifacius Borzyslaw Bozydar_Theodat Borzywoj_Borijov Budziwuj Czcibor_Ctibor Czyrzniech
+			Dalimir Daniel_Daniel Dobieslaw Dobrogost Dobromir Doman Domawuj Dytryk_Thierry 
+
+Eustachy_Eustace Gaudenty Gierolt_Gerald Gniewomir Gniewosz Gosciwuj Goszczon Henryk_Henry Imram
+			Izbor Józef_Joseph Jacek_Hyacinth Jaksa_Jacob Jakub_Jacob Jakusz Jan_John Janislaw_John 
+
+Janko_John Janusz_John Jaroslaw_Jaroslav Jerzy_George Karol_Charles Kazimierz Konrad_Konrad Krystyn_Christian 
+
+Krzeslaw Lambert_Lambert Leszek
+			Maciej_Matthew Macko_Matthew Malowuj Marcin_Martin Maslaw Mateusz_Matthew Mieszko 
+
+Mikolaj_Nicholas Milobrat Milosz_Milosz Miroslaw_Miroslav Msciwoj Mszczuj Nadbor Niezamysl Odon_Otto Pawel_Paul 
+
+Pelka
+			Piotr_Peter Piskla Prendota Przemyslaw_Premysl Przybor Sambor Sedziej Sedzimir Sieciech 
+
+Siemomysl Siemowit Skarbimir Snowid Spytko Stanislaw_Stanislav
+			Stefan_Stephen Stoigniew Strasz Sulislaw Sulistryj Swietopelk_Svatopluk Swietoslaw_Sviatoslav 
+
+Szczesny_Felix Tomasz_Thomas Trojden Twardomir Usciech Waclaw_Vaclav Wanko_Vaclav Wawrzyniec_Laurence
+			Wielislaw Wieslaw Wincenty_Vincent Wit_Guy Witosz Wladyslaw_Vladislav Wojciech_Albert 
+
+Wojuta Wszebor_Vsebor Zbigniew_Zbynek Zbyszko_Zbynek Zegota_Ignatius Zelibrat
+			Zygmunt_Sigmund
+		}
+		female_names = {
+			Adelajda Adleta Agnieszka_Agnes Aldona Anastazja_Anastasia Anna_Anna Beata Bozena 
+
+Danuta Dobrawa Dobronega Elzbieta_Elisabeth Eufemia_Euphemia Eufrozyna Gertruda_Gertrude Grzymislawa
+			Helena_Helen Jadwiga Jolanta_Yolanda Judyta_Judith Katarzyna_Catherine Kazimiera Kenna 
+
+Kinga Konstancja_Constance Krystyna_Christina Kunegunda Lucja_Lucia Ludmila Magdalena_Magdalena Malgorzata 
+
+Maria_Maria
+			Matylda_Matilda Milena Nadzieja Nawoja Pechna Rycheza Ryksa Salomea Samboja Scholastyka 
+
+Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
+			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
+		}
+		from_dynasty_prefix = "of "
+		
+		#male_patronym = "owski"
+		#female_patronym = "owska"
+		#prefix = no
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum 
+
+must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. 
+
+Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	rane = {
+		graphical_culture = westernslavicgfx
+		
+		color = { 0.4 0.6 0.55 }
+
+		male_names = {
+			Aleksander_Alexander Andrzej_Andrew Bartosz_Bartolomeus Bezprym Boguchwal Bogumil 
+
+Boleslaw_Boleslav Boncza_Bonifacius Borzyslaw Bozydar_Theodat Borzywoj_Borijov Budziwuj Czcibor_Ctibor Czyrzniech
+			Dalimir Daniel_Daniel Dobieslaw Dobrogost Dobromir Doman Domawuj Dytryk_Thierry 
+
+Eustachy_Eustace Gaudenty Gierolt_Gerald Gniewomir Gniewosz Gosciwuj Goszczon Henryk_Henry Imram
+			Izbor Józef_Joseph Jacek_Hyacinth Jaksa_Jacob Jakub_Jacob Jakusz Jan_John Janislaw_John 
+
+Janko_John Janusz_John Jaroslaw_Jaroslav Jerzy_George Karol_Charles Kazimierz Konrad_Konrad Krystyn_Christian 
+
+Krzeslaw Lambert_Lambert Leszek
+			Maciej_Matthew Macko_Matthew Malowuj Marcin_Martin Maslaw Mateusz_Matthew Mieszko 
+
+Mikolaj_Nicholas Milobrat Milosz_Milosz Miroslaw_Miroslav Msciwoj Mszczuj Nadbor Niezamysl Odon_Otto Pawel_Paul 
+
+Pelka
+			Piotr_Peter Piskla Prendota Przemyslaw_Premysl Przybor Sambor Sedziej Sedzimir Sieciech 
+
+Siemomysl Siemowit Skarbimir Snowid Spytko Stanislaw_Stanislav
+			Stefan_Stephen Stoigniew Strasz Sulislaw Sulistryj Swietopelk_Svatopluk Swietoslaw_Sviatoslav 
+
+Szczesny_Felix Tomasz_Thomas Trojden Twardomir Usciech Waclaw_Vaclav Wanko_Vaclav Wawrzyniec_Laurence
+			Wielislaw Wieslaw Wincenty_Vincent Wit_Guy Witosz Wladyslaw_Vladislav Wojciech_Albert 
+
+Wojuta Wszebor_Vsebor Zbigniew_Zbynek Zbyszko_Zbynek Zegota_Ignatius Zelibrat
+			Zygmunt_Sigmund
+		}
+		female_names = {
+			Adelajda Adleta Agnieszka_Agnes Aldona Anastazja_Anastasia Anna_Anna Beata Bozena 
+
+Danuta Dobrawa Dobronega Elzbieta_Elisabeth Eufemia_Euphemia Eufrozyna Gertruda_Gertrude Grzymislawa
+			Helena_Helen Jadwiga Jolanta_Yolanda Judyta_Judith Katarzyna_Catherine Kazimiera Kenna 
+
+Kinga Konstancja_Constance Krystyna_Christina Kunegunda Lucja_Lucia Ludmila Magdalena_Magdalena Malgorzata 
+
+Maria_Maria
+			Matylda_Matilda Milena Nadzieja Nawoja Pechna Rycheza Ryksa Salomea Samboja Scholastyka 
+
+Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
+			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
+		}
+		from_dynasty_prefix = "of "
+		
+		#male_patronym = "owski"
+		#female_patronym = "owska"
+		#prefix = no
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum 
+
+must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. 
+
+Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	obodrite = {
+		graphical_culture = westernslavicgfx
+		
+		color = { 0.4 0.6 0.55 }
+
+		male_names = {
+			Aleksander_Alexander Andrzej_Andrew Bartosz_Bartolomeus Bezprym Boguchwal Bogumil 
+
+Boleslaw_Boleslav Boncza_Bonifacius Borzyslaw Bozydar_Theodat Borzywoj_Borijov Budziwuj Czcibor_Ctibor Czyrzniech
+			Dalimir Daniel_Daniel Dobieslaw Dobrogost Dobromir Doman Domawuj Dytryk_Thierry 
 
 Eustachy_Eustace Gaudenty Gierolt_Gerald Gniewomir Gniewosz Gosciwuj Goszczon Henryk_Henry Imram
 			Izbor Józef_Joseph Jacek_Hyacinth Jaksa_Jacob Jakub_Jacob Jakusz Jan_John Janislaw_John 

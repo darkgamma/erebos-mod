@@ -13623,92 +13623,109 @@ e_byzantine = {
 		    set_global_flag = the_lechites
 		    if = { 
 			    limit = {
-                    has_character_flag = polish_ruler
+				    NOT = {
+					    has_global_flag = the_lechites
+					}
 				}
-			    k_lechitic = {
-			        set_name = "Polania"
-				    adjective = "Polish"
+	    		if = { 
+		    	    limit = {
+                        has_character_flag = polish_ruler
+				    }
+    			    k_lechitic = {
+	    		        set_name = "Polania"
+		    		    adjective = "Polish"
+			        }
+				    set_global_flag = polania
 			    }
-			}
-			if = { 
-			    limit = {
-                    has_character_flag = vistulan_ruler
-				}
-			    k_lechitic = {
-			        set_name = "Vistulania"
-				    adjective = "Vistulan"
+    			if = { 
+	    		    limit = {
+                        has_character_flag = vistulan_ruler
+			    	}
+		    	    k_lechitic = {
+			            set_name = "Vistulania"
+				        adjective = "Vistulan"
+			        }
+				    set_global_flag = vistulania
 			    }
-			}
-			if = { 
-			    limit = {
-                    has_character_flag = mazovian_ruler
-				}
-			    k_lechitic = {
-			        set_name = "Mazovia"
-				    adjective = "Mazovian"
+			    if = { 
+			        limit = {
+                        has_character_flag = mazovian_ruler
+				    }
+			        k_lechitic = {
+			            set_name = "Mazovia"
+				        adjective = "Mazovian"
+			        }
+				    set_global_flag = mazovia
 			    }
-			}
-			if = { 
-			    limit = {
-                    has_character_flag = prussian_ruler
-				}
-			    k_lechitic = {
-			        set_name = "Prussia"
-				    adjective = "Prussian"
+			    if = { 
+			        limit = {
+                        has_character_flag = prussian_ruler
+				    }
+			        k_lechitic = {
+			            set_name = "Prussia"
+				        adjective = "Prussian"
+			        }
+				    set_global_flag = prussia
 			    }
-			}
-			if = { 
-			    limit = {
-                    has_character_flag = silesian_ruler
-				}
-			    k_lechitic = {
-			        set_name = "Silesia"
-				    adjective = "Silesian"
+			    if = { 
+			        limit = {
+                        has_character_flag = silesian_ruler
+				    }
+			        k_lechitic = {
+			            set_name = "Silesia"
+				        adjective = "Silesian"
+			        }
+				    set_global_flag = silesia
 			    }
-			}
-			if = { 
-			    limit = {
-                    has_character_flag = kashubian_ruler
-				}
-			    k_lechitic = {
-			        set_name = "Kashubia"
-				    adjective = "Kashubian"
+			    if = { 
+			        limit = {
+                        has_character_flag = kashubian_ruler
+				    }
+			        k_lechitic = {
+			            set_name = "Kashubia"
+				        adjective = "Kashubian"
+			        }
+				    set_global_flag = silesia
 			    }
-			}
-			if = { 
-			    limit = {
-                    has_character_flag = pomeranian_ruler
-				}
-			    k_lechitic = {
-			        set_name = "Pomerania"
-				    adjective = "Pomeranian"
+			    if = { 
+			        limit = {
+                        has_character_flag = pomeranian_ruler
+				    }
+			        k_lechitic = {
+			            set_name = "Pomerania"
+				        adjective = "Pomeranian"
+			        }
+				    set_global_flag = pomerania
 			    }
-			}
-			if = { 
-			    limit = {
-                    has_character_flag = sorbian_ruler
-				}
-			    k_lechitic = {
-			        set_name = "Sorbia"
-				    adjective = "Sorbian"
+			    if = { 
+			        limit = {
+                        has_character_flag = sorbian_ruler
+				    }
+			        k_lechitic = {
+			            set_name = "Sorbia"
+				        adjective = "Sorbian"
+			        }
+				    set_global_flag = sorbia
 			    }
-			}
-			if = { 
-			    limit = {
-                    has_character_flag = rane_ruler
-				}
-			    k_lechitic = {
-			        set_name = "Rania"
-				    adjective = "Rane"
+		 	    if = { 
+			        limit = {
+                        has_character_flag = rane_ruler
+				    }
+			        k_lechitic = {
+			            set_name = "Rania"
+				        adjective = "Rane"
+			        }
+				    set_global_flag = rania
 			    }
-			}
-			if = { 
-			    limit = {
-                    has_character_flag = obodrite_ruler
-				}
-			    k_lechitic = {
-			        set_name = "Obodritia"
-				    adjective = "Obodrite"
+			    if = { 
+			        limit = {
+                        has_character_flag = obodrite_ruler
+				    }
+			        k_lechitic = {
+			            set_name = "Obodritia"
+				        adjective = "Obodrite"
+			        }
+				    set_global_flag = obodritia
 			    }
 			}
 		}
