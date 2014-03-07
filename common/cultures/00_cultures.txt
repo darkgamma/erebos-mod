@@ -3338,6 +3338,7 @@ Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
 			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
 		}
 		from_dynasty_prefix = "of "
+		dukes_called_kings = yes
 		
 		#male_patronym = "owski"
 		#female_patronym = "owska"
@@ -3406,6 +3407,7 @@ Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
 			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
 		}
 		from_dynasty_prefix = "of "
+		dukes_called_kings = yes
 		
 		#male_patronym = "owski"
 		#female_patronym = "owska"
@@ -3474,6 +3476,7 @@ Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
 			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
 		}
 		from_dynasty_prefix = "of "
+		dukes_called_kings = yes
 		
 		#male_patronym = "owski"
 		#female_patronym = "owska"
@@ -3542,6 +3545,7 @@ Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
 			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
 		}
 		from_dynasty_prefix = "of "
+		dukes_called_kings = yes
 		
 		#male_patronym = "owski"
 		#female_patronym = "owska"
@@ -3610,6 +3614,7 @@ Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
 			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
 		}
 		from_dynasty_prefix = "of "
+		dukes_called_kings = yes
 		
 		#male_patronym = "owski"
 		#female_patronym = "owska"
@@ -3678,6 +3683,7 @@ Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
 			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
 		}
 		from_dynasty_prefix = "of "
+		dukes_called_kings = yes
 		
 		#male_patronym = "owski"
 		#female_patronym = "owska"
@@ -3746,6 +3752,7 @@ Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
 			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
 		}
 		from_dynasty_prefix = "of "
+		dukes_called_kings = yes
 		
 		#male_patronym = "owski"
 		#female_patronym = "owska"
@@ -3814,6 +3821,7 @@ Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
 			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
 		}
 		from_dynasty_prefix = "of "
+		dukes_called_kings = yes
 		
 		#male_patronym = "owski"
 		#female_patronym = "owska"
@@ -3882,6 +3890,7 @@ Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
 			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
 		}
 		from_dynasty_prefix = "of "
+		dukes_called_kings = yes
 		
 		#male_patronym = "owski"
 		#female_patronym = "owska"
@@ -3950,6 +3959,7 @@ Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
 			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
 		}
 		from_dynasty_prefix = "of "
+		dukes_called_kings = yes
 		
 		#male_patronym = "owski"
 		#female_patronym = "owska"
@@ -4018,6 +4028,7 @@ Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
 			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
 		}
 		from_dynasty_prefix = "of "
+		dukes_called_kings = yes
 		
 		#male_patronym = "owski"
 		#female_patronym = "owska"
