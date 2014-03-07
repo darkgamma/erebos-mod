@@ -284,6 +284,10 @@ k_monophysite_papacy;The Monophysite Papacy;;;;;;;;;;;;;x
 k_monophysite_papacy_adj;Monophysite;;;;;;;;;;;;;x
 e_caliphate;The Caliphate;;;;;;;;;;;;;x
 e_caliphate_adj;Caliphal;;;;;;;;;;;;;x
+d_contgermanic_reformed;The Germanic Church;;;;;;;;;;;;;x
+d_contgermanic_reformed_adj;Germanic;;;;;;;;;;;;;x
+d_saxon_pagan_reformed;The Saxon Church;;;;;;;;;;;;;x
+d_saxon_pagan_reformed_adj;Saxon;;;;;;;;;;;;;x
 # MERCENARIES
 d_vandal_band;Vandal Band;;;;;;;;;;;;;x
 d_vandal_band_adj;Vandal;;;;;;;;;;;;;x

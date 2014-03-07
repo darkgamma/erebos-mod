@@ -8077,9 +8077,7 @@ e_italia = {
 				b_viterbo = {
 				}
 				b_tusculum = {
-				}
-				b_roma = {
-					pentarchy = yes
+				    pentarchy = yes
 					holy_site = catholic
 					holy_site = orthodox
 					holy_site = nestorian
@@ -8089,6 +8087,8 @@ e_italia = {
 					holy_site = sabellian
 					holy_site = arian
 					holy_site = pagan
+				}
+				b_roma = {
 				}
 				b_tivoli = {
 				}
@@ -22776,6 +22776,8 @@ d_the_vistulans = {
 	allow = {
 		always = no
 	}
+	
+	dignity = 10 # For securing Lechitic mechanic functionality
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
@@ -22783,11 +22785,13 @@ d_the_vistulans = {
 }
 
 d_the_poles = {
-    color = { 190 70 70 }
+    color = { 200 70 70 }
 	
 	allow = {
 		always = no
 	}
+	
+	dignity = 10 # For securing Lechitic mechanic functionality
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
@@ -22795,11 +22799,13 @@ d_the_poles = {
 }
 
 d_the_ranes = {
-    color = { 95 30 30 }
+    color = { 150 30 30 }
 	
 	allow = {
 		always = no
 	}
+	
+	dignity = 10 # For securing Lechitic mechanic functionality
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
@@ -22807,11 +22813,13 @@ d_the_ranes = {
 }
 
 d_the_silesians = {
-    color = { 110 45 45 }
+    color = { 130 60 60 }
 	
 	allow = {
 		always = no
 	}
+	
+	dignity = 10 # For securing Lechitic mechanic functionality
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
@@ -22819,11 +22827,13 @@ d_the_silesians = {
 }
 
 d_the_pomeranians = {
-    color = { 150 90 90 }
+    color = { 240 70 70 }
 	
 	allow = {
 		always = no
 	}
+	
+	dignity = 10 # For securing Lechitic mechanic functionality
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
@@ -22836,6 +22846,8 @@ d_the_obodrites = {
 	allow = {
 		always = no
 	}
+	
+	dignity = 10 # For securing Lechitic mechanic functionality
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
@@ -22843,11 +22855,13 @@ d_the_obodrites = {
 }
 
 d_the_prussians = {
-    color = { 80 30 30 }
+    color = { 160 30 30 }
 	
 	allow = {
 		always = no
 	}
+	
+	dignity = 10 # For securing Lechitic mechanic functionality
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
@@ -22855,11 +22869,13 @@ d_the_prussians = {
 }
 
 d_the_kashubians = {
-    color = { 220 150 150 }
+    color = { 220 120 120 }
 	
 	allow = {
 		always = no
 	}
+	
+	dignity = 10 # For securing Lechitic mechanic functionality
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
@@ -22867,11 +22883,13 @@ d_the_kashubians = {
 }
 
 d_the_sorbs = {
-    color = { 40 0 0 }
+    color = { 80 0 0 }
 	
 	allow = {
 		always = no
 	}
+	
+	dignity = 10 # For securing Lechitic mechanic functionality
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
@@ -22884,6 +22902,8 @@ d_the_mazovians = {
 	allow = {
 		always = no
 	}
+	
+	dignity = 10 # For securing Lechitic mechanic functionality
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
