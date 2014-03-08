@@ -6227,7 +6227,7 @@ pagan_subjugation = {
 			religion = contgermanic_pagan
 			religion = saxon_pagan
 			religion = west_african_pagan
-		}
+		    }
 			NOT = { religion = aztec }
 			NOT = { same_realm = FROM }
 			NOT = { is_liege_or_above = FROM }
@@ -6945,15 +6945,19 @@ pagan_holy_war = {
 
 	can_use = {
 		ROOT = {
-			OR = {
-				religion = norse_pagan_reformed
-				religion = tengri_pagan_reformed
-				religion = baltic_pagan_reformed
-				religion = slavic_pagan_reformed
-				religion = finnish_pagan_reformed
-				religion = aztec_reformed
-				religion = aztec
-				religion = west_african_pagan_reformed
+			NOT = {
+			    OR = {
+			        religion = slavic_pagan
+		        	religion = baltic_pagan
+			        religion = finnish_pagan
+        			religion = norse_pagan
+			        religion = hellenic_pagan
+			        religion = tengri_pagan
+			        religion = arab_pagan
+			        religion = contgermanic_pagan
+			        religion = saxon_pagan
+			        religion = west_african_pagan
+		        }
 			}
 			NOT = { same_realm = FROM }
 			NOT = { religion = FROM }
