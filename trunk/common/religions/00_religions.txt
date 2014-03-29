@@ -3,7 +3,7 @@ maculist = {
 	graphical_culture = westerngfx
 	crusade_cb = crusade
 	playable = yes
-	pacifist = yes # Will make Hordes lose their super aggressiveness
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 	
 	male_names = {
 		Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace George Gregory 
@@ -24,8 +24,9 @@ maculist = {
 		icon = 1
 		heresy_icon = 6
 		
-		crusade_name = "CRUSADE"
+		crusade_name = CRUSADE
 		scripture_name = THE_WORD_OF_JOHN
+		priest_title = PRIEST
 		
 		god_names = {
 			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_MARY PROPHET_JOHN
@@ -47,8 +48,9 @@ maculist = {
 		
 		color = { 0.8 0.3 0.7 }
 		
-		crusade_name = "CRUSADE"
+		crusade_name = CRUSADE
 		scripture_name = THE_WORD_OF_GOD
+		priest_title = PRIEST
 		god_names = {
 			GOD_RAPTURED_JESUS GOD_JESUS GOD_RAPTURE GOD_THE_RAPTURED
 		}
@@ -71,8 +73,9 @@ maculist = {
 		icon = 1
 		heresy_icon = 6
 		
-		crusade_name = "CRUSADE"
+		crusade_name = CRUSADE
 		scripture_name = THE_WORD_OF_MARCUS
+		priest_title = PRIEST
 		
 		god_names = {
 			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_MARY PROPHET_MARCUS
@@ -90,7 +93,7 @@ immaculist = {
 	graphical_culture = westerngfx
 	crusade_cb = crusade
 	playable = yes
-	pacifist = yes # Will make Hordes lose their super aggressiveness
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 	
 	male_names = {
 		Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace George Gregory 
@@ -113,9 +116,11 @@ immaculist = {
 		
 		crusade_name = CRUSADE
 		scripture_name = THE_BIBLE
+		priest_title = PRIEST
 		god_names = {
 			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
 		}
+		priest_title = PRIEST
 		
 		# investiture = yes
 		autocephaly = no
@@ -161,6 +166,7 @@ immaculist = {
 		
 		crusade_name = CRUSADE
 		scripture_name = THE_BIBLE
+		priest_title = PRIEST
 		
 		god_names = {
 			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
@@ -187,6 +193,8 @@ immaculist = {
 		color = { 0.5 0.2 0.4 }
 		parent = orthodox
 		
+		priest_title = PRIEST
+		
 		religious_clothing_head = 2
 		religious_clothing_priest = 2
 	}
@@ -199,6 +207,8 @@ immaculist = {
 		
 		color = { 0.8 0.3 0.5 }
 		parent = orthodox
+		
+		priest_title = PRIEST
 		
 		investiture = no
 		autocephaly = yes
@@ -220,6 +230,8 @@ immaculist = {
 		
 		color = { 0.5 0 0.3 }
 		parent = orthodox
+		
+		priest_title = PRIEST
 		
 		investiture = no
 		autocephaly = yes
@@ -245,6 +257,7 @@ immaculist = {
 		
 		crusade_name = CRUSADE
 		scripture_name = THE_BIBLE
+		priest_title = PRIEST
 		
 		god_names = {
 			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
@@ -270,6 +283,7 @@ immaculist = {
 		
 		color = { 0.8 0.4 0.1 }
 		parent = miaphysite
+		priest_title = PRIEST
 		
 		investiture = no
 		autocephaly = yes
@@ -294,6 +308,7 @@ immaculist = {
 		god_names = {
 			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
 		}
+		priest_title = PRIEST
 		
 		color = { 0.4 0.5 0.7 }
 		
@@ -320,6 +335,7 @@ immaculist = {
 		god_names = {
 			GOD_GOD GOD_THE_LORD
 		}
+		priest_title = PRIEST
 		
 		color = { 0.5 0.7 0.9 }
 		
@@ -348,6 +364,7 @@ muslim = {
 	male_names = {
 		Abbas Abdul Abdullah Abolhassan Abu-Bakr Ahmad Akbar Allahyar Ali Ali-Fay Ali-Kolon Ali-Zalil Hasan Hossein Hussayn Ismail Mahmud Muammar Muhammad
 	}
+	priest_title = PRIEST
 	
 	sunni = {
 		graphical_culture = muslimgfx
@@ -376,6 +393,7 @@ muslim = {
 
 		icon = 3
 		heresy_icon = 8
+		priest_title = PRIEST
 		
 		color = { 0.2 0.6 0.2 }
 		parent = sunni
@@ -390,6 +408,7 @@ muslim = {
 
 		icon = 3
 		heresy_icon = 8
+		priest_title = PRIEST
 		
 		color = { 0.1 0.7 0.1 }
 		parent = sunni
@@ -404,6 +423,7 @@ muslim = {
 
 		icon = 3
 		heresy_icon = 8
+		priest_title = PRIEST
 		
 		color = { 0.3 0.6 0.3 }
 	#	parent = sunni
@@ -430,6 +450,7 @@ hellenic_pagan_group = {
 		god_names = {
 			GOD_JUPITER GOD_MERCURY GOD_MARS GOD_VENUS GOD_MINERVA GOD_VESTA
 		}
+		priest_title = PRIEST
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_LEGENDS
 		priests_can_marry = yes
@@ -455,6 +476,7 @@ arab_pagan_group = {
 		god_names = {
 			GOD_THE_SPIRITS GOD_THE_ANCESTORS
 		}
+		priest_title = PRIEST
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_LEGENDS
 		priests_can_marry = yes
@@ -483,6 +505,7 @@ germanic_group = {
 		Aslaug Bothild Björg Freja Grima Gytha Kráka Malmfrid Thora Thordis Thyra Ragnfrid Ragnhild Svanhild Ulvhilde
 	}
 	
+	
 	contgermanic_reformed = {
 		graphical_culture = norsegfx
 
@@ -493,6 +516,7 @@ germanic_group = {
 		god_names = {
 			GOD_WOTAN GOD_DONAR GOD_FROUWA GOD_WIRD GOD_SONNA GOD_ZIU
 		}
+		priest_title = PRIEST
 		
 		unit_modifier = {
 			levy_size = 0.25
@@ -532,6 +556,7 @@ germanic_group = {
 		god_names = {
 			GOD_WODAN GOD_DONAR GOD_FROUWA GOD_IRMIN GOD_SONNA GOD_TIU
 		}
+		priest_title = PRIEST
 		
 		unit_modifier = {
 			levy_size = 0.3
@@ -572,6 +597,7 @@ germanic_group = {
 		god_names = {
 			GOD_WODAN GOD_DONAR GOD_FROUWA GOD_IRMIN GOD_SONNA GOD_TIU
 		}
+		priest_title = PRIEST
 		
 		unit_modifier = {
 			levy_size = 0.25
@@ -607,6 +633,7 @@ germanic_group = {
 		god_names = {
 			GOD_WOTAN GOD_DONAR GOD_FROUWA GOD_WIRD GOD_SONNA GOD_ZIU
 		}
+		priest_title = PRIEST
 		
 		unit_modifier = {
 			levy_size = 0.25
@@ -653,6 +680,7 @@ germanic_group = {
 			
 			key = "OFF_RELIGION"
 		}
+		priest_title = PRIEST
 		
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_SAGAS
@@ -696,6 +724,7 @@ germanic_group = {
 			key = "OFF_RELIGION"
 		}
 		
+		priest_title = PRIEST
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_SAGAS
 		priests_can_marry = yes
@@ -738,6 +767,7 @@ tengri_group = {
 		god_names = {
 			GOD_TENGRI GOD_ERLIK_KHAN GOD_TUNG-AK
 		}
+		priest_title = PRIEST
 		
 		unit_modifier = {
 			levy_size = 0.3
@@ -783,6 +813,7 @@ tengri_group = {
 			key = "tengri_pagan"
 		}
 	
+		priest_title = PRIEST
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_LEGENDS
 		priests_can_marry = yes
@@ -819,6 +850,7 @@ baltic_group = {
 		god_names = {
 			GOD_DIEVAS GOD_GABIJA GOD_PERKUNAS GOD_LAIMA 
 		}
+		priest_title = PRIEST
 		
 		can_call_crusade = yes
 		
@@ -865,6 +897,7 @@ baltic_group = {
 		god_names = {
 			GOD_DIEVAS GOD_GABIJA GOD_PERKUNAS GOD_LAIMA
 		}
+		priest_title = PRIEST
 		
 		unit_modifier = {		
 			garrison_size = 0.3
@@ -918,6 +951,7 @@ uralic_group = {
 		god_names = {
 			GOD_UKKO GOD_PERKELE GOD_JUMI GOD_THE_GREAT_BEAR GOD_KUU GOD_TAPIO GOD_TAARA GOD_OMOL GOD_MASTOR_AVA
 		}
+		priest_title = PRIEST
 		
 		can_call_crusade = yes
 		
@@ -966,6 +1000,7 @@ uralic_group = {
 		god_names = {
 			GOD_UKKO GOD_PERKELE GOD_JUMI GOD_THE_GREAT_BEAR GOD_KUU GOD_TAPIO GOD_TAARA GOD_OMOL GOD_MASTOR_AVA
 		}
+		priest_title = PRIEST
 		
 		unit_modifier = {		
 			garrison_size = 0.4
@@ -1016,6 +1051,7 @@ aztec_group = {
 		god_names = {
 			GOD_HUITZILOPOCHTLI GOD_XIPE_TOTEC GOD_TEZCATLIPOCA GOD_QUETZALCOATL GOD_MICTLANTECUHTLI GOD_TLALOC
 		}
+		priest_title = PRIEST
 		
 		unit_modifier = {
 			levy_size = 0.3
@@ -1042,6 +1078,7 @@ aztec_group = {
 		god_names = {
 			GOD_HUITZILOPOCHTLI GOD_XIPE_TOTEC GOD_TEZCATLIPOCA GOD_QUETZALCOATL GOD_MICTLANTECUHTLI GOD_TLALOC
 		}
+		priest_title = PRIEST
 		
 		unit_modifier = {
 			levy_size = 0.3
@@ -1082,6 +1119,7 @@ slavic_group = {
 		god_names = {
 			GOD_PERUN GOD_VELES GOD_JARILO GOD_SVAROG GOD_TRIGLAV GOD_RADEGAST
 		}
+		priest_title = PRIEST
 		
 		unit_modifier = {		
 			garrison_size = 0.2
@@ -1128,6 +1166,7 @@ slavic_group = {
 		god_names = {
 			GOD_PERUN GOD_VELES GOD_JARILO GOD_SVAROG GOD_TRIGLAV GOD_RADEGAST
 		}
+		priest_title = PRIEST
 		
 		unit_modifier = {		
 			garrison_size = 0.3
@@ -1276,6 +1315,7 @@ zoroastrian_group = {
 	male_names = {
 		Hormazd Maziar Shapur Vandad Zartosht
 	}
+	priest_title = PRIEST
 
 	zoroastrian = {
 		graphical_culture = persiangfx
@@ -1313,6 +1353,7 @@ zoroastrian_group = {
 		color = { 0.3 0.65 0.25 }
 		
 		scripture_name = THE_GATHAS
+		priest_title = PRIEST
 		
 		god_names = {
 			GOD_ZURVAN GOD_AHURA_MAZDA GOD_MANAH PROPHET_ZOROASTER 
@@ -1335,6 +1376,7 @@ zoroastrian_group = {
 		color = { 0.65 0.3 0.25 }
 		
 		scripture_names = THE_AKA_AVESTA
+		priest_title = PRIEST
 		
 		god_names = {
 			GOD_ANGRA GOD_AKA GOD_ACHISTA GOD_AESHMA
