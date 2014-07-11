@@ -16,7 +16,7 @@ b_borama = city
 #b_lughaya = castle
 
 # Misc
-culture = ethiopian
+culture = somali
 religion = sunni
 
 # History
