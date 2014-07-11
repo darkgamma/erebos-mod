@@ -1,0 +1,4 @@
+900.1.1={
+	liege = "d_vastergotland"
+	holder = 1000011 # Bjarni Eiríking
+}

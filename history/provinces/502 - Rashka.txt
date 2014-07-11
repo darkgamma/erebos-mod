@@ -1,0 +1,22 @@
+# 502 - Rashka
+
+# County Title
+title = c_rashka
+
+# Settlements
+max_settlements = 4
+b_ras = castle
+b_prizren = city
+b_decani = temple
+
+#b_svetispas = castle
+#b_trepca = castle
+#b_zvecan = castle
+#b_djakovica = castle
+#b_polog = castle
+
+# Misc
+culture = southslavic
+religion = slavic_pagan
+903.1.1 = { }
+ 

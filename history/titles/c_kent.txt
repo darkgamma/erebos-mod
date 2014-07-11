@@ -1,0 +1,4 @@
+900.1.1 = {
+	liege = "d_kent"
+	holder = 2000005 # Sæxbald, Sæxbald, you're my Sæxbald!
+}

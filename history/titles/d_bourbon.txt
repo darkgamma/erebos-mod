@@ -1,0 +1,4 @@
+900.1.1 = {
+	holder = 5000002 # Hildeprand Helmarker
+	liege = e_gaul
+}

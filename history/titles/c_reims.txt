@@ -1,0 +1,4 @@
+900.1.1 = {
+	liege = d_champagne
+	holder = 13000012 # Kristof Meroving
+}

@@ -1,0 +1,4 @@
+900.1.1={
+	holder = 6000007 # Barjik Karanid
+	liege = "e_avaria"
+}

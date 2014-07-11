@@ -1,0 +1,4 @@
+900.1.1 = {
+	liege = k_cartaginensis
+	holder = 15000003 # Mbar ku Valencia
+}

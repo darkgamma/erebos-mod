@@ -1,0 +1,38 @@
+# 333 - Roma
+
+# County Title
+title = c_roma
+
+# Settlements
+max_settlements = 7
+b_roma = castle
+b_tusculum = temple
+b_viterbo = city
+#b_terracina = castle
+b_tivoli = castle
+#b_aragni = castle
+#b_ostia = castle
+#b_sutri = castle
+
+# Misc
+culture = italian
+religion = catholic
+
+# History
+
+900.1.1 = { 
+	b_roma = ca_keep_1
+	b_roma = ca_stable_1
+	b_roma = ca_militia_barracks_1
+	b_roma = ca_wall_1
+	b_roma = ca_wall_2
+	b_roma = ca_shipyard_1
+	b_roma = ca_shipyard_2
+	b_tusculum = tp_monastery_1
+	b_tusculum = tp_monastery_2
+	b_tusculum = tp_barracks_1
+	b_tusculum = tp_wall_1
+	b_tusculum = tp_town_1
+}
+# History
+903.1.1 = { }

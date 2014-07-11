@@ -1,0 +1,3 @@
+900.1.1={
+	holder = 6000008 # Imre Lampert
+}

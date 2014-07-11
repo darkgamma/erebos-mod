@@ -1,0 +1,21 @@
+# 361 - Niederbayern
+
+# County Title
+title = c_niederbayern
+
+# Settlements
+max_settlements = 4
+b_wittelsbach = castle
+b_regensburg = temple
+b_landshut = city
+
+#b_ingolstadt = city
+#b_rohrbach = castle
+#b_cham = castle
+#b_kirchroth = castle
+
+# Misc
+culture = bavarian
+religion = contgermanic
+# History
+903.1.1 = { }

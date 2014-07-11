@@ -1,0 +1,24 @@
+# 796 - Cairo
+
+# County Title
+title = c_cairo
+
+# Settlements
+max_settlements = 7
+b_fustat = castle
+b_memphis = temple
+b_heliopolis = city
+b_helwan = castle
+b_maadi = castle
+
+#b_cairo = castle
+#b_tekkekyahudiyya = castle
+#b_merimdabenisalama = castle
+
+# Misc
+culture = coptic
+religion = miaphysite
+
+# History
+
+903.1.1 = {}

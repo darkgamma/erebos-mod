@@ -1,0 +1,23 @@
+# 214 - Toulouse
+
+# County Title
+title = c_toulouse
+
+# Settlements
+max_settlements = 5
+b_toulouse = castle
+b_lavaur = temple
+b_muret = city
+
+#b_castelnaudary = castle
+#b_montauban = city
+#b_lombez = temple
+#b_hautpoul = castle
+#b_muret = city
+#b_montgiscard = castle
+
+#Misc
+religion = marcinian
+culture = burgundian
+903.1.1 = { }
+ 

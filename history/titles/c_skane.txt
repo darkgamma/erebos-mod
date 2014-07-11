@@ -1,0 +1,4 @@
+900.1.1={
+	liege = "d_skane"
+	holder = 1000005 # Halfdann af Hammershús
+}

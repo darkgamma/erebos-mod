@@ -1,0 +1,4 @@
+900.1.1 = {
+	liege = d_bavaria
+	holder = 13000003 # Guntram von Bayern
+}

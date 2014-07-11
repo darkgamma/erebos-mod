@@ -1,0 +1,24 @@
+# 618 - Guryev
+
+# County Title
+title = c_guryev
+
+# Settlements
+max_settlements = 4
+
+b_atyrau = castle
+b_sarayjuk = city
+b_yesmakan = temple
+
+#b_zhanakush = castle
+#b_karabatyr = castle
+#b_mantyube = castle
+#b_besikty = castle
+#b_birlik = castle
+
+# Misc
+culture = khazar
+religion = ibadi
+
+# History
+903.1.1 = {}
