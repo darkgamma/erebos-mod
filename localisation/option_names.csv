@@ -1,0 +1,22 @@
+HSBASSING;This is an ai-only event. Not cool of you to be seeing it. Report this to me immediately, no hesitation.;;;;;;;;;;;;;x
+AI_ONLY;This is an ai-only event. Not cool of you to be seeing it. Report this to me immediately, no hesitation.;;;;;;;;;;;;;x
+BLOODCOUNT;Does knowledge harm us more than mere absence of it?;;;;;;;;;;;;;x
+
+EVTDESCHSA.1;You never paid much attention what your blood was. Such trivialities clogged the minds of ancient doctors and scribes, writers wrote of that more than a thousand years prior. The topic faded away into obscurity when Old Rome fell.;;;;;;;;;;;;;x
+
+EVTOPTAHSA.1;My blood's just the regular.;;;;;;;;;;;;;x
+EVTOPTBHSA.1;I never knew the colour of my blood!;;;;;;;;;;;;;x
+
+add_hsbred;You bleed red when cut.;;;;;;;;;;;;;x
+add_hsbbronze;When pricked, you bleed bronze.;;;;;;;;;;;;;x
+
+EVTDESCBCO.1;As all men bleed alike, they differ in how much. Some can die from the smallest nicks and bruises, others can survive deep, mortal gashes. It differs from man to man, yes, but it also differs from hue to hue.;;;;;;;;;;;;;x
+EVTDESCBCO.2;Old wounds heal and make room for new ones to take form and shape. Illnesses pass us by as we heal of them and we're hammered into health. A good constitution is a man's best friend, for neither he will betray himself nor shall he as often be betrayed, if he is strong of wit and of heart.;;;;;;;;;;;;;x
+
+bco.1n;Let us hope such knowledge never becomes of use, as evil stems from such knowledge alone.;;;;;;;;;;;;;x
+
+EVTDESCBARM;As you see the blood pour out of the ritual cut, your vision fogs and a feeling of unnatural, unholy warmth runs up inside your limbs and burns in your chest.;;;;;;;;;;;;;x
+BARMBLEED;Each cut oozes blood as the shadows cackle and the fires dance.
+BARMc;The blood is evil the moment you shed it, but the more you shed, the more the Darkness wants.;;;;;;;;;;;;;x
+HEALING;You heal, surely if not swiftly, and that is all that matters.;;;;;;;;;;;;;x
+HEALINGTEXT;You awake stronger as the mornings number, feeling more invogourated than yesterday. Good health also brings good feelings.;;;;;;;;;;;;;x

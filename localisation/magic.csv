@@ -1,0 +1,42 @@
+hema_1;Hemalurgist;;;;;;;;;;;;;x
+hema_2;Hemalurgist;;;;;;;;;;;;;;x
+hema_3;Hemalurgist;;;;;;;;;;;;;;x
+hema_4;Hemalurgist;;;;;;;;;;;;;;x
+
+hema_1_desc;This character knows how to work blood and magic. The arcane arts take years to learn and decades to hone and perfect - it is no wonder that hemalurgy is a rare art. Men privy to the meanings behind the bloodthirsty whispers are reluctant to share them. This makes hemalurgists both extremely dangerous and in high demand. Just remember: he whom the gods love dies young.;;;;;;;;;;;;;;x
+hema_2_desc;This character knows how to work blood and magic. The arcane arts take years to learn and decades to hone and perfect - it is no wonder that hemalurgy is a rare art. Men privy to the meanings behind the bloodthirsty whispers are reluctant to share them. This makes hemalurgists both extremely dangerous and in high demand. Just remember: he whom the gods love dies young.;;;;;;;;;;;;;;x
+hema_3_desc;This character knows how to work blood and magic. The arcane arts take years to learn and decades to hone and perfect - it is no wonder that hemalurgy is a rare art. Men privy to the meanings behind the bloodthirsty whispers are reluctant to share them. This makes hemalurgists both extremely dangerous and in high demand. Just remember: he whom the gods love dies young.;;;;;;;;;;;;;;x
+hema_4_desc;This character knows how to work blood and magic. The arcane arts take years to learn and decades to hone and perfect - it is no wonder that hemalurgy is a rare art. Men privy to the meanings behind the bloodthirsty whispers are reluctant to share them. This makes hemalurgists both extremely dangerous and in high demand. Just remember: he whom the gods love dies young.;;;;;;;;;;;;;;x
+
+decision_open_magic_window;Open Magic;;;;;;;;;;;;;;x
+decision_open_magic_window_desc;Use this decision to see what magic-related decisions are available to be taken.;;;;;;;;;;;;;;x
+decision_close_magic_window;Close Magic;;;;;;;;;;;;;;x
+decision_close_magic_window_desc;Return to the normal decisions;;;;;;;;;;;;;;x
+decision_employ_hemalurgists;Employ Hemalurgists;;;;;;;;;;;;;;x
+decision_employ_hemalurgists_desc;Employ a hemalurgist team to assist you with all matters arcane.;;;;;;;;;;;;;;x
+
+decision_go_bloodworks;Descend into the Bloodworks;;;;;;;;;;;;;;x
+decision_go_bloodworks_desc;Descend into the bloodworks spanning below your castle.;;;;;;;;;;;;;;x
+decision_return_bloodworks;Return;;;;;;;;;;;;;;x
+decision_return_bloodworks_desc;Return.;;;;;;;;;;;;;;x
+
+decision_call_hemalurgists;Call Hemalurgists;;;;;;;;;;;;;;x
+
+title_hemalurgist_main;Lord Hemalurgist;;;;;;;;;;;;;;x
+remove_hemalurgist_main;Dismiss Hemalurgist;;;;;;;;;;;;;;x
+title_hemalurgist_help;Assistant Hemalurgist;;;;;;;;;;;;;;x
+remove_hemalurgist_help;Dismiss Hemalurgist;;;;;;;;;;;;;;x
+
+ARM.1TOOL;Summon your head hemalurgist to assist you.;;;;;;;;;;;;;;x
+ARM.1-summons;Call the hemalurgist and tell him to prepare what he needs.;;;;;;;;;;;;;;x
+ARM.1;The Prelude;;;;;;;;;;;;;;x
+EVTDESCARM.1;From birth you've been told magic is dangerous, magic is strong. As much as it is a tool stronger than imagination, it is a liability unlike anything else. You've already called your head hemalurgist to you and are awaiting his knock any moment now, but you know you can back out of this any time you want - you haven't even started the process, after all. If you want to stop, the best time for that would be about now as backing away now, as opposed to later, carries no risk.;;;;;;;;;;;;;;x
+NOTARM.1;Now that I think of this, it might not be such a good idea after all.;;;;;;;;;;;;;;x
+ARM.1-summons;A faint tap rings out and the doors creak softly as they open...;;;;;;;;;;;;;;x
+
+opinion_coyshit;Defiant;;;;;;;;;;;;;;x
+
+ca_bloodworks_1;The Bloodworks;;;;;;;;;;;;;;x
+ca_bloodworks_2;The Antechamber;;;;;;;;;;;;;;x
+ca_bloodworks_1_desc;The bloodworks sit below the body of the castle. Not a sound escapes the thick doors.;;;;;;;;;;;;;;x
+ca_bloodworks_2_desc;A reckoning cannot be postponed indefinitely. The bill is almost due.;;;;;;;;;;;;;;x

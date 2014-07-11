@@ -1,0 +1,46 @@
+count_tengri_pagan;Chief;;;;;;;;;;;;;x
+count_tengri_pagan_female;Chieftess;;;;;;;;;;;;;x
+county_of_tengri_pagan;Chiefdom of;;;;;;;;;;;;;x
+county_tengri_pagan;Chiefdom;;;;;;;;;;;;;x
+duke_tengri_pagan;High Chief;;;;;;;;;;;;;x
+duke_tengri_pagan_female;High Chieftess;;;;;;;;;;;;;x
+duchy_of_tengri_pagan;High Chiefdom of;;;;;;;;;;;;;x
+duchy_tengri_pagan;High Chiefdom;;;;;;;;;;;;;x
+count_slavic_pagan;Chief;;;;;;;;;;;;;x
+count_slavic_pagan_female;Chieftess;;;;;;;;;;;;;x
+county_of_slavic_pagan;Chiefdom of;;;;;;;;;;;;;x
+county_slavic_pagan;Chiefdom;;;;;;;;;;;;;x
+duke_slavic_pagan;High Chief;;;;;;;;;;;;;x
+duke_slavic_pagan_female;High Chieftess;;;;;;;;;;;;;x
+duchy_of_slavic_pagan;High Chiefdom of;;;;;;;;;;;;;x
+duchy_slavic_pagan;High Chiefdom;;;;;;;;;;;;;x
+count_finnish_pagan;Chief;;;;;;;;;;;;;x
+count_finnish_pagan_female;Chieftess;;;;;;;;;;;;;x
+county_of_finnish_pagan;Chiefdom of;;;;;;;;;;;;;x
+county_finnish_pagan;Chiefdom;;;;;;;;;;;;;x
+duke_finnish_pagan;High Chief;;;;;;;;;;;;;x
+duke_finnish_pagan_female;High Chieftess;;;;;;;;;;;;;x
+duchy_of_finnish_pagan;High Chiefdom of;;;;;;;;;;;;;x
+duchy_finnish_pagan;High Chiefdom of;;;;;;;;;;;;;x
+count_baltic_pagan;Chief;;;;;;;;;;;;;x
+count_baltic_pagan_female;Chieftess;;;;;;;;;;;;;x
+county_of_baltic_pagan;Chiefdom of;;;;;;;;;;;;;x
+county_baltic_pagan;Chiefdom of;;;;;;;;;;;;;x
+duke_baltic_pagan;High Chief;;;;;;;;;;;;;x
+duke_baltic_pagan_female;High Chieftess;;;;;;;;;;;;;x
+duchy_of_baltic_pagan;High Chiefdom of;;;;;;;;;;;;;x
+duchy_baltic_pagan;High Chiefdom;;;;;;;;;;;;;x
+count_norse_pagan;Chief;;;;;;;;;;;;;x
+count_norse_pagan_female;Chieftess;;;;;;;;;;;;;x
+county_of_norse_pagan;Chiefdom of;;;;;;;;;;;;;x
+county_norse_pagan;Chiefdom;;;;;;;;;;;;;x
+count_cuman;Bey;;;;;;;;;;;;;x
+count_cuman_female;Bayan;;;;;;;;;;;;;x
+county_of_cuman;Beylik of;;;;;;;;;;;;;x
+county_cuman;Beylik;;;;;;;;;;;;;x
+duke_cuman;Beylerbey;;;;;;;;;;;;;x
+duke_cuman_female;Beylerbayan;;;;;;;;;;;;;x
+duchy_of_cuman;Beylerbeylik of;;;;;;;;;;;;;x
+duchy_cuman;Beylerbeylik;;;;;;;;;;;;;x
+CATHOLIC_POPE;Catholic Pope;;;;;;;;;;;;;x
+MIAPHYSITE_POPE;Miaphysite Pope;;;;;;;;;;;;;x
