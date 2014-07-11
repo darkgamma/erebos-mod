@@ -1,0 +1,12 @@
+13000001 = {
+	name = "Redbad"
+	dynasty = 13000001 # van Fryslan
+	
+	add_trait = brave
+	add_trait = zealous
+	
+	culture = frisian
+	religion = saxon_pagan
+	
+	874.1.1 = { birth = 874.1.1 }
+}

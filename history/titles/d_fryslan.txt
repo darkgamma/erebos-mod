@@ -1,0 +1,4 @@
+900.1.1 = {
+	liege = k_frisia
+	holder = 13000001 # Redbad van Fryslan
+}
