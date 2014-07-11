@@ -16,6 +16,6 @@ b_ambaras = temple
 
 # Misc
 culture = ethiopian # Beta Israel
-religion = jewish
+religion = miaphysite
 
 # History
