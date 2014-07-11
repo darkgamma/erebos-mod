@@ -1,0 +1,23 @@
+# 118 - Trier
+
+# County Title
+title = c_trier
+
+# Settlements
+max_settlements = 4
+b_trier = castle
+b_coblenz = city
+b_sponheim = castle
+b_andernach = temple
+
+#b_wittlich = castle
+#b_gerolstein = castle
+#b_laach = castle
+#b_bitburg = castle
+
+# Misc
+culture = german
+religion = johannist
+
+903.1.1 = { }
+#  

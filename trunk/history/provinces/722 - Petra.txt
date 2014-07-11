@@ -1,0 +1,24 @@
+# 722 - Petra
+
+# County Title
+title = c_petra
+
+# Settlements
+max_settlements = 4
+b_tophel = castle
+b_wadi_musa = city
+b_petra = temple
+
+#b_bozrah = temple
+#b_shoubak = castle
+#b_abdelliya = castle
+#b_hamza = castle
+#b_husseiniya = castle
+
+# Misc
+culture = levantine_arabic
+religion = sunni
+
+# History
+
+903.1.1 = {}

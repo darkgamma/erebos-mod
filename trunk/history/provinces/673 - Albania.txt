@@ -1,0 +1,23 @@
+# 673 - Albania
+
+# County Title
+title = c_albania
+
+# Settlements
+max_settlements = 4
+b_chukhurkabala = castle
+b_ganja = city
+#b_barda = castle
+#b_shaki = temple
+#b_darussoltan = castle
+#b_gelersengorersen = castle
+#b_emli = temple
+#b_kabala = city
+
+# Misc
+culture = armenian
+religion = miaphysite
+
+# History
+500.1.1 = { b_barda = temple }
+903.1.1 = {}

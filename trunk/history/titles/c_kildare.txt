@@ -1,0 +1,8 @@
+840.1.1={
+	holder = 2000011 # Indrechtach ua Indrechtach
+}
+
+862.1.1={
+	holder = 2000012 # Muiretach ua Muiretach
+}
+

@@ -1,0 +1,4 @@
+900.1.1 = {
+	liege = k_mauretaniatingitana
+	holder = 7000002 # Hamad Yuvid
+}

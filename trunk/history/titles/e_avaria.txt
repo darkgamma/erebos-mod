@@ -1,0 +1,4 @@
+884.1.1 = {
+        holder = 6000001 # Timur Araslanid
+		law = elective_succession
+}

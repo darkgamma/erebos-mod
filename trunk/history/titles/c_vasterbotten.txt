@@ -1,0 +1,4 @@
+900.1.1 = {
+	holder = 3000002 # Sárra Ahdo
+	liege = "d_norrland"
+}

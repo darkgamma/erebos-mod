@@ -1,0 +1,33 @@
+# 376 - Ösel and Dagö
+
+# County Title
+title = c_osel
+
+# Settlements
+max_settlements = 4
+b_muhu = castle
+b_kuressare = city
+b_hiiumaa = temple
+
+#b_valjala = castle
+#b_poide = castle
+#b_leisi = castle
+#b_orisaare = castle
+#b_kaarma = castle
+
+# Misc
+culture = ugricbaltic
+religion = finnish_pagan
+
+# History
+
+900.1.1 = {
+    b_muhu = ca_keep_1
+	b_muhu = ca_wall_1
+	b_muhu = ca_wall_2
+	b_muhu = ca_barracks_1
+	b_muhu = ca_shipyard_1
+	b_muhu = ca_shipyard_2
+}
+# History
+903.1.1 = { }

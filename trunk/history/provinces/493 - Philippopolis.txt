@@ -1,0 +1,27 @@
+# 493 - Philippopolis
+
+# County Title
+title = c_philippopolis
+
+# Settlements
+max_settlements = 5
+
+b_philippopolis = castle
+b_klokoknitsa = city
+
+b_xantheia = temple
+
+#b_prodromos = castle
+#b_peritheorion = castle
+#b_anaktoropolis = castle
+#b_polystylon = castle
+#b_mosynopolis = castle
+
+# Misc
+culture = aeolian
+religion = orthodox
+
+ 
+
+903.1.1 = { }
+ 

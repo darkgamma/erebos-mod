@@ -1,0 +1,4 @@
+900.1.1 = {
+	liege = d_bjarmia
+	holder = 3000008 # Saam Ngarid
+}

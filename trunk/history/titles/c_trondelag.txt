@@ -1,0 +1,4 @@
+900.1.1 = {
+	holder = 1000014 # Styrkár Sterksteining
+	liege = "d_trondelag"
+}

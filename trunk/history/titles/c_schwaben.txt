@@ -1,0 +1,4 @@
+900.1.1 = {
+	liege = d_swabia
+	holder = 13000007 # Ludwig Karoling
+}

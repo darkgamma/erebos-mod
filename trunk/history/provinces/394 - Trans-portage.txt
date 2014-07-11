@@ -1,0 +1,24 @@
+# 394 - Trans-portage
+
+# County Title
+title = c_trans-portage
+
+# Settlements
+max_settlements = 3
+b_kargopol = castle
+#b_shenkursk = city
+#b_solovetsky = temple
+
+#b_konosha = castle
+#b_nyandoma = castle
+#b_plesetsk = castle
+#b_samoded = castle
+#b_obozerskiy = castle
+
+# Misc
+culture = samoyed
+religion = finnish_pagan
+
+#PRIMO VICTORIA
+# History
+903.1.1 = { }

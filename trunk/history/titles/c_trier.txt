@@ -1,0 +1,4 @@
+900.1.1 = {
+	holder = 13000008 # Luitpold Karoling
+	liege = k_franconia
+}

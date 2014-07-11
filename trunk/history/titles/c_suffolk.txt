@@ -1,0 +1,4 @@
+900.1.1 = {
+	holder = 2000004 # Wulfþorn
+	liege = "d_bedford"
+}

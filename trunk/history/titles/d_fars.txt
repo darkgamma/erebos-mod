@@ -1,0 +1,4 @@
+900.1.1 = {
+	liege = e_pars
+	holder = 12000002 # Zahak Sassanid
+}

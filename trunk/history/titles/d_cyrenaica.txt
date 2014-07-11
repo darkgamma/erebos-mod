@@ -1,0 +1,4 @@
+900.1.1 = {
+	holder = 7000004 # Athanasios Cyrenaicon
+	liege = k_aegyptus
+}
