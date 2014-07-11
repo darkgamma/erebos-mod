@@ -1,0 +1,59 @@
+15000001 = {
+	name = "Suero"
+	dynasty = 15000001 # Iberra
+	
+	religion = marcinian
+	culture = basque
+	
+	878.1.1 = { birth="878.1.1" }
+}
+
+15000002 = {
+	name = "Bernardo"
+	dynasty = 15000003 # de Malaga
+	
+	religion = catholic
+	culture = castillan
+	
+	871.1.1 = { birth = 871.1.1 }
+}
+
+15000003 = {
+	name = "Mbar"
+	dynasty = 15000004 # ku Valencia
+	
+	religion = catholic
+	culture = paleo
+	
+	874.1.1 = { birth = 874.1.1 }
+}
+
+15000004 = {
+	name = "Carlos"
+	dynasty = 15000005 # de Vale
+	
+	religion = catholic
+	culture = castillan
+	
+	869.1.1 = { birth = 869.1.1 }
+}
+
+15000005 = {
+	name = "Verus"
+	dynasty = 15000002 # Jovius
+	
+	religion = marcinian
+	culture = arevacian
+	
+	872.1.1 = { birth = 872.1.1 }
+}
+
+15000006 = {
+	name = "Sosin"
+	dynasty = 15000006 # ku Bark
+	
+	religion = marcinian
+	culture = paleo
+	
+	869.1.1 = { birth = 869.1.1 }
+}

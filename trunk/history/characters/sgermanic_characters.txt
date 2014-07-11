@@ -1,0 +1,79 @@
+5000001 = {
+	name = "Hroderic"
+	dynasty = 5000001 # Wulfiling
+	
+	religion = arian
+	culture = vandal
+	
+	add_trait = zealous
+	
+	876.1.1 = { birth = 876.1.1  }
+}
+
+5000002 = {
+	name = "Hildeprand"
+	dynasty = 5000002 # Helmarker
+	
+	religion = arian
+	culture = burgundian
+	
+	add_trait = just
+	add_trait = strong
+	
+	add_trait = hsb_yellow
+	
+	dna = "kgbujhcvwhy"
+	
+	874.1.1 = { birth = 874.1.1 }
+}
+
+5000003 = {
+	name = "Fridugis"
+	dynasty = 5000003 # Hedelbrand
+	
+	religion = arian
+	culture = burgundian
+	
+	add_trait = zealous
+	add_trait = naive
+	
+	add_trait = hsb_bronze
+	
+	869.1.1 = { birth = 869.1.1 }
+}
+
+5000004 = {
+	name = "Gundemar"
+	dynasty = 5000004 # Frigaling
+	
+	add_trait = zealous
+	add_trait = just
+	
+	religion = arian
+	culture = gothic
+	
+	879.1.1 = { birth = 879.1.1 }
+}
+
+5000005 = {
+	name = "Odoin"
+	dynasty = 5000005 # Wulfiling
+	
+	add_trait = arbitrary
+	add_trait = hsb_jade
+	
+	religion = orthodox
+	culture = langobard
+	
+	879.1.1 = { birth = 879.1.1 }
+}
+
+5000006 = {
+	name = "Atenulf"
+	dynasty = 5000006 # Meniling
+	
+	religion = orthodox
+	culture = langobard
+	
+	872.1.1 = { birth = 872.1.1 }
+}

@@ -1,0 +1,116 @@
+6000001 = {
+	name="Timur"
+	dynasty= 6000001 # Araslanid
+	
+	religion="tengri_pagan"
+	culture="avar"
+	
+	add_trait="brilliant_strategist"
+	add_trait="wroth" 
+		
+	884.1.1 = { birth="884.1.1" }
+}
+
+6000002 = {
+	name="Attila"
+	dynasty= 6000002 # Attilid
+	
+	religion="tengri_pagan"
+	culture="hungarian"
+	
+    add_trait="ambitious"
+	add_trait="deceitful"
+	
+	878.1.1 = { birth="878.1.1" }
+}
+
+6000003 = {
+	name="Vladimir"
+	dynasty= 6000003 # Zemlinski
+	
+	religion="slavic_pagan"
+	culture="southslavic"
+	
+    add_trait="brave"
+	add_trait="paranoid"
+		
+	880.1.1 = { birth="880.1.1" }
+}
+
+6000004 = {
+	name="Mircea"
+	dynasty= 6000004 # Vlaicescu
+	
+	religion="orthodox"
+	culture="romanian"
+	
+	add_trait="content"
+	add_trait="kind"
+		
+	874.1.1 = { birth="874.1.1" }
+}
+
+6000005 = {
+	name="Radoslav"
+	dynasty= 6000005 # Vukovic
+	
+	religion="slavic_pagan"
+	culture="southslavic"
+		
+	add_trait="scholarly_theologian"
+	add_trait="cynical"
+		
+	887.1.1 = { birth="887.1.1" }
+}
+
+6000006 = {
+	name="Organ"
+	dynasty= 6000006 # Sabinid
+	
+	religion="tengri_pagan"
+	culture="avar"
+	
+    add_trait="lustful"
+	add_trait="gregarious"
+	
+	860.1.1 = { birth="860.1.1" }
+}
+
+6000007 = {
+	name="Barjik"
+	dynasty= 6000007 # Karanid
+	
+	religion="tengri_pagan"
+	culture="avar"
+		
+	add_trait="shy"
+	add_trait="cruel"
+		
+	868.1.1 = { birth="868.1.1" }
+}
+
+6000008 = {
+	name="Imre"
+	dynasty= 6000008 # Lampert
+	
+	religion="tengri_pagan"
+	culture="hungarian"
+		
+    add_trait="fortune_builder"
+	add_trait="envious"
+		
+	877.1.1 = { birth="877.1.1" }
+}
+
+6000009 = {
+	name="Zsolt"
+	dynasty= 6000009 # Lajos
+	
+	religion="tengri_pagan"
+	culture="hungarian"
+	
+    add_trait="just"
+	add_trait="proud"
+	
+	866.1.1 = { birth="866.1.1" }
+}

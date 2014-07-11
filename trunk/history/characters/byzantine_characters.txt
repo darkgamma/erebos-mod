@@ -1,0 +1,182 @@
+9000001 = {
+	name = "Heraklios"
+	dynasty = 9000001 # Kalafatakis
+	
+	add_trait = shy
+	add_trait = homosexual
+	
+	culture = dorian
+	religion = orthodox
+	
+	874.1.1 = { birth = 874.1.1 }
+}
+
+9000002 = {
+	name="Artashir"
+	dynasty= 9000002 # Eshkhani
+	
+	religion="sunni"
+	culture="armenian"
+	
+	878.1.1 = { birth="878.1.1" }
+}
+
+9000003 = {
+	name = "Iorgos"
+	dynasty = 9000003 # Papadopoulos
+	
+	culture = ionian
+	religion = orthodox
+	
+	868.1.1 = { birth = 868.1.1 }
+}
+
+9000004 = {
+	name = "Achileas"
+	dynasty = 9000004 # Iordanopoulos
+	
+	add_trait = zealous
+	add_trait = ambitious
+	add_trait = strong
+	
+	add_trait = hsb_lime
+	
+	culture = dorian
+	religion = hellenic_pagan
+	
+	849.1.1 = { birth = 849.1.1 }
+}
+
+9000005 = {
+	name = "Damianos"
+	dynasty = 9000005 # Tsimiskes
+	
+	add_trait = chaste
+	add_trait = brave
+	
+	culture = dorian
+	religion = orthodox
+	
+	864.1.1 = { birth = 864.1.1 }
+}
+
+9000006 = {
+	name = "Alexandros"
+	dynasty = 9000006 # Dallasenos
+	
+	add_trait = naive_appeaser
+	add_trait = brave
+	add_trait = zealous
+	add_trait = strong
+	add_trait = hsb_lime
+	add_trait = homosexual
+
+	culture = aeolian
+	religion = orthodox
+	
+	father = 9000007 # Damianos Dallasenos
+	mother = 9000008 # Maria Psarou
+	
+	872.1.1 = { birth = 872.1.1 }
+}
+
+9000007 = {
+	name = "Damianos"
+	dynasty = 9000006 # Dallasenos
+	
+	add_trait = brave
+	
+	add_trait = hsb_red
+	
+	culture = aeolian
+	religion = orthodox
+	
+	add_spouse = 9000008 # Maria Psarou
+	
+	844.1.1 = { birth = 844.1.1 }
+	889.1.1 = { death = 889.1.1 }
+}
+
+9000008 = {
+	name = "Maria"
+	dynasty = 9000007 # Psarou
+	
+	add_trait = fair
+	add_trait = hsb_indigo
+	
+	culture = ionian
+	religion = orthodox
+	
+	female = yes
+	
+	854.1.1 = { birth = 854.1.1 }
+	876.1.1 = { death = 876.1.1 }
+}
+
+9000009 = {
+	name = "Iordanes"
+	dynasty = 9000008 # Alexiou
+	
+	add_trait = ambitious
+	add_trait = paranoid
+	
+	culture = aeolian
+	religion = orthodox
+	
+	867.1.1 = { birth = 867.1.1 }
+}
+
+9000010 = {
+	name = "Stefan"
+	dynasty = 9000009 # Markovic
+	
+	add_trait = humble
+	add_trait = wroth
+	
+	culture = southslavic
+	religion = orthodox
+	
+	875.1.1 = { birth = 875.1.1 }
+}
+
+9000011 = {
+	name = "Konstantinos"
+	dynasty = 9000010 # Stephanopoulos
+	
+	culture = aeolian
+	religion = orthodox
+	
+	872.1.1 = { birth = 872.1.1 }
+}
+
+9000012 = {
+	name = "Ivan"
+	dynasty = 9000011 # Arsen
+	
+	culture = bulgarian
+	religion = orthodox
+	
+	866.1.1 = { birth = 866.1.1 }
+}
+
+9000013 = {
+	name = "Markos"
+	dynasty = 9000012 # Dranias
+	
+	culture = dorian
+	religion = orthodox
+	
+	878.1.1 = { birth = 878.1.1 }
+}
+
+9000014 = {
+	name = "Gabrieli"
+	dynasty = 9000013 # Argyros
+	
+	add_trait = content
+	
+	culture = georgian
+	religion = orthodox
+	
+	876.1.1 = { birth = 876.1.1 }
+}
