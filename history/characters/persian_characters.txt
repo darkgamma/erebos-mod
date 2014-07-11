@@ -1,0 +1,41 @@
+12000001 = {
+	name = "Hazarasp"
+	dynasty = 12000001 # Shapid
+	
+	add_trait = zealous
+	add_trait = hajjaj
+	
+	culture = persian
+	religion = sunni
+	
+	888.8.8 = { birth = 888.8.8 }
+}
+
+12000002 = {
+	name = "Zahak"
+	dynasty = 12000002 # Sassanid
+	
+	add_trait = strong
+	add_trait = brave
+	add_trait = deceitful
+	add_trait = paranoid
+	
+	add_trait = hsb_blue
+	
+	culture = persian
+	religion = zoroastrian
+	
+	dna = ibkxsdydbnd
+	
+	869.1.1 = { birth = 869.1.1 }
+}
+
+12000003 = {
+	name = "Hormazd"
+	dynasty = 12000003 # Kartirid
+	
+	culture = persian
+	religion = zurvanist
+	
+	862.1.1 = { birth = 862.1.1 }
+}

@@ -1,0 +1,27 @@
+###########################################################
+###														###
+###					Character Group Codes				###
+###														###
+###		Characters get ID ranges based on their area 	###
+###														###
+###########################################################
+
+###
+### Norse Characters: [ 1XXXXXX ]
+### English, Picts, Scots: [ 2XXXXXX ]
+### Uralic Characters: [ 3XXXXXX ]
+### Gaulish Characters: [4XXXXXX]
+### South Germanic Characters: [5XXXXXX]
+### Avars, South Slavs, Hungarians: [6XXXXXX]
+### African Characters: [7XXXXXX]
+### Arab Characters: [8XXXXXX]
+### Byzantine Characters: [9XXXXXX]
+### Italian Characters: [10XXXXXX]
+### West Slavic Characters: [11XXXXXX]
+### Persian Characters: [12XXXXXX]
+### German Characters: [13XXXXXX]
+### Baltic Characters: [14XXXXXX]
+### Iberian Characters: [15XXXXXX]
+### Russian Characters: [16XXXXXX]
+### Steppe Characters: [17XXXXXX]
+###
