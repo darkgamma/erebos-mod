@@ -1,4 +1,0 @@
-900.1.1 = {
-	liege = d_adrianopolis
-	holder = 9000011 # Konstantinos Stephanopoulos
-}

@@ -1,4 +1,0 @@
-900.1.1 = {
-	liege = k_lusitania
-	holder = 15000005 # Verus Jovius
-}

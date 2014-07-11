@@ -1,3 +1,0 @@
-900.1.1 = {
-	holder = 5000005 # Odoin Wulfiling
-}

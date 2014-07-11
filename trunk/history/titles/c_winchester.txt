@@ -1,4 +1,0 @@
-900.1.1 = {
-	liege = "d_winchester"
-	holder = 2000006 # Mærleswegn
-}

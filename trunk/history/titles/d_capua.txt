@@ -1,4 +1,0 @@
-900.1.1 = {
-	liege = k_napoli
-	holder = 10000001 # Marco di Capua
-}

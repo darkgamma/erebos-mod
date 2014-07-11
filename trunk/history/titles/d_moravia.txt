@@ -1,4 +1,0 @@
-900.1.1 = {
-	liege = k_bohemia
-	holder = 11000011 # Vincent Adeling
-}

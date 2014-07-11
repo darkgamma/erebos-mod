@@ -1,4 +1,0 @@
-900.1.1 = {
-	liege = k_bavaria
-	holder = 13000004 # Wolfgang von Bayern
-}

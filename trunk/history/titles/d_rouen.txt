@@ -1,4 +1,0 @@
-900.1.1 = {
-	liege = k_austrasia
-	holder = 13000019 # Hendrik Meroving
-}

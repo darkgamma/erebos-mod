@@ -1,4 +1,0 @@
-900.1.1 = {
-	liege = k_nubia
-	holder = 7000008 # Kuriakos Alwat
-}

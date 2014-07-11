@@ -1,4 +1,0 @@
-900.1.1 = {
-	liege = k_aegyptus
-	holder = 7000005 # Habil Abukir
-}

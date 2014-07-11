@@ -1,9 +1,0 @@
-4000001 = {
-	name = "mab Eon"
-	culture = breton
-}
-
-4000002 = {
-	name = "mab Gregor"
-	culture = breton
-}

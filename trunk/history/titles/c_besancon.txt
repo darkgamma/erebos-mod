@@ -1,4 +1,0 @@
-900.1.1 = {
-	liege = d_upper_burgundy
-	holder = 5000003 # Fridugis Hedelbrand
-}

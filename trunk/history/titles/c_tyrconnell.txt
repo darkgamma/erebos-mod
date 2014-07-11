@@ -1,5 +1,0 @@
-897.1.1=
-{
-	holder = 2000022 # Iacob ua Pátraic
-	liege = "d_connacht"
-}

@@ -1,4 +1,0 @@
-900.1.1 = {
-	holder = 12000002 # Zahak Sassanid
-	liege = d_fars
-}

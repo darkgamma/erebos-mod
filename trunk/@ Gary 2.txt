@@ -1,2 +1,0 @@
-Next thing is for you to make a test file, add it via right-clicking, and commit it.
-When it prompts for username and password, your username is your GMail address, and your password you'll find here: https://code.google.com/hosting/settings

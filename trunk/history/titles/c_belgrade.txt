@@ -1,4 +1,0 @@
-900.1.1={
-	holder = 6000003 # Vladimir Zemlinski
-	liege = "e_avaria"
-}
