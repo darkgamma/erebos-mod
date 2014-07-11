@@ -16,7 +16,7 @@ b_asayita = castle
 #b_jewaha = castle
 
 # Misc
-culture = somalian
+culture = somali
 religion = sunni
 
 # History
