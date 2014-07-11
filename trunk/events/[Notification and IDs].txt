@@ -1,0 +1,10 @@
+################################################################
+## 															  ##
+## This text file contains the event ID ranges used in Erebos ##
+##															  ##
+################################################################
+
+## HEMO = Hemospectrum assignment on-birth events
+## HSA = Hemospectrum assignment events
+## BCO = Bloodcounting events
+## BARM = Bloodcount arithmetic
