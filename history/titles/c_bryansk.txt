@@ -1,3 +1,0 @@
-900.1.1={
-	holder = 16000003 # Daniil Igorovich
-}

@@ -1,4 +1,0 @@
-900.1.1 = {
-	liege = k_aquitania
-	holder = 5000003 # Fridugis Hedelbrand
-}

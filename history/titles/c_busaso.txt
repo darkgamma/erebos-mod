@@ -1,4 +1,0 @@
-900.1.1 = { 
-	holder = 7000010 # Gutaale Busasas 
-	liege = d_harer
-}

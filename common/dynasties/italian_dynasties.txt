@@ -1,9 +1,0 @@
-10000001 = {
-	name = "di Capua"
-	culture = italian
-}
-
-10000002 = {
-	name = "Binasco"
-	culture = italian
-}

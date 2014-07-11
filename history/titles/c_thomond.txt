@@ -1,4 +1,0 @@
-897.1.1={
-        holder = 2000020 # Fergal ua Áed
-		liege = "d_munster"
-}

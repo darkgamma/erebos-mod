@@ -1,4 +1,0 @@
-900.1.1 = {
-	liege = d_carinthia
-	holder = 5000006 # Atenulf Meniling
-}

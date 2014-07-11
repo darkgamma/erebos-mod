@@ -1,4 +1,0 @@
-897.1.1={
-        holder = 2000018 # Liam ua Donnchad
-		liege = "d_ulster"
-}

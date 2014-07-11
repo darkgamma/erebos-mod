@@ -1,4 +1,0 @@
-900.1.1 = {
-	liege = k_azov
-	holder = 17000001 # Ötemis Birigid
-}

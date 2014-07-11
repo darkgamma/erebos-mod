@@ -1,6 +1,0 @@
-900.1.1={
-	holder = 6000002 # Attila Attilid
-	liege = "e_avaria"
-}
-
-

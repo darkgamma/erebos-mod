@@ -1,7 +1,0 @@
-840.1.1 = {
-	holder = 1000004 # Şórsteinn Orming
-}
-
-882.6.15 = {
-	holder = 1000003 # Hæsteinn Orming
-}

@@ -1,4 +1,0 @@
-900.1.1 = {
-	holder = 1000010 # Helgi Orðalaus
-	liege = "d_ostergotland"
-}
