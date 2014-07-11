@@ -1,0 +1,265 @@
+######################################
+##									##
+##	  Written by PDox/Darkgamma  	##
+##	    ASCII Art by Darkgamma		##
+##	 Version: 0.0a (First Version)	##
+##									##
+######################################
+
+wounded = {
+	is_health = yes
+	
+	opposites =  {
+		maimed
+		wounded_2
+		wounded_3
+		wounded_4
+	}
+	
+	martial = -1
+	health = -1
+}
+
+wounded_2 = {
+	is_health = yes
+	
+	opposites =  {
+		maimed
+		wounded
+		wounded_3
+		wounded_4
+	}
+	
+	martial = -1
+	health = -1
+}
+
+wounded_3 = {
+	is_health = yes
+	
+	opposites =  {
+		maimed
+		wounded_2
+		wounded
+		wounded_4
+	}
+	
+	martial = -1
+	health = -1
+}
+
+wounded_4 = {
+	is_health = yes
+	
+	opposites =  {
+		maimed
+		wounded_2
+		wounded_3
+		wounded
+	}
+	
+	martial = -1
+	health = -1
+}
+
+stressed = {
+	is_health = yes
+	intrigue = -1
+	stewardship = -1
+	health = -1
+	fertility = -0.1
+}
+depressed = {
+	is_health = yes
+	diplomacy = -1
+	stewardship = -1
+	martial = -1
+	intrigue = -1
+	health = -1
+	fertility = -0.05
+}
+lunatic = {
+	is_health = yes
+	# Highly event driven
+	
+	vassal_opinion = -25
+	sex_appeal_opinion = -25
+	same_opinion = 10
+	
+	ai_rationality = -50
+	
+	cost = -10
+}
+possessed = {
+	is_health = yes
+	
+	sex_appeal_opinion = -25
+	same_opinion = 10
+	
+	ai_rationality = -40
+	
+	# Highly event driven
+}
+ill = {
+	is_health = yes
+	is_illness = yes
+	
+	opposites =  {
+		pneumonic
+	}
+	
+	martial = -1
+	health = -2
+	fertility = -0.1
+	
+	customizer = no
+}
+pneumonic = {
+	is_health = yes
+	is_illness = yes
+	
+	opposites =  {
+		ill
+	}
+	
+	diplomacy = -2
+	stewardship = -2
+	martial = -2
+	intrigue = -2
+	learning = -2
+	health = -4
+	fertility = -0.5
+	
+	customizer = no
+}
+syphilitic = {
+	is_health = yes
+	is_illness = yes
+	inherit_chance = 10
+	
+	sex_appeal_opinion = -30
+	
+	diplomacy = -1
+	stewardship = -1
+	martial = -1
+	intrigue = -1
+	learning = -1
+	
+	health = -2
+	fertility = -0.2
+}
+leper = {
+	is_health = yes
+	is_illness = yes
+	diplomacy = -2
+	health = -2
+	fertility = -0.2
+	
+	sex_appeal_opinion = -50
+	same_opinion = 10
+	
+	vassal_opinion = -20
+}
+maimed = {
+	is_health = yes
+	
+	opposites =  {
+		wounded
+		wounded_2
+		wounded_3
+		wounded_4
+	}
+	
+	sex_appeal_opinion = -15
+	same_opinion = 10
+	
+	martial = -2
+	health = -2
+}
+infirm = {
+	is_health = yes
+
+	diplomacy = -3
+	intrigue = -3
+	stewardship = -3
+	martial = -3
+	learning = -3
+	
+	health = -1
+	fertility = -0.3
+	
+	ai_rationality = -10
+}
+incapable = {
+	is_health = yes
+	
+	incapacitating = yes # Will need a regent
+	
+	diplomacy = -6
+	intrigue = -6
+	stewardship = -6
+	martial = -6
+	learning = -6
+	
+	health = -3
+	fertility = -0.3
+}
+drunkard = {
+	is_health = yes
+	
+	stewardship = -2
+	
+	same_opinion = 10
+	church_opinion = -10
+	sex_appeal_opinion = -5
+	
+	ai_rationality = -5
+}
+has_tuberculosis = {
+	is_epidemic = yes
+	is_illness = yes
+	
+	health = -2
+	
+	customizer = no
+}
+has_typhoid_fever = {
+	is_epidemic = yes
+	is_illness = yes
+	
+	health = -3
+	
+	customizer = no
+}
+has_typhus = {
+	is_epidemic = yes
+	is_illness = yes
+	
+	health = -3
+	
+	customizer = no
+}
+has_bubonic_plague = {
+	is_epidemic = yes
+	is_illness = yes
+	
+	health = -7
+	
+	customizer = no
+}
+has_measles = {
+	is_epidemic = yes
+	is_illness = yes
+	
+	health = -2
+	
+	customizer = no
+}
+has_small_pox = {
+	is_epidemic = yes
+	is_illness = yes
+
+	health = -3
+	
+	customizer = no
+}
