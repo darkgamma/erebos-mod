@@ -1,0 +1,54 @@
+11000001 = {
+	name = "Vistulanski"
+	culture = lechitic
+}
+
+11000002 = {
+	name = "Polski"
+	culture = lechitic
+}
+
+11000003 = {
+	name = "Ranski"
+	culture = lechitic
+}
+
+11000004 = {
+	name = "Slezanski"
+	culture = lechitic
+}
+
+11000005 = {
+	name = "Pomeranski"
+	culture = lechitic
+}
+
+11000006 = {
+	name = "Obodritski"
+	culture = lechitic
+}
+
+11000007 = {
+	name = "Pruski"
+	culture = lechitic
+}
+
+11000008 = {
+	name = "Kashubski"
+	culture = lechitic
+}
+
+11000009 = {
+	name = "Serbski"
+	culture = lechitic
+}
+
+11000010 = {
+	name = "Mazowiecki"
+	culture = lechitic
+}
+
+11000011 = {
+	name = "Adeling"
+	culture = bavarian
+}
