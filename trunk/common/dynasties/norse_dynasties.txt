@@ -1,0 +1,59 @@
+1000001 = {
+	name = "Eiriking"
+	culture = norse
+}
+
+1000002 = {
+	name = "Orming" # Börn Sigurds Ormr-in-Auga
+	culture = norse
+}
+
+1000003 = {
+	name = "af Hammershús"
+	culture = norse
+}
+
+1000004 = {
+	name = "Narfa" # i.e. of Narfi ( Narfi's )
+	culture = norse
+}
+
+1000005 = {
+	name = "Orðalaus" # Wordless
+	culture = norse
+}
+
+1000006 = {
+	name = "Eiríking"
+	culture = norse
+}
+
+1000007 = {
+	name = "Sturlung"
+	culture = norse
+}
+
+1000008 = {
+	name = "Æðandi" # i.e. Raging
+	culture = norse
+}
+
+1000009 = {
+	name = "Sterksteining" # i.e. Starkstone's
+	culture = norse
+}
+
+1000010 = {
+	name = "Flosing"
+	culture = norse
+}
+
+1000011 = {
+	name = "Úlfing"
+	culture = norse
+}
+
+1000012 = {
+	name = "Brandring"
+	culture = norse
+}

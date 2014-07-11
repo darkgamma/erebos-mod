@@ -1,0 +1,49 @@
+7000001 = {
+	name = "Igmid"
+	culture = maghreb_arabic
+}
+
+7000002 = {
+	name = "Yuvid"
+	culture = maghreb_arabic
+}
+
+7000003 = {
+	name = "Hafid" 
+	culture = maghreb_arabic
+}
+
+7000004 = {
+	name = "Cyrenaicon"
+	culture = coptic
+}
+
+7000005 = {
+	name = "Abukir"
+	culture = coptic
+}
+
+7000006 = {
+	name = "Rosat"
+	culture = coptic
+}
+
+7000007 = {
+	name = "Halwat"
+	culture = coptic
+}
+
+7000008 = {
+	name = "Alwat"
+	culture = nubian
+}
+
+7000009 = {
+	name = "Zagwe"
+	culture = coptic
+}
+
+7000010 = {
+	name = "Busasas"
+	culture = somali
+}

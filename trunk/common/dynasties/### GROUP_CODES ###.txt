@@ -1,0 +1,27 @@
+###########################################################
+###														###
+###					Dynasty Group Codes					###
+###														###
+###		Dynasties get ID ranges based on their area 	###
+###														###
+###########################################################
+
+###
+### Norse Dynasties: [ 1XXXXXX ]
+### English, Scots, Picts: [ 2XXXXXX ]
+### Uralic Dynasties: [ 3XXXXXX ]
+### Gaulish Dynasties: [4XXXXXX]
+### South Germanic Dynasties: [5XXXXXX]
+### Avars, South Slavs, Hungarians: [6XXXXXX]
+### African Dynasties: [7XXXXXX]
+### Arab Dynasties: [8XXXXXX]
+### Byzantine Dynasties: [9XXXXXX]
+### Italian Dynasties: [10XXXXXX]
+### West Slavic Dynasties: [11XXXXXX]
+### Persian Dynasties: [12XXXXXX]
+### German Dynasties [13XXXXXX]
+### Baltic Dynasties [14XXXXXX]
+### Iberian Dynasties: [15XXXXXX]
+### Russian Dynasties: [16XXXXXX]
+### Steppe Dynasties: [17XXXXXX]
+###

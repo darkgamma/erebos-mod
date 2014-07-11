@@ -1,0 +1,60 @@
+######################################
+##									##
+##		Written by Darkgamma		##
+##	   ASCII Art by Darkgamma		##
+##									##
+######################################
+
+######################################
+##									##
+##			Version: 1.0a			##
+##									##
+######################################
+
+######################################
+##									##
+##	  Joke and Reference Nicknames	##
+##									##
+######################################
+
+######################################
+##									##
+##	   Problem Sleuth References	##
+##									##
+######################################
+
+nick_truffle_shuffler = {
+	allow = {
+		age = 13
+		NOT = { age = 40 }
+		
+		trait = gluttonous
+		trait = gregarious
+		
+		OR = {
+			AND = {
+				trait = strong
+				
+				OR = {
+					trait = quick
+					trait = genius
+				}
+			}
+			trait = fair
+		}
+	}
+	chance = {
+		factor = 1.5
+	}
+}
+
+######################################
+##									##
+##	 	   Special Nicknames  	    ##
+##									##
+######################################
+
+nick_dwergetanarijaz = { } # The Dwarfeater
+nick_aedandi = { } # Aeðandi
+nick_ormr_i_auga = { } # Ormr-í-Auga = Snake-in-Eye
+nick_ordalausi = { } # Orðalausi = the Wordless
