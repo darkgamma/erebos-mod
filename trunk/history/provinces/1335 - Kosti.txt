@@ -16,7 +16,7 @@ b_abbeit = temple
 
 
 # Misc
-culture = nubian
+culture = ethiopian
 religion = miaphysite
 
 # History

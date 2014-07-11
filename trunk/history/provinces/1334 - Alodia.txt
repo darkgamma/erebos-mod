@@ -16,7 +16,7 @@ b_alwa = temple
 
 
 # Misc
-culture = nubian
+culture = ethiopian
 religion = miaphysite
 
 # History
