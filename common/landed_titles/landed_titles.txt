@@ -5994,25 +5994,43 @@ e_aksum = {
 				}
 			}
 			
-			c_makuria = {
-				color={ 45 192 124 }
+			c_suakin = {
+				color={ 176 85 35 }
 				color2={ 255 255 255 }
 			
-				b_semna = {
+				b_sawakin = {
 				}
+				b_tisiamti = {
+				}
+				b_salum = {
+				}
+				b_taiwi = {
+				}
+				b_derkin = {
+				}
+				b_dubarua = {
+				}
+				b_komelshokafa = {
+				}
+			}
+			
+			c_makuria = {
+				color = { 140 155 75 }
+				color2={ 255 255 255 }
+			
 				b_dongola = {
-				}
-				b_ghazali = {
-				}
-				b_dotawo = {
 				}
 				b_kawa = {
 				}
+				b_affat = {
+				}
 				b_qubban = {
 				}
-				b_kalabsha = {
+				b_gabriya = {
 				}
-				b_wawa = {
+				b_kerma = {
+				}
+				b_kerat = {
 				}
 			}
 			c_nobatia = {
@@ -6035,26 +6053,22 @@ e_aksum = {
 				}
 			}
 			c_nubia = {
-				color={ 47 194 126 }
+				color = { 145 130 60 }
 				color2={ 255 255 255 }
 			
-				b_alwa = {
+				b_anag = {
+				}
+				b_eirayab = {
 				}
 				b_salala = {
 				}
-				b_komelshokafa = {
-				    holy_site = miaphysite
-					holy_site = monophysite
+				b_nafab = {
 				}
-				b_dubarua = {
+				b_komotit = {
 				}
-				b_derkin = {
+				b_tahtani = {
 				}
-				b_farata = {
-				}
-				b_dradate = {
-				}
-				b_derri = {
+				b_fanoidig = {
 				}
 			}
 		}
@@ -6064,47 +6078,81 @@ e_aksum = {
 			color2={ 255 255 255 }
 			
 			capital = 878 # Hayya
-		
-			c_hayya = {
-				color={ 206 38 101 }
+			
+			c_alodia = {
+				color={ 135 65 20 }
 				color2={ 255 255 255 }
 			
-				b_marawi = {
+				b_alwa = {
 				}
-				b_kanisah = {
+				b_soba = {
 				}
-				b_affat = {
+				b_omdurman = {
 				}
-				b_korti = {
+				b_barah = {
 				}
-				b_gabriya = {
+				b_omjerky = {
 				}
-				b_keheilli = {
+				b_malaka = {
 				}
-				b_abudis = {
+				b_wawissi = {
 				}
-				b_ummmardi = {
+			}
+			c_hayya = {
+				color={ 186 91 41 }
+				color2={ 255 255 255 }
+			
+				b_hayya = {
+				}
+				b_musmer = {
+				}
+				b_sinkat = {
+				}
+				b_kataigarsa = {
+				}
+				b_aliab = {
+				}
+				b_gebeit = {
+				}
+				b_taris = {
+				}
+			}
+			c_trinkitat = {
+				color={ 141 55 35 }
+				color2={ 255 255 255 }
+			
+				b_trinkitat = {
+				}
+				b_derri = {
+				}
+				b_tokar = {
+				}
+				b_farata = {
+				}
+				b_teb = {
+				}
+				b_kwababa = {
+				}
+				b_mukden = {
 				}
 			}
 			c_atbara = {
-				color={ 208 40 103 }
+				color = { 145 120 50 }
 				color2={ 255 255 255 }
 			
 				b_atbara = {
 				}
-				b_omdurman = {
+				b_meruwah = {
 				}
 				b_begarawiyah = {
 				}
-				b_soba = {
-				}
-				b_tabat = {
-				}
-				b_wadrawah = {
-				}
-				b_meruwah = {
-				}
 				b_hajaralasla = {
+				}
+				b_ummmardi = {
+				}
+				b_abudis = {
+				}
+				b_shendi = {
 				}
 			}
 		}
@@ -6120,7 +6168,7 @@ e_aksum = {
 			color2={ 255 255 255 }
 		
 			c_busaso = {
-				color={ 155 4 61 }
+				color={ 127 151 52 }
 				color2={ 255 255 255 }
 			
 				b_mosylon = {
@@ -6141,14 +6189,12 @@ e_aksum = {
 				}
 			}
 			c_berbera = {
-				color={ 157 6 63 }
+				color={ 127 151 52 }
 				color2={ 255 255 255 }
 			
 				b_berbera = {
 				}
 				b_maydh = {
-				}
-				b_amud = {
 				}
 				b_gabiley = {
 				}
@@ -6161,19 +6207,36 @@ e_aksum = {
 				b_shiikh = {
 				}
 			}
-			c_harer = {
-				color={ 159 8 65 }
+			c_zeila = {
+				color={ 127 151 52 }
 				color2={ 255 255 255 }
 			
 				b_zeila = {
 				}
-				b_harar = {
-				}
 				b_hargeysa = {
 				}
-				b_diridawa = {
+				b_borama = {
+				}
+				b_amud = {
 				}
 				b_jijiga = {
+				}
+				b_dilla = {
+				}
+				b_lughaya = {
+				}
+			}
+			c_harer = {
+				color={ 159 189 65 }
+				color2={ 255 255 255 }
+			
+				b_dakkar = {
+				}
+				b_harar = {
+				}
+				b_alemaya = {
+				}
+				b_diridawa = {
 				}
 				b_kurfachele = {
 				}
@@ -6183,7 +6246,7 @@ e_aksum = {
 				}
 			}
 			c_tadjoura = {
-				color={ 161 10 67 }
+				color={ 159 189 65 }
 				color2={ 255 255 255 }
 			
 				b_tadjoura = {
@@ -6209,7 +6272,7 @@ e_aksum = {
 			color2={ 255 255 255 }
 		
 			c_asosa = {
-				color={ 150 61 94 }
+				color={ 198 93 30 }
 				color2={ 255 255 255 }
 			
 				b_asosa = {
@@ -6230,7 +6293,7 @@ e_aksum = {
 				}
 			}
 			c_ankober = {
-				color={ 152 63 96 }
+				color={  147 90 48 }
 				color2={ 255 255 255 }
 			
 				b_ankober = {
@@ -6251,7 +6314,7 @@ e_aksum = {
 				}
 			}
 			c_gondar = {
-				color={ 154 65 98 }
+				color={ 215 119 45 }
 				color2={ 255 255 255 }
 			
 				b_fasilghebbi = {
@@ -6272,7 +6335,7 @@ e_aksum = {
 				}
 			}
 			c_antalo = {
-				color={ 156 67 100 }
+				color={  147 90 48 }
 				color2={ 255 255 255 }
 			
 				b_entoto = {
@@ -6293,7 +6356,7 @@ e_aksum = {
 				}
 			}
 			c_matamma = {
-				color={ 158 69 102 }
+				color={ 137 90 76 }
 				color2={ 255 255 255 }
 			
 				b_ginbo = {
@@ -6324,37 +6387,35 @@ e_aksum = {
 			color2={ 255 255 255 }
 		
 			c_aksum = {
-				color={ 200 32 95 }
+				color={ 186 135 70 }
 				color2={ 255 255 255 }
 			
 				b_adwa = {
 				}
 				b_aksum = {
+					holy_site = miaphysite
+					holy_site = monophysite
 				}
 				b_mekele = {
 				}
-				b_sembel = {
+				b_rama2 = {
 				}
 				b_adigrat = {
 				}
-				b_adulis = {
+				b_hawzen = {
 				}
-				b_matara = {
-				}
-				b_qohaito = {
+				b_yeha = {
 				}
 			}
 			c_akordat = {
-				color={ 202 34 97 }
+				color={ 186 135 70 }
 				color2={ 255 255 255 }
 			
 				b_akordat = {
 				}
-				b_cheren = {
-				}
 				b_teseney = {
 				}
-				b_dahano = {
+				b_antalla = {
 				}
 				b_barentu = {
 				}
@@ -6366,33 +6427,31 @@ e_aksum = {
 				}
 			}
 			c_kassala = {
-				color={ 204 36 99 }
+				color={ 200 101 34 }
 				color2={ 255 255 255 }
 			
 				b_kassala = {
 				}
 				b_doka = {
 				}
-				b_sawakin = {
-				}
 				b_dinder = {
 				}
-				b_musmer = {
+				b_aroma = {
 				}
-				b_sinkat = {
+				b_kagnarti = {
 				}
-				b_salum = {
+				b_tebteb = {
 				}
-				b_kataigarsa = {
+				b_gherset = {
 				}
 			}
 			c_sennar = {
-				color={ 210 42 105 }
+				color={ 115 60 20 }
 				color2={ 255 255 255 }
 			
 				b_sennar = {
 				}
-				b_kosti = {
+				b_tabat = {
 				}
 				b_sinjah = {
 				}
@@ -6402,9 +6461,28 @@ e_aksum = {
 				}
 				b_galgani = {
 				}
-				b_abbeit = {
+				b_wadrawah = {
 				}
 				b_kinanah = {
+				}
+			}
+			c_kosti = {
+				color={ 160 70 40 }
+				color2={ 255 255 255 }
+			
+				b_kosti = {
+				}
+				b_abbeit = {
+				}
+				b_tandalti = {
+				}
+				b_umm_ruwaba = {
+				}
+				b_dalang = {
+				}
+				b_kaduqli = {
+				}
+				b_lagawa = {
 				}
 			}
 		}
