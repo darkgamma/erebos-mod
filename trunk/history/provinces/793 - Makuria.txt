@@ -6,7 +6,7 @@ title = c_makuria
 # Settlements
 max_settlements = 4
 b_semna = castle
-b_dongola = city
+b_dongola = castle
 b_ghazali = temple # Miaphysite Holy Site
 
 #b_dotawo = city
