@@ -2616,7 +2616,6 @@ Yildiz Zehra Zuhal
 		male_patronym = "oglu"
 		prefix = no
 		
-		dynasty_title_names = yes
 		founder_named_dynasties = yes
 
 		modifier = default_culture_modifier
@@ -2674,7 +2673,6 @@ Umay Usunbike Yasar Yeldem Yildiz
 		
 		from_dynasty_prefix = "of "
 		
-		dynasty_title_names = yes
 		founder_named_dynasties = yes
 
 		modifier = default_culture_modifier

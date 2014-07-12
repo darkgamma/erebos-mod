@@ -4,12 +4,12 @@
 title = c_aqtobe
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_aqtobe = castle
 b_burta = city 
-#b_ashchesay = temple
+b_ashchesay = temple
+b_sibiryak = castle
 
-#b_sibiryak = castle
 #b_kunsay = castle
 #b_zharlysay = castle
 #b_shilikta = castle
