@@ -6292,25 +6292,23 @@ e_aksum = {
 				b_kormuk = {
 				}
 			}
-			c_ankober = {
-				color={  147 90 48 }
+			c_gojjam = {
+				color={ 137 90 76 }
 				color2={ 255 255 255 }
 			
-				b_ankober = {
+				b_gojjam = {
 				}
-				b_doqaqit = {
+				b_mankorar = {
 				}
-				b_qundi = {
+				b_eliyas = {
 				}
-				b_saqqa = {
+				b_yejube = {
 				}
-				b_aliyuamba = {
+				b_godana_mikael = {
 				}
-				b_berehet = {
+				b_yegeleka = {
 				}
-				b_keyagebriel = {
-				}
-				b_tegulet = {
+				b_baremma = {
 				}
 			}
 			c_gondar = {
@@ -6334,25 +6332,23 @@ e_aksum = {
 				b_dembiya = {
 				}
 			}
-			c_antalo = {
-				color={  147 90 48 }
+			c_damot = {
+				color={ 198 93 30 }
 				color2={ 255 255 255 }
 			
-				b_entoto = {
+				b_malbarde = {
 				}
-				b_hayq = {
+				b_muger = {
 				}
-				b_shewa = {
+				b_yirga_chefe = {
 				}
-				b_antsokia = {
+				b_fasha = {
 				}
-				b_debreberhan = {
+				b_awasa = {
 				}
-				b_bale = {
+				b_zima = {
 				}
-				b_debrelibanos = {
-				}
-				b_oromos = {
+				b_teltele = {
 				}
 			}
 			c_matamma = {
@@ -6374,6 +6370,94 @@ e_aksum = {
 				b_yadeta = {
 				}
 				b_garo = {
+				}
+			}
+		}
+		
+		d_ankober = {
+			color = { 125 90 5 }
+			color2 = { 255 0 255 }
+			
+			capital = 882 # Ankober
+		
+			c_ankober = {
+				color={  147 90 48 }
+				color2={ 255 255 255 }
+			
+				b_ankober = {
+				}
+				b_doqaqit = {
+				}
+				b_qundi = {
+				}
+				b_saqqa = {
+				}
+				b_aliyuamba = {
+				}
+				b_berehet = {
+				}
+				b_keyagebriel = {
+				}
+				b_tegulet = {
+				}
+			}
+			c_lakomelza = {
+				color={ 186 100 55 }
+				color2={ 255 255 255 }
+			
+				b_dessye = {
+				}
+				b_kembolcha = {
+				}
+				b_ziya = {
+				}
+				b_habru = {
+				}
+				b_tigaja = {
+				}
+				b_cherkwa = {
+				}
+				b_metene = {
+				}
+			}
+			c_asayita = {
+				color={ 159 189 65 }
+				color2={ 255 255 255 }
+			
+				b_asayita = {
+				}
+				b_afambo = {
+				}
+				b_serdo = {
+				}
+				b_dedai = {
+				}
+				b_lofefle = {
+				}
+				b_tendaho = {
+				}
+				b_jewaha = {
+				}
+			}
+			c_antalo = {
+				color={  147 90 48 }
+				color2={ 255 255 255 }
+			
+				b_entoto = {
+				}
+				b_hayq = {
+				}
+				b_shewa = {
+				}
+				b_antsokia = {
+				}
+				b_debreberhan = {
+				}
+				b_bale = {
+				}
+				b_debrelibanos = {
+				}
+				b_oromos = {
 				}
 			}
 		}
@@ -6407,6 +6491,127 @@ e_aksum = {
 				b_yeha = {
 				}
 			}
+			c_wag = {
+				color={ 186 100 55 }
+				color2={ 255 255 255 }
+			
+				b_sekota = {
+				}
+				b_zumbo = {
+				}
+				b_sacca = {
+				}
+				b_tsaicha = {
+				}
+				b_lashwa = {
+				}
+				b_indeher_giba = {
+				}
+				b_liktaba = {
+				}
+			}
+			c_begemder = {
+				color={ 215 119 45 }
+				color2={ 255 255 255 }
+			
+				b_gereger = {
+				}
+				b_filakit = {
+				}
+				b_chekerefta = {
+				}
+				b_danya = {
+				}
+				b_bete_yohanis = {
+				}
+				b_awariya = {
+				}
+				b_maryamu = {
+				}
+			}
+			c_assab = {
+				color={ 159 189 65 }
+				color2={ 255 255 255 }
+			
+				b_assab = {
+				}
+				b_debaysima = {
+				}
+				b_rehayto = {
+				}
+				b_manda = {
+				}
+				b_agurto = {
+				}
+				b_mergebla = {
+				}
+				b_gehare = {
+				}
+			}
+			c_massawa = {
+				color={ 186 135 70 }
+				color2={ 255 255 255 }
+			
+				b_massawa = {
+				}
+				b_cheren = {
+				}
+				b_dahano = {
+				}
+				b_matara = {
+				}
+				b_qohaito = {
+				}
+				b_adulis = {
+				}
+				b_sembel = {
+				}
+			}
+			c_tigrinya = {
+				color={ 146 105 50 }
+				color2={ 255 255 255 }
+			
+				b_tigrinya = {
+				}
+				b_adi_ramets = {
+				}
+				b_amba_maderiya = {
+				}
+				b_bilamba = {
+				}
+				b_golonco = {
+				}
+				b_zagamat = {
+				}
+				b_adenna = {
+				}
+			}
+			c_semien = {
+				color={ 146 105 50 }
+				color2={ 255 255 255 }
+			
+				b_dabat = {
+				}
+				b_debark = {
+				}
+				b_ciarveta = {
+				}
+				b_oivela_mariam = {
+				}
+				b_belesa = {
+				}
+				b_amja_lebes = {
+				}
+				b_ambaras = {
+				}
+			}
+			
+		}
+		
+		d_sennar = {
+			color = { 142 50 109 }
+			color2 = { 200 250 200 }
+			
 			c_akordat = {
 				color={ 186 135 70 }
 				color2={ 255 255 255 }
