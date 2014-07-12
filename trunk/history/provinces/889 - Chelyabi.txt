@@ -17,7 +17,7 @@ b_asha = city
 
 # Misc
 culture = komi
-religion = finnish_pagan
+religion = ugric_pagan
 
 # History
 

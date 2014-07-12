@@ -17,7 +17,7 @@ b_sarana = city
 
 # Misc
 culture = komi
-religion = finnish_pagan
+religion = ugric_pagan
 
 # History
 903.1.1 = {}

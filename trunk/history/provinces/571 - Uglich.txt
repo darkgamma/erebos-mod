@@ -16,6 +16,6 @@ b_kashin = city
 #b_novynekouz = castle
 
 culture = mordvin
-religion = finnish_pagan
+religion = volgaic_pagan
 
 903.1.1 = { }

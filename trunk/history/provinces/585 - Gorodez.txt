@@ -16,6 +16,6 @@ b_kitezh = city
 #b_sokolskoye = castle
 
 culture = mordvin
-religion = finnish_pagan
+religion = volgaic_pagan
 
 903.1.1 = { }

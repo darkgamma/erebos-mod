@@ -17,6 +17,6 @@ b_ukhta = castle
 
 # Misc
 culture = samoyed
-religion = finnish_pagan
+religion = samoyedic_pagan
 # History
 903.1.1 = { }

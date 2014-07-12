@@ -17,7 +17,7 @@ b_vologda = castle
 
 # Misc
 culture = mordvin
-religion = finnish_pagan
+religion = volgaic_pagan
 
 # History
 903.1.1 = { }
