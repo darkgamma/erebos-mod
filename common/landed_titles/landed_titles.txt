@@ -5972,6 +5972,28 @@ e_aksum = {
 			color = { 141 162 79 }
 			capital = 793 # Makuria
 			
+			c_napata = {
+				color = { 155 140 67 }
+				color2={ 255 255 255 }
+			
+				b_napata = {
+				}
+				b_marawi = {
+				}
+				b_ghazali = {
+					holy_site = miaphysite
+					holy_site = monophysite
+				}
+				b_kanisah = {
+				}
+				b_korti = {
+				}
+				b_keheilli = {
+				}
+				b_karima = {
+				}
+			}
+			
 			c_makuria = {
 				color={ 45 192 124 }
 				color2={ 255 255 255 }
@@ -5991,6 +6013,25 @@ e_aksum = {
 				b_kalabsha = {
 				}
 				b_wawa = {
+				}
+			}
+			c_nobatia = {
+				color = { 150 140 65 }
+				color2={ 255 255 255 }
+			
+				b_semna = {
+				}
+				b_wawa = {
+				}
+				b_nubia = {
+				}
+				b_delgo = {
+				}
+				b_soleb = {
+				}
+				b_abri = {
+				}
+				b_akasha = {
 				}
 			}
 			c_nubia = {
@@ -16279,6 +16320,45 @@ e_africa = {
 				}
 			}
 			
+			c_dotawo = {
+				color = { 160 130 85 }
+				color2={ 255 255 255 }
+			
+				b_dotawo = {
+				}
+				b_jebeladda = {
+				}
+				b_faras = {
+				}
+				b_qasribrim = {
+				}
+				b_ballana = {
+				}
+				b_buhen = {
+				}
+				b_premnis = {
+				}
+			}
+			
+			c_aydhab = {
+				color = { 125 120 65 }
+				color2={ 255 255 255 }
+			
+				b_aydhab = {
+				}
+				b_halayeb = {
+				}
+				b_troglodytica = {
+				}
+				b_marsaalam = {
+				}
+				b_elba = {
+				}
+				b_shalateen = {
+				}
+				b_zabargad = {
+				}
+			}
 			
 		}
 	}
