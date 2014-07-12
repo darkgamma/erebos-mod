@@ -90,38 +90,14 @@ culture =
 			random = no # Do not use for random CoAs
 		}
 		texture = { #texture = 5
-			file = "gfx\\coats_of_arms\\ARKOpackdynasties.tga"
-			size = { x = 10 y = 10 }
-			noOfFrames = 100
-			color = 0
-			emblem = no
-			random = no # Do not use for random CoAs
-		}
-		texture = { #texture = 6
-			file = "gfx\\coats_of_arms\\Papacypackdynasties.tga"
-			size = { x = 5 y = 9 }
-			noOfFrames = 45
-			color = 0
-			emblem = no
-			random = no # Do not use for random CoAs
-		}
-		texture = { #texture = 7
-			file = "gfx\\coats_of_arms\\Northpackdynasties.tga"
-			size = { x = 5 y = 5 }
-			noOfFrames = 25
-			color = 0
-			emblem = no
-			random = no # Do not use for random CoAs
-		}
-		texture = { #texture = 8
-			file = "gfx\\coats_of_arms\\dynasties2.tga" #DLC2
+			file = "gfx\\coats_of_arms\\dynasties2.tga"
 			size = { x = 16 y = 4 }
 			noOfFrames = 50
 			color = 0
 			emblem = no
 			random = no # Do not use for random CoAs
 		}
-		texture = { #texture = 9
+		texture = { #texture = 6
 			file = "gfx\\coats_of_arms\\patricians.tga"
 			size = { x = 16 y = 2 }
 			noOfFrames = 25
@@ -129,32 +105,8 @@ culture =
 			emblem = no
 			random = no # Do not use for random CoAs
 		}
-		texture = { #texture = 10 # Coa for Scandinavian vanilla families by Aasmul
-			file = "gfx\\coats_of_arms\\SQUIRRELpack_northern_dynasties_vanillla.tga"
-			size = { x = 5 y = 28 }
-			noOfFrames = 140
-			color = 0
-			emblem = no
-			random = no # Do not use for random CoAs
-		}
-                texture = { #texture = 11 # Coa for Lithuanian families(both vanilla and swmh) by Galvakojis
-			file = "gfx\\coats_of_arms\\Lithuania_coa_by_galvakojis.tga"
-			size = { x = 10 y = 10 }
-			noOfFrames = 100
-			color = 0
-			emblem = no
-			random = no # Do not use for random CoAs
-		}
-                texture = { #texture = 12 # Coa for Scandinavian swmh families by Aasmul
-			file = "gfx\\coats_of_arms\\SQUIRRELpack_northern_dynasties_swmh.tga"
-			size = { x = 5 y = 14 }
-			noOfFrames = 110
-			color = 0
-			emblem = no
-			random = no # Do not use for random CoAs
-		}
-		texture = {
-			file = "gfx\\coats_of_arms\\dynasties3.tga" #texture = 13 DLC3
+		texture = { #texture = 7
+			file = "gfx\\coats_of_arms\\dynasties3.tga"
 			size = { x = 16 y = 4 }
 			noOfFrames = 51
 			color = 0
@@ -162,7 +114,14 @@ culture =
 			random = no # Do not use for random CoAs
 		}
 		
-		# WHEN ADDING NEW, ALWAYS ADD AT THE END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111
+		texture = { #texture = 8
+			file = "gfx\\coats_of_arms\\erebos.tga"
+			size = { x = 1 y = 1 }
+			noOfFrames = 1
+			color = 0
+			emblem = no
+			random = no
+		}
 	}
 }
 
@@ -245,6 +204,8 @@ culture = { #païens non réformés
 		"saxon_pagan"
 		"baltic_pagan"
 		"finnish_pagan"
+		"ugric_pagan"
+		"volgaic_pagan"
 		"aztec"
 		"slavic_pagan"
 	}
@@ -316,6 +277,8 @@ culture = { #païens réformés
 		"saxon_pagan_reformed"
 		"baltic_pagan_reformed"
 		"finnish_pagan_reformed"
+		"ugric_pagan_reformed"
+		"volgaic_pagan_reformed"
 		"aztec_reformed"
 		"slavic_pagan_reformed"
 	}
@@ -384,6 +347,8 @@ culture = {
 	religion = {
 		"tengri_pagan_reformed"
 		"tengri_pagan"
+		"hungarian_pagan_reformed"
+		"hungarian_pagan"
 	}
 	
 	templates = { 

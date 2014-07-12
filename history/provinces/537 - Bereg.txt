@@ -17,6 +17,6 @@ b_perecseny = temple
 
 # Misc
 culture = hungarian
-religion = tengri_pagan
+religion = hungarian_pagan
 903.1.1 = { }
  
