@@ -17,7 +17,7 @@ b_qus = temple
 
 # Misc
 culture = coptic
-religion = miaphysite
+religion = monophysite
 
 # History
 

@@ -17,6 +17,6 @@ b_salum = temple
 
 # Misc
 culture = nubian
-religion = monophyiste
+religion = monophysite
 
 # History
