@@ -16,8 +16,8 @@ b_yabin = temple
 #b_samza = castle 
 
 # Misc
-culture = cuman
-religion = tengri_pagan
+culture = komi
+religion = finnish_pagan
 
 # History
 

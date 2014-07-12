@@ -4,10 +4,10 @@
 title = c_oral
 
 # Settlements
-max_settlements = 4
+max_settlements = 3
 b_kurgan = castle
 b_kyzalyar = city
-b_vagay = temple
+#b_vagay = temple
 
 #b_lebyazhe = castle
 #b_yurgamysh = castle

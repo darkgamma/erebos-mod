@@ -10461,6 +10461,8 @@ e_byzantine = {
 		
 		capital = 414 # Novgorod
 		
+		norse = "Holmgarðr"
+		
 		slavic_pagan_reformed = 500 # Crusade target weight
 		finnish_pagan_reformed = 300 # Crusade target weight
 		baltic_pagan_reformed = 100 # Crusade target weight
@@ -10944,11 +10946,7 @@ e_byzantine = {
 			
 			capital = 414 # Novgorod
 			
-			swedish = "Holmgård"
 			norse = "Holmgarðr"
-			danish = "Holmgård"
-			norwegian = "Holmgård"
-
 			
 			c_bezhetsky_verh = { # Ladoga
 				color={ 144 161 101 }
@@ -10994,22 +10992,13 @@ e_byzantine = {
 				color={ 149 166 106 }
 				color2={ 255 255 255 }
 				
-				swedish = "Holmgård"
 				norse = "Holmgarðr"
-				danish = "Holmgård"
-				norwegian = "Holmgård"
 				
 				b_borovichi = {
 					norse = Nygarðr
-					swedish = Nygård
-					norwegian = Nygård
-					danish = Nygård
 				}
 				b_novgorod = {
-					swedish = "Holmgård"
 					norse = "Holmgarðr"
-					danish = "Holmgård"
-					norwegian = "Holmgård"
 				}
 				b_tikhvin = {
 					holy_site = slavic_pagan
@@ -11192,6 +11181,8 @@ e_byzantine = {
 		
 		capital = 547 # Kiev
 		
+		norse = "Kænugarðr"
+		
 		slavic_pagan_reformed = 500 # Crusade target weight
 		baltic_pagan_reformed = 100 # Crusade target weight
 		tengri_pagan_reformed = 100
@@ -11203,6 +11194,8 @@ e_byzantine = {
 			
 			dignity = 10 # Counted as having 10 more counties than it does
 			capital = 547 # Kiev
+			
+			norse = "Kænugarðr"
 			
 			c_terebovl = {
 				color={ 104 104 24 }
@@ -11291,8 +11284,11 @@ e_byzantine = {
 			c_kiev = {
 				color={ 106 106 26 }
 				color2={ 255 255 255 }
+				
+				norse = "Kænugarðr"
 	
 				b_kiev = {
+				    norse = "Kænugarðr"
 				}
 				b_yuriev = {
 					holy_site = slavic_pagan
@@ -19489,27 +19485,6 @@ e_pars = {
 				b_satka = {
 				}
 			}
-			c_khantia = {
-				color={ 249 223 152 }
-				color2={ 255 255 255 }
-			
-				b_chanty = {
-				}
-				b_beloyarskiy = {
-				}
-				b_igrim = {
-				}
-				b_berezovo = {
-				}
-				b_pnobe = {
-				}
-				b_nyagyn = {
-				}
-				b_djinesh = {
-				}
-				b_sherkala = {
-				}
-			}
 			c_bashkirs = {
 				color={ 209 174 79 }
 				color2={ 255 255 255 }
@@ -19756,135 +19731,12 @@ e_pars = {
 				}
 			}
 		}
-	}
-	
-	k_steppe = {
-		color = { 194 162 50 }
-		color2 = { 120 100 0 }
-		
-		capital = 898 # Omsk
-		
-		d_tyumen = {
-			color={ 210 185 15 }
-			color2={ 255 255 255 }
-			
-			capital = 891 # Tyumen
-			
-			c_aqtobe = {
-				color={ 232 174 18 }
-				color2={ 255 255 255 }
-			
-				b_aqtobe = {
-				}
-				b_ashchesay = {
-				}
-				b_burta = {
-				} 
-				b_sibiryak = {
-				}
-				b_kunsay = {
-				}
-				b_zharlysay = {
-				}
-				b_shilikta = {
-				}
-				b_aulkutyrtas = {
-				}
-			}
-			c_ryn_desert = {
-				color={ 171 138 50 }
-				color2={ 255 255 255 }
-			
-				b_orsk = {
-				}
-				b_karatogay = {
-				}
-				b_bogunbay = {
-				}
-				b_kaumetey = {
-				}
-				b_chausay = {
-				}
-				b_kemer = {
-				}
-				b_ebita = {
-				}
-				b_dzhanatalap = {
-				}
-			}			
-			c_tyumen = {
-				color={ 219 166 23 }
-				color2={ 255 255 255 }
-			
-				b_tyumen = {
-				}
-				b_qashliq = {
-				}
-				b_tobolsk = {
-				}
-				b_tugulym = {
-				}
-				b_novtap = {
-				}
-				b_sumkino = {
-				}
-				b_nizhtavda = {
-				}
-				b_borovskiy = {
-				}
-			}
-			c_oral = {
-				color={ 231 178 35 }
-				color2={ 255 255 255 }
-			
-				b_kurgan = {
-				}
-				b_vagay = {
-				}
-				b_kyzalyar = {
-				}
-				b_lebyazhe = {
-				}
-				b_yurgamysh = {
-				}
-				b_shumikha = {
-				}
-				b_mishkino = {
-				}
-				b_makushino = {
-				}
-			}
-		}
-		
-		d_omsk = {
+		d_sibir = {
 			color={ 190 145 15 }
 			color2={ 255 255 255 }
 			
-			capital = 898 # Omsk
+			capital = 910 # Sibir
 		
-			c_omsk = {
-				color={ 234 176 20 }
-				color2={ 255 255 255 }
-			
-				b_omsk = {
-				}
-				b_tara = {
-				}
-				b_isilkul = {
-					holy_site = tengri_pagan
-					holy_site = tengri_pagan_reformed
-				}
-				b_kalachinsk = {
-				}
-				b_tyukalinsk = {
-				}
-				b_cherlak = {
-				}
-				b_sargatka = {
-				}
-				b_krasnyyar = {
-				}
-			}
 			c_mansia = {
 				color={ 223 170 27 }
 				color2={ 255 255 255 }
@@ -19947,6 +19799,167 @@ e_pars = {
 				}
 				b_vysokiy = {
 				}
+			}
+			c_khantia = {
+				color={ 249 223 152 }
+				color2={ 255 255 255 }
+			
+				b_chanty = {
+				}
+				b_beloyarskiy = {
+				}
+				b_igrim = {
+				}
+				b_berezovo = {
+				}
+				b_pnobe = {
+				}
+				b_nyagyn = {
+				}
+				b_djinesh = {
+				}
+				b_sherkala = {
+				}
+			}
+		}
+	}
+	
+	k_steppe = {
+		color = { 194 162 50 }
+		color2 = { 120 100 0 }
+		
+		capital = 891 # Tyumen
+		
+		d_aqtobe = {
+		    color={ 222 164 8 }
+			color2={ 255 255 255 }
+			
+			capital = 896 # Aqtobe
+			
+		    c_aqtobe = {
+				color={ 232 174 18 }
+				color2={ 255 255 255 }
+			
+				b_aqtobe = {
+				}
+				b_ashchesay = {
+				}
+				b_burta = {
+				} 
+				b_sibiryak = {
+				}
+				b_kunsay = {
+				}
+				b_zharlysay = {
+				}
+				b_shilikta = {
+				}
+				b_aulkutyrtas = {
+				}
+			}
+			c_ryn_desert = { 
+				color={ 171 138 50 }
+				color2={ 255 255 255 }
+			
+				b_orsk = {
+				}
+				b_karatogay = {
+				}
+				b_bogunbay = {
+				}
+				b_kaumetey = {
+				}
+				b_chausay = {
+				}
+				b_kemer = {
+				}
+				b_ebita = {
+				}
+				b_dzhanatalap = {
+				}
+			}
+			c_oral = { # WTF PARADOX Yaik
+				color={ 231 178 35 }
+				color2={ 255 255 255 }
+			
+				b_kurgan = {
+				}
+				b_vagay = {
+				}
+				b_kyzalyar = {
+				}
+				b_lebyazhe = {
+				}
+				b_yurgamysh = {
+				}
+				b_shumikha = {
+				}
+				b_mishkino = {
+				}
+				b_makushino = {
+				}
+			}
+		}
+		
+		d_tyumen = {
+			color={ 210 185 15 }
+			color2={ 255 255 255 }
+			
+			capital = 891 # Tyumen
+			
+						
+			c_tyumen = {
+				color={ 219 166 23 }
+				color2={ 255 255 255 }
+			
+				b_tyumen = {
+				}
+				b_qashliq = {
+				}
+				b_tobolsk = {
+				}
+				b_tugulym = {
+				}
+				b_novtap = {
+				}
+				b_sumkino = {
+				}
+				b_nizhtavda = {
+				}
+				b_borovskiy = {
+				}
+			}
+		    c_omsk = { # WTF PARADOX Tobol
+				color={ 234 176 20 }
+				color2={ 255 255 255 }
+			
+				b_omsk = {
+				}
+				b_tara = {
+				}
+				b_isilkul = {
+					holy_site = tengri_pagan
+					holy_site = tengri_pagan_reformed
+				}
+				b_kalachinsk = {
+				}
+				b_tyukalinsk = {
+				}
+				b_cherlak = {
+				}
+				b_sargatka = {
+				}
+				b_krasnyyar = {
+				}
+			}
+			c_ishim = {
+				color={ 194 169 40 }
+				color2={ 255 255 255 }
+			
+				b_ishim = {}
+				b_esil = {}
+				b_mamlyut = {}
+				b_ust_ishim = {}
 			}
 		}
 	}

@@ -4,9 +4,9 @@
 title = c_omsk
 
 # Settlements
-max_settlements = 4
+max_settlements = 3
 b_omsk = castle
-b_tara = city
+#b_tara = city
 b_isilkul = temple
 
 #b_kalachinsk = castle
