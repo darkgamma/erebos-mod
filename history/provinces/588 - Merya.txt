@@ -17,6 +17,6 @@ b_lopatino = temple
 
 # Misc
 culture = mordvin
-religion = finnish_pagan
+religion = volgaic_pagan
 
 903.1.1 = { }

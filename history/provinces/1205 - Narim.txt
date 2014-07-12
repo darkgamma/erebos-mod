@@ -12,7 +12,7 @@ b_narim = castle
 
 # Misc
 culture = khanty
-religion = finnish_pagan
+religion = ugric_pagan
 terrain = arctic
 
 # History
