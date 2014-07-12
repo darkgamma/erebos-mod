@@ -3,7 +3,7 @@
 	
 	dynasty = 3000001 # Juntunen
 	
-	religion = "finnish_pagan"
+	religion = "saami_pagan"
 	culture = lappish
 	
 	add_trait = paranoid
@@ -16,7 +16,7 @@
 	
 	dynasty = 3000002 # Ahdo
 	
-	religion = "finnish_pagan"
+	religion = "saami_pagan"
 	culture = lappish
 	
 	873.1.1 = { birth = "873.1.1" }
@@ -27,7 +27,7 @@
 	
 	dynasty = 3000003 # Lahti
 
-	religion = "finnish_pagan"
+	religion = "saami_pagan"
 	culture = lappish
 	
 	869.1.1 = { birth = "869.1.1" }
@@ -81,18 +81,18 @@
 	name = "Saam"
 	dynasty = 3000008 # Ngarid
 	
-	religion = finnish_pagan
+	religion = samoyedic_pagan
 	culture = samoyed
 	
 	874.1.1 = { birth = 874.1.1 }
 }
 
 3000009 = {
-	name = "Tolik"
-	dynasty = 3000009 # Numid
+	name = "Tunya"
+	dynasty = 3000009 # Orunzid
 	
-	religion = finnish_pagan
-	culture = samoyed
+	religion = volgaic_pagan
+	culture = mordvin
 	
 	869.1.1 = { birth = 869.1.1 }
 }
@@ -101,7 +101,7 @@
 	name = "Nydog"
 	dynasty = 3000010 # Biyarid
 	
-	religion = finnish_pagan
+	religion = ugric_pagan
 	culture = komi
 	
 	875.1.1 = { birth = 875.1.1 }

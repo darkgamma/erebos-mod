@@ -16,7 +16,7 @@ b_varghoeya = castle
 #b_tromso = city
 
 culture = lappish
-religion = finnish_pagan
+religion = saami_pagan
 
 # History
 903.1.1 = { }

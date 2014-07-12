@@ -18,7 +18,7 @@ b_kemi = castle
 
 # Misc
 culture = lappish
-religion = finnish_pagan
+religion = saami_pagan
 
 # History
 700.1.1 = {
