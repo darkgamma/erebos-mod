@@ -14,8 +14,8 @@ b_qadub = temple
 #b_qashiu = castle
 
 # Misc
-culture = bedouin_arabic
-religion = nestorian
+culture = dorian
+religion = hellenic_pagan
 terrain = hills
 
 # History

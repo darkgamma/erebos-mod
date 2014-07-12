@@ -17,6 +17,6 @@ b_delgo = temple
 
 # Misc
 culture = nubian
-religion = miaphysite
+religion = monophysite
 
 # History

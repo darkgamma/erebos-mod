@@ -17,6 +17,6 @@ b_alwa = temple
 
 # Misc
 culture = ethiopian
-religion = miaphysite
+religion = monophysite
 
 # History

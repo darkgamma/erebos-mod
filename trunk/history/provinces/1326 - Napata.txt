@@ -17,6 +17,6 @@ b_ghazali = temple # Miaphysite Holy Site
 
 # Misc
 culture = nubian
-religion = miaphysite
+religion = monophysite
 
 # History
