@@ -16,6 +16,6 @@ b_suzivanovo = city
 #b_lezhnevo = castle
 
 culture = mordvin
-religion = finnish_pagan
+religion = volgaic_pagan
 
 903.1.1 = { }

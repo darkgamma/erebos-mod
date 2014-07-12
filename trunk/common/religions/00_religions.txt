@@ -1046,7 +1046,7 @@ uralic_group = {
 		icon = 26
 		heresy_icon = 27
 		
-		color = { 0.7 0.7 0.15 }
+		color = { 0.55 0.85 0.1 }
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_LEGENDS
 		god_names = {
@@ -1095,7 +1095,7 @@ uralic_group = {
 		icon = 25
 		heresy_icon = 27
 		
-		color = { 0.55 0.55 0.05 }
+		color = { 0.4 0.7 0.0 }
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_LEGENDS
 		god_names = {
@@ -1129,7 +1129,7 @@ uralic_group = {
 		allow_looting = yes
 		max_consorts = 3
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
-		reformed = finnish_pagan_reformed
+		reformed = ugric_pagan_reformed
 		
 		short_reign_opinion_year_mult = 4 # The default is 2
 		
@@ -1142,10 +1142,10 @@ uralic_group = {
 	hungarian_pagan_reformed = {
 		graphical_culture = mongolgfx
 
-		icon = 26
-		heresy_icon = 27
+		icon = 29
+		heresy_icon = 30
 		
-		color = { 0.75 0.75 0.2 }
+		color = { 0.85 0.3 0.3 }
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_LEGENDS
 		god_names = {
@@ -1155,25 +1155,13 @@ uralic_group = {
 		
 		can_call_crusade = yes
 		
-		unit_modifier = {		
-			garrison_size = 0.3
-			levy_size = 0.1
+		unit_modifier = {
+			levy_size = 0.3
 			
-			key = "DEF_RELIGION"
-		}
-		unit_home_modifier = {
-			land_morale = 0.8
-			light_infantry_defensive = 0.8
-			heavy_infantry_defensive = 0.8
-			pikemen_defensive = 0.8
-			light_cavalry_defensive = 0.8
-			knights_defensive = 0.8
-			archers_defensive = 0.8
-			horse_archers_defensive = 0.8
+			light_cavalry_offensive = 0.3
+			light_cavalry_defensive = 0.3
 			
-			garrison_size = 0.4
-			
-			key = "DEF_RELIGION_HOME_TERRITORY"
+			key = "tengri_pagan"
 		}
 		
 		priests_can_marry = yes
@@ -1182,19 +1170,19 @@ uralic_group = {
 		allow_looting = yes
 		max_consorts = 3
 		
-		aggression = 0.5 # AI aggression factor
+		aggression = 2 # AI aggression factor
 		
-		religious_clothing_head = 3
-		religious_clothing_priest = 3
+		religious_clothing_head = 6
+		religious_clothing_priest = 4
 	}	
 	
 	hungarian_pagan = {
 		graphical_culture = mongolgfx
 
-		icon = 25
-		heresy_icon = 27
+		icon = 28
+		heresy_icon = 30
 		
-		color = { 0.6 0.6 0.1 }
+		color = { 0.7 0.15 0.2 }
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_LEGENDS
 		god_names = {
@@ -1202,24 +1190,13 @@ uralic_group = {
 		}
 		priest_title = PRIEST
 		
-		unit_modifier = {		
-			garrison_size = 0.4
+		unit_modifier = {
+			levy_size = 0.3
 			
-			key = "DEF_RELIGION"
-		}
-		unit_home_modifier = {
-			land_morale = 0.8
-			light_infantry_defensive = 0.8
-			heavy_infantry_defensive = 0.8
-			pikemen_defensive = 0.8
-			light_cavalry_defensive = 0.8
-			knights_defensive = 0.8
-			archers_defensive = 0.8
-			horse_archers_defensive = 0.8
+			light_cavalry_offensive = 0.3
+			light_cavalry_defensive = 0.3
 			
-			garrison_size = 0.4
-			
-			key = "DEF_RELIGION_HOME_TERRITORY"
+			key = "tengri_pagan"
 		}
 		
 		priests_can_marry = yes
@@ -1228,14 +1205,14 @@ uralic_group = {
 		allow_looting = yes
 		max_consorts = 3
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
-		reformed = finnish_pagan_reformed
+		reformed = hungarian_pagan_reformed
 		
 		short_reign_opinion_year_mult = 4 # The default is 2
 		
-		aggression = 0.2 # AI aggression factor
+		aggression = 2 # AI aggression factor
 		
-		religious_clothing_head = 3
-		religious_clothing_priest = 3
+		religious_clothing_head = 6
+		religious_clothing_priest = 4
 	}
 	
 	volgaic_pagan_reformed = {
@@ -1244,7 +1221,7 @@ uralic_group = {
 		icon = 26
 		heresy_icon = 27
 		
-		color = { 0.8 0.8 0.25 }
+		color = { 0.35 0.35 0.75 }
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_LEGENDS
 		god_names = {
@@ -1293,7 +1270,7 @@ uralic_group = {
 		icon = 25
 		heresy_icon = 27
 		
-		color = { 0.65 0.65 0.15 }
+		color = { 0.2 0.2 0.65 }
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_LEGENDS
 		god_names = {
@@ -1327,7 +1304,205 @@ uralic_group = {
 		allow_looting = yes
 		max_consorts = 3
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
-		reformed = finnish_pagan_reformed
+		reformed = volgaic_pagan_reformed
+		
+		short_reign_opinion_year_mult = 4 # The default is 2
+		
+		aggression = 0.2 # AI aggression factor
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+	
+	samoyedic_pagan_reformed = {
+		graphical_culture = norsegfx
+
+		icon = 26
+		heresy_icon = 27
+		
+		color = { 0.65 0.95 0.6 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		god_names = {
+			GOD_UKKO GOD_PERKELE GOD_JUMI GOD_THE_GREAT_BEAR GOD_KUU GOD_TAPIO GOD_TAARA GOD_OMOL GOD_MASTOR_AVA
+		}
+		priest_title = PRIEST
+		
+		can_call_crusade = yes
+		
+		unit_modifier = {		
+			garrison_size = 0.3
+			levy_size = 0.1
+			
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.8
+			light_infantry_defensive = 0.8
+			heavy_infantry_defensive = 0.8
+			pikemen_defensive = 0.8
+			light_cavalry_defensive = 0.8
+			knights_defensive = 0.8
+			archers_defensive = 0.8
+			horse_archers_defensive = 0.8
+			
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+		
+		priests_can_marry = yes
+		female_temple_holders = yes
+		can_call_crusade = yes
+		allow_looting = yes
+		max_consorts = 3
+		
+		aggression = 0.5 # AI aggression factor
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}	
+	
+	samoyedic_pagan = {
+		graphical_culture = norsegfx
+
+		icon = 25
+		heresy_icon = 27
+		
+		color = { 0.5 0.8 0.5 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		god_names = {
+			GOD_UKKO GOD_PERKELE GOD_JUMI GOD_THE_GREAT_BEAR GOD_KUU GOD_TAPIO GOD_TAARA GOD_OMOL GOD_MASTOR_AVA
+		}
+		priest_title = PRIEST
+		
+		unit_modifier = {		
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.8
+			light_infantry_defensive = 0.8
+			heavy_infantry_defensive = 0.8
+			pikemen_defensive = 0.8
+			light_cavalry_defensive = 0.8
+			knights_defensive = 0.8
+			archers_defensive = 0.8
+			horse_archers_defensive = 0.8
+			
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+		
+		priests_can_marry = yes
+		female_temple_holders = yes
+		defensive_attrition = yes
+		allow_looting = yes
+		max_consorts = 3
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		reformed = samoyedic_pagan_reformed
+		
+		short_reign_opinion_year_mult = 4 # The default is 2
+		
+		aggression = 0.2 # AI aggression factor
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+	
+	saami_pagan_reformed = {
+		graphical_culture = norsegfx
+
+		icon = 26
+		heresy_icon = 27
+		
+		color = { 0.2 0.9 0.75 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		god_names = {
+			GOD_UKKO GOD_PERKELE GOD_JUMI GOD_THE_GREAT_BEAR GOD_KUU GOD_TAPIO GOD_TAARA GOD_OMOL GOD_MASTOR_AVA
+		}
+		priest_title = PRIEST
+		
+		can_call_crusade = yes
+		
+		unit_modifier = {		
+			garrison_size = 0.3
+			levy_size = 0.1
+			
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.8
+			light_infantry_defensive = 0.8
+			heavy_infantry_defensive = 0.8
+			pikemen_defensive = 0.8
+			light_cavalry_defensive = 0.8
+			knights_defensive = 0.8
+			archers_defensive = 0.8
+			horse_archers_defensive = 0.8
+			
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+		
+		priests_can_marry = yes
+		female_temple_holders = yes
+		can_call_crusade = yes
+		allow_looting = yes
+		max_consorts = 3
+		
+		aggression = 0.5 # AI aggression factor
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}	
+	
+	saami_pagan = {
+		graphical_culture = norsegfx
+
+		icon = 25
+		heresy_icon = 27
+		
+		color = { 0.05 0.75 0.65 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		god_names = {
+			GOD_UKKO GOD_PERKELE GOD_JUMI GOD_THE_GREAT_BEAR GOD_KUU GOD_TAPIO GOD_TAARA GOD_OMOL GOD_MASTOR_AVA
+		}
+		priest_title = PRIEST
+		
+		unit_modifier = {		
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.8
+			light_infantry_defensive = 0.8
+			heavy_infantry_defensive = 0.8
+			pikemen_defensive = 0.8
+			light_cavalry_defensive = 0.8
+			knights_defensive = 0.8
+			archers_defensive = 0.8
+			horse_archers_defensive = 0.8
+			
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+		
+		priests_can_marry = yes
+		female_temple_holders = yes
+		defensive_attrition = yes
+		allow_looting = yes
+		max_consorts = 3
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		reformed = saami_pagan_reformed
 		
 		short_reign_opinion_year_mult = 4 # The default is 2
 		

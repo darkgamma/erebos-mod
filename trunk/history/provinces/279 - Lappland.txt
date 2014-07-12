@@ -19,6 +19,6 @@ b_lycksele = castle
 
 # Misc
 culture = lappish
-religion = finnish_pagan
+religion = saami_pagan
 903.1.1 = { }
  

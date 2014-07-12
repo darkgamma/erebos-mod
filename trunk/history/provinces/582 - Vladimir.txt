@@ -17,6 +17,6 @@ b_volochok = city
 
 # Misc
 culture = mordvin
-religion = finnish_pagan
+religion = volgaic_pagan
 
 903.1.1 = { }

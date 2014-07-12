@@ -17,7 +17,7 @@ b_yabin = temple
 
 # Misc
 culture = komi
-religion = finnish_pagan
+religion = ugric_pagan
 
 # History
 

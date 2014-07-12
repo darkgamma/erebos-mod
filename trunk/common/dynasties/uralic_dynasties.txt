@@ -39,7 +39,7 @@
 }
 
 3000009 = {
-	name = "Numid"
+	name = "Orunzid"
 	culture = samoyed
 }
 

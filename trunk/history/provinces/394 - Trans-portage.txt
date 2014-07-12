@@ -17,7 +17,7 @@ b_kargopol = castle
 
 # Misc
 culture = samoyed
-religion = finnish_pagan
+religion = samoyedic_pagan
 
 #PRIMO VICTORIA
 # History
