@@ -22,4 +22,3 @@ religion = miaphysite
 
 # History
 
-903.1.1 = {}

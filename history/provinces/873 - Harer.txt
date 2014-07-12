@@ -6,12 +6,11 @@ title = c_harer
 # Settlements
 max_settlements = 4
 
-b_zeila = castle
+b_dakkar = castle
 b_harar = temple
 
-b_hargeysa = city
+b_alemaya = city
 #b_diridawa = castle
-#b_jijiga = castle
 #b_kurfachele = castle
 #b_kombolcha = city
 #b_babile = castle
@@ -22,4 +21,4 @@ religion = sunni
 
 # History
 
-903.1.1 = {}
+1187.1.1 = { b_diridawa = castle }

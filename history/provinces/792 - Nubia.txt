@@ -5,20 +5,17 @@ title = c_nubia
 
 # Settlements
 max_settlements = 3
-b_alwa = castle
 b_salala = castle
-b_komelshokafa = temple
 
-#b_dradate = castle
-#b_dubarua = castle
-#b_derkin = castle
-#b_farata = castle
-#b_derri = castle
+#b_anag = city
+#b_eirayab = castle
+#b_nafab = castle
+#b_komotit = castle
+#b_tahtani = castle
+#b_fanoidig = castle
 
 # Misc
 culture = nubian
 religion = monophysite
 
 # History
-
-903.1.1 = {}
