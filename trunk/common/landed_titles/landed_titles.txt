@@ -11964,6 +11964,50 @@ e_byzantine = {
 			
 			capital = 610 # Bulgar
 			
+			c_kama = {
+				color={ 199 164 69 }
+				color2={ 255 255 255 }
+			
+				b_osa = {
+				}
+				b_chastye = {
+				}
+				b_usttuntor = {
+				}
+				b_krmayak = {
+				}
+				b_pal = {
+				}
+				b_uymuzh = {
+				}
+				b_belyaevka = {
+				}
+				b_pakli = {
+				}
+			}
+			
+			c_bashkirs = {
+				color={ 209 174 79 }
+				color2={ 255 255 255 }
+			
+				b_ufa = {
+				}
+				b_belebey = {
+				}
+				b_chishmy = {
+				}
+				b_bajmaq = {
+				}
+				b_isembaj = {
+				}
+				b_beloret = {
+				}
+				b_meleus = {
+				}
+				b_sterlitamak = {
+				}
+			}
+			
 			c_chuvash = {
 				color={ 237 177 16 }
 				color2={ 255 255 255 }
@@ -19485,48 +19529,7 @@ e_pars = {
 				b_satka = {
 				}
 			}
-			c_bashkirs = {
-				color={ 209 174 79 }
-				color2={ 255 255 255 }
 			
-				b_ufa = {
-				}
-				b_belebey = {
-				}
-				b_chishmy = {
-				}
-				b_bajmaq = {
-				}
-				b_isembaj = {
-				}
-				b_beloret = {
-				}
-				b_meleus = {
-				}
-				b_sterlitamak = {
-				}
-			}
-			c_kama = {
-				color={ 199 164 69 }
-				color2={ 255 255 255 }
-			
-				b_osa = {
-				}
-				b_chastye = {
-				}
-				b_usttuntor = {
-				}
-				b_krmayak = {
-				}
-				b_pal = {
-				}
-				b_uymuzh = {
-				}
-				b_belyaevka = {
-				}
-				b_pakli = {
-				}
-			}
 		}
 		d_ustug = {
 			color={ 134 145 31 }

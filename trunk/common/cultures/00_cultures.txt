@@ -4291,7 +4291,7 @@ magyar = {
 	graphical_culture = easterngfx
 
 	hungarian = {
-		graphical_culture = westernslavicgfx
+		graphical_culture = turkishgfx
 		
 		color = { 0.5 0.6 0.3 }
 

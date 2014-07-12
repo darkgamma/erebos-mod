@@ -12,9 +12,9 @@ aztec_group;Aztec;;;;;;;;;;;;;x
 slavic_group;Slavic;;;;;;;;;;;;;x
 hellenic_pagan_group;Hellenic;;;;;;;;;;;;;x
 baltic_pagan;Baltic Pagan;;;;;;;;;;;;;x
-finnish_pagan;Uralic Pagan;;;;;;;;;;;;;x
+finnish_pagan;Finnic Pagan;;;;;;;;;;;;;x
 baltic_pagan_reformed;Baltic;;;;;;;;;;;;;x
-finnish_pagan_reformed;Uralic;;;;;;;;;;;;;x
+finnish_pagan_reformed;Finnic;;;;;;;;;;;;;x
 slavic_pagan;Slavic Pagan;;;;;;;;;;;;;x
 norse_pagan;Norse Pagan;;;;;;;;;;;;;x
 
@@ -54,3 +54,10 @@ GOD_SONNA;Sonna;;;;;;;;;;;;;x
 GOD_ZIU;Ziu;;;;;;;;;;;;;x
 GOD_TIU;Tiu;;;;;;;;;;;;;x
 GOD_IRMIN;Irmin;;;;;;;;;;;;;x
+
+hungarian_pagan;Hungarian Pagan;;;;;;;;;;;;;x
+hungarian_pagan_reformed;Hungarian;;;;;;;;;;;;;x
+ugric_pagan;Ugric Pagan;;;;;;;;;;;;;x
+ugric_pagan_reformed;Ugric;;;;;;;;;;;;;x
+volgaic_pagan;Volgaic Pagan;;;;;;;;;;;;;x
+volgaic_pagan_reformed;Volgaic;;;;;;;;;;;;;x

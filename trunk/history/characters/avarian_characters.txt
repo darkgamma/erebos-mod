@@ -15,7 +15,7 @@
 	name="Attila"
 	dynasty= 6000002 # Attilid
 	
-	religion="tengri_pagan"
+	religion="hungarian_pagan"
 	culture="hungarian"
 	
     add_trait="ambitious"
@@ -93,7 +93,7 @@
 	name="Imre"
 	dynasty= 6000008 # Lampert
 	
-	religion="tengri_pagan"
+	religion="hungarian_pagan"
 	culture="hungarian"
 		
     add_trait="fortune_builder"
@@ -106,7 +106,7 @@
 	name="Zsolt"
 	dynasty= 6000009 # Lajos
 	
-	religion="tengri_pagan"
+	religion="hungarian_pagan"
 	culture="hungarian"
 	
     add_trait="just"
