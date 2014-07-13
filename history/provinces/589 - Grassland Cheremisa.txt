@@ -6,7 +6,7 @@ title = c_grassland_cheremisa
 # Settlements
 max_settlements = 4
 
-b_qazan = castle
+b_yarcalli = castle
 b_zay = city
 
 #b_yarcalli = temple

@@ -1,12 +1,12 @@
-# 898 - Omsk
+# 898 - Tobol
 
 # County Title
-title = c_omsk
+title = c_tobol
 
 # Settlements
-max_settlements = 3
-b_omsk = castle
-#b_tara = city
+max_settlements = 4
+b_tobol = castle
+b_tara = city
 b_isilkul = temple
 
 #b_kalachinsk = castle
@@ -20,5 +20,3 @@ culture = cuman
 religion = tengri_pagan
 
 # History
-
-903.1.1 = {}

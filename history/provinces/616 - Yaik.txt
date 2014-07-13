@@ -1,12 +1,12 @@
-# 616 - Yaik
+# 616 - Pecheneg
 
 # County Title
-title = c_yaik
+title = c_pecheneg
 
 # Settlements
 max_settlements = 3
 
-b_orenburg = castle
+b_pecheneg = castle
 b_kargala = city
 b_saraktash = temple
 
@@ -20,4 +20,4 @@ b_saraktash = temple
 culture = khazar
 religion = ibadi
 
-903.1.1 = {}
+# History
