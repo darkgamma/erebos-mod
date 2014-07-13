@@ -4,7 +4,7 @@
 title = c_perm
 
 # Settlements
-max_settlements = 2
+max_settlements = 3
 
 b_perym = castle
 b_perm = temple # Finnish Pagan Holy Site!

@@ -12288,13 +12288,11 @@ e_byzantine = {
 			
 			capital = 610 # Bulgar
 			
-			c_kama = {
+			c_qazan = {
 				color={ 199 164 69 }
 				color2={ 255 255 255 }
 			
-				b_osa = {
-				}
-				b_chastye = {
+				b_qazan = {
 				}
 				b_usttuntor = {
 				}
@@ -12745,11 +12743,11 @@ e_byzantine = {
 				b_besikty = {
 				}
 			}
-			c_yaik = {
+			c_pecheneg = {
 				color={ 159 126 38 }
 				color2={ 255 255 255 }
 			
-				b_orenburg = {
+				b_pecheneg = {
 				}
 				b_kargala = {
 				}
@@ -19710,8 +19708,6 @@ e_pars = {
 				color={ 231 171 10 }
 				color2={ 255 255 255 }
 			
-				b_qazan = {
-				}
 				b_yarcalli = {
 				}
 				b_zay = {
@@ -19871,11 +19867,11 @@ e_pars = {
 				b_khalmeryu = {
 				}
 			}
-			c_chelyabi = {
+			c_ural = {
 				color={ 246 220 149 }
 				color2={ 255 255 255 }
 			
-				b_chelyabinsk = {
+				b_ural = {
 				}
 				b_ustkatav = {
 				}
@@ -20244,7 +20240,7 @@ e_pars = {
 				b_dzhanatalap = {
 				}
 			}
-			c_oral = { # WTF PARADOX Yaik
+			c_yaik = {
 				color={ 231 178 35 }
 				color2={ 255 255 255 }
 			
@@ -20295,7 +20291,7 @@ e_pars = {
 				b_borovskiy = {
 				}
 			}
-		    c_omsk = { # WTF PARADOX Tobol
+		    c_tobol = {
 				color={ 234 176 20 }
 				color2={ 255 255 255 }
 			

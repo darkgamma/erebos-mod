@@ -16,7 +16,7 @@ b_polnovatvozh = castle
 #b_kaek = castle
 
 # Misc
-culture = komi
+culture = mansi
 religion = ugric_pagan
 
 # History

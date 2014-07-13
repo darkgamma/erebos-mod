@@ -16,7 +16,7 @@ b_yabin = temple
 #b_samza = castle 
 
 # Misc
-culture = komi
+culture = mansi
 religion = ugric_pagan
 
 # History

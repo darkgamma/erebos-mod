@@ -16,7 +16,7 @@ b_beloyarskiy = city
 #b_sherkala = castle
 
 # Misc
-culture = komi
+culture = mansi
 religion = ugric_pagan
 
 # History

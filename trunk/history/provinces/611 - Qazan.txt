@@ -1,14 +1,14 @@
-# 611 - Kama
+# 611 - Qazan
 
 # County Title
-title = c_kama
+title = c_qazan
 
 # Settlements
 max_settlements = 5
 
-b_osa = castle
+b_qazan = castle
 b_usttuntor = city
-b_chastye = temple
+b_uymuzh = temple
 
 #b_krmayak = castle
 #b_pal = castle
