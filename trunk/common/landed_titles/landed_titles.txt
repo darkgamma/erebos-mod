@@ -17470,7 +17470,7 @@ e_pars = {
 				b_sergen = {
 				}
 			}
-			c_baluchistan = {
+			c_saravan = {
 				color={ 152 185 96 }
 				color2={ 255 255 255 }
 				
@@ -17612,7 +17612,7 @@ e_pars = {
 				b_bandarkhamir = {
 				}
 			}
-			c_zermanya = {
+			c_sirjan = {
 				color={ 118 138 83 }
 				color2={ 255 255 255 }
 				
@@ -17638,7 +17638,7 @@ e_pars = {
 			
 			capital = 630 # Merv
 			
-			c_khorasan = { # Tus
+			c_tus = {
 				color={ 103 154 13 }
 				color2={ 255 255 255 }
 				
@@ -17657,6 +17657,8 @@ e_pars = {
 				b_fagdatdezh = {
 				}
 				b_solak = {
+				}
+				b_tus = {
 				}
 			}			
 			c_merv = {
@@ -18808,13 +18810,13 @@ e_pars = {
 			
 			capital = 626 # Samarkand
 			
-			c_maverannahr = { # Khiva
+			c_khiva = {
 				color={ 167 245 32 }
 				color2={ 255 255 255 }
 				
 				b_darvaza = {
 				}
-				b_beruni = {
+				b_kath = {
 				}
 				b_kuskupir = {
 				}
@@ -18823,8 +18825,6 @@ e_pars = {
 				b_kizketken = {
 				}
 				b_atajab = {
-				}
-				b_nukus = {
 				}
 				b_sumanay = {
 				}
@@ -18894,7 +18894,7 @@ e_pars = {
 				b_ayrybaba = {
 				}
 			}
-			c_turkmen = { # Ashkabad
+			c_konjikala = {
 				color={ 153 128 53 }
 				color2={ 255 255 255 }
 				
@@ -18922,15 +18922,18 @@ e_pars = {
 			
 			capital = 900 # Kyzylorda
 			
-			c_kyzylorda = {
+			c_syr_darya = {
 				color={ 236 178 22 }
 				color2={ 255 255 255 }
 			
+				b_yangikent = {}
+				b_syganak = {
+					holy_site = tengri_pagan
+					holy_site = tengri_pagan_reformed
+				}
 				b_akmechet = {
 				}
 				b_kyzylorda = {
-					holy_site = tengri_pagan
-					holy_site = tengri_pagan_reformed				
 				}
 				b_kazaly = {
 				}
@@ -18942,27 +18945,19 @@ e_pars = {
 				}
 				b_zhalagash = {
 				}
-				b_kyzyleginshi = {
-				}
 			}
-			c_khiva = { # Aral
+			c_kyzylkum = {
 				color={ 189 214 146 }
 				color2={ 255 255 255 }
 				
-				b_itchankila = {
-				}
-				b_xazorasp = {
-				}
-				b_bogot = {
-				}
-				b_xonqa = {
-				}
-				b_qorovul = {
-				}
-				b_yangiariq = {
-				}
-				b_shovot = {
-				}
+				b_djend = {}
+				b_itchankila = {}
+				b_xazorasp = {}
+				b_bogot = {}
+				b_xonqa = {}
+				b_qorovul = {}
+				b_yangiariq = {}
+				b_shovot = {}
 			}
 			c_dashhowuz = {
 				color={ 193 217 150 }
@@ -19034,25 +19029,25 @@ e_pars = {
 				b_karakul = {
 				}
 			}
-			c_emba = {
-				color={ 230 176 30 }
+			c_turkestan = {
+				color={ 236 182 36 }
 				color2={ 255 255 255 }
 			
+				b_akdzulpas = {
+				}
 				b_emba = {
 				}
-				b_koshkar = {
+				b_sapak = {
 				}
-				b_akkube = {
+				b_aralkum = {
 				}
-				b_akbulak = {
+				b_kosskul = {
 				}
-				b_makat = {
+				b_akespe = {
 				}
-				b_bakachi = {
+				b_saksaulskiy = {
 				}
-				b_qulsary = {
-				}
-				b_kizay = {
+				b_akshelek = {
 				}
 			}
 			c_mangyshlak = {
@@ -19096,6 +19091,27 @@ e_pars = {
 				b_aksu = {
 				}
 				b_karamola = {
+				}
+			}
+			c_kangly = {
+				color={ 230 176 30 }
+				color2={ 255 255 255 }
+			
+				b_kangly = {
+				}
+				b_koshkar = {
+				}
+				b_akkube = {
+				}
+				b_akbulak = {
+				}
+				b_makat = {
+				}
+				b_bakachi = {
+				}
+				b_qulsary = {
+				}
+				b_kizay = {
 				}
 			}
 		}
