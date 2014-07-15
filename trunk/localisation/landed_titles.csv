@@ -107,8 +107,6 @@ k_kiev_adj;Kievan;;;;;;;;;;;;;x
 k_novgorod;Novgorod;;;;;;;;;;;;;x
 k_novgorod_adj;Novgorodian;;;;;;;;;;;;;x
 # DUCHIES
-d_omsk;Omsk;;;;;;;;;;;;;x
-d_omsk_adj;Omskian;;;;;;;;;;;;;x
 d_hamburg;Hamburg;;;;;;;;;;;;;x
 d_habmurg_adj;Hamburgian;;;;;;;;;;;;;x
 d_winchester;Winchester;;;;;;;;;;;;;x
@@ -181,8 +179,8 @@ d_baluchistan;Baluchistan;;;;;;;;;;;;;x
 d_baluchistan_adj;Baluchistanian;;;;;;;;;;;;;x
 d_mecklenburg;Mecklenburg;;;;;;;;;;;;;x
 d_mecklenburg_adj;Mecklenburgian;;;;;;;;;;;;;x
-d_capub;Neapoli;;;;;;;;;;;;;x
-d_capub_adj;Neapolitan;;;;;;;;;;;;;x
+d_capub;Neapoli;;;;;;;;;;;;;x # WTF SBolshevik
+d_capub_adj;Neapolitan;;;;;;;;;;;;;x # WTF SBolshevik
 d_pinsk;Pinsk;;;;;;;;;;;;;x
 d_pinsk_adj;Pinskian;;;;;;;;;;;;;x
 d_mari;Mari;;;;;;;;;;;;;x
@@ -239,6 +237,8 @@ d_aqtobe;Aqtobe;;;;;;;;;;;;;x
 d_aqtobe_adj;Aqtobean;;;;;;;;;;;;;x
 d_sibir;Sibir;;;;;;;;;;;;;x
 d_sibir_adj;Siberian;;;;;;;;;;;;;x
+d_kermanshah;Kermanšah;;;;;;;;;;;;;x
+d_kermanshah_adj;Kermanšahian;;;;;;;;;;;;;x
 d_the_vistulans;the Vistulans;;;;;;;;;;;;;x
 d_the_vistulans_adj;Vistulan;;;;;;;;;;;;;x
 d_the_poles;the Poles;;;;;;;;;;;;;x
