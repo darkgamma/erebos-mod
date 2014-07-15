@@ -4493,6 +4493,60 @@ Zîlan Zînet Zînê Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermî
 
 		modifier = default_culture_modifier
 	}
+	baloch = {
+		graphical_culture = persiangfx
+
+		color = { 0.4 0.4 0.05 }
+
+		male_names = {
+			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek_Babak Bahman Behrad Behram_Bahram Behrouz Bextîyar_Bakhtiar Bozorg Cehandar_Jahandar Cehangir_Jahangir
+			Cehanšah_Jahanshah Cemšîd_Jamshid Cevid_Javeed Danûš_Danush Darab Daryûš_Darius Davud_David Ebrahim_Abraham Efrasiyab_Afrasiyab Efšer_Afshar Ehmed_Ahmad Ehsan
+			Ekber_Akbar Elî_Ali Enûširwan_Anushirvan Erdehan_Ardahan Erdewan_Ardavan Erdešîr_Ardeshir Esfendiyar_Esfandiar
+			Eskander_Alexander Ešot_Ashot Eyyub_Ayyub Feramez_Faramarz Feraz_Faraz Fath Ferhad_Farhad Ferhan_Farhan Ferheng_Farhang Feriburz_Fariborz Ferîd_Farid
+			Ferîdun_Feridun Ferux_Farroukh Feruxzad_Farrukhzad Ferzad_Farzad Fezl_Fadl Fezlun_Fadlun Firdews_Ferdows Ghobad Gholam Godarz Goštasp_Goshtasb Hezarhesp_Hazarasp Hafez Hedayat
+			Hesen_Hasan Hisên_Hussein Hormoz Hosen_Hossein Humayun Hurmiz_Hormazd Îsmaîl_Ismail Kambiz Kamran Keyghobad Keyxusrew_Keykhosrau Kâvus_Kavoos
+			Kûrušê_Cyrus Mamlan_Muhammad Mashad Mehmûd_Mahmud Mehrab Mehrzad Mensûr_Mansur Menûçihr_Manuchihr Menûšihr_Manushihr Merwan_Marwan Merzuban_Marzuban Mesûd_Masud
+			Mihemed_Muhammad Mîrza_Mirza Mistefa_Mustafa Murad_Morad Morteza Mozaffar Nard Naveed Nawid Nesir_Nazir
+			Nesr_Nasr Nezam Nošîrwan_Nawshirwan Nêçîrvan_Nechirwan Parviz Pujman Pêšeng_Pashang Pîroz_Peroz Revend_Rawwad Reza Ruhollah Rustam_Rostam Sadri Salman Sina Surxap_Surkhab Tahmasp_Tahmasb
+			Vahhab Vahid Vahusdan_Wahustan Vali Varšasp_Varshasb Vîštap_Vishtasb Xarmandar_Kharmandar Xašayar_Khashayar 
+			Xuršîd_Khurshid Xusrew_Khosrau Xušyar_Hooshyar Xwedadad_Khodadad Xwedayar_Khudayar Yezîd_Yazid Yousef Zahak Zakaria Zand Zerdešt_Zartosht Zia
+			Šadî_Shadhi Šahab_Shahab Šahbaz_Shahbaz Šahenšah_Shahanshah Šahin_Shahin Šahram_Shahram Šahryar_Shahryar Šahrux_Shahrokh Šahruz_Shahruz Šapur_Shapur Šarvin_Sharwin Šawur_Shavur Šayan_Shayan Šîrkûh_Shirkuh
+		}
+
+		female_names = {
+			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Aštî Badil Bahar Balnexšîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis
+			Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexšîn Beyan Beybîn Beybûn Bezîn Bihar Bijîn Bilêse Binar Binav Binefš Binevš Biyan Biškoj Biškurîn Bohar Bênaz Bêrîcan Bêrîvan Burandoxt_Pourandokht
+			Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber Dilcan Dildar Dilgerm Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan Dîristan Esmercan Esmerxan 
+			Estêre Evîn Ewrîn Eyšan Ezcan Felek Fener Ferašîn Firmêsk Fîdan Gazî Gelavêj Gerdengaz Gozel Gozê Grîvan Guhtem Gulbehar_Golbahar Gulšen Gulnar Gulnaz_Golnaz Gêlas Helez Heliz Helvîn Hemayîl 
+			Kejê Keser Kevok Kevî Kewser Kezîzer Koçer Leylê Leymîn Lezîn Lolav Lorkê Lorî Lorîcan Lorîn Lêlav Lêvken Lîlyan Lîza Maša Mebest Mehrîban Mehrîcan Mehrîvan
+			Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem_Mariam Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya Mîran Narîman Narîncan Navbihar Nawxoš Naz Nazdar Nazenîn Nazgul_Nazgol Nazik Naznaz Nazê Nermê Nermîn Nesrîn Newbohar Nexšîn
+			Nešmîl Nešmîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîšan Nîštîman Perjîn Pervîn Perwane_Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîšan Pexšan Peyman Pirjîn Piršeng Piršing Pore Poršeng Pêlîn Pîroz Pîšeng 
+			Rana Rengîn Rewša Rewšen Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken Rûciwan Rûgeš Rûken Rûzerîn Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran Xatûn 
+			Xêlîcan Xonçe_Ghoncheh Zernîšan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn Zîlan Zînet Zînê Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermîn Ševba Ševîn Šêlaz Šîlan Šînî Šîwen
+		}
+		
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+
+		male_patronym = "kurê "
+		female_patronym = "kiçê "
+		prefix = yes
+
+		modifier = default_culture_modifier
+	}
+	bactrian = {
+
+       graphical_culture = persiangfx
+
+       color = { 0.05 0.15 0.05 }
+
+       male_names = {
+    Ahuti Amihraman Andez Apama Ardokhsho Artabazu Artana Artasura Artosauka Awishka Bag Bagmareg Barzand Bazeshk Bazodeo Borzomihr Borzomiur Boser Bozan Chinakhratu Daro Dartafarnah Dathshmareg Devraz Etat Eyoman Fanz Freistarab Goboziko Goya Grumbat Gunavarman Hashtuma Huspasina Huvishka Jouishka Kalan Kama Kanarang Kandik Kanishka Katana Kav Kaw Khalas Khanchil Kharana Khirgoman Khoade Khwasraw Kidara Koshan Kozgashka Kozgashki Kungas Kur Loikhobosar Mareg Mihraman Mithravakhsha Nevak Ninda Nobekht Nokonzok Nukunzuk Oaksh Oesh Oeshki Ormuzd Oromozd Orshvadata Parka Peroz Piroz Purlang-zin Pusk Ratbel Sang Shabur Shafar Shao Shizogarg Shodila Spitamanah Sukhrak Tarmad Tirikhshara Ukhshebovak Ukhshyabavaka Vakhshufrita Vakhshuvarta Varhran Vitana Vohumanah Wagra Wagwir Warahan Washava Winamarg Yaskul Yezdgird Zhunlad Zmik
+       }
+
+       female_names = {
+    Ab Agalg Alow Alushal Anend Arduksh Begeys Dukhtanosh Farowesp Firg Firyid Fordams Frogerd Harug Khuhz Lahun Lahyid Logda Lrohominan Ma Man Mapresey Muul Nana Nawshal Nestokhot Predyig Purogat Puun Rokhshana Umma Wadobargan Wusugd Zbayana Zhindag
+      }
 }
 
 east_african = {
@@ -4700,4 +4754,73 @@ Sum must not exceed 100.
 
 		modifier = default_culture_modifier
 	}
+}
+
+tocharian_group = {
+	graphical_culture = muslimgfx
+    
+    tocharian = {
+        graphical_culture = persiangfx
+        color = { 0.75 0.45 0.95  }
+        
+        male_names = {
+            Acila Acokisgiya Acufiaya Acuiiiya Acuni Acuniya Agisala Alyaya Amgoka Amguvaka Amkvaga Amkvage Amtgiya Amti Amto Anamdasena Anandavarman Angi 
+			Anugaya Apcula Apemna Apgaya Apge Apgeya Apigo Apmya Apniya Apta Aputa Aralyi Arcaka Ardeshir_Ardeshir Ardharasa Argi Argiceya Arispa Arjuna 
+			Arselis Arsina Aryasa Asamma Asan Asdhaya Asena Asham Asoga Asuraga Athama Augala Avana Aya Ayila Azuraka Bagusaina Balasena Balasura Balavama 
+			Bhagarka Bhagasena Bhagusena Bharsavadhi Bhasdha Bhatiga Bhatisama Bhatra Bhimasena Bhoti Bimmasena Bimna Brahmi Buddhacinga Buddhaisra Buddhatala 
+			Budhaghosa Budhamitra Budhanamti Budhapliarma Budharacfii Budharachi Budharachida Budhavama Budhaya Budhila Budhosa Bushi Bushibi Caclota Cacuka 
+			Cadhi Cadhiya Cadota Cagusena Cakasa Cakla Cakola Caku Cakurata Cakuraya Cakuvala Cakvala Calmadana Calmasa Camaga Camaka Camca Camja Campe 
+			Camtgala Canaga Caneya Cangeya Capeya Capnuneya Capyana Caru Caruveta Casgeya Casmina Cataraga Cataraka Catata Cateya Catgila Catisa Catmage Cato 
+			Catugeya Caule Cetrakirti Cgito Chakir Chhu Cigha Cigita Cikimto Cimaga Cimaka Cimga Cimge Cimgse Cimnaphara Cimola Cinama Cinapliara Cinasa 
+			Cinasena Cinika Cinyasa Cipitga Citughi Cmaga Codiru Codistri Conakara Cramaena Cugapa Cupoga Cuvalayina Dadavala Dajapala Danutreya Darova Daruge 
+			Devaputra Dhaci Dhaffiadara Dhafhapala Dhagiya Dhalnapriya Dhalnena Dhamaja Dhamakama Dhamalada Dhamamitra Dhamapala Dhamapri Dhamapriya Dhamasa 
+			Dhamasena Dhamasira Dhamasretha Dhameca Dhamila Dhammaramna Dhamnapala Dhamnila Dhapaya Dharma Dharmapriya Dharmaraksha Dhraka Dmusvamta Dryaehi 
+			Gamasena Gamca Gapika Gara Garaspa Gersivas Girmitra Goboziko Govadara Grananaprema Grasdha Gronasena Gronga Grumbat Heraus Hormazd_Hormazd 
+			Huvishka Jarge Jayasa Jebhatra Jepriya Jeyabhatra Jeyaka Jhanacamdre Jihmaya Jimoya Jitugha Jivadeya Jivaka Jivamitra Jivasama Jnanasene Kacana 
+			Kacano Kaci Kadphises Kake Kakeya Kala Kalasdha Kalu Kalyanadhama Kalyanakarimitra Kalyigeya Kamaya Kamcgeya Kamci Kamciya Kame Kamjaka Kamjiya 
+			Kamki Kamkuca Kanasaga Kandik Kane Kanika Kanishka Kapge Kapgeya Kapota Kapotae Kapumca Karamtsa Kararntsa Kartsa Katge Katila Kaucasshe Kayamdaga 
+			Kecana Keniga Kenika Keyumars Khara Khingila Khosa Kidara Kilyage Kilyagi Kilyagiya Kilyama Kipunada Kirteya Kirti Kirtisama Klemjiya Kogitasasa 
+			Koiiaya Kolamte Kolasi Koleta Kolgeya Kolyisa Kompala Koneta Kosgashka Kranaya Kreya Kriti Kroae Krunbin Ktesana Kua Kuamca Kuber Kude Kuiiita 
+			Kujula Kukita Kulavardhana Kulbhu Kuleya Kuluca Kumarajiva Kumdho Kumpara Kumsena Kumtsena Kunala Kungas Kungeya Kunita Kupsimta Kupsuda Kupsuta 
+			Kurage Kurageya Kusamta Kusanasena Kustanagga Kusulaka Kutaga Kutgeya Kutre Kutreya Kuuna Kuunge Kuvaya Kuvayici Kuvifieya Kuvineya Kvinaga 
+			Kyutseya Lakunagita Lala Lampurta Larishka Larsu Latsangi Layimmaka Laza Ldasa Lepata Lgipava Liaka Lipatga Livarazma Lokaksema Lokakshema 
+			Lugaya Luhrasp Lustu Luthu Lyimgaya Lyimge Lyimimna Lyimo Lyimsu Lyipama Lyipamma Lyipana Lyipatga Lyipe Lyipeya Lyipta Lyivrasma Lyupe 
+			Mahagiri Mahiri Mahiriya Mairi Makasa Maltsuta Mangeya Manigeya Manigi Marega Masaga Masdhige Mayiri Meghima Mendre Metroma Micgae Micorca 
+			Mihirakula Mitrapala Mitro Mochabudhi Mochakama Mochapri Mochapriya Mochasena Mogata Moge Mogecika Mogeya Mogi Mogiya Molyina Mosdhaya Motega 
+			Moteka Motge Mudhaiitsa Muldeya Multeya Murunda Mutrasra Mutreya Namarazma Namata Namdasena Namdhaka Nammasura Namsuka Namtiga Namtipala Napugi 
+			Narasaka Naravahanadatta Narsita Nasova Nastimta Natasrrmi Navote Nimeya Nyanaviri Oga Ogaca Ogiya Onugi Opave Opge Opgeya Opimta Opuge Pabis 
+			Pacgoyae Pagina Pago Pakhi Pakusena Pakuva Pakuvaya Pakvaya Palge Palnamto Palugeya Pamcama Pamcatva Pamcimna Pamcina Panagara Parneya Parpana 
+			Parsu Parsuge Parvata Pataya Patika Patraya Payina Peco Pepiya Pepriya Peroz_Peroz Pgeca Pgena Pgeya Pgi Pgina Pgita Pgiya Pgoco Pgu Phaklu 
+			Phamaja Phapaya Phuinaseva Phumaseva Phuvasena Picga Pigita Pite Piteca Piteya Pitga Pitseya Plata Platga Pleya Pogana Ponicga Ponigana Porkota 
+			Portsaya Posarsa Priska Priyapata Priyaratna Priyasri Priyavada Priyavaga Priyosa Prusdhaya Pugo Pultsaya Pumfiabala Pumfiadeva Pumfiasena 
+			Pumiiasena Pumnabala Pumnavamta Pumnavati Pumnyabala Pumnyasa Punamo Purnabala Purnadana Purnasa Purnasena Purnnyabala Pursavara Purzavara Puse 
+			Pusgari Racgeya Rahulatga Ramaka Ramastso Ramatsoga Ramsotsa Rasena Raspara Rasvara Rathapala Ricikga Ricilkga Ridhasena Ripti Rohana Rokitsi 
+			Ronaprema Ropgeya Rtveladze Rutra Rutrapala Rutrasena Rutraya Sa-Nu Saca Sacha Sadarsana Sadaskana Sagamovi Sagamoya Sagana Sagapeya Sagima 
+			Sagimoya Sakha Sakhusa Salanavira Salar Salueya Saluveta Saluviya Salve Salveta Samajha Samamnera Samasena Sambhava Samca Sameka Samgaparana 
+			Samgarachi Samgaratha Samgasira Samgasri Samgha Samghabudhi Samghadharima Samghaparana Samghapriya Samgharachi Samgharaclii Samghasena Samghila 
+			Samghosa Samluve Sammapri Sammarya Samngo Samogata Sanab Sanaga Sapalbiz Sapuga Saraspa Sarivara Sarmagarachiya Sarngarama Sarpe Sarpiga Saru 
+			Sarvasrre Sarvatrata Sarviga Sekla Semniga Seraka Sevasena Sgasi Shahanshahi Shahi Shaka Sictnaya Sigayita Signaya Silaprabha Silaprava Sira 
+			Sirasa Sirmitra Siru Sirzata Siyavush Smati Socara Somcaka Somjaka Sotaya Sotuge Spaktanik Spalyaya Spirta Spyi-pri Srasdha Srimitra Sriste 
+			Srivamma Srustinga Sruthe Sucama Sucamma Sugi Sugika Sugita Sugiya Sugnuta Suguta Suhavati Sujada Sujata Sukmana Sumadata Sumata Sunamta Sundara 
+			Suryamitra Sutahar Suthu Suvarnamasuga Suvarnapala Suvaya Suyama Svaka Svaneya Svarasena Svarnabala Svaya Tagira Tagu Tajaka Takra Takto Tamaspa 
+			Tamcano Tamcgeya Tameya Tami Tamjaka Tatiga Tgaca Tiraphara Tirapiiara Titsa Togaja Tolayana Tomgraka Toramana Tryaclii Tryaehi Tsaga Tsagirsta 
+			Tsaroka Tsgatsi Tsimava Tsimaya Tsina Tsomgo Tsordhoe Tsugenamma Tsugesila Tsugesla Tsugiya Tumpala Tusana Ucadhina Ugra Upasena Upateyu Uvasena 
+			Uyage Vahana Vajesa Vammasula Vamto Vamtuavana Vanamato Vanamkha Vapika Vapo Varhran Varpa Varpe Varpeya Vasishka Vaskushana Vasmana Vasudeva Vato 
+			Vekumjiya Vemasena Vespasi Vidhura Viharavala Vijaya-Bala Vijaya-Dharma Vijaya-Jaya Vijaya-Kirti Vijaya-Sambhava Vijaya-Samgrama Vijaya-Sastra 
+			Vijaya-Simha Vijaya-Sura Vijaya-Vahana Vijaya-Vikrama Vijaya-Virya Vima Vinayaditya Vishtapsi Vua Vugaca Vugeya Vugica Vugina Vuginga Vugto Vukimna
+			Vukimtga Vukto Vumeya Vurdhiya Vuru Vusmeka Vutsava Vyarivala Winanne Wrauske Yagpu YanaSrimitra Yapgu Yasala Yehu-La Yen Yilaga Yili Yipicga 
+			Yipiya Yirumdhina Yitaka Yogasena Yonge Yonu Ype Yudhishthira Zagimoya
+		}
+        female_names = {
+            Apisae Argiyotgisaae Atamsiyae Cakuvaae Camasriae Camavati Camoae Camtamnoae Camtroae Catisae Catroae Cimikae Cinasyaniyae Cinga Cukapae 
+			Dhamasriae Dirsateyae Kacaka Kaciyae Kamcgoae Koloae Konuma Konumae Koparsaniae Kosenae Kosenaya Kuti Laroae Lyimisoae Lyipaae Mumtritsae 
+			Namilgaae Namisyanae Namsanae Paluvisae Pgisa Priyaniae Pumfiavatiyae Pumnalazaae Ramasri Ramasriae Ramatiae Ramomtiae Ramotiyae Saganapaae 
+			Saluvaae Saluve Samapriae Samoae Sariyae Sarpina Sarpinae Sarvasriae Simasriae Smagasae Smitsae Somjagrrae Somjasrryae Sriyavamtiae Sugisae 
+			Sugnumae Supriyae Suvisae Tamasyanae Tamcina Tilutamaae Tsimnaae Tsinae Visaliae Vuruvisaae
+		}
+
+        from_dynasty_prefix = "auz "
+
+        modifier = cultural_default_culture_modifier
+    }	
 }
