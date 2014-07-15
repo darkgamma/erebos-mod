@@ -42,7 +42,10 @@ duke_cuman;Beylerbey;;;;;;;;;;;;;x
 duke_cuman_female;Beylerbayan;;;;;;;;;;;;;x
 duchy_of_cuman;Beylerbeylik of;;;;;;;;;;;;;x
 duchy_cuman;Beylerbeylik;;;;;;;;;;;;;x
-emperor_persian;Šahanšah;;;;;;;;;;;;;x
-emperor_persian_female;Šahanšahbanwa;;;;;;;;;;;;;x
+emperor_iranian;Šahanšah;;;;;;;;;;;;;x
+emperor_iranian_female;Šahanbanwa;;;;;;;;;;;;;x
+king_iranian;Šah;;;;;;;;;;;;;x
+king_iranian_female;Banwa;;;;;;;;;;;;;x
+kingdom_iranian;Šahdom;;;;;;;;;;;;;x
 CATHOLIC_POPE;Catholic Pope;;;;;;;;;;;;;x
 MIAPHYSITE_POPE;Miaphysite Pope;;;;;;;;;;;;;x
