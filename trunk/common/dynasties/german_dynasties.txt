@@ -16,6 +16,19 @@
 13000004 = {
 	name = "Karoling"
 	culture = german
+	
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
 }
 
 13000005 = {
