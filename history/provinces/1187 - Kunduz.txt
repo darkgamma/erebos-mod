@@ -18,10 +18,7 @@ b_surkh_kotal = temple
 
 # Misc
 culture = persian
-religion = buddhist
+religion = zurvanist
 terrain = mountain
 
 # History
-1100.1.1 = {
-	religion = sunni
-}

@@ -9,6 +9,6 @@ b_nushki = castle
 
 # Misc
 culture = baloch
-religion = sunni
+religion = nestorian
 
 # History

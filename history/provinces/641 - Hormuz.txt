@@ -17,6 +17,6 @@ b_jiroth = temple
 
 # Misc
 culture = persian
-religion = zoroastrian
+religion = zurvanist
 
 # History

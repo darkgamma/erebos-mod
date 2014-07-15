@@ -16,6 +16,6 @@ b_adraskan = city
 
 # Misc
 culture = persian
-religion = zoroastrian
+religion = zurvanist
 
 # History

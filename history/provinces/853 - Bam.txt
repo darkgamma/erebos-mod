@@ -16,7 +16,7 @@ b_bal_chah = temple
 #b_abeshkan = castle
 
 # Misc
-culture = persian
-religion = zurvanist
+culture = baloch
+religion = nestorian
 
 # History
