@@ -16,9 +16,7 @@ b_miski = temple
 #b_rabag = castle
 
 # Misc
-culture = persian
-religion = zurvanist
+culture = baloch
+religion = nestorian
 
 # History
-
-903.1.1 = {}

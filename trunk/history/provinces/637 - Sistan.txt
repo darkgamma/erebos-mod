@@ -4,7 +4,7 @@
 title = c_sistan
 
 # Settlements
-max_settlements = 4
+max_settlements = 6
 b_haozdar = castle
 b_kuh_taftan = city
 b_nok_kundi = temple
@@ -16,8 +16,7 @@ b_nok_kundi = temple
 #b_dehak = castle
 
 # Misc
-culture = persian
-religion = zoroastrian
+culture = baloch
+religion = nestorian
 
 # History
-903.1.1 = {}

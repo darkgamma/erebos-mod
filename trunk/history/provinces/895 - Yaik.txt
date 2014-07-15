@@ -1,7 +1,7 @@
-# 895 - Oral
+# 895 - Yaik
 
 # County Title
-title = c_oral
+title = c_yaik
 
 # Settlements
 max_settlements = 3

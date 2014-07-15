@@ -4,12 +4,12 @@
 title = c_nishapur
 
 # Settlements
-max_settlements = 4
+max_settlements = 6
 b_nishapur = castle
-b_tus = city
-
+b_daregaz = city
 b_jajarm = temple
-#b_daregaz = city
+b_sabzevar = city
+
 #b_akhlamad = castle
 #b_quchan = castle
 #b_chenaran = castle
@@ -20,4 +20,6 @@ culture = persian
 religion = zoroastrian
 
 # History
-903.1.1 = {}
+1187.1.1 = {
+	religion = shiite
+}

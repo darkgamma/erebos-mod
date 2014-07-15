@@ -1,7 +1,7 @@
-# 640 - Zermanya
+# 640 - Sirjan
 
 # County Title
-title = c_zermanya
+title = c_sirjan
 
 # Settlements
 max_settlements = 4
@@ -19,4 +19,3 @@ culture = persian
 religion = zoroastrian
 
 # History
-903.1.1 = {}

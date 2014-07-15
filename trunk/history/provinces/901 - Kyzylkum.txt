@@ -1,15 +1,16 @@
-# 901 - Aral
+# 901 - Kyzyl-Kum
 
 # County Title
-title = c_khiva
+title = c_kyzylkum
 
 # Settlements
-max_settlements = 5
-b_itchankila = castle
+max_settlements = 3
+b_djend = castle
 b_qorovul = city
 b_xazorasp = temple
 
-b_bogot = castle
+#b_itchankila = castle
+#b_bogot = castle
 #b_xonqa = castle
 #b_yangiariq = castle
 #b_shovot = castle
@@ -20,4 +21,5 @@ religion = zurvanist
 
 # History
 
-903.1.1 = {}
+
+

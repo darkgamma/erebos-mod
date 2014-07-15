@@ -1,16 +1,16 @@
-# 629 - Ashkabad
+# 629 - Konjikala
 
 # County Title
-title = c_turkmen
+title = c_konjikala
 
 # Settlements
 max_settlements = 3
 b_farava = castle
+b_konjikala = city
 b_abiward = temple
 
-b_nisa = city
 #b_gokdepe = castle
-#b_konjikala = castle
+#b_nisa = castle
 #b_ulugdepe = temple
 #b_kyzylarvat = city
 #b_sarahs = castle
@@ -20,4 +20,8 @@ culture = persian
 religion = zurvanist
 
 # History
-903.1.1 = {}
+1100.1.1 = {
+	religion = sunni
+}
+
+1230.1.1 = { culture = turkish }

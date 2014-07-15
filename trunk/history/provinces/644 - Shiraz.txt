@@ -4,14 +4,14 @@
 title = c_shiraz
 
 # Settlements
-max_settlements = 7
+max_settlements =4
 b_shiraz = castle
 b_bishapur = city
-b_estakhr = temple
-b_persepolis = temple
-b_azargarta = castle
-b_arsanjan = city
+#b_estakhr = temple
 
+b_persepolis = temple
+#b_azargarta = castle
+#b_arsanjan = castle
 #b_bavanat = castle
 #b_abadeh = castle
 
@@ -19,33 +19,4 @@ b_arsanjan = city
 culture = persian
 religion = zoroastrian
 
-900.1.1 = { 
-	b_shiraz = ca_keep_1
-	b_shiraz = ca_keep_2
-	b_shiraz = ca_training_grounds_1
-	b_shiraz = ca_stable_1
-	b_shiraz = ca_stable_2
-	b_shiraz = ca_barracks_1
-	b_shiraz = ca_barracks_2
-	b_shiraz = ca_militia_barracks_1
-	b_shiraz = ca_militia_barracks_2
-	b_shiraz = ca_wall_1
-	b_shiraz = ca_wall_2
-	b_shiraz = ca_wall_3
-	b_shiraz = ca_wall_4
-	b_shiraz = ca_wall_5
-	b_shiraz = ca_wall_q_1
-	b_shiraz = ca_wall_q_2
-	b_shiraz = ca_wall_q_3
-	b_shiraz = ca_town_1
-	b_shiraz = ca_town_2
-	b_shiraz = ca_town_3
-	b_bishapur = ct_wall_1
-	b_bishapur = ct_barracks_1
-	b_estakhr = tp_monastery_1
-	b_estakhr = tp_monastery_2
-	b_estakhr = tp_monastery_3
-	b_estakhr = tp_wall_1
-	b_estakhr = tp_barracks_1
-}
-903.1.1 = {}
+# History

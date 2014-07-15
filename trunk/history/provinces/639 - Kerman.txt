@@ -17,7 +17,6 @@ b_kerman = temple
 
 # Misc
 culture = persian
-religion = zurvanist
+religion = zoroastrian
 
 # History
-903.1.1 = {}
