@@ -1865,3 +1865,98 @@ zoroastrian_group = {
 		religious_clothing_priest = 5
 	}
 }
+
+indian_group = {
+	has_coa_on_barony_only = no
+	graphical_culture = indiangfx
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	ai_convert_other_group = 2	# always try to convert
+	
+	# Names given only to Indian characters (base names)
+	male_names = {
+	}
+	female_names = {
+	}
+	
+	hindu = {
+		graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+
+		icon = 44
+		heresy_icon = 45
+		
+		color = { 1.0 0.0 0.0 }
+		
+		god_names = {
+			GOD_SHIVA GOD_THE_LORD GOD_THE_SUPREME
+		}
+		
+		evil_god_names = {
+			THE_VINAYAKAS
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		max_consorts = 3
+		
+		unit_modifier = {
+			land_morale = 0.3
+
+			key = "OFF_RELIGION"
+		}
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = THE_MAHABHARATA
+		priest_title = PUJARI
+		piety_name = KARMA
+		
+		intermarry = buddhist
+	}
+	buddhist = {
+		graphical_culture = buddhistgfx
+		secondary_event_pictures = sunni
+
+		icon = 40
+		heresy_icon = 41
+		
+		color = { 0.8 0.4 0.0 }
+		
+		god_names = {
+			GOD_THE_BUDDHA GOD_THE_ARHAT GOD_THE_PERFECTED_ONES
+		}
+		
+		evil_god_names = {
+			MARA
+		}
+		
+		character_modifier = {
+			learning = 4
+		}
+		
+		has_heir_designation = yes
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		max_consorts = 3
+
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+
+		scripture_name = THE_BUDDHACAVANA
+		priest_title = BHIKKHU
+		piety_name = KARMA
+
+		intermarry = hindu
+	}
+}

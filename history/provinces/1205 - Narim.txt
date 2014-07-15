@@ -11,7 +11,7 @@ b_narim = castle
 #b_abakan
 
 # Misc
-culture = khanty
+culture = mansi
 religion = ugric_pagan
 terrain = arctic
 
