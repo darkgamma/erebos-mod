@@ -1,7 +1,7 @@
-# 894 - Baluchistan
+# 894 - Saravan
 
 # County Title
-title = c_baluchistan
+title = c_saravan
 
 # Settlements
 max_settlements = 3
@@ -16,9 +16,7 @@ b_khash = temple
 #b_sangan = castle
 
 # Misc
-culture = persian
-religion = zurvanist
+culture = baloch
+religion = nestorian
 
 # History
-
-903.1.1 = {}

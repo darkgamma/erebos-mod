@@ -29,5 +29,3 @@ religion = zurvanist
 	b_gasankuli = tp_town_1
 	b_gasankuli = tp_town_2
 }
-
-903.1.1 = {}

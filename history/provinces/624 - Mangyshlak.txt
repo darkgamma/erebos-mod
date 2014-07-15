@@ -19,6 +19,6 @@ b_amankyzylit = temple
 # Misc
 culture = persian
 religion = zurvanist
+terrain = desert
 
 # History
-903.1.1 = {}

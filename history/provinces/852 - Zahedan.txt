@@ -4,7 +4,7 @@
 title = c_zahedan
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_zahedan = castle
 b_khajeh = temple
 b_kuhtaftan = city
@@ -16,9 +16,7 @@ b_kuhtaftan = city
 #b_kacharud = castle
 
 # Misc
-culture = persian
-religion = zurvanist
+culture = baloch
+religion = nestorian
 
 # History
-
-903.1.1 = {}

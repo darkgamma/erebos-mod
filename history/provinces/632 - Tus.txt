@@ -1,7 +1,7 @@
-# 632 - Tus #Former Khorasan
+# 632 - Tus
 
 # County Title
-title = c_khorasan
+title = c_tus
 
 # Settlements
 max_settlements = 4
@@ -14,10 +14,11 @@ b_mashhad = temple
 #b_ghaisar = castle
 #b_fagdatdezh = castle
 #b_solak = castle
+# b_tus
 
 # Misc
 culture = persian
 religion = zoroastrian
 
 # History
-903.1.1 = {}
+1187.1.1 = { religion = sunni }

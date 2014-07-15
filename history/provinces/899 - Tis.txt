@@ -16,9 +16,7 @@ b_tis = city
 #b_sergen = castle
 
 # Misc
-culture = persian
-religion = zurvanist
+culture = baloch
+religion = nestorian
 
 # History
-
-903.1.1 = {}

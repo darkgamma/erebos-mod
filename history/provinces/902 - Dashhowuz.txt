@@ -4,7 +4,7 @@
 title = c_dashhowuz
 
 # Settlements
-max_settlements = 4
+max_settlements = 3
 b_dashhowuz = castle
 b_kunyaurgench = city
 b_tagta = temple
@@ -20,5 +20,8 @@ culture = persian
 religion = zurvanist
 
 # History
+1187.1.1 = {
+	religion = sunni
+}
 
-903.1.1 = {}
+1230.1.1 = { culture = mongol }

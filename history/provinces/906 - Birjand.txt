@@ -4,7 +4,7 @@
 title = c_birjand
 
 # Settlements
-max_settlements = 4
+max_settlements = 5
 b_nehbandan = castle
 b_furg = castle
 b_birjand = city
@@ -19,5 +19,3 @@ culture = persian
 religion = zoroastrian
 
 # History
-
-903.1.1 = {}

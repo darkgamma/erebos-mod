@@ -1,13 +1,12 @@
-# 907 - Sabzevar
+# 907 - Mandesh
 
 # County Title
-title = c_sabzevar
+title = c_mandesh
 
 # Settlements
 max_settlements = 3
-b_sabzevar = castle
+b_chaghcharan = castle
 b_adraskan = city
-#b_chanechahan = temple
 
 #b_baluci = castle
 #b_saghar = castle
@@ -20,5 +19,3 @@ culture = persian
 religion = zoroastrian
 
 # History
-
-903.1.1 = {}

@@ -1,5 +1,5 @@
 12000001 = {
-	name = "Shapid"
+	name = "Šapid"
 	culture = persian
 }
 
