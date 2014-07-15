@@ -9,6 +9,6 @@ b_kalat = castle
 
 # Misc
 culture = baloch
-religion = sunni
+religion = nestorian
 
 # History

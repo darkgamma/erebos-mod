@@ -11,8 +11,8 @@ b_bost = city # Aka Lashgar Gah
 b_zamindawar = temple
 
 # Misc
-culture = afghan
-religion = buddhist
+culture = persian
+religion = zurvanist
 
 # History
-900.1.1 = { religion = sunni }
+

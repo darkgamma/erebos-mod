@@ -15,5 +15,5 @@ b_nagarahara = temple
 #b_kharabat = city
 
 # Misc
-culture = afghan
-religion = buddhist
+culture = persian
+religion = zoroastrian
