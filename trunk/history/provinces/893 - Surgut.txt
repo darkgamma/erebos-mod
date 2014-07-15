@@ -16,7 +16,7 @@ b_belyyyar = temple
 #b_vysokiy = castle
 
 # Misc
-culture = komi
+culture = mansi
 religion = ugric_pagan
 
 # History
