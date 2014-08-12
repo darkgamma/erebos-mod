@@ -1,7 +1,7 @@
 # 907 - Mandesh
 
 # County Title
-title = c_mandesh
+title = c_sabzevar
 
 # Settlements
 max_settlements = 3
@@ -16,6 +16,6 @@ b_adraskan = city
 
 # Misc
 culture = persian
-religion = zurvanist
+religion = zoroastrian
 
 # History

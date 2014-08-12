@@ -9952,7 +9952,19 @@ e_byzantine = {
 				}
 				b_goris = {
 				}
-			}			
+			}		
+			c_lori = {
+				color={ 142 70 45 }
+				color2={ 255 255 255 }
+			
+				b_lori_berd = {}
+				b_dzegh = {}
+				b_dmanis = {}
+				b_agarak = {}
+				b_hovk = {}
+				b_sanahin = {}
+				b_erkan = {}
+			}
 			c_vaspurakan = {
 				color={ 162 191 44 }
 				color2={ 255 255 255 }
@@ -17287,6 +17299,84 @@ e_pars = {
 		muslim = 400 # Crusade target weight
 		zoroastrian_group = 1000 # Crusade target weight
 		
+		d_zaranj = {
+			color = { 51 144 19 }
+			color2 = { 202 202 254 }
+			
+			capital = 1275 # Zaranj
+			
+			c_kalat = {
+				color={ 152 185 96 }
+				color2={ 255 255 255 }
+				
+				b_kalat = {
+				}
+			}
+			
+			c_bost = {
+				color={ 189 110 60 }
+				color2={ 255 255 255 }
+				
+				b_bost = { # Aka Lashgar Gah
+				}
+				b_kandahar = {
+				}
+				b_zamindawar = {
+				}
+				b_sangin = {
+				}
+				b_gereshk = {
+				}
+				b_chaman = {
+				}
+				b_chora = {
+				}
+				b_panjwai = {
+				}
+			}
+			
+			c_makran = {
+				color={ 152 185 96 }
+				color2={ 255 255 255 }
+				
+				b_al_haur = {
+				}
+				b_kiz = {
+				}
+				b_ormara = {
+				}
+				b_kannazbun = {
+				}
+			}
+			c_chagai = {
+				color={ 152 185 96 }
+				color2={ 255 255 255 }
+				
+				b_nushki = {
+				}
+			}
+			
+			c_zaranj = {
+				color={ 204 160 60 }
+				color2={ 255 255 255 }
+				
+				b_zaranj = {
+				}
+				b_zabol = {
+				}
+				b_zahak = {
+				}
+				b_rudbar = {
+				}
+				b_milak = {
+				}
+				b_bonjar = {
+				}
+				b_nimeh = {
+				}
+			}
+		}
+		
 		d_fars = {
 			color={ 89 128 22 }
 			color2={ 255 255 255 }
@@ -17407,25 +17497,26 @@ e_pars = {
 				b_kacharud = {
 				}
 			}
-			c_bam = {
-				color={ 144 177 88 }
+			
+			c_sistan = {
+				color={ 102 122 67 }
 				color2={ 255 255 255 }
 				
-				b_bampur = {
+				b_haozdar = {
 				}
-				b_bal_chah = {
+				b_kuh_taftan = {
 				}
-				b_kaj = {
+				b_nok_kundi = {
+					holy_site = zoroastrian # Lake Hamun / Mount Khwaja
+					holy_site = zurvanist
 				}
-				b_baravat = {
+				b_dozz_aap = {
 				}
-				b_fahraj = {
+				b_shahresukhteh = {
 				}
-				b_nukjub = {
+				b_esfandak = {
 				}
-				b_sol_hasan = {
-				}
-				b_abeshkan = {
+				b_dehak = {
 				}
 			}
 			c_jask = {
@@ -17498,29 +17589,6 @@ e_pars = {
 			
 			capital = 638 # Yazd
 			
-			c_sistan = {
-				color={ 102 122 67 }
-				color2={ 255 255 255 }
-				
-				b_haozdar = {
-				}
-				b_kuh_taftan = {
-				}
-				b_nok_kundi = {
-					holy_site = zoroastrian # Lake Hamun / Mount Khwaja
-					holy_site = zurvanist
-				}
-				b_dozz_aap = {
-				}
-				b_zabol = {
-				}
-				b_shahresukhteh = {
-				}
-				b_esfandak = {
-				}
-				b_dehak = {
-				}
-			}
 			c_yazd = {
 				color={ 148 182 90 }
 				color2={ 255 255 255 }
@@ -17540,6 +17608,27 @@ e_pars = {
 				b_nir = {
 				}
 				b_dar_anjir = {
+				}
+			}
+			c_bam = {
+				color={ 144 177 88 }
+				color2={ 255 255 255 }
+				
+				b_bampur = {
+				}
+				b_bal_chah = {
+				}
+				b_kaj = {
+				}
+				b_baravat = {
+				}
+				b_fahraj = {
+				}
+				b_nukjub = {
+				}
+				b_sol_hasan = {
+				}
+				b_abeshkan = {
 				}
 			}
 			c_kerman = {
@@ -17660,7 +17749,28 @@ e_pars = {
 				}
 				b_tus = {
 				}
-			}			
+			}
+			c_konjikala = {
+				color={ 153 128 53 }
+				color2={ 255 255 255 }
+				
+				b_farava = {
+				}
+				b_nisa = {
+				}
+				b_abiward = {
+				}
+				b_gokdepe = {
+				}
+				b_konjikala = {
+				}
+				b_kyzylarvat = {
+				}
+				b_sarahs = {
+				}
+				b_ulugdepe = {
+				}
+			}
 			c_merv = {
 				color={ 156 204 73 }
 				color2={ 255 255 255 }
@@ -17894,6 +18004,43 @@ e_pars = {
 				b_juwayn = {
 				}
 			}
+			c_kunduz = {
+				color={ 155 110 30 }
+				color2={ 255 255 255 }
+				
+				b_aibak = {
+				}
+				b_baghlan = {
+				}
+				b_surkh_kotal = {
+				}
+				b_kunduz = {
+				}
+				b_siminjan = {
+				}
+				b_nahrain = {
+				}
+				b_mogholan = {
+				}
+				b_khomri = {
+				}
+			}
+			
+			c_maymana = {
+				color={ 179 214 53 }
+				color2={ 255 255 255 }
+				
+				b_maymana = {
+				}
+				b_gurziwan = {
+				}
+				b_darzab = {
+				}
+				b_almar = {
+				}
+				b_bilcheragh = {
+				}
+			}
 			c_samarkand = {
 				color={ 157 201 100 }
 				color2={ 255 255 255 }
@@ -17930,8 +18077,6 @@ e_pars = {
 					holy_site = zurvanist
 				}
 				b_alkhanoum = {
-				}
-				b_kunduz = {
 				}
 				b_surkhkotal = {
 				}
@@ -18808,7 +18953,7 @@ e_pars = {
 			color={ 185 210 142 }
 			color2={ 255 255 255 }
 			
-			capital = 626 # Samarkand
+			capital = 901 # Samarkand
 			
 			c_khiva = {
 				color={ 167 245 32 }
@@ -18894,33 +19039,32 @@ e_pars = {
 				b_ayrybaba = {
 				}
 			}
-			c_konjikala = {
-				color={ 153 128 53 }
-				color2={ 255 255 255 }
-				
-				b_farava = {
-				}
-				b_nisa = {
-				}
-				b_abiward = {
-				}
-				b_gokdepe = {
-				}
-				b_konjikala = {
-				}
-				b_kyzylarvat = {
-				}
-				b_sarahs = {
-				}
-				b_ulugdepe = {
-				}
-			}
 		}
 		d_kyzylorda = {
-			color={ 224 170 24 }
+			color={ 194 120 54 }
 			color2={ 255 255 255 }
 			
 			capital = 900 # Kyzylorda
+			
+			c_urgench = {
+				color={ 147 215 30 }
+				color2={ 255 255 255 }
+				
+				b_urgench = {
+				}
+				b_nukus = {
+				}
+				b_kyrkmolla = {
+				}
+				b_kungrat = {
+				}
+				b_kizil_agir = {
+				}
+				b_khodjali = {
+				}
+				b_ulkun = {
+				}
+			}
 			
 			c_syr_darya = {
 				color={ 236 178 22 }
@@ -19666,9 +19810,9 @@ e_pars = {
 		}
 	}
 
-	k_siberia = {
+	k_bjarmia = {
 		color = { 230 240 250 }
-		color2 = { 5 5 15 }
+		color2 = { 12 50 100 }
 		
 		capital = 396 # Bjarmia
 		
@@ -19833,106 +19977,13 @@ e_pars = {
 				}
 			}
 		}
-		d_perm = {
-			color={ 234 208 137 }
-			color2={ 255 255 255 }
-			
-			capital = 886 # Perm
 		
-			c_perm = {
-				color={ 237 211 140 }
-				color2={ 255 255 255 }
-			
-				b_perym = {
-				}
-				b_perm = {
-					holy_site = finnish_pagan
-					holy_site = finnish_pagan_reformed				
-				}
-				b_gorodki = {
-				}
-				b_yagoshikha = {
-				}
-				b_lysva = {
-				}
-				b_cherdyn = {
-				}
-				b_chemuska = {
-				}
-				b_biser = {
-				}
-			}
-			c_komi = {
-				color={ 243 217 146 }
-				color2={ 255 255 255 }
-			
-				b_inta = {
-				}
-				b_vorkuta = {
-				}
-				b_ustkolom = {
-				}
-				b_usttsilma = {
-				}
-				b_aykino = {
-				}
-				b_vorgashor = {
-				}
-				b_kharp = {
-				}
-				b_khalmeryu = {
-				}
-			}
-			c_ural = {
-				color={ 246 220 149 }
-				color2={ 255 255 255 }
-			
-				b_ural = {
-				}
-				b_ustkatav = {
-				}
-				b_asha = {
-				}
-				b_chebarkul = {
-				}
-				b_kaslinsky = {
-				}
-				b_kyshtym = {
-				}
-				b_miass = {
-				}
-				b_satka = {
-				}
-			}
-			
-		}
 		d_ustug = {
 			color={ 134 145 31 }
 			color2={ 255 255 255 }
 			
 			capital = 402 # Veliky Ustug
 			
-			c_votyaki = {
-				color={ 197 162 67 }
-				color2={ 255 255 255 }
-			
-				b_achit = {
-				}
-				b_sarana = {
-				}
-				b_ufimskiy = {
-				}
-				b_bisert = {
-				}
-				b_arti = {
-				}
-				b_atig = {
-				}
-				b_shalya = {
-				}
-				b_shamary = {
-				}
-			}
 			c_zyriane = {
 				color={ 195 160 65 }
 				color2={ 255 255 255 }
@@ -20106,6 +20157,109 @@ e_pars = {
 				b_chizha = {
 				}
 				b_kiya = {
+				}
+			}
+		}
+	}
+	
+	k_siberia = {
+		color = { 190 170 40 }
+		color2 = { 5 5 15 }
+		
+		capital = 886 # Perm
+		
+		
+		d_perm = {
+			color={ 234 208 137 }
+			color2={ 255 255 255 }
+			
+			capital = 886 # Perm
+			
+			c_votyaki = {
+				color={ 197 162 67 }
+				color2={ 255 255 255 }
+			
+				b_achit = {
+				}
+				b_sarana = {
+				}
+				b_ufimskiy = {
+				}
+				b_bisert = {
+				}
+				b_arti = {
+				}
+				b_atig = {
+				}
+				b_shalya = {
+				}
+				b_shamary = {
+				}
+			}
+		
+			c_perm = {
+				color={ 237 211 140 }
+				color2={ 255 255 255 }
+			
+				b_perym = {
+				}
+				b_perm = {
+					holy_site = finnish_pagan
+					holy_site = finnish_pagan_reformed				
+				}
+				b_gorodki = {
+				}
+				b_yagoshikha = {
+				}
+				b_lysva = {
+				}
+				b_cherdyn = {
+				}
+				b_chemuska = {
+				}
+				b_biser = {
+				}
+			}
+			c_komi = {
+				color={ 243 217 146 }
+				color2={ 255 255 255 }
+			
+				b_inta = {
+				}
+				b_vorkuta = {
+				}
+				b_ustkolom = {
+				}
+				b_usttsilma = {
+				}
+				b_aykino = {
+				}
+				b_vorgashor = {
+				}
+				b_kharp = {
+				}
+				b_khalmeryu = {
+				}
+			}
+			c_ural = {
+				color={ 246 220 149 }
+				color2={ 255 255 255 }
+			
+				b_ural = {
+				}
+				b_ustkatav = {
+				}
+				b_asha = {
+				}
+				b_chebarkul = {
+				}
+				b_kaslinsky = {
+				}
+				b_kyshtym = {
+				}
+				b_miass = {
+				}
+				b_satka = {
 				}
 			}
 		}
