@@ -1,10 +1,10 @@
 14000001 = {
-	name = "Aukstaitias"
+	name = "Aukštaitias"
 	culture = lithuanian
 }
 
 14000002 = {
-	name = "Kursias"
+	name = "Kuršias"
 	culture = lithuanian
 }
 

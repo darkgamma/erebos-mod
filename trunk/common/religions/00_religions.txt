@@ -1129,7 +1129,7 @@ uralic_group = {
 		allow_looting = yes
 		max_consorts = 3
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
-		reformed = ugric_pagan_reformed
+		#reformed = ugric_pagan_reformed
 		
 		short_reign_opinion_year_mult = 4 # The default is 2
 		
@@ -1205,7 +1205,7 @@ uralic_group = {
 		allow_looting = yes
 		max_consorts = 3
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
-		reformed = hungarian_pagan_reformed
+		#reformed = hungarian_pagan_reformed
 		
 		short_reign_opinion_year_mult = 4 # The default is 2
 		
@@ -1304,7 +1304,7 @@ uralic_group = {
 		allow_looting = yes
 		max_consorts = 3
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
-		reformed = volgaic_pagan_reformed
+		#reformed = volgaic_pagan_reformed
 		
 		short_reign_opinion_year_mult = 4 # The default is 2
 		
@@ -1403,7 +1403,7 @@ uralic_group = {
 		allow_looting = yes
 		max_consorts = 3
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
-		reformed = samoyedic_pagan_reformed
+		#reformed = samoyedic_pagan_reformed
 		
 		short_reign_opinion_year_mult = 4 # The default is 2
 		
@@ -1502,7 +1502,7 @@ uralic_group = {
 		allow_looting = yes
 		max_consorts = 3
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
-		reformed = saami_pagan_reformed
+		#reformed = saami_pagan_reformed
 		
 		short_reign_opinion_year_mult = 4 # The default is 2
 		

@@ -10700,6 +10700,8 @@ e_byzantine = {
 				b_vitebsk = {
 				}
 				b_sakolniki = {
+				    holy_site = baltic_pagan
+					holy_site = baltic_pagan_reformed
 				}
 				b_haradok = {
 				}
@@ -13777,6 +13779,8 @@ e_byzantine = {
 				b_konigsberg = {
 				}
 				b_fischhausen = {
+				    holy_site = baltic_pagan
+					holy_site = baltic_pagan_reformed
 				}
 				b_sambrandenburg = {
 				}
@@ -13811,8 +13815,6 @@ e_byzantine = {
 				b_eylau = {
 				}
 				b_briesen = {
-					holy_site = baltic_pagan
-					holy_site = baltic_pagan_reformed
 				}
 			}
 		}		
@@ -14107,8 +14109,6 @@ e_byzantine = {
 				b_arkona = {
 					holy_site = slavic_pagan
 					holy_site = slavic_pagan_reformed
-					holy_site = baltic_pagan
-					holy_site = baltic_pagan_reformed
 				}
 				b_rugard = {
 				}
