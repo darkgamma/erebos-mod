@@ -399,7 +399,7 @@ d_zoroastrian = {
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }
 
-d_congermanic_reformed = {
+d_contgermanic_reformed = {
 	color={ 175 50 136 }
 	color2={ 220 220 0 }
 	
@@ -444,6 +444,136 @@ d_saxon_pagan_reformed = {
 	controls_religion = saxon_pagan_reformed
 	
 	religion = saxon_pagan_reformed
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+d_ugric_pagan_reformed = {
+	color={ 175 50 136 }
+	color2={ 220 220 0 }
+	
+	capital = 84 # Friesland
+	
+	title = "HEAD_PRIEST"
+	title_female = "HEAD_PRIESTESS"
+	foa = "HEAD_PRIEST_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes	
+	
+	# Controls a religion
+	controls_religion = ugric_pagan_reformed
+	
+	religion = ugric_pagan_reformed
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+d_hungarian_pagan_reformed = {
+	color={ 175 50 136 }
+	color2={ 220 220 0 }
+	
+	capital = 84 # Friesland
+	
+	title = "HEAD_PRIEST"
+	title_female = "HEAD_PRIESTESS"
+	foa = "HEAD_PRIEST_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes	
+	
+	# Controls a religion
+	controls_religion = hungarian_pagan_reformed
+	
+	religion = hungarian_pagan_reformed
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+d_volgaic_pagan_reformed = {
+	color={ 175 50 136 }
+	color2={ 220 220 0 }
+	
+	capital = 84 # Friesland
+	
+	title = "HEAD_PRIEST"
+	title_female = "HEAD_PRIESTESS"
+	foa = "HEAD_PRIEST_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes	
+	
+	# Controls a religion
+	controls_religion = volgaic_pagan_reformed
+	
+	religion = volgaic_pagan_reformed
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+d_samoyedic_pagan_reformed = {
+	color={ 175 50 136 }
+	color2={ 220 220 0 }
+	
+	capital = 84 # Friesland
+	
+	title = "HEAD_PRIEST"
+	title_female = "HEAD_PRIESTESS"
+	foa = "HEAD_PRIEST_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes	
+	
+	# Controls a religion
+	controls_religion = samoyedic_pagan_reformed
+	
+	religion = samoyedic_pagan_reformed
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+d_saami_pagan_reformed = {
+	color={ 175 50 136 }
+	color2={ 220 220 0 }
+	
+	capital = 84 # Friesland
+	
+	title = "HEAD_PRIEST"
+	title_female = "HEAD_PRIESTESS"
+	foa = "HEAD_PRIEST_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes	
+	
+	# Controls a religion
+	controls_religion = saami_pagan_reformed
+	
+	religion = saami_pagan_reformed
 	
 	# Cannot be held as a secondary title
 	primary = yes
