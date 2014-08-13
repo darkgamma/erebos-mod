@@ -27,3 +27,28 @@
 	name = "Odolgid"
 	culture = bolghar
 }
+
+17000007 = {
+	name = "Urusoba"
+	culture = cuman
+}
+
+17000008 = {
+	name = "Ilbari"
+	culture = cuman
+}
+
+17000009 = {
+	name = "Doganid"
+	culture = turkish
+}
+
+17000010 = {
+	name = "Sugrid"
+	culture = karluk
+}
+
+17000011 = {
+	name = "Kozelid"
+	culture = kirghiz
+}
