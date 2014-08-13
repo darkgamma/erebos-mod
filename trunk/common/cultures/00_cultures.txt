@@ -4630,7 +4630,6 @@ Aasha Abyan Adey Aisha Alaso Amal Ambro Amina Asli Awa Awatif Awrala Ayaan Aziza
 			Demiana Elpis_Hope Hannah_Anna Hawwa_Eve Ilizabith_Elizabeth Kasrin_Catherine Kristina_Christine Mariam_Maria Marta_Martha Maysoon_Maysoon Paisi
 			Piama Piamun Potamina Samia_Samira Sofia_Sofia Talida_Taliba Virina_Veronica
 		}
-		from_dynasty_prefix = " "
 
 		modifier = default_culture_modifier
 	}
