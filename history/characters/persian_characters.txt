@@ -19,9 +19,8 @@
 	add_trait = brave
 	add_trait = deceitful
 	add_trait = paranoid
-	
 	add_trait = hsb_blue
-	
+
 	culture = persian
 	religion = zoroastrian
 	

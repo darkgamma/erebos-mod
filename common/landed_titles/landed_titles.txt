@@ -17853,8 +17853,6 @@ e_pars = {
 				}
 				b_gonabad = {
 				}
-				b_kalat = {
-				}
 				b_torbatjam = {
 				}
 				b_bardaskan = {
