@@ -79,3 +79,66 @@
 	
 	874.1.1 = { birth = 874.1.1 }
 }
+
+17000007 = {
+	name = "Kubasar"
+	dynasty = 17000007 # Urusoba
+	
+	add_trait = wroth
+	
+	religion = tengri_pagan
+	culture = cuman
+	
+	884.1.1 = { birth = 884.1.1 }
+}
+
+17000008 = {
+	name = "Etrek"
+	dynasty = 17000008 # Ilbari
+	
+	add_trait = quick
+	add_trait = paranoid
+	
+	religion = tengri_pagan
+	culture = cuman
+	
+	865.1.1 = { birth = 865.1.1 }
+}
+
+17000009 = {
+	name = "Burak"
+	dynasty = 17000009 # Doganid
+	
+	add_trait = cynical
+	
+	religion = tengri_pagan
+	culture = turkish
+	
+	872.1.1 = { birth = 872.1.1 }
+}
+
+17000010 = {
+	name = "Koza"
+	dynasty = 17000010 # Sugrid
+	
+	add_trait = proud
+	add_trait = drunkard
+	
+	religion = tengri_pagan
+	culture = karluk
+	
+	866.1.1 = { birth = 866.1.1 }
+}
+
+17000011 = {
+	name = "Tolun"
+	dynasty = 17000011 # Kozelid
+	
+	add_trait = strong
+	add_trait = patient
+	
+	religion = tengri_pagan
+	culture = kirghiz
+	
+	881.1.1 = { birth = 881.1.1 }
+}

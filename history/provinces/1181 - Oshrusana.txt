@@ -14,8 +14,8 @@ b_oshrusana = temple
 #b_nau
 
 # Misc
-culture = persian
-religion = zurvanist
+culture = turkish
+religion = tengri_pagan
 terrain = steppe
 
 # History
