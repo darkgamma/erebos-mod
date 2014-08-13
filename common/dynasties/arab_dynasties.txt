@@ -17,3 +17,8 @@
 	name = "Sulaymanid"
 	culture = bedouin_arabic
 }
+
+8000005 = {
+	name = "Fatimic"
+	culture = south_slavic
+}

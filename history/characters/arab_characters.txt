@@ -37,3 +37,13 @@
 		
 	883.1.1 = { birth="883.1.1" }
 }
+
+8000005 = { # Mujo, ruler of Haso, son of Fata
+	name="Muhamed"
+	dynasty= 8000005 # Fatimic
+	
+	religion="sunni"
+	culture="south_slavic"
+		
+	872.1.1 = { birth="872.1.1" }
+}
