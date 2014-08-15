@@ -16,7 +16,7 @@ b_kyzylyar = city
 #b_bilozerka = castle
 
 # Misc
-culture = khazar
-religion = orthodox
+culture = gothic
+religion = arian
 
 903.1.1 = { }

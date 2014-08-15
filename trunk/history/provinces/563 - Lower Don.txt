@@ -17,7 +17,7 @@ b_matveevkurgan = temple
 #b_novoazovsk = castle
 
 # Misc
-culture = khazar
-religion = orthodox
+culture = gothic
+religion = arian
 
 903.1.1 = { }

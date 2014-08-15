@@ -27,3 +27,8 @@
 	name = "Meniling"
 	culture = langobard
 }
+
+5000007 = {
+	name = "Wulfilan"
+	culture = gothic
+}
