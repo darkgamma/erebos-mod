@@ -4567,14 +4567,14 @@ Zîlan Zînet Zînê Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermî
 
        graphical_culture = persiangfx
 
-       color = { 0.05 0.15 0.05 }
+       color = { 0.1 0.3 0.1 }
 
        male_names = {
-    Ahuti Amihraman Andez Apama Ardokhsho Artabazu Artana Artasura Artosauka Awishka Bag Bagmareg Barzand Bazeshk Bazodeo Borzomihr Borzomiur Boser Bozan Chinakhratu Daro Dartafarnah Dathshmareg Devraz Etat Eyoman Fanz Freistarab Goboziko Goya Grumbat Gunavarman Hashtuma Huspasina Huvishka Jouishka Kalan Kama Kanarang Kandik Kanishka Katana Kav Kaw Khalas Khanchil Kharana Khirgoman Khoade Khwasraw Kidara Koshan Kozgashka Kozgashki Kungas Kur Loikhobosar Mareg Mihraman Mithravakhsha Nevak Ninda Nobekht Nokonzok Nukunzuk Oaksh Oesh Oeshki Ormuzd Oromozd Orshvadata Parka Peroz Piroz Purlang-zin Pusk Ratbel Sang Shabur Shafar Shao Shizogarg Shodila Spitamanah Sukhrak Tarmad Tirikhshara Ukhshebovak Ukhshyabavaka Vakhshufrita Vakhshuvarta Varhran Vitana Vohumanah Wagra Wagwir Warahan Washava Winamarg Yaskul Yezdgird Zhunlad Zmik
+    Ahuti Amihraman Andaš Apama Ardaxša Artaubašu Artana Artasura Artasauka Aviška Bag Bagmarig Baršand Bašišk Bašadia Baršamihr Baršamiur Basir Bašan Šinaxratu Dara Dartaparnah Dathšmarig Divraš Etat Eyaman Hanš Hriistaraub Gaubašika Gaya Grumbat Gunavarman Haštuma Huspasina Huviška Javiška Kalan Kama Kanaragd Kandik Kaniška Katana Kav Kav Xalas Xanšil Xarana Xirgaman Xâdi Xvasrav Kidara Kašan Kašgaška Kašgaški Kugdas Kur Laixaubasar Marig Mihraman Mithravaxša Nivak Ninda Naubixt Nakanšak Nukunšuk Ôkš Oiš Oiški Ormušd Oramašd Oršvadata Parka Piraš Piraš Purlagd-šin Pusk Ratbil Sagd Shaubur Shapar Shâ Shišagarg Shadila Spitamanah Suxrak Tarmad Tirixšara Uxšibavak Uxšyaubavaka Vaxšuhrita Vaxšuvarta Varhran Vitana Vahumanah Wagra Wagvir Warahan Wašava Winamarg Yaskul Yišdgird Zhunlad Zmik
        }
 
        female_names = {
-    Ab Agalg Alow Alushal Anend Arduksh Begeys Dukhtanosh Farowesp Firg Firyid Fordams Frogerd Harug Khuhz Lahun Lahyid Logda Lrohominan Ma Man Mapresey Muul Nana Nawshal Nestokhot Predyig Purogat Puun Rokhshana Umma Wadobargan Wusugd Zbayana Zhindag
+    Ab Agalg Alav Alušal Anind Ardukš Bigiys Duxtanaš Haravisp Hirg Hiryid Hardams Hragird Harug Xûš Lahun Lahyid Lagda Lrahaminan Ma Man Maprisiy Mûl Nana Navšal Nistaxat Pridyig Puragat Puun Raxšana Umma Wadaubargan Wusugd Zbayana Zhindag
       }
 	}
 	
@@ -4831,59 +4831,59 @@ tocharian_group = {
         color = { 0.75 0.45 0.95  }
         
         male_names = {
-            Acila Acokisgiya Acufiaya Acuiiiya Acuni Acuniya Agisala Alyaya Amgoka Amguvaka Amkvaga Amkvage Amtgiya Amti Amto Anamdasena Anandavarman Angi 
-			Anugaya Apcula Apemna Apgaya Apge Apgeya Apigo Apmya Apniya Apta Aputa Aralyi Arcaka Ardeshir_Ardeshir Ardharasa Argi Argiceya Arispa Arjuna 
-			Arselis Arsina Aryasa Asamma Asan Asdhaya Asena Asham Asoga Asuraga Athama Augala Avana Aya Ayila Azuraka Bagusaina Balasena Balasura Balavama 
-			Bhagarka Bhagasena Bhagusena Bharsavadhi Bhasdha Bhatiga Bhatisama Bhatra Bhimasena Bhoti Bimmasena Bimna Brahmi Buddhacinga Buddhaisra Buddhatala 
-			Budhaghosa Budhamitra Budhanamti Budhapliarma Budharacfii Budharachi Budharachida Budhavama Budhaya Budhila Budhosa Bushi Bushibi Caclota Cacuka 
-			Cadhi Cadhiya Cadota Cagusena Cakasa Cakla Cakola Caku Cakurata Cakuraya Cakuvala Cakvala Calmadana Calmasa Camaga Camaka Camca Camja Campe 
-			Camtgala Canaga Caneya Cangeya Capeya Capnuneya Capyana Caru Caruveta Casgeya Casmina Cataraga Cataraka Catata Cateya Catgila Catisa Catmage Cato 
-			Catugeya Caule Cetrakirti Cgito Chakir Chhu Cigha Cigita Cikimto Cimaga Cimaka Cimga Cimge Cimgse Cimnaphara Cimola Cinama Cinapliara Cinasa 
-			Cinasena Cinika Cinyasa Cipitga Citughi Cmaga Codiru Codistri Conakara Cramaena Cugapa Cupoga Cuvalayina Dadavala Dajapala Danutreya Darova Daruge 
-			Devaputra Dhaci Dhaffiadara Dhafhapala Dhagiya Dhalnapriya Dhalnena Dhamaja Dhamakama Dhamalada Dhamamitra Dhamapala Dhamapri Dhamapriya Dhamasa 
-			Dhamasena Dhamasira Dhamasretha Dhameca Dhamila Dhammaramna Dhamnapala Dhamnila Dhapaya Dharma Dharmapriya Dharmaraksha Dhraka Dmusvamta Dryaehi 
-			Gamasena Gamca Gapika Gara Garaspa Gersivas Girmitra Goboziko Govadara Grananaprema Grasdha Gronasena Gronga Grumbat Heraus Hormazd_Hormazd 
-			Huvishka Jarge Jayasa Jebhatra Jepriya Jeyabhatra Jeyaka Jhanacamdre Jihmaya Jimoya Jitugha Jivadeya Jivaka Jivamitra Jivasama Jnanasene Kacana 
-			Kacano Kaci Kadphises Kake Kakeya Kala Kalasdha Kalu Kalyanadhama Kalyanakarimitra Kalyigeya Kamaya Kamcgeya Kamci Kamciya Kame Kamjaka Kamjiya 
-			Kamki Kamkuca Kanasaga Kandik Kane Kanika Kanishka Kapge Kapgeya Kapota Kapotae Kapumca Karamtsa Kararntsa Kartsa Katge Katila Kaucasshe Kayamdaga 
-			Kecana Keniga Kenika Keyumars Khara Khingila Khosa Kidara Kilyage Kilyagi Kilyagiya Kilyama Kipunada Kirteya Kirti Kirtisama Klemjiya Kogitasasa 
-			Koiiaya Kolamte Kolasi Koleta Kolgeya Kolyisa Kompala Koneta Kosgashka Kranaya Kreya Kriti Kroae Krunbin Ktesana Kua Kuamca Kuber Kude Kuiiita 
-			Kujula Kukita Kulavardhana Kulbhu Kuleya Kuluca Kumarajiva Kumdho Kumpara Kumsena Kumtsena Kunala Kungas Kungeya Kunita Kupsimta Kupsuda Kupsuta 
-			Kurage Kurageya Kusamta Kusanasena Kustanagga Kusulaka Kutaga Kutgeya Kutre Kutreya Kuuna Kuunge Kuvaya Kuvayici Kuvifieya Kuvineya Kvinaga 
-			Kyutseya Lakunagita Lala Lampurta Larishka Larsu Latsangi Layimmaka Laza Ldasa Lepata Lgipava Liaka Lipatga Livarazma Lokaksema Lokakshema 
-			Lugaya Luhrasp Lustu Luthu Lyimgaya Lyimge Lyimimna Lyimo Lyimsu Lyipama Lyipamma Lyipana Lyipatga Lyipe Lyipeya Lyipta Lyivrasma Lyupe 
-			Mahagiri Mahiri Mahiriya Mairi Makasa Maltsuta Mangeya Manigeya Manigi Marega Masaga Masdhige Mayiri Meghima Mendre Metroma Micgae Micorca 
-			Mihirakula Mitrapala Mitro Mochabudhi Mochakama Mochapri Mochapriya Mochasena Mogata Moge Mogecika Mogeya Mogi Mogiya Molyina Mosdhaya Motega 
-			Moteka Motge Mudhaiitsa Muldeya Multeya Murunda Mutrasra Mutreya Namarazma Namata Namdasena Namdhaka Nammasura Namsuka Namtiga Namtipala Napugi 
-			Narasaka Naravahanadatta Narsita Nasova Nastimta Natasrrmi Navote Nimeya Nyanaviri Oga Ogaca Ogiya Onugi Opave Opge Opgeya Opimta Opuge Pabis 
-			Pacgoyae Pagina Pago Pakhi Pakusena Pakuva Pakuvaya Pakvaya Palge Palnamto Palugeya Pamcama Pamcatva Pamcimna Pamcina Panagara Parneya Parpana 
-			Parsu Parsuge Parvata Pataya Patika Patraya Payina Peco Pepiya Pepriya Peroz_Peroz Pgeca Pgena Pgeya Pgi Pgina Pgita Pgiya Pgoco Pgu Phaklu 
-			Phamaja Phapaya Phuinaseva Phumaseva Phuvasena Picga Pigita Pite Piteca Piteya Pitga Pitseya Plata Platga Pleya Pogana Ponicga Ponigana Porkota 
-			Portsaya Posarsa Priska Priyapata Priyaratna Priyasri Priyavada Priyavaga Priyosa Prusdhaya Pugo Pultsaya Pumfiabala Pumfiadeva Pumfiasena 
-			Pumiiasena Pumnabala Pumnavamta Pumnavati Pumnyabala Pumnyasa Punamo Purnabala Purnadana Purnasa Purnasena Purnnyabala Pursavara Purzavara Puse 
-			Pusgari Racgeya Rahulatga Ramaka Ramastso Ramatsoga Ramsotsa Rasena Raspara Rasvara Rathapala Ricikga Ricilkga Ridhasena Ripti Rohana Rokitsi 
-			Ronaprema Ropgeya Rtveladze Rutra Rutrapala Rutrasena Rutraya Sa-Nu Saca Sacha Sadarsana Sadaskana Sagamovi Sagamoya Sagana Sagapeya Sagima 
-			Sagimoya Sakha Sakhusa Salanavira Salar Salueya Saluveta Saluviya Salve Salveta Samajha Samamnera Samasena Sambhava Samca Sameka Samgaparana 
-			Samgarachi Samgaratha Samgasira Samgasri Samgha Samghabudhi Samghadharima Samghaparana Samghapriya Samgharachi Samgharaclii Samghasena Samghila 
-			Samghosa Samluve Sammapri Sammarya Samngo Samogata Sanab Sanaga Sapalbiz Sapuga Saraspa Sarivara Sarmagarachiya Sarngarama Sarpe Sarpiga Saru 
-			Sarvasrre Sarvatrata Sarviga Sekla Semniga Seraka Sevasena Sgasi Shahanshahi Shahi Shaka Sictnaya Sigayita Signaya Silaprabha Silaprava Sira 
-			Sirasa Sirmitra Siru Sirzata Siyavush Smati Socara Somcaka Somjaka Sotaya Sotuge Spaktanik Spalyaya Spirta Spyi-pri Srasdha Srimitra Sriste 
-			Srivamma Srustinga Sruthe Sucama Sucamma Sugi Sugika Sugita Sugiya Sugnuta Suguta Suhavati Sujada Sujata Sukmana Sumadata Sumata Sunamta Sundara 
-			Suryamitra Sutahar Suthu Suvarnamasuga Suvarnapala Suvaya Suyama Svaka Svaneya Svarasena Svarnabala Svaya Tagira Tagu Tajaka Takra Takto Tamaspa 
-			Tamcano Tamcgeya Tameya Tami Tamjaka Tatiga Tgaca Tiraphara Tirapiiara Titsa Togaja Tolayana Tomgraka Toramana Tryaclii Tryaehi Tsaga Tsagirsta 
-			Tsaroka Tsgatsi Tsimava Tsimaya Tsina Tsomgo Tsordhoe Tsugenamma Tsugesila Tsugesla Tsugiya Tumpala Tusana Ucadhina Ugra Upasena Upateyu Uvasena 
-			Uyage Vahana Vajesa Vammasula Vamto Vamtuavana Vanamato Vanamkha Vapika Vapo Varhran Varpa Varpe Varpeya Vasishka Vaskushana Vasmana Vasudeva Vato 
-			Vekumjiya Vemasena Vespasi Vidhura Viharavala Vijaya-Bala Vijaya-Dharma Vijaya-Jaya Vijaya-Kirti Vijaya-Sambhava Vijaya-Samgrama Vijaya-Sastra 
-			Vijaya-Simha Vijaya-Sura Vijaya-Vahana Vijaya-Vikrama Vijaya-Virya Vima Vinayaditya Vishtapsi Vua Vugaca Vugeya Vugica Vugina Vuginga Vugto Vukimna
-			Vukimtga Vukto Vumeya Vurdhiya Vuru Vusmeka Vutsava Vyarivala Winanne Wrauske Yagpu YanaSrimitra Yapgu Yasala Yehu-La Yen Yilaga Yili Yipicga 
-			Yipiya Yirumdhina Yitaka Yogasena Yonge Yonu Ype Yudhishthira Zagimoya
+            Akila Akokisgiya Akufiaya Akuiyya Akuni Akuniya Agisala Alyaya Amgoka Amguvaka Amkvaga Amkvagai Amtgiya Amti Amto Anamdasaina Anandavarman Angi 
+			Anugaya Apkula Apaimna Apgaya Apgai Apgaiya Apigo Apmya Apniya Apta Aputa Aralyi Arkaka Ardaishir_Ardaishir Ardarasa Argi Argikaiya Arispa Arjuna 
+			Arsailis Arsina Aryasa Asamma Asan Asdaya Asaina Asham Asoga Asuraga Athama Augala Avana Aya Ayila Azuraka Bagusaina Balasaina Balasura Balavama 
+			Bagarka Bagasaina Bagusaina Barsavadi Basda Batiga Batisama Batra Bimasaina Boti Bimmasaina Bimna Brahmi Buddakinga Buddaisra Buddatala 
+			Budagosa Budamitra Budanamti Budapliarma Budarakfy Budaraši Budarašida Budavama Budaya Budila Budosa Bushi Bushibi Caklota Cakuka 
+			Cadi Cadiya Cadota Cagusaina Cakasa Cakla Cakola Caku Cakurata Cakuraya Cakuvala Cakvala Calmadana Calmasa Camaga Camaka Camka Camja Campai 
+			Camtgala Canaga Canaiya Cangaiya Capaiya Capnunaiya Capyana Caru Caruvaita Casgaiya Casmina Cataraga Cataraka Catata Cataiya Catgila Catisa Catmagai Cato 
+			Catugaiya Caulai Caitrakirti Cgito Chakir Xšu Cikimto Cimaga Cimaka Cimga Cimgai Cimgsai Cimnaphara Cimola Cinama Cinapliara Cinasa 
+			Cinasaina Cinika Cinyasa Cipitga Citugi Cmaga Codiru Codistri Conakara Cramaaina Cugapa Cupoga Cuvalayina Dadavala Dajapala Danutraiya Darova Darugai 
+			Daivaputra Daki Daffiadara Dafhapala Dagiya Dalnapriya Dalnaina Damaja Damakama Damalada Damamitra Damapala Damapri Damapriya Damasa 
+			Damasaina Damasira Damasraitha Damaika Damila Dammaramna Damnapala Damnila Dapaya Darma Darmapriya Darmaraksha Draka Dmusvamta Dryaaihi 
+			Gamasaina Gamka Gapika Gara Garaspa Gairsivas Girmitra Goboziko Govadara Grananapraima Grasda Gronasaina Gronga Grumbat Hairaus Hormazd_Hormazd 
+			Huvishka Jargai Jayasa Jaibatra Jaipriya Jaiyabatra Jaiyaka Jhanakamdrai Jihmaya Jimoya Jituga Jivadaiya Jivaka Jivamitra Jivasama Jnanasainai Kakana 
+			Kakano Kaki Kadphisais Kakai Kakaiya Kala Kalasda Kalu Kalyanadama Kalyanakarimitra Kalyigaiya Kamaya Kamkgaiya Kamki Kamkiya Kamai Kamjaka Kamjiya 
+			Kamki Kamkuka Kanasaga Kandik Kanai Kanika Kanishka Kapgai Kapgaiya Kapota Kapotaai Kapumka Karamtsa Kararntsa Kartsa Katgai Katila Kaukasshai Kayamdaga 
+			Kaikana Kainiga Kainika Kaiyumars Khara Khingila Khosa Kidara Kilyagai Kilyagi Kilyagiya Kilyama Kipunada Kirtaiya Kirti Kirtisama Klaimjiya Kogitasasa 
+			Koyaya Kolamtai Kolasi Kolaita Kolgaiya Kolyisa Kompala Konaita Kosgashka Kranaya Kraiya Kriti Kroaai Krunbin Ktaisana Kua Kuamka Kubair Kudai Kuyita 
+			Kujula Kukita Kulavardana Kulbu Kulaiya Kuluka Kumarajiva Kumdo Kumpara Kumsaina Kumtsaina Kunala Kungas Kungaiya Kunita Kupsimta Kupsuda Kupsuta 
+			Kuragai Kuragaiya Kusamta Kusanasaina Kustanagga Kusulaka Kutaga Kutgaiya Kutrai Kutraiya Kuuna Kuungai Kuvaya Kuvayiki Kuvifiaiya Kuvinaiya Kvinaga 
+			Kyutsaiya Lakunagita Lala Lampurta Larishka Larsu Latsangi Layimmaka Laza Ldasa Laipata Lgipava Liaka Lipatga Livarazma Lokaksaima Lokakshaima 
+			Lugaya Luhrasp Lustu Luthu Lyimgaya Lyimgai Lyimimna Lyimo Lyimsu Lyipama Lyipamma Lyipana Lyipatga Lyipai Lyipaiya Lyipta Lyivrasma Lyupai 
+			Mahagiri Mahiri Mahiriya Mairi Makasa Maltsuta Mangaiya Manigaiya Manigi Maraiga Masaga Masdigai Mayiri Maigima Maindrai Maitroma Mikgaai Mikorka 
+			Mihirakula Mitrapala Mitro Mošabudi Mošakama Mošapri Mošapriya Mošasaina Mogata Mogai Mogaikika Mogaiya Mogi Mogiya Molyina Mosdaya Motaiga 
+			Motaika Motgai Mudaytsa Muldaiya Multaiya Murunda Mutrasra Mutraiya Namarazma Namata Namdasaina Namdaka Nammasura Namsuka Namtiga Namtipala Napugi 
+			Narasaka Naravahanadatta Narsita Nasova Nastimta Natasršmi Navotai Nimaiya Nyanaviri Oga Ogaka Ogiya Onugi Opavai Opgai Opgaiya Opimta Opugai Pabis 
+			Pakgoyaai Pagina Pago Paši Pakusaina Pakuva Pakuvaya Pakvaya Palgai Palnamto Palugaiya Pamkama Pamkatva Pamkimna Pamkina Panagara Parnaiya Parpana 
+			Parsu Parsugai Parvata Pataya Patika Patraya Payina Paiko Paipiya Paipriya Pairoz_Pairoz Pgaika Pgaina Pgaiya Pgi Pgina Pgita Pgiya Pgoko Pgu Phaklu 
+			Phamaja Phapaya Phuinasaiva Phumasaiva Phuvasaina Pikga Pigita Pitai Pitaika Pitaiya Pitga Pitsaiya Plata Platga Plaiya Pogana Ponikga Ponigana Porkota 
+			Portsaya Posarsa Priska Priyapata Priyaratna Priyasri Priyavada Priyavaga Priyosa Prusdaya Pugo Pultsaya Pumfiabala Pumfiadaiva Pumfiasaina 
+			Pumyasaina Pumnabala Pumnavamta Pumnavati Pumnyabala Pumnyasa Punamo Purnabala Purnadana Purnasa Purnasaina Purnnyabala Pursavara Purzavara Pusai 
+			Pusgari Rakgaiya Rahulatga Ramaka Ramastso Ramatsoga Ramsotsa Rasaina Raspara Rasvara Rathapala Rikikga Rikilkga Ridasaina Ripti Rohana Rokitsi 
+			Ronapraima Ropgaiya Rtvailazdai Rutra Rutrapala Rutrasaina Rutraya Sa-Nu Saka Saša Sadarsana Sadaskana Sagamovi Sagamoya Sagana Sagapaiya Sagima 
+			Sagimoya Saša Sašusa Salanavira Salar Saluaiya Saluvaita Saluviya Salvai Salvaita Samajha Samamnaira Samasaina Sambava Samka Samaika Samgaparana 
+			Samgaraši Samgaratha Samgasira Samgasri Samga Samgabudi Samgadarima Samgaparana Samgapriya Samgaraši Samgarakly Samgasaina Samgila 
+			Samgosa Samluvai Sammapri Sammarya Samngo Samogata Sanab Sanaga Sapalbiz Sapuga Saraspa Sarivara Sarmagarašiya Sarngarama Sarpai Sarpiga Saru 
+			Sarvasršai Sarvatrata Sarviga Saikla Saimniga Sairaka Saivasaina Sgasi Shahanshahi Shahi Shaka Siktnaya Sigayita Signaya Silapraba Silaprava Sira 
+			Sirasa Sirmitra Siru Sirzata Siyavush Smati Sokara Somkaka Somjaka Sotaya Sotugai Spaktanik Spalyaya Spirta Spyi-pri Srasda Srimitra Sristai 
+			Srivamma Srustinga Sruthai Sukama Sukamma Sugi Sugika Sugita Sugiya Sugnuta Suguta Suhavati Sujada Sujata Sukmana Sumadata Sumata Sunamta Sundara 
+			Suryamitra Sutahar Suthu Suvarnamasuga Suvarnapala Suvaya Suyama Svaka Svanaiya Svarasaina Svarnabala Svaya Tagira Tagu Tajaka Takra Takto Tamaspa 
+			Tamkano Tamkgaiya Tamaiya Tami Tamjaka Tatiga Tgaka Tiraphara Tirapyara Titsa Togaja Tolayana Tomgraka Toramana Tryakly Tryaaihi Tsaga Tsagirsta 
+			Tsaroka Tsgatsi Tsimava Tsimaya Tsina Tsomgo Tsordoai Tsugainamma Tsugaisila Tsugaisla Tsugiya Tumpala Tusana Ukadina Ugra Upasaina Upataiyu Uvasaina 
+			Uyagai Vahana Vajaisa Vammasula Vamto Vamtuavana Vanamato Vanamša Vapika Vapo Varhran Varpa Varpai Varpaiya Vasishka Vaskushana Vasmana Vasudaiva Vato 
+			Vaikumjiya Vaimasaina Vaispasi Vidura Viharavala Vijaya-Bala Vijaya-Darma Vijaya-Jaya Vijaya-Kirti Vijaya-Sambava Vijaya-Samgrama Vijaya-Sastra 
+			Vijaya-Sihma Vijaya-Sura Vijaya-Vahana Vijaya-Vikrama Vijaya-Virya Vima Vinayaditya Vishtapsi Vua Vugaka Vugaiya Vugika Vugina Vuginga Vugto Vukimna
+			Vukimtga Vukto Vumaiya Vurdiya Vuru Vusmaika Vutsava Vyarivala Winannai Wrauskai Yagpu YanaSrimitra Yapgu Yasala Yaihu-La Yain Yilaga Yili Yipikga 
+			Yipiya Yirumdina Yitaka Yogasaina Yongai Yonu Ypai Yudishthira Zagimoya
 		}
-        female_names = {
-            Apisae Argiyotgisaae Atamsiyae Cakuvaae Camasriae Camavati Camoae Camtamnoae Camtroae Catisae Catroae Cimikae Cinasyaniyae Cinga Cukapae 
-			Dhamasriae Dirsateyae Kacaka Kaciyae Kamcgoae Koloae Konuma Konumae Koparsaniae Kosenae Kosenaya Kuti Laroae Lyimisoae Lyipaae Mumtritsae 
-			Namilgaae Namisyanae Namsanae Paluvisae Pgisa Priyaniae Pumfiavatiyae Pumnalazaae Ramasri Ramasriae Ramatiae Ramomtiae Ramotiyae Saganapaae 
-			Saluvaae Saluve Samapriae Samoae Sariyae Sarpina Sarpinae Sarvasriae Simasriae Smagasae Smitsae Somjagrrae Somjasrryae Sriyavamtiae Sugisae 
-			Sugnumae Supriyae Suvisae Tamasyanae Tamcina Tilutamaae Tsimnaae Tsinae Visaliae Vuruvisaae
+        faimalai_namais = {
+            Apisaai Argiyotgisay Atamsiyaai Cakuvay Camasriaai Camavati Camoaai Camtamnoaai Camtroaai Catisaai Catroaai Cimikaai Cinasyaniyaai Cinga Cukapaai 
+			Damasriaai Dirsataiyaai Kakaka Kakiyaai Kamkgoaai Koloaai Konuma Konumaai Koparsaniaai Kosainaai Kosainaya Kuti Laroaai Lyimisoaai Lyipay Mumtritsaai 
+			Namilgay Namisyanaai Namsanaai Paluvisaai Pgisa Priyaniaai Pumfiavatiyaai Pumnalazay Ramasri Ramasriaai Ramatiaai Ramomtiaai Ramotiyaai Saganapay 
+			Saluvay Saluvai Samapriaai Samoaai Sariyaai Sarpina Sarpinaai Sarvasriaai Simasriaai Smagasaai Smitsaai Somjagršaai Somjasršyaai Sriyavamtiaai Sugisaai 
+			Sugnumaai Supriyaai Suvisaai Tamasyanaai Tamkina Tilutamay Tsimnay Tsinaai Visaliaai Vuruvisay
 		}
 
         from_dynasty_prefix = "auz "

@@ -23,3 +23,13 @@
 	name = "Kartirid"
 	culture = persian
 }
+
+12000004 = {
+	name = "Sarducid"
+	culture = persian
+}
+
+12000005 = {
+	name = "Cišpid"
+	culture = persian
+}
