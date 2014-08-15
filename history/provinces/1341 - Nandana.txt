@@ -14,7 +14,7 @@ b_hund = city
 #b_khewra = city
 
 # Misc
-culture = panjabi
-religion = hindu
+culture = tocharian
+religion = akaist
 
 # History

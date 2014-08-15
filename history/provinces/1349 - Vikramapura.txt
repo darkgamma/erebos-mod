@@ -12,7 +12,7 @@ b_kolayat = temple
 #b_shekhsar = castle
 
 # Misc
-culture = rajput
-religion = jain
+culture = tocharian
+religion = nestorian
 
 # History

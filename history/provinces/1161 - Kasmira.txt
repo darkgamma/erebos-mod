@@ -15,7 +15,7 @@ b_shankaracharya = temple
 #b_baghsar = castle
 
 # Misc
-culture = panjabi
-religion = buddhist
+culture = tocharian
+religion = akaist
 
 # History

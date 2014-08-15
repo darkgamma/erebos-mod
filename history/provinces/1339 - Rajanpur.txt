@@ -12,7 +12,7 @@ b_rojhan = city
 #b_dajal = city
 
 # Misc
-culture = sindhi
-religion = sunni
+culture = persian
+religion = nestorian
 
 # History

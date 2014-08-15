@@ -12,7 +12,7 @@ b_mir_rukan = temple
 #b_vicalapura = castle
 
 # Misc
-culture = sindhi
-religion = sunni
+culture = bactrian
+religion = nestorian
 
 # History

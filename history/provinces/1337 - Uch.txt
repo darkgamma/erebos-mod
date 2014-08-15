@@ -13,7 +13,7 @@ b_chachran = city
 #b_sitpur = city
 
 # Misc
-culture = panjabi
-religion = sunni
+culture = tocharian
+religion = nestorian
 
 # History

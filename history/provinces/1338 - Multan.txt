@@ -14,7 +14,6 @@ b_kabirwala = city
 #b_makhdum_rashid = temple
 
 # Misc
-culture = panjabi
-religion = sunni
-
+culture = tocharian
+religion = akaist
 # History

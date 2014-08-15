@@ -1,0 +1,4 @@
+900.1.1 = { 
+	liege = d_chathwaravairya
+	holder = 12000005 # Haxamanish
+}

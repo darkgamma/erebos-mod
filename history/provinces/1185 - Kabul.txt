@@ -16,4 +16,6 @@ b_nagarahara = temple
 
 # Misc
 culture = persian
-religion = zoroastrian
+religion = zurvanist
+
+

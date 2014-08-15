@@ -13,7 +13,6 @@ b_sarkara = temple
 #b_shikarpur = city
 
 # Misc
-culture = sindhi
-religion = sunni
-
+culture = baloch
+religion = nestorian
 # History
