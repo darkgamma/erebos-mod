@@ -37,7 +37,7 @@
 hsb_red = {
 
 	potential = {
-		always = no
+		# always = no
 	}
 	
 	opposite_opinion = -20
@@ -57,7 +57,7 @@ hsb_red = {
 hsb_bronze = {
 
 	potential = {
-		always = no
+		# always = no
 	}
 	
 	same_opinion = 10
@@ -78,7 +78,7 @@ hsb_bronze = {
 hsb_yellow = {
 
 	potential = {
-		always = no
+		# always = no
 	}
 	
 	same_opinion = 10
@@ -99,7 +99,7 @@ hsb_yellow = {
 hsb_lime = {
 
 	potential = {
-		always = no
+		# always = no
 	}
 	
 	same_opinion = 10
@@ -120,7 +120,7 @@ hsb_lime = {
 hsb_jade = {
 
 	potential = {
-		always = no
+		# always = no
 	}
 	
 	same_opinion = 15
@@ -141,7 +141,7 @@ hsb_jade = {
 hsb_teal = {
 
 	potential = {
-		always = no
+		# always = no
 	}
 	
 	same_opinion = 15
@@ -162,7 +162,7 @@ hsb_teal = {
 hsb_blue = {
 
 	potential = {
-		always = no
+		# always = no
 	}
 	
 	same_opinion = 20
@@ -183,7 +183,7 @@ hsb_blue = {
 hsb_indigo = {
 
 	potential = {
-		always = no
+		# always = no
 	}
 	
 	same_opinion = 25
@@ -204,7 +204,7 @@ hsb_indigo = {
 hsb_violet = {
 
 	potential = {
-		always = no
+		# always = no
 	}
 	
 	same_opinion = 25
@@ -231,7 +231,7 @@ hsb_violet = {
 hs_halfling = {
 
 	potential = {
-		always = no
+		# always = no
 	}
 	
 	customizer = no
@@ -254,7 +254,7 @@ hs_halfling = {
 hs_nspawn = {
 
 	potential = {
-		always = no
+		# always = no
 	}
 	
 	customizer = no
@@ -275,7 +275,7 @@ hs_nspawn = {
 hs_primod = {
 
 	potential = {
-		always = no
+		# always = no
 	}
 	
 	customizer = no
