@@ -30,11 +30,31 @@
 }
 
 12000003 = {
-	name = "Hormazd"
+	name = "Ahuramazda"
 	dynasty = 12000003 # Kartirid
 	
 	culture = persian
 	religion = zurvanist
 	
 	862.1.1 = { birth = 862.1.1 }
+}
+
+12000004 = {
+	name = "Dârayavahuš" # aka Darivayuš
+	dynasty = 12000004 # Sarducid
+
+	culture = persian
+	religion = nestorian
+
+	868.1.1 = { birth = 868.1.1 }
+}
+
+12000005 = {
+	name = "Haxamâniš"
+	dynasty = 12000005 # Cishpid
+
+	culture = persian
+	religion = akaist
+
+	859.1.1 = { birth = 859.1.1 }
 }

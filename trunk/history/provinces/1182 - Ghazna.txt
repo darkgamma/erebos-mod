@@ -17,4 +17,6 @@ b_khost = temple
 
 # Misc
 culture = persian
-religion = zoroastrian
+religion = zurvanist
+
+

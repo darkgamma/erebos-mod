@@ -13,8 +13,8 @@ b_katasraj = temple
 #b_phalia = temple
 
 # Misc
-culture = panjabi
-religion = hindu
+culture = tocharian
+religion = akaist
 terrain = jungle
 
 # History

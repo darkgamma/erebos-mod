@@ -11,7 +11,6 @@ b_mastanj = city
 #b_dadhar = castle
 
 # Misc
-culture = sindhi
-religion = sunni
-
+culture = persian
+religion = nestorian
 # History

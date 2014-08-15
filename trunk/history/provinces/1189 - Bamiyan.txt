@@ -15,4 +15,6 @@ b_istalif = city
 
 # Misc
 culture = persian
-religion = zoroastrian
+religion = zurvanist
+
+

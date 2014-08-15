@@ -10,7 +10,7 @@ b_dadu = city
 #b_jhal = temple
 
 # Misc
-culture = sindhi
-religion = sunni
+culture = baloch
+religion = nestorian
 
 # History

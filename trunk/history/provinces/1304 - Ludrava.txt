@@ -12,7 +12,7 @@ b_lanela = city
 #b_pali = city
 
 # Misc
-culture = rajput
-religion = jain
+culture = bactrian
+religion = nestorian
 
 # History

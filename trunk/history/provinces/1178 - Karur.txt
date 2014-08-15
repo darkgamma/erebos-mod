@@ -12,7 +12,7 @@ b_askhanda = city
 #b_marot = city
 
 # Misc
-culture = panjabi
-religion = sunni
+culture = tocharian
+religion = akaist
 
 # History

@@ -14,7 +14,7 @@ b_karoonjar = temple
 #b_badin = temple
 
 # Misc
-culture = sindhi
-religion = sunni
+culture = bactrian
+religion = nestorian
 
 # History

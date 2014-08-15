@@ -15,7 +15,7 @@ b_thatta = castle
 #b_lari_bandar = castle
 
 # Misc
-culture = sindhi
-religion = sunni
+culture = baloch
+religion = nestorian
 
 # History

@@ -13,8 +13,8 @@ b_abohar = city
 #b_chichawatni = city
 
 # Misc
-culture = panjabi
-religion = hindu
+culture = tocharian
+religion = akaist
 terrain = jungle
 
 # History

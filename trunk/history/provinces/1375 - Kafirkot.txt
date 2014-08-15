@@ -12,7 +12,7 @@ b_malot = temple
 #b_dera_ghazi_khan = city
 
 # Misc
-culture = panjabi
-religion = sunni
+culture = persian
+religion = nestorian
 
 # History

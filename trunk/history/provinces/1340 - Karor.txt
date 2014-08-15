@@ -11,7 +11,7 @@ b_mankera = city
 #b_wan_bhachran = city
 
 # Misc
-culture = panjabi
-religion = sunni
+culture = tocharian
+religion = akaist
 
 # History

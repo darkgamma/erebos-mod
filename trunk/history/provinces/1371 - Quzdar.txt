@@ -9,7 +9,7 @@ b_quzdar = castle
 #b_bodein = city
 
 # Misc
-culture = sindhi
-religion = sunni
+culture = baloch
+religion = nestorian
 
 # History
