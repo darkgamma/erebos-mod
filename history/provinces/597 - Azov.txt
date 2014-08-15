@@ -17,8 +17,8 @@ b_sadki = temple
 #b_kugey = castle
 
 # Misc
-culture = khazar
-religion = orthodox
+culture = gothic
+religion = arian
 
 900.1.1 = {
     b_azov = ca_keep_1

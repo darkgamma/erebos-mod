@@ -125,7 +125,7 @@
 	add_trait = drunkard
 	
 	religion = tengri_pagan
-	culture = karluk
+	culture = kirghiz
 	
 	866.1.1 = { birth = 866.1.1 }
 }
@@ -138,7 +138,7 @@
 	add_trait = patient
 	
 	religion = tengri_pagan
-	culture = kirghiz
+	culture = karluk
 	
 	881.1.1 = { birth = 881.1.1 }
 }

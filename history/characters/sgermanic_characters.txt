@@ -77,3 +77,20 @@
 	
 	872.1.1 = { birth = 872.1.1 }
 }
+
+5000007 = {
+	name = "Alareiks"
+	dynasty = 5000007 # Wulfilan
+	
+    add_trait = hunter
+	add_trait = zealous
+	add_trait = cruel
+	add_trait = just
+	add_trait = sloth
+	add_trait = ambitious
+	
+	religion = arian
+	culture = gothic
+	
+	884.1.1 = { birth = 884.1.1 }
+}

@@ -17,6 +17,6 @@ b_huliaipole = city
 #b_chernihivka = castle
 
 # Misc
-culture = khazar
-religion = orthodox
+culture = gothic
+religion = arian
 903.1.1 = { }

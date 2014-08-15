@@ -16,6 +16,6 @@ b_dzhankoy = city
 #b_qurman = castle
 
 # Misc
-culture = khazar
-religion = orthodox
+culture = gothic
+religion = arian
 903.1.1 = { }
