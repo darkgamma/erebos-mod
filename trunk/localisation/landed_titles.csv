@@ -106,6 +106,8 @@ k_kiev;Kiev;;;;;;;;;;;;;x
 k_kiev_adj;Kievan;;;;;;;;;;;;;x
 k_novgorod;Novgorod;;;;;;;;;;;;;x
 k_novgorod_adj;Novgorodian;;;;;;;;;;;;;x
+k_hindush;Hinduš;;;;;;;;;;;;;x
+k_hindush_adj;Hindušian;;;;;;;;;;;;;x
 # DUCHIES
 d_hamburg;Hamburg;;;;;;;;;;;;;x
 d_habmurg_adj;Hamburgian;;;;;;;;;;;;;x
@@ -243,6 +245,10 @@ d_kermanshah;Kermanšah;;;;;;;;;;;;;x
 d_kermanshah_adj;Kermanšahian;;;;;;;;;;;;;x
 d_zaranj;Zaranj;;;;;;;;;;;;;x
 d_zaranj_adj;Zaranjian;;;;;;;;;;;;;x
+d_chathwaravairya;Chaþwâravairyô;;;;;;;;;;;;;x
+d_chathwaravairya_adj;Chaþwâravairyan;;;;;;;;;;;;;x
+d_debul;Debul;;;;;;;;;;;;;x
+d_debul_adj;Debulian;;;;;;;;;;;;;x
 d_the_vistulans;the Vistulans;;;;;;;;;;;;;x
 d_the_vistulans_adj;Vistulan;;;;;;;;;;;;;x
 d_the_poles;the Poles;;;;;;;;;;;;;x
