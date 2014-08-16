@@ -47,3 +47,8 @@
 	name = "Biyarid"
 	culture = komi
 }
+
+3000011 = {
+	name = "Viryasid"
+	culture = mansi
+}

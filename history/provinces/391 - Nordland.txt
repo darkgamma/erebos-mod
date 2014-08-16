@@ -15,7 +15,7 @@ b_rost = castle
 #b_harstad = city
 
 culture = norse
-religion = norse_pagan
+religion = norse_pagan_reformed
 
 # History
 903.1.1 = { }

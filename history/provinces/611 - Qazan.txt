@@ -18,7 +18,7 @@ b_uymuzh = temple
 
 # Misc
 culture = bolghar
-religion = tengri_pagan
+religion = tengri_pagan_reformed
 
 # History
 903.1.1 = {}

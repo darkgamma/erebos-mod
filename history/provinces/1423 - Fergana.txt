@@ -18,6 +18,6 @@ b_andijan=city
 
 # Misc
 culture = karluk
-religion = tengri_pagan
+religion = tengri_pagan_reformed
 
 # History

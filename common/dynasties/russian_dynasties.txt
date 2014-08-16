@@ -27,3 +27,8 @@
 	name = "Krivich"
 	culture = russian
 }
+
+16000007 = {
+	name = "Galindias"
+	culture = russian
+}

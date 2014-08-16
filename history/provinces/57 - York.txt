@@ -15,7 +15,7 @@ b_scarborough = city
 
 # Misc
 culture = norse
-religion = norse_pagan
+religion = norse_pagan_reformed
 
 
 902.1.1 = { }

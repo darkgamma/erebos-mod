@@ -18,7 +18,7 @@ b_csurgo = temple
 
 # Misc
 culture = avar
-religion = tengri_pagan
+religion = tengri_pagan_reformed
 
 903.1.1 = { }
  

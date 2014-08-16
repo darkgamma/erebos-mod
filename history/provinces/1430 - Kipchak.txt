@@ -13,6 +13,6 @@ b_kipchak = city
 
 # Misc
 culture = cuman
-religion = tengri_pagan
+religion = tengri_pagan_reformed
 
 # History

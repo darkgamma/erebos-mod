@@ -17,7 +17,7 @@ b_kyzalyar = city
 
 # Misc
 culture = cuman
-religion = tengri_pagan
+religion = tengri_pagan_reformed
 
 # History
 

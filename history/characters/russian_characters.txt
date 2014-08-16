@@ -9,7 +9,7 @@
 	add_trait = wroth
 	
 	culture = norse
-	religion = norse_pagan
+	religion = norse_pagan_reformed
 	
 	871.1.1 = { birth = 871.1.1 }
 }
@@ -25,7 +25,7 @@
 	add_trait = shy
 	
 	culture = norse
-	religion = norse_pagan
+	religion = norse_pagan_reformed
 	
 	874.1.1 = { birth = 874.1.1 }
 }
@@ -79,4 +79,16 @@
 	religion = slavic_pagan
 	
 	863.1.1 = { birth = 863.1.1 }
+}
+
+16000007 = {
+	name = "Budo"
+	dynasty = 16000007 # Galindias
+	
+	add_trait = cynical
+	
+	culture = galindian
+	religion = baltic_pagan
+	
+	874.1.1 = { birth = 874.1.1 }
 }

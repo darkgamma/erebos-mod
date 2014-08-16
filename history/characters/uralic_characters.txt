@@ -106,3 +106,13 @@
 	
 	875.1.1 = { birth = 875.1.1 }
 }
+
+3000011 = {
+	name = "Zyryan"
+	dynasty = 3000011 # Viryasid
+	
+	religion = ugric_pagan
+	culture = mansi
+	
+	882.1.1 = { birth = 8882.1.1 }
+}

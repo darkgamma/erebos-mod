@@ -1,0 +1,44 @@
+decisions = {
+	
+	slavic_reformation = {
+	    is_high_prio = yes
+		potential = {
+			is_ruler = yes
+			is_feudal = yes
+			prisoner = no
+			religion = slavic_pagan
+			OR = {
+			    tier = KING
+			    tier = EMPEROR
+			}
+			NOT = {
+			    has_global_flag = slavic_reformed
+			}
+		}
+		allow = {
+			war = no
+            NOT = {
+			    trait = cynical
+			}
+			wealth = 500
+			piety = 5000
+		}
+		effect = {
+		    religion = slavic_pagan_reformed
+			set_parent_religion = {
+			    parent = slavic_pagan_reformed
+			    religion = slavic_pagan
+			}
+			wealth = -500
+			set_global_flag = slavic_reformation
+			set_character_flag = slavic_reformer
+			any_playable_ruler = {
+			    narrative_event = { id = REF.1 tooltip = EVTTOOLTIPREF.1 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

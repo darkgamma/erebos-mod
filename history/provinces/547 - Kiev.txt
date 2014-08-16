@@ -15,8 +15,8 @@ b_ovruch = castle
 #b_fastiv = castle
 
 # Misc
-culture = russian
-religion = norse_pagan
+culture = norse
+religion = norse_pagan_reformed
 
 
 867.1.1 = {

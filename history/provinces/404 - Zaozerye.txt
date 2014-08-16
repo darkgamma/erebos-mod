@@ -17,6 +17,6 @@ b_zarechnaya = castle
 
 # Misc
 culture = norse
-religion = norse_pagan
+religion = norse_pagan_reformed
 # History
 903.1.1 = { }
