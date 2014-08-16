@@ -15,7 +15,7 @@ b_oshrusana = temple
 
 # Misc
 culture = turkish
-religion = tengri_pagan
+religion = tengri_pagan_reformed
 terrain = steppe
 
 # History

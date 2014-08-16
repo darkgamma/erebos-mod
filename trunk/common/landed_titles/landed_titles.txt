@@ -3103,7 +3103,6 @@ e_scandinavia = {
 		
 		culture = swedish
 		
-		norse = Sviþjod
 		d_uppland = {
 			color={ 20 20 145 }
 			color2={ 255 255 255 }
@@ -12321,29 +12320,6 @@ e_byzantine = {
 				b_pakli = {
 				}
 			}
-			
-			c_bashkirs = {
-				color={ 209 174 79 }
-				color2={ 255 255 255 }
-			
-				b_ufa = {
-				}
-				b_belebey = {
-				}
-				b_chishmy = {
-				}
-				b_bajmaq = {
-				}
-				b_isembaj = {
-				}
-				b_beloret = {
-				}
-				b_meleus = {
-				}
-				b_sterlitamak = {
-				}
-			}
-			
 			c_chuvash = {
 				color={ 237 177 16 }
 				color2={ 255 255 255 }
@@ -12386,27 +12362,6 @@ e_byzantine = {
 				b_barysh = {
 				}
 			}		
-			c_bilyar = {
-				color={ 201 166 71 }
-				color2={ 255 255 255 }
-			
-				b_bilyar = {
-				}
-				b_tukhchin = {
-				}
-				b_cukataw = {
-				}
-				b_urussu = {
-				}
-				b_bogulma = {
-				}
-				b_bryakhimov = {
-				}
-				b_nurlat = {
-				}
-				b_dzhalil = {
-				}
-			}
 			c_bulgar = {
 				color={ 203 168 73 }
 				color2={ 255 255 255 }
@@ -20806,6 +20761,53 @@ e_pars = {
 		
 		capital = 886 # Perm
 		
+		d_bashkiria = {
+		    color = { 194 162 50 }
+			color2={ 255 255 255 }
+			
+			c_bashkirs = {
+				color={ 209 174 79 }
+				color2={ 255 255 255 }
+			
+				b_ufa = {
+				}
+				b_belebey = {
+				}
+				b_chishmy = {
+				}
+				b_bajmaq = {
+				}
+				b_isembaj = {
+				}
+				b_beloret = {
+				}
+				b_meleus = {
+				}
+				b_sterlitamak = {
+				}
+			}
+			c_bilyar = {
+				color={ 201 166 71 }
+				color2={ 255 255 255 }
+			
+				b_bilyar = {
+				}
+				b_tukhchin = {
+				}
+				b_cukataw = {
+				}
+				b_urussu = {
+				}
+				b_bogulma = {
+				}
+				b_bryakhimov = {
+				}
+				b_nurlat = {
+				}
+				b_dzhalil = {
+				}
+			}
+		}
 		
 		d_perm = {
 			color={ 234 208 137 }
@@ -21001,13 +21003,6 @@ e_pars = {
 				b_askiz = {}
 			}
 		}
-	}
-	
-	k_steppe = {
-		color = { 194 162 50 }
-		color2 = { 120 100 0 }
-		
-		capital = 891 # Tyumen
 		
 		d_aqtobe = {
 		    color={ 222 164 8 }

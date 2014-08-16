@@ -17,7 +17,7 @@ b_caernarfon = city
 
 # Misc
 culture = norse
-religion = norse_pagan
+religion = norse_pagan_reformed
 terrain = hills
 
 903.1.1 = { }

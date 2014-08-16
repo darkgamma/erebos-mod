@@ -15,6 +15,6 @@ b_torzhok = temple
 #b_zubtsov = castle
 #b_udomelski = castle
 
-culture = russian
-religion = slavic_pagan
+culture = galindian
+religion = baltic_pagan
 903.1.1 = { }

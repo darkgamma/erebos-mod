@@ -19,7 +19,7 @@ b_dalby = city
 
 # Misc
 culture = norse
-religion = norse_pagan
+religion = norse_pagan_reformed
 
  
 867.1.1 = {

@@ -16,6 +16,6 @@ b_veiga = city
 
 # Misc
 culture = norse
-religion = norse_pagan
+religion = norse_pagan_reformed
 903.1.1 = { }
  

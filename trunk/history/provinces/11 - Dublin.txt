@@ -18,7 +18,7 @@ b_mellifont = temple
 
 # Misc
 culture = norse
-religion = norse_pagan
+religion = norse_pagan_reformed
 
 #  
 867.1.1 = {

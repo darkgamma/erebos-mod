@@ -15,6 +15,6 @@ b_rogozhi = temple
 #b_rzhev = city
 #b_klin = castle
 
-culture = russian
-religion = slavic_pagan
+culture = galindian
+religion = baltic_pagan
 903.1.1 = { }

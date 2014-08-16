@@ -12,11 +12,8 @@ aztec_group;Aztec;;;;;;;;;;;;;x
 slavic_group;Slavic;;;;;;;;;;;;;x
 hellenic_pagan_group;Hellenic;;;;;;;;;;;;;x
 baltic_pagan;Baltic Pagan;;;;;;;;;;;;;x
-finnish_pagan;Finnic Pagan;;;;;;;;;;;;;x
 baltic_pagan_reformed;Baltic;;;;;;;;;;;;;x
-finnish_pagan_reformed;Finnic;;;;;;;;;;;;;x
 slavic_pagan;Slavic Pagan;;;;;;;;;;;;;x
-norse_pagan;Norse Pagan;;;;;;;;;;;;;x
 
 zurvanist;Zurvanist;;;;;;;;;;;;;x
 akaist;Akaist;;;;;;;;;;;;;x
@@ -40,6 +37,7 @@ GOD_RAPTURED_JESUS;Raptured Jesus;;;;;;;;;;;;;x
 GOD_RAPTURE;The Rapture;;;;;;;;;;;;;x
 GOD_THE_RAPTURED;The Raptured;;;;;;;;;;;;;x
 
+norse_pagan;Old Norse;;;;;;;;;;;;;x
 contgermanic;Germanic Pagan;;;;;;;;;;;;;x
 contgermanic_reformed;Germanic Pagan;;;;;;;;;;;;;x
 saxon_pagan;Saxon Pagan;;;;;;;;;;;;;x
@@ -55,10 +53,14 @@ GOD_ZIU;Ziu;;;;;;;;;;;;;x
 GOD_TIU;Tiu;;;;;;;;;;;;;x
 GOD_IRMIN;Irmin;;;;;;;;;;;;;x
 
+finnish_pagan;Finnic Pagan;;;;;;;;;;;;;x
+finnish_pagan_reformed;Finnic;;;;;;;;;;;;;x
 hungarian_pagan;Hungarian Pagan;;;;;;;;;;;;;x
 hungarian_pagan_reformed;Hungarian;;;;;;;;;;;;;x
 ugric_pagan;Ugric Pagan;;;;;;;;;;;;;x
 ugric_pagan_reformed;Ugric;;;;;;;;;;;;;x
+
+tengri_pagan;Old Tengri;;;;;;;;;;;;;x
 volgaic_pagan;Volgaic Pagan;;;;;;;;;;;;;x
 volgaic_pagan_reformed;Volgaic;;;;;;;;;;;;;x
 samoyedic_pagan;Samoyedic Pagan;;;;;;;;;;;;;x
