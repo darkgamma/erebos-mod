@@ -1,0 +1,16 @@
+# 911 - Ovcar
+
+# County Title
+title = c_ovcar
+
+# Settlements
+max_settlements = 3
+b_cacak = castle
+#b_pozega = city 
+b_ovcar = temple
+
+# Misc
+culture = southslavic
+religion = slavic_pagan
+
+# History

@@ -13,7 +13,7 @@
 	dynasty= 8000002 # Fadlid
 	
 	religion="sunni"
-	culture="levantine_arabic"
+	culture="bedouin_arabic"
 		
 	867.1.1 = { birth="867.1.1" }
 }
@@ -23,7 +23,7 @@
 	dynasty= 8000003 # Nasrid
 	
 	religion="sunni"
-	culture="levantine_arabic"
+	culture="bedouin_arabic"
 		
 	880.1.1 = { birth="880.1.1" }
 }
@@ -33,7 +33,7 @@
 	dynasty= 8000004 # Sulaymanid
 	
 	religion="sunni"
-	culture="levantine_arabic"
+	culture="bedouin_arabic"
 		
 	883.1.1 = { birth="883.1.1" }
 }
@@ -43,7 +43,7 @@
 	dynasty= 8000005 # Fatimic
 	
 	religion="sunni"
-	culture="south_slavic"
+	culture="southslavic"
 		
 	872.1.1 = { birth="872.1.1" }
 }
