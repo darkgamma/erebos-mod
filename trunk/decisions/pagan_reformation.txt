@@ -3,8 +3,7 @@ decisions = {
 	slavic_reformation = {
 	    is_high_prio = yes
 		potential = {
-			is_ruler = yes
-			is_feudal = yes
+		    #independent = yes
 			prisoner = no
 			religion = slavic_pagan
 			OR = {
@@ -12,7 +11,7 @@ decisions = {
 			    tier = EMPEROR
 			}
 			NOT = {
-			    has_global_flag = slavic_reformed
+			    has_global_flag = slavic_reformation
 			}
 		}
 		allow = {
@@ -24,16 +23,48 @@ decisions = {
 			piety = 5000
 		}
 		effect = {
+		    wealth = -500
 		    religion = slavic_pagan_reformed
-			set_parent_religion = {
-			    parent = slavic_pagan_reformed
-			    religion = slavic_pagan
-			}
-			wealth = -500
-			set_global_flag = slavic_reformation
 			set_character_flag = slavic_reformer
-			any_playable_ruler = {
-			    narrative_event = { id = REF.1 tooltip = EVTTOOLTIPREF.1 }
+			create_character = {
+			    religion = slavic_pagan_reformed
+				culture = ROOT
+				dynasty = random
+				age = 30
+				learning = 15
+				random_traits = yes
+			}
+			new_character = {
+			    d_slavic_pagan_reformed = {
+			        grant_title = PREV
+				}
+				set_defacto_liege = ROOT
+			}
+			set_global_flag = slavic_reformation
+			hidden_tooltip = {
+			    any_playable_ruler = {
+			        limit = {
+					    religion = slavic_pagan_reformed
+					}
+			        narrative_event = { id = PGN.1 }
+				}
+			    any_playable_ruler = {
+			        limit = {
+					    religion = slavic_pagan
+					}
+			        narrative_event = { id = PGN.2 }
+				}
+			    any_playable_ruler = {
+			        limit = {
+					    NOT = {
+						    religion = slavic_pagan
+						}
+						NOT = {
+						    religion = slavic_pagan_reformed
+						}
+					}
+			        narrative_event = { id = PGN.3 }
+				}
 			}
 		}
 		ai_will_do = {

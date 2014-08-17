@@ -15270,6 +15270,154 @@ e_avaria = {
 				b_drivast = {
 				}
 			}
+		}
+		d_dalmatia = {
+			color={ 184 137 137 }
+			color2={ 255 255 255 }
+			
+			capital = 467 # Split
+			
+			c_zadar = {
+				color={ 188 141 141 }
+				color2={ 255 255 255 }
+	
+				b_zadar = {
+				}
+				b_nin = {
+				}
+				b_knin = {
+				}
+				b_sibenik = {
+				}
+				b_novigrad = {
+				}
+				b_benkovac = {
+				}
+				b_obrovac = {
+				}
+				b_pag = {
+				}
+			}
+			c_split = {
+				color={ 186 139 139 }
+				color2={ 255 255 255 }
+	
+				b_split = {
+				}
+				b_hvar = {
+				}
+				b_trogir = {
+				}
+				b_solin = {
+				}
+				b_klis = {
+				}
+				b_makarska = {
+				}
+				b_sinj = {
+				}
+				b_imotski = {
+				}
+			}
+		}
+		d_hum = {
+		    color = { 219 184 103 }
+			color2 = { 240 180 40 }
+			
+		    c_rama = {
+				color={ 197 118 118 }
+				color2={ 255 255 255 }
+	
+				b_rama = {
+				}
+				b_samobor = {
+				}
+				b_usice = {
+				}
+				b_borac = {
+				}
+				b_srebrenica = {
+				}
+				b_srebrnik = {
+				}
+				b_zenica = {
+				}
+				b_zvornik = {
+				}
+			}
+			c_usora = {
+				color={ 200 121 121 }
+				color2={ 255 255 255 }
+	
+				b_usora = {
+				}
+				b_banjaluka = {
+				} 
+				b_bihac = {
+				}
+				b_jajce = {
+				}
+				b_bocac = {
+				}
+				b_kuljc = {
+				}
+				b_prijedor = {
+				}
+				b_blagaj = {
+				}
+			}
+			c_zachlumia = {
+				color={ 166 57 57 }
+				color2={ 255 255 255 }
+	            
+				southslavic = Zahumlje
+				bulgarian = Zahumlje
+				
+				b_mostar = {
+				}
+				b_duvno = {
+				}
+				b_livno = {
+				}
+				b_capljina = {
+				}
+				b_sirokibrijeg = {
+				}
+				b_ljubuski = {
+				}
+				b_drvar = {
+				}
+				b_neretva = {
+				}
+			}
+			c_hum = { 
+				color={ 176 143 64 }
+				color2={ 255 255 255 }
+				
+				b_plav = {
+				}
+				b_pec = {
+				}
+				b_novipazar = {
+				}
+				b_stupovi = {
+				}
+				b_belacrkva = {
+				}
+				b_bradarevo = {
+				}
+				b_moraca = {
+				}
+				b_medun = {
+				}
+			}
+		}
+		d_morava = {
+			color = { 129 94 13 }
+			color2 = { 240 180 40 }
+			
+			capital = 503 # Hum
+			
 			c_vidin = {
 				color={ 124 105 60 }
 				color2={ 255 255 255 }
@@ -15315,105 +15463,15 @@ e_avaria = {
 				b_knjazevac = {
 				}
 			}
-		}
-		d_dalmatia = {
-			color={ 184 137 137 }
-			color2={ 255 255 255 }
-			
-			capital = 466 # Zachlumia
-
-			c_zachlumia = {
-				color={ 166 57 57 }
-				color2={ 255 255 255 }
-	            
-				southslavic = Zahumlje
-				bulgarian = Zahumlje
-				
-				b_mostar = {
-				}
-				b_duvno = {
-				}
-				b_livno = {
-				}
-				b_capljina = {
-				}
-				b_sirokibrijeg = {
-				}
-				b_ljubuski = {
-				}
-				b_drvar = {
-				}
-				b_neretva = {
-				}
-			}
-			c_zadar = {
-				color={ 188 141 141 }
-				color2={ 255 255 255 }
-	
-				b_zadar = {
-				}
-				b_nin = {
-				}
-				b_knin = {
-				}
-				b_sibenik = {
-				}
-				b_novigrad = {
-				}
-				b_benkovac = {
-				}
-				b_obrovac = {
-				}
-				b_pag = {
-				}
-			}
-			c_split = {
-				color={ 186 139 139 }
-				color2={ 255 255 255 }
-	
-				b_split = {
-				}
-				b_hvar = {
-				}
-				b_trogir = {
-				}
-				b_solin = {
-				}
-				b_klis = {
-				}
-				b_makarska = {
-				}
-				b_sinj = {
-				}
-				b_imotski = {
-				}
-			}
-		}
-		d_hum = {
-			color = { 129 94 13 }
-			color2 = { 240 180 40 }
-			
-			capital = 503 # Hum
-			
-			c_hum = { 
-				color={ 176 143 64 }
+			c_ovcar = { 
+				color={ 186 153 74 }
 				color2={ 255 255 255 }
 				
-				b_plav = {
+				b_cacak = {
 				}
-				b_pec = {
+				b_pozega = {
 				}
-				b_novipazar = {
-				}
-				b_stupovi = {
-				}
-				b_belacrkva = {
-				}
-				b_bradarevo = {
-				}
-				b_moraca = {
-				}
-				b_medun = {
+				b_ovcar = {
 				}
 			}
 			c_belgrade = {
@@ -15438,48 +15496,6 @@ e_avaria = {
 				b_pozarevac = {
 				}
 				b_lipovic = {
-				}
-			}
-			c_rama = {
-				color={ 197 118 118 }
-				color2={ 255 255 255 }
-	
-				b_rama = {
-				}
-				b_samobor = {
-				}
-				b_usice = {
-				}
-				b_borac = {
-				}
-				b_srebrenica = {
-				}
-				b_srebrnik = {
-				}
-				b_zenica = {
-				}
-				b_zvornik = {
-				}
-			}
-			c_usora = {
-				color={ 200 121 121 }
-				color2={ 255 255 255 }
-	
-				b_usora = {
-				}
-				b_banjaluka = {
-				} 
-				b_bihac = {
-				}
-				b_jajce = {
-				}
-				b_bocac = {
-				}
-				b_kuljc = {
-				}
-				b_prijedor = {
-				}
-				b_blagaj = {
 				}
 			}
 		}

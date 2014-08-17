@@ -91,7 +91,7 @@ k_xwarazmshahiyan_adj;Xwarazmšahiyanian;;;;;;;;;;;;;x
 k_mauretaniacaesariensis;Mauritania Caesariensis;;;;;;;;;;;;;x
 k_mauretaniacaesariensis_adj;Caesarientine;;;;;;;;;;;;;x
 k_mauretaniatingitana;Mauritania Tingitana;;;;;;;;;;;;;x
-k_mauretaniatingitana_adj;Tingitan;;;;;;;;;;;;;x
+k_mauretaniatingitana_adj;Tingitanan;;;;;;;;;;;;;x
 k_carthago;Carthago;;;;;;;;;;;;;x
 k_carthago_adj;Carthaginean;;;;;;;;;;;;;x
 k_aegyptus;Aegyptus;;;;;;;;;;;;;x
@@ -159,6 +159,8 @@ d_troyes;Troyes;;;;;;;;;;;;;x
 d_troyes_adj;Troyen;;;;;;;;;;;;;x
 d_vienne;Vienne;;;;;;;;;;;;;x
 d_vienne_adj;Viennois;;;;;;;;;;;;;x
+d_morava;Morava;;;;;;;;;;;;;x
+d_morava_adj;Moravian;;;;;;;;;;;;;x
 d_spis;Spis;;;;;;;;;;;;;x
 d_spis_adj;Spis;;;;;;;;;;;;;x
 d_oleshye;Oleshye;;;;;;;;;;;;;x
@@ -251,6 +253,10 @@ d_chathwaravairya;Chaþwâravairyô;;;;;;;;;;;;;x
 d_chathwaravairya_adj;Chaþwâravairyan;;;;;;;;;;;;;x
 d_debul;Debul;;;;;;;;;;;;;x
 d_debul_adj;Debulian;;;;;;;;;;;;;x
+d_ankober;Ankober;;;;;;;;;;;;;x
+d_ankober_adj;Ankoberian;;;;;;;;;;;;;x
+d_axum;Aksum;;;;;;;;;;;;;x
+d_axum_adj;Aksumite;;;;;;;;;;;;;x
 d_bashkiria;Bashkiria;;;;;;;;;;;;;x
 d_bashkiria_adj;Bashkirian;;;;;;;;;;;;;x
 d_the_vistulans;the Vistulans;;;;;;;;;;;;;x
@@ -289,8 +295,12 @@ d_the_selonians_adj;Selonian;;;;;;;;;;;;;x
 c_barcelona_adj;Barcinonan;;;;;;;;;;;;;x # 204 - Barcinona
 c_zemigalians_adj;Romuvan;;;;;;;;;;;;;x # 374 - Romuva
 c_tunis_adj;Carthaginian;;;;;;;;;;;;;x # 817 - Carthago
+c_ovcar_adj;Ovcarian;;;;;;;;;;;;;x # 911 - Ovcar
 # BARONIES
 b_ras;Ras;;;;;;;;;;;;;x
+b_cacak;Cacak;;;;;;;;;;;;;x
+b_pozega;Požega;;;;;;;;;;;;;x
+b_ovcar;Ovcar;;;;;;;;;;;;;x
 # RELIGIOUS HEADS
 k_catholic_papacy;The Catholic Papacy;;;;;;;;;;;;;x
 k_catholic_papacy_adj;Catholic;;;;;;;;;;;;;x

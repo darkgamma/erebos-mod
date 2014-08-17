@@ -1,3 +1,4 @@
 900.1.1 = {
 	holder = 12000002 # Zahak Sassanid
+    law = centralization_4
 }
