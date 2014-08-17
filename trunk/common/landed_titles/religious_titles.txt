@@ -292,15 +292,15 @@ d_finnish_pagan_reformed = {
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }
 
-d_slavic_pagan_reformed = {
+d_velikoye_volkhvotstvo = {
 	color={ 175 50 136 }
 	color2={ 220 220 0 }
 	
-	capital = 515 # Tirgoviste
+	capital = 304 # Rügen/Rana/Rujan
 	
-	title = "HEAD_PRIEST"
-	title_female = "HEAD_PRIESTESS"
-	foa = "HEAD_PRIEST_FOA"
+	title = "VELIKIY_VOLKHV"
+	title_female = "VELIKAYA_VOLKHVA"
+	foa = "VELIKIY_VOLKHV_FOA"
 	
 	short_name = yes
 	
