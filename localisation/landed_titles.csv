@@ -297,6 +297,7 @@ c_zemigalians_adj;Romuvan;;;;;;;;;;;;;x # 374 - Romuva
 c_tunis_adj;Carthaginian;;;;;;;;;;;;;x # 817 - Carthago
 c_ovcar_adj;Ovcarian;;;;;;;;;;;;;x # 911 - Ovcar
 # BARONIES
+b_chalons;Reims;;;;;;;;;;;;;x
 b_ras;Ras;;;;;;;;;;;;;x
 b_cacak;Cacak;;;;;;;;;;;;;x
 b_pozega;Požega;;;;;;;;;;;;;x
@@ -316,6 +317,8 @@ k_monophysite_papacy;The Monophysite Papacy;;;;;;;;;;;;;x
 k_monophysite_papacy_adj;Monophysite;;;;;;;;;;;;;x
 e_caliphate;The Caliphate;;;;;;;;;;;;;x
 e_caliphate_adj;Caliphal;;;;;;;;;;;;;x
+d_velikoye_volkhvotstvo;Velikoye Volkhvotstvo;;;;;;;;;;;;;x
+d_velikoye_volkhvotstvo_adj;Slavic;;;;;;;;;;;;;x
 d_contgermanic_reformed;The Germanic Church;;;;;;;;;;;;;x
 d_contgermanic_reformed_adj;Germanic;;;;;;;;;;;;;x
 d_saxon_pagan_reformed;The Saxon Church;;;;;;;;;;;;;x

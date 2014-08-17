@@ -13,8 +13,6 @@ slavic_group;Slavic;;;;;;;;;;;;;x
 hellenic_pagan_group;Hellenic;;;;;;;;;;;;;x
 baltic_pagan;Baltic Pagan;;;;;;;;;;;;;x
 baltic_pagan_reformed;Baltic;;;;;;;;;;;;;x
-slavic_pagan;Slavic Pagan;;;;;;;;;;;;;x
-slavic_pagan_old;Old Slavic;;;;;;;;;;;;;x
 
 zurvanist;Zurvanist;;;;;;;;;;;;;x
 akaist;Akaist;;;;;;;;;;;;;x
@@ -60,11 +58,19 @@ hungarian_pagan;Hungarian Pagan;;;;;;;;;;;;;x
 hungarian_pagan_reformed;Hungarian;;;;;;;;;;;;;x
 ugric_pagan;Ugric Pagan;;;;;;;;;;;;;x
 ugric_pagan_reformed;Ugric;;;;;;;;;;;;;x
-
-tengri_pagan;Old Tengri;;;;;;;;;;;;;x
 volgaic_pagan;Volgaic Pagan;;;;;;;;;;;;;x
 volgaic_pagan_reformed;Volgaic;;;;;;;;;;;;;x
 samoyedic_pagan;Samoyedic Pagan;;;;;;;;;;;;;x
 samoyedic_pagan_reformed;Samoyedic;;;;;;;;;;;;;x
 saami_pagan;Sámi Pagan;;;;;;;;;;;;;x
 saami_pagan_reformed;Sámi;;;;;;;;;;;;;x
+
+slavic_pagan;Slavic Pagan;;;;;;;;;;;;;x
+slavic_pagan_old;Old Slavic;;;;;;;;;;;;;x
+GOD_SVANTEVIT;Svantevit;;;;;;;;;;;;;x
+VOLHV;Volkhv;;;;;;;;;;;;;x
+VELIKIY_VOLKHV;Velikiy Volkhv;;;;;;;;;;;;;x
+VELIKAYA_VOLKHVA;Velikaya Volkhva;;;;;;;;;;;;;x
+VELIKIY_VOLKHV_FOA;Your Holiness;;;;;;;;;;;;;x
+
+tengri_pagan;Old Tengri;;;;;;;;;;;;;x
