@@ -533,7 +533,6 @@ germanic_group = {
 		can_call_crusade = yes
 		
 		female_temple_holders = yes
-		defensive_attrition = yes
 		
 		short_reign_opinion_year_mult = 3
 		
@@ -581,7 +580,7 @@ germanic_group = {
 
 		max_consorts = 1
 		independence_war_score_bonus = 15 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
-		reformed = saxon_pagan_reformed
+		#reformed = saxon_pagan_reformed
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
@@ -614,7 +613,6 @@ germanic_group = {
 		priests_can_marry = yes
 
 		female_temple_holders = yes
-		defensive_attrition = yes
 
 		max_consorts = 1
 
@@ -657,7 +655,7 @@ germanic_group = {
 
 		max_consorts = 1
 		independence_war_score_bonus = 15 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
-		reformed = contgermanic_reformed
+		#reformed = contgermanic_reformed
 		
 		aggression = 1.5 # AI aggression factor
 		
@@ -698,7 +696,6 @@ germanic_group = {
 		allow_rivermovement = yes
 		female_temple_holders = yes
 		can_hold_temples = yes
-		defensive_attrition = yes
 		
 		short_reign_opinion_year_mult = 3 # The default is 2
 		
@@ -792,7 +789,6 @@ tengri_group = {
 		allow_looting = yes
 		can_call_crusade = yes
 		max_consorts = 3
-		defensive_attrition = yes
 		
 		aggression = 2.0 # AI aggression factor
 		
@@ -890,7 +886,6 @@ baltic_group = {
 		can_call_crusade = yes
 		allow_looting = yes
 		max_consorts = 3
-		defensive_attrition = yes
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
@@ -937,7 +932,7 @@ baltic_group = {
 		allow_looting = yes
 		max_consorts = 3
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
-		reformed = baltic_pagan_reformed
+		#reformed = baltic_pagan_reformed
 		
 		short_reign_opinion_year_mult = 4 # The default is 2
 		
@@ -992,7 +987,6 @@ uralic_group = {
 		can_call_crusade = yes
 		allow_looting = yes
 		max_consorts = 3
-		defensive_attrition = yes
 		
 		aggression = 0.5 # AI aggression factor
 		
@@ -1092,7 +1086,6 @@ uralic_group = {
 		can_call_crusade = yes
 		allow_looting = yes
 		max_consorts = 3
-		defensive_attrition = yes
 		
 		aggression = 0.5 # AI aggression factor
 		
@@ -1180,7 +1173,6 @@ uralic_group = {
 		can_call_crusade = yes
 		allow_looting = yes
 		max_consorts = 3
-		defensive_attrition = yes
 		
 		aggression = 2 # AI aggression factor
 		
@@ -1269,7 +1261,6 @@ uralic_group = {
 		can_call_crusade = yes
 		allow_looting = yes
 		max_consorts = 3
-		defensive_attrition = yes
 		
 		aggression = 0.5 # AI aggression factor
 		
@@ -1369,7 +1360,6 @@ uralic_group = {
 		can_call_crusade = yes
 		allow_looting = yes
 		max_consorts = 3
-		defensive_attrition = yes
 		
 		aggression = 0.5 # AI aggression factor
 		
@@ -1444,8 +1434,8 @@ uralic_group = {
 		can_call_crusade = yes
 		
 		unit_modifier = {		
-			garrison_size = 0.3
-			levy_size = 0.1
+			garrison_size = 0.75
+			levy_size = 0.2
 			
 			key = "DEF_RELIGION"
 		}
@@ -1459,7 +1449,7 @@ uralic_group = {
 			archers_defensive = 0.8
 			horse_archers_defensive = 0.8
 			
-			garrison_size = 0.4
+			garrison_size = 0.9
 			
 			key = "DEF_RELIGION_HOME_TERRITORY"
 		}
@@ -1469,9 +1459,8 @@ uralic_group = {
 		can_call_crusade = yes
 		allow_looting = yes
 		max_consorts = 3
-		defensive_attrition = yes
 		
-		aggression = 0.5 # AI aggression factor
+		aggression = 0.4 # AI aggression factor
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
@@ -1492,7 +1481,8 @@ uralic_group = {
 		priest_title = PRIEST
 		
 		unit_modifier = {		
-			garrison_size = 0.4
+			garrison_size = 0.75
+			levy_size = 0.2
 			
 			key = "DEF_RELIGION"
 		}
@@ -1506,7 +1496,7 @@ uralic_group = {
 			archers_defensive = 0.8
 			horse_archers_defensive = 0.8
 			
-			garrison_size = 0.4
+			garrison_size = 0.9
 			
 			key = "DEF_RELIGION_HOME_TERRITORY"
 		}
@@ -1521,7 +1511,7 @@ uralic_group = {
 		
 		short_reign_opinion_year_mult = 4 # The default is 2
 		
-		aggression = 0.2 # AI aggression factor
+		aggression = 0.175 # AI aggression factor
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
@@ -1642,7 +1632,6 @@ slavic_group = {
 		can_call_crusade = yes
 		allow_looting = yes
 		max_consorts = 3
-		defensive_attrition = yes
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3

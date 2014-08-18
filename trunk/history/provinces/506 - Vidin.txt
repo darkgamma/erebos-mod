@@ -18,6 +18,10 @@ b_kula = city
 
 # Misc
 culture = southslavic
-religion = slavic_pagan
-903.1.1 = { }
+religion = orthodox
+
+900.1.1 = {
+	b_vidin = ca_wall_1
+	b_vidin = ca_wall_q_1
+}
  

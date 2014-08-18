@@ -1,0 +1,749 @@
+namespace = MAI
+
+narrative_event = {
+	id = MAI.1
+	title = EVTNAME60000
+	desc = EVTDESC60000
+	major = yes
+	
+	picture = "GFX_evt_selkups"
+	border = "GFX_event_narrative_frame_war"
+	
+	only_playable = yes
+	
+	trigger = {
+		#year = 1190
+		
+		religion = catholic
+		controls_religion = yes # Let it happen for the Pope - he's always around
+		
+		NOT = { has_global_flag = selkup_migration_rumors }
+		NOT = { has_global_flag = selkup_migration }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	immediate = {
+		set_global_flag = selkup_migration_rumors
+		activate_title = { title = k_selkup status = yes }
+		create_random_soldier = {
+			random_traits = yes
+			dynasty = random
+			culture = selkup
+			religion = samoyedic_pagan
+			age = 30
+			attributes = {
+				martial = 12
+				diplomacy = 4
+				stewardship = 5
+				intrigue = 4
+				learning = 3
+			}
+			health = 6
+			fertility = 0.7
+			trait = wroth
+			trait = cruel
+			trait = proud
+			trait = zealous
+		}
+		new_character = {
+			k_selkups = {
+				grant_title = PREV
+			}
+			set_defacto_liege = THIS
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA60000"
+	}
+}
+
+# Arrival of the Selkups
+narrative_event = {
+	id = MAI.2
+	title = "EVTNAME60001"
+	desc = "EVTDESC60001"
+	major = yes
+	hide_new = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	only_playable = yes
+	
+	trigger = {
+		#year = 1200
+		has_landed_title = k_selkups
+		NOT = { has_global_flag = selkup_migration }
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = "OK"
+		trigger = {
+			has_landed_title = k_selkups
+		}
+		set_global_flag = selkup_migration
+		397 = { # Samoyedia
+			kingdom = {
+				ROOT = {
+					war = {
+						casus_belli = migration_invasion
+						target = PREVPREV # The top liege of the owner
+						thirdparty_title = PREV # The de jure kingdom
+					}
+				}
+			}
+		}
+		wealth = 5000
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 30
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 35
+			attributes = {
+				martial = 12
+			}
+		}
+		new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 39
+			attributes = {
+				martial = 12
+			}
+		}
+		new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 30
+			attributes = {
+				martial = 12
+			}
+		}
+		new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 35
+			attributes = {
+				martial = 12
+			}
+		}
+		new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 39
+			attributes = {
+				martial = 12
+			}
+		}
+		new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 30
+			attributes = {
+				martial = 12
+			}
+		}
+		new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 35
+			attributes = {
+				martial = 12
+			}
+		}
+		new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 39
+			attributes = {
+				martial = 12
+			}
+		}
+		new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 30
+			attributes = {
+				martial = 12
+			}
+		}
+		new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 35
+			attributes = {
+				martial = 12
+			}
+		}
+		new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 39
+			attributes = {
+				martial = 12
+			}
+		}
+		new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 30
+			attributes = {
+				martial = 12
+			}
+		}
+		new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 35
+			attributes = {
+				martial = 12
+			}
+		}
+		new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 39
+			attributes = {
+				martial = 12
+			}
+		}
+		new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 30
+			attributes = {
+				martial = 12
+			}
+		}
+		new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 35
+			attributes = {
+				martial = 12
+			}
+		}
+		new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 39
+			attributes = {
+				martial = 12
+			}
+		}
+		new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		
+		random = {
+			chance = 50
+			
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = samoyedic_pagan
+				culture = selkup
+				female = no
+				age = 30
+				attributes = {
+					martial = 12
+				}
+			}
+			new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = samoyedic_pagan
+				culture = selkup
+				female = no
+				age = 35
+				attributes = {
+					martial = 12
+				}
+			}
+			new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = samoyedic_pagan
+				culture = selkup
+				female = no
+				age = 39
+				attributes = {
+					martial = 12
+				}
+			}
+			new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		}
+		random = {
+			chance = 50
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = samoyedic_pagan
+				culture = selkup
+				female = no
+				age = 30
+				attributes = {
+					martial = 12
+				}
+			}
+			new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = samoyedic_pagan
+				culture = selkup
+				female = no
+				age = 35
+				attributes = {
+					martial = 12
+				}
+			}
+			new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = samoyedic_pagan
+				culture = selkup
+				female = no
+				age = 39
+				attributes = {
+					martial = 12
+				}
+			}
+			new_character = {
+				spawn_unit = {
+					province = 397 # Samoyedia
+					troops =
+					{
+                        archers = { 1300 1300 }
+						light_infantry = { 2700 2700 }
+					}
+					attrition = 0.50
+				}
+			}
+		}
+		
+		# Some extra courtiers
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 16
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 18
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 18
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 20
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 25
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 26
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = no
+			age = 28
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = yes
+			age = 16
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = yes
+			age = 17
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = yes
+			age = 18
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = yes
+			age = 18
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = samoyedic_pagan
+			culture = selkup
+			female = yes
+			age = 20
+		}
+	}
+	option = {
+		name = "EVTOPTB60001"
+		NOT = { has_landed_title = k_selkups }
+    }
+}

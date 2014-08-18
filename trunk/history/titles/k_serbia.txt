@@ -1,3 +1,7 @@
+100.1.1={
+	pentarch = b_hagiasophia
+}
+
 885.1.1={
 	holder = 6000003 # Vladimir Zemlinski
 	liege = "e_avaria"

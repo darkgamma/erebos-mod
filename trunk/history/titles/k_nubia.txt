@@ -1,3 +1,7 @@
+100.1.1={
+	pentarch = b_alexandria
+}
+
 900.1.1 = {
 	holder = 7000008 # Kuriakos Alwat
 }
