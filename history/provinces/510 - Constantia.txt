@@ -20,5 +20,8 @@ b_adamclisi = temple
 # Misc
 culture = bulgarian
 religion = orthodox
-903.1.1 = { }
+900.1.1 = {
+	b_vidin = ca_wall_1
+	b_vidin = ca_wall_q_1
+}
  

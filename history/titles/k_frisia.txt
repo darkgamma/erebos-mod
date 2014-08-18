@@ -1,3 +1,7 @@
+100.1.1={
+	pentarch = b_chalons
+}
+
 900.1.1 = {
 	holder = 13000001 # Redbad van Fryslan
 }

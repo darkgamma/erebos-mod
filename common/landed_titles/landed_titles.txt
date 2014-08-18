@@ -19870,7 +19870,7 @@ e_pars = {
 		}
 	}
 }
-
+	
 	k_syria = {
 		color={ 145 130 88 }
 		color2={ 255 255 255 }
@@ -23980,4 +23980,22 @@ d_the_selonians = {
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
 	title_prefix = "TRIBE_OF"
+}
+
+k_selkups = {
+	color = { 140 180 20 }
+	
+	capital = 397 # Samoyedia
+	
+	# Always exists
+	landless = yes
+	
+	allow = {
+		always = no
+	}
+	
+	tribe = yes
+	
+	culture = selkup
+	religion = samoyedic_pagan
 }

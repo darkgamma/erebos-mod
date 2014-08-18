@@ -1,3 +1,7 @@
+100.1.1={
+	pentarch = b_hagiasophia
+}
+
 900.1.1 = {
 	holder = 16000001 # Guttormr Dyring
 }

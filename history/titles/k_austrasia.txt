@@ -1,3 +1,7 @@
+100.1.1={
+	pentarch = b_chalons
+}
+
 900.1.1 = {
 	liege = e_gaul
 	holder = 13000012 # Kristof Meroving
