@@ -438,7 +438,7 @@ muslim = {
 }
 
 hellenic_pagan_group = {
-    has_coa_on_barony_only = yes
+    	has_coa_on_barony_only = yes
 	playable = yes
 	
 	hellenic_pagan = {
@@ -464,8 +464,30 @@ hellenic_pagan_group = {
 	}
 }
 
+caananite_group = {
+   	has_coa_on_barony_only = no
+	graphical_culture = muslimgfx
+	playable = yes
+
+	daganist = {
+		graphical_culture = muslimgfx
+		icon = 5
+				
+		priest_title = PRIEST
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priests_can_marry = yes
+		max_consorts = 3
+		
+		defensive_attrition = yes
+
+		color = { 0.0 0.4 0.5 }
+		god_names = { GOD_DAGAN GOD_BAAL GOD_BAAL_DAGON GOD_DAGON }
+	}
+}
+
 arab_pagan_group = {
-    has_coa_on_barony_only = no
+   	has_coa_on_barony_only = no
 	graphical_culture = muslimgfx
 	playable = yes
 
@@ -1933,6 +1955,44 @@ zoroastrian_group = {
 	}
 }
 
+dravidian_group = {
+	has_coa_on_barony_only = no
+	graphical_culture = indiangfx
+	playable = yes
+	# ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	dravidian_pagan = {
+		graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+
+		icon = 44
+		heresy_icon = 45
+		
+		color = { 0.55 0.6 0.85 }
+		
+		god_names = {
+			GOD_AIYANAR GOD_MARIAMMAN GOD_MUNISHSWARAN GOD_KARUPPU_SAMI
+		}
+		priests_can_inherit = yes 
+		priests_can_marry = yes
+		allow_looting = yes
+		max_consorts = 2
+		
+		unit_modifier = {
+			land_morale = 0.3
+
+			key = "OFF_RELIGION"
+		}
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+		piety_name = KARMA
+	}
+}
+
 indian_group = {
 	has_coa_on_barony_only = no
 	graphical_culture = indiangfx
@@ -2025,5 +2085,38 @@ indian_group = {
 		piety_name = KARMA
 
 		intermarry = hindu
+	}
+}
+
+bon_group = {
+	has_coa_on_barony_only = no
+	graphical_culture = indiangfx
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	hostile_within_group = yes
+
+	bon_pagan = {
+		color = { 0.2 0.0 0.6 }
+		graphical_culture = buddhistgfx
+		secondary_event_pictures = sunni
+
+		icon = 40
+		heresy_icon = 41
+
+		god_names = {
+			GOD_BDUD-GZA-SMIN-DKAR GOD_PHO-LHA GOD_PE-HAR GOD_PHUK-LHA
+		}
+
+		priests_can_inherit = no
+		feminist = yes
+		female_temple_holders = yes
+		max_consorts = 2
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+
+		scripture_name = MDZOD_PHUG
+		priest_title = SLOB-DPON
+		piety_name = KARMA
 	}
 }
