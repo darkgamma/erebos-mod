@@ -11,10 +11,7 @@ b_pachmarhi = temple
 #b_gawilghar = castle
 
 # Misc
-culture = marathi
-religion = jain
+culture = telugu
+religion = hindu
 
 # History
-1066.1.1 = {
-	religion = hindu
-}

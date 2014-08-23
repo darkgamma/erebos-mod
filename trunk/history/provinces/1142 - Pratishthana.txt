@@ -13,7 +13,7 @@ b_harishchandragad = city
 #b_ahmednagar = castle
 
 # Misc
-culture = marathi
-religion = jain
+culture = telugu
+religion = dravidian_pagan
 
 # History

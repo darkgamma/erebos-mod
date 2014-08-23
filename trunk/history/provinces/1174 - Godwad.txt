@@ -14,8 +14,8 @@ b_jalor = city
 #b_khudala = temple
 
 # Misc
-culture = rajput
-religion = jain
+culture = gujurati
+religion = hindu
 terrain = desert
 
 # History

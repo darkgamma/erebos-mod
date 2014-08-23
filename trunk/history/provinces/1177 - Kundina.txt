@@ -11,8 +11,8 @@ b_prithiminagar = temple
 #b_tinsukia = castle
 
 # Misc
-culture = assamese
-religion = buddhist
+culture = monpa
+religion = bon_pagan
 terrain = hills
 
 # History

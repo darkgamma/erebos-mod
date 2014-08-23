@@ -12,10 +12,7 @@ b_chitrakuta = temple
 #b_rath = city
 
 # Misc
-culture = hindustani
-religion = jain
+culture = hindavi
+religion = hindu
 
 # History
-1066.1.1 = {
-	religion = buddhist
-}

@@ -12,7 +12,7 @@ b_dhamoni = city
 #b_narsinghgarh = castle
 
 # Misc
-culture = hindustani
+culture = hindavi
 religion = hindu
 
 # History

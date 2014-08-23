@@ -15,7 +15,7 @@ b_pathankot = castle
 #b_kangra = castle
 
 # Misc
-culture = panjabi
-religion = buddhist
+culture = hindavi
+religion = akaist
 
 # History

@@ -11,10 +11,7 @@ b_saravpur = temple
 b_savarinarayana = temple
 
 # Misc
-culture = hindustani
+culture = hindavi
 religion = hindu
 
 # History
-1066.1.1 = {
-	religion = hindu
-}

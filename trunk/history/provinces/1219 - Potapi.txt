@@ -13,8 +13,8 @@ b_tirupati = temple
 #b_virincipuram = castle
 
 # Misc
-culture = telugu
-religion = jain
+culture = tamil
+religion = dravidian_pagan
 terrain = hills
 
 # History

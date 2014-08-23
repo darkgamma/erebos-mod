@@ -13,7 +13,7 @@ b_sambalpur = city
 #b_maneswar = temple
 
 # Misc
-culture = oriya
-religion = buddhist
+culture = hindavi
+religion = hindu
 
 # History

@@ -13,7 +13,7 @@ b_tilokpur = temple
 #b_sheikhupur = city
 
 # Misc
-culture = hindustani
-religion = buddhist
+culture = xangxung
+religion = bon_pagan
 
 # History

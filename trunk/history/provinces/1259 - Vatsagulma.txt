@@ -13,7 +13,7 @@ b_jalna = city
 #b_nandura = city
 
 # Misc
-culture = marathi
-religion = hindu
+culture = telugu
+religion = dravidian_pagan
 
 # History

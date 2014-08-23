@@ -14,7 +14,7 @@ b_bhitargaon = temple
 #b_khaga = castle
 
 # Misc
-culture = hindustani
-religion = buddhist
+culture = hindavi
+religion = hindu
 
 # History

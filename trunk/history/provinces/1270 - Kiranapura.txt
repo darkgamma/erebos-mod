@@ -10,7 +10,7 @@ b_kiranapura = castle
 #b_lanji = castle
 
 # Misc
-culture = marathi
+culture = hindavi
 religion = hindu
 
 # History

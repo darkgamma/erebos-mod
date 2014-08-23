@@ -10,10 +10,7 @@ b_chauragarh = castle
 #b_barman = temple
 
 # Misc
-culture = hindustani
-religion = jain
+culture = hindavi
+religion = hindu
 
 # History
-1066.1.1 = {
-	religion = hindu
-}

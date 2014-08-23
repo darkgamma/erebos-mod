@@ -14,8 +14,8 @@ b_shakumbhri_devi = temple
 #b_panipat = city
 
 # Misc
-culture = hindustani
-religion = buddhist
+culture = hindavi
+religion = akaist
 terrain = jungle
 
 # History

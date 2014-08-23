@@ -13,7 +13,7 @@ b_amravati = temple
 #b_bhojapur = city
 
 # Misc
-culture = marathi
-religion = hindu
+culture = telugu
+religion = dravidian_pagan
 
 # History

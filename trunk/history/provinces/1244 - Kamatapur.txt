@@ -12,7 +12,7 @@ b_nalrajar_garh = castle
 #b_bhitagarh = castle
 
 # Misc
-culture = assamese
-religion = buddhist
+culture = lepcha
+religion = bon_pagan
 
 # History

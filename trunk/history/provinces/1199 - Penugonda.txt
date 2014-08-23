@@ -15,7 +15,7 @@ b_suragiri = temple
 #b_lepakshi = city
 
 # Misc
-culture = kannada
-religion = hindu
+culture = tamil
+religion = dravidian_pagan
 
 # History

@@ -15,7 +15,7 @@ b_kalyani2 = city
 #b_rayigama = castle
 
 # Misc
-culture = sinhala
-religion = buddhist
+culture = tamil
+religion = dravidian_pagan
 
 # History

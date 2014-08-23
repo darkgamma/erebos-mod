@@ -12,7 +12,7 @@ b_satrikh = temple
 #b_zaidpur = castle
 
 # Misc
-culture = hindustani
-religion = buddhist
+culture = xangxung
+religion = bon_pagan
 
 # History

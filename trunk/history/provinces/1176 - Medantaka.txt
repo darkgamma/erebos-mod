@@ -11,7 +11,7 @@ b_purnatallakapura = city
 #b_sanjoo = castle
 
 # Misc
-culture = rajput
-religion = jain
+culture = hindavi
+religion = hindu
 
 # History

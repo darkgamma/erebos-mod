@@ -10,7 +10,6 @@ b_chutia = castle
 #b_marang_buru = temple
 
 # Misc
-culture = oriya
-religion = buddhist
-
+culture = hindavi
+religion = hindu
 # History

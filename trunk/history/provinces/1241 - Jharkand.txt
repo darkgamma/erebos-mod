@@ -10,7 +10,7 @@ b_kandra = city
 #b_ambikapur = castle
 
 # Misc
-culture = bengali
-religion = buddhist
+culture = hindavi
+religion = hindu
 
 # History

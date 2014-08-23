@@ -14,8 +14,8 @@ b_sosavur = city
 #b_javagallu = temple
 
 # Misc
-culture = kannada
-religion = jain
+culture = tuluva
+religion = dravidian_pagan
 terrain = mountain
 
 # History

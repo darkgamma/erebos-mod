@@ -13,8 +13,8 @@ b_khajuraho = temple
 #b_devendranagar = temple
 
 # Misc
-culture = hindustani
-religion = buddhist
+culture = hindavi
+religion = hindu
 terrain = jungle
 
 # History

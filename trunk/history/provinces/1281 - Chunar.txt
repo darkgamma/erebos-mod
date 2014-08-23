@@ -10,7 +10,7 @@ b_vindhyachal = city
 #b_kantit = temple
 
 # Misc
-culture = hindustani
-religion = buddhist
+culture = hindavi
+religion = hindu
 
 # History

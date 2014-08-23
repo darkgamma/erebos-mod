@@ -14,7 +14,7 @@ b_kannur = temple
 #b_chaliyam = city
 
 # Misc
-culture = tamil
-religion = hindu
+culture = tuluva
+religion = dravidian_pagan
 
 # History

@@ -14,8 +14,8 @@ b_periyapatna = city
 #b_mysore = castle
 
 # Misc
-culture = kannada
-religion = jain
+culture = tuluva
+religion = dravidian_pagan
 terrain = mountain
 
 # History

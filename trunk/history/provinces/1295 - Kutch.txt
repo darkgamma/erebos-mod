@@ -11,7 +11,7 @@ b_anjar = temple
 #b_bhuj = city
 
 # Misc
-culture = gujurati
-religion = jain
+culture = phoenician
+religion = daganist
 
 # History

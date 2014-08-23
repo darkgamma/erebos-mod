@@ -14,8 +14,8 @@ b_dohrighat = temple
 #b_tanda = city
 
 # Misc
-culture = hindustani
-religion = buddhist
+culture = bodpa
+religion = bon_pagan
 terrain = jungle
 
 # History

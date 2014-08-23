@@ -13,7 +13,7 @@ b_kayavarohan = temple
 #b_nasvadi = city
 
 # Misc
-culture = gujurati
-religion = jain
+culture = marathi
+religion = hindu
 
 # History

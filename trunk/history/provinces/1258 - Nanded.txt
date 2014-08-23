@@ -13,7 +13,7 @@ b_aurad = temple
 #b_parbhani = city
 
 # Misc
-culture = marathi
-religion = hindu
+culture = telugu
+religion = dravidian_pagan
 
 # History

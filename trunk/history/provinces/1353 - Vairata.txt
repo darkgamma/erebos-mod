@@ -15,7 +15,7 @@ b_sanganer = temple
 #b_khatushyam = temple
 
 # Misc
-culture = rajput
-religion = jain
+culture = hindavi
+religion = hindu
 
 # History

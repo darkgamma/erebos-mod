@@ -12,7 +12,7 @@ b_habiganj = city
 #b_jangalbari = castle
 
 # Misc
-culture = assamese
+culture = bengali
 religion = buddhist
 
 # History

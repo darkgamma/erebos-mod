@@ -12,7 +12,7 @@ b_sondani = city
 #b_taxakeshwar = temple
 
 # Misc
-culture = rajput
-religion = jain
+culture = gujurati
+religion = hindu
 
 # History

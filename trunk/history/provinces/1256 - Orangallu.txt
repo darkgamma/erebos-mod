@@ -15,6 +15,6 @@ b_kothakonda = city
 
 # Misc
 culture = telugu
-religion = hindu
+religion = dravidian_pagan
 
 # History

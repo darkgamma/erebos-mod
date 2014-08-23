@@ -14,8 +14,8 @@ b_pankot = castle
 #b_hapur = temple
 
 # Misc
-culture = hindustani
-religion = buddhist
+culture = hindavi
+religion = akaist
 terrain = jungle
 
 # History

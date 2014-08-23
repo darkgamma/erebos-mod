@@ -11,8 +11,8 @@ b_rayagada = temple
 #b_badakhemundi = castle
 
 # Misc
-culture = oriya
-religion = hindu
+culture = telugu
+religion = dravidian_pagan
 terrain = mountain
 
 # History

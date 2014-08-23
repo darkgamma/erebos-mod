@@ -15,7 +15,7 @@ b_deogarh = city
 #b_karamul = castle
 
 # Misc
-culture = oriya
+culture = telugu
 religion = buddhist
 
 # History
