@@ -52,6 +52,20 @@ GOD_ZIU;Ziu;;;;;;;;;;;;;x
 GOD_TIU;Tiu;;;;;;;;;;;;;x
 GOD_IRMIN;Irmin;;;;;;;;;;;;;x
 
+dravidian_group;Dravidian;;;;;;;;;;;;;x
+dravidian_pagan;Dravidian;;;;;;;;;;;;;x
+GOD_AIYANAR;Aiyanar;;;;;;;;;;;;;x
+GOD_MARIAMMAN;Mariamman;;;;;;;;;;;;;x
+GOD_MUNISHSWARAN;Munishswaran;;;;;;;;;;;;;x
+GOD_KARUPPU_SAMI;Karuppu Sami;;;;;;;;;;;;;x
+
+caananite_group;Caananite;;;;;;;;;;;;;x
+daganist;Daganist;;;;;;;;;;;;;x
+GOD_DAGAN;Dagan;;;;;;;;;;;;;x
+GOD_DAGON;Dagon;;;;;;;;;;;;;x
+GOD_BAAL;Ba'al;;;;;;;;;;;;;x
+GOD_BAL_DAGON;Ba'al-Dagon;;;;;;;;;;;;;x
+
 finnish_pagan;Finnic Pagan;;;;;;;;;;;;;x
 finnish_pagan_reformed;Finnic;;;;;;;;;;;;;x
 hungarian_pagan;Hungarian Pagan;;;;;;;;;;;;;x
@@ -64,6 +78,15 @@ samoyedic_pagan;Samoyedic Pagan;;;;;;;;;;;;;x
 samoyedic_pagan_reformed;Samoyedic;;;;;;;;;;;;;x
 saami_pagan;Sámi Pagan;;;;;;;;;;;;;x
 saami_pagan_reformed;Sámi;;;;;;;;;;;;;x
+
+bon_group;Bön;;;;;;;;;;;;;x
+bon_pagan;Bön;;;;;;;;;;;;;x
+GOD_BDUD-GZA-SMIN-DKAR;bDud-gza'-smin-dkar;;;;;;;;;;;;;x
+GOD_PHO-LHA;Pho-Lha;;;;;;;;;;;;;x
+GOD_PE-HAR;Pe-Har;;;;;;;;;;;;;x
+GOD_PHUK-LHA;Phuk-Lha;;;;;;;;;;;;;x
+MDZOD_PHUG;mDzod Phug;;;;;;;;;;;;;x
+SLOB-DPON;Slob-dpon;;;;;;;;;;;;;
 
 slavic_pagan;Slavic Pagan;;;;;;;;;;;;;x
 slavic_pagan_old;Old Slavic;;;;;;;;;;;;;x
