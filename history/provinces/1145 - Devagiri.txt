@@ -13,8 +13,8 @@ b_khuldabad = city
 #b_vaijapur = temple
 
 # Misc
-culture = marathi
-religion = jain
+culture = telugu
+religion = dravidian_pagan
 terrain = mountain
 
 # History

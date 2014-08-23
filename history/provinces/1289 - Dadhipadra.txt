@@ -13,7 +13,7 @@ b_pavagadh = castle
 #b_jawad = city
 
 # Misc
-culture = rajput
-religion = jain
+culture = marathi
+religion = hindu
 
 # History

@@ -13,9 +13,6 @@ b_umapur = temple
 
 # Misc
 culture = kannada
-religion = jain
+religion = dravidian_pagan
 
-# History
-1066.1.1 = {
-	religion = hindu
-}
+#

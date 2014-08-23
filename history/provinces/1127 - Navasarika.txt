@@ -16,7 +16,7 @@ b_bharuch = temple
 #b_tadkeshwar = city
 
 # Misc
-culture = gujurati
-religion = jain
+culture = marathi
+religion = hindu
 
 # History

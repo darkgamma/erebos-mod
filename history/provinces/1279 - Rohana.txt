@@ -15,8 +15,8 @@ b_dighavapi = temple
 
 
 # Misc
-culture = sinhala
-religion = buddhist
+culture = tamil
+religion = dravidian_pagan
 terrain = hills
 
 # History

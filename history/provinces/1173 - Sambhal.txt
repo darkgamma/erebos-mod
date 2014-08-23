@@ -13,7 +13,7 @@ b_tattandapura = city
 #b_bachhraon = city
 
 # Misc
-culture = hindustani
-religion = buddhist
+culture = xangxung
+religion = bon_pagan
 
 # History

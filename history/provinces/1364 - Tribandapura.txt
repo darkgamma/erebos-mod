@@ -12,7 +12,7 @@ b_sunam = city
 #b_amin = castle
 
 # Misc
-culture = hindustani
-religion = hindu
+culture = hindavi
+religion = akaist
 
 # History

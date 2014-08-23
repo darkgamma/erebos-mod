@@ -12,10 +12,7 @@ b_nagarkurnool = temple
 #b_ghanpur = city
 
 # Misc
-culture = telugu
-religion = jain
+culture = kannada
+religion = dravidian_pagan
 
-# History
-1066.1.1 = {
-	religion = hindu
-}
+#

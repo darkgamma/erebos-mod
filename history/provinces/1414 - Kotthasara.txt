@@ -14,7 +14,7 @@ b_gokanna = city
 #b_madakalapuva = city
 
 # Misc
-culture = sinhala
-religion = buddhist
+culture = tamil
+religion = dravidian_pagan
 
 # History

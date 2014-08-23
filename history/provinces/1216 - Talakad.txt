@@ -15,8 +15,8 @@ b_somanathapura = city
 #b_nanjangud = city
 
 # Misc
-culture = kannada
-religion = jain
+culture = tamil
+religion = dravidian_pagan
 terrain = hills
 
 # History

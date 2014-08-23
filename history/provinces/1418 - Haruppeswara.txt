@@ -11,7 +11,7 @@ b_numaligarh = castle
 #b_charaideo = castle
 
 # Misc
-culture = assamese
-religion = buddhist
+culture = monpa
+religion = bon_pagan
 
 # History

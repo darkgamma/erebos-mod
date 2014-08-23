@@ -10,7 +10,7 @@ b_tummana = castle
 #b_manendragarh = city
 
 # Misc
-culture = hindustani
+culture = hindavi
 religion = hindu
 terrain = jungle
 

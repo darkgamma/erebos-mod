@@ -13,7 +13,7 @@ b_devkot = temple
 #b_siliguri = city
 
 # Misc
-culture = bengali
-religion = buddhist
+culture = lepcha
+religion = bon_pagan
 
 # History

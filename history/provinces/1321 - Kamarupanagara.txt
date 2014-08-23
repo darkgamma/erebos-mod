@@ -14,7 +14,7 @@ b_madan_kamdev = temple
 #b_dariyaon = castle
 
 # Misc
-culture = assamese
-religion = buddhist
+culture = monpa
+religion = bon_pagan
 
 # History

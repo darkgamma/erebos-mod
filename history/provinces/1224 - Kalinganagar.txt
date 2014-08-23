@@ -12,7 +12,6 @@ b_kalinganagara = city
 #b_srikakulam = temple
 
 # Misc
-culture = oriya
-religion = hindu
-
+culture = telugu
+religion = dravidian_pagan
 # History

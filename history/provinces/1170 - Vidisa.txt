@@ -14,11 +14,8 @@ b_sironj = city
 #b_mangla_devi = temple
 
 # Misc
-culture = hindustani
-religion = jain
+culture = hindavi
+religion = hindu
 terrain = jungle
 
-# History
-1066.1.1 = {
-	religion = hindu
-}
+# The problem with Alexander's push was his lack of total conquest of Egypt; the Kemetic part of his army rebelled and went over to the side of the Persians under whom they had been just a few months prior. The Gate of Persia stood as Alexander's army got pushed out of the pass and into the surrounding areas, then routed, from both sides. It was a miracle Alexander got away.

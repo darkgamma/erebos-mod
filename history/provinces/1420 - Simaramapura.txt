@@ -14,7 +14,7 @@ b_kathmandu = temple
 #b_vaid = castle
 
 # Misc
-culture = bengali
-religion = buddhist
+culture = bodpa
+religion = bon_pagan
 
 # History

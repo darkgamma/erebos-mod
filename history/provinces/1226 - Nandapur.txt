@@ -12,8 +12,8 @@ b_dharamgarh = city
 #b_jeypore = castle
 
 # Misc
-culture = oriya
-religion = hindu
+culture = telugu
+religion = dravidian_pagan
 terrain = mountain
 
 # History

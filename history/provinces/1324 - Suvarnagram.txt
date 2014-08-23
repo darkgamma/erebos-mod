@@ -12,7 +12,7 @@ b_suvarnagram = city
 #b_bokainagar = castle
 
 # Misc
-culture = assamese
+culture = bengali
 religion = buddhist
 terrain = jungle
 

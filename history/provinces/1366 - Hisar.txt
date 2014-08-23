@@ -14,8 +14,8 @@ b_surajkund = temple
 #b_agroha = city
 
 # Misc
-culture = hindustani
-religion = jain
+culture = hindavi
+religion = akaist
 terrain = plains
 
 # History

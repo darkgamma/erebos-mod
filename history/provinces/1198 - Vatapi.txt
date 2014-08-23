@@ -16,7 +16,7 @@ b_parasgad = temple
 
 # Misc
 culture = kannada
-religion = hindu
+religion = dravidian_pagan
 terrain = hills
 
 # History

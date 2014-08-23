@@ -11,7 +11,7 @@ b_herombial = city
 #b_maibong = city
 
 # Misc
-culture = assamese
-religion = buddhist
+culture = monpa
+religion = bon_pagan
 
 # History

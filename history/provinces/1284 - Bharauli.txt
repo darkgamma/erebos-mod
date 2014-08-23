@@ -11,7 +11,7 @@ b_bharauli = city
 #b_bhadri = city
 
 # Misc
-culture = hindustani
-religion = buddhist
+culture = bodpa
+religion = bon_pagan
 
 # History

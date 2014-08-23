@@ -14,7 +14,7 @@ b_saligrama = temple
 #b_siwan = castle
 
 # Misc
-culture = bengali
-religion = buddhist
+culture = bodpa
+religion = bon_pagan
 
 # History

@@ -14,8 +14,8 @@ b_mahasthangarh = city
 #b_ghoraghat = castle
 
 # Misc
-culture = bengali
-religion = buddhist
+culture = lepcha
+religion = bon_pagan
 
 # History
 867.1.1 = {

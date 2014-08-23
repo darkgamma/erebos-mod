@@ -15,7 +15,7 @@ b_amaravati = temple
 
 # Misc
 culture = telugu
-religion = jain
+religion = dravidian_pagan
 terrain = jungle
 
 # History

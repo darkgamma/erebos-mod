@@ -11,10 +11,7 @@ b_bhandugara = city
 #b_gondia = city
 
 # Misc
-culture = marathi
-religion = jain
+culture = telugu
+religion = dravidian_pagan
 
 # History
-1066.1.1 = {
-	religion = hindu
-}

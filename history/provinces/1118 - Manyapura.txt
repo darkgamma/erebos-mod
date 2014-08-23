@@ -14,8 +14,8 @@ b_turuvekere = city
 #b_basaralu = temple
 
 # Misc
-culture = kannada
-religion = jain
+culture = tamil
+religion = dravidian_pagan
 terrain = jungle
 
 # History

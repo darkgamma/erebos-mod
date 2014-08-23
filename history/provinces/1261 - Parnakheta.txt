@@ -13,8 +13,8 @@ b_akola = city
 #b_buldhana = city
 
 # Misc
-culture = marathi
-religion = hindu
+culture = telugu
+religion = dravidian_pagan
 terrain = jungle
 
 # History

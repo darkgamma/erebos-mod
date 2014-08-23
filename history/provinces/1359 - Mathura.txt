@@ -15,7 +15,7 @@ b_vrindavan = temple
 #b_dhanauli = city
 
 # Misc
-culture = hindustani
-religion = jain
+culture = hindavi
+religion = hindu
 
 # History

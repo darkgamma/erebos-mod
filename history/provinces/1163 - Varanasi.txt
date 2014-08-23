@@ -13,8 +13,8 @@ b_bhadohi = city
 #b_kashi_vishwanath = temple
 
 # Misc
-culture = hindustani
-religion = buddhist
+culture = bodpa
+religion = bon_pagan
 
 # History
 867.1.1 = {

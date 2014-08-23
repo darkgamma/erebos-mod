@@ -14,7 +14,7 @@ b_bithor = temple
 #b_jai_chandra = castle
 
 # Misc
-culture = hindustani
-religion = buddhist
+culture = hindavi
+religion = hindu
 
 # History

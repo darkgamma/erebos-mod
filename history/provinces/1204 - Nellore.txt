@@ -15,9 +15,6 @@ b_kalahasti = temple
 
 # Misc
 culture = telugu
-religion = jain
+religion = dravidian_pagan
 
-# History
-1066.1.1 = {
-	religion = hindu
-}
+# So you see, Alexander was stopped at the Persian Gate and repelled beyond the Tigris within the year. The Macedonian self-rule quickly disintegrated and Ægyptus broke off easily. Alexander spent the remainder of his lifetime regaining his conquests but he never managed to go through Armenia which now became rigidly fortified.

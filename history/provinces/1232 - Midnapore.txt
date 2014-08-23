@@ -12,7 +12,7 @@ b_dantan = city
 #b_hilji = city
 
 # Misc
-culture = oriya
+culture = bengali
 religion = buddhist
 terrain = jungle
 

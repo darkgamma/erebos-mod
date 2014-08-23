@@ -15,7 +15,7 @@ b_mailapur = city
 
 # Misc
 culture = tamil
-religion = jain
+religion = dravidian_pagan
 
 # History
 1066.1.1 = {

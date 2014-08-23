@@ -14,7 +14,7 @@ b_rajamahendravaram = castle
 
 # Misc
 culture = telugu
-religion = hindu
+religion = dravidian_pagan
 terrain = jungle
 
 # History

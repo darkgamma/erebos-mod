@@ -13,7 +13,7 @@ b_padrauna = city
 #b_chapra = city
 
 # Misc
-culture = bengali
-religion = buddhist
+culture = bodpa
+religion = bon_pagan
 
 # History

@@ -12,7 +12,7 @@ b_koshvardhan = city
 #b_taragarh = castle
 
 # Misc
-culture = rajput
-religion = jain
+culture = hindavi
+religion = hindu
 
 # History

@@ -11,7 +11,6 @@ b_nilamadhav = temple
 #b_baramba = castle
 
 # Misc
-culture = oriya
-religion = buddhist
-
+culture = telugu
+religion = dravidian_pagan
 # History

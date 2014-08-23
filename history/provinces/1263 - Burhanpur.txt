@@ -12,7 +12,7 @@ b_erandol = temple
 #b_yawal = city
 
 # Misc
-culture = marathi
-religion = hindu
+culture = telugu
+religion = dravidian_pagan
 
 # History

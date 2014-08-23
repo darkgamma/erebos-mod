@@ -14,8 +14,8 @@ b_mahatittha = city
 #b_subhagiri = castle
 
 # Misc
-culture = sinhala
-religion = buddhist
+culture = tamil
+religion = dravidian_pagan
 terrain = plains
 
 # History

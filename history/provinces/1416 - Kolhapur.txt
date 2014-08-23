@@ -14,8 +14,8 @@ b_kurundaka = temple
 #b_miraj = city
 
 # Misc
-culture = marathi
-religion = jain
+culture = kannada
+religion = dravidian_pagan
 terrain = mountain
 
 # History
