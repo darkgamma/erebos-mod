@@ -1,75 +1,61 @@
 decisions = {
-	
-	slavic_reformation = {
+    slavic_reformation = {
 	    is_high_prio = yes
-		potential = {
-		    #independent = yes
-			prisoner = no
-			religion = slavic_pagan
-			OR = {
-			    tier = KING
-			    tier = EMPEROR
-			}
-			NOT = {
-			    has_global_flag = slavic_reformation
-			}
+	    potential = {
+		    is_ruler = yes
+			is_feudal = yes
+		    religion = slavic_pagan
+			age = 16
 		}
 		allow = {
-			war = no
-            NOT = {
+		    prisoner = no
+		    independent = yes
+		    OR = {
+			    tier = KING
+				tier = EMPEROR
+			}
+			NOT = {
 			    trait = cynical
 			}
-			wealth = 500
 			piety = 5000
+			prestige = 5000
+			wealth = 500
 		}
 		effect = {
+		    piety = -5000
+			prestige = -5000
 		    wealth = -500
-		    religion = slavic_pagan_reformed
-			set_character_flag = slavic_reformer
+		    ROOT = {
+			    religion = slavic_pagan_reformed
+				narrative_event = { id = REF.1 } 
+			}
+			set_global_flag = slavic_reformation
 			create_character = {
 			    religion = slavic_pagan_reformed
 				culture = ROOT
 				dynasty = random
 				age = 30
-				learning = 15
+				learning = 17
+				trait = zealous
 				random_traits = yes
 			}
 			new_character = {
-			    d_velikoye_volkhvotstvo = {
+			    d_great_volhvate = {
+				    status = yes
 			        grant_title = PREV
 				}
 				set_defacto_liege = ROOT
 			}
-			set_global_flag = slavic_reformation
-			hidden_tooltip = {
-			    any_playable_ruler = {
-			        limit = {
+			any_playable_ruler = {
+			    limit = {
+				    NOT = {
 					    religion = slavic_pagan_reformed
 					}
-			        narrative_event = { id = PGN.1 }
 				}
-			    any_playable_ruler = {
-			        limit = {
-					    religion = slavic_pagan
-					}
-			        narrative_event = { id = PGN.2 }
-				}
-			    any_playable_ruler = {
-			        limit = {
-					    NOT = {
-						    religion = slavic_pagan
-						}
-						NOT = {
-						    religion = slavic_pagan_reformed
-						}
-					}
-			        narrative_event = { id = PGN.3 }
+				hidden_tooltip = {
+				    narrative_event = { id = REF.1 } 
 				}
 			}
 		}
-		ai_will_do = {
-			factor = 1
-		}
 	}
-
 }
