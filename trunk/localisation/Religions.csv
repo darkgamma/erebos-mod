@@ -51,6 +51,7 @@ GOD_SONNA;Sonna;;;;;;;;;;;;;x
 GOD_ZIU;Ziu;;;;;;;;;;;;;x
 GOD_TIU;Tiu;;;;;;;;;;;;;x
 GOD_IRMIN;Irmin;;;;;;;;;;;;;x
+GOD_MIMIR;Mímir;;;;;;;;;;;;;x
 
 dravidian_group;Dravidian;;;;;;;;;;;;;x
 dravidian_pagan;Dravidian;;;;;;;;;;;;;x
@@ -91,9 +92,21 @@ SLOB-DPON;Slob-dpon;;;;;;;;;;;;;
 slavic_pagan;Slavic Pagan;;;;;;;;;;;;;x
 slavic_pagan_old;Old Slavic;;;;;;;;;;;;;x
 GOD_SVANTEVIT;Svantevit;;;;;;;;;;;;;x
-VOLHV;Volkhv;;;;;;;;;;;;;x
-VELIKIY_VOLKHV;Velikiy Volkhv;;;;;;;;;;;;;x
-VELIKAYA_VOLKHVA;Velikaya Volkhva;;;;;;;;;;;;;x
-VELIKIY_VOLKHV_FOA;Your Holiness;;;;;;;;;;;;;x
+GOD_DAZHBOG;Dazhbog;;;;;;;;;;;;;x
+GOD_ROD;Rod;;;;;;;;;;;;;
+GOD_BELOBOG;Belobog;;;;;;;;;;;;;
+GOD_ZHIVA;Živa;;;;;;;;;;;;;
+GOD_SVAROZHICH;Svarozhich;;;;;;;;;;;;;
+GOD_KRESNIK;Kresnik;;;;;;;;;;;;;
+GOD_MORANA;Morana;;;;;;;;;;;;;
+GOD_DODOLA;Dodola;;;;;;;;;;;;;
+GOD_VESNA;Vesnaa;;;;;;;;;;;;;
+GOD_STRIBOG;Stribog;;;;;;;;;;;;;
+GOD_MAT_ZEMLYA;Mat Zemlya;;;;;;;;;;;;;
+GOD_MOKOSH;Mokosh;;;;;;;;;;;;;
+GOD_CHERNOBOG;Chernobog;;;;;;;;;;;;;x
+GREAT_VOLHV;Great Volhv;;;;;;;;;;;;;x
+GREAT_VOLHVA;Great Volhva;;;;;;;;;;;;;x
+GREAT_VOLHV_FOA;Your Holiness;;;;;;;;;;;;;x
 
 tengri_pagan;Old Tengri;;;;;;;;;;;;;x

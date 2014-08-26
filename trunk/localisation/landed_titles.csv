@@ -309,7 +309,7 @@ k_catholic_papacy_adj;Catholic;;;;;;;;;;;;;x
 k_ecumenical_patriarchy;The Ecumenical Patriarchy;;;;;;;;;;;;;x
 k_ecumenical_patriarchy_adj;Ecumenical;;;;;;;;;;;;;x
 k_patriarchy_in_the_east;The Patriarchy in the East;;;;;;;;;;;;;x
-k_patriarchy_in_the_east_adj;Eastern Patriarchal;;;;;;;;;;;;;x
+k_patriarchy_in_the_east_adj;Nestorian;;;;;;;;;;;;;x
 k_monothelite_patriarchy;The Monothelite Patriarchy;;;;;;;;;;;;;x
 k_monothelite_patriarchy_adj;Monothelite;;;;;;;;;;;;;x
 k_miaphysite_papacy;The Miaphysite Papacy;;;;;;;;;;;;;x
@@ -318,8 +318,8 @@ k_monophysite_papacy;The Monophysite Papacy;;;;;;;;;;;;;x
 k_monophysite_papacy_adj;Monophysite;;;;;;;;;;;;;x
 e_caliphate;The Caliphate;;;;;;;;;;;;;x
 e_caliphate_adj;Caliphal;;;;;;;;;;;;;x
-d_velikoye_volkhvotstvo;Velikoye Volkhvotstvo;;;;;;;;;;;;;x
-d_velikoye_volkhvotstvo_adj;Slavic;;;;;;;;;;;;;x
+d_great_volhvate;The Great Volhvate;;;;;;;;;;;;;x
+d_great_volhvate_adj;Slavic;;;;;;;;;;;;;x
 d_contgermanic_reformed;The Germanic Church;;;;;;;;;;;;;x
 d_contgermanic_reformed_adj;Germanic;;;;;;;;;;;;;x
 d_saxon_pagan_reformed;The Saxon Church;;;;;;;;;;;;;x

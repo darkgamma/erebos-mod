@@ -1,0 +1,8 @@
+slavic_reformation;Reform the Slavic faith;;;;;;;;;;;;;x
+slavic_reformation_desc;Start a process of reformation of the faith within your realm.;;;;;;;;;;;;;x
+EVTNAMEREF.1;The Slavic Reformation;;;;;;;;;;;;;x
+EVTDESCREF.1;A reformation of the ancient Slavic faith has been initiated by [Root.GetTitledName], who wishes to strengthen it and make it resistant to other, more proselytising faiths. Within [Root.GetHerHis] realm, priests and wise men have started creating a holy book which will be used to teach the common folk of faith and piety. This new reformation also brings a new position - the Great Volhv, lord spiritual of all Slavs. [Root.GetTitledName] calls upon all who follow the Slavic beliefs to join [Root.GetHerHim] in spreading this newly reformed faith!;;;;;;;;;;;;;x
+EVTOPTAREF;For [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
+EVTOPTBREF;Embrace the reformation!;;;;;;;;;;;;;x
+EVTOPTCREF;The old ways are still best!;;;;;;;;;;;;;x
+EVTOPTDREF;They are still barbarians!;;;;;;;;;;;;;x
