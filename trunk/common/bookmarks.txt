@@ -1,6 +1,6 @@
 bookmark =
 {
-	name = "BM_EREBOS"
-	desc = "BM_EREBOS_DESC"
+	name = "BM_ABATOR"
+	desc = "BM_ABATOR_DESC"
 	date = 903.4.13
 }
