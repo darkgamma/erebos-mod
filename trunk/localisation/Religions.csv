@@ -11,8 +11,9 @@ uralic_group;Uralic;;;;;;;;;;;;;x
 aztec_group;Aztec;;;;;;;;;;;;;x
 slavic_group;Slavic;;;;;;;;;;;;;x
 hellenic_pagan_group;Hellenic;;;;;;;;;;;;;x
-baltic_pagan;Baltic Pagan;;;;;;;;;;;;;x
-baltic_pagan_reformed;Baltic;;;;;;;;;;;;;x
+
+CATHOLIC_POPE;Catholic Pope;;;;;;;;;;;;;x
+MIAPHYSITE_POPE;Miaphysite Pope;;;;;;;;;;;;;x
 
 aryan_group;Aryan;;;;;;;;;;;;;x
 zurvanist;Zurvanist;;;;;;;;;;;;;x
@@ -80,8 +81,13 @@ volgaic_pagan;Volgaic Pagan;;;;;;;;;;;;;x
 volgaic_pagan_reformed;Volgaic;;;;;;;;;;;;;x
 samoyedic_pagan;Samoyedic Pagan;;;;;;;;;;;;;x
 samoyedic_pagan_reformed;Samoyedic;;;;;;;;;;;;;x
+
 saami_pagan;Sámi Pagan;;;;;;;;;;;;;x
 saami_pagan_reformed;Sámi;;;;;;;;;;;;;x
+saami_pagan_old;Old Sámi;;;;;;;;;;;;;x
+NOAJDDE;Noajdde;;;;;;;;;;;;;x
+NOAJDDEJ_NOAJDDE;Noajddej Noajdde;;;;;;;;;;;;;x
+NOAJDDEJ_NOAJDDE_FOA;Your Holiness;;;;;;;;;;;;;x
 
 bon_group;Bön;;;;;;;;;;;;;x
 bon_pagan;Bön;;;;;;;;;;;;;x
@@ -108,8 +114,15 @@ GOD_STRIBOG;Stribog;;;;;;;;;;;;;
 GOD_MAT_ZEMLYA;Mat Zemlya;;;;;;;;;;;;;
 GOD_MOKOSH;Mokosh;;;;;;;;;;;;;
 GOD_CHERNOBOG;Chernobog;;;;;;;;;;;;;x
-GREAT_VOLHV;Great Volhv;;;;;;;;;;;;;x
-GREAT_VOLHVA;Great Volhva;;;;;;;;;;;;;x
-GREAT_VOLHV_FOA;Your Holiness;;;;;;;;;;;;;x
+VELIKAJI_VOLHV;Velikâjî Volhv;;;;;;;;;;;;;x
+VELIKAJA_VOLHVA;Velikaja Volhva;;;;;;;;;;;;;x
+VELIKAJI_VOLHV_FOA;Your Holiness;;;;;;;;;;;;;x
+
+baltic_pagan;Baltic Pagan;;;;;;;;;;;;;x
+baltic_pagan_reformed;Baltic;;;;;;;;;;;;;x
+KRIVIS;Krivis;;;;;;;;;;;;;x
+KRIVIS_KRIVIU;Krivis Kriviu;;;;;;;;;;;;;x
+KRIVIJA_KRIVIU;Krivija Kriviu;;;;;;;;;;;;;x
+KRIVIS_KRIVIU_FOA;Your Holiness;;;;;;;;;;;;;x
 
 tengri_pagan;Old Tengri;;;;;;;;;;;;;x

@@ -321,6 +321,7 @@ b_tusculum;Rome;;;;;;;;;;;;;x
 b_cacak;Cacak;;;;;;;;;;;;;x
 b_pozega;Požega;;;;;;;;;;;;;x
 b_ovcar;Ovcar;;;;;;;;;;;;;x
+b_romuva;Romuva;;;;;;;;;;;;;x
 # RELIGIOUS HEADS
 k_catholic_papacy;The Catholic Papacy;;;;;;;;;;;;;x
 k_catholic_papacy_adj;Catholic;;;;;;;;;;;;;x
@@ -336,8 +337,12 @@ k_monophysite_papacy;The Monophysite Papacy;;;;;;;;;;;;;x
 k_monophysite_papacy_adj;Monophysite;;;;;;;;;;;;;x
 e_caliphate;The Caliphate;;;;;;;;;;;;;x
 e_caliphate_adj;Caliphal;;;;;;;;;;;;;x
-d_great_volhvate;The Great Volhvate;;;;;;;;;;;;;x
-d_great_volhvate_adj;Slavic;;;;;;;;;;;;;x
+d_finnish_pagan_reformed;The Finnic Church;;;;;;;;;;;;;x
+d_finnish_pagan_reformed_adj;Finnic;;;;;;;;;;;;;x
+d_baltic_pagan_reformed;The Baltic Church;;;;;;;;;;;;;x
+d_baltic_pagan_reformed_adj;Baltic;;;;;;;;;;;;;x
+d_saami_pagan_reformed;The Sámi Church;;;;;;;;;;;;;x
+d_saami_pagan_reformed_adj;Sámi;;;;;;;;;;;;;x
 d_contgermanic_reformed;The Germanic Church;;;;;;;;;;;;;x
 d_contgermanic_reformed_adj;Germanic;;;;;;;;;;;;;x
 d_saxon_pagan_reformed;The Saxon Church;;;;;;;;;;;;;x
