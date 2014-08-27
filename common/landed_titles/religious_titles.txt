@@ -244,11 +244,11 @@ d_baltic_pagan_reformed = {
 	color={ 122 165 70 }
 	color2={ 220 220 0 }
 	
-	capital = 366 #Stettin
+	capital = 374 #Romuva/Riga
 	
-	title = "HEAD_PRIEST"
-	title_female = "HEAD_PRIESTESS"
-	foa = "HEAD_PRIEST_FOA"
+	title = "KRIVIS_KRIVIU"
+	title_female = "KRIVIJA_KRIVIU"
+	foa = "KRIVIS_KRIVIU_FOA"
 	
 	short_name = yes
 	
@@ -292,15 +292,15 @@ d_finnish_pagan_reformed = {
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }
 
-d_great_volhvate = {
+d_slavic_pagan_reformed = {
 	color={ 175 50 136 }
 	color2={ 220 220 0 }
 	
 	capital = 304 # Rügen/Rana/Rujan
 	
-	title = "GREAT_VOLHV"
-	title_female = "GREAT_VOLHVA"
-	foa = "GREAT_VOLHV_FOA"
+	title = "VELIKAJI_VOLHV"
+	title_female = "VELIKAJA_VOLHVA"
+	foa = "VELIKAJI_VOLHV_FOA"
 	
 	short_name = yes
 	
@@ -529,11 +529,11 @@ d_saami_pagan_reformed = {
 	color={ 175 50 136 }
 	color2={ 220 220 0 }
 	
-	capital = 84 # Friesland
+	capital = 282 # Jamtland
 	
-	title = "HEAD_PRIEST"
-	title_female = "HEAD_PRIESTESS"
-	foa = "HEAD_PRIEST_FOA"
+	title = "NOAJDDEJ_NOAJDDE"
+	title_female = "NOAJDDEJ_NOAJDDE"
+	foa = "NOAJDDEJ_NOAJDDE_FOA"
 	
 	short_name = yes
 	

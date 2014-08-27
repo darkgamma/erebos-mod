@@ -40,7 +40,7 @@ decisions = {
 				random_traits = yes
 			}
 			new_character = {
-			    d_great_volhvate = {
+			    d_slavic_pagan_reformed = {
 				    active = yes
 			        grant_title = PREV
 				}

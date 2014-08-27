@@ -884,7 +884,7 @@ baltic_group = {
 		god_names = {
 			GOD_DIEVAS GOD_GABIJA GOD_PERKUNAS GOD_LAIMA 
 		}
-		priest_title = PRIEST
+		priest_title = KRIVIS
 		
 		can_call_crusade = yes
 		
@@ -931,7 +931,7 @@ baltic_group = {
 		god_names = {
 			GOD_DIEVAS GOD_GABIJA GOD_PERKUNAS GOD_LAIMA
 		}
-		priest_title = PRIEST
+		priest_title = KRIVIS
 		
 		unit_modifier = {		
 			garrison_size = 0.3
@@ -1456,7 +1456,7 @@ uralic_group = {
 		god_names = {
 			GOD_UKKO GOD_PERKELE GOD_JUMI GOD_THE_GREAT_BEAR GOD_KUU GOD_TAPIO GOD_TAARA GOD_OMOL GOD_MASTOR_AVA
 		}
-		priest_title = PRIEST
+		priest_title = NOAJDDE
 		
 		can_call_crusade = yes
 		
@@ -1505,7 +1505,7 @@ uralic_group = {
 		god_names = {
 			GOD_UKKO GOD_PERKELE GOD_JUMI GOD_THE_GREAT_BEAR GOD_KUU GOD_TAPIO GOD_TAARA GOD_OMOL GOD_MASTOR_AVA
 		}
-		priest_title = PRIEST
+		priest_title = NOAJDDE
 		
 		unit_modifier = {		
 			garrison_size = 0.75

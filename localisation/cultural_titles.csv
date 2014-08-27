@@ -1,3 +1,4 @@
+# Tengri
 count_tengri_pagan;Chief;;;;;;;;;;;;;x
 count_tengri_pagan_female;Chieftess;;;;;;;;;;;;;x
 county_of_tengri_pagan;Chiefdom of;;;;;;;;;;;;;x
@@ -6,6 +7,7 @@ duke_tengri_pagan;High Chief;;;;;;;;;;;;;x
 duke_tengri_pagan_female;High Chieftess;;;;;;;;;;;;;x
 duchy_of_tengri_pagan;High Chiefdom of;;;;;;;;;;;;;x
 duchy_tengri_pagan;High Chiefdom;;;;;;;;;;;;;x
+# Slavic
 count_slavic_pagan;Chief;;;;;;;;;;;;;x
 count_slavic_pagan_female;Chieftess;;;;;;;;;;;;;x
 county_of_slavic_pagan;Chiefdom of;;;;;;;;;;;;;x
@@ -18,6 +20,7 @@ temple_baron_slavic_group;Volhv;;;;;;;;;;;;;x
 temple_baron_slavic_group_female;Volhva;;;;;;;;;;;;;x
 job_spiritual_slavic_group;Court Volhv;;;;;;;;;;;;;x
 job_spiritual_slavic_group_female;Court Volhva;;;;;;;;;;;;;x
+# Finnic
 count_finnish_pagan;Chief;;;;;;;;;;;;;x
 count_finnish_pagan_female;Chieftess;;;;;;;;;;;;;x
 county_of_finnish_pagan;Chiefdom of;;;;;;;;;;;;;x
@@ -26,6 +29,7 @@ duke_finnish_pagan;High Chief;;;;;;;;;;;;;x
 duke_finnish_pagan_female;High Chieftess;;;;;;;;;;;;;x
 duchy_of_finnish_pagan;High Chiefdom of;;;;;;;;;;;;;x
 duchy_finnish_pagan;High Chiefdom of;;;;;;;;;;;;;x
+# Baltic
 count_baltic_pagan;Chief;;;;;;;;;;;;;x
 count_baltic_pagan_female;Chieftess;;;;;;;;;;;;;x
 county_of_baltic_pagan;Chiefdom of;;;;;;;;;;;;;x
@@ -34,10 +38,37 @@ duke_baltic_pagan;High Chief;;;;;;;;;;;;;x
 duke_baltic_pagan_female;High Chieftess;;;;;;;;;;;;;x
 duchy_of_baltic_pagan;High Chiefdom of;;;;;;;;;;;;;x
 duchy_baltic_pagan;High Chiefdom;;;;;;;;;;;;;x
+temple_baron_baltic_group;Krivis;;;;;;;;;;;;;x
+temple_baron_baltic_group_female;Krivija;;;;;;;;;;;;;x
+job_spiritual_baltic_group;Court Krivis;;;;;;;;;;;;;x
+job_spiritual_baltic_group_female;Court Krivija;;;;;;;;;;;;;x
+# Norse
 count_norse_pagan;Chief;;;;;;;;;;;;;x
 count_norse_pagan_female;Chieftess;;;;;;;;;;;;;x
 county_of_norse_pagan;Chiefdom of;;;;;;;;;;;;;x
 county_norse_pagan;Chiefdom;;;;;;;;;;;;;x
+# Sámi
+count_saami_pagan;Chief;;;;;;;;;;;;;x
+count_saami_pagan_female;Chieftess;;;;;;;;;;;;;x
+county_of_saami_pagan;Chiefdom of;;;;;;;;;;;;;x
+county_saami_pagan;Chiefdom of;;;;;;;;;;;;;x
+duke_saami_pagan;High Chief;;;;;;;;;;;;;x
+duke_saami_pagan_female;High Chieftess;;;;;;;;;;;;;x
+duchy_of_saami_pagan;High Chiefdom of;;;;;;;;;;;;;x
+duchy_saami_pagan;High Chiefdom;;;;;;;;;;;;;x
+temple_baron_saami_pagan;Noajdde;;;;;;;;;;;;;x
+temple_baron_saami_pagan_female;Noajdde;;;;;;;;;;;;;x
+job_spiritual_saami_pagan;Court Noajdde;;;;;;;;;;;;;x
+job_spiritual_saami_pagan_female;Court Noajdde;;;;;;;;;;;;;x
+temple_baron_saami_pagan_reformed;Noajdde;;;;;;;;;;;;;x
+temple_baron_saami_pagan_reformed_female;Noajdde;;;;;;;;;;;;;x
+job_spiritual_saami_pagan_reformed;Court Noajdde;;;;;;;;;;;;;x
+job_spiritual_saami_pagan_reformed_female;Court Noajdde;;;;;;;;;;;;;x
+temple_baron_saami_pagan_old;Noajdde;;;;;;;;;;;;;x
+temple_baron_saami_pagan_old_female;Noajdde;;;;;;;;;;;;;x
+job_spiritual_saami_pagan_old;Court Noajdde;;;;;;;;;;;;;x
+job_spiritual_saami_pagan_old_female;Court Noajdde;;;;;;;;;;;;;x
+# Cuman
 count_cuman;Bey;;;;;;;;;;;;;x
 count_cuman_female;Bayan;;;;;;;;;;;;;x
 county_of_cuman;Beylik of;;;;;;;;;;;;;x
@@ -46,10 +77,9 @@ duke_cuman;Beylerbey;;;;;;;;;;;;;x
 duke_cuman_female;Beylerbayan;;;;;;;;;;;;;x
 duchy_of_cuman;Beylerbeylik of;;;;;;;;;;;;;x
 duchy_cuman;Beylerbeylik;;;;;;;;;;;;;x
+# Iranian
 emperor_iranian;Šahanšah;;;;;;;;;;;;;x
 emperor_iranian_female;Šahanbanwa;;;;;;;;;;;;;x
 king_iranian;Šah;;;;;;;;;;;;;x
 king_iranian_female;Banwa;;;;;;;;;;;;;x
 kingdom_iranian;Šahdom;;;;;;;;;;;;;x
-CATHOLIC_POPE;Catholic Pope;;;;;;;;;;;;;x
-MIAPHYSITE_POPE;Miaphysite Pope;;;;;;;;;;;;;x
