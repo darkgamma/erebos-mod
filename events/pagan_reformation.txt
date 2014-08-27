@@ -1,6 +1,6 @@
 namespace = REF
 
-narrative_event = {
+narrative_event = { # Slavic Reformation
     id = REF.1
 	title = EVTNAMEREF.1
 	desc = EVTDESCREF.1
@@ -108,12 +108,6 @@ narrative_event = {
 		    religion = slavic_pagan
 		}
 		religion = slavic_pagan_reformed
-		capital_scope = {
-			if = {
-				limit = { religion = slavic_pagan_old }
-				religion = slavic_pagan_reformed
-			}
-		}
 		hidden_tooltip = {
 		    capital_scope = {
 			    if = {
@@ -189,6 +183,194 @@ narrative_event = {
 			}
 			NOT = {
 			    religion = slavic_pagan
+			}
+		}
+	}
+}
+
+narrative_event = { # Baltic Reformation
+    id = REF.2
+	title = EVTNAMEREF.2
+	desc = EVTDESCREF.2
+	
+	is_triggered_only = yes
+	show_ROOT = yes
+	
+	rulers_only = yes
+	
+	immediate = {
+        if = {
+		    limit = {
+			    any_demesne_province = {
+				    religion = baltic_pagan
+				}
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = baltic_pagan
+				}
+				religion = baltic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = baltic_pagan
+				}
+				religion = baltic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = baltic_pagan
+				}
+				religion = baltic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = baltic_pagan
+				}
+				religion = baltic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = baltic_pagan
+				}
+				religion = baltic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = baltic_pagan
+				}
+				religion = baltic_pagan_old
+			}
+		}
+	}
+	
+	option = {
+	    name = EVTOPTAREF
+		trigger = {
+		    religion = baltic_pagan_reformed
+		}
+		
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = baltic_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = baltic_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = baltic_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = baltic_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTBREF
+		
+		ai_chance = {
+		    factor = 10
+			modifier = {
+				factor = 2500
+				any_liege = { religion = baltic_pagan_reformed }
+			}
+		}
+		
+		trigger = {
+		    religion = baltic_pagan
+		}
+		religion = baltic_pagan_reformed
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = baltic_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = baltic_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = baltic_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = baltic_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTCREF
+		
+		ai_chance = {
+		    factor = 90
+		}
+		
+		trigger = {
+		    religion = baltic_pagan
+		}
+		religion = baltic_pagan_old
+		hidden_tooltip = {
+		    any_courtier = {
+			    limit = {
+				    religion = baltic_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = baltic_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = baltic_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTDREF
+		trigger = {
+		    NOT = {
+			    religion = baltic_pagan_reformed
+			}
+			NOT = {
+			    religion = baltic_pagan
 			}
 		}
 	}
