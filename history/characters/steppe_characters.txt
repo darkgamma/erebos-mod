@@ -1,6 +1,6 @@
 17000001 = {
-	name = "Ötemis"
-	dynasty = 17000001 # Birigid
+	name = "Ostri"
+	dynasty = 17000001 # Börid
 	
 	add_trait = hunter
 	add_trait = zealous
@@ -9,10 +9,10 @@
 	add_trait = sloth
 	add_trait = ambitious
 	
-	religion = orthodox
-	culture = khazar 
+	religion = tengri_pagan_reformed
+	culture = avar 
 	
-	884.1.1 = { birth = 884.1.1 }
+	874.1.1 = { birth = 874.1.1 }
 }
 
 17000002 = {

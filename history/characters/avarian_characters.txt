@@ -1,5 +1,5 @@
 6000001 = {
-	name="Timur"
+	name="Timër"
 	dynasty= 6000001 # Araslanid
 	
 	religion="tengri_pagan_reformed"
@@ -91,7 +91,7 @@
 
 6000008 = {
 	name="Imre"
-	dynasty= 6000008 # Lampert
+	dynasty= 6000008 # Lamperti
 	
 	religion="hungarian_pagan"
 	culture="hungarian"
@@ -104,7 +104,7 @@
 
 6000009 = {
 	name="Zsolt"
-	dynasty= 6000009 # Lajos
+	dynasty= 6000009 # Lajosi
 	
 	religion="hungarian_pagan"
 	culture="hungarian"
