@@ -6905,7 +6905,8 @@ e_aksum = {
 				}
 				b_raivola = {
 					holy_site = finnish_pagan
-					holy_site = finnish_pagan_reformed				
+					holy_site = finnish_pagan_reformed
+					holy_site = finnish_pagan_old				
 				}
 				b_kakisalmi = {
 				}
@@ -7032,6 +7033,9 @@ e_aksum = {
 				b_rauma  = {
 				}
 				b_jukarsborg  = {
+				    holy_site = finnish_pagan
+					holy_site = finnish_pagan_reformed
+					holy_site = finnish_pagan_old
 				}
 				b_lieto  = {
 				}
@@ -10598,6 +10602,9 @@ e_byzantine = {
 				b_wroclaw = {
 				}
 				b_brzeg = {
+				    holy_site = slavic_pagan
+					holy_site = slavic_pagan_reformed		
+                    holy_site = slavic_pagan_old
 				}
 				b_zmigrod = {
 				}
@@ -10648,6 +10655,9 @@ e_byzantine = {
 			
 			capital = 417 # Vitebsk
 			
+			lettigallish = "Latgale"
+			lithuanian = "Latgale"
+			galindian = "Latgale"
 			
 			c_velikiye_luki = {
 				color={ 154 170 110 }
@@ -10695,12 +10705,14 @@ e_byzantine = {
 				
 				lettigallish = "Latgale"
 				lithuanian = "Latgale"
+				galindian = "Latgale"
 				
 				b_vitebsk = {
 				}
 				b_sakolniki = {
 				    holy_site = baltic_pagan
 					holy_site = baltic_pagan_reformed
+					holy_site = baltic_pagan_old
 				}
 				b_haradok = {
 				}
@@ -10756,6 +10768,9 @@ e_byzantine = {
 				b_pskov = {
 				}
 				b_pechory = {
+				    holy_site = finnish_pagan
+					holy_site = finnish_pagan_reformed
+					holy_site = finnish_pagan_old
 				}
 				b_gdov = {
 				}
@@ -10950,8 +10965,6 @@ e_byzantine = {
 				b_bryansk = {
 				}
 				b_pochep = {
-					holy_site = baltic_pagan
-					holy_site = baltic_pagan_reformed
 				}
 				b_orel = {
 				}
@@ -11043,8 +11056,9 @@ e_byzantine = {
 				b_ryazan = {
 				}
 				b_solotcha = {
-					holy_site = finnish_pagan
-					holy_site = finnish_pagan_reformed
+				    holy_site = slavic_pagan
+					holy_site = slavic_pagan_reformed
+					holy_site = slavic_pagan_old
 				}
 				b_grodets = {
 				}
@@ -11259,8 +11273,9 @@ e_byzantine = {
 				b_moskva = {
 				}
 				b_rogozhi = {
-				    holy_site = slavic_pagan
-					holy_site = slavic_pagan_reformed
+				    holy_site = baltic_pagan
+					holy_site = baltic_pagan_reformed
+					holy_site = baltic_pagan_old
 				}
 				b_kaluga = {
 				}
@@ -11338,10 +11353,9 @@ e_byzantine = {
 					norse = "Holmgarðr"
 				}
 				b_tikhvin = {
-					holy_site = slavic_pagan
-					holy_site = slavic_pagan_reformed
 					holy_site = finnish_pagan
-					holy_site = finnish_pagan_reformed								
+					holy_site = finnish_pagan_reformed
+					holy_site = finnish_pagan_old							
 				}
 				b_chudovo = {
 				}
@@ -11629,7 +11643,8 @@ e_byzantine = {
 				}
 				b_yuriev = {
 					holy_site = slavic_pagan
-					holy_site = slavic_pagan_reformed				
+					holy_site = slavic_pagan_reformed		
+                    holy_site = slavic_pagan_old				
 				}
 				b_iskorosten = {
 				}
@@ -11863,8 +11878,6 @@ e_byzantine = {
 				b_kolno = {
 				}
 				b_sejny = {
-					holy_site = baltic_pagan
-					holy_site = baltic_pagan_reformed
 				}
 				b_lomza = {
 				}
@@ -13309,10 +13322,17 @@ e_byzantine = {
 			c_jacwiez = { # Grodno
 				color={ 49 181 44 }
 				color2={ 255 255 255 }
+				
+				lithuanian = Gardinas
+				lettigallish = Grodna
+				galindian = Gardinas
 			
 				b_jacwiez = {
 				}
 				b_novogrudok = {
+				    holy_site = baltic_pagan
+					holy_site = baltic_pagan_reformed
+					holy_site = baltic_pagan_old
 				}
 				b_grodno = {
 				}
@@ -13449,6 +13469,7 @@ e_byzantine = {
 				b_romuva = {
 					holy_site = baltic_pagan
 					holy_site = baltic_pagan_reformed
+					holy_site = baltic_pagan_old
 				}
 				b_bauska = {
 				}
@@ -13640,8 +13661,6 @@ e_byzantine = {
 				b_plock = {
 				}
 				b_pruszkow = {
-					holy_site = slavic_pagan
-					holy_site = slavic_pagan_reformed			
 				}
 				b_warszawa = {
 				}
@@ -13736,6 +13755,7 @@ e_byzantine = {
 				b_fischhausen = {
 				    holy_site = baltic_pagan
 					holy_site = baltic_pagan_reformed
+					holy_site = baltic_pagan_old
 				}
 				b_sambrandenburg = {
 				}
@@ -14057,7 +14077,8 @@ e_byzantine = {
 				}
 				b_arkona = {
 					holy_site = slavic_pagan
-					holy_site = slavic_pagan_reformed
+					holy_site = slavic_pagan_reformed		
+                    holy_site = slavic_pagan_old
 				}
 				b_rugard = {
 				}
@@ -15397,6 +15418,9 @@ e_avaria = {
 				b_plav = {
 				}
 				b_pec = {
+				    holy_site = slavic_pagan
+					holy_site = slavic_pagan_reformed		
+                    holy_site = slavic_pagan_old
 				}
 				b_novipazar = {
 				}
@@ -20856,8 +20880,9 @@ e_pars = {
 				b_perym = {
 				}
 				b_perm = {
-					holy_site = finnish_pagan
-					holy_site = finnish_pagan_reformed				
+					holy_site = ugric_pagan
+					holy_site = ugric_pagan_reformed	
+  					holy_site = ugric_pagan_old	
 				}
 				b_gorodki = {
 				}
