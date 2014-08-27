@@ -1,5 +1,5 @@
 17000001 = {
-	name = "Birigid"
+	name = "Börid"
 	culture = khazar
 }
 

@@ -34,11 +34,11 @@
 }
 
 6000008 = {
-	name = "Lampert"
+	name = "Lamperti"
 	culture = hungarian
 }
 
 6000009 = {
-	name = "Lajos"
+	name = "Lajosi"
 	culture = hungarian
 }

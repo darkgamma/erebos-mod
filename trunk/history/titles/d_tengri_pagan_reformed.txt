@@ -1,3 +1,4 @@
 900.1.1 = {
-	liege = "k_avaria"
+	liege = "e_avaria"
+	holder = 17000001
 }
