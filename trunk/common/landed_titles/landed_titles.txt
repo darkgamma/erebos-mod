@@ -24074,7 +24074,7 @@ k_gujurat = {
 		}
 	}	
 ##
-e_damilakam = {
+e_dramilakam = {
 	color = { 255 40 40 }
 	color2 = { 200 200 200 }
 
@@ -25660,7 +25660,7 @@ e_damilakam = {
 		}
 	}
 }
-
+				
 ##
 	k_xadik_xanan = {
 		color = { 5 45 195 }
