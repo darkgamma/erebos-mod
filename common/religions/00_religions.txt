@@ -1874,7 +1874,7 @@ slavic_group = {
 #	}
 #}
 
-zoroastrian_group = {
+aryan_group = {
 	has_coa_on_barony_only = no
 	graphical_culture = muslimgfx
 	playable = yes
@@ -1958,6 +1958,44 @@ zoroastrian_group = {
 		religious_clothing_head = 5
 		religious_clothing_priest = 5
 	}
+	
+	hindu = {
+		graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+
+		icon = 44
+		heresy_icon = 45
+		
+		color = { 1.0 0.0 0.0 }
+		
+		god_names = {
+			GOD_SHIVA GOD_THE_LORD GOD_THE_SUPREME
+		}
+		
+		evil_god_names = {
+			THE_VINAYAKAS
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		max_consorts = 3
+		
+		unit_modifier = {
+			land_morale = 0.3
+
+			key = "OFF_RELIGION"
+		}
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = THE_MAHABHARATA
+		priest_title = PUJARI
+		piety_name = KARMA
+		
+	}
 }
 
 dravidian_group = {
@@ -1998,7 +2036,7 @@ dravidian_group = {
 	}
 }
 
-indian_group = {
+buddhist_group = {
 	has_coa_on_barony_only = no
 	graphical_culture = indiangfx
 	playable = yes
@@ -2014,44 +2052,6 @@ indian_group = {
 	female_names = {
 	}
 	
-	hindu = {
-		graphical_culture = hindugfx
-		secondary_event_pictures = sunni
-
-		icon = 44
-		heresy_icon = 45
-		
-		color = { 1.0 0.0 0.0 }
-		
-		god_names = {
-			GOD_SHIVA GOD_THE_LORD GOD_THE_SUPREME
-		}
-		
-		evil_god_names = {
-			THE_VINAYAKAS
-		}
-		
-		can_grant_divorce = yes
-		priests_can_inherit = no
-		priests_can_marry = yes
-		allow_looting = yes
-		max_consorts = 3
-		
-		unit_modifier = {
-			land_morale = 0.3
-
-			key = "OFF_RELIGION"
-		}
-		
-		religious_clothing_head = 8
-		religious_clothing_priest = 8
-
-		scripture_name = THE_MAHABHARATA
-		priest_title = PUJARI
-		piety_name = KARMA
-		
-		intermarry = buddhist
-	}
 	buddhist = {
 		graphical_culture = buddhistgfx
 		secondary_event_pictures = sunni
@@ -2089,7 +2089,6 @@ indian_group = {
 		priest_title = BHIKKHU
 		piety_name = KARMA
 
-		intermarry = hindu
 	}
 }
 
