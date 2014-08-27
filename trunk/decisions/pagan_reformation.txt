@@ -58,4 +58,64 @@ decisions = {
 			}
 		}
 	}
+	
+	baltic_reformation = {
+	    is_high_prio = yes
+	    potential = {
+		    is_ruler = yes
+			is_feudal = yes
+		    religion = baltic_pagan
+			age = 16
+		}
+		allow = {
+		    prisoner = no
+		    independent = yes
+		    OR = {
+			    tier = KING
+				tier = EMPEROR
+			}
+			NOT = {
+			    trait = cynical
+			}
+			piety = 5000
+			prestige = 5000
+			wealth = 500
+		}
+		effect = {
+		    piety = -5000
+			prestige = -5000
+		    wealth = -500
+		    ROOT = {
+			    religion = baltic_pagan_reformed
+				narrative_event = { id = REF.2 } 
+			}
+			set_global_flag = baltic_reformation
+			create_character = {
+			    religion = baltic_pagan_reformed
+				culture = ROOT
+				dynasty = random
+				age = 30
+				learning = 17
+				trait = zealous
+				random_traits = yes
+			}
+			new_character = {
+			    d_baltic_pagan_reformed = {
+				    active = yes
+			        grant_title = PREV
+				}
+				set_defacto_liege = ROOT
+			}
+			any_playable_ruler = {
+			    limit = {
+				    NOT = {
+					    religion = baltic_pagan_reformed
+					}
+				}
+				hidden_tooltip = {
+				    narrative_event = { id = REF.2 } 
+				}
+			}
+		}
+	}
 }
