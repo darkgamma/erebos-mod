@@ -1,0 +1,20 @@
+18000001 = {
+	name = "Katukaraja"
+	dynasty = 18000001 # Anasta
+	
+	martial = 9
+	intrigue = 6
+	learning = 14
+	diplomacy = 1
+	
+	add_trait = craven
+	add_trait = cruel
+	add_trait = just
+	add_trait = proud
+	add_trait = hsb_teal
+	
+	culture = gujurati
+	religion = daganist
+	
+	864.1.1 = { birth="864.1.1" }
+}

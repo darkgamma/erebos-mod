@@ -1,0 +1,4 @@
+900.1.1 = {
+	liege = k_gujurat
+	holder = 18000001 # Katukaraja Anasta
+}

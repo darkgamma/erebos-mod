@@ -1,0 +1,3 @@
+900.1.1={
+	holder = 17000005 # Sokal Toksoba
+}
