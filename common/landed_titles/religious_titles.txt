@@ -451,11 +451,11 @@ d_hungarian_pagan_reformed = {
 	color={ 175 50 136 }
 	color2={ 220 220 0 }
 	
-	capital = 84 # Friesland
+	capital = 523 # Heves
 	
-	title = "HEAD_PRIEST"
-	title_female = "HEAD_PRIESTESS"
-	foa = "HEAD_PRIEST_FOA"
+	title = "TALTOS_TALTOSOKNAK"
+	title_female = "TALTOS_TALTOSOKNAK"
+	foa = "TALTOS_TALTOSOKNAK_FOA"
 	
 	short_name = yes
 	

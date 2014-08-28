@@ -118,4 +118,124 @@ decisions = {
 			}
 		}
 	}
+	
+	saami_reformation = {
+	    is_high_prio = yes
+	    potential = {
+		    is_ruler = yes
+			is_feudal = yes
+		    religion = saami_pagan
+			age = 16
+		}
+		allow = {
+		    prisoner = no
+		    independent = yes
+		    OR = {
+			    tier = KING
+				tier = EMPEROR
+			}
+			NOT = {
+			    trait = cynical
+			}
+			piety = 5000
+			prestige = 5000
+			wealth = 500
+		}
+		effect = {
+		    piety = -5000
+			prestige = -5000
+		    wealth = -500
+		    ROOT = {
+			    religion = saami_pagan_reformed
+				narrative_event = { id = REF.3 } 
+			}
+			set_global_flag = saami_reformation
+			create_character = {
+			    religion = saami_pagan_reformed
+				culture = ROOT
+				dynasty = random
+				age = 30
+				learning = 17
+				trait = zealous
+				random_traits = yes
+			}
+			new_character = {
+			    d_saami_pagan_reformed = {
+				    active = yes
+			        grant_title = PREV
+				}
+				set_defacto_liege = ROOT
+			}
+			any_playable_ruler = {
+			    limit = {
+				    NOT = {
+					    religion = saami_pagan_reformed
+					}
+				}
+				hidden_tooltip = {
+				    narrative_event = { id = REF.3 } 
+				}
+			}
+		}
+	}
+	
+	hungarian_reformation = {
+	    is_high_prio = yes
+	    potential = {
+		    is_ruler = yes
+			is_feudal = yes
+		    religion = hungarian_pagan
+			age = 16
+		}
+		allow = {
+		    prisoner = no
+		    independent = yes
+		    OR = {
+			    tier = KING
+				tier = EMPEROR
+			}
+			NOT = {
+			    trait = cynical
+			}
+			piety = 5000
+			prestige = 5000
+			wealth = 500
+		}
+		effect = {
+		    piety = -5000
+			prestige = -5000
+		    wealth = -500
+		    ROOT = {
+			    religion = hungarian_pagan_reformed
+				narrative_event = { id = REF.4 } 
+			}
+			set_global_flag = hungarian_reformation
+			create_character = {
+			    religion = hungarian_pagan_reformed
+				culture = ROOT
+				dynasty = random
+				age = 30
+				learning = 17
+				trait = zealous
+				random_traits = yes
+			}
+			new_character = {
+			    d_hngarian_pagan_reformed = {
+				    active = yes
+			        grant_title = PREV
+				}
+				set_defacto_liege = ROOT
+			}
+			any_playable_ruler = {
+			    limit = {
+				    NOT = {
+					    religion = hungarian_pagan_reformed
+					}
+				}
+				hidden_tooltip = {
+				    narrative_event = { id = REF.4 } 
+				}
+			}
+		}
+	}
 }
