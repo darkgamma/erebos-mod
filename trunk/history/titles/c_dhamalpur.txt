@@ -1,0 +1,4 @@
+900.1.1 = {
+	liege = d_anartta
+	holder = 18000001 # Katukaraja Anasta
+}

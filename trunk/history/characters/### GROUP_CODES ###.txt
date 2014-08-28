@@ -24,4 +24,5 @@
 ### Iberian Characters: [15XXXXXX]
 ### Russian Characters: [16XXXXXX]
 ### Steppe Characters: [17XXXXXX]
+### Indian Characters [18XXXXXX]
 ###
