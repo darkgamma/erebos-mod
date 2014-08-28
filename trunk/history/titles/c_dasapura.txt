@@ -1,1 +1,4 @@
-900.1.1 = { liege = d_gurjara_mandala }
+900.1.1 = {
+	liege = d_anartta
+	holder = 18000002 # Tribhuvanapala Anasta
+}
