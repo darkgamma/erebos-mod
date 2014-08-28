@@ -73,8 +73,7 @@ GOD_BAL_DAGON;Ba'al-Dagon;;;;;;;;;;;;;x
 
 finnish_pagan;Finnic Pagan;;;;;;;;;;;;;x
 finnish_pagan_reformed;Finnic;;;;;;;;;;;;;x
-hungarian_pagan;Hungarian Pagan;;;;;;;;;;;;;x
-hungarian_pagan_reformed;Hungarian;;;;;;;;;;;;;x
+
 ugric_pagan;Ugric Pagan;;;;;;;;;;;;;x
 ugric_pagan_reformed;Ugric;;;;;;;;;;;;;x
 volgaic_pagan;Volgaic Pagan;;;;;;;;;;;;;x
@@ -85,9 +84,34 @@ samoyedic_pagan_reformed;Samoyedic;;;;;;;;;;;;;x
 saami_pagan;Sámi Pagan;;;;;;;;;;;;;x
 saami_pagan_reformed;Sámi;;;;;;;;;;;;;x
 saami_pagan_old;Old Sámi;;;;;;;;;;;;;x
+GOD_JABMEAKKA;Jabmeakka;;;;;;;;;;;;;x
+GOD_MADERAKKA;Maderakka;;;;;;;;;;;;;x
+GOD_BEAJVVI;Beajvvi;;;;;;;;;;;;;x
+GOD_UKSAKKA;Uksakka;;;;;;;;;;;;;x
+GOD_JUKSAKKA;Juksakka;;;;;;;;;;;;;x
+GOD_RAJDJEAHKKA;Rajdjeahkka;;;;;;;;;;;;;x
+GOD_BIEGGOLMAI;Bieggolmai;;;;;;;;;;;;;x
+GOD_HORAGALLES;Horagalles;;;;;;;;;;;;;x
+GOD_MANNA;Manna;;;;;;;;;;;;;x
+GOD_BIEGGAGALLIS;Bieggagallis;;;;;;;;;;;;;x
+GOD_JUBMEL;Jubmel;;;;;;;;;;;;;x
+GOD_MUBPIENOALMAJ;Mubpienoalmaj;;;;;;;;;;;;;x
+GOD_STOALLO;Stoallo;;;;;;;;;;;;;x
+GOD_RUOHTTA;Ruohtta;;;;;;;;;;;;;x
 NOAJDDE;Noajdde;;;;;;;;;;;;;x
 NOAJDDEJ_NOAJDDE;Noajddej Noajdde;;;;;;;;;;;;;x
 NOAJDDEJ_NOAJDDE_FOA;Your Holiness;;;;;;;;;;;;;x
+
+hungarian_pagan;Hungarian Pagan;;;;;;;;;;;;;x
+hungarian_pagan_reformed;Hungarian;;;;;;;;;;;;;x
+hungarian_pagan_old;Old Hungarian;;;;;;;;;;;;;x
+GOD_BOLDOGASSZONY;Boldogasszony;;;;;;;;;;;;;x
+GOD_HADUR;Hadúr;;;;;;;;;;;;;x
+GOD_NAPKIRALY;Napkirály;;;;;;;;;;;;;x
+GOD_SZEPKIRALY;Szépkirály;;;;;;;;;;;;;x
+TALTOS;Táltos;;;;;;;;;;;;;x
+TALTOS_TALTOSOKNAK;Táltos Táltosoknak;;;;;;;;;;;;;x
+TALTOS_TALTOSOKNAK_FOA;Your Holiness;;;;;;;;;;;;;x
 
 bon_group;Bön;;;;;;;;;;;;;x
 bon_pagan;Bön;;;;;;;;;;;;;x
