@@ -57,6 +57,9 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+		    factor = 1
+		}
 	}
 	
 	baltic_reformation = {
@@ -116,6 +119,9 @@ decisions = {
 				    narrative_event = { id = REF.2 } 
 				}
 			}
+		}
+		ai_will_do = {
+		    factor = 1
 		}
 	}
 	
@@ -177,6 +183,9 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+		    factor = 1
+		}
 	}
 	
 	hungarian_reformation = {
@@ -236,6 +245,9 @@ decisions = {
 				    narrative_event = { id = REF.4 } 
 				}
 			}
+		}
+		ai_will_do = {
+		    factor = 1
 		}
 	}
 }

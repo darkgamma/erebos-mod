@@ -21,6 +21,8 @@ e_byzantine;Roman Empire;;;;;;;;;;;;;x
 e_byzantine_adj;Roman;;;;;;;;;;;;;x
 e_dramilakam;Dramilakam;;;;;;;;;;;;;x
 e_dramilakam_adj;Dramilakamian;;;;;;;;;;;;;x
+e_bharat;Bharat;;;;;;;;;;;;;x
+e_bharat_adj;Bharati;;;;;;;;;;;;;x
 # KINGDOMS
 k_iceland;Iceland;;;;;;;;;;;;;x
 k_iceland_adj;Icelandic;;;;;;;;;;;;;x
@@ -120,6 +122,8 @@ k_tulunadu;Tulunadu;;;;;;;;;;;;;x
 k_tulunadu_adj;Tulunadan;;;;;;;;;;;;;x
 k_xadik_xanan;Xadik Xanan;;;;;;;;;;;;;x
 k_xadik_xanan_adj;Xadik Xananite;;;;;;;;;;;;;x
+k_bod;Bod;;;;;;;;;;;;;x
+k_bod_adj;Bodian;;;;;;;;;;;;;x
 # DUCHIES
 d_hamburg;Hamburg;;;;;;;;;;;;;x
 d_habmurg_adj;Hamburgian;;;;;;;;;;;;;x
@@ -277,6 +281,18 @@ d_honnore;Honnore;;;;;;;;;;;;;x
 d_honnore_adj;Honnoran;;;;;;;;;;;;;x
 d_satyapura;Satyapura;;;;;;;;;;;;;x
 d_satyapura_adj;Satyapuran;;;;;;;;;;;;;x
+d_ajayameru;Ajayameru;;;;;;;;;;;;;x
+d_ajayameru_adj;Ajayameran;;;;;;;;;;;;;x
+d_chanderi;Chanderi;;;;;;;;;;;;;x
+d_chanderi_adj;Chanderian;;;;;;;;;;;;;x
+d_satyapura;Satyapura;;;;;;;;;;;;;x
+d_satyapura_adj;Satyapuran;;;;;;;;;;;;;x
+d_chunar;Chunar;;;;;;;;;;;;;x
+d_chunar_adj;Chunarian;;;;;;;;;;;;;x
+d_munda;Munda;;;;;;;;;;;;;x
+d_munda_adj;Mundan;;;;;;;;;;;;;x
+d_laksmanavati;Laksmanavati;;;;;;;;;;;;;x
+d_laksmanavati_adj;Laksmanavatan;;;;;;;;;;;;;x
 d_the_vistulans;the Vistulans;;;;;;;;;;;;;x
 d_the_vistulans_adj;Vistulan;;;;;;;;;;;;;x
 d_the_poles;the Poles;;;;;;;;;;;;;x
