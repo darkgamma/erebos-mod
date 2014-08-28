@@ -16,5 +16,65 @@
 	culture = gujurati
 	religion = daganist
 	
+	father = 18000003 # Lavanyakarna
+	
 	864.1.1 = { birth="864.1.1" }
+}
+
+18000002 = {
+	name = "Tribhuvanapala"
+	dynasty = 18000001 # Anasta
+	
+	martial = 14
+	intrigue = 2
+	
+	add_trait = cruel
+	add_trait = just
+	add_trait = strong
+	add_trait = hsb_blue
+	
+	culture = gujurati
+	religion = daganist
+	
+	father = 18000003 # Lavanyakarna
+	
+	867.1.1 = { birth="867.1.1" }
+}
+
+18000003 = {
+	name = "Lavanyakarna"
+	dynasty = 18000001 # Anasta
+	
+	add_trait = brave
+	add_trait = paranoid
+	add_trait = proud
+	add_trait = diligent
+	add_trait = hsb_teal
+	
+	culture = gujurati
+	religion = daganist
+	
+	844.1.1 = { birth="844.1.1" }
+	897.1.1 = { death="897.1.1" }
+}
+
+18000004 = {
+	name = "Ratnapala"
+	dynasty = 18000001 # Anasta
+	
+	martial = 4
+	diplomacy = 11
+	
+	add_trait = brave
+	add_trait = paranoid
+	add_trait = arbitrary
+	add_trait = lustful
+	add_trait = hsb_yellow
+	
+	culture = gujurati
+	religion = daganist
+	
+	father = 18000003 # Lavanyakarna
+	
+	874.1.1 = { birth="874.1.1" }
 }

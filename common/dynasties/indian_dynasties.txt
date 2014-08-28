@@ -1,0 +1,4 @@
+18000001 = {
+	name = "Anasta"
+	culture = gujurati
+}

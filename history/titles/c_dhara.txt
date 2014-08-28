@@ -1,0 +1,4 @@
+900.1.1 = {
+	liege = d_avanti
+	holder = 18000004 # Ratnapala Anasta
+}

@@ -23767,7 +23767,7 @@ e_bharat = {
 			}
 		}
 	
-		d_dadhipadra = { # Avanti
+		d_avanti = { # Avanti
 			color={ 245 200 20 }
 			color2={ 255 255 255 }
 			
@@ -24387,25 +24387,6 @@ e_bharat = {
 				b_shertha = {
 				}
 			}
-			c_medapata = {
-				color={ 136 86 32 }
-				color2={ 255 255 255 }
-				
-				b_aghata = {
-				}
-				b_eklingji = {
-				}
-				b_nagahrada = {
-				}
-				b_bagar = {
-				}
-				b_jagadamba = {
-				}
-				b_sas_bahu = {
-				}
-				b_rishabhdeo = {
-				}
-			}
 			c_khetaka = {
 				color={ 175 80 40 }
 				color2={ 255 255 255 }
@@ -24589,6 +24570,25 @@ e_bharat = {
 				b_kiradu = {
 				}
 				b_juna_barmer = {
+				}
+			}
+			c_medapata = {
+				color={ 136 86 32 }
+				color2={ 255 255 255 }
+				
+				b_aghata = {
+				}
+				b_eklingji = {
+				}
+				b_nagahrada = {
+				}
+				b_bagar = {
+				}
+				b_jagadamba = {
+				}
+				b_sas_bahu = {
+				}
+				b_rishabhdeo = {
 				}
 			}
 			c_chitrakut = {
