@@ -32,3 +32,13 @@
 	name = "Sayhadra"
 	culture = tuluva
 }
+
+18000008 = {
+	name = "Pandyava"
+	culture = tamil
+}
+
+18000009 = {
+	name = "Davilad"
+	culture = kannada
+}

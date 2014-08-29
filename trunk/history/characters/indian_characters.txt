@@ -170,3 +170,63 @@
 	
 	880.1.1 = { birth = "880.1.1" }
 }
+
+18000011 = {
+	name = "Parakrama"
+	dynasty = 18000008 # Pandyava
+	
+	learning = 4
+	martial = 16
+	intrigue = 8
+	stewardship = 7
+	
+	add_trait = fair
+	add_trait = scholar
+	add_trait = craven
+	add_trait = brave
+	add_trait = hsb_blue
+	
+	culture = tamil
+	religion = dravidian_pagan
+	
+	father = 18000013 # Ratharacca Pandyava
+	
+	879.1.1 = { birth = "879.1.1" }
+}
+
+18000012 = {
+	name = "Rajendra"
+	dynasty = 18000008 # Pandyava
+	
+	add_trait = hsb_teal
+	
+	culture = tamil
+	religion = dravidian_pagan
+	
+	father = 18000013 # Ratharacca Pandyava
+	
+	882.1.1 = { birth = "882.1.1" }
+}
+
+18000013 = {
+	name = "Ratharacca"
+	dynasty = 18000008 # Pandyava
+	
+	add_trait = hsb_indigo
+	
+	culture = tamil
+	religion = dravidian_pagan
+	
+	844.1.1 = { birth = "844.1.1" }
+	889.1.1 = { death = "889.1.1" }
+}
+
+18000014 = {
+	name = "Upangidurga"
+	dynasty = 18000009 # Davilad
+	
+	culture = kannada
+	religion = dravidian_pagan
+	
+	864.1.1 = { birth = "864.1.1" }
+}
