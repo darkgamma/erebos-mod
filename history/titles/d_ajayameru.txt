@@ -1,0 +1,4 @@
+900.1.1 = { 
+	liege = k_delhi
+	holder = 18000009 # Jasapala Sambhatadraka
+}
