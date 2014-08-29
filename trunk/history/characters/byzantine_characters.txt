@@ -2,6 +2,10 @@
 	name = "Heraklios"
 	dynasty = 9000001 # Kalafatakis
 	
+	martial = 11
+	diplomacy = 15
+	stewardship = 4
+	
 	add_trait = shy
 	add_trait = homosexual
 	

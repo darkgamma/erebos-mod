@@ -2,3 +2,23 @@
 	name = "Anasta"
 	culture = gujurati
 }
+
+18000002 = {
+	name = "Yarava"
+	culture = marathi
+}
+
+18000003 = {
+	name = "Dadhava"
+	culture = gujurati
+}
+
+18000004 = {
+	name = "Satadru"
+	culture = hindavi
+}
+
+18000005 = {
+	name = "Samunanba'al"
+	culture = phoenician
+}

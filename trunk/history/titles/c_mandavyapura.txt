@@ -1,1 +1,4 @@
-900.1.1 = { liege = d_satyapura }
+900.1.1 = { 
+	liege = d_satyapura 
+	holder = 18000006 # Sarasatha Dadhava
+}
