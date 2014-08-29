@@ -1,0 +1,4 @@
+900.1.1 = {
+	liege = d_kuru
+	holder = 18000007 # Jatanpal Satadru
+}

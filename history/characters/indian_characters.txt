@@ -18,7 +18,7 @@
 	
 	father = 18000003 # Lavanyakarna
 	
-	864.1.1 = { birth="864.1.1" }
+	864.1.1 = { birth = "864.1.1" }
 }
 
 18000002 = {
@@ -38,7 +38,7 @@
 	
 	father = 18000003 # Lavanyakarna
 	
-	867.1.1 = { birth="867.1.1" }
+	867.1.1 = { birth = "867.1.1" }
 }
 
 18000003 = {
@@ -54,8 +54,8 @@
 	culture = gujurati
 	religion = daganist
 	
-	844.1.1 = { birth="844.1.1" }
-	897.1.1 = { death="897.1.1" }
+	844.1.1 = { birth = "844.1.1" }
+	897.1.1 = { death = "897.1.1" }
 }
 
 18000004 = {
@@ -76,5 +76,68 @@
 	
 	father = 18000003 # Lavanyakarna
 	
-	874.1.1 = { birth="874.1.1" }
+	874.1.1 = { birth = "874.1.1" }
+}
+
+18000005 = {
+	name = "Ranojirao"
+	dynasty = 18000002 # Yarava
+	
+	add_trait = strong
+	add_trait = ugly
+	add_trait = proud
+	add_trait = hsb_jade
+	
+	culture = marathi
+	religion = hindu
+	
+	871.1.1 = { birth = "871.1.1" }
+}
+
+18000006 = {
+	name = "Srisatha"
+	dynasty = 18000003 # Dadhava
+	
+	add_trait = weak
+	add_trait = fair
+	
+	culture = gujurati
+	religion = hindu
+	
+	870.1.1 = { birth = "870.1.1" }
+}
+
+18000007 = {
+	name = "Jatanpal"
+	dynasty = 18000004 # Satadru
+	
+	martial = 9
+	diplomacy = 6
+	stewardship = 6
+	
+	add_trait = homosexual
+	add_trait = fair
+	add_trait = hsb_lime
+	
+	culture = hindavi
+	religion = akaist
+	
+	881.1.1 = { birth = "881.1.1" }
+}
+
+18000008 = {
+	name = "Abdeshmun"
+	dynasty = 18000005 # Samunanba'al
+	
+	intrigue = 11
+	learning = 9
+	martial = 2
+	
+	add_trait = scholar
+	add_trait = stressed
+	
+	culture = phoenician
+	religion = daganist
+	
+	875.8.11 = { birth = "875.8.11" }
 }

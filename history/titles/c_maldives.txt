@@ -1,0 +1,4 @@
+900.1.1 = { 
+	liege = d_xadik_xanan 
+	holder = 18000008 # Abdeshmun Samunanba'al
+}
