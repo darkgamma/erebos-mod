@@ -123,3 +123,15 @@
 	
 	864.1.1 = { birth = 864.1.1 }
 }
+
+7000011 = {
+	name = "Porhyrios"
+	dynasty = 7000011 # Hypatiou
+	
+	culture = dorian
+	religion = hellenic_pagan
+	
+	trait = greedy
+	
+	872.1.1 = { birth = 872.1.1 }
+}

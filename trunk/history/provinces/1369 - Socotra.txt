@@ -5,8 +5,8 @@ title = c_socotra
 
 # Settlements
 max_settlements = 3
-b_qualnsiyah = castle
 b_tamrida = city
+b_qualnsiyah = castle
 b_qadub = temple
 #b_steroh = castle
 #b_asma = castle
@@ -19,3 +19,6 @@ religion = hellenic_pagan
 terrain = hills
 
 # History
+903.1.1 = {
+    trade_post = b_hypatiou
+}

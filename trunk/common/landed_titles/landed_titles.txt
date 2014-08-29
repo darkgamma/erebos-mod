@@ -6461,6 +6461,35 @@ e_aksum = {
 			}
 		}
 	}
+	k_socotra = {
+	color={ 142 255 55 }
+    color2={ 255 255 255 }
+	
+	    d_socotra = {
+			color={ 142 255 55 }
+			color2={ 255 255 255 }
+			
+	        c_socotra = {
+				color={ 142 255 55 }
+				color2={ 255 255 255 }
+			
+				b_qualnsiyah = {
+				}
+				b_tamrida = {
+				}
+				b_qadub = {
+				}
+				b_steroh = {
+				}
+				b_asma = {
+				}
+				b_siqirah = {
+				}
+				b_qashiu = {
+				}
+			}
+		}
+	}
 	k_aksum = {
 		color = { 173 149 105 }
 		color2 = { 255 255 255 }
@@ -27664,4 +27693,8 @@ k_selkups = {
 	
 	culture = selkup
 	religion = samoyedic_pagan
+}
+
+b_hypatiou = {
+
 }
