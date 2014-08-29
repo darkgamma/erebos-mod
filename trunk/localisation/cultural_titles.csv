@@ -68,6 +68,27 @@ temple_baron_saami_pagan_old;Noajdde;;;;;;;;;;;;;x
 temple_baron_saami_pagan_old_female;Noajdde;;;;;;;;;;;;;x
 job_spiritual_saami_pagan_old;Court Noajdde;;;;;;;;;;;;;x
 job_spiritual_saami_pagan_old_female;Court Noajdde;;;;;;;;;;;;;x
+# Hungarian
+count_hungarian_pagan;Chief;;;;;;;;;;;;;x
+count_hungarian_pagan_female;Chieftess;;;;;;;;;;;;;x
+county_of_hungarian_pagan;Chiefdom of;;;;;;;;;;;;;x
+county_hungarian_pagan;Chiefdom of;;;;;;;;;;;;;x
+duke_hungarian_pagan;High Chief;;;;;;;;;;;;;x
+duke_hungarian_pagan_female;High Chieftess;;;;;;;;;;;;;x
+duchy_of_hungarian_pagan;High Chiefdom of;;;;;;;;;;;;;x
+duchy_hungarian_pagan;High Chiefdom;;;;;;;;;;;;;x
+temple_baron_hungarian_pagan;Táltos;;;;;;;;;;;;;x
+temple_baron_hungarian_pagan_female;Táltos;;;;;;;;;;;;;x
+job_spiritual_hungarian_pagan;Court Táltos;;;;;;;;;;;;;x
+job_spiritual_hungarian_pagan_female;Court Táltos;;;;;;;;;;;;;x
+temple_baron_hungarian_pagan_reformed;Táltos;;;;;;;;;;;;;x
+temple_baron_hungarian_pagan_reformed_female;Táltos;;;;;;;;;;;;;x
+job_spiritual_hungarian_pagan_reformed;Court Táltos;;;;;;;;;;;;;x
+job_spiritual_hungarian_pagan_reformed_female;Court Táltos;;;;;;;;;;;;;x
+temple_baron_hungarian_pagan_old;Táltos;;;;;;;;;;;;;x
+temple_baron_hungarian_pagan_old_female;Táltos;;;;;;;;;;;;;x
+job_spiritual_hungarian_pagan_old;Court Táltos;;;;;;;;;;;;;x
+job_spiritual_hungarian_pagan_old_female;Court Táltos;;;;;;;;;;;;;x
 # Cuman
 count_cuman;Bey;;;;;;;;;;;;;x
 count_cuman_female;Bayan;;;;;;;;;;;;;x

@@ -10,6 +10,10 @@ saami_reformation;Reform the Sámi Faith;;;;;;;;;;;;;x
 saami_reformation_desc;Start a process of reformation of the faith within your realm.;;;;;;;;;;;;;x
 EVTNAMEREF.3;The Sámi Reformation;;;;;;;;;;;;;x
 EVTDESCREF.3;A reformation of the ancient Sámi faith has been initiated by [Root.GetTitledName], who wishes to strengthen it and make it resistant to other, more proselytising faiths. Within [Root.GetHerHis] realm, priests and wise men have started creating a holy book which will be used to teach the common folk of faith and piety. This new reformation also brings a new position - the Noajddej Noajdde, lord spiritual of all Sámi. [Root.GetTitledName] calls upon all who follow the Sámi beliefs to join [Root.GetHerHim] in spreading this newly reformed faith!;;;;;;;;;;;;;x
+hungarian_reformation;Reform the Hungarian Faith;;;;;;;;;;;;;x
+hungarian_reformation_desc;Start a process of reformation of the faith within your realm.;;;;;;;;;;;;;x
+EVTNAMEREF.4;The Hungarian Reformation;;;;;;;;;;;;;x
+EVTDESCREF.4;A reformation of the ancient Hungarian faith has been initiated by [Root.GetTitledName], who wishes to strengthen it and make it resistant to other, more proselytising faiths. Within [Root.GetHerHis] realm, priests and wise men have started creating a holy book which will be used to teach the common folk of faith and piety. This new reformation also brings a new position - the Táltos Táltosoknak, lord spiritual of all Hungarians. [Root.GetTitledName] calls upon all who follow the Hungarian beliefs to join [Root.GetHerHim] in spreading this newly reformed faith!;;;;;;;;;;;;;x
 EVTOPTAREF;For [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
 EVTOPTBREF;Embrace the reformation!;;;;;;;;;;;;;x
 EVTOPTCREF;The old ways are still best!;;;;;;;;;;;;;x
