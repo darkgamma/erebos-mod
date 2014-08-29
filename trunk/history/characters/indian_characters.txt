@@ -141,3 +141,32 @@
 	
 	875.8.11 = { birth = "875.8.11" }
 }
+
+18000009 = {
+	name = "Jasapala"
+	dynasty = 18000006 # Sambhatadraka
+	
+	culture = hindavi
+	religion = nestorian
+	
+	869.1.1 = { birth = "869.1.1" }
+}
+
+18000010 = {
+	name = "Manakulachala"
+	dynasty = 18000007 # Sayhadra
+	
+	learning = 17
+	martial = 4
+	
+	add_trait = poet
+	add_trait = weak
+	add_trait = quick
+	add_trait = craven
+	add_trait = hsb_indigo
+	
+	culture = tuluva
+	religion = daganist
+	
+	880.1.1 = { birth = "880.1.1" }
+}

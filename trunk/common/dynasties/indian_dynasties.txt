@@ -22,3 +22,13 @@
 	name = "Samunanba'al"
 	culture = phoenician
 }
+
+18000006 = {
+	name = "Sambhatadraka"
+	culture = hindavi
+}
+
+18000007 = {
+	name = "Sayhadra"
+	culture = tuluva
+}
