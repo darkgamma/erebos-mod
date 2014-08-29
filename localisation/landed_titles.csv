@@ -124,6 +124,8 @@ k_xadik_xanan;Xadik Xanan;;;;;;;;;;;;;x
 k_xadik_xanan_adj;Xadik Xananite;;;;;;;;;;;;;x
 k_bod;Bod;;;;;;;;;;;;;x
 k_bod_adj;Bodian;;;;;;;;;;;;;x
+k_socotra;Socotra;;;;;;;;;;;;;x
+k_socotra_adj;Socotra;;;;;;;;;;;;;x
 # DUCHIES
 d_hamburg;Hamburg;;;;;;;;;;;;;x
 d_habmurg_adj;Hamburgian;;;;;;;;;;;;;x
@@ -338,6 +340,8 @@ b_cacak;Cacak;;;;;;;;;;;;;x
 b_pozega;Požega;;;;;;;;;;;;;x
 b_ovcar;Ovcar;;;;;;;;;;;;;x
 b_romuva;Romuva;;;;;;;;;;;;;x
+# PATRICIANS
+b_hypatiou;Hypatiou;;;;;;;;;;;;;x
 # RELIGIOUS HEADS
 k_catholic_papacy;The Catholic Papacy;;;;;;;;;;;;;x
 k_catholic_papacy_adj;Catholic;;;;;;;;;;;;;x

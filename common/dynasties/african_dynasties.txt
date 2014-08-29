@@ -47,3 +47,8 @@
 	name = "Busasas"
 	culture = somali
 }
+
+7000011 = {
+	name = "Hypatiou"
+	culture = dorian
+}

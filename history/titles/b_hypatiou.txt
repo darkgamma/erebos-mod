@@ -1,0 +1,5 @@
+900.1.1={
+	holding_dynasty = 7000011
+	liege = k_socotra
+	holder = 7000011
+}
