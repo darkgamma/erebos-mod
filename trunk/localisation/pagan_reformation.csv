@@ -26,6 +26,26 @@ finnish_reformation;Reform the Finnic Faith;;;;;;;;;;;;;x
 finnish_reformation_desc;Start a process of reformation of the faith within your realm.;;;;;;;;;;;;;x
 EVTNAMEREF.7;The Finnic Reformation;;;;;;;;;;;;;x
 EVTDESCREF.7;A reformation of the ancient Finnic faith has been initiated by [Root.GetTitledName], who wishes to strengthen it and make it resistant to other, more proselytising faiths. Within [Root.GetHerHis] realm, priests and wise men have started creating a holy book which will be used to teach the common folk of faith and piety. This new reformation also brings a new position - the High Priest, lord spiritual of all Finns. [Root.GetTitledName] calls upon all who follow the Finnic beliefs to join [Root.GetHerHim] in spreading this newly reformed faith!;;;;;;;;;;;;;x
+samoyedic_reformation;Reform the Samoyedic Faith;;;;;;;;;;;;;x
+samoyedic_reformation_desc;Start a process of reformation of the faith within your realm.;;;;;;;;;;;;;x
+EVTNAMEREF.8;The Samoyedic Reformation;;;;;;;;;;;;;x
+EVTDESCREF.8;A reformation of the ancient Samoyedic faith has been initiated by [Root.GetTitledName], who wishes to strengthen it and make it resistant to other, more proselytising faiths. Within [Root.GetHerHis] realm, priests and wise men have started creating a holy book which will be used to teach the common folk of faith and piety. This new reformation also brings a new position - the High Priest, lord spiritual of all Samoyeds. [Root.GetTitledName] calls upon all who follow the Samoyedic beliefs to join [Root.GetHerHim] in spreading this newly reformed faith!;;;;;;;;;;;;;x
+volgaic_reformation;Reform the Volgaic Faith;;;;;;;;;;;;;x
+volgaic_reformation_desc;Start a process of reformation of the faith within your realm.;;;;;;;;;;;;;x
+EVTNAMEREF.9;The Volgaic Reformation;;;;;;;;;;;;;x
+EVTDESCREF.9;A reformation of the ancient Volgaic faith has been initiated by [Root.GetTitledName], who wishes to strengthen it and make it resistant to other, more proselytising faiths. Within [Root.GetHerHis] realm, priests and wise men have started creating a holy book which will be used to teach the common folk of faith and piety. This new reformation also brings a new position - the High Priest, lord spiritual of all Volga Finns. [Root.GetTitledName] calls upon all who follow the Volgaic beliefs to join [Root.GetHerHim] in spreading this newly reformed faith!;;;;;;;;;;;;;x
+ugric_reformation;Reform the Ugric Faith;;;;;;;;;;;;;x
+ugric_reformation_desc;Start a process of reformation of the faith within your realm.;;;;;;;;;;;;;x
+EVTNAMEREF.10;The Ugric Reformation;;;;;;;;;;;;;x
+EVTDESCREF.10;A reformation of the ancient Ugric faith has been initiated by [Root.GetTitledName], who wishes to strengthen it and make it resistant to other, more proselytising faiths. Within [Root.GetHerHis] realm, priests and wise men have started creating a holy book which will be used to teach the common folk of faith and piety. This new reformation also brings a new position - the High Priest, lord spiritual of all Ugrians. [Root.GetTitledName] calls upon all who follow the Ugric beliefs to join [Root.GetHerHim] in spreading this newly reformed faith!;;;;;;;;;;;;;x
+bon_reformation;Reform the Bön Faith;;;;;;;;;;;;;x
+bon_reformation_desc;Start a process of reformation of the faith within your realm.;;;;;;;;;;;;;x
+EVTNAMEREF.11;The Bön Reformation;;;;;;;;;;;;;x
+EVTDESCREF.11;A reformation of the ancient Bön faith has been initiated by [Root.GetTitledName], who wishes to strengthen it and make it resistant to other, more proselytising faiths. Within [Root.GetHerHis] realm, priests and wise men have started creating a holy book which will be used to teach the common folk of faith and piety. This new reformation also brings a new position - the High Priest, lord spiritual of all Tibetans. [Root.GetTitledName] calls upon all who follow the Bön beliefs to join [Root.GetHerHim] in spreading this newly reformed faith!;;;;;;;;;;;;;x
+dravidian_reformation;Reform the Dravidian Faith;;;;;;;;;;;;;x
+dravidian_reformation_desc;Start a process of reformation of the faith within your realm.;;;;;;;;;;;;;x
+EVTNAMEREF.12;The Dravidian Reformation;;;;;;;;;;;;;x
+EVTDESCREF.12;A reformation of the ancient Dravidian faith has been initiated by [Root.GetTitledName], who wishes to strengthen it and make it resistant to other, more proselytising faiths. Within [Root.GetHerHis] realm, priests and wise men have started creating a holy book which will be used to teach the common folk of faith and piety. [Root.GetTitledName] calls upon all who follow the Dravidian beliefs to join [Root.GetHerHim] in spreading this newly reformed faith!;;;;;;;;;;;;;x
 EVTOPTAREF;For [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
 EVTOPTBREF;Embrace the reformation!;;;;;;;;;;;;;x
 EVTOPTCREF;The old ways are still best!;;;;;;;;;;;;;x
