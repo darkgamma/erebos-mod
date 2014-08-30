@@ -62,6 +62,8 @@ GOD_MIMIR;Mímir;;;;;;;;;;;;;x
 
 dravidian_group;Dravidian;;;;;;;;;;;;;x
 dravidian_pagan;Dravidian;;;;;;;;;;;;;x
+dravidian_pagan_old;Old Dravidian;;;;;;;;;;;;;x
+dravidian_pagan_reformed;Dravidian;;;;;;;;;;;;;x
 GOD_AIYANAR;Aiyanar;;;;;;;;;;;;;x
 GOD_MARIAMMAN;Mariamman;;;;;;;;;;;;;x
 GOD_MUNISHSWARAN;Munishswaran;;;;;;;;;;;;;x
@@ -124,6 +126,8 @@ TALTOS_TALTOSOKNAK_FOA;Your Holiness;;;;;;;;;;;;;x
 
 bon_group;Bön;;;;;;;;;;;;;x
 bon_pagan;Bön;;;;;;;;;;;;;x
+bon_pagan_old;Old Bön;;;;;;;;;;;;;x
+bon_pagan_reformed;Bön;;;;;;;;;;;;;x
 GOD_BDUD-GZA-SMIN-DKAR;bDud-gza'-smin-dkar;;;;;;;;;;;;;x
 GOD_PHO-LHA;Pho-Lha;;;;;;;;;;;;;x
 GOD_PE-HAR;Pe-Har;;;;;;;;;;;;;x

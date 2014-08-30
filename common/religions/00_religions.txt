@@ -2545,7 +2545,7 @@ dravidian_group = {
 		icon = 44
 		heresy_icon = 45
 		
-		color = { 0.55 0.6 0.85 }
+		color = { 0.70 0.75 1.0 }
 		
 		god_names = {
 			GOD_AIYANAR GOD_MARIAMMAN GOD_MUNISHSWARAN GOD_KARUPPU_SAMI
@@ -2732,7 +2732,7 @@ bon_group = {
 	}
 	
 	bon_pagan_reformed = {
-		color = { 0.2 0.0 0.6 }
+		color = { 0.35 0.15 0.75 }
 		graphical_culture = buddhistgfx
 		secondary_event_pictures = sunni
 
