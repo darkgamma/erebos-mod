@@ -751,3 +751,191 @@ narrative_event = { # Hungarian Reformation
 		}
 	}
 }
+
+narrative_event = { # Continental Germanic Reformation
+    id = REF.5
+	title = EVTNAMEREF.5
+	desc = EVTDESCREF.5
+	
+	is_triggered_only = yes
+	show_ROOT = yes
+	
+	rulers_only = yes
+	
+	immediate = {
+        if = {
+		    limit = {
+			    any_demesne_province = {
+				    religion = contgermanic
+				}
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = contgermanic
+				}
+				religion = contgermanic_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = contgermanic
+				}
+				religion = contgermanic_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = contgermanic
+				}
+				religion = contgermanic_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = contgermanic
+				}
+				religion = contgermanic_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = contgermanic
+				}
+				religion = contgermanic_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = contgermanic
+				}
+				religion = contgermanic_old
+			}
+		}
+	}
+	
+	option = {
+	    name = EVTOPTAREF
+		trigger = {
+		    religion = contgermanic_reformed
+		}
+		
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = contgermanic_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = contgermanic
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = contgermanic
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = contgermanic
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTBREF
+		
+		ai_chance = {
+		    factor = 10
+			modifier = {
+				factor = 2500
+				any_liege = { religion = contgermanic_reformed }
+			}
+		}
+		
+		trigger = {
+		    religion = contgermanic
+		}
+		religion = contgermanic_reformed
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = contgermanic_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = contgermanic
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = contgermanic
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = contgermanic
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTCREF
+		
+		ai_chance = {
+		    factor = 90
+		}
+		
+		trigger = {
+		    religion = contgermanic
+		}
+		religion = contgermanic_old
+		hidden_tooltip = {
+		    any_courtier = {
+			    limit = {
+				    religion = contgermanic
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = contgermanic
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = contgermanic
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTDREF
+		trigger = {
+		    NOT = {
+			    religion = contgermanic_reformed
+			}
+			NOT = {
+			    religion = contgermanic
+			}
+		}
+	}
+}
