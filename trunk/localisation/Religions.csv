@@ -4,6 +4,7 @@ arian;Arian;;;;;;;;;;;;;x
 sabellian;Sabellian;;;;;;;;;;;;;x
 arab_pagan_group;Arabic;;;;;;;;;;;;;x
 arab_pagan;Arabic Pagan;;;;;;;;;;;;;x
+musilm;Muslim;;;;;;;;;;;;;x
 germanic_group;Germanic;;;;;;;;;;;;;x
 tengri_group;Tengri;;;;;;;;;;;;;x
 baltic_group;Baltic;;;;;;;;;;;;;x
@@ -43,8 +44,10 @@ GOD_THE_RAPTURED;The Raptured;;;;;;;;;;;;;x
 norse_pagan;Old Norse;;;;;;;;;;;;;x
 contgermanic;Germanic Pagan;;;;;;;;;;;;;x
 contgermanic_reformed;Germanic;;;;;;;;;;;;;x
+contgermanic_old;Old Germanic;;;;;;;;;;;;;x
 saxon_pagan;Saxon Pagan;;;;;;;;;;;;;x
 saxon_pagan_reformed;Saxon;;;;;;;;;;;;;x
+saxon_pagan_old;Old Saxon;;;;;;;;;;;;;x
 THE_CHANTS;The Chants;;;;;;;;;;;;;x
 GOD_WOTAN;Wotan;;;;;;;;;;;;;x
 GOD_WODAN;Wodan;;;;;;;;;;;;;x
@@ -73,13 +76,19 @@ GOD_BAL_DAGON;Ba'al-Dagon;;;;;;;;;;;;;x
 
 finnish_pagan;Finnic Pagan;;;;;;;;;;;;;x
 finnish_pagan_reformed;Finnic;;;;;;;;;;;;;x
+finnish_pagan_old;Old Finnic;;;;;;;;;;;;;x
 
 ugric_pagan;Ugric Pagan;;;;;;;;;;;;;x
 ugric_pagan_reformed;Ugric;;;;;;;;;;;;;x
+ugric_pagan_old;Old Ugric;;;;;;;;;;;;;x
+
 volgaic_pagan;Volgaic Pagan;;;;;;;;;;;;;x
 volgaic_pagan_reformed;Volgaic;;;;;;;;;;;;;x
+volgaic_pagan_old;Old Volgaic;;;;;;;;;;;;;x
+
 samoyedic_pagan;Samoyedic Pagan;;;;;;;;;;;;;x
 samoyedic_pagan_reformed;Samoyedic;;;;;;;;;;;;;x
+samoyedic_pagan_old;Old Samoyedic;;;;;;;;;;;;;x
 
 saami_pagan;Sámi Pagan;;;;;;;;;;;;;x
 saami_pagan_reformed;Sámi;;;;;;;;;;;;;x
@@ -133,7 +142,7 @@ GOD_SVAROZHICH;Svarozhich;;;;;;;;;;;;;
 GOD_KRESNIK;Kresnik;;;;;;;;;;;;;
 GOD_MORANA;Morana;;;;;;;;;;;;;
 GOD_DODOLA;Dodola;;;;;;;;;;;;;
-GOD_VESNA;Vesnaa;;;;;;;;;;;;;
+GOD_VESNA;Vesna;;;;;;;;;;;;;
 GOD_STRIBOG;Stribog;;;;;;;;;;;;;
 GOD_MAT_ZEMLYA;Mat Zemlya;;;;;;;;;;;;;
 GOD_MOKOSH;Mokosh;;;;;;;;;;;;;

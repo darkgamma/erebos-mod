@@ -18,6 +18,14 @@ contgermanic_reformation;Reform the Germanic Faith;;;;;;;;;;;;;x
 contgermanic_reformation_desc;Start a process of reformation of the faith within your realm.;;;;;;;;;;;;;x
 EVTNAMEREF.5;The Germanic Reformation;;;;;;;;;;;;;x
 EVTDESCREF.5;A reformation of the ancient Germanic faith has been initiated by [Root.GetTitledName], who wishes to strengthen it and make it resistant to other, more proselytising faiths. Within [Root.GetHerHis] realm, priests and wise men have started creating a holy book which will be used to teach the common folk of faith and piety. This new reformation also brings a new position - the High Priest, lord spiritual of all Germans. [Root.GetTitledName] calls upon all who follow the Germanic beliefs to join [Root.GetHerHim] in spreading this newly reformed faith!;;;;;;;;;;;;;x
+saxon_reformation;Reform the Saxon Faith;;;;;;;;;;;;;x
+saxon_reformation_desc;Start a process of reformation of the faith within your realm.;;;;;;;;;;;;;x
+EVTNAMEREF.6;The Saxon Reformation;;;;;;;;;;;;;x
+EVTDESCREF.6;A reformation of the ancient Saxon faith has been initiated by [Root.GetTitledName], who wishes to strengthen it and make it resistant to other, more proselytising faiths. Within [Root.GetHerHis] realm, priests and wise men have started creating a holy book which will be used to teach the common folk of faith and piety. This new reformation also brings a new position - the High Priest, lord spiritual of all Saxons. [Root.GetTitledName] calls upon all who follow the Saxon beliefs to join [Root.GetHerHim] in spreading this newly reformed faith!;;;;;;;;;;;;;x
+finnish_reformation;Reform the Finnic Faith;;;;;;;;;;;;;x
+finnish_reformation_desc;Start a process of reformation of the faith within your realm.;;;;;;;;;;;;;x
+EVTNAMEREF.7;The Finnic Reformation;;;;;;;;;;;;;x
+EVTDESCREF.7;A reformation of the ancient Finnic faith has been initiated by [Root.GetTitledName], who wishes to strengthen it and make it resistant to other, more proselytising faiths. Within [Root.GetHerHis] realm, priests and wise men have started creating a holy book which will be used to teach the common folk of faith and piety. This new reformation also brings a new position - the High Priest, lord spiritual of all Finns. [Root.GetTitledName] calls upon all who follow the Finnic beliefs to join [Root.GetHerHim] in spreading this newly reformed faith!;;;;;;;;;;;;;x
 EVTOPTAREF;For [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
 EVTOPTBREF;Embrace the reformation!;;;;;;;;;;;;;x
 EVTOPTCREF;The old ways are still best!;;;;;;;;;;;;;x
