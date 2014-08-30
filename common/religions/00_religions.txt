@@ -607,7 +607,49 @@ germanic_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
+	}
+	
+	saxon_pagan_old = {
+	
+		graphical_culture = norsegfx
+
+		icon = 19
+		heresy_icon = 21
+		
+		color = { 0.4 0.2 0.2 }
+		
+		god_names = {
+			GOD_WODAN GOD_DONAR GOD_FROUWA GOD_IRMIN GOD_SONNA GOD_TIU
+		}
+		priest_title = PRIEST
+		
+		unit_modifier = {
+			levy_size = 0.3
+			
+			retinuesize_perc = 0.25
+			
+			key = "OFF_RELIGION"
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_CHANTS
+		priests_can_marry = yes
+
+		female_temple_holders = yes
+		defensive_attrition = yes
+		
+		short_reign_opinion_year_mult = 3
+		defensive_attrition = yes
+
+		max_consorts = 1
+		independence_war_score_bonus = 15 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		#reformed = saxon_pagan_reformed
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
 		intermarry = saxon_pagan_reformed
+		parent = saxon_pagan_reformed
 	}
 	
 	saxon_pagan_reformed = {
@@ -643,7 +685,7 @@ germanic_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
-		intermarry = saxon_pagan
+		intermarry = saxon_pagan_old
 	}
 	
 	contgermanic = {
@@ -687,6 +729,50 @@ germanic_group = {
 		religious_clothing_priest = 3
 		
 		intermarry = contgermanic_reformed
+	}
+	
+	contgermanic_old = {
+	
+		graphical_culture = norsegfx
+
+		icon = 19
+		heresy_icon = 21
+		
+		color = { 0.2 0.2 0.4 }
+		
+		god_names = {
+			GOD_WOTAN GOD_DONAR GOD_FROUWA GOD_WIRD GOD_SONNA GOD_ZIU
+		}
+		priest_title = PRIEST
+		
+		unit_modifier = {
+			levy_size = 0.25
+			
+			retinuesize_perc = 0.5
+			
+			key = "OFF_RELIGION"
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_CHANTS
+		priests_can_marry = yes
+
+		female_temple_holders = yes
+		defensive_attrition = yes
+
+		max_consorts = 1
+		independence_war_score_bonus = 15 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		#reformed = contgermanic_reformed
+		
+		aggression = 1.5 # AI aggression factor
+		
+		short_reign_opinion_year_mult = 3
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = contgermanic_reformed
+		parent = contgermanic_reformed
 	}
 	
 	norse_pagan_reformed = {
@@ -2041,7 +2127,7 @@ slavic_group = {
 
 aryan_group = {
 	has_coa_on_barony_only = no
-	graphical_culture = muslimgfx
+	graphical_culture = indiangfx
 	playable = yes
 	ai_convert_same_group = 2 # always try to convert
 	ai_convert_other_group = 2	# always try to convert
@@ -2259,7 +2345,7 @@ buddhist_group = {
 
 bon_group = {
 	has_coa_on_barony_only = no
-	graphical_culture = indiangfx
+	graphical_culture = muslimgfx
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 	hostile_within_group = yes
