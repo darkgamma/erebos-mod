@@ -2,8 +2,6 @@ decisions = {
     slavic_reformation = {
 	    is_high_prio = yes
 	    potential = {
-		    is_ruler = yes
-			is_feudal = yes
 		    religion = slavic_pagan
 			age = 16
 		}
@@ -65,8 +63,6 @@ decisions = {
 	baltic_reformation = {
 	    is_high_prio = yes
 	    potential = {
-		    is_ruler = yes
-			is_feudal = yes
 		    religion = baltic_pagan
 			age = 16
 		}
@@ -128,8 +124,6 @@ decisions = {
 	saami_reformation = {
 	    is_high_prio = yes
 	    potential = {
-		    is_ruler = yes
-			is_feudal = yes
 		    religion = saami_pagan
 			age = 16
 		}
@@ -191,8 +185,6 @@ decisions = {
 	hungarian_reformation = {
 	    is_high_prio = yes
 	    potential = {
-		    is_ruler = yes
-			is_feudal = yes
 		    religion = hungarian_pagan
 			age = 16
 		}
@@ -254,8 +246,6 @@ decisions = {
 	contgermanic_reformation = {
 	    is_high_prio = yes
 	    potential = {
-		    is_ruler = yes
-			is_feudal = yes
 		    religion = contgermanic
 			age = 16
 		}
@@ -317,8 +307,6 @@ decisions = {
 	saxon_reformation = {
 	    is_high_prio = yes
 	    potential = {
-		    is_ruler = yes
-			is_feudal = yes
 		    religion = saxon_pagan
 			age = 16
 		}
@@ -380,8 +368,6 @@ decisions = {
 	finnish_reformation = {
 	    is_high_prio = yes
 	    potential = {
-		    is_ruler = yes
-			is_feudal = yes
 		    religion = finnish_pagan
 			age = 16
 		}
@@ -443,8 +429,6 @@ decisions = {
 	samoyedic_reformation = {
 	    is_high_prio = yes
 	    potential = {
-		    is_ruler = yes
-			is_feudal = yes
 		    religion = samoyedic_pagan
 			age = 16
 		}
@@ -506,8 +490,6 @@ decisions = {
 	volgaic_reformation = {
 	    is_high_prio = yes
 	    potential = {
-		    is_ruler = yes
-			is_feudal = yes
 		    religion = volgaic_pagan
 			age = 16
 		}
@@ -569,8 +551,6 @@ decisions = {
     ugric_reformation = {
 	    is_high_prio = yes
 	    potential = {
-		    is_ruler = yes
-			is_feudal = yes
 		    religion = ugric_pagan
 			age = 16
 		}
@@ -632,8 +612,6 @@ decisions = {
 	bon_reformation = {
 	    is_high_prio = yes
 	    potential = {
-		    is_ruler = yes
-			is_feudal = yes
 		    religion = bon_pagan
 			age = 16
 		}
@@ -695,8 +673,6 @@ decisions = {
     dravidian_reformation = {
 	    is_high_prio = yes
 	    potential = {
-		    is_ruler = yes
-			is_feudal = yes
 		    religion = dravidian_pagan
 			age = 16
 		}
