@@ -230,3 +230,72 @@
 	
 	864.1.1 = { birth = "864.1.1" }
 }
+
+18000015 = {
+	name = "Kakhopala"
+	dynasty = 18000010 # Pundhrava
+	
+	culture = bengali
+	religion = buddhist
+	
+	862.1.1 = { birth = "862.1.1" }
+}
+
+18000016 = {
+	name = "Gyalwa"
+	dynasty = 18000011 # Gyadtsop
+	
+	add_trait = quick
+	add_trait = depressed
+	add_trait = hsb_violet
+	
+	culture = xangxung
+	religion = bon_pagan
+	
+	871.1.1 = { birth = "871.1.1" }
+}
+
+18000017 = {
+	name = "Yongten"
+	dynasty = 18000011 # Gyadtsop
+	
+	add_trait = quick
+	add_trait = hsb_violet
+	
+	culture = xangxung
+	religion = bon_pagan
+	
+	father = 18000016 # Gyalwa Gyadtsop
+	
+	900.1.1 = { birth = "900.1.1" }
+}
+
+18000018 = {
+	name = "Ngodup"
+	dynasty = 18000012 # sDrib
+	
+	culture = bodpa
+	religion = bon_pagan
+	
+	874.1.1 = { birth = 874.1.1 }
+}
+
+18000019 = {
+	name = "Prithvivarman"
+	dynasty = 18000013 # Dayarava
+	
+	culture = bengali
+	religion = buddhist
+	
+	868.1.1 = { birth = "868.1.1" }
+}
+
+18000020 = {
+	name = "Michwa"
+	dynasty = 18000014 # Yongdrop
+	
+	culture = monpa
+	religion = bon_pagan
+	
+	874.1.1 = { birth = "874.1.1" }
+}

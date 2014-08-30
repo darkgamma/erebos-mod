@@ -1,0 +1,4 @@
+900.1.1 = {
+	liege = d_laksmanavati
+	holder = 18000020 # Michwa Yongdrop
+}

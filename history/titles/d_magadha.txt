@@ -1,0 +1,4 @@
+900.1.1 = { 
+	liege = k_bengal 
+	holder = 18000015 # Kakhopala Pundhrava
+}

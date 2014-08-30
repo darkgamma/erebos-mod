@@ -42,3 +42,28 @@
 	name = "Davilad"
 	culture = kannada
 }
+
+18000010 = {
+	name = "Pundhrava"
+	culture = bengali
+}
+
+18000011 = {
+	name = "Gyadtsop"
+	culture = xangxung
+}
+
+18000012 = {
+	name = "sDrib"
+	culture = bodpa
+}
+
+18000013 = {
+	name = "Dayarava"
+	culture = bengali
+}
+
+18000014 = {
+	name = "Yongdrop"
+	culture = monpa
+}
