@@ -1,0 +1,4 @@
+900.1.1 = {
+	liege = d_para_lauhitya
+	holder = 18000019 # Prithvivarman Dayarava
+}

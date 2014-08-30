@@ -1,0 +1,4 @@
+900.1.1 = {
+	liege = d_sarayupara
+	holder = 18000018 # Ngodup sDrib
+}

@@ -1,0 +1,4 @@
+900.1.1 = { 
+	liege = d_magadha 
+	holder = 18000015 # Kakhopala Pundhrava
+}

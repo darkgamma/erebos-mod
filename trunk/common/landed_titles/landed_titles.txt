@@ -27137,7 +27137,7 @@ e_dramilakam = {
 				}
 			}
 		}		
-		d_saryupara = {
+		d_sarayupara = {
 			color={ 180 50 255 }
 			color2={ 255 255 255 }
 			
