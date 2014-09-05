@@ -8,8 +8,13 @@ character_event = {
 	trigger = {
 		OR = {
 		    AND = { 
-			    primary_title = { 
-				    title = d_the_poles
+			    OR = {
+				    primary_title = {
+					    title = d_the_poles
+					}
+					primary_title = {
+					    title = d_lech_polania
+					}
 				}
                 NOT = { 
 				    has_character_flag = polish_ruler
@@ -103,8 +108,13 @@ character_event = {
 	immediate = {
 		if = { 
 		    limit = {
-			    primary_title = { 
-				    title = d_the_poles 
+			    OR = {
+				    primary_title = {
+					    title = d_the_poles
+					}
+					primary_title = {
+					    title = d_lech_polania
+					}
 				}
 			}	
 			set_character_flag = polish_ruler
@@ -287,8 +297,13 @@ character_event = {
 		OR = {
 		    AND = { 
 		        NOT = { 
-			        primary_title = { 
-				        title = d_the_poles 
+			        OR = {
+				        primary_title = {
+					        title = d_the_poles
+					    }
+					    primary_title = {
+					        title = d_lech_polania
+					    }
 				    }				
 			    }
 				has_character_flag = polish_ruler 
