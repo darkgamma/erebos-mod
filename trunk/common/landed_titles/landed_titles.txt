@@ -13528,16 +13528,16 @@ e_byzantine = {
 		    OR = {
 			    AND = {
 				    OR = {
-				        primary_title = { title = d_the_poles }
-					    primary_title = { title = d_the_vistulans }
-						primary_title = { title = d_the_mazovians }
-						primary_title = { title = d_the_prussians }
-						primary_title = { title = d_the_silesians }
-						primary_title = { title = d_the_kashubians }
-						primary_title = { title = d_the_pomeranians }
-						primary_title = { title = d_the_sorbs }
-						primary_title = { title = d_the_ranes }
-						primary_title = { title = d_the_obodrites }
+				        primary_title = { title = d_lech_polania }
+					    primary_title = { title = d_lech_vistulania }
+						primary_title = { title = d_lech_mazovia }
+						primary_title = { title = d_lech_prussia }
+						primary_title = { title = d_lech_silesia }
+						primary_title = { title = d_lech_kashubia }
+						primary_title = { title = d_lech_pomerania }
+						primary_title = { title = d_lech_sorbia }
+						primary_title = { title = d_lech_rania }
+						primary_title = { title = d_lech_obodritia }
 					}
 					culture = lechitic
 				}
@@ -13661,6 +13661,12 @@ e_byzantine = {
 			color2={ 255 255 255 }
 			
 			capital = 529 # Plock
+			
+			allow = {
+			    NOT = {
+				    culture = lechitic
+				}
+			}
 			
 			c_galindia = {
 				color={ 185 90 90 }
@@ -27460,11 +27466,21 @@ d_the_vistulans = {
 		always = no
 	}
 	
-	dignity = 20 # For securing Lechitic mechanic functionality
+	tribe = yes
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
 	title_prefix = "TRIBE_OF"
+}
+
+d_lech_vistulania = {
+    color = { 135 15 15 }
+	
+	allow = {
+		always = no
+	}
+	
+	dignity = 200 # For securing Lechitic mechanic functionality
 }
 
 d_the_poles = {
@@ -27474,11 +27490,21 @@ d_the_poles = {
 		always = no
 	}
 	
-	dignity = 20 # For securing Lechitic mechanic functionality
+	tribe = yes
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
 	title_prefix = "TRIBE_OF"
+}
+
+d_lech_polania = {
+    color = { 200 70 70 }
+	
+	allow = {
+		always = no
+	}
+	
+	dignity = 200 # For securing Lechitic mechanic functionality
 }
 
 d_the_ranes = {
@@ -27488,11 +27514,21 @@ d_the_ranes = {
 		always = no
 	}
 	
-	dignity = 20 # For securing Lechitic mechanic functionality
+	tribe = yes
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
 	title_prefix = "TRIBE_OF"
+}
+
+d_lech_rania = {
+    color = { 150 30 30 }
+	
+	allow = {
+		always = no
+	}
+	
+	dignity = 200 # For securing Lechitic mechanic functionality
 }
 
 d_the_silesians = {
@@ -27502,11 +27538,21 @@ d_the_silesians = {
 		always = no
 	}
 	
-	dignity = 20 # For securing Lechitic mechanic functionality
+	tribe = yes
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
 	title_prefix = "TRIBE_OF"
+}
+
+d_lech_silesia = {
+    color = { 130 60 60 }
+	
+	allow = {
+		always = no
+	}
+	
+	dignity = 200 # For securing Lechitic mechanic functionality
 }
 
 d_the_pomeranians = {
@@ -27516,11 +27562,21 @@ d_the_pomeranians = {
 		always = no
 	}
 	
-	dignity = 20 # For securing Lechitic mechanic functionality
+	tribe = yes
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
 	title_prefix = "TRIBE_OF"
+}
+
+d_lech_pomerania = {
+    color = { 240 70 70 }
+	
+	allow = {
+		always = no
+	}
+	
+	dignity = 200 # For securing Lechitic mechanic functionality
 }
 
 d_the_obodrites = {
@@ -27530,11 +27586,21 @@ d_the_obodrites = {
 		always = no
 	}
 	
-	dignity = 20 # For securing Lechitic mechanic functionality
+	tribe = yes
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
 	title_prefix = "TRIBE_OF"
+}
+
+d_lech_obodritia = {
+    color = { 160 0 0 }
+	
+	allow = {
+		always = no
+	}
+	
+	dignity = 200 # For securing Lechitic mechanic functionality
 }
 
 d_the_prussians = {
@@ -27544,11 +27610,21 @@ d_the_prussians = {
 		always = no
 	}
 	
-	dignity = 20 # For securing Lechitic mechanic functionality
+	tribe = yes
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
 	title_prefix = "TRIBE_OF"
+}
+
+d_lech_prussia = {
+    color = { 160 30 30 }
+	
+	allow = {
+		always = no
+	}
+	
+	dignity = 200 # For securing Lechitic mechanic functionality
 }
 
 d_the_kashubians = {
@@ -27559,10 +27635,22 @@ d_the_kashubians = {
 	}
 	
 	dignity = 20 # For securing Lechitic mechanic functionality
+	
+	tribe = yes
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
 	title_prefix = "TRIBE_OF"
+}
+
+d_lech_kashubia = {
+    color = { 220 120 120 }
+	
+	allow = {
+		always = no
+	}
+	
+	dignity = 200 # For securing Lechitic mechanic functionality
 }
 
 d_the_sorbs = {
@@ -27572,11 +27660,21 @@ d_the_sorbs = {
 		always = no
 	}
 	
-	dignity = 20 # For securing Lechitic mechanic functionality
+	tribe = yes
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
 	title_prefix = "TRIBE_OF"
+}
+
+d_lech_sorbia = {
+    color = { 80 0 0 }
+	
+	allow = {
+		always = no
+	}
+	
+	dignity = 200 # For securing Lechitic mechanic functionality
 }
 
 d_the_mazovians = {
@@ -27586,11 +27684,21 @@ d_the_mazovians = {
 		always = no
 	}
 	
-	dignity = 20 # For securing Lechitic mechanic functionality
+	tribe = yes
 
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
 	title_prefix = "TRIBE_OF"
+}
+
+d_lech_mazovia = {
+    color = { 230 80 80 }
+	
+	allow = {
+		always = no
+	}
+	
+	dignity = 200 # For securing Lechitic mechanic functionality
 }
 
 d_the_aukstaitians = {
