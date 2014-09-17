@@ -1,0 +1,92 @@
+######################################
+####							  ####
+###		Written by Darkgamma	   ###
+##	   ASCII Art by Darkgamma		##
+###								   ###
+####							  ####
+######################################
+
+######################################
+##									##
+##			Version: 1.0a			##
+##									##
+######################################
+
+######################################
+##									##
+##	   Daganist Flavour Events		##
+##									##
+######################################
+
+namespace = DAGAN
+
+character_event = {
+	id = DAGAN.1
+	desc = DAGAN.1.desc
+	border = GFX_event_normal_frame_economy
+	
+	mean_time_to_happen = {
+		years = 20
+		modifier = {
+			factor = 0.35
+			trait = zealous
+		}
+		modifier = {
+			factor = 2.95
+			trait = cynical
+		}
+		modifier = {
+			factor = 3
+			has_character_flag = dagan.1
+		}
+	}
+	
+	age = 16
+	is_ruler = yes
+	is_prisoner = no
+	only_capable = yes
+	only_playable = yes
+	
+	trigger = {
+		capital_scope = { port = yes }
+		war = no
+		in_battle = no
+		in_command = no
+		in_siege = no
+		
+		religion = daganist
+	}
+	
+	option = {
+		name = OPTA.DAGAN.1
+		hidden_tooltip = { if = { limit = { NOT = { has_character_flag = dagan.1 } } set_character_flag = dagan.1 } }
+		
+		wealth = -15
+		prestige = 25
+		piety = 50
+	}
+	
+	option = {
+		name = OPTB.DAGAN.1
+		hidden_tooltip = { if = { limit = { NOT = { has_character_flag = dagan.1 } } set_character_flag = dagan.1 } }
+		
+		hidden_tooltip = { 
+			random_list = {
+				15 = { health = 0.5 }
+				35 = { health = 0.25 }
+				40 = { }
+				10 = { health = -0.5 }
+			}
+		}
+		prestige = 25
+		piety = 25
+	}
+	
+	option = {
+		name = OPTC.DAGAN.1
+		hidden_tooltip = { if = { limit = { NOT = { has_character_flag = dagan.1 } } set_character_flag = dagan.1 } }
+		
+		prestige = 5
+		piety = -50	
+	}
+}
