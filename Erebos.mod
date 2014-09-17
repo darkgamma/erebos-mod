@@ -1,4 +1,3 @@
-
 name = "-- [0.1.1b] -- Erebos Alpha"
 path = "mod/Erebos"
 user_dir = "Erebos"
