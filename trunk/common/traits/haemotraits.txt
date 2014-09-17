@@ -271,8 +271,8 @@ hs_nspawn = {
 	}
 }
 
-#Primodial Trait - Primodials are a small set of non-humans that came to spread the word
-hs_primod = {
+#Primordial Trait - Primordials are a small set of non-humans that came to spread the word
+hs_primord = {
 
 	potential = {
 		# always = no
