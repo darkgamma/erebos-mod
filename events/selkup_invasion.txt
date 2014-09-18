@@ -1,0 +1,61 @@
+namespace = selkup_invasion
+province_event = {
+	id = selkup_invasion.1
+	title = EVTNAMESELINV.1
+	desc = EVTDESCSELINV.1
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	only_rulers = yes
+	
+	trigger = {
+		year = 1200
+		NOT = {
+			has_global_flag = selkup_invasion
+		}
+		owner = {
+			OR = {
+				has_landed_title = c_samoyeds
+				has_landed_title = c_ugra
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	immediate = {
+		set_global_flag = selkup invasion
+		activate_title = { title = k_selkups status = yes }
+		create_random_soldier = {
+			random_traits = yes
+			dynasty = RANDOM
+			name = "Kharuchi"
+			culture = selkup
+			religion = samoyedic_pagan
+			age = 25
+			attributes = {
+				martial = 8
+				diplomacy = 4
+				stewardship = 5
+				intrigue = 4
+				learning = 3
+			}
+			health = 5.5
+			fertility = 0.6
+
+		}
+		new_character = {
+			k_selkups = {
+				grant_title = PREV
+			}
+			set_defacto_liege = THIS
+		}
+	}
+	
+	option = {
+		name = "EVTOPTASELINV.1"
+	}
+}
