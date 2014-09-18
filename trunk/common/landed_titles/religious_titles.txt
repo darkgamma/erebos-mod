@@ -246,9 +246,9 @@ d_baltic_pagan_reformed = {
 	
 	capital = 374 #Romuva/Riga
 	
-	title = "KRIVIS_KRIVIU"
-	title_female = "KRIVIJA_KRIVIU"
-	foa = "KRIVIS_KRIVIU_FOA"
+	title = "KRIVIU_KRIVAITIS"
+	title_female = "KRIVIJA_KRIVAITIS"
+	foa = "KRIVIU_KRIVAITIS_FOA"
 	
 	short_name = yes
 	

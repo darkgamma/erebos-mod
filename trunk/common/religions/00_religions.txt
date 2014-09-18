@@ -970,7 +970,7 @@ baltic_group = {
 		god_names = {
 			GOD_DIEVAS GOD_GABIJA GOD_PERKUNAS GOD_LAIMA 
 		}
-		priest_title = KRIVIS
+		priest_title = KRIVIU
 		
 		can_call_crusade = yes
 		
@@ -1019,7 +1019,7 @@ baltic_group = {
 		god_names = {
 			GOD_DIEVAS GOD_GABIJA GOD_PERKUNAS GOD_LAIMA
 		}
-		priest_title = KRIVIS
+		priest_title = KRIVIU
 		
 		unit_modifier = {		
 			garrison_size = 0.3
@@ -1066,7 +1066,7 @@ baltic_group = {
 		god_names = {
 			GOD_DIEVAS GOD_GABIJA GOD_PERKUNAS GOD_LAIMA
 		}
-		priest_title = KRIVIS
+		priest_title = KRIVIU
 		
 		unit_modifier = {		
 			garrison_size = 0.3
