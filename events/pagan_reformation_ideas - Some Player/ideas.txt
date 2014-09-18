@@ -1,0 +1,21 @@
+In order to make the Reformation proccess more "realistic" and challenging, it might be interesting to adopt an idea I saw in a mod idea thread about pagan reformations.
+
+The proccess should take some time, have more than one "phase" and, possibly, span more than one generation. Instead of taking a decision that instantly reforms a particular
+faith, the player (or AI) should have the option to choose a ambition or take a decision along the lines of "Reform the Faith".
+For this ambition/decision to be chosen/taken, the ruler would have to be at least King Tier, not have some traits (such as cynical), and have a certain amount of piety (to be
+discussed).The ruler would then have to hire scholars (that might be represented as actual characters or just a money-draining modifier) and do some research himself (here the
+ruler's learning attribute comes into play).
+
+The speed of the codification of the religion should depend on the following factors: Quantity/quality of the scholars hired (the hiring event should have a few options to 
+choose from), the rulers learning stat, the amount of provinces of the codified religion present on the rulers realm (assuming this is a measurable variable) and, possibly,
+moral authority. In the proccess you might even be able to choose characteristics of your reformed religion, for example: you could ban human sacrifices, if you consider that 
+practice innapropriate (through an event that sets a global flag that stops sacrification events from happening). Another example could be Holy Wars: you could make your 
+religion more or less violent, in the proccess of reforming it.
+
+When the codification proccess is complete (the progress could be measured with modifiers or something similar), a new decision, to declare the faith reformed, could be taken
+(basically the one you have right now, but only requiring prestige and gold) giving the ruler a lot of piety and the nickname "The Reformer" and, possibly, a little trait or
+modifier that grants piety to his descendants. 
+
+This way there is an actual proccess of codification, that, IMHO, improves the immersion and sense of achievement to the player. I do understand that this will probably be a bit
+tricky to code and I don't want to push too much, since I just got into the team, but I'd like you guys to read the idea and, if you approve it, I could start working on it 
+on Friday.
