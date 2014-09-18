@@ -863,7 +863,6 @@ character_event = {
 
 character_event = {
 	id = LECH.4
-	title = EVTNAMELECH.4
 	desc = EVTDESCLECH.4
 	only_playable = yes
 	
