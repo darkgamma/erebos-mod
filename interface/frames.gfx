@@ -1,0 +1,14 @@
+spriteTypes = 
+{
+	spriteType = {
+		name = "GFX_event_letter_frame_water"
+		texturefile = "gfx\\flavour_eventpics\\event_letter_frame_water.tga"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_event_normal_frame_water"
+		texturefile = "gfx\\flavour_eventpics\\event_normal_frame_water.tga"
+		allwaystransparent = yes
+	}
+}

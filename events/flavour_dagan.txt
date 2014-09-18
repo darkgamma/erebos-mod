@@ -23,16 +23,18 @@ namespace = DAGAN
 character_event = {
 	id = DAGAN.1
 	desc = DAGAN.1.desc
-	border = GFX_event_normal_frame_economy
+	
+	picture = GFX_evt_fishing_village
+	border = GFX_event_normal_frame_water
 	
 	mean_time_to_happen = {
-		years = 20
+		years = 80
 		modifier = {
 			factor = 0.35
 			trait = zealous
 		}
 		modifier = {
-			factor = 2.95
+			factor = 2.2
 			trait = cynical
 		}
 		modifier = {
@@ -48,11 +50,17 @@ character_event = {
 	only_playable = yes
 	
 	trigger = {
-		capital_scope = { port = yes }
-		war = no
-		in_battle = no
-		in_command = no
-		in_siege = no
+		capital_scope = { 
+			port = yes
+			religion = daganist
+		}
+		
+		NOT = {
+			in_battle = yes
+			in_command = yes
+			in_siege = yes
+			war = yes
+		}
 		
 		religion = daganist
 	}
@@ -61,9 +69,9 @@ character_event = {
 		name = OPTA.DAGAN.1
 		hidden_tooltip = { if = { limit = { NOT = { has_character_flag = dagan.1 } } set_character_flag = dagan.1 } }
 		
-		wealth = -15
-		prestige = 25
-		piety = 50
+		wealth = -50
+		prestige = 50
+		piety = 25
 	}
 	
 	option = {
@@ -74,11 +82,11 @@ character_event = {
 			random_list = {
 				15 = { health = 0.5 }
 				35 = { health = 0.25 }
-				40 = { }
-				10 = { health = -0.5 }
+				35 = { }
+				15 = { health = -0.75 }
 			}
 		}
-		prestige = 25
+		prestige = -25
 		piety = 25
 	}
 	
@@ -86,7 +94,7 @@ character_event = {
 		name = OPTC.DAGAN.1
 		hidden_tooltip = { if = { limit = { NOT = { has_character_flag = dagan.1 } } set_character_flag = dagan.1 } }
 		
-		prestige = 5
-		piety = -50	
+		prestige = 25
+		piety = -25	
 	}
 }
