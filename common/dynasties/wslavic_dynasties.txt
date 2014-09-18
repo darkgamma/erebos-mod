@@ -1,5 +1,5 @@
 11000001 = {
-	name = "Vistulanski"
+	name = "Wislanski"
 	culture = lechitic
 }
 
@@ -9,17 +9,17 @@
 }
 
 11000003 = {
-	name = "Ranski"
+	name = "Rujanski"
 	culture = lechitic
 }
 
 11000004 = {
-	name = "Slezanski"
+	name = "Slaski"
 	culture = lechitic
 }
 
 11000005 = {
-	name = "Pomeranski"
+	name = "Pomorski"
 	culture = lechitic
 }
 
@@ -34,7 +34,7 @@
 }
 
 11000008 = {
-	name = "Kashubski"
+	name = "Kaszubski"
 	culture = lechitic
 }
 
