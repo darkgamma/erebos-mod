@@ -340,3 +340,112 @@
 
 	882.1.1 = { birth = "882.1.1" }
 } 
+
+2000023 = {
+	name = "Cearl"
+	dynasty = random
+
+	religion = "catholic"
+	culture = "saxon"
+
+	884.1.1 = { birth = "884.1.1" }
+}
+
+2000024 = {
+	name = "Burgheard"
+	dynasty = random
+
+	religion = "catholic"
+	culture = "saxon"
+
+	876.1.1 = { birth = "876.1.1" }
+}
+
+2000025 = {
+	name = "Eadric"
+	dynasty = random
+
+	religion = "catholic"
+	culture = "saxon"
+
+	884.1.1 = { birth = "884.1.1" }
+}
+
+2000026 = {
+	name = "Eadwig"
+	dynasty = random
+
+	religion = "catholic"
+	culture = "saxon"
+
+	880.1.1 = { birth = "880.1.1" }
+}
+
+2000027 = {
+	name = "Ordgar"
+	dynasty = random
+
+	religion = "catholic"
+	culture = "saxon"
+
+	880.1.1 = { birth = "880.1.1" }
+}
+
+2000028 = {
+	name = "Leofhelm"
+	dynasty = random
+
+	religion = "catholic"
+	culture = "saxon"
+
+	880.1.1 = { birth = "880.1.1" }
+}
+
+2000029 = {
+	name = "Ælfric"
+	dynasty = random
+
+	religion = "catholic"
+	culture = "saxon"
+
+	880.1.1 = { birth = "880.1.1" }
+}
+
+2000030 = {
+	name = "Wulfstan"
+	dynasty = random
+
+	religion = "catholic"
+	culture = "saxon"
+
+	880.1.1 = { birth = "880.1.1" }
+}
+
+2000031 = {
+	name = "Osweald"
+	dynasty = random
+
+	religion = "catholic"
+	culture = "saxon"
+
+	880.1.1 = { birth = "880.1.1" }
+}
+
+2000032 = {
+	name = "Oswine"
+	dynasty = random
+
+	religion = "catholic"
+	culture = "saxon"
+
+	880.1.1 = { birth = "880.1.1" }
+}
+2000033 = {
+	name = "Rædwulf"
+	dynasty = random
+
+	religion = "catholic"
+	culture = "saxon"
+
+	880.1.1 = { birth = "880.1.1" }
+}
