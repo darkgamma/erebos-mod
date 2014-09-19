@@ -1,0 +1,182 @@
+######################################
+####							  ####
+###		 Written by Darkgamma	   ###
+##	    ASCII Art by Darkgamma		##
+###								   ###
+####							  ####
+######################################
+
+######################################
+##									##
+##			Version: 1.1a			##
+##									##
+######################################
+
+######################################
+##									##
+##	  	 Aging-Related Events		##
+##									##
+######################################
+
+namespace = AGING
+
+character_event = {
+	id = AGING.1
+	desc = AGING.1.desc # Dead yay
+	
+	mean_time_to_happen = {
+		years = 660
+
+		### Blood Colour Modifiers
+		
+		modifier = {
+			factor = 250
+			trait = hsb_violet
+		}
+		
+		modifier = {
+			factor = 0
+			
+			OR = {
+				trait = hsb_halfling
+				trait = hsb_primord
+			}
+		}
+		
+		modifier = {
+			factor = 0.775
+			trait = hsb_blue
+		}
+
+		modifier = {
+			factor = 0.475
+			trait = hsb_teal
+		}
+		
+		modifier = {
+			factor = 0.38
+			trait = hsb_jade
+		}
+		
+		modifier = {
+			factor = 0.295
+			trait = hsb_lime
+		}
+		
+		modifier = {
+			factor = 0.175
+			trait = hsb_yellow
+		}
+		
+		modifier = {
+			factor = 0.125
+			trait = hsb_bronze
+		}
+		
+		modifier = {
+			factor = 0.105
+			trait = hsb_red
+		}
+	}
+	
+	picture = GFX_evt_aquarius
+	border = GFX_event_normal_frame_religion
+	
+	option = {
+		name = OPTA.AGING.1
+		
+		trigger = {
+		
+			NOT = {
+				trait = hsb_lime
+				trait = hsb_jade
+				trait = hsb_teal
+				trait = hsb_blue
+				trait = hsb_indigo
+				trait = hsb_violet
+			}
+			
+			OR = {
+				trait = hsb_red
+				trait = hsb_bronze
+				trait = hsb_yellow
+			}
+		}
+		
+		hidden_tooltip = { death = { death_reason = death_natural } }	
+		custom_tooltip = { text = aging.1a }
+	}
+	
+	option = {
+		name = OPTB.AGING.1
+		
+		trigger = {
+		
+			NOT = {
+				trait = hsb_red
+				trait = hsb_bronze
+				trait = hsb_yellow
+				trait = hsb_blue
+				trait = hsb_indigo
+				trait = hsb_violet
+			}
+			
+			OR = {
+				trait = hsb_lime
+				trait = hsb_jade
+				trait = hsb_teal
+			}
+		}
+		
+		hidden_tooltip = { death = { death_reason = death_natural } }	
+		custom_tooltip = { text = aging.1b }
+	}
+	
+	option = {
+		name = OPTC.AGING.1
+		
+		trigger = {
+		
+			NOT = {
+				trait = hsb_lime
+				trait = hsb_jade
+				trait = hsb_teal
+				trait = hsb_red
+				trait = hsb_bronze
+				trait = hsb_yellow
+				trait = hsb_violet
+			}
+			
+			OR = {
+				trait = hsb_blue
+				trait = hsb_indigo
+			}
+		}
+		
+		hidden_tooltip = { death = { death_reason = death_natural } }	
+		custom_tooltip = { text = aging.1c }
+	}
+	
+	option = {
+		name = OPTD.AGING.1
+		
+		trigger = {
+		
+			NOT = {
+				trait = hsb_lime
+				trait = hsb_jade
+				trait = hsb_teal
+				trait = hsb_red
+				trait = hsb_bronze
+				trait = hsb_yellow
+				trait = hsb_blue
+				trait = hsb_indigo
+			}
+			
+			trait = hsb_violet
+		}
+		
+		#hidden_tooltip = { death = { death_reason = death_natural } }	
+		custom_tooltip = { text = aging.1d }
+	}
+}
