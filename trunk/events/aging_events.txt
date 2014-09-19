@@ -103,7 +103,31 @@ character_event = {
 			}
 		}
 		
-		hidden_tooltip = { death = { death_reason = death_natural } }	
+		hidden_tooltip = {
+			if = {
+				limit = { NOT = { age = 40 } }
+				random_list = {
+					40 = { death = { death_reason = death_natural }	}
+					60 = { }
+				}
+			}
+			
+			if = {
+				limit = { NOT = { age = 60 } }
+				random_list = {
+					75 = { death = { death_reason = death_natural }	}
+					25 = { }
+				}
+			}
+			
+			if = {
+				limit = { age = 60 }
+				random_list = {
+					90 = { death = { death_reason = death_natural }	}
+					10 = { }
+				}
+			}
+		}
 		custom_tooltip = { text = aging.1a }
 	}
 	
@@ -128,7 +152,7 @@ character_event = {
 			}
 		}
 		
-		hidden_tooltip = { death = { death_reason = death_natural } }	
+		hidden_tooltip = { if = { limit = { NOT = { age = 80 } }  death = { death_reason = death_natural } } }
 		custom_tooltip = { text = aging.1b }
 	}
 	
@@ -153,7 +177,7 @@ character_event = {
 			}
 		}
 		
-		hidden_tooltip = { death = { death_reason = death_natural } }	
+		hidden_tooltip = { if = { limit = { NOT = { age = 100 } }  death = { death_reason = death_natural } } }	
 		custom_tooltip = { text = aging.1c }
 	}
 	
@@ -176,7 +200,6 @@ character_event = {
 			trait = hsb_violet
 		}
 		
-		#hidden_tooltip = { death = { death_reason = death_natural } }	
 		custom_tooltip = { text = aging.1d }
 	}
 }
