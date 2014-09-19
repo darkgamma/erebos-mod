@@ -304,7 +304,7 @@ character_event = {
 			}
 			random_list = {
 				80 = { add_trait = ib_nshu_mut }
-				20 = { add_trait = ns_halfling }
+				20 = { add_trait = hs_halfling }
 			}
 		}
 		
