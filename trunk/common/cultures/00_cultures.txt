@@ -5,7 +5,7 @@ north_germanic = {
 	graphical_culture = westerngfx
 	
 	norse = {
-		graphical_culture = westerngfx
+		graphical_culture = norsegfx
 		
 		color = { 0.3 0.55 0.8 }
 		
@@ -49,7 +49,7 @@ north_germanic = {
 	}
 
 	swedish = {
-		graphical_culture = westerngfx
+		graphical_culture = norsegfx
 		
 		color = { 0.25 0.5 0.75 }
 		
@@ -119,7 +119,7 @@ Sum must not exceed 100.
 		modifier = default_culture_modifier
 	}
 	norwegian = {
-		graphical_culture = westerngfx
+		graphical_culture = norsegfx
 		
 		color = { 0.2 0.45 0.65 }
 		
@@ -168,7 +168,7 @@ Thordis_Thordis Åse_Åsa Åshild Åsta_Asta
 		modifier = default_culture_modifier
 	}
 	danish = {
-		graphical_culture = westerngfx
+		graphical_culture = norsegfx
 		
 		color = { 0.15 0.4 0.55 }
 		
@@ -633,7 +633,7 @@ Sum must not exceed 100.
 	}
 	
 	cont_saxon = {
-		graphical_culture = saxongfx
+		graphical_culture = norsegfx
 		
 		color = { 0.8 0.3 0.3 }
 		
@@ -717,7 +717,7 @@ Sum must not exceed 100.
 	}
 	
 	frisian = {
-		graphical_culture = saxongfx
+		graphical_culture = norsegfx
 		
 		color = { 0.7 0.3 0.2 }
 		
@@ -1869,7 +1869,7 @@ celtic = {
 	graphical_culture = westerngfx
 
 	cornish = {
-		graphical_culture = westerngfx
+		graphical_culture = celticgfx
 		
 		color = { 0.3 0.8 0.8 }
 		
@@ -1963,7 +1963,7 @@ Sum must not exceed 100.
 	}
 
 	irish = {
-		graphical_culture = westerngfx
+		graphical_culture = celticgfx
 		
 		color = { 0.3 0.8 0.8 }
 
@@ -2026,7 +2026,7 @@ Máel-Muire Mauda_Matilda
 		mother_name_chance = 10
 	}
 	pictish = {
-		graphical_culture = westerngfx
+		graphical_culture = celticgfx
 
 		color = { 0.3 1.0 0.8 }		
 
@@ -2064,7 +2064,7 @@ Niverturion Nictath Olfinecta
 		mother_name_chance = 10
 	}
 	scottish = {
-		graphical_culture = westerngfx
+		graphical_culture = celticgfx
 		
 		color = { 0.3 0.7 0.7 }
 
@@ -2122,7 +2122,7 @@ Morag_Mor Muriel_Muriel
 		mother_name_chance = 10
 	}
 	welsh = {
-		graphical_culture = westerngfx
+		graphical_culture = celticgfx
 		
 		color = { 0.3 0.8 0.6 }
 
@@ -2196,7 +2196,7 @@ Sum must not exceed 100.
 		mother_name_chance = 0
 	}
 	breton = {
-		graphical_culture = westerngfx
+		graphical_culture = celticgfx
 		
 		color = { 0.3 0.5 0.4 }
 		
@@ -3151,65 +3151,6 @@ Sum must not exceed 100.
 west_slavic = {
 	graphical_culture = easterngfx
 
-	pommeranian = {
-		graphical_culture = westernslavicgfx
-		
-		color = { 0.4 0.6 0.4 }
-
-		male_names = {
-			Aleksander_Alexander Andrzej_Andrew Antoni_Antoninus Aron Barnim Bartosz_Bartolomeus 
-
-Bedrich_Frederick Bezprzym Blazej_Blaise Bogislaw_Boguslaw Bohdan_Bogdan Bohumir Boleslaw_Boleslav Boriwoj_Borijov 
-
-Bozydar_Theodat Branimir Branislav
-			Bretislav_Bretislaus Casimir Ctibor_Ctibor Dobieslaw Dobromil Drosuk Dytryk_Thierry 
-
-Frantisek_Francis Gawel_Gallus Grzegorz_Gregory Havel_Gallus Jacenty_Hyacinth Jakub_Jacob Jakusz_Jacob Janusz_John 
-
-Jaromar_Jaromir
-			Jaromil Jaromir_Jaromir Jaroslav_Jaroslav Jedrzej_Andrew Jindrich_Henry Jirí_George 
-
-Jozef_Joseph Juliusz_Julian Kajetan Kamil_Camillus Karel_Charles Kasper Kazimierz Kliment_Clement Kolman_Koloman 
-
-Kornel_Cornelius Kresimir Krzeslaw
-			Krzysztof_Christopher Lech Leszek Lubomir Lucjan_Lucius Ludvik_Louis Marek_Marcus 
-
-Marian_Marius Martin_Martin Mateusz_Matthew Mieszko Mikolás_Nicholas Miloslaw Milosz_Milosz Miroslaw_Miroslav 
-
-Mscislaw_Mstislav Msciwoj
-			Oldrich_Ulrich Ondrej_Andrew Otokar Patryk_Patrick Pawel_Paul Piotr_Peter Prendota 
-
-Przemysl_Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard_Richard Sambor Sobieslav_Sobeslaus 
-
-Stanislaw_Stanislav
-			Strasz Swietopelk_Svatopluk Swietoslaw_Sviatoslav Szczepan_Stephen Szczesny Szymon 
-
-Tadeusz_Theodore Tomasz_Thomas Udalrich Urjasz Vojtech_Albert Waclaw_Vaclav Walenty_Valentin Wratislaw_Vratislav 
-
-Wawrzyniec_Laurence Wenceslaw_Vaclav
-			Wincenty_Vincent Wizlaw Wladyslaw_Vladislav Wlodek Wlodzimierz Wlodzislaw_Vladislav 
-
-Wratislaw Zbigniew_Zbynek Zdenek Zdislav Zygmunt_Sigmund
-		}
-		female_names = {
-			Agnieszka_Agnes Alzbeta Andela Anna_Anna Berta Bohuslava Bozena Branislava Dagmar 
-
-Danuta Dobravy Dobroniega Dorota_Dorothy Dragomira Edyta Ewa Geira Gertruda_Gertrude
-			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta_Judith Kamila 
-
-Katarina_Catherine Kenna Kornelia Krystyna_Christina Ksenia Lidia
-			Ludmila Magda_Magdalena Magdalena_Magdalena Malgorzata Marcelina Maria_Maria Markéta 
-
-Martyna Mateja Matylda_Matilda Milena Miroslava Pechna Róza Radomila Radomira Radoslava
-			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana_Stephania Svetlana Urszula 
-
-Václava Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
-		}
-		
-		from_dynasty_prefix = "of "
-
-		modifier = default_culture_modifier
-	}
 	bohemian = {
 		graphical_culture = westernslavicgfx
 		
@@ -4913,7 +4854,7 @@ tocharian_group = {
 			Vukimtga Vukto Vumaiya Vurdiya Vuru Vusmaika Vutsava Vyarivala Winannai Wrauskai Yagpu YanaSrimitra Yapgu Yasala Yaihu-La Yain Yilaga Yili Yipikga 
 			Yipiya Yirumdina Yitaka Yogasaina Yongai Yonu Ypai Yudishthira Zagimoya
 		}
-        faimalai_namais = {
+        female_names = {
             Apisaai Argiyotgisay Atamsiyaai Cakuvay Camasriaai Camavati Camoaai Camtamnoaai Camtroaai Catisaai Catroaai Cimikaai Cinasyaniyaai Cinga Cukapaai 
 			Damasriaai Dirsataiyaai Kakaka Kakiyaai Kamkgoaai Koloaai Konuma Konumaai Koparsaniaai Kosainaai Kosainaya Kuti Laroaai Lyimisoaai Lyipay Mumtritsaai 
 			Namilgay Namisyanaai Namsanaai Paluvisaai Pgisa Priyaniaai Pumfiavatiyaai Pumnalazay Ramasri Ramasriaai Ramatiaai Ramomtiaai Ramotiyaai Saganapay 
