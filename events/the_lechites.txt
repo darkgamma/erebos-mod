@@ -884,7 +884,7 @@ character_event = {
 	}
 	
 	option = {
-	    title = OK
+	    name = OK
 		
 		if = { 
 		    limit = {

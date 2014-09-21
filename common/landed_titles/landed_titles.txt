@@ -13525,135 +13525,7 @@ e_byzantine = {
 		capital = 366 # Stettin
 		
 		allow = {
-		    OR = {
-			    AND = {
-				    OR = {
-				        primary_title = { title = d_lech_polania }
-					    primary_title = { title = d_lech_vistulania }
-						primary_title = { title = d_lech_mazovia }
-						primary_title = { title = d_lech_prussia }
-						primary_title = { title = d_lech_silesia }
-						primary_title = { title = d_lech_kashubia }
-						primary_title = { title = d_lech_pomerania }
-						primary_title = { title = d_lech_sorbia }
-						primary_title = { title = d_lech_rania }
-						primary_title = { title = d_lech_obodritia }
-					}
-					culture = lechitic
-				}
-				has_global_flag = the_lechites
-			}
-		}
-		
-		gain_effect = {
-		    set_global_flag = the_lechites
-		    if = { 
-			    limit = {
-				    NOT = {
-					    has_global_flag = the_lechites
-					}
-				}
-	    		if = { 
-		    	    limit = {
-                        has_character_flag = polish_ruler
-				    }
-    			    k_lechitic = {
-	    		        set_name = "Polania"
-		    		    adjective = "Polish"
-			        }
-				    set_global_flag = polania
-			    }
-    			if = { 
-	    		    limit = {
-                        has_character_flag = vistulan_ruler
-			    	}
-		    	    k_lechitic = {
-			            set_name = "Vistulania"
-				        adjective = "Vistulan"
-			        }
-				    set_global_flag = vistulania
-			    }
-			    if = { 
-			        limit = {
-                        has_character_flag = mazovian_ruler
-				    }
-			        k_lechitic = {
-			            set_name = "Mazovia"
-				        adjective = "Mazovian"
-			        }
-				    set_global_flag = mazovia
-			    }
-			    if = { 
-			        limit = {
-                        has_character_flag = prussian_ruler
-				    }
-			        k_lechitic = {
-			            set_name = "Prussia"
-				        adjective = "Prussian"
-			        }
-				    set_global_flag = prussia
-			    }
-			    if = { 
-			        limit = {
-                        has_character_flag = silesian_ruler
-				    }
-			        k_lechitic = {
-			            set_name = "Silesia"
-				        adjective = "Silesian"
-			        }
-				    set_global_flag = silesia
-			    }
-			    if = { 
-			        limit = {
-                        has_character_flag = kashubian_ruler
-				    }
-			        k_lechitic = {
-			            set_name = "Kashubia"
-				        adjective = "Kashubian"
-			        }
-				    set_global_flag = silesia
-			    }
-			    if = { 
-			        limit = {
-                        has_character_flag = pomeranian_ruler
-				    }
-			        k_lechitic = {
-			            set_name = "Pomerania"
-				        adjective = "Pomeranian"
-			        }
-				    set_global_flag = pomerania
-			    }
-			    if = { 
-			        limit = {
-                        has_character_flag = sorbian_ruler
-				    }
-			        k_lechitic = {
-			            set_name = "Sorbia"
-				        adjective = "Sorbian"
-			        }
-				    set_global_flag = sorbia
-			    }
-		 	    if = { 
-			        limit = {
-                        has_character_flag = rane_ruler
-				    }
-			        k_lechitic = {
-			            set_name = "Rania"
-				        adjective = "Rane"
-			        }
-				    set_global_flag = rania
-			    }
-			    if = { 
-			        limit = {
-                        has_character_flag = obodrite_ruler
-				    }
-			        k_lechitic = {
-			            set_name = "Obodritia"
-				        adjective = "Obodrite"
-			        }
-				    set_global_flag = obodritia
-			    }
-			}
+			has_global_flag = the_lechites
 		}
 		
 		d_mazovia = {
@@ -13760,6 +13632,12 @@ e_byzantine = {
 			
 			capital = 370 # Marienburg
 			
+			allow = {
+			    NOT = {
+				    culture = lechitic
+				}
+			}
+			
 			c_marienburg = {
 				color={ 185 90 90 }
 				color2={ 255 255 255 }
@@ -13834,6 +13712,12 @@ e_byzantine = {
 			
 			capital = 368 # Danzig
 			
+			allow = {
+			    NOT = {
+				    culture = lechitic
+				}
+			}
+			
 			c_gnieznienskie = {
 				color={ 125 6 2 }
 				color2={ 255 255 255 }
@@ -13904,6 +13788,12 @@ e_byzantine = {
 			color2={ 255 255 255 }
 			
 			capital = 527 # Krakowskie
+			
+			allow = {
+			    NOT = {
+				    culture = lechitic
+				}
+			}
 
 			c_krakowskie = {
 				color={ 137 6 20 }
@@ -14017,6 +13907,12 @@ e_byzantine = {
 			color2={ 255 255 255 }
 			
 			capital = 260 # Mecklenburg
+			
+			allow = {
+			    NOT = {
+				    culture = lechitic
+				}
+			}
 			
 			c_wolgast = {
 				color={ 121 163 58 }
@@ -14134,6 +14030,12 @@ e_byzantine = {
 			color2={ 255 255 255 }
 			
 			capital = 434 # Lower Silesia
+			
+			allow = {
+			    NOT = {
+				    culture = lechitic
+				}
+			}
 			
 			c_lubusz = {
 				color={ 135 30 30 }
@@ -27481,6 +27383,8 @@ d_lech_vistulania = {
 	}
 	
 	dignity = 200 # For securing Lechitic mechanic functionality
+	
+	c_vistulania = {}
 }
 
 d_the_poles = {
@@ -27505,6 +27409,8 @@ d_lech_polania = {
 	}
 	
 	dignity = 200 # For securing Lechitic mechanic functionality
+	
+	c_polania = {}
 }
 
 d_the_ranes = {
@@ -27529,6 +27435,8 @@ d_lech_rania = {
 	}
 	
 	dignity = 200 # For securing Lechitic mechanic functionality
+	
+	c_rania = {}
 }
 
 d_the_silesians = {
@@ -27553,6 +27461,8 @@ d_lech_silesia = {
 	}
 	
 	dignity = 200 # For securing Lechitic mechanic functionality
+	
+	c_silesia = {}
 }
 
 d_the_pomeranians = {
@@ -27577,6 +27487,8 @@ d_lech_pomerania = {
 	}
 	
 	dignity = 200 # For securing Lechitic mechanic functionality
+	
+	c_pomerania = {}
 }
 
 d_the_obodrites = {
@@ -27601,6 +27513,8 @@ d_lech_obodritia = {
 	}
 	
 	dignity = 200 # For securing Lechitic mechanic functionality
+	
+	c_obodritia = {}
 }
 
 d_the_prussians = {
@@ -27625,6 +27539,8 @@ d_lech_prussia = {
 	}
 	
 	dignity = 200 # For securing Lechitic mechanic functionality
+	
+    c_prussia = {}
 }
 
 d_the_kashubians = {
@@ -27651,6 +27567,8 @@ d_lech_kashubia = {
 	}
 	
 	dignity = 200 # For securing Lechitic mechanic functionality
+	
+	c_kashubia = {}
 }
 
 d_the_sorbs = {
@@ -27675,6 +27593,8 @@ d_lech_sorbia = {
 	}
 	
 	dignity = 200 # For securing Lechitic mechanic functionality
+	
+	c_sorbia = {}
 }
 
 d_the_mazovians = {
@@ -27699,6 +27619,8 @@ d_lech_mazovia = {
 	}
 	
 	dignity = 200 # For securing Lechitic mechanic functionality
+	
+	c_mazovia = {}
 }
 
 d_the_aukstaitians = {
