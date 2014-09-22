@@ -8,7 +8,7 @@
 
 ######################################
 ##									##
-##			Version: 1.1a			##
+##			Version: 2.0a			##
 ##									##
 ######################################
 
@@ -22,184 +22,336 @@ namespace = AGING
 
 character_event = {
 	id = AGING.1
-	desc = AGING.1.desc # Dead yay
-	
-	mean_time_to_happen = {
-		years = 660
-
-		### Blood Colour Modifiers
-		
-		modifier = {
-			factor = 250
-			trait = hsb_violet
-		}
-		
-		modifier = {
-			factor = 0
-			
-			OR = {
-				trait = hsb_halfling
-				trait = hsb_primord
-			}
-		}
-		
-		modifier = {
-			factor = 0.775
-			trait = hsb_blue
-		}
-
-		modifier = {
-			factor = 0.475
-			trait = hsb_teal
-		}
-		
-		modifier = {
-			factor = 0.38
-			trait = hsb_jade
-		}
-		
-		modifier = {
-			factor = 0.295
-			trait = hsb_lime
-		}
-		
-		modifier = {
-			factor = 0.175
-			trait = hsb_yellow
-		}
-		
-		modifier = {
-			factor = 0.125
-			trait = hsb_bronze
-		}
-		
-		modifier = {
-			factor = 0.105
-			trait = hsb_red
-		}
-	}
+	desc = AGING.1.desc
 	
 	picture = GFX_evt_aquarius
 	border = GFX_event_normal_frame_religion
 	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			trait = hs_nspawn
+			trait = hs_halfling
+			trait = hs_primord
+			has_character_flag = aging.1.flag
+		}
+		
+		OR = {
+			AND = {
+				female = no
+				age = 55
+			}
+			AND = {
+				female = yes
+				age = 50
+			}
+		}
+	}
+	
 	option = {
 		name = OPTA.AGING.1
+		trigger = { trait = hsb_red }
 		
-		trigger = {
-		
-			NOT = {
-				trait = hsb_lime
-				trait = hsb_jade
-				trait = hsb_teal
-				trait = hsb_blue
-				trait = hsb_indigo
-				trait = hsb_violet
-			}
-			
-			OR = {
-				trait = hsb_red
-				trait = hsb_bronze
-				trait = hsb_yellow
-			}
-		}
-		
-		hidden_tooltip = {
-			if = {
-				limit = { NOT = { age = 40 } }
-				random_list = {
-					40 = { death = { death_reason = death_natural }	}
-					60 = { }
-				}
-			}
-			
-			if = {
-				limit = { NOT = { age = 60 } }
-				random_list = {
-					75 = { death = { death_reason = death_natural }	}
-					25 = { }
-				}
-			}
-			
-			if = {
-				limit = { age = 60 }
-				random_list = {
-					90 = { death = { death_reason = death_natural }	}
-					10 = { }
-				}
-			}
-		}
-		custom_tooltip = { text = aging.1a }
+		custom_tooltip = { text = aging.red }
+		set_character_flag = aging.1.flag
 	}
 	
 	option = {
 		name = OPTB.AGING.1
+		trigger = { trait = hsb_bronze }
 		
-		trigger = {
-		
-			NOT = {
-				trait = hsb_red
-				trait = hsb_bronze
-				trait = hsb_yellow
-				trait = hsb_blue
-				trait = hsb_indigo
-				trait = hsb_violet
-			}
-			
-			OR = {
-				trait = hsb_lime
-				trait = hsb_jade
-				trait = hsb_teal
-			}
-		}
-		
-		hidden_tooltip = { if = { limit = { NOT = { age = 80 } }  death = { death_reason = death_natural } } }
-		custom_tooltip = { text = aging.1b }
+		hidden_tooltip = { health = 3 }
+		custom_tooltip = { text = aging.bronze }
+		set_character_flag = aging.1.flag
 	}
 	
 	option = {
 		name = OPTC.AGING.1
+		trigger = { trait = hsb_yellow }
 		
-		trigger = {
-		
-			NOT = {
-				trait = hsb_lime
-				trait = hsb_jade
-				trait = hsb_teal
-				trait = hsb_red
-				trait = hsb_bronze
-				trait = hsb_yellow
-				trait = hsb_violet
-			}
-			
-			OR = {
-				trait = hsb_blue
-				trait = hsb_indigo
-			}
+		hidden_tooltip = {
+			remove_trait = hsb_yellow
+			add_trait = hsb_yellow2
 		}
 		
-		hidden_tooltip = { if = { limit = { NOT = { age = 100 } }  death = { death_reason = death_natural } } }	
-		custom_tooltip = { text = aging.1c }
+		custom_tooltip = { text = aging.yellow }
+		set_character_flag = aging.1.flag
 	}
 	
 	option = {
 		name = OPTD.AGING.1
+		trigger = { trait = hsb_lime }
 		
-		trigger = {
-		
-			NOT = {
-				trait = hsb_lime
-				trait = hsb_jade
-				trait = hsb_teal
-				trait = hsb_red
-				trait = hsb_bronze
-				trait = hsb_yellow
-				trait = hsb_blue
-				trait = hsb_indigo
-			}
-			
-			trait = hsb_violet
+		hidden_tooltip = {
+			remove_trait = hsb_lime
+			add_trait = hsb_lime2
 		}
 		
-		custom_tooltip = { text = aging.1d }
+		custom_tooltip = { text = aging.lime }
+		set_character_flag = aging.1.flag
+	}
+	
+	option = {
+		name = OPTE.AGING.1
+		trigger = { trait = hsb_jade }
+		
+		hidden_tooltip = {
+			remove_trait = hsb_jade
+			add_trait = hsb_jade2
+		}
+		
+		custom_tooltip = { text = aging.jade }
+		set_character_flag = aging.1.flag
+	}
+	
+	option = {
+		name = OPTF.AGING.1
+		trigger = { trait = hsb_teal }
+		
+		hidden_tooltip = {
+			remove_trait = hsb_teal
+			add_trait = hsb_teal2
+		}
+		
+		custom_tooltip = { text = aging.teal }
+		set_character_flag = aging.1.flag
+	}
+	
+	option = {
+		name = OPTG.AGING.1
+		trigger = { trait = hsb_blue }
+		
+		hidden_tooltip = {
+			remove_trait = hsb_blue
+			add_trait = hsb_blue2
+		}
+		
+		custom_tooltip = { text = aging.blue }
+		set_character_flag = aging.1.flag
+	}
+	
+	option = {
+		name = OPTH.AGING.1
+		trigger = { trait = hsb_indigo }
+		
+		hidden_tooltip = {
+			remove_trait = hsb_indigo
+			add_trait = hsb_indigo2
+		}
+		
+		custom_tooltip = { text = aging.indigo }
+		set_character_flag = aging.1.flag
+	}
+	
+	option = {
+		name = OPTI.AGING.1
+		trigger = { trait = hsb_violet }
+		
+		custom_tooltip = { text = aging.violet }
+		set_character_flag = aging.1.flag
+	}
+}
+
+character_event = {
+	id = AGING.3
+	desc = AGING.3.desc
+	
+	picture = GFX_evt_aquarius
+	border = GFX_event_normal_frame_religion
+	
+	mean_time_to_happen = {
+		years = 20 ### NOT FUCKING DONE YET
+	}
+	
+	trigger = {
+		NOT = {
+			trait = hs_nspawn
+			trait = hs_halfling
+			trait = hs_primord
+			trait = hsb_red
+			trait = hsb_bronze
+		}
+		
+		OR = {
+			AND = {
+				OR = { 
+					trait = hsb_yellow
+					trait = hsb_yellow2
+				}
+				age = 85
+			}
+			AND = {
+				OR = { 
+					trait = hsb_lime
+					trait = hsb_lime2
+				}
+				age = 100
+			}
+			AND = {
+				OR = { 
+					trait = hsb_jade
+					trait = hsb_jade2
+				}
+				age = 140
+			}
+			AND = {
+				OR = { 
+					trait = hsb_teal
+					trait = hsb_teal2
+				}
+				age = 200
+			}
+			AND = {
+				OR = { 
+					trait = hsb_blue
+					trait = hsb_blue2
+				}
+				age = 270
+			}
+			AND = {
+				OR = { 
+					trait = hsb_indigo
+					trait = hsb_indigo2
+				}
+				age = 360
+			}
+		}
+	}
+	
+	option = {
+		name = OPTA.AGING.2
+		trigger = { OR = { trait = hsb_yellow trait = hsb_yellow2 } }
+		
+		hidden_tooltip = { death = { death_reason = death_natural } }
+		custom_tooltip = { text = a.aging.2 }
+	}
+	
+	option = {
+		name = OPTB.AGING.2
+		trigger = { OR = { trait = hsb_lime trait = hsb_lime2 } }
+		
+		hidden_tooltip = { death = { death_reason = death_natural } }
+		custom_tooltip = { text = b.aging.2 }
+	}
+	
+	option = {
+		name = OPTC.AGING.2
+		trigger = { OR = { trait = hsb_jade trait = hsb_jade2 } }
+		
+		hidden_tooltip = { death = { death_reason = death_natural } }
+		custom_tooltip = { text = c.aging.2 }
+	}
+	
+	option = {
+		name = OPTD.AGING.2
+		trigger = { OR = { trait = hsb_teal trait = hsb_teal2 } }
+		
+		hidden_tooltip = { death = { death_reason = death_natural } }
+		custom_tooltip = { text = d.aging.2 }
+	}
+	
+	option = {
+		name = OPTE.AGING.2
+		trigger = { OR = { trait = hsb_blue trait = hsb_blue2 } }
+		
+		hidden_tooltip = { death = { death_reason = death_natural } }
+		custom_tooltip = { text = e.aging.2 }
+	}
+	
+	option = {
+		name = OPTF.AGING.2
+		trigger = { OR = { trait = hsb_indigo trait = hsb_indigo2 } }
+		
+		hidden_tooltip = { death = { death_reason = death_natural } }
+		custom_tooltip = { text = f.aging.2 }
+	}
+
+}
+
+character_event = {
+	id = AGING.3
+	desc = AGING.3.desc
+	
+	picture = GFX_evt_aquarius
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		female = yes
+		NOT = { has_character_flag = aging.3.flag }
+		
+		OR = {
+			AND = {
+				age = 45
+				trait = hsb_red
+			}
+			
+			AND = {
+				age = 60
+				trait = hsb_bronze
+			}
+			
+			AND = {
+				age = 80
+				OR = {
+					trait = hsb_yellow
+					trait = hsb_yellow2
+				}
+			}
+			
+			AND = {
+				age = 105
+				OR = {
+					trait = hsb_lime
+					trait = hsb_lime2
+				}
+			}
+			
+			AND = {
+				age = 140
+				OR = {
+					trait = hsb_jade
+					trait = hsb_jade2
+				}
+			}
+			
+			AND = {
+				age = 190
+				OR = {
+					trait = hsb_teal
+					trait = hsb_teal2
+				}
+			}
+			
+			AND = {
+				age = 250
+				OR = {
+					trait = hsb_blue
+					trait = hsb_blue2
+				}
+			}
+			
+			AND = {
+				age = 340
+				OR = {
+					trait = hsb_indigo
+					trait = hsb_indigo2
+				}
+			}
+			
+			AND = {
+				age = 540
+				trait = hsb_violet
+			}
+		}
+	}
+	
+	option = {
+		name = OPTA.AGING.3
+		
+		hidden_tooltip = { fertility = -280 }
+		custom_tooltip = { text = aging.3 }
 	}
 }
