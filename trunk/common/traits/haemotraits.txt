@@ -12,18 +12,18 @@
 #########################################
 
 ## Note: Blood colour is inherited with birth events, inheritance isn't defined here
-## Blood traits should be automatically assigned to every character by on_action events.
+## Blood traits should be automatically assigned to every character by other events.
 ## Warning: I suggest that you don't remove any of the blood traits as they're vital to the mod and might cause crashes or severely reduced playability.
 ## I sincerely hope you don't tamper with the potential tags as that might cause random magic and evil beings popping up where they don't belong at all.
 
 ####################
 #### 	NOTE 	####
-
-## All of these traits are open for use in the Ruler Designer. There are no limitations against them in the Ruler Designer, except that you can use only one.
-## Halfling, Nightspawn and Primodial traits are locked out of the Ruler Designer. You can't use them in designed characters, and it is extremely rare to actually get to play one of these.
-## The best "Red+Coloured" pairing is "Red Father + Violet Mother".
-
-####	 NOTE 	####
+####
+#### All of these traits are open for use in the Ruler Designer. There are no limitations against them in the Ruler Designer, except that you can use only one.
+#### Halfling, Nightspawn and Primordial traits are locked out of the Ruler Designer. You can't use them in designed characters, and it is extremely rare to actually get to play one of these.
+#### The best "Red+Coloured" pairing is "Red Father + Violet Mother".
+####
+####    NOTE 	####
 ####################
 
 
@@ -42,13 +42,19 @@ hsb_red = {
 	
 	opposite_opinion = -20
 	opposites = {
+		hsb_indigo
+		hsb_indigo2
 		hsb_bronze
 		hsb_yellow
+		hsb_yellow2
 		hsb_lime
-		hsb_jade 
+		hsb_lime2
+		hsb_jade
+		hsb_jade2
 		hsb_teal
+		hsb_teal2
 		hsb_blue
-		hsb_indigo
+		hsb_blue2
 		hsb_violet
 	}
 }
@@ -64,12 +70,18 @@ hsb_bronze = {
 	opposite_opinion = -20
 	opposites = {
 		hsb_red
-		hsb_yellow
-		hsb_lime
-		hsb_jade 
-		hsb_teal
-		hsb_blue
 		hsb_indigo
+		hsb_indigo2
+		hsb_yellow
+		hsb_yellow2
+		hsb_lime
+		hsb_lime2
+		hsb_jade
+		hsb_jade2
+		hsb_teal
+		hsb_teal2
+		hsb_blue
+		hsb_blue2
 		hsb_violet
 	}
 }
@@ -86,11 +98,43 @@ hsb_yellow = {
 	opposites = {
 		hsb_red
 		hsb_bronze
-		hsb_lime
-		hsb_jade 
-		hsb_teal
-		hsb_blue
 		hsb_indigo
+		hsb_indigo2
+		hsb_lime
+		hsb_lime2
+		hsb_jade
+		hsb_jade2
+		hsb_teal
+		hsb_teal2
+		hsb_blue
+		hsb_blue2
+		hsb_violet
+	}
+}
+
+hsb_yellow2 = {
+
+	potential = {
+		# always = no
+	}
+	
+	immortal = yes
+	
+	same_opinion = 10
+	opposite_opinion = -20
+	opposites = {
+		hsb_red
+		hsb_bronze
+		hsb_indigo
+		hsb_indigo2
+		hsb_lime
+		hsb_lime2
+		hsb_jade
+		hsb_jade2
+		hsb_teal
+		hsb_teal2
+		hsb_blue
+		hsb_blue2
 		hsb_violet
 	}
 }
@@ -108,10 +152,42 @@ hsb_lime = {
 		hsb_red
 		hsb_bronze
 		hsb_yellow
-		hsb_jade 
-		hsb_teal
-		hsb_blue
+		hsb_yellow2
 		hsb_indigo
+		hsb_indigo2
+		hsb_jade
+		hsb_jade2
+		hsb_teal
+		hsb_teal2
+		hsb_blue
+		hsb_blue2
+		hsb_violet
+	}
+}
+
+hsb_lime2 = {
+
+	potential = {
+		# always = no
+	}
+	
+	immortal = yes
+	
+	same_opinion = 10
+	opposite_opinion = -20
+	opposites = {
+		hsb_red
+		hsb_bronze
+		hsb_yellow
+		hsb_yellow2
+		hsb_indigo
+		hsb_indigo2
+		hsb_jade
+		hsb_jade2
+		hsb_teal
+		hsb_teal2
+		hsb_blue
+		hsb_blue2
 		hsb_violet
 	}
 }
@@ -129,10 +205,42 @@ hsb_jade = {
 		hsb_red
 		hsb_bronze
 		hsb_yellow
+		hsb_yellow2
 		hsb_lime
-		hsb_teal
-		hsb_blue
+		hsb_lime2
 		hsb_indigo
+		hsb_indigo2
+		hsb_teal
+		hsb_teal2
+		hsb_blue
+		hsb_blue2
+		hsb_violet
+	}
+}
+
+hsb_jade2 = {
+
+	potential = {
+		# always = no
+	}
+	
+	immortal = yes
+	
+	same_opinion = 15
+	opposite_opinion = -20
+	opposites = {
+		hsb_red
+		hsb_bronze
+		hsb_yellow
+		hsb_yellow2
+		hsb_lime
+		hsb_lime2
+		hsb_indigo
+		hsb_indigo2
+		hsb_teal
+		hsb_teal2
+		hsb_blue
+		hsb_blue2
 		hsb_violet
 	}
 }
@@ -150,10 +258,42 @@ hsb_teal = {
 		hsb_red
 		hsb_bronze
 		hsb_yellow
+		hsb_yellow2
 		hsb_lime
+		hsb_lime2
 		hsb_jade
-		hsb_blue
+		hsb_jade2
 		hsb_indigo
+		hsb_indigo2
+		hsb_blue
+		hsb_blue2
+		hsb_violet
+	}
+}
+
+hsb_teal2 = {
+
+	potential = {
+		# always = no
+	}
+	
+	immortal = yes
+	
+	same_opinion = 15
+	opposite_opinion = -20
+	opposites = {
+		hsb_red
+		hsb_bronze
+		hsb_yellow
+		hsb_yellow2
+		hsb_lime
+		hsb_lime2
+		hsb_jade
+		hsb_jade2
+		hsb_indigo
+		hsb_indigo2
+		hsb_blue
+		hsb_blue2
 		hsb_violet
 	}
 }
@@ -171,10 +311,42 @@ hsb_blue = {
 		hsb_red
 		hsb_bronze
 		hsb_yellow
+		hsb_yellow2
 		hsb_lime
+		hsb_lime2
 		hsb_jade
+		hsb_jade2
 		hsb_teal
+		hsb_teal2
 		hsb_indigo
+		hsb_indigo2
+		hsb_violet
+	}
+}
+
+hsb_blue2 = {
+
+	potential = {
+		# always = no
+	}
+	
+	immortal = yes
+	
+	same_opinion = 20
+	opposite_opinion = -20
+	opposites = {
+		hsb_red
+		hsb_bronze
+		hsb_yellow
+		hsb_yellow2
+		hsb_lime
+		hsb_lime2
+		hsb_jade
+		hsb_jade2
+		hsb_teal
+		hsb_teal2
+		hsb_indigo
+		hsb_indigo2
 		hsb_violet
 	}
 }
@@ -192,10 +364,43 @@ hsb_indigo = {
 		hsb_red
 		hsb_bronze
 		hsb_yellow
+		hsb_yellow2
 		hsb_lime
+		hsb_lime2
 		hsb_jade
+		hsb_jade2
 		hsb_teal
+		hsb_teal2
 		hsb_blue
+		hsb_blue2
+		hsb_violet
+	}
+}
+
+#Indigo Blood - Very Concentrated (+7)
+hsb_indigo2 = {
+
+	potential = {
+		# always = no
+	}
+	
+	immortal = yes
+	
+	same_opinion = 25
+	opposite_opinion = -20
+	opposites = {
+		hsb_red
+		hsb_bronze
+		hsb_yellow
+		hsb_yellow2
+		hsb_lime
+		hsb_lime2
+		hsb_jade
+		hsb_jade2
+		hsb_teal
+		hsb_teal2
+		hsb_blue
+		hsb_blue2
 		hsb_violet
 	}
 }
@@ -209,15 +414,23 @@ hsb_violet = {
 	
 	same_opinion = 25
 	opposite_opinion = -20
+	immortal = yes
+	
 	opposites = {
 		hsb_red
 		hsb_bronze
 		hsb_yellow
+		hsb_yellow2
 		hsb_lime
+		hsb_lime2
 		hsb_jade
+		hsb_jade2
 		hsb_teal
+		hsb_teal2
 		hsb_blue
+		hsb_blue2
 		hsb_indigo
+		hsb_indigo2
 	}
 }
 
@@ -246,7 +459,7 @@ hs_halfling = {
 	
 	opposites = {
 		hs_nspawn
-		hs_primod
+		hs_primord
 	}
 }
 
@@ -267,7 +480,7 @@ hs_nspawn = {
 	zoroastrian_opinion = -100
 	opposites = {
 		hs_halfling
-		hs_primod
+		hs_primord
 	}
 }
 

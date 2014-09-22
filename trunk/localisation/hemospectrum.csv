@@ -11,6 +11,21 @@ hs_halfling;Halfling;;;;;;;;;;;;;x
 hs_nspawn;Nightspawn;;;;;;;;;;;;;x
 hs_primord;Primordial;;;;;;;;;;;;;x
 
+hsb_yellow2;Yellow Blood;;;;;;;;;;;;;x
+hsb_lime2;Lime Blood;;;;;;;;;;;;;x
+hsb_jade2;Jade Blood;;;;;;;;;;;;;x
+hsb_teal2;Teal Blood;;;;;;;;;;;;;x
+hsb_blue2;Blue Blood;;;;;;;;;;;;;x
+hsb_indigo2;Indigo Blood;;;;;;;;;;;;;x
+
+hsb_bronze2_desc;This character has bronze blood, indicative of an extremely faint demonic taint. Bronzebloods are extremely bad with magic, although they have some residual ability permitting them to dabble in the most basic of arcane arts. Bronzebloods also tend to be stronger than average humans.;;;;;;;;;;;;;x
+hsb_yellow2_desc;This character has yellow-tinted blood. Yellowbloods have a little demonic blood in their veins, giving them the ability to practice some elementary magic. Yellowbloods are more susceptible to falling victims to their own arbitrary whims and urges.;;;;;;;;;;;;;x
+hsb_lime2_desc;This character has lime-coloured blood, indicative of their modest demonic lineage. Limebloods are magically inert - neither can they practice magic, nor can their blood be used as a reagent in spells - but make up for this with their innate charisma and longevity.;;;;;;;;;;;;;x
+hsb_jade2_desc;This character has jade blood. Jadebloods are cold and calculating, somewhat distanced from their emotions, but also have a strong urge of self-preservation that may be confused by others for cowardice.;;;;;;;;;;;;;x
+hsb_teal2_desc;This character has teal blood, indicative of their demonic origin. Tealbloods often lead passionate lives, immersing themselves fully in their emotions, be they anger or love. Tealbloods may live for centuries, but their thirst for adventure leaves them at risk.;;;;;;;;;;;;;x
+hsb_blue2_desc;This character has blue blood. Due to their significant demonic lineage, bluebloods are potent practitioners of magic, but they are also prone to fits of anger and rage that do not discriminate between friend and foe.;;;;;;;;;;;;;x
+hsb_indigo2_desc;This character has indigo-tinted blood. Indigo-bloods have a natural tendency to violence and paranoia - they can be very untrusting and caustic to their relationships as they usually look only after themselves.;;;;;;;;;;;;;x
+
 hsb_red_desc;This character has the most mundane of blood colours. Redbloods have little to no demonic lineage and are unable to use any form of magic, although their blood is the most potent of all magical reagents. Redbloods have no special powers, but also lack the more specific weaknesses that tend to come with higher hues.;;;;;;;;;;;;;x
 hsb_bronze_desc;This character has bronze blood, indicative of an extremely faint demonic taint. Bronzebloods are extremely bad with magic, although they have some residual ability permitting them to dabble in the most basic of arcane arts. Bronzebloods also tend to be stronger than average humans.;;;;;;;;;;;;;x
 hsb_yellow_desc;This character has yellow-tinted blood. Yellowbloods have a little demonic blood in their veins, giving them the ability to practice some elementary magic. Yellowbloods are more susceptible to falling victims to their own arbitrary whims and urges.;;;;;;;;;;;;;x

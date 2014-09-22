@@ -1126,6 +1126,48 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
+		name = "GFX_trait_hsb_yellow2"
+		texturefile = "gfx\hemospectrum\hsb_yellow.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_hsb_lime2"
+		texturefile = "gfx\hemospectrum\hsb_lime.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_hsb_jade2"
+		texturefile = "gfx\hemospectrum\hsb_jade.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_hsb_teal2"
+		texturefile = "gfx\hemospectrum\hsb_teal.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_hsb_blue2"
+		texturefile = "gfx\hemospectrum\hsb_blue.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_hsb_indigo2"
+		texturefile = "gfx\hemospectrum\hsb_indigo.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
 		name = "GFX_trait_hsb_violet"
 		texturefile = "gfx\hemospectrum\hsb_violet.dds"
 		noOfFrames = 1

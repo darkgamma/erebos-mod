@@ -1,9 +1,10 @@
 #character
 on_yearly_pulse = {
 
-#	events = {
-#		HSA.1
-#	}
+	events = {
+		AGING.1
+		AGING.3
+	}
 
 	random_events = {
 		
