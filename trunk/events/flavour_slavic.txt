@@ -10,25 +10,14 @@ character_event = { # Activation event
 	    OR = {
 		    religion = slavic_pagan
 			religion = slavic_pagan_reformed
+			culture_group = south_slavic
+			culture_group = west_slavic
+			culture_group = east_slavic
 		}
 		OR = {
 		    AND = {
 		        month = 5
 		        NOT = { month = 7 }
-				OR = {
-				    culture = russian
-					culture = polish
-					#culture = lechitic
-					#culture = vistulan
-					#culture = mazovian
-					#culture = prussian
-					#culture = silesian
-					#culture = kashubian
-					#culture = pomeranian
-					#culture = sorbian
-					#culture = rane
-					#culture = obodrite
-				}
 			}
 			AND = {
                 OR = {			
@@ -57,16 +46,16 @@ character_event = { # Activation event
 				OR = {
 				    culture = russian
 					culture = polish
-					#culture = lechitic
-					#culture = vistulan
-					#culture = mazovian
-					#culture = prussian
-					#culture = silesian
-					#culture = kashubian
-					#culture = pomeranian
-					#culture = sorbian
-					#culture = rane
-					#culture = obodrite
+					culture = lechitic
+					culture = vistulan
+					culture = mazovian
+					culture = prussian
+					culture = silesian
+					culture = kashubian
+					culture = pomeranian
+					culture = sorbian
+					culture = rane
+					culture = obodrite
 				}
 				NOT = { has_character_modifier = had_kupala }
 				NOT = { age = 50 }
@@ -129,6 +118,8 @@ character_event = { # The First Haircut
 		age = 16
 		any_child = {
      		age = 7
+			NOT = { age = 8 }
+			is_alive = yes
 			is_female = no
 			is_child_of = FROM
 		    NOT = { has_character_flag = first_haircut }
