@@ -1,0 +1,425 @@
+namespace = PSL
+
+character_event = { # Activation event
+	id = PSL.0
+	only_playable = yes
+	hide_window = yes
+	
+	trigger = {
+	    age = 16
+	    OR = {
+		    religion = slavic_pagan
+			religion = slavic_pagan_reformed
+		}
+		OR = {
+		    AND = {
+		        month = 5
+		        NOT = { month = 7 }
+				OR = {
+				    culture = russian
+					culture = polish
+					#culture = lechitic
+					#culture = vistulan
+					#culture = mazovian
+					#culture = prussian
+					#culture = silesian
+					#culture = kashubian
+					#culture = pomeranian
+					#culture = sorbian
+					#culture = rane
+					#culture = obodrite
+				}
+			}
+			AND = {
+                OR = {			
+			        AND = {
+		                month = 2
+					    NOT = { month = 3 }
+				    }
+				    AND = {
+			            month = 8
+					    NOT = { month = 9 }
+				    }
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+	    days = 15
+	}
+	
+	immediate = {
+	    if = {
+		    limit = {
+			    month = 5
+		        NOT = { month = 7 }
+				OR = {
+				    culture = russian
+					culture = polish
+					#culture = lechitic
+					#culture = vistulan
+					#culture = mazovian
+					#culture = prussian
+					#culture = silesian
+					#culture = kashubian
+					#culture = pomeranian
+					#culture = sorbian
+					#culture = rane
+					#culture = obodrite
+				}
+				NOT = { has_character_modifier = had_kupala }
+				NOT = { age = 50 }
+			}
+			random_list = {
+				30 = {
+				    character_event = { id = PSL.3 }
+				}
+			    70 = {
+					add_character_modifier = {
+		                modifier = had_kupala
+			            duration = 60
+			            hidden = yes
+		            }
+				}
+			}
+		}
+		if = {
+		    limit = {
+			    OR = {			
+			        AND = {
+		                month = 2
+					    NOT = { month = 3 }
+				    }
+				    AND = {
+			            month = 8
+					    NOT = { month = 9 }
+				    }
+				}
+				NOT = { has_character_modifier = had_day_of_grandfathers }
+			}
+			random_list = {
+				20 = {
+				    character_event = { id = PSL.2 }
+				}
+			    80 = {
+					add_character_modifier = {
+		                modifier = had_day_of_grandfathers
+			            duration = 60
+			            hidden = yes
+		            }
+				}
+			}
+		}
+	}
+}
+
+character_event = { # The First Haircut
+	id = PSL.1
+	title = "EVTTITLEPSL.1"
+	desc = "EVTDESCPSL.1"
+	picture = GFX_evt_throne_room
+	only_playable = yes
+	
+	trigger = {
+	    OR = {
+		    religion = slavic_pagan
+			religion = slavic_pagan_reformed
+		}
+		age = 16
+		any_child = {
+     		age = 7
+			is_female = no
+			is_child_of = FROM
+		    NOT = { has_character_flag = first_haircut }
+			OR = {
+		        religion = slavic_pagan
+			    religion = slavic_pagan_reformed
+		    }
+		}
+	}
+	
+	mean_time_to_happen = {
+	    days = 0
+	}
+	
+	option = {
+	    name = "EVTOPTAPSL.1"
+		random_child = {
+		    limit = {
+			    age = 7
+			    is_female = no
+				is_child_of = FROM
+		        NOT = { has_character_flag = first_haircut }
+			    OR = {
+		            religion = slavic_pagan
+			        religion = slavic_pagan_reformed
+		        }
+		    }
+		    set_character_flag = first_haircut
+		    prestige = +5
+			opinion = {
+		        who = FROM
+			    modifier = first_haircut_done
+			    years = 5
+		    }
+			mother = {
+			    opinion = {
+				    who = FROM
+				    modifier = first_haircut_done
+				    years = 5
+			    }
+		    }
+		}
+		FROM ={
+		    wealth = -20
+	        prestige = +10
+		}
+	}
+	
+	option = {
+	    name = "EVTOPTBPSL.1"
+		random_child = {
+		    limit = {
+			    age = 7
+			    is_female = no
+				is_child_of = FROM
+		        NOT = { has_character_flag = first_haircut }
+			    OR = {
+		            religion = slavic_pagan
+			        religion = slavic_pagan_reformed
+		        }
+		    }
+		    set_character_flag = first_haircut
+		    prestige = -5
+			opinion = {
+		        who = FROM
+			    modifier = first_haircut_unwilling
+			    years = 5
+		    }
+			mother = {
+			    opinion = {
+				    who = FROM
+				    modifier = first_haircut_unwilling
+				    years = 5
+			    }
+		    }
+		}
+		FROM ={
+		    piety = -10
+		}
+	}
+	
+	option = {
+	    trigger = { 
+			OR = {
+		        trait = cruel
+				trait = wroth
+			}
+		}
+	    name = "EVTOPTCPSL.1"
+		random_child = {
+		    limit = {
+			    age = 7
+			    is_female = no
+				is_child_of = FROM
+		        NOT = { has_character_flag = first_haircut }
+			    OR = {
+		            religion = slavic_pagan
+			        religion = slavic_pagan_reformed
+		        }
+		    }
+		    set_character_flag = first_haircut
+		    prestige = -100
+			add_trait = bastard
+			opinion = {
+		        who = FROM
+			    modifier = first_haircut_refused
+			    years = 15
+		    }
+			mother = {
+			    opinion = {
+				    who = FROM
+				    modifier = first_haircut_refused
+				    years = 15
+			    }
+		    }
+		}
+		FROM ={
+		    piety = -50
+		}
+	}
+}
+
+character_event = { # Day of Grandfathers
+	id = PSL.2
+	title = "EVTTITLEPSL.2"
+	desc = "EVTDESCPSL.2"
+	picture = GFX_evt_throne_room
+	only_playable = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	    add_character_modifier = {
+		    modifier = had_day_of_grandfathers
+			random_list
+			duration = 60
+			hidden = yes
+		}
+	}
+	
+	option = {
+	    name = "EVTOPTAPSL.2"
+		wealth = -5
+		piety = +5
+	}
+	
+	option = {
+	    name = "EVTOPTBPSL.2"
+		prestige = -10
+		piety = -10
+		remove_trait = zealous
+		random_list = {
+		    50 = {
+			    add_trait = cynical
+			}
+			50 = { }
+		}
+	}
+	
+	option = {
+	    trigger = { 
+		    trait = mystic
+		}
+	    name = "EVTOPTCPSL.2"
+		piety = -10
+		random_list = {
+		    10 = {
+			    change_learning = +1
+			}
+			10 = {
+			    change_diplomacy = +1
+			}
+			10 = {
+			    change_intrigue = +1
+			}
+			70 = { }
+		}
+	}
+}
+
+character_event = { # Kupala Night
+	id = PSL.3
+	title = "EVTTITLEPSL.3"
+	desc = "EVTDESCPSL.3"
+	picture = GFX_evt_throne_room
+	only_playable = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	    add_character_modifier = {
+		    modifier = had_kupala
+			duration = 60
+			hidden = yes
+		}
+	}
+	
+	option = {
+	    name = "EVTOPTAPSL.3"
+		wealth = -10
+		piety = +10
+		random_list = {
+		    10 = {
+			    add_trait = drunkard
+			}
+			40 = {
+                add_trait = gluttonous
+			}
+			50 = { }
+		}
+	}
+	
+	option = {
+	    trigger = {
+		    is_female = no
+		}
+	    name = "EVTOPTBPSL.3"
+		prestige = +5
+		random_courtier = {
+		    limit = {
+			    age = 16
+				is_female = yes
+				NOT = {
+				    is_close_relative = FROM
+				}
+				NOT = {
+				    trait = homosexual
+			    }
+			}
+			random_list = {
+			    25 = {
+				    add_lover = FROM
+				}
+				75 = { }
+			}
+		}	
+	}
+	
+	option = {
+	    trigger = {
+		    is_female = yes
+		}
+	    name = "EVTOPTCPSL.3"
+		prestige = +5
+		random_courtier = {
+		    limit = {
+			    age = 16
+				is_female = no
+				NOT = {
+				    is_close_relative = FROM
+				}
+				NOT = {
+				    trait = homosexual
+			    }
+			}
+			random_list = {
+			    25 = {
+				    add_lover = FROM
+				}
+				75 = { }
+			}
+		}	
+	}
+	
+	option = {
+	    trigger = { 
+		    is_married = yes
+		}
+	    name = "EVTOPTDPSL.3"
+		prestige = +20
+		spouse = {
+			opinion = {
+			    who = FROM
+			    modifier = kupala
+			    years = 2
+			}
+			add_lover = FROM
+		}
+		random_list = {
+		    15 = {
+			    add_trait = wounded
+			}
+			5 = {
+			    add_trait = maimed
+			}
+			80 = { }
+		}
+	}
+	
+	option = {
+	    name = "EVTOPTEPSL.3"
+		prestige = -10
+		remove_trait = gregarious
+		add_trait = shy
+	}
+}
