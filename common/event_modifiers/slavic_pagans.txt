@@ -1,0 +1,3 @@
+had_kupala = { }
+
+had_day_of_grandfathers = { }
