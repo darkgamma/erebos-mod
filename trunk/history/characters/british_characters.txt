@@ -110,7 +110,7 @@
 }
 
 2000008 = {
-	name = "Eadgar"
+	name = "Eadgar" #The King in 903
 	dynasty = 2000008 # Hloþaring
 
 	diplomacy = 7
@@ -388,7 +388,7 @@
 	religion = "catholic"
 	culture = "saxon"
 
-	880.1.1 = { birth = "880.1.1" }
+	878.1.1 = { birth = "878.1.1" }
 }
 
 2000028 = {
@@ -398,7 +398,7 @@
 	religion = "catholic"
 	culture = "saxon"
 
-	880.1.1 = { birth = "880.1.1" }
+	879.1.1 = { birth = "879.1.1" }
 }
 
 2000029 = {
@@ -408,7 +408,7 @@
 	religion = "catholic"
 	culture = "saxon"
 
-	880.1.1 = { birth = "880.1.1" }
+	885.1.1 = { birth = "885.1.1" }
 }
 
 2000030 = {
@@ -418,7 +418,7 @@
 	religion = "catholic"
 	culture = "saxon"
 
-	880.1.1 = { birth = "880.1.1" }
+	887.1.1 = { birth = "887.1.1" }
 }
 
 2000031 = {
@@ -428,7 +428,7 @@
 	religion = "catholic"
 	culture = "saxon"
 
-	880.1.1 = { birth = "880.1.1" }
+	881.1.1 = { birth = "881.1.1" }
 }
 
 2000032 = {
@@ -438,7 +438,7 @@
 	religion = "catholic"
 	culture = "saxon"
 
-	880.1.1 = { birth = "880.1.1" }
+	878.1.1 = { birth = "878.1.1" }
 }
 2000033 = {
 	name = "Rædwulf"
@@ -447,5 +447,41 @@
 	religion = "catholic"
 	culture = "saxon"
 
-	880.1.1 = { birth = "880.1.1" }
+	875.1.1 = { birth = "875.1.1" }
+}
+2000034 = {
+	name = "Sigeberht"
+	dynasty = random
+
+	religion = "catholic"
+	culture = "saxon"
+
+	882.1.1 = { birth = "882.1.1" }
+}
+2000035 = {
+	name = "Cerdic"
+	dynasty = random
+
+	religion = "catholic"
+	culture = "saxon"
+
+	888.1.1 = { birth = "888.1.1" }
+}
+2000036 = {
+	name = "Æþelstan"
+	dynasty = random
+
+	religion = "catholic"
+	culture = "saxon"
+
+	885.1.1 = { birth = "885.1.1" }
+}
+2000037 = {
+	name = "Leofric"
+	dynasty = random
+
+	religion = "catholic"
+	culture = "saxon"
+
+	883.1.1 = { birth = "883.1.1" }
 }

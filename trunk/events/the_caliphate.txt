@@ -44,7 +44,7 @@ character_event = {
 				}
 			}
 			PREVPREV = {
-				de_jure_liege = e_caliphate
+				set_dejure_liege = e_caliphate
 			}
 		}
 	}
