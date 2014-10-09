@@ -37,16 +37,7 @@ character_event = {
 			has_character_flag = aging.1.flag
 		}
 		
-		OR = {
-			AND = {
-				female = no
-				age = 55
-			}
-			AND = {
-				female = yes
-				age = 50
-			}
-		}
+		age = 45
 	}
 	
 	immediate = { fertility = -0.8 }
@@ -163,7 +154,7 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	
 	mean_time_to_happen = {
-		years = 12
+		years = 20
 		modifier = {
 			factor = 1.5
 			OR = {
@@ -201,7 +192,7 @@ character_event = {
 		}
 		
 		modifier = {
-			factor = 0.25
+			factor = 0.2
 			OR = {
 				AND = {
 					OR = {

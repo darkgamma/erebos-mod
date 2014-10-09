@@ -8,3 +8,12 @@
 ## HSA = Hemospectrum assignment events
 ## BCO = Bloodcounting events
 ## BARM = Bloodcount arithmetic
+## AGING = Aging-related events
+## REF = Pagan Reformation events
+## CAL = Caliphate-related events
+## LECH = Events relating to Lechites
+
+## DAGAN = Daganist events
+## PSL = Slavic events
+
+## selkup_invasion = Selkup Invasion events
