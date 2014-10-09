@@ -49,6 +49,8 @@ character_event = {
 		}
 	}
 	
+	immediate = { fertility = -0.8 }
+	
 	option = {
 		name = OPTA.AGING.1
 		trigger = { trait = hsb_red }
@@ -161,7 +163,90 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	
 	mean_time_to_happen = {
-		years = 20 ### NOT FUCKING DONE YET
+		years = 12
+		modifier = {
+			factor = 1.5
+			OR = {
+				trait = hsb_lime
+				trait = hsb_lime2
+			}
+		}
+		modifier = {
+			factor = 2.5
+			OR = {
+				trait = hsb_jade
+				trait = hsb_jade2
+			}
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				trait = hsb_teal
+				trait = hsb_teal2
+			}
+		}
+		modifier = {
+			factor = 10
+			OR = {
+				trait = hsb_blue
+				trait = hsb_blue2
+			}
+		}
+		modifier = {
+			factor = 15
+			OR = {
+				trait = hsb_indigo
+				trait = hsb_indigo2
+			}
+		}
+		
+		modifier = {
+			factor = 0.25
+			OR = {
+				AND = {
+					OR = {
+						trait = hsb_yellow
+						trait = hsb_yellow2
+					}
+					age = 100
+				}
+				AND = {
+					OR = {
+						trait = hsb_lime
+						trait = hsb_lime2
+					}
+					age = 125
+				}
+				AND = {
+					OR = {
+						trait = hsb_jade
+						trait = hsb_jade2
+					}
+					age = 160
+				}
+				AND = {
+					OR = {
+						trait = hsb_teal
+						trait = hsb_teal2
+					}
+					age = 240
+				}
+				AND = {
+					OR = {
+						trait = hsb_yellow
+						trait = hsb_yellow2
+					}
+					age = 300
+				}
+				AND = {
+					OR = {
+						trait = hsb_yellow
+						trait = hsb_yellow2
+					}
+					age = 400
+				}
+			}
+		}
 	}
 	
 	trigger = {
