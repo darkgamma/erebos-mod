@@ -5,10 +5,10 @@ title = c_mecklemburg
 
 # Settlements
 max_settlements = 4
-b_mecklemburg = castle
+b_mecklemburg = tribal
 
-b_wismar = city
-b_gevezin = temple
+#b_wismar = city
+#b_gevezin = temple
 #b_lutzow = castle
 #b_grevesmuhlen = castle
 #b_parchim = temple
@@ -18,14 +18,6 @@ b_gevezin = temple
 culture = lechitic
 religion = slavic_pagan
 
- 
-700.1.1 = {
-	b_mecklemburg = ca_keep_1
-	b_mecklemburg = ca_militia_barracks_1
-	b_mecklemburg = ca_wall_1
-	b_mecklemburg = ca_wall_q_1
-	b_wismar = ct_barracks_1
-	b_gevezin = tp_barracks_1
-}
+
 903.1.1 = { }
  

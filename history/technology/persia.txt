@@ -1,0 +1,68 @@
+#PERSIA
+
+technology = {
+	titles = {
+		d_kermanshah
+		d_esfahan
+		d_mazandaran
+		d_tabriz
+		d_azerbaijan
+		d_merv
+		d_qohistan
+		d_samarkand
+		d_khiva
+		d_yazd
+		d_hormuz
+		d_baluchistan
+		d_xwarizmiyan
+		d_kyzylorda
+		d_zaranj
+		d_kabul
+		d_basra
+		d_baghdad
+	}
+	
+	769 = {
+		military = 1.2
+		economy = 1.5
+		culture = 1.5
+	}
+		
+	1337 = {
+		military = 4.5
+		economy = 4.5
+		culture = 4.5
+	}
+}
+
+technology = {
+	titles = {
+		d_fars
+	}
+
+	769 = {
+		military = 1.2
+		economy = 1.5
+		culture = 1.5
+		
+		TECH_FORTIFICATIONS_CONSTRUCTION = 3.0
+		TECH_CASTLE_CONSTRUCTION = 2.0
+		TECH_TEMPLE_CONSTRUCTION = 2.0
+		TECH_LEGALISM = 2.0
+	}
+		
+	1337 = {
+		military = 4.5
+		economy = 4.5
+		culture = 4.5
+		
+		TECH_FORTIFICATIONS_CONSTRUCTION = 4.5
+		TECH_CASTLE_CONSTRUCTION = 4.5
+		TECH_TEMPLE_CONSTRUCTION = 4.5
+		TECH_LEGALISM = 4.5
+	}
+}
+
+
+
+

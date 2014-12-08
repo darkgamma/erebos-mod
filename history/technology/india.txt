@@ -1,0 +1,24 @@
+
+#INDIA
+
+technology = {
+	titles = {
+		d_multan
+		d_stravani
+		d_gandhara
+		d_debul
+		d_chathwaravairyo
+	}
+
+	769 = {
+		military = 0.5
+		economy = 1.5
+		culture = 1.5
+	}
+		
+	1337 = {
+		military = 4.5
+		economy = 4.5
+		culture = 4.5
+	}
+}

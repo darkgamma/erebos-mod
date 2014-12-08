@@ -5,9 +5,9 @@ title = c_orsha
 
 # Settlements
 max_settlements = 4
-b_orsha = castle
-b_talachyn = city
-b_novolukomi = temple
+b_orsha = tribal
+#b_talachyn = city
+#b_novolukomi = temple
 
 #b_sianno = castle
 #b_shklou = castle 

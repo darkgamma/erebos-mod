@@ -5,9 +5,9 @@ title = c_zhmud
 
 # Settlements
 max_settlements = 5
-b_jurbarkas = castle
-b_raseiniai = city
-b_varviai = temple
+b_jurbarkas = tribal
+#b_raseiniai = city
+#b_varviai = temple
 
 #b_taurage = castle
 #b_kraziai = castle
@@ -19,15 +19,7 @@ b_varviai = temple
 culture = lithuanian
 religion = baltic_pagan
 
- 
-700.1.1 = {
-	b_jurbarkas = ca_keep_1
-	b_jurbarkas = ca_militia_barracks_1
-	b_jurbarkas = ca_wall_1
-	b_jurbarkas = ca_wall_q_1
-	b_raseiniai = ct_barracks_1
-	b_varviai = tp_barracks_1
-}
+
 
 903.1.1 = { }
  

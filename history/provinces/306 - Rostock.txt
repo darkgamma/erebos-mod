@@ -5,9 +5,9 @@ title = c_rostock
 
 # Settlements
 max_settlements = 5
-b_rostock = castle
-b_gustrow = city
-b_penzlin = temple
+b_rostock = tribal
+#b_gustrow = city
+#b_penzlin = temple
 
 #b_malchin = castle
 #b_damgarten = castle
@@ -19,14 +19,5 @@ b_penzlin = temple
 culture = lechitic
 religion = slavic_pagan
 
- 
-700.1.1 = {
-	b_rostock = ca_keep_1
-	b_rostock = ca_militia_barracks_1
-	b_rostock = ca_wall_1
-	b_rostock = ca_wall_q_1
-	b_gustrow = ct_barracks_1
-	b_penzlin = tp_barracks_1
-}
 903.1.1 = { }
  

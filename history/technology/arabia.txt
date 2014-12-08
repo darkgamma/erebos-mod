@@ -1,0 +1,41 @@
+
+
+#ARABIA
+
+technology = {
+	titles = {
+		d_medina
+		d_sanaa
+		d_oman
+		d_nefoud
+		d_sinai
+		d_petra
+		d_damascus
+		d_negev
+		d_jerusalem
+		d_acre
+		d_shaka
+		d_amman
+		d_tripoli
+		d_homs
+		d_syria
+		d_edessa
+		d_mosul
+		d_euphrates
+		d_jazira
+		d_al_habbariyah
+	}
+
+	769 = {
+		military = 0.5
+		economy = 1.5
+		culture = 1.5
+	}
+		
+	1337 = {
+		military = 4.5
+		economy = 4.5
+		culture = 4.5
+	}
+}
+

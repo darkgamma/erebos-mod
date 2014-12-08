@@ -5,8 +5,8 @@ title = c_scalovia
 
 # Settlements
 max_settlements = 4
-b_ragnit = castle
-b_russ = city
+b_ragnit = tribal
+#b_russ = city
 #b_jurgaiten = temple
 
 #b_jomsberg = castle
@@ -18,15 +18,6 @@ b_russ = city
 # Misc
 culture = lithuanian
 religion = baltic_pagan
-
- 
-700.1.1 = {
-	b_ragnit = ca_keep_1
-	b_ragnit = ca_militia_barracks_1
-	b_ragnit = ca_wall_1
-	b_ragnit = ca_wall_q_1
-	b_russ = ct_barracks_1
-}
 
 
 903.1.1 = { }

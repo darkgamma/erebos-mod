@@ -5,9 +5,9 @@ title = c_poznanskie
 
 # Settlements
 max_settlements = 5
-b_poznan = castle
-b_czarkow = city
-b_obrzycko = temple
+b_poznan = tribal
+#b_czarkow = city
+#b_obrzycko = temple
 
 #b_miedryrzecz = castle
 #b_drzen = castle
