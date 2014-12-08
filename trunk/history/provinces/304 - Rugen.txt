@@ -4,8 +4,8 @@
 title = c_rugen
 
 # Settlements
-max_settlements = 3
-b_rugard = castle
+max_settlements = 5
+b_rugard = tribal
 #b_charenza = city
 b_arkona = temple
 
@@ -20,12 +20,7 @@ religion = slavic_pagan
 
  
 ## Bergen/Marienkirche is the only town of note of the timeline...
-700.1.1 = {
-	b_rugard = ca_keep_1
-	b_rugard = ca_militia_barracks_1
-	b_rugard = ca_wall_1
-	b_arkona = tp_barracks_1
-}
+
 
 903.1.1 = { }
  

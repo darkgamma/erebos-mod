@@ -203,6 +203,8 @@ d_mecklenburg;Mecklenburg;;;;;;;;;;;;;x
 d_mecklenburg_adj;Mecklenburgian;;;;;;;;;;;;;x
 d_capub;Neapoli;;;;;;;;;;;;;x # WTF SBolshevik
 d_capub_adj;Neapolitan;;;;;;;;;;;;;x # WTF SBolshevik
+d_apulia;Bari;;;;;;;;;;;;;x # WTF SBolshevik
+d_apulia_adj;Barian;;;;;;;;;;;;;x # WTF SBolshevik
 d_pinsk;Pinsk;;;;;;;;;;;;;x
 d_pinsk_adj;Pinskian;;;;;;;;;;;;;x
 d_mari;Mari;;;;;;;;;;;;;x
@@ -211,6 +213,8 @@ d_ustug;Ustug;;;;;;;;;;;;;x
 d_ustug_adj;Ustugian;;;;;;;;;;;;;x
 d_faro;Faro;;;;;;;;;;;;;x
 d_faro_adj;Faronian;;;;;;;;;;;;;x
+d_amman;Amman;;;;;;;;;;;;;x
+d_amman_adj;Ammani;;;;;;;;;;;;;x
 d_weimar;Weimar;;;;;;;;;;;;;x
 d_weimar_adj;Weimarian;;;;;;;;;;;;;x
 d_nurnberg;Nürnberg;;;;;;;;;;;;;x

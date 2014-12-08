@@ -5,9 +5,9 @@ title = c_memel
 
 # Settlements
 max_settlements = 4
-b_gargzdai = castle
-b_memel = city
-b_kretingale = temple
+#b_gargzdai = castle
+b_memel = tribal
+#b_kretingale = temple
 
 #b_kaup = city
 #b_juodkrante = castle
@@ -20,13 +20,6 @@ culture = lithuanian
 religion = baltic_pagan
 
 # History
-700.1.1 = {
-	b_gargzdai = ca_keep_1
-	b_gargzdai = ca_militia_barracks_1
-	b_gargzdai = ca_wall_1
-	b_gargzdai = ca_wall_q_1
-	b_memel = ct_barracks_1
-	b_kretingale = tp_barracks_1
-}
+
 # History
 903.1.1 = { }

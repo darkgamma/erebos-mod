@@ -5,9 +5,9 @@ title = c_krakowskie
 
 # Settlements
 max_settlements = 6
-b_krakow = castle
-b_tarnow = city
-b_jedrzejow = temple
+b_krakow = tribal
+#b_tarnow = city
+#b_jedrzejow = temple
 
 #b_kielce = city
 b_brzesko = castle

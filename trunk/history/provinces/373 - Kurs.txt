@@ -5,9 +5,9 @@ title = c_kurs
 
 # Settlements
 max_settlements = 5
-b_ventava = castle
-b_grobin = city
-b_piltene = temple
+b_ventava = tribal
+#b_grobin = city
+#b_piltene = temple
 
 #b_vanemane = castle
 #b_duvzare = castle
@@ -20,13 +20,6 @@ culture = lithuanian
 religion = baltic_pagan
 
 # History
-700.1.1 = {
-	b_ventava = ca_keep_1
-	b_ventava = ca_militia_barracks_1
-	b_ventava = ca_wall_1
-	b_ventava = ca_wall_q_1
-	b_grobin = ct_barracks_1
-	b_piltene = tp_barracks_1
-}
+
 # History
 903.1.1 = { }

@@ -5,9 +5,9 @@ title = c_aukshayts
 
 # Settlements
 max_settlements = 5
-b_kernave = castle
-b_lida = temple
-b_kaunas = city
+b_kernave = tribal
+#b_lida = temple
+#b_kaunas = city
 #b_vilnius = temple
 
 #b_utena = castle
@@ -18,15 +18,6 @@ b_kaunas = city
 # Misc
 culture = lithuanian
 religion = baltic_pagan
-
- 
-700.1.1 = {
-	b_kernave = ca_keep_1
-	b_kernave = ca_militia_barracks_1
-	b_kernave = ca_wall_1
-	b_kaunas = ct_barracks_1
-	b_lida = tp_barracks_1
-}
 
 903.1.1 = { }
  

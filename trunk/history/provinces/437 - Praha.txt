@@ -4,11 +4,11 @@
 title = c_praha
 
 # Settlements
-max_settlements = 6
-b_praha = castle
-b_kuttenberg = city
-b_brevnov = temple
-b_karlstein = castle
+max_settlements = 4
+b_praha = tribal
+#b_kuttenberg = city
+#b_brevnov = temple
+#b_karlstein = castle
 #b_slany = castle
 #b_kolin = castle
 #b_stare_mesto = city

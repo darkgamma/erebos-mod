@@ -5,9 +5,9 @@ title = c_narva
 
 # Settlements
 max_settlements = 4
-b_agelinde = castle
-b_narva = city
-b_wesenberg = temple
+b_agelinde = tribal
+#b_narva = city
+#b_wesenberg = temple
 
 #b_telsborg = castle
 #b_pudiviru = castle
@@ -20,13 +20,6 @@ culture = ugricbaltic
 religion = finnish_pagan
 
 # History
-700.1.1 = {
-	b_agelinde = ca_keep_1
-	b_agelinde = ca_militia_barracks_1
-	b_agelinde = ca_wall_1
-	b_agelinde = ca_wall_q_1
-	b_narva = ct_barracks_1
-	b_wesenberg = tp_barracks_1
-}
+
 # History
 903.1.1 = { }
