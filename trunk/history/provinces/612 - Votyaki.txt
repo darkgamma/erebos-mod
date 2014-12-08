@@ -5,7 +5,7 @@ title = c_votyaki
 
 # Settlements
 max_settlements = 4
-b_achit = castle
+b_achit = tribal
 b_sarana = city
 
 #b_ufimskiy = temple
