@@ -3370,6 +3370,7 @@ e_scandinavia = {
 				color2={ 255 255 255 }
 				
 				norse = "Helsingaland"
+				lappish = "Saivo"
 				
 				b_norrala = {
 				}
@@ -3397,6 +3398,7 @@ e_scandinavia = {
 		capital=281 # Angermanland
 		
 		norse = "Norðlandið"
+		lappish = "Sápmi"
 		
 		d_jamtland = {
 			color={ 15 199 239 }
@@ -3405,12 +3407,14 @@ e_scandinavia = {
 			capital = 282 # Jamtland
 			
 			norse = "Hjáland"
+			lappish = "Jealándda"
 			
 			c_angermanland = {
 				color={ 24 0 255 }
 				color2={ 255 255 255 }
 				
 				norse = "Angandiland"
+				lappish = "Ánggilándda"
 				
 				b_bjartra = {
 				}
@@ -3434,6 +3438,7 @@ e_scandinavia = {
 				color2={ 255 255 255 }
 				
 				norse = "Hjáland"
+				lappish = "Jealándda"
 				
 				b_mjalleborgen = {
 				}
@@ -3447,6 +3452,7 @@ e_scandinavia = {
 				color2={ 255 255 255 }
 				
 				norse = "Miðelfr"
+				lappish = "Mibmealvi"
 				
 				b_selanger = {
 				}
@@ -3476,12 +3482,14 @@ e_scandinavia = {
 			capital = 280 # Vasterbotten
 			
 			norse = "Norðlandið"
+			lappish = "Sápmi"
 			
 			c_vasterbotten = {
 				color={ 205 105 15 }
 				color2={ 255 255 255 }
 				
 				norse = "Vesturbótin"
+				lappish = "Julevu"
 				
 				b_umea = {
 				}
@@ -3505,6 +3513,7 @@ e_scandinavia = {
 				color2={ 255 255 255 }
 				
 				norse = "Sámaland"
+				lappish = "Lapplándda"
 				
 				b_lycksele = {
 				}
@@ -3528,6 +3537,7 @@ e_scandinavia = {
 				color2={ 255 255 255 }
 				
 				norse = "Finnmörk"
+				lappish = "Jánásuolu"
 				
 				b_varghoeya = {
 				}
@@ -3551,6 +3561,7 @@ e_scandinavia = {
 				color2={ 255 255 255 }
 				
 				norse = "Kæmi"
+				lappish = "Giepma"
 			
 				b_kemi = {
 				}
