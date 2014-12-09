@@ -3141,13 +3141,14 @@ e_scandinavia = {
 		culture = swedish
 		
 		norse = "Svíþjóð"
+		short_name = yes
 		
 		d_uppland = {
 			color={ 20 20 145 }
 			color2={ 255 255 255 }
 			dignity = 8
 			
-			norse = "Upplandið"
+			norse = "Upplandit"
 			
 			capital = 290 # Uppland
 			c_sodermanland = {
@@ -3175,7 +3176,7 @@ e_scandinavia = {
 			}
 			c_uppland = {
 			
-				norse = "Upplandið"
+				norse = "Upplandit"
 			
 				color={ 30 30 155 }
 				color2={ 255 255 255 }
@@ -3235,6 +3236,8 @@ e_scandinavia = {
 				color={ 10 195 255 }
 				color2={ 255 255 255 }
 				
+				norse = "Álfarþjóð"
+				
 				b_goksholm = {
 				}
 				b_orebro = {
@@ -3279,7 +3282,7 @@ e_scandinavia = {
 				color={ 115 15 255 }
 				color2={ 255 255 255 }
 				
-				norse = "Vestumannalandið"
+				norse = "Vestumannalandit"
 				
 				b_vasteras = {
 				}
@@ -3397,7 +3400,7 @@ e_scandinavia = {
 		color2={ 205 205 215 }
 		capital=281 # Angermanland
 		
-		norse = "Norðlandið"
+		norse = "Norðlandit"
 		lappish = "Sápmi"
 		
 		d_jamtland = {
@@ -3481,7 +3484,7 @@ e_scandinavia = {
 			color2={ 255 255 255 }
 			capital = 280 # Vasterbotten
 			
-			norse = "Norðlandið"
+			norse = "Norðlandit"
 			lappish = "Sápmi"
 			
 			c_vasterbotten = {
@@ -3588,6 +3591,7 @@ e_scandinavia = {
 		capital = 266 # Copenhagen
 		
 		norse = "Danmörk"
+		short_name = yes
 		
 		d_holstein = {
 			color={ 172 112 112 }
@@ -3788,7 +3792,8 @@ e_scandinavia = {
 		color={ 170 170 210 }
 		color2={ 220 220 220 }
 		
-		norse = "Nórðvegr"
+		norse = "Norðvegr"
+		short_name = yes
 		
 		capital = 275 # Trondelag
 		d_trondelag = {
@@ -3852,7 +3857,7 @@ e_scandinavia = {
 			color={ 120 160 245 }
 			color2={ 255 255 255 }
 			
-			norse = "Austrlandið"
+			norse = "Austrlandit"
 			
 			capital = 272 # Akershus
 			
@@ -3954,7 +3959,7 @@ e_scandinavia = {
 			color2={ 255 255 255 }
 			
 			capital = 274 # Bergenhus
-			norse = "Vestrlandið"			
+			norse = "Vestrlandit"			
 			
 			c_agder = {
 				color={ 40 85 255 }
@@ -4058,7 +4063,7 @@ e_scandinavia = {
 			color2={ 160 160 220 }
 			capital = 278 # Halogaland
 			
-			norse = "Norðurlandið"
+			norse = "Hlaðir"
 			
 			c_halogaland = {
 				color={ 98 58 255 }
@@ -4087,7 +4092,7 @@ e_scandinavia = {
 				color={ 30 150 189 }
 				color2={ 255 255 255 }
 				
-				norse = "Norðurlandið"
+				norse = "Hlaðir"
 				
 				b_rost = {
 				}
@@ -22321,13 +22326,16 @@ e_pars = {
 		
 		capital = 54 # Isle of Mann
 		
+		short_name = yes
+		norse = "Eyjanna Ríki"
+		
 		d_sudreyjar = {
 			color = { 0 20 240 }
 			color2 = { 100 120 200 }
 			
 			capital = 54 # Isle of Mann
 
-                        norwegian = "Suðreyjar"
+            norwegian = "Suðreyjar"
 			danish = "Suðreyjar"
 			swedish = "Suðreyjar"
 			norse = "Suðreyjar"
@@ -22336,6 +22344,8 @@ e_pars = {
 			c_argyll = {
 				color={ 15 150 240 }
 				color2={ 255 255 255 }
+				
+				norse = "Valey"
 				
 				b_st_moluag = {
 				}
@@ -22362,7 +22372,7 @@ e_pars = {
 				norwegian = "Mann"
 				danish = "Mann"
 				swedish = "Mann"
-				norse = "Mann"
+				norse = "Mön"
 				
 				b_peel = {
 				}
@@ -22388,14 +22398,13 @@ e_pars = {
 			
 			capital = 35 # Innse Gael
 
-                        norwegian = "Norðreyjar"
-			danish = "Norðreyjar"
-			swedish = "Norðreyjar"
 			norse = "Norðreyjar"
 			
 			c_innse_gall = {
 				color={ 20 60 243 }
 				color2={ 255 255 255 }
+				
+				norse = "Suðreyjar"
 				
 				b_snizort = {
 				}
@@ -22415,7 +22424,7 @@ e_pars = {
 					norwegian = "Vik"
 					danish = "Vik"
 					swedish = "Vik"
-					norse = "Vik"
+					norse = "Vík"
 				}
 				b_dunvegan = {
 				}
@@ -22425,6 +22434,8 @@ e_pars = {
 			c_shetland = {
 				color={ 15 25 255 }
 				color2={ 255 255 255 }
+				
+				norse = "Hjaltlandseyjar"
 				
 				b_scalloway = {
 				}
@@ -22450,6 +22461,8 @@ e_pars = {
 			c_orkney = {
 				color={ 30 25 255 }
 				color2={ 255 255 255 }
+				
+				norse = "Orkneyjar"
 				
 				b_kirkwall = {
 					norwegian = "Kirkuvåg"
@@ -22485,7 +22498,7 @@ e_pars = {
 		
 		capital = 57 # Jorvik
 
-                norwegian = "Jórvík"
+        norwegian = "Jórvík"
 		danish = "Jórvík"
 		swedish = "Jórvík"
 		norse = "Jórvík"
@@ -22496,9 +22509,13 @@ e_pars = {
 			
 			capital = 52 # Northumberland
 			
+			norse = "Humbranorðr"
+			
 			c_northumberland = {
 				color={ 255 10 0 }
 				color2={ 255 255 255 }
+				
+				norse = "Humbranorðr"
 			
 				b_morpeth = {
 				}
@@ -22506,7 +22523,7 @@ e_pars = {
 					norwegian = "Bamborg"
 					danish = "Bamborg"
 					swedish = "Bamborg"
-					norse = "Bamborg"
+					norse = "Bamsborgr"
 				}
 				b_hexham = {
 				}
@@ -22524,6 +22541,8 @@ e_pars = {
 			c_dunbar = {
 				color={ 15 165 245 }
 				color2={ 255 255 255 }
+				
+				norse = "Fjallaborgir"
 	
 				b_dunbar = {
 				}
@@ -22545,6 +22564,8 @@ e_pars = {
 			c_teviotdale = {
 				color={ 25 90 243 }
 				color2={ 255 255 255 }
+				
+				norse = "Ljótrland"
 				
 				b_jedburgh = {
 				}
@@ -22570,7 +22591,7 @@ e_pars = {
 				norwegian = "Dunholm"
 				danish = "Dunholm"
 				swedish = "Dunholm"
-				norse = "Dunholm"
+				norse = "Dunnahólmr"
 	
 				b_gateshead = {
 				}
@@ -22596,6 +22617,8 @@ e_pars = {
 			c_cumberland = {
 				color={ 30 185 243 }
 				color2={ 255 255 255 }
+				
+				norse = "Hvíthöfn"
 	
 				b_carlisle = {
 				}
@@ -22632,6 +22655,8 @@ e_pars = {
 			c_lancaster = {
 				color={ 255 50 5 }
 				color2={ 255 255 255 }
+				
+				norse = "Valahöfn"
 			
 				b_salford = {
 				}
@@ -22653,6 +22678,8 @@ e_pars = {
 			c_westmorland = {
 				color={ 255 55 10 }
 				color2={ 255 255 255 }
+				
+				norse = "Vestrætr"
 			
 				b_appleby = {
 				}
@@ -23295,6 +23322,8 @@ e_pars = {
 			c_chester = {
 				color={ 255 60 15 }
 				color2={ 255 255 255 }
+				
+				norse = "Sandalækr"
 			
 				b_chester = {
 				}
