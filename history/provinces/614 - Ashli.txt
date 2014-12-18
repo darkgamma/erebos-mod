@@ -1,0 +1,24 @@
+# 614 - Southern Ural
+
+# County Title
+title = c_ashli
+
+# Settlements
+max_settlements = 5
+
+b_boro = castle
+b_daulakan = city
+#b_durtojle = temple
+
+#b_blagovescen = castle
+#b_tuimasy = castle
+#b_janauyl = castle
+#b_iq = castle
+#b_yamantaw = castle
+
+# Misc
+culture = bolghar
+religion = tengri_pagan_reformed
+
+# History
+903.1.1 = {}

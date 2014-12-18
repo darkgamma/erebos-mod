@@ -19,5 +19,11 @@ b_mileto = temple
 culture = ionian
 religion = orthodox
 terrain = hills
+
+
 # History
+902.1.1 = {
+	culture =  ionian
+	religion = orthodox
+}
 903.1.1 = { }
