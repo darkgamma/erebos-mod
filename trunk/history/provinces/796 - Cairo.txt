@@ -16,8 +16,8 @@ b_maadi = castle
 #b_merimdabenisalama = castle
 
 # Misc
-culture = egyptian_arabic
-religion = sunni
+culture = coptic
+religion = miaphysite
 
 # History
 
