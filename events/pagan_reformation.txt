@@ -1,0 +1,2257 @@
+namespace = REF
+
+narrative_event = { # Slavic Reformation
+    id = REF.1
+	title = EVTNAMEREF.1
+	desc = EVTDESCREF.1
+	
+	is_triggered_only = yes
+	show_ROOT = yes
+	
+	rulers_only = yes
+	
+	immediate = {
+        if = {
+		    limit = {
+			    any_demesne_province = {
+				    religion = slavic_pagan
+				}
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = slavic_pagan
+				}
+				religion = slavic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = slavic_pagan
+				}
+				religion = slavic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = slavic_pagan
+				}
+				religion = slavic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = slavic_pagan
+				}
+				religion = slavic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = slavic_pagan
+				}
+				religion = slavic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = slavic_pagan
+				}
+				religion = slavic_pagan_old
+			}
+		}
+	}
+	
+	option = {
+	    name = EVTOPTAREF
+		trigger = {
+		    religion = slavic_pagan_reformed
+		}
+		
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = slavic_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = slavic_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = slavic_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = slavic_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTBREF
+		
+		ai_chance = {
+		    factor = 10
+			modifier = {
+				factor = 2500
+				any_liege = { religion = slavic_pagan_reformed }
+			}
+		}
+		
+		trigger = {
+		    religion = slavic_pagan
+		}
+		religion = slavic_pagan_reformed
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = slavic_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = slavic_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = slavic_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = slavic_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTCREF
+		
+		ai_chance = {
+		    factor = 90
+		}
+		
+		trigger = {
+		    religion = slavic_pagan
+		}
+		religion = slavic_pagan_old
+		hidden_tooltip = {
+		    any_courtier = {
+			    limit = {
+				    religion = slavic_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = slavic_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = slavic_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTDREF
+		trigger = {
+		    NOT = {
+			    religion = slavic_pagan_reformed
+			}
+			NOT = {
+			    religion = slavic_pagan
+			}
+		}
+	}
+}
+
+narrative_event = { # Baltic Reformation
+    id = REF.2
+	title = EVTNAMEREF.2
+	desc = EVTDESCREF.2
+	
+	is_triggered_only = yes
+	show_ROOT = yes
+	
+	rulers_only = yes
+	
+	immediate = {
+        if = {
+		    limit = {
+			    any_demesne_province = {
+				    religion = baltic_pagan
+				}
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = baltic_pagan
+				}
+				religion = baltic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = baltic_pagan
+				}
+				religion = baltic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = baltic_pagan
+				}
+				religion = baltic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = baltic_pagan
+				}
+				religion = baltic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = baltic_pagan
+				}
+				religion = baltic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = baltic_pagan
+				}
+				religion = baltic_pagan_old
+			}
+		}
+	}
+	
+	option = {
+	    name = EVTOPTAREF
+		trigger = {
+		    religion = baltic_pagan_reformed
+		}
+		
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = baltic_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = baltic_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = baltic_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = baltic_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTBREF
+		
+		ai_chance = {
+		    factor = 10
+			modifier = {
+				factor = 2500
+				any_liege = { religion = baltic_pagan_reformed }
+			}
+		}
+		
+		trigger = {
+		    religion = baltic_pagan
+		}
+		religion = baltic_pagan_reformed
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = baltic_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = baltic_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = baltic_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = baltic_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTCREF
+		
+		ai_chance = {
+		    factor = 90
+		}
+		
+		trigger = {
+		    religion = baltic_pagan
+		}
+		religion = baltic_pagan_old
+		hidden_tooltip = {
+		    any_courtier = {
+			    limit = {
+				    religion = baltic_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = baltic_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = baltic_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTDREF
+		trigger = {
+		    NOT = {
+			    religion = baltic_pagan_reformed
+			}
+			NOT = {
+			    religion = baltic_pagan
+			}
+		}
+	}
+}
+
+narrative_event = { # Sámi Reformation
+    id = REF.3
+	title = EVTNAMEREF.3
+	desc = EVTDESCREF.3
+	
+	is_triggered_only = yes
+	show_ROOT = yes
+	
+	rulers_only = yes
+	
+	immediate = {
+        if = {
+		    limit = {
+			    any_demesne_province = {
+				    religion = saami_pagan
+				}
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = saami_pagan
+				}
+				religion = saami_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = saami_pagan
+				}
+				religion = saami_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = saami_pagan
+				}
+				religion = saami_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = saami_pagan
+				}
+				religion = saami_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = saami_pagan
+				}
+				religion = saami_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = saami_pagan
+				}
+				religion = saami_pagan_old
+			}
+		}
+	}
+	
+	option = {
+	    name = EVTOPTAREF
+		trigger = {
+		    religion = saami_pagan_reformed
+		}
+		
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = saami_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = saami_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = saami_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = saami_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTBREF
+		
+		ai_chance = {
+		    factor = 10
+			modifier = {
+				factor = 2500
+				any_liege = { religion = saami_pagan_reformed }
+			}
+		}
+		
+		trigger = {
+		    religion = saami_pagan
+		}
+		religion = saami_pagan_reformed
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = saami_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = saami_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = saami_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = saami_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTCREF
+		
+		ai_chance = {
+		    factor = 90
+		}
+		
+		trigger = {
+		    religion = saami_pagan
+		}
+		religion = saami_pagan_old
+		hidden_tooltip = {
+		    any_courtier = {
+			    limit = {
+				    religion = saami_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = saami_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = saami_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTDREF
+		trigger = {
+		    NOT = {
+			    religion = saami_pagan_reformed
+			}
+			NOT = {
+			    religion = saami_pagan
+			}
+		}
+	}
+}
+
+narrative_event = { # Hungarian Reformation
+    id = REF.4
+	title = EVTNAMEREF.4
+	desc = EVTDESCREF.4
+	
+	is_triggered_only = yes
+	show_ROOT = yes
+	
+	rulers_only = yes
+	
+	immediate = {
+        if = {
+		    limit = {
+			    any_demesne_province = {
+				    religion = hungarian_pagan
+				}
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = hungarian_pagan
+				}
+				religion = hungarian_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = hungarian_pagan
+				}
+				religion = hungarian_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = hungarian_pagan
+				}
+				religion = hungarian_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = hungarian_pagan
+				}
+				religion = hungarian_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = hungarian_pagan
+				}
+				religion = hungarian_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = hungarian_pagan
+				}
+				religion = hungarian_pagan_old
+			}
+		}
+	}
+	
+	option = {
+	    name = EVTOPTAREF
+		trigger = {
+		    religion = hungarian_pagan_reformed
+		}
+		
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = hungarian_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = hungarian_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = hungarian_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = hungarian_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTBREF
+		
+		ai_chance = {
+		    factor = 10
+			modifier = {
+				factor = 2500
+				any_liege = { religion = hungarian_pagan_reformed }
+			}
+		}
+		
+		trigger = {
+		    religion = hungarian_pagan
+		}
+		religion = hungarian_pagan_reformed
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = hungarian_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = hungarian_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = hungarian_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = hungarian_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTCREF
+		
+		ai_chance = {
+		    factor = 90
+		}
+		
+		trigger = {
+		    religion = hungarian_pagan
+		}
+		religion = hungarian_pagan_old
+		hidden_tooltip = {
+		    any_courtier = {
+			    limit = {
+				    religion = hungarian_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = hungarian_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = hungarian_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTDREF
+		trigger = {
+		    NOT = {
+			    religion = hungarian_pagan_reformed
+			}
+			NOT = {
+			    religion = hungarian_pagan
+			}
+		}
+	}
+}
+
+narrative_event = { # Continental Germanic Reformation
+    id = REF.5
+	title = EVTNAMEREF.5
+	desc = EVTDESCREF.5
+	
+	is_triggered_only = yes
+	show_ROOT = yes
+	
+	rulers_only = yes
+	
+	immediate = {
+        if = {
+		    limit = {
+			    any_demesne_province = {
+				    religion = contgermanic
+				}
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = contgermanic
+				}
+				religion = contgermanic_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = contgermanic
+				}
+				religion = contgermanic_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = contgermanic
+				}
+				religion = contgermanic_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = contgermanic
+				}
+				religion = contgermanic_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = contgermanic
+				}
+				religion = contgermanic_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = contgermanic
+				}
+				religion = contgermanic_old
+			}
+		}
+	}
+	
+	option = {
+	    name = EVTOPTAREF
+		trigger = {
+		    religion = contgermanic_reformed
+		}
+		
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = contgermanic_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = contgermanic
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = contgermanic
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = contgermanic
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTBREF
+		
+		ai_chance = {
+		    factor = 10
+			modifier = {
+				factor = 2500
+				any_liege = { religion = contgermanic_reformed }
+			}
+		}
+		
+		trigger = {
+		    religion = contgermanic
+		}
+		religion = contgermanic_reformed
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = contgermanic_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = contgermanic
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = contgermanic
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = contgermanic
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTCREF
+		
+		ai_chance = {
+		    factor = 90
+		}
+		
+		trigger = {
+		    religion = contgermanic
+		}
+		religion = contgermanic_old
+		hidden_tooltip = {
+		    any_courtier = {
+			    limit = {
+				    religion = contgermanic
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = contgermanic
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = contgermanic
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTDREF
+		trigger = {
+		    NOT = {
+			    religion = contgermanic_reformed
+			}
+			NOT = {
+			    religion = contgermanic
+			}
+		}
+	}
+}
+
+narrative_event = { # Saxon Reformation
+    id = REF.6
+	title = EVTNAMEREF.6
+	desc = EVTDESCREF.6
+	
+	is_triggered_only = yes
+	show_ROOT = yes
+	
+	rulers_only = yes
+	
+	immediate = {
+        if = {
+		    limit = {
+			    any_demesne_province = {
+				    religion = saxon_pagan
+				}
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = saxon_pagan
+				}
+				religion = saxon_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = saxon_pagan
+				}
+				religion = saxon_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = saxon_pagan
+				}
+				religion = saxon_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = saxon_pagan
+				}
+				religion = saxon_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = saxon_pagan
+				}
+				religion = saxon_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = saxon_pagan
+				}
+				religion = saxon_pagan_old
+			}
+		}
+	}
+	
+	option = {
+	    name = EVTOPTAREF
+		trigger = {
+		    religion = saxon_pagan_reformed
+		}
+		
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = saxon_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = saxon_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = saxon_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = saxon_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTBREF
+		
+		ai_chance = {
+		    factor = 10
+			modifier = {
+				factor = 2500
+				any_liege = { religion = saxon_pagan_reformed }
+			}
+		}
+		
+		trigger = {
+		    religion = saxon_pagan
+		}
+		religion = saxon_pagan_reformed
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = saxon_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = saxon_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = saxon_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = saxon_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTCREF
+		
+		ai_chance = {
+		    factor = 90
+		}
+		
+		trigger = {
+		    religion = saxon_pagan
+		}
+		religion = saxon_pagan_old
+		hidden_tooltip = {
+		    any_courtier = {
+			    limit = {
+				    religion = saxon_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = saxon_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = saxon_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTDREF
+		trigger = {
+		    NOT = {
+			    religion = saxon_pagan_reformed
+			}
+			NOT = {
+			    religion = saxon_pagan
+			}
+		}
+	}
+}
+
+narrative_event = { # Finnic Reformation
+    id = REF.7
+	title = EVTNAMEREF.7
+	desc = EVTDESCREF.7
+	
+	is_triggered_only = yes
+	show_ROOT = yes
+	
+	rulers_only = yes
+	
+	immediate = {
+        if = {
+		    limit = {
+			    any_demesne_province = {
+				    religion = finnish_pagan
+				}
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = finnish_pagan
+				}
+				religion = finnish_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = finnish_pagan
+				}
+				religion = finnish_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = finnish_pagan
+				}
+				religion = finnish_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = finnish_pagan
+				}
+				religion = finnish_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = finnish_pagan
+				}
+				religion = finnish_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = finnish_pagan
+				}
+				religion = finnish_pagan_old
+			}
+		}
+	}
+	
+	option = {
+	    name = EVTOPTAREF
+		trigger = {
+		    religion = finnish_pagan_reformed
+		}
+		
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = finnish_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = finnish_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = finnish_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = finnish_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTBREF
+		
+		ai_chance = {
+		    factor = 10
+			modifier = {
+				factor = 2500
+				any_liege = { religion = finnish_pagan_reformed }
+			}
+		}
+		
+		trigger = {
+		    religion = finnish_pagan
+		}
+		religion = finnish_pagan_reformed
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = finnish_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = finnish_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = finnish_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = finnish_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTCREF
+		
+		ai_chance = {
+		    factor = 90
+		}
+		
+		trigger = {
+		    religion = finnish_pagan
+		}
+		religion = finnish_pagan_old
+		hidden_tooltip = {
+		    any_courtier = {
+			    limit = {
+				    religion = finnish_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = finnish_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = finnish_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTDREF
+		trigger = {
+		    NOT = {
+			    religion = finnish_pagan_reformed
+			}
+			NOT = {
+			    religion = finnish_pagan
+			}
+		}
+	}
+}
+
+narrative_event = { # Samoyedic Reformation
+    id = REF.8
+	title = EVTNAMEREF.8
+	desc = EVTDESCREF.8
+	
+	is_triggered_only = yes
+	show_ROOT = yes
+	
+	rulers_only = yes
+	
+	immediate = {
+        if = {
+		    limit = {
+			    any_demesne_province = {
+				    religion = samoyedic_pagan
+				}
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = samoyedic_pagan
+				}
+				religion = samoyedic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = samoyedic_pagan
+				}
+				religion = samoyedic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = samoyedic_pagan
+				}
+				religion = samoyedic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = samoyedic_pagan
+				}
+				religion = samoyedic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = samoyedic_pagan
+				}
+				religion = samoyedic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = samoyedic_pagan
+				}
+				religion = samoyedic_pagan_old
+			}
+		}
+	}
+	
+	option = {
+	    name = EVTOPTAREF
+		trigger = {
+		    religion = samoyedic_pagan_reformed
+		}
+		
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = samoyedic_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = samoyedic_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = samoyedic_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = samoyedic_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTBREF
+		
+		ai_chance = {
+		    factor = 10
+			modifier = {
+				factor = 2500
+				any_liege = { religion = samoyedic_pagan_reformed }
+			}
+		}
+		
+		trigger = {
+		    religion = samoyedic_pagan
+		}
+		religion = samoyedic_pagan_reformed
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = samoyedic_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = samoyedic_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = samoyedic_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = samoyedic_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTCREF
+		
+		ai_chance = {
+		    factor = 90
+		}
+		
+		trigger = {
+		    religion = samoyedic_pagan
+		}
+		religion = samoyedic_pagan_old
+		hidden_tooltip = {
+		    any_courtier = {
+			    limit = {
+				    religion = samoyedic_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = samoyedic_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = samoyedic_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTDREF
+		trigger = {
+		    NOT = {
+			    religion = samoyedic_pagan_reformed
+			}
+			NOT = {
+			    religion = samoyedic_pagan
+			}
+		}
+	}
+}
+
+narrative_event = { # Volgaic Reformation
+    id = REF.9
+	title = EVTNAMEREF.9
+	desc = EVTDESCREF.9
+	
+	is_triggered_only = yes
+	show_ROOT = yes
+	
+	rulers_only = yes
+	
+	immediate = {
+        if = {
+		    limit = {
+			    any_demesne_province = {
+				    religion = volgaic_pagan
+				}
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = volgaic_pagan
+				}
+				religion = volgaic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = volgaic_pagan
+				}
+				religion = volgaic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = volgaic_pagan
+				}
+				religion = volgaic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = volgaic_pagan
+				}
+				religion = volgaic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = volgaic_pagan
+				}
+				religion = volgaic_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = volgaic_pagan
+				}
+				religion = volgaic_pagan_old
+			}
+		}
+	}
+	
+	option = {
+	    name = EVTOPTAREF
+		trigger = {
+		    religion = volgaic_pagan_reformed
+		}
+		
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = volgaic_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = volgaic_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = volgaic_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = volgaic_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTBREF
+		
+		ai_chance = {
+		    factor = 10
+			modifier = {
+				factor = 2500
+				any_liege = { religion = volgaic_pagan_reformed }
+			}
+		}
+		
+		trigger = {
+		    religion = volgaic_pagan
+		}
+		religion = volgaic_pagan_reformed
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = volgaic_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = volgaic_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = volgaic_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = volgaic_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTCREF
+		
+		ai_chance = {
+		    factor = 90
+		}
+		
+		trigger = {
+		    religion = volgaic_pagan
+		}
+		religion = volgaic_pagan_old
+		hidden_tooltip = {
+		    any_courtier = {
+			    limit = {
+				    religion = volgaic_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = volgaic_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = volgaic_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTDREF
+		trigger = {
+		    NOT = {
+			    religion = volgaic_pagan_reformed
+			}
+			NOT = {
+			    religion = volgaic_pagan
+			}
+		}
+	}
+}
+
+narrative_event = { # Ugric Reformation
+    id = REF.10
+	title = EVTNAMEREF.10
+	desc = EVTDESCREF.10
+	
+	is_triggered_only = yes
+	show_ROOT = yes
+	
+	rulers_only = yes
+	
+	immediate = {
+        if = {
+		    limit = {
+			    any_demesne_province = {
+				    religion = ugric_pagan
+				}
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = ugric_pagan
+				}
+				religion = ugric_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = ugric_pagan
+				}
+				religion = ugric_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = ugric_pagan
+				}
+				religion = ugric_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = ugric_pagan
+				}
+				religion = ugric_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = ugric_pagan
+				}
+				religion = ugric_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = ugric_pagan
+				}
+				religion = ugric_pagan_old
+			}
+		}
+	}
+	
+	option = {
+	    name = EVTOPTAREF
+		trigger = {
+		    religion = ugric_pagan_reformed
+		}
+		
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = ugric_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = ugric_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = ugric_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = ugric_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTBREF
+		
+		ai_chance = {
+		    factor = 10
+			modifier = {
+				factor = 2500
+				any_liege = { religion = ugric_pagan_reformed }
+			}
+		}
+		
+		trigger = {
+		    religion = ugric_pagan
+		}
+		religion = ugric_pagan_reformed
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = ugric_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = ugric_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = ugric_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = ugric_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTCREF
+		
+		ai_chance = {
+		    factor = 90
+		}
+		
+		trigger = {
+		    religion = ugric_pagan
+		}
+		religion = ugric_pagan_old
+		hidden_tooltip = {
+		    any_courtier = {
+			    limit = {
+				    religion = ugric_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = ugric_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = ugric_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTDREF
+		trigger = {
+		    NOT = {
+			    religion = ugric_pagan_reformed
+			}
+			NOT = {
+			    religion = ugric_pagan
+			}
+		}
+	}
+}
+
+narrative_event = { # Bön Reformation
+    id = REF.11
+	title = EVTNAMEREF.11
+	desc = EVTDESCREF.11
+	
+	is_triggered_only = yes
+	show_ROOT = yes
+	
+	rulers_only = yes
+	
+	immediate = {
+        if = {
+		    limit = {
+			    any_demesne_province = {
+				    religion = bon_pagan
+				}
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = bon_pagan
+				}
+				religion = bon_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = bon_pagan
+				}
+				religion = bon_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = bon_pagan
+				}
+				religion = bon_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = bon_pagan
+				}
+				religion = bon_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = bon_pagan
+				}
+				religion = bon_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = bon_pagan
+				}
+				religion = bon_pagan_old
+			}
+		}
+	}
+	
+	option = {
+	    name = EVTOPTAREF
+		trigger = {
+		    religion = bon_pagan_reformed
+		}
+		
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = bon_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = bon_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = bon_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = bon_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTBREF
+		
+		ai_chance = {
+		    factor = 10
+			modifier = {
+				factor = 2500
+				any_liege = { religion = bon_pagan_reformed }
+			}
+		}
+		
+		trigger = {
+		    religion = bon_pagan
+		}
+		religion = bon_pagan_reformed
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = bon_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = bon_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = bon_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = bon_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTCREF
+		
+		ai_chance = {
+		    factor = 90
+		}
+		
+		trigger = {
+		    religion = bon_pagan
+		}
+		religion = bon_pagan_old
+		hidden_tooltip = {
+		    any_courtier = {
+			    limit = {
+				    religion = bon_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = bon_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = bon_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTDREF
+		trigger = {
+		    NOT = {
+			    religion = bon_pagan_reformed
+			}
+			NOT = {
+			    religion = bon_pagan
+			}
+		}
+	}
+}
+
+narrative_event = { # Dravidian Reformation
+    id = REF.12
+	title = EVTNAMEREF.12
+	desc = EVTDESCREF.12
+	
+	is_triggered_only = yes
+	show_ROOT = yes
+	
+	rulers_only = yes
+	
+	immediate = {
+        if = {
+		    limit = {
+			    any_demesne_province = {
+				    religion = dravidian_pagan
+				}
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = dravidian_pagan
+				}
+				religion = dravidian_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = dravidian_pagan
+				}
+				religion = dravidian_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = dravidian_pagan
+				}
+				religion = dravidian_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = dravidian_pagan
+				}
+				religion = dravidian_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = dravidian_pagan
+				}
+				religion = dravidian_pagan_old
+			}
+			random_demesne_province = {
+			    limit = {
+				    religion = dravidian_pagan
+				}
+				religion = dravidian_pagan_old
+			}
+		}
+	}
+	
+	option = {
+	    name = EVTOPTAREF
+		trigger = {
+		    religion = dravidian_pagan_reformed
+		}
+		
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = dravidian_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = dravidian_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = dravidian_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = dravidian_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTBREF
+		
+		ai_chance = {
+		    factor = 10
+			modifier = {
+				factor = 2500
+				any_liege = { religion = dravidian_pagan_reformed }
+			}
+		}
+		
+		trigger = {
+		    religion = dravidian_pagan
+		}
+		religion = dravidian_pagan_reformed
+		hidden_tooltip = {
+		    capital_scope = {
+			    if = {
+				    limit = { religion = dravidian_pagan_old }
+				    religion = ROOT
+			    }
+		    }
+		    any_courtier = {
+			    limit = {
+				    religion = dravidian_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = dravidian_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = dravidian_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTCREF
+		
+		ai_chance = {
+		    factor = 90
+		}
+		
+		trigger = {
+		    religion = dravidian_pagan
+		}
+		religion = dravidian_pagan_old
+		hidden_tooltip = {
+		    any_courtier = {
+			    limit = {
+				    religion = dravidian_pagan
+				    employer = { character = ROOT }
+			    }
+			    religion = ROOT
+		    }
+		    any_dynasty_member = {
+			    limit = {
+				    religion = dravidian_pagan
+				    is_playable = no
+			    }
+			    religion = ROOT
+		    }
+		    any_vassal = {
+			    limit = {
+				    is_playable = no
+				    religion = dravidian_pagan
+			    }
+			    religion = ROOT
+		    }
+		}
+	}
+	
+	option = {
+	    name = EVTOPTDREF
+		trigger = {
+		    NOT = {
+			    religion = dravidian_pagan_reformed
+			}
+			NOT = {
+			    religion = dravidian_pagan
+			}
+		}
+	}
+}

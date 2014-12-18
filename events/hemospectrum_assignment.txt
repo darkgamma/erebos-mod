@@ -1,0 +1,79 @@
+######################################
+##									##
+##		Written by Darkgamma		##
+##	   ASCII Art by Darkgamma		##
+##									##
+######################################
+
+######################################
+##									##
+##			Version: 1.0a			##
+##									##
+######################################
+
+######################################
+##									##
+##	 Hemospectrum Start-Up Event	##
+##									##
+######################################
+
+namespace = HSA
+
+character_event = {
+	id = HSA.1
+	picture = GFX_evt_doctor
+	border = GFX_event_normal_frame_economy
+
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	desc = EVTDESCHSA.1
+	
+	trigger = {
+		NOT = {
+			OR = {
+				trait = hsb_red
+				trait = hsb_bronze
+				trait = hsb_yellow
+				trait = hsb_lime
+				trait = hsb_jade
+				trait = hsb_teal
+				trait = hsb_blue
+				trait = hsb_indigo
+				trait = hsb_yellow2
+				trait = hsb_lime2
+				trait = hsb_jade2
+				trait = hsb_teal2
+				trait = hsb_blue2
+				trait = hsb_indigo2
+				trait = hsb_violet
+				trait = hs_nspawn
+				trait = hs_halfling
+				trait = hs_primod
+			}
+		}
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 1
+		}
+		name = EVTOPTAHSA.1
+		custom_tooltip = { text = add_hsbred }
+		hidden_tooltip = {
+			add_trait = hsb_red
+		}
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = EVTOPTBHSA.1
+		custom_tooltip = { text = add_hsbbronze }
+		hidden_tooltip = {
+			add_trait = hsb_bronze
+		}
+	}
+}

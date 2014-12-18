@@ -1,0 +1,1040 @@
+namespace = LECH
+
+character_event = {
+	id = LECH.1
+    hide_window = yes
+	only_playable = yes
+	
+	trigger = {
+		OR = {
+		    AND = { 
+			    OR = {
+				    primary_title = {
+					    title = d_the_poles
+					}
+					primary_title = {
+					    title = d_lech_polania
+					}
+				}
+                NOT = { 
+				    has_character_flag = polish_ruler
+				}
+		    }
+			AND = { 
+			    OR = {
+				    primary_title = {
+					    title = d_the_vistulans
+					}
+					primary_title = {
+					    title = d_lech_vistulania
+					}
+				}
+                NOT = { 
+				    has_character_flag = vistulan_ruler
+				}
+		    }
+			AND = { 
+			    OR = {
+				    primary_title = {
+					    title = d_the_mazovians
+					}
+					primary_title = {
+					    title = d_lech_mazovia
+					}
+				}
+                NOT = { 
+				    has_character_flag = mazovian_ruler
+				}
+		    }
+			AND = { 
+			    OR = {
+				    primary_title = {
+					    title = d_the_prussians
+					}
+					primary_title = {
+					    title = d_lech_prussia
+					}
+				}
+                NOT = { 
+				    has_character_flag = prussian_ruler
+				}
+		    }
+			AND = { 
+			    OR = {
+				    primary_title = {
+					    title = d_the_silesians
+					}
+					primary_title = {
+					    title = d_lech_silesia
+					}
+				}
+                NOT = { 
+				    has_character_flag = silesian_ruler
+				}
+		    }
+			AND = { 
+			    OR = {
+				    primary_title = {
+					    title = d_the_kashubians
+					}
+					primary_title = {
+					    title = d_lech_kashubia
+					}
+				}
+                NOT = { 
+				    has_character_flag = kashubian_ruler
+				}
+		    }
+			AND = { 
+			    OR = {
+				    primary_title = {
+					    title = d_the_prussians
+					}
+					primary_title = {
+					    title = d_lech_prussia
+					}
+				}
+                NOT = { 
+				    has_character_flag = pomeranian_ruler
+				}
+		    }
+			AND = { 
+			    OR = {
+				    primary_title = {
+					    title = d_the_sorbs
+					}
+					primary_title = {
+					    title = d_lech_sorbia
+					}
+				}
+                NOT = { 
+				    has_character_flag = sorbian_ruler
+				}
+		    }
+			AND = { 
+			    OR = {
+				    primary_title = {
+					    title = d_the_ranes
+					}
+					primary_title = {
+					    title = d_lech_rania
+					}
+				}
+                NOT = { 
+				    has_character_flag = rane_ruler
+				}
+		    }
+			AND = { 
+			    OR = {
+				    primary_title = {
+					    title = d_the_obodrites
+					}
+					primary_title = {
+					    title = d_lech_obodritia
+					}
+				}
+                NOT = { 
+				    has_character_flag = obodrite_ruler
+				}
+		    }
+			AND = {
+			    primary_title = {
+				    title = k_lechitic
+				}
+				has_global_flag = the_lechites
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 0
+	}
+	
+	immediate = {
+		if = { 
+		    limit = {
+			    OR = {
+				    primary_title = {
+					    title = d_the_poles
+					}
+					primary_title = {
+					    title = d_lech_polania
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = polania
+					}
+				}
+			}	
+			set_character_flag = polish_ruler
+		}
+		if = { 
+		    limit = {
+			    OR = {
+				    primary_title = {
+					    title = d_the_vistulans
+					}
+					primary_title = {
+					    title = d_lech_vistulania
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = vistulania
+					}
+				}
+			}
+			set_character_flag = vistulan_ruler
+		}
+		if = { 
+		    limit = {
+			    OR = {
+				    primary_title = {
+					    title = d_the_mazovians
+					}
+					primary_title = {
+					    title = d_lech_mazovia
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = mazovia
+					}
+				}
+		    }
+		    set_character_flag = mazovian_ruler
+	    }
+		if = { 
+		    limit = {
+			    OR = {
+				    primary_title = {
+					    title = d_the_prussians
+					}
+					primary_title = {
+					    title = d_lech_prussia
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = prussia
+					}
+				}
+		    }
+		    set_character_flag = prussian_ruler
+	    }
+		if = { 
+		    limit = {
+			    OR = {
+				    primary_title = {
+					    title = d_the_silesians
+					}
+					primary_title = {
+					    title = d_lech_silesia
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = silesia
+					}
+				}
+		    }
+		    set_character_flag = silesian_ruler
+	    }
+		if = { 
+		    limit = { 
+			    OR = {
+				    primary_title = {
+					    title = d_the_kashubians
+					}
+					primary_title = {
+					    title = d_lech_kashubia
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = kashubia
+					}
+				}
+		    }
+		    set_character_flag = kashubian_ruler
+	    }
+		if = { 
+		    limit = { 
+			    OR = {
+				    primary_title = {
+					    title = d_the_pomeranians
+					}
+					primary_title = {
+					    title = d_lech_pomerania
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = pomerania
+					}
+				}
+		    }
+		    set_character_flag = pomeranian_ruler
+	    }
+		if = { 
+		    limit = {
+			    OR = {
+				    primary_title = {
+					    title = d_the_sorbs
+					}
+					primary_title = {
+					    title = d_lech_sorbia
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = sorbia
+					}
+				}
+		    }
+		    set_character_flag = sorbian_ruler
+	    }
+		if = { 
+		    limit = {
+			    OR = {
+				    primary_title = {
+					    title = d_the_ranes
+					}
+					primary_title = {
+					    title = d_lech_rania
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = rania
+					}
+				}
+			}
+		    set_character_flag = rane_ruler
+	    }
+		if = { 
+		    limit = { 
+			    OR = {
+				    primary_title = {
+					    title = d_the_obodrites
+					}
+					primary_title = {
+					    title = d_lech_obodritia
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = obodritia
+					}
+				}
+			}
+		    set_character_flag = obodrite_ruler
+	    }
+	}
+	
+	option = {
+	    name = OK
+	}
+}
+
+character_event = {
+	id = LECH.2
+    hide_window = yes
+	only_playable = yes
+	
+	trigger = {
+		OR = {
+		    AND = { 
+		        NOT = {
+				    primary_title = {
+					    title = d_the_poles
+					}
+					primary_title = {
+					    title = d_lech_polania
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = polania
+					}				
+			    }
+				has_character_flag = polish_ruler 
+		    }
+			AND = { 
+		        NOT = {
+				    primary_title = {
+					    title = d_the_vistulans
+					}
+					primary_title = {
+					    title = d_lech_vistulania
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = vistulania
+					}				
+			    }
+				has_character_flag = vistulan_ruler 
+		    }
+			AND = { 
+		        NOT = {
+				    primary_title = {
+					    title = d_the_mazovians
+					}
+					primary_title = {
+					    title = d_lech_mazovia
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = mazovia
+					}				
+			    }
+				has_character_flag = mazovian_ruler 
+		    }
+			AND = { 
+		        NOT = {
+				    primary_title = {
+					    title = d_the_prussians
+					}
+					primary_title = {
+					    title = d_lech_prussia
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = prussia
+					}				
+			    }
+				has_character_flag = prussian_ruler 
+		    }
+			AND = { 
+		        NOT = {
+				    primary_title = {
+					    title = d_the_silesians
+					}
+					primary_title = {
+					    title = d_lech_silesia
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = silesia
+					}				
+			    }
+				has_character_flag = silesian_ruler 
+		    }
+			AND = { 
+		        NOT = {
+				    primary_title = {
+					    title = d_the_kashubians
+					}
+					primary_title = {
+					    title = d_lech_kashubia
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = kashubia
+					}				
+			    }
+				has_character_flag = kashubian_ruler 
+		    }
+			AND = { 
+		        NOT = {
+				    primary_title = {
+					    title = d_the_pomeranians
+					}
+					primary_title = {
+					    title = d_lech_pomerania
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = pomerania
+					}				
+			    }
+				has_character_flag = pomeranian_ruler 
+		    }
+			AND = { 
+		        NOT = {
+				    primary_title = {
+					    title = d_the_sorbs
+					}
+					primary_title = {
+					    title = d_lech_sorbia
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = sorbia
+					}				
+			    }
+				has_character_flag = sorbian_ruler 
+		    }
+			AND = { 
+		        NOT = {
+				    primary_title = {
+					    title = d_the_ranes
+					}
+					primary_title = {
+					    title = d_lech_rania
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = rania
+					}				
+			    }
+				has_character_flag = rane_ruler 
+		    }
+			AND = { 
+		        NOT = {
+				    primary_title = {
+					    title = d_the_obodrites
+					}
+					primary_title = {
+					    title = d_lech_obodritia
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = obodritia
+					}				
+			    }
+				has_character_flag = obodrite_ruler 
+		    }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 0
+	}
+	
+	immediate = {
+		if = { 
+		    limit = {
+                NOT = {
+				    primary_title = {
+					    title = d_the_poles
+					}
+					primary_title = {
+					    title = d_lech_polania
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = polania
+					}				
+			    }
+				has_character_flag = polish_ruler
+			}	
+			clr_character_flag = polish_ruler
+		}
+		if = { 
+		    limit = {
+                NOT = {
+				    primary_title = {
+					    title = d_the_vistulans
+					}
+					primary_title = {
+					    title = d_lech_vistulania
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = vistulania
+					}				
+			    }
+				has_character_flag = vistulan_ruler
+			}	
+			clr_character_flag = vistulan_ruler
+		}
+		if = { 
+		    limit = {
+                NOT = {
+				    primary_title = {
+					    title = d_the_mazovians
+					}
+					primary_title = {
+					    title = d_lech_mazovia
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = mazovia
+					}				
+			    }
+				has_character_flag = mazovian_ruler
+			}	
+		    clr_character_flag = mazovian_ruler
+	    }
+		if = { 
+		    limit = {
+                NOT = {
+				    primary_title = {
+					    title = d_the_prussians
+					}
+					primary_title = {
+					    title = d_lech_prussia
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = prussia
+					}				
+			    }
+				has_character_flag = prussian_ruler
+			}	
+		    clr_character_flag = prussian_ruler
+	    }
+		if = { 
+		    limit = {
+                NOT = {
+				    primary_title = {
+					    title = d_the_silesians
+					}
+					primary_title = {
+					    title = d_lech_silesia
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = silesia
+					}				
+			    }
+				has_character_flag = silesian_ruler
+			}	
+		    clr_character_flag = silesian_ruler
+	    }
+		if = { 
+		    limit = {
+                NOT = {
+				    primary_title = {
+					    title = d_the_kashubians
+					}
+					primary_title = {
+					    title = d_lech_kashubia
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = kashubia
+					}				
+			    }
+				has_character_flag = kashubian_ruler
+			}	
+		    clr_character_flag = kashubian_ruler
+	    }
+		if = { 
+		    limit = {
+                NOT = {
+				    primary_title = {
+					    title = d_the_pomeranians
+					}
+					primary_title = {
+					    title = d_lech_pomerania
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = pomerania
+					}				
+			    }
+				has_character_flag = pomeranian_ruler
+			}	
+		    clr_character_flag = pomeranian_ruler
+	    }
+		if = { 
+		    limit = {
+                NOT = {
+				    primary_title = {
+					    title = d_the_sorbs
+					}
+					primary_title = {
+					    title = d_lech_sorbia
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = sorbia
+					}				
+			    }
+				has_character_flag = sorbian_ruler
+			}	
+		    clr_character_flag = sorbian_ruler
+	    }
+		if = { 
+		    limit = {
+                NOT = {
+				    primary_title = {
+					    title = d_the_ranes
+					}
+					primary_title = {
+					    title = d_lech_rania
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = rania
+					}				
+			    }
+				has_character_flag = rane_ruler
+			}	
+		    clr_character_flag = rane_ruler
+	    }
+		if = { 
+		    limit = {
+                NOT = {
+				    primary_title = {
+					    title = d_the_obodrites
+					}
+					primary_title = {
+					    title = d_lech_obodritia
+					}
+					AND = {
+					    primary_title = {
+					        title = k_lechitic
+					    }
+						has_global_flag = obodritia
+					}				
+			    }
+				has_character_flag = obodrite_ruler
+			}	
+		    clr_character_flag = obodrite_ruler
+	    }
+	}
+	
+	option = {
+	    name = OK
+	}
+}
+
+character_event = {
+	id = LECH.3
+	only_playable = yes
+	
+	trigger = {
+		OR = {
+	        has_character_flag = polish_ruler
+	        has_character_flag = vistulan_ruler
+        	has_character_flag = mazovian_ruler
+   	   		has_character_flag = prussian_ruler
+	    	has_character_flag = silesian_ruler
+    		has_character_flag = kashubian_ruler    			
+			has_character_flag = pomeranian_ruler
+		   	has_character_flag = sorbian_ruler
+	    	has_character_flag = rane_ruler
+    		has_character_flag = obodrite_ruler
+		}
+		independent = yes
+		has_global_flag = the_lechites
+		culture = lechitic
+	}
+	
+	mean_time_to_happen = {
+		years = 0
+	}
+	
+	option = {
+	    name = OK
+		if = { 
+		    limit = {
+			    has_character_flag = polish_ruler
+			}
+			culture = polish
+			random_demesne_province = {
+			    culture = polish
+			}
+		}
+		if = { 
+		    limit = {
+			    has_character_flag = vistulan_ruler
+			}
+			culture = vistulan
+			random_demesne_province = {
+			    culture = vistulan
+			}
+		}
+		if = { 
+		    limit = {
+			    has_character_flag = mazovian_ruler
+			}
+			culture = mazovian
+			random_demesne_province = {
+			    culture = mazovian
+			}
+		}
+		if = { 
+		    limit = {
+			    has_character_flag = prussian_ruler
+			}
+			culture = prussian
+			random_demesne_province = {
+			    culture = prussian
+			}
+		}
+		if = { 
+		    limit = {
+			    has_character_flag = silesian_ruler
+			}
+			culture = silesian
+			random_demesne_province = {
+			    culture = silesian
+			}
+		}
+		if = { 
+		    limit = {
+			    has_character_flag = kashubian_ruler
+			}
+			culture = kashubian
+			random_demesne_province = {
+			    culture = kashubian
+			}
+		}
+		if = { 
+		    limit = {
+			    has_character_flag = pomeranian_ruler
+			}
+			culture = pomeranian
+			random_demesne_province = {
+			    culture = pomeranian
+			}
+		}
+		if = { 
+		    limit = {
+			    has_character_flag = sorbian_ruler
+			}
+			culture = sorbian
+			random_demesne_province = {
+			    culture = sorbian
+			}
+		}
+		if = { 
+		    limit = {
+			    has_character_flag = rane_ruler
+			}
+			culture = rane
+			random_demesne_province = {
+			    culture = rane
+			}
+		}
+		if = { 
+		    limit = {
+			    has_character_flag = obodrite_ruler
+			}
+			culture = obodrite
+			random_demesne_province = {
+			    culture = obodrite
+			}
+		}
+	}
+}
+
+character_event = {
+	id = LECH.4
+	desc = EVTDESCLECH.4
+	only_playable = yes
+	
+	trigger = {
+	    OR = {
+            primary_title = { title = d_the_poles }
+			primary_title = { title = d_the_vistulans }
+			primary_title = { title = d_the_mazovians }			
+			primary_title = { title = d_the_prussians }			
+			primary_title = { title = d_the_silesians }			
+			primary_title = { title = d_the_kashubians }			
+			primary_title = { title = d_the_pomeranians }			
+			primary_title = { title = d_the_sorbs }			
+			primary_title = { title = d_the_ranes }			
+			primary_title = { title = d_the_obodrites }			
+		}
+		culture = lechitic
+		realm_size = 20
+	}
+	
+	option = {
+	    name = OK
+		
+		if = { 
+		    limit = {
+				primary_title = {
+					title = d_the_poles
+				}
+		    }	
+		    d_lech_polania = {
+			    grant_title = ROOT
+			    copy_title_laws = d_the_poles
+			    copy_title_history = d_the_poles
+		    }
+		    d_the_poles = {
+			    destroy_landed_title = THIS
+		    }
+	    }
+		if = { 
+		    limit = {
+				primary_title = {
+					title = d_the_vistulans
+				}
+		    }	
+		    d_lech_vistulania = {
+			    grant_title = ROOT
+			    copy_title_laws = d_the_vistulans
+			    copy_title_history = d_the_vistulans
+		    }
+		    d_the_vistulans = {
+			    destroy_landed_title = THIS
+		    }
+	    }
+		if = { 
+		    limit = {
+				primary_title = {
+					title = d_the_mazovia
+				}
+		    }	
+		    d_lech_mazovia = {
+			    grant_title = ROOT
+			    copy_title_laws = d_the_mazovians
+			    copy_title_history = d_the_mazovians
+		    }
+		    d_the_mazovians = {
+			    destroy_landed_title = THIS
+		    }
+	    }
+		if = { 
+		    limit = {
+				primary_title = {
+					title = d_the_prussians
+				}
+		    }	
+		    d_lech_prussia = {
+			    grant_title = ROOT
+			    copy_title_laws = d_the_prussians
+			    copy_title_history = d_the_prussians
+		    }
+		    d_the_prussians = {
+			    destroy_landed_title = THIS
+		    }
+	    }
+		if = { 
+		    limit = {
+				primary_title = {
+					title = d_the_silesians
+				}
+		    }	
+		    d_lech_silesia = {
+			    grant_title = ROOT
+			    copy_title_laws = d_the_silesians
+			    copy_title_history = d_the_silesians
+		    }
+		    d_the_silesians = {
+			    destroy_landed_title = THIS
+		    }
+	    }
+		if = { 
+		    limit = {
+				primary_title = {
+					title = d_the_kashubians
+				}
+		    }	
+		    d_lech_kashubia = {
+			    grant_title = ROOT
+			    copy_title_laws = d_the_kashubians
+			    copy_title_history = d_the_kashubians
+		    }
+		    d_the_kashubians = {
+			    destroy_landed_title = THIS
+		    }
+	    }
+		if = { 
+		    limit = {
+				primary_title = {
+					title = d_the_pomeranians
+				}
+		    }	
+		    d_lech_pomerania = {
+			    grant_title = ROOT
+			    copy_title_laws = d_the_pomeranians
+			    copy_title_history = d_the_pomeranians
+		    }
+		    d_the_pomeranians = {
+			    destroy_landed_title = THIS
+		    }
+	    }
+		if = { 
+		    limit = {
+				primary_title = {
+					title = d_the_sorbs
+				}
+		    }	
+		    d_lech_sorbia = {
+			    grant_title = ROOT
+			    copy_title_laws = d_the_sorbs
+			    copy_title_history = d_the_sorbs
+		    }
+		    d_the_sorbs = {
+			    destroy_landed_title = THIS
+		    }
+	    }
+		if = { 
+		    limit = {
+				primary_title = {
+					title = d_the_ranes
+				}
+		    }	
+		    d_lech_rania = {
+			    grant_title = ROOT
+			    copy_title_laws = d_the_ranes
+			    copy_title_history = d_the_ranes
+		    }
+		    d_the_ranes = {
+			    destroy_landed_title = THIS
+		    }
+	    }
+		if = { 
+		    limit = {
+				primary_title = {
+					title = d_the_obodrites
+				}
+		    }	
+		    d_lech_obodritia = {
+			    grant_title = ROOT
+			    copy_title_laws = d_the_obodrites
+			    copy_title_history = d_the_obodrites
+		    }
+		    d_the_obodrites = {
+			    destroy_landed_title = THIS
+		    }
+	    }
+	}
+}
