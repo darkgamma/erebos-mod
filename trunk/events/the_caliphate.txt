@@ -1,0 +1,132 @@
+namespace = CAL
+character_event = {
+	id = CAL.1
+	title = OK
+	desc = OK
+	hide_window = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	only_rulers = yes
+	
+	trigger = {
+		has_title = e_caliphate
+		
+		any_realm_title = {
+			tier = KING
+			NOT = {
+				de_jure_liege = e_caliphate
+			}
+			any_dejure_title = {
+				higher_tier_than = BARON
+				de_facto_liege = e_caliphate
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 0
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				any_realm_title = {
+					tier = KING
+					NOT = {
+						de_jure_liege = e_caliphate
+					}
+					any_dejure_title = {
+						higher_tier_than = BARON
+						de_facto_liege = e_caliphate
+					}
+				}
+			}
+			PREVPREV = {
+				set_dejure_liege = e_caliphate
+			}
+		}
+	}
+	
+	option = {
+		name = "OK"
+	}
+}
+
+character_event = 
+	id = CAL.0
+	title = OK
+	desc = OK
+	hide_window = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	only_rulers = yes
+	
+	trigger = {
+		has_landed_title = e_caliphate
+		
+		OR = {
+				any_realm_title = {
+					tier = KING
+					NOT = {
+						de_jure_liege = e_caliphate
+					}
+					any_dejure_title = {
+						higher_tier_than = BARON
+						de_facto_liege = e_caliphate
+					}
+				}
+			}
+			NOT = {
+				completely_controls = {
+					any_dejure_title = {
+						tier = KING
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 0
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				completely_controls = {
+					any_realm_title = {
+						tier = KING
+						NOT = {
+							de_jure_liege = e_caliphate		
+						}
+					}
+				}
+			}
+			PREVPREVPREV = {
+				de_jure_liege = e_caliphate
+			}
+		}
+		if = {
+			limit = {
+				completely_controls = {
+					any_dejure_title = {
+						tier = KING
+						NOT = {
+							de_jure_liege = e_caliphate		
+						}
+					}
+				}
+			}
+			PREVPREVPREV = {
+				de_jure_liege = 0
+			}
+		}
+	}
+	
+	option = {
+		name = "OK"
+	}
