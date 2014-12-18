@@ -1,0 +1,717 @@
+decisions = {
+    slavic_reformation = {
+	    is_high_prio = yes
+	    potential = {
+		    religion = slavic_pagan
+			age = 16
+		}
+		allow = {
+		    prisoner = no
+		    independent = yes
+		    OR = {
+			    tier = KING
+				tier = EMPEROR
+			}
+			NOT = {
+			    trait = cynical
+			}
+			piety = 5000
+			prestige = 5000
+			wealth = 500
+		}
+		effect = {
+		    piety = -5000
+			prestige = -5000
+		    wealth = -500
+		    ROOT = {
+			    religion = slavic_pagan_reformed
+				narrative_event = { id = REF.1 } 
+			}
+			set_global_flag = slavic_reformation
+			create_character = {
+			    religion = slavic_pagan_reformed
+				culture = ROOT
+				dynasty = random
+				age = 30
+				learning = 17
+				trait = zealous
+				random_traits = yes
+			}
+			new_character = {
+			    d_slavic_pagan_reformed = {
+				    active = yes
+			        grant_title = PREV
+				}
+				set_defacto_liege = ROOT
+			}
+			any_playable_ruler = {
+			    limit = {
+				    NOT = {
+					    religion = slavic_pagan_reformed
+					}
+				}
+				hidden_tooltip = {
+				    narrative_event = { id = REF.1 } 
+				}
+			}
+		}
+		ai_will_do = {
+		    factor = 250
+		}
+	}
+	
+	baltic_reformation = {
+	    is_high_prio = yes
+	    potential = {
+		    religion = baltic_pagan
+			age = 16
+		}
+		allow = {
+		    prisoner = no
+		    independent = yes
+		    OR = {
+			    tier = KING
+				tier = EMPEROR
+			}
+			NOT = {
+			    trait = cynical
+			}
+			piety = 5000
+			prestige = 5000
+			wealth = 500
+		}
+		effect = {
+		    piety = -5000
+			prestige = -5000
+		    wealth = -500
+		    ROOT = {
+			    religion = baltic_pagan_reformed
+				narrative_event = { id = REF.2 } 
+			}
+			set_global_flag = baltic_reformation
+			create_character = {
+			    religion = baltic_pagan_reformed
+				culture = ROOT
+				dynasty = random
+				age = 30
+				learning = 17
+				trait = zealous
+				random_traits = yes
+			}
+			new_character = {
+			    d_baltic_pagan_reformed = {
+				    active = yes
+			        grant_title = PREV
+				}
+				set_defacto_liege = ROOT
+			}
+			any_playable_ruler = {
+			    limit = {
+				    NOT = {
+					    religion = baltic_pagan_reformed
+					}
+				}
+				hidden_tooltip = {
+				    narrative_event = { id = REF.2 } 
+				}
+			}
+		}
+		ai_will_do = {
+		    factor = 250
+		}
+	}
+	
+	saami_reformation = {
+	    is_high_prio = yes
+	    potential = {
+		    religion = saami_pagan
+			age = 16
+		}
+		allow = {
+		    prisoner = no
+		    independent = yes
+		    OR = {
+			    tier = KING
+				tier = EMPEROR
+			}
+			NOT = {
+			    trait = cynical
+			}
+			piety = 5000
+			prestige = 5000
+			wealth = 500
+		}
+		effect = {
+		    piety = -5000
+			prestige = -5000
+		    wealth = -500
+		    ROOT = {
+			    religion = saami_pagan_reformed
+				narrative_event = { id = REF.3 } 
+			}
+			set_global_flag = saami_reformation
+			create_character = {
+			    religion = saami_pagan_reformed
+				culture = ROOT
+				dynasty = random
+				age = 30
+				learning = 17
+				trait = zealous
+				random_traits = yes
+			}
+			new_character = {
+			    d_saami_pagan_reformed = {
+				    active = yes
+			        grant_title = PREV
+				}
+				set_defacto_liege = ROOT
+			}
+			any_playable_ruler = {
+			    limit = {
+				    NOT = {
+					    religion = saami_pagan_reformed
+					}
+				}
+				hidden_tooltip = {
+				    narrative_event = { id = REF.3 } 
+				}
+			}
+		}
+		ai_will_do = {
+		    factor = 250
+		}
+	}
+	
+	hungarian_reformation = {
+	    is_high_prio = yes
+	    potential = {
+		    religion = hungarian_pagan
+			age = 16
+		}
+		allow = {
+		    prisoner = no
+		    independent = yes
+		    OR = {
+			    tier = KING
+				tier = EMPEROR
+			}
+			NOT = {
+			    trait = cynical
+			}
+			piety = 5000
+			prestige = 5000
+			wealth = 500
+		}
+		effect = {
+		    piety = -5000
+			prestige = -5000
+		    wealth = -500
+		    ROOT = {
+			    religion = hungarian_pagan_reformed
+				narrative_event = { id = REF.4 } 
+			}
+			set_global_flag = hungarian_reformation
+			create_character = {
+			    religion = hungarian_pagan_reformed
+				culture = ROOT
+				dynasty = random
+				age = 30
+				learning = 17
+				trait = zealous
+				random_traits = yes
+			}
+			new_character = {
+			    d_hungarian_pagan_reformed = {
+				    active = yes
+			        grant_title = PREV
+				}
+				set_defacto_liege = ROOT
+			}
+			any_playable_ruler = {
+			    limit = {
+				    NOT = {
+					    religion = hungarian_pagan_reformed
+					}
+				}
+				hidden_tooltip = {
+				    narrative_event = { id = REF.4 } 
+				}
+			}
+		}
+		ai_will_do = {
+		    factor = 250
+		}
+	}
+	
+	contgermanic_reformation = {
+	    is_high_prio = yes
+	    potential = {
+		    religion = contgermanic
+			age = 16
+		}
+		allow = {
+		    prisoner = no
+		    independent = yes
+		    OR = {
+			    tier = KING
+				tier = EMPEROR
+			}
+			NOT = {
+			    trait = cynical
+			}
+			piety = 5000
+			prestige = 5000
+			wealth = 500
+		}
+		effect = {
+		    piety = -5000
+			prestige = -5000
+		    wealth = -500
+		    ROOT = {
+			    religion = contgermanic_reformed
+				narrative_event = { id = REF.5 } 
+			}
+			set_global_flag = contgermanic_reformation
+			create_character = {
+			    religion = contgermanic_reformed
+				culture = ROOT
+				dynasty = random
+				age = 30
+				learning = 17
+				trait = zealous
+				random_traits = yes
+			}
+			new_character = {
+			    d_contgermanic_reformed = {
+				    active = yes
+			        grant_title = PREV
+				}
+				set_defacto_liege = ROOT
+			}
+			any_playable_ruler = {
+			    limit = {
+				    NOT = {
+					    religion = contgermanic_reformed
+					}
+				}
+				hidden_tooltip = {
+				    narrative_event = { id = REF.5 } 
+				}
+			}
+		}
+		ai_will_do = {
+		    factor = 250
+		}
+	}
+	
+	saxon_reformation = {
+	    is_high_prio = yes
+	    potential = {
+		    religion = saxon_pagan
+			age = 16
+		}
+		allow = {
+		    prisoner = no
+		    independent = yes
+		    OR = {
+			    tier = KING
+				tier = EMPEROR
+			}
+			NOT = {
+			    trait = cynical
+			}
+			piety = 5000
+			prestige = 5000
+			wealth = 500
+		}
+		effect = {
+		    piety = -5000
+			prestige = -5000
+		    wealth = -500
+		    ROOT = {
+			    religion = saxon_pagan_reformed
+				narrative_event = { id = REF.6 } 
+			}
+			set_global_flag = saxon_reformation
+			create_character = {
+			    religion = saxon_pagan_reformed
+				culture = ROOT
+				dynasty = random
+				age = 30
+				learning = 17
+				trait = zealous
+				random_traits = yes
+			}
+			new_character = {
+			    d_saxon_pagan_reformed = {
+				    active = yes
+			        grant_title = PREV
+				}
+				set_defacto_liege = ROOT
+			}
+			any_playable_ruler = {
+			    limit = {
+				    NOT = {
+					    religion = saxon_pagan_reformed
+					}
+				}
+				hidden_tooltip = {
+				    narrative_event = { id = REF.6 } 
+				}
+			}
+		}
+		ai_will_do = {
+		    factor = 250
+		}
+	}
+	
+	finnish_reformation = {
+	    is_high_prio = yes
+	    potential = {
+		    religion = finnish_pagan
+			age = 16
+		}
+		allow = {
+		    prisoner = no
+		    independent = yes
+		    OR = {
+			    tier = KING
+				tier = EMPEROR
+			}
+			NOT = {
+			    trait = cynical
+			}
+			piety = 5000
+			prestige = 5000
+			wealth = 500
+		}
+		effect = {
+		    piety = -5000
+			prestige = -5000
+		    wealth = -500
+		    ROOT = {
+			    religion = finnish_pagan_reformed
+				narrative_event = { id = REF.7 } 
+			}
+			set_global_flag = finnish_reformation
+			create_character = {
+			    religion = finnish_pagan_reformed
+				culture = ROOT
+				dynasty = random
+				age = 30
+				learning = 17
+				trait = zealous
+				random_traits = yes
+			}
+			new_character = {
+			    d_finnish_pagan_reformed = {
+				    active = yes
+			        grant_title = PREV
+				}
+				set_defacto_liege = ROOT
+			}
+			any_playable_ruler = {
+			    limit = {
+				    NOT = {
+					    religion = finnish_pagan_reformed
+					}
+				}
+				hidden_tooltip = {
+				    narrative_event = { id = REF.7 } 
+				}
+			}
+		}
+		ai_will_do = {
+		    factor = 250
+		}
+	}
+	
+	samoyedic_reformation = {
+	    is_high_prio = yes
+	    potential = {
+		    religion = samoyedic_pagan
+			age = 16
+		}
+		allow = {
+		    prisoner = no
+		    independent = yes
+		    OR = {
+			    tier = KING
+				tier = EMPEROR
+			}
+			NOT = {
+			    trait = cynical
+			}
+			piety = 5000
+			prestige = 5000
+			wealth = 500
+		}
+		effect = {
+		    piety = -5000
+			prestige = -5000
+		    wealth = -500
+		    ROOT = {
+			    religion = samoyedic_pagan_reformed
+				narrative_event = { id = REF.8 } 
+			}
+			set_global_flag = samoyedic_reformation
+			create_character = {
+			    religion = samoyedic_pagan_reformed
+				culture = ROOT
+				dynasty = random
+				age = 30
+				learning = 17
+				trait = zealous
+				random_traits = yes
+			}
+			new_character = {
+			    d_samoyedic_pagan_reformed = {
+				    active = yes
+			        grant_title = PREV
+				}
+				set_defacto_liege = ROOT
+			}
+			any_playable_ruler = {
+			    limit = {
+				    NOT = {
+					    religion = samoyedic_pagan_reformed
+					}
+				}
+				hidden_tooltip = {
+				    narrative_event = { id = REF.8 } 
+				}
+			}
+		}
+		ai_will_do = {
+		    factor = 250
+		}
+	}
+	
+	volgaic_reformation = {
+	    is_high_prio = yes
+	    potential = {
+		    religion = volgaic_pagan
+			age = 16
+		}
+		allow = {
+		    prisoner = no
+		    independent = yes
+		    OR = {
+			    tier = KING
+				tier = EMPEROR
+			}
+			NOT = {
+			    trait = cynical
+			}
+			piety = 5000
+			prestige = 5000
+			wealth = 500
+		}
+		effect = {
+		    piety = -5000
+			prestige = -5000
+		    wealth = -500
+		    ROOT = {
+			    religion = volgaic_pagan_reformed
+				narrative_event = { id = REF.9 } 
+			}
+			set_global_flag = volgaic_reformation
+			create_character = {
+			    religion = volgaic_pagan_reformed
+				culture = ROOT
+				dynasty = random
+				age = 30
+				learning = 17
+				trait = zealous
+				random_traits = yes
+			}
+			new_character = {
+			    d_volgaic_pagan_reformed = {
+				    active = yes
+			        grant_title = PREV
+				}
+				set_defacto_liege = ROOT
+			}
+			any_playable_ruler = {
+			    limit = {
+				    NOT = {
+					    religion = volgaic_pagan_reformed
+					}
+				}
+				hidden_tooltip = {
+				    narrative_event = { id = REF.9 } 
+				}
+			}
+		}
+		ai_will_do = {
+		    factor = 250
+		}
+	}
+
+    ugric_reformation = {
+	    is_high_prio = yes
+	    potential = {
+		    religion = ugric_pagan
+			age = 16
+		}
+		allow = {
+		    prisoner = no
+		    independent = yes
+		    OR = {
+			    tier = KING
+				tier = EMPEROR
+			}
+			NOT = {
+			    trait = cynical
+			}
+			piety = 5000
+			prestige = 5000
+			wealth = 500
+		}
+		effect = {
+		    piety = -5000
+			prestige = -5000
+		    wealth = -500
+		    ROOT = {
+			    religion = ugric_pagan_reformed
+				narrative_event = { id = REF.10 } 
+			}
+			set_global_flag = ugric_reformation
+			create_character = {
+			    religion = ugric_pagan_reformed
+				culture = ROOT
+				dynasty = random
+				age = 30
+				learning = 17
+				trait = zealous
+				random_traits = yes
+			}
+			new_character = {
+			    d_ugric_pagan_reformed = {
+				    active = yes
+			        grant_title = PREV
+				}
+				set_defacto_liege = ROOT
+			}
+			any_playable_ruler = {
+			    limit = {
+				    NOT = {
+					    religion = ugric_pagan_reformed
+					}
+				}
+				hidden_tooltip = {
+				    narrative_event = { id = REF.10 } 
+				}
+			}
+		}
+		ai_will_do = {
+		    factor = 250
+		}
+	}
+	
+	bon_reformation = {
+	    is_high_prio = yes
+	    potential = {
+		    religion = bon_pagan
+			age = 16
+		}
+		allow = {
+		    prisoner = no
+		    independent = yes
+		    OR = {
+			    tier = KING
+				tier = EMPEROR
+			}
+			NOT = {
+			    trait = cynical
+			}
+			piety = 5000
+			prestige = 5000
+			wealth = 500
+		}
+		effect = {
+		    piety = -5000
+			prestige = -5000
+		    wealth = -500
+		    ROOT = {
+			    religion = bon_pagan_reformed
+				narrative_event = { id = REF.11 } 
+			}
+			set_global_flag = bon_reformation
+			create_character = {
+			    religion = bon_pagan_reformed
+				culture = ROOT
+				dynasty = random
+				age = 30
+				learning = 17
+				trait = zealous
+				random_traits = yes
+			}
+			new_character = {
+			    d_bon_pagan_reformed = {
+				    active = yes
+			        grant_title = PREV
+				}
+				set_defacto_liege = ROOT
+			}
+			any_playable_ruler = {
+			    limit = {
+				    NOT = {
+					    religion = bon_pagan_reformed
+					}
+				}
+				hidden_tooltip = {
+				    narrative_event = { id = REF.11 } 
+				}
+			}
+		}
+		ai_will_do = {
+		    factor = 250
+		}
+	}
+
+    dravidian_reformation = {
+	    is_high_prio = yes
+	    potential = {
+		    religion = dravidian_pagan
+			age = 16
+		}
+		allow = {
+		    prisoner = no
+		    independent = yes
+		    OR = {
+			    tier = KING
+				tier = EMPEROR
+			}
+			NOT = {
+			    trait = cynical
+			}
+			piety = 5000
+			prestige = 5000
+			wealth = 500
+		}
+		effect = {
+		    piety = -5000
+			prestige = -5000
+		    wealth = -500
+		    ROOT = {
+			    religion = dravidian_pagan_reformed
+				narrative_event = { id = REF.12 } 
+			}
+			set_global_flag = dravidian_reformation
+			any_playable_ruler = {
+			    limit = {
+				    NOT = {
+					    religion = dravidian_pagan_reformed
+					}
+				}
+				hidden_tooltip = {
+				    narrative_event = { id = REF.12 } 
+				}
+			}
+		}
+		ai_will_do = {
+		    factor = 250
+		}
+	}
+}
