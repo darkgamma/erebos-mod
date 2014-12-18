@@ -12603,7 +12603,7 @@ e_byzantine = {
 				b_shungut = {
 				}
 			}
-			c_southern_ural = {
+			c_ashli = {
 				color={ 207 172 77 }
 				color2={ 255 255 255 }
 			
