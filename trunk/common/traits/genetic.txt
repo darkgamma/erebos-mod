@@ -1,0 +1,261 @@
+######################################
+##									##
+##		Written by Darkgamma		##
+##	   ASCII Art by Darkgamma		##
+##	Version: 0.0a (First Version)	##
+##									##
+######################################
+
+######################################
+##									##
+##	 		Genetic Traits			##
+##									##
+######################################
+
+
+clubfooted = {
+	birth = 50
+	inherit_chance = 15
+	
+	sex_appeal_opinion = -10
+	same_opinion = 5
+	
+	martial = -1
+}
+
+harelip = {
+	birth = 50
+	inherit_chance = 15
+	
+	sex_appeal_opinion = -10
+	same_opinion = 5
+	
+	diplomacy = -1
+}
+
+hunchback = {
+	birth = 50
+	inherit_chance = 15
+	
+	sex_appeal_opinion = -30
+	same_opinion = 5
+	
+	vassal_opinion = -5
+	
+	martial = -1
+}
+
+lisp = {
+	birth = 50
+	inherit_chance = 15
+	
+	sex_appeal_opinion = -5
+	same_opinion = 5
+	
+	diplomacy = -1
+}
+
+stutter = {
+	birth = 50
+	inherit_chance = 15
+	
+	same_opinion = 5
+	
+	diplomacy = -1
+}
+
+fair = {
+	birth = 100
+	inherit_chance = 15
+	
+	sex_appeal_opinion = 30
+	
+	opposites =  {
+		ugly
+	}
+	
+	diplomacy = 1
+}
+
+ugly = {
+	birth = 100
+	inherit_chance = 10
+	
+	sex_appeal_opinion = -20
+	
+	opposites =  {
+		fair
+	}
+	
+	diplomacy = -1
+}
+
+dwarf = {
+	birth = 25
+	inherit_chance = 25
+	
+	sex_appeal_opinion = -30
+	same_opinion = 10
+	
+	martial = -1
+}
+
+genius = {
+	birth = 50
+	inherit_chance = 15
+	
+	opposites =  {
+		imbecile
+		slow
+		quick
+		bright
+	}
+	
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	martial = 5
+	learning = 5
+	
+	ai_rationality = 30
+	
+	vassal_opinion = 10
+	
+}
+
+quick = {
+	birth = 100
+	inherit_chance = 15
+	
+	opposites =  {
+		imbecile
+		slow
+		genius
+		bright
+	}
+	
+	diplomacy = 2
+	intrigue = 1
+	stewardship = 3
+	learning = 3
+	
+	ai_rationality = 15
+	vassal_opinion = 5
+}
+
+bright = {
+	birth = 100
+	inherit_chance = 15
+	
+	opposites =  {
+		imbecile
+		slow
+		genius
+		quick
+	}
+	
+	diplomacy = 3
+	intrigue = 3
+	martial = 2
+	learning = 1
+	
+	ai_rationality = 15
+}
+
+slow = {
+	birth = 100
+	inherit_chance = 15
+	
+	opposites =  {
+		imbecile
+		quick
+		bright
+		genius
+	}
+	
+	diplomacy = -3
+	intrigue = -3
+	stewardship = -3
+	martial = -3
+	learning = -3
+	
+	ai_rationality = -15
+}
+
+imbecile = {
+	birth = 50
+	inherit_chance = 15
+	
+	sex_appeal_opinion = -30
+	
+	opposites =  {
+		slow
+		quick
+		bright
+		genius
+	}
+	
+	diplomacy = -8
+	intrigue = -8
+	stewardship = -8
+	martial = -8
+	learning = -8
+	
+	ai_rationality = -30
+	
+	vassal_opinion = -10
+}
+
+inbred = {
+	inbred = yes
+	inherit_chance = 25
+	
+	sex_appeal_opinion = -30
+	
+	fertility = -0.3
+	health = -1.5
+	diplomacy = -5
+	intrigue = -5
+	stewardship = -5
+	martial = -5
+	learning = -5
+	
+	vassal_opinion = -20
+	
+	ai_rationality = -20
+}
+
+strong = {
+	birth = 100
+	inherit_chance = 15
+	
+	opposites =  {
+		weak
+	}
+	
+	diplomacy = 1
+	martial = 2
+	
+	health = 2
+	fertility = 0.1
+	
+	sex_appeal_opinion = 10
+	vassal_opinion = 10
+}
+
+weak = {
+	birth = 100
+	inherit_chance = 15
+	
+	opposites =  {
+		strong
+	}
+	
+	health = -1.0
+	fertility = -0.05
+	
+	martial = -1
+	
+	sex_appeal_opinion = -10
+	vassal_opinion = -10
+}
