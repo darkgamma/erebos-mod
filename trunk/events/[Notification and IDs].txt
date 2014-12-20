@@ -19,3 +19,5 @@
 ## selkup_invasion = Selkup Invasion events
 
 ## MAGIC_A = First sort of magic (Currently no genealogical significance, just first category)
+
+## MAGIC_ENGINE = The Magic Engine, slowly chugging away at your sanity
