@@ -40,3 +40,7 @@ ca_bloodworks_1;The Bloodworks;;;;;;;;;;;;;;x
 ca_bloodworks_2;The Antechamber;;;;;;;;;;;;;;x
 ca_bloodworks_1_desc;The bloodworks sit below the body of the castle. Not a sound escapes the thick doors.;;;;;;;;;;;;;;x
 ca_bloodworks_2_desc;A reckoning cannot be postponed indefinitely. The bill is almost due.;;;;;;;;;;;;;;x
+
+MAGIC_A.99999_desc;You receive a scribbled letter, slipped under your door. The letter's sealed with wax. Your liege wants you to assist [GetHerHimCap] with some arcane trivia.;;;;;;;;;;;;;;x
+MAGIC_A.99999_optA;Oh, well, best hear what it is *this* time.;;;;;;;;;;;;;;x
+MAGIC_A.99999_optA_tooltip;What is [GetHerHimCap] up to this time?;;;;;;;;;;;;;;x
