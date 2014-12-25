@@ -6,9 +6,9 @@ title = c_ragusa
 # Settlements
 max_settlements = 5
 
-b_cavtat = castle
-b_ragusa = city
-b_narona = temple
+#b_cavtat = castle
+b_ragusa = tribal
+#b_narona = temple
 #b_zaton = city 
 
 #b_slano = castle

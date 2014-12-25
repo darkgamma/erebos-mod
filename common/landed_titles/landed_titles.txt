@@ -11859,6 +11859,8 @@ e_byzantine = {
 				b_ochakiv = {
 				}
 				b_bohopol = {
+				    holy_site = hungarian_pagan
+					holy_site = hungarian_pagan_reformed 
 				}
 				b_odessa = {
 				}
@@ -12513,6 +12515,8 @@ e_byzantine = {
 				b_pal = {
 				}
 				b_uymuzh = {
+				    holy_site = hungarian_pagan
+					holy_site = hungarian_pagan_reformed 
 				}
 				b_belyaevka = {
 				}
@@ -12818,6 +12822,8 @@ e_byzantine = {
 				b_sarkel = {
 				}
 				b_belayavezha = {
+				    holy_site = hungarian_pagan
+					holy_site = hungarian_pagan_reformed 
 				}
 				b_semikarakorsk = {
 				}
@@ -14516,6 +14522,8 @@ e_avaria = {
 				b_heves = {
 				}
 				b_eger = {
+				    holy_site = hungarian_pagan
+					holy_site = hungarian_pagan_reformed 
 				}
 				b_gyongyos = {
 				}
@@ -14710,6 +14718,8 @@ e_avaria = {
 				b_barlad = {
 				}
 				b_husi = {
+				    holy_site = hungarian_pagan
+					holy_site = hungarian_pagan_reformed 
 				}
 				b_vaslui = {
 				}

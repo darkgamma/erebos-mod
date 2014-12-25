@@ -1,12 +1,12 @@
-# 411 - Vodi
+# 411 - Ingria
 
 # County Title
 title = c_vodi
 
 # Settlements
 max_settlements = 3
-b_noteborg = castle
-b_nyen = city
+b_noteborg = tribal
+#b_nyen = city
 
 #b_valaam = temple
 #b_ivanovskaya = castle

@@ -5,9 +5,9 @@ title = c_lettigalians
 
 # Settlements
 max_settlements = 4
-b_kreuzburg = castle
-b_jersika = city
-b_erle = temple
+b_kreuzburg = tribal
+#b_jersika = city
+#b_erle = temple
 
 #b_kokenhusen = castle
 #b_dungada = castle
@@ -18,16 +18,6 @@ b_erle = temple
 # Misc
 culture = lettigallish
 religion = baltic_pagan
-
-# History
-700.1.1 = {
-	b_kreuzburg = ca_keep_1
-	b_kreuzburg = ca_militia_barracks_1
-	b_kreuzburg = ca_wall_1
-	b_kreuzburg = ca_wall_q_1
-	b_jersika = ct_barracks_1
-	b_erle = tp_barracks_1
-}
 
 # History
 903.1.1 = { }

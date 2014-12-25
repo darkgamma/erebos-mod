@@ -5,9 +5,9 @@ title = c_rashka
 
 # Settlements
 max_settlements = 4
-b_ras = castle
-b_prizren = city
-b_decani = temple
+b_ras = tribal
+#b_prizren = city
+#b_decani = temple
 
 #b_svetispas = castle
 #b_trepca = castle

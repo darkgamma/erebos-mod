@@ -5,9 +5,9 @@ title = c_reval
 
 # Settlements
 max_settlements = 4
-b_toompea = castle
-b_reval = city
-b_hapsal = temple
+b_toompea = tribal
+#b_reval = city
+#b_hapsal = temple
 
 #b_leal = temple
 #b_borpeal = castle
@@ -19,14 +19,5 @@ b_hapsal = temple
 culture = ugricbaltic
 religion = finnish_pagan
 
-# History
-700.1.1 = {
-	b_toompea = ca_keep_1
-	b_toompea = ca_militia_barracks_1
-	b_toompea = ca_wall_1
-	b_toompea = ca_wall_q_1
-	b_reval = ct_barracks_1
-	b_hapsal = tp_barracks_1
-}
 # History
 903.1.1 = { }

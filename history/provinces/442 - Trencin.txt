@@ -5,9 +5,9 @@ title = c_trencin
 
 # Settlements
 max_settlements = 4
-b_trencsen = castle
-b_zilina = city
-b_turoc = temple
+b_trencsen = tribal
+#b_zilina = city
+#b_turoc = temple
 
 #b_ban = castle
 #b_puho = castle

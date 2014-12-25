@@ -9,7 +9,7 @@
 	add_trait = sloth
 	add_trait = ambitious
 	
-	religion = tengri_pagan_reformed
+	religion = tengri_pagan
 	culture = avar 
 	
 	874.1.1 = { birth = 874.1.1 }
@@ -49,7 +49,7 @@
 	
 	add_trait = hunter
 	
-	religion = tengri_pagan_reformed
+	religion = tengri_pagan
 	culture = bolghar
 	
 	866.1.1 = { birth = 866.1.1 }
@@ -61,7 +61,7 @@
 	
 	add_trait = falconer
 	
-	religion = tengri_pagan_reformed
+	religion = tengri_pagan
 	culture = cuman
 	
 	877.1.1 = { birth = 877.1.1 }
@@ -86,7 +86,7 @@
 	
 	add_trait = wroth
 	
-	religion = tengri_pagan_reformed
+	religion = tengri_pagan
 	culture = cuman
 	
 	884.1.1 = { birth = 884.1.1 }
@@ -111,7 +111,7 @@
 	
 	add_trait = cynical
 	
-	religion = tengri_pagan_reformed
+	religion = tengri_pagan
 	culture = turkish
 	
 	872.1.1 = { birth = 872.1.1 }
