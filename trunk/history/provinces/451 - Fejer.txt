@@ -6,9 +6,9 @@ title = c_fejer
 # Settlements
 max_settlements = 4
 
-b_sarbogard = castle
-b_mor = city
-b_adony = temple
+b_sarbogard = tribal
+#b_mor = city
+#b_adony = temple
 
 #b_val = castle
 #b_szekszard = castle

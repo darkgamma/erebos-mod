@@ -5,9 +5,9 @@ title = c_veglia
 
 # Settlements
 max_settlements = 4
-b_frankopan = castle
-b_veglia = city
-b_krk = temple
+#b_frankopan = castle
+#b_veglia = city
+b_krk = tribal
 
 #b_kraljevica = castle
 #b_bakar = castle

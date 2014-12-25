@@ -6,9 +6,9 @@ title = c_dorpat
 
 # Settlements
 max_settlements = 4
-b_fellin = castle
-b_jarva = city
-b_tartu = temple
+b_fellin = tribal
+#b_jarva = city
+#b_tartu = temple
 
 #b_odenpah = castle
 #b_lais = city
@@ -21,13 +21,5 @@ culture = ugricbaltic
 religion = finnish_pagan
 
 # History
-700.1.1 = {
-	b_fellin = ca_keep_1
-	b_fellin = ca_militia_barracks_1
-	b_fellin = ca_wall_1
-	b_fellin = ca_wall_q_1
-	b_jarva = ct_barracks_1
-	b_tartu = tp_barracks_1
-}
-# History
+
 903.1.1 = { }

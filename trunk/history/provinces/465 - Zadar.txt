@@ -5,9 +5,9 @@ title = c_zadar
 
 # Settlements
 max_settlements = 5
-b_sibenik = castle
-b_zadar = city
-b_knin = temple
+#b_sibenik = castle
+b_zadar = tribal
+#b_knin = temple
 
 #b_nin = castle
 #b_novigrad = castle

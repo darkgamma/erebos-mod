@@ -2,7 +2,7 @@
 	name="Timër"
 	dynasty= 6000001 # Araslanid
 	
-	religion="tengri_pagan_reformed"
+	religion="tengri_pagan"
 	culture="avar"
 	
 	add_trait="brilliant_strategist"
@@ -67,7 +67,7 @@
 	name="Organ"
 	dynasty= 6000006 # Sabinid
 	
-	religion="tengri_pagan_reformed"
+	religion="tengri_pagan"
 	culture="avar"
 	
     add_trait="lustful"
@@ -80,7 +80,7 @@
 	name="Barjik"
 	dynasty= 6000007 # Karanid
 	
-	religion="tengri_pagan_reformed"
+	religion="tengri_pagan"
 	culture="avar"
 		
 	add_trait="shy"

@@ -5,8 +5,8 @@ title = c_kathiri
 
 # Settlements
 max_settlements = 4
-b_shabwa = castle
-b_qana = city
+b_shabwa = tribal
+#b_qana = city
 #b_lodar = temple
 
 #b_seiyun = castle
