@@ -18,7 +18,7 @@ b_szekezfehervar = tribal
 
 # Misc
 culture = avar
-religion = tengri_pagan_reformed
+religion = tengri_pagan
 
 903.1.1 = { }
  

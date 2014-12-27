@@ -6,9 +6,9 @@ title = c_galaz
 # Settlements
 max_settlements = 4
 
-b_galaz = castle
-b_vicina = city
-b_aegyssus = temple
+b_galaz = tribal
+#b_vicina = city
+#b_aegyssus = temple
 
 #b_macin = castle
 #b_isaccea = castle

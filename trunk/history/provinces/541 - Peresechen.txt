@@ -5,9 +5,9 @@ title = c_peresechen
 
 # Settlements
 max_settlements = 5
-b_iasi = castle
-b_orhei = city
-b_varzaresti = temple
+b_iasi = tribal
+#b_orhei = city
+#b_varzaresti = temple
 
 #b_chisinau = castle
 #b_harlau = castle

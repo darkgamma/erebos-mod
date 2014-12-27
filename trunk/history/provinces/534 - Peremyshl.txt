@@ -5,9 +5,9 @@ title = c_peremyshl
 
 # Settlements
 max_settlements = 5
-b_peremyshl = castle
-b_sanok = city
-b_jaroslav = temple
+b_peremyshl = tribal
+#b_sanok = city
+#b_jaroslav = temple
 
 #b_lubaczow = castle
 #b_grodek = castle

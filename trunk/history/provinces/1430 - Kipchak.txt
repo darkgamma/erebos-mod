@@ -4,15 +4,15 @@ title = c_kipchak
 # Settlements
 max_settlements = 3
 
-b_zhitikara = castle
-b_zhailma = temple
-b_kipchak = city
+b_zhitikara = tribal
+#b_zhailma = temple
+#b_kipchak = city
 
 #b_amankaragaj = {}
 #b_kusmuryn = {}
 
 # Misc
 culture = cuman
-religion = tengri_pagan_reformed
+religion = tengri_pagan
 
 # History

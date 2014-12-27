@@ -5,9 +5,9 @@ title = c_chuy
 
 # Settlements
 max_settlements = 4
-b_suyab = castle
-b_bishkek = city
-b_almatu = temple
+b_suyab = tribal
+#b_bishkek = city
+#b_almatu = temple
 
 #b_balasagun = {}
 #b_taraz = {}
@@ -16,11 +16,6 @@ b_almatu = temple
 
 # Misc
 culture = karluk
-religion = tengri_pagan_reformed
+religion = tengri_pagan
 
 # History
-
-890.1.1 = {
-	b_balasagun = castle # Founded by the Kara-Khanid Khanate
-	capital = b_balasagun
-}
