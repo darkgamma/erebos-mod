@@ -5,8 +5,8 @@ title = c_yaik
 
 # Settlements
 max_settlements = 3
-b_kurgan = castle
-b_kyzalyar = city
+b_kurgan = tribal
+#b_kyzalyar = city
 #b_vagay = temple
 
 #b_lebyazhe = castle
@@ -17,7 +17,7 @@ b_kyzalyar = city
 
 # Misc
 culture = cuman
-religion = tengri_pagan_reformed
+religion = tengri_pagan
 
 # History
 

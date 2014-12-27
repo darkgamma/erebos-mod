@@ -5,9 +5,9 @@ title = c_finland
 
 # Settlements
 max_settlements = 4
-b_kuusisto = castle
-b_turku = city
-b_jukarsborg = castle
+b_kuusisto = tribal
+#b_turku = city
+#b_jukarsborg = castle
 #b_naantali = city
 #b_rikala = castle
 #b_rauma = temple

@@ -14684,7 +14684,7 @@ e_avaria = {
 				}
 			}
 		}
-		d_moldau = {
+		d_moldova = {
 			color={ 223 202 145 }
 			color2={ 255 255 255 }
 			

@@ -5,9 +5,9 @@ title = c_pereyaslavl
 
 # Settlements
 max_settlements = 6
-b_pereyaslavl = castle
-b_hadyach = city
-b_myrhorod = temple
+b_pereyaslavl = tribal
+#b_hadyach = city
+#b_myrhorod = temple
 #b_chornukhy = castle
 #b_hrebinka = castle
 #b_lokhvytsia = castle

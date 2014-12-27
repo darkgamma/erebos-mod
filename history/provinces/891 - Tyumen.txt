@@ -6,9 +6,9 @@ title = c_tyumen
 # Settlements
 max_settlements = 3
 
-b_tyumen = castle
+b_tyumen = tribal
 #b_tobolsk = city
-b_qashliq = temple
+#b_qashliq = temple
 
 #b_tugulym = castle
 #b_novtap = castle
@@ -18,7 +18,7 @@ b_qashliq = temple
 
 # Misc
 culture = cuman
-religion = tengri_pagan_reformed
+religion = tengri_pagan
 
 # History
 

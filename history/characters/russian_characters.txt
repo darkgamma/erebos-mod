@@ -31,8 +31,8 @@
 }
 
 16000003 = {
-	name = "Daniil"
-	dynasty = 16000003 # Igorovoich
+	name = "Vladimir"
+	dynasty = 16000003 # Seversky
 	
 	add_trait = paranoid
 	
@@ -44,7 +44,7 @@
 
 16000004 = {
 	name = "Oleg"
-	dynasty = 16000004 # Rostislavovich
+	dynasty = 16000004 # Radimich
 	
 	add_trait = trusting
 	add_trait = quick
@@ -57,7 +57,7 @@
 
 16000005 = {
 	name = "Gleb"
-	dynasty = 16000005 # Demidovich
+	dynasty = 16000005 # Vyatich
 	
 	add_trait = ugly
 	add_trait = cruel
@@ -91,4 +91,36 @@
 	religion = baltic_pagan
 	
 	874.1.1 = { birth = 874.1.1 }
+}
+
+16000008 = {
+	name = "Alexandru"
+	dynasty = 16000008 # Ioanescu
+	
+	add_trait = strong
+	
+	culture = romanian
+	religion = orthodox
+	
+	878.1.1 = { birth = 878.1.1 }
+}
+
+16000009 = {
+	name = "Vseslav"
+	dynasty = 16000009 # Ulich
+	
+	culture = russian
+	religion = norse_pagan_reformed
+	
+	870.1.1 = { birth = 870.1.1 }
+}
+
+16000010 = {
+	name = "Yaroslav"
+	dynasty = 16000010 # Tiverskiy
+	
+	culture = russian
+	religion = norse_pagan_reformed
+	
+	875.1.1 = { birth = 875.1.1 }
 }

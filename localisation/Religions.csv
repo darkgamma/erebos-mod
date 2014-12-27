@@ -121,6 +121,9 @@ GOD_BOLDOGASSZONY;Boldogasszony;;;;;;;;;;;;;x
 GOD_HADUR;Hadúr;;;;;;;;;;;;;x
 GOD_NAPKIRALY;Napkirály;;;;;;;;;;;;;x
 GOD_SZEPKIRALY;Szépkirály;;;;;;;;;;;;;x
+GOD_HUNOR;Hunor;;;;;;;;;;;;;x
+GOD_MAGOR;Magor;;;;;;;;;;;;;x
+GOD_CSODASZARVAS;Csodaszarvas;;;;;;;;;;;;;x
 TALTOS;Táltos;;;;;;;;;;;;;x
 TALTOS_TALTOSOKNAK;Táltos Táltosoknak;;;;;;;;;;;;;x
 TALTOS_TALTOSOKNAK_FOA;Your Holiness;;;;;;;;;;;;;x
@@ -164,4 +167,5 @@ KRIVIU_KRIVAITIS;Kriviu Krivaitis;;;;;;;;;;;;;x
 KRIVIJA_KRIVAITIS;Krivija Krivaitis;;;;;;;;;;;;;x
 KRIVIS_KRIVAITIS_FOA;Your Holiness;;;;;;;;;;;;;x
 
-tengri_pagan;Old Tengri;;;;;;;;;;;;;x
+tengri_pagan;Tengri;;;;;;;;;;;;;x
+tengri_pagan_old;Old Tengri;;;;;;;;;;;;;x

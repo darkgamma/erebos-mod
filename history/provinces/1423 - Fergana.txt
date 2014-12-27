@@ -6,10 +6,10 @@ title = c_fergana
 # Settlements
 max_settlements = 6
 
-b_khavakend = castle
-b_uzkand = city
-b_osh = temple
-b_andijan=city
+b_khavakend = tribal
+#b_uzkand = city
+#b_osh = temple
+#b_andijan=city
 
 #b_fergana = city
 #b_margilan 
@@ -18,6 +18,6 @@ b_andijan=city
 
 # Misc
 culture = karluk
-religion = tengri_pagan_reformed
+religion = tengri_pagan
 
 # History

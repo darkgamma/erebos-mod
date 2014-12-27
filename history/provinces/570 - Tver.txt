@@ -5,9 +5,9 @@ title = c_tver
 
 # Settlements
 max_settlements = 5
-b_tver = castle
-b_ostashkov = city
-b_torzhok = temple
+b_tver = tribal
+#b_ostashkov = city
+#b_torzhok = temple
 
 #b_bezhichi = castle
 #b_tvergorodok = castle

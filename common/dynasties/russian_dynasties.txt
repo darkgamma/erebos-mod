@@ -9,26 +9,41 @@
 }
 
 16000003 = {
-	name = "Igorovich"
+	name = "Severskiy"
 	culture = russian
 }
 
 16000004 = {
-	name = "Rostislavovich"
+	name = "Radimich"
 	culture = russian
 }
 
 16000005 = {
-	name = "Demidovich"
+	name = "Vyatich"
 	culture = russian
 }
 
 16000006 = {
-	name = "Krivich"
+	name = "Derevlyanskiy"
 	culture = russian
 }
 
 16000007 = {
 	name = "Galindias"
+	culture = prussian
+}
+
+16000008 = {
+	name = "Ioanescu"
+	culture = romanian
+}
+
+16000009 = {
+	name = "Ulich"
+	culture = russian
+}
+
+16000010 = {
+	name = "Tiverskiy"
 	culture = russian
 }

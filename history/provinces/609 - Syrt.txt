@@ -16,7 +16,7 @@ b_bandja = temple
 
 # Misc
 culture = bolghar
-religion = tengri_pagan_reformed
+religion = tengri_pagan
 
 # History
 903.1.1 = {}
