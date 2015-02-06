@@ -8,7 +8,7 @@
 
 ######################################
 ##									##
-##			Version: 0.0a			##
+##			Version: 2.0a			##
 ##									##
 ######################################
 
@@ -19,102 +19,3 @@
 ######################################
 
 namespace = MAGIC_A
-
-character_event = { ### Liege wants to do magic with me
-	id = MAGIC_A.99999
-	
-	desc = MAGIC_A.99999_desc
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = MAGIC_A.99999_optA # OH WELL
-		
-		hidden_tooltip = {
-			save_event_target_as = magic_target
-			liege = { 
-				character_event = { id = MAGIC_A.1 tooltip = MAGIC_A.1_tooltip }
-				save_event_target_as = caster_target
-				set_character_flag = face_magic_1
-			}
-		}
-		
-		custom_tooltip = {
-			text = MAGIC_A.99999_optA.tooltip # What is s/he up to now?
-		}
-	}
-}
-
-character_event = { ### Spellbook, PAGE ONE
-	id = MAGIC_A.1
-	hide_FROM = yes
-	
-	desc = {
-		text = MAGIC_A.1.desc1 ### I know not a lot of spells
-		trigger = {
-			trait = hema_1
-		}
-	}
-	
-	desc = {
-		text = MAGIC_A.1.desc2 ### I know some spells
-		trigger = {
-			OR = {
-				trait = hema_2
-				trait = hema_3
-			}
-		}
-	}
-	
-	desc = {
-		text = MAGIC_A.1.desc3 ### I know a lot of spells
-		trigger = {
-			trait = hema_4
-		}
-	}
-	
-	border = GFX_event_normal_frame_water
-	
-	is_triggered_only = yes
-	
-	option = {
-		trigger = {
-			OR = {
-				trait = hema_1
-				trait = hema_2
-				trait = hema_3
-				trait = hema_4
-			}
-		}
-		name = MAGIC_A.face-magic_optA # Let's try something simple...
-		
-		hidden_tooltip = {
-			piety = 5
-			character_event = { id = MAGIC_A.1001 }
-			# event_target:magic_target = { character_event = { id = MAGIC_A.1002 tooltip = MAGIC_A.1002_tool } }
-		}
-		custom_tooltip = {
-			text = MAGIC_A.face-magic_optA.tooltip # ... Something like changing your face around a bit
-		}
-	}
-}
-
-character_event = { # Face magic, is it?
-	id = MAGIC_A.1001
-	hide_FROM = yes
-	
-	is_triggered_only = yes
-	
-	desc = MAGIC_A.1001_desc # Reshape faces, shall we?
-	
-	option = {
-		name = MAGIC_A.1001_optA # For formality's sake, we must ask the courtier
-		hidden_tooltip = { 
-			piety = 5
-			event_target:magic_target = { character_event = { id = MAGIC_A.1002 tooltip = MAGIC_A.1002_tool } }
-		}
-		custom_tooltip = {
-			text = MAGIC_A.1001_optA_tooltip # Oh, they'll definitely agree
-		}
-	}
-}
