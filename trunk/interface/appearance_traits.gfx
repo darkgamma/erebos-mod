@@ -1,0 +1,24 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_trait_exotic"
+		texturefile = "gfx/appearance/exotic.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+		spriteType = {
+		name = "GFX_trait_stunning"
+		texturefile = "gfx/appearance/stunning.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+		spriteType = {
+		name = "GFX_trait_abhorrent"
+		texturefile = "gfx/appearance/abhorrent.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}

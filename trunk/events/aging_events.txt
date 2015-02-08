@@ -247,6 +247,7 @@ character_event = {
 			trait = hs_primord
 			trait = hsb_red
 			trait = hsb_bronze
+			age = 14
 		}
 		
 		OR = {
@@ -299,7 +300,7 @@ character_event = {
 		name = OPTA.AGING.2
 		trigger = { OR = { trait = hsb_yellow trait = hsb_yellow2 } }
 		
-		hidden_tooltip = { death = { death_reason = death_natural } }
+		hidden_tooltip = { health = -100 }
 		custom_tooltip = { text = a.aging.2 }
 	}
 	
@@ -307,7 +308,7 @@ character_event = {
 		name = OPTB.AGING.2
 		trigger = { OR = { trait = hsb_lime trait = hsb_lime2 } }
 		
-		hidden_tooltip = { death = { death_reason = death_natural } }
+		hidden_tooltip = { health = -100 }
 		custom_tooltip = { text = b.aging.2 }
 	}
 	
@@ -315,7 +316,7 @@ character_event = {
 		name = OPTC.AGING.2
 		trigger = { OR = { trait = hsb_jade trait = hsb_jade2 } }
 		
-		hidden_tooltip = { death = { death_reason = death_natural } }
+		hidden_tooltip = { health = -100 }
 		custom_tooltip = { text = c.aging.2 }
 	}
 	
@@ -323,7 +324,7 @@ character_event = {
 		name = OPTD.AGING.2
 		trigger = { OR = { trait = hsb_teal trait = hsb_teal2 } }
 		
-		hidden_tooltip = { death = { death_reason = death_natural } }
+		hidden_tooltip = { health = -100 }
 		custom_tooltip = { text = d.aging.2 }
 	}
 	
@@ -331,7 +332,7 @@ character_event = {
 		name = OPTE.AGING.2
 		trigger = { OR = { trait = hsb_blue trait = hsb_blue2 } }
 		
-		hidden_tooltip = { death = { death_reason = death_natural } }
+		hidden_tooltip = { health = -100 }
 		custom_tooltip = { text = e.aging.2 }
 	}
 	
@@ -339,7 +340,7 @@ character_event = {
 		name = OPTF.AGING.2
 		trigger = { OR = { trait = hsb_indigo trait = hsb_indigo2 } }
 		
-		hidden_tooltip = { death = { death_reason = death_natural } }
+		hidden_tooltip = { health = -100 }
 		custom_tooltip = { text = f.aging.2 }
 	}
 

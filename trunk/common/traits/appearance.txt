@@ -1,0 +1,95 @@
+######################################
+##									##
+##		Written by Darkgamma		##
+##	   ASCII Art by Darkgamma		##
+##	Version: 0.0a (First Version)	##
+##									##
+######################################
+
+######################################
+##									##
+##	 	   Aesthetic Traits	    	##
+##									##
+######################################
+
+fair = {
+	birth = 100
+	inherit_chance = 15
+	
+	sex_appeal_opinion = 20
+	
+	opposites =  {
+		abhorrent
+		ugly
+		stunning
+		exotic
+	}
+	
+	diplomacy = 1
+}
+
+stunning = {
+	birth = 100
+	inherit_chance = 15
+	
+	sex_appeal_opinion = 45
+	
+	opposites =  {
+		fair
+		ugly
+		abhorrent
+		exotic
+	}
+	
+	diplomacy = 2
+}
+
+exotic = {
+	birth = 50
+	inherit_chance = 25
+	
+	sex_appeal_opinion = 30
+	
+	opposites =  {
+		fair
+		ugly
+		stunning
+		abhorrent
+	}
+	
+	diplomacy = 3
+	fertility = 0.1
+}
+
+ugly = {
+	birth = 100
+	inherit_chance = 10
+	
+	sex_appeal_opinion = -20
+	
+	opposites =  {
+		fair
+		abhorrent
+		stunning
+		exotic
+	}
+	
+	diplomacy = -1
+}
+
+abhorrent = {
+	birth = 100
+	inherit_chance = 10
+	
+	sex_appeal_opinion = -45
+	
+	opposites =  {
+		fair
+		ugly
+		stunning
+		exotic
+	}
+	
+	diplomacy = -2
+	fertility = -0.15
+}
