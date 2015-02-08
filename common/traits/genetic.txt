@@ -64,32 +64,6 @@ stutter = {
 	diplomacy = -1
 }
 
-fair = {
-	birth = 100
-	inherit_chance = 15
-	
-	sex_appeal_opinion = 30
-	
-	opposites =  {
-		ugly
-	}
-	
-	diplomacy = 1
-}
-
-ugly = {
-	birth = 100
-	inherit_chance = 10
-	
-	sex_appeal_opinion = -20
-	
-	opposites =  {
-		fair
-	}
-	
-	diplomacy = -1
-}
-
 dwarf = {
 	birth = 25
 	inherit_chance = 25
